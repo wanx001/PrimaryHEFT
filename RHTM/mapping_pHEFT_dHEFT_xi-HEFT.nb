@@ -1,0 +1,3195 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* Created By: SaveReadableNotebook *)
+(* https://resources.wolframcloud.com/FunctionRepository/resources/SaveReadableNotebook *)
+
+Notebook[
+ {
+  Cell[
+   CellGroupData[
+    {
+     Cell[
+      "pHEFT \[DoubleLongRightArrow] dHEFT \[DoubleLongRightArrow] \[Xi]-HEFT",
+      "Section"
+     ],
+     Cell[
+      BoxData[
+       RowBox[
+        {
+         RowBox[
+          {
+           "(*",
+           " ",
+           RowBox[
+            {
+             "Requires",
+             " ",
+             RowBox[{"data", ".", "wl"}],
+             " ",
+             "in",
+             " ",
+             "the",
+             " ",
+             "same",
+             " ",
+             RowBox[{"directory", "."}]
+            }
+           ],
+           " ",
+           "*)"
+          }
+         ],
+         "\[IndentingNewLine]",
+         RowBox[
+          {
+           RowBox[
+            {
+             RowBox[
+              {
+               "SetDirectory",
+               "@",
+               RowBox[{"NotebookDirectory", "[", "]"}]
+              }
+             ],
+             ";"
+            }
+           ],
+           "\[IndentingNewLine]",
+           RowBox[
+            {RowBox[{"data", "=", RowBox[{"<<", "data.wl"}]}], ";"}
+           ]
+          }
+         ]
+        }
+       ]
+      ],
+      "Input",
+      CellLabel -> "In[1]:="
+     ],
+     Cell[
+      BoxData[
+       {
+        RowBox[
+         {
+          RowBox[
+           {
+            "Cut",
+            "[",
+            RowBox[
+             {"expr_", ",", "param_", ",", "point_", ",", "order_"}
+            ],
+            "]"
+           }
+          ],
+          ":=",
+          RowBox[
+           {
+            RowBox[
+             {
+              RowBox[
+               {
+                "Normal",
+                "@",
+                RowBox[
+                 {
+                  "Simplify",
+                  "[",
+                  RowBox[
+                   {
+                    SuperscriptBox[
+                     RowBox[{"(", RowBox[{"param", "-", "point"}], ")"}],
+                     "order"
+                    ],
+                    RowBox[
+                     {
+                      "Series",
+                      "[",
+                      RowBox[
+                       {
+                        RowBox[
+                         {
+                          SuperscriptBox[
+                           RowBox[{"(", RowBox[{"param", "-", "point"}], ")"}],
+                           RowBox[{"-", "order"}]
+                          ],
+                          "#"
+                         }
+                        ],
+                        ",",
+                        RowBox[
+                         {"{", RowBox[{"param", ",", "point", ",", "0"}], "}"}
+                        ]
+                       }
+                      ],
+                      "]"
+                     }
+                    ]
+                   }
+                  ],
+                  "]"
+                 }
+                ]
+               }
+              ],
+              "&"
+             }
+            ],
+            "/@",
+            "expr"
+           }
+          ]
+         }
+        ],
+        "\[IndentingNewLine]",
+        RowBox[
+         {
+          RowBox[
+           {
+            "Cut",
+            "[",
+            RowBox[
+             {"expr_", ",", "param_", ",", "\[Infinity]", ",", "order_"}
+            ],
+            "]"
+           }
+          ],
+          ":=",
+          RowBox[
+           {
+            RowBox[
+             {
+              RowBox[
+               {
+                "Normal",
+                "@",
+                RowBox[
+                 {
+                  "Simplify",
+                  "[",
+                  RowBox[
+                   {
+                    SuperscriptBox["param", RowBox[{"-", "order"}]],
+                    RowBox[
+                     {
+                      "Series",
+                      "[",
+                      RowBox[
+                       {
+                        RowBox[{SuperscriptBox["param", "order"], "#"}],
+                        ",",
+                        RowBox[
+                         {"{", RowBox[{"param", ",", "\[Infinity]", ",", "0"}], "}"}
+                        ]
+                       }
+                      ],
+                      "]"
+                     }
+                    ]
+                   }
+                  ],
+                  "]"
+                 }
+                ]
+               }
+              ],
+              "&"
+             }
+            ],
+            "/@",
+            "expr"
+           }
+          ]
+         }
+        ],
+        "\[IndentingNewLine]",
+        RowBox[
+         {
+          RowBox[
+           {
+            "Cut",
+            "[",
+            RowBox[{"expr_", ",", "param_", ",", "order_"}],
+            "]"
+           }
+          ],
+          ":=",
+          RowBox[
+           {
+            "Cut",
+            "[",
+            RowBox[{"expr", ",", "param", ",", "0", ",", "order"}],
+            "]"
+           }
+          ]
+         }
+        ]
+       }
+      ],
+      "Input",
+      CellLabel -> "In[3]:="
+     ],
+     Cell[
+      BoxData[
+       RowBox[
+        {
+         RowBox[
+          {
+           RowBox[
+            {
+             "Format",
+             "[",
+             RowBox[{"QuantumField", "[", "h", "]"}],
+             "]"
+            }
+           ],
+           "=",
+           "h"
+          }
+         ],
+         ";"
+        }
+       ]
+      ],
+      "Input",
+      CellLabel -> "In[6]:="
+     ],
+     Cell[
+      CellGroupData[
+       {
+        Cell["pHEFT \[DoubleLongRightArrow] dHEFT", "Subsection"],
+        Cell[
+         TextData[
+          {
+           "The order of  ",
+           StyleBox["h", FontSlant -> "Italic"],
+           " calculated in pHEFT is lower than in dHEFT, so it is sufficient to check up to the order in pHEFT."
+          }
+         ],
+         "Text"
+        ],
+        Cell[
+         BoxData[
+          {
+           RowBox[
+            {
+             RowBox[
+              {
+               "Lpd",
+               "=",
+               RowBox[
+                {
+                 RowBox[
+                  {
+                   RowBox[
+                    {
+                     RowBox[
+                      {RowBox[{"data", "[", "Leff", "]"}], "[", "pHEFT", "]"}
+                     ],
+                     "/.",
+                     RowBox[{"t", "->", "1"}]
+                    }
+                   ],
+                   "/.",
+                   RowBox[
+                    {
+                     "{",
+                     RowBox[
+                      {
+                       RowBox[
+                        {
+                         RowBox[
+                          {"M", ":", SubscriptBox["m", RowBox[{"\[Phi]", "|", "K"}]]}
+                         ],
+                         ":>",
+                         RowBox[
+                          {
+                           SuperscriptBox["t", RowBox[{RowBox[{"-", "1"}], "/", "2"}]],
+                           "M"
+                          }
+                         ]
+                        }
+                       ],
+                       ",",
+                       RowBox[{"\[Xi]", "->", RowBox[{"t", " ", "\[Xi]"}]}],
+                       ",",
+                       RowBox[
+                        {
+                         SubscriptBox["s", "\[Gamma]"],
+                         "->",
+                         RowBox[{"t", " ", SubscriptBox["s", "\[Gamma]"]}]
+                        }
+                       ],
+                       ",",
+                       RowBox[
+                        {
+                         SubscriptBox["c", "\[Gamma]"],
+                         "->",
+                         RowBox[
+                          {
+                           SqrtBox[
+                            RowBox[
+                             {
+                              "1",
+                              "-",
+                              RowBox[
+                               {
+                                SuperscriptBox["t", "2"],
+                                SuperscriptBox[SubscriptBox["s", "\[Gamma]"], "2"]
+                               }
+                              ]
+                             }
+                            ]
+                           ],
+                           "+",
+                           SuperscriptBox[RowBox[{"O", "[", "t", "]"}], "8"]
+                          }
+                         ]
+                        }
+                       ]
+                      }
+                     ],
+                     "}"
+                    }
+                   ]
+                  }
+                 ],
+                 "//",
+                 RowBox[
+                  {
+                   RowBox[
+                    {"Cut", "[", RowBox[{"#", ",", "t", ",", "3"}], "]"}
+                   ],
+                   "&"
+                  }
+                 ]
+                }
+               ]
+              }
+             ],
+             ";"
+            }
+           ],
+           "\n",
+           RowBox[
+            {
+             RowBox[
+              {
+               "diff",
+               "=",
+               RowBox[
+                {
+                 "Lpd",
+                 "-",
+                 RowBox[
+                  {RowBox[{"data", "[", "Leff", "]"}], "[", "dHEFT", "]"}
+                 ]
+                }
+               ]
+              }
+             ],
+             ";"
+            }
+           ]
+          }
+         ],
+         "Input",
+         CellLabel -> "In[7]:="
+        ],
+        Cell[
+         CellGroupData[
+          {
+           Cell[
+            BoxData[
+             RowBox[
+              {
+               "Simplify",
+               "/@",
+               RowBox[
+                {
+                 "Coefficient",
+                 "[",
+                 RowBox[{"diff", ",", "t", ",", "0"}],
+                 "]"
+                }
+               ]
+              }
+             ]
+            ],
+            "Input",
+            CellLabel -> "In[9]:="
+           ],
+           Cell[
+            BoxData[
+             RowBox[
+              {
+               "\[LeftAssociation]",
+               RowBox[
+                {
+                 RowBox[{"CV2", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CV32", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"Vh", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CV2V2", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CV32V2", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CV3V3VV", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CV32V32", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CVV3V3Dh", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CVVDhDh", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CV2Dh2", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CV32Dh2", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CDh2Dh2", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CQ2V2", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CQ2V32", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CQ2V12V3", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CQ2Dh2", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CQ2V12Dh", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CQ2", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CQ41", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CQ42", "\[Rule]", "0"}]
+                }
+               ],
+               "\[RightAssociation]"
+              }
+             ]
+            ],
+            "Output",
+            CellLabel -> "Out[9]="
+           ]
+          },
+          Open
+         ]
+        ],
+        Cell[
+         CellGroupData[
+          {
+           Cell[
+            BoxData[
+             RowBox[
+              {
+               "Cut",
+               "[",
+               RowBox[
+                {
+                 RowBox[
+                  {
+                   "Coefficient",
+                   "[",
+                   RowBox[{"diff", ",", "t", ",", "1"}],
+                   "]"
+                  }
+                 ],
+                 ",",
+                 RowBox[{"QuantumField", "[", "h", "]"}],
+                 ",",
+                 "6"
+                }
+               ],
+               "]"
+              }
+             ]
+            ],
+            "Input",
+            CellLabel -> "In[10]:="
+           ],
+           Cell[
+            BoxData[
+             RowBox[
+              {
+               "\[LeftAssociation]",
+               RowBox[
+                {
+                 RowBox[{"CV2", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CV32", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"Vh", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CV2V2", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CV32V2", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CV3V3VV", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CV32V32", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CVV3V3Dh", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CVVDhDh", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CV2Dh2", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CV32Dh2", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CDh2Dh2", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CQ2V2", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CQ2V32", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CQ2V12V3", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CQ2Dh2", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CQ2V12Dh", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CQ2", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CQ41", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CQ42", "\[Rule]", "0"}]
+                }
+               ],
+               "\[RightAssociation]"
+              }
+             ]
+            ],
+            "Output",
+            CellLabel -> "Out[10]="
+           ]
+          },
+          Open
+         ]
+        ],
+        Cell[
+         CellGroupData[
+          {
+           Cell[
+            BoxData[
+             RowBox[
+              {
+               "Cut",
+               "[",
+               RowBox[
+                {
+                 RowBox[
+                  {
+                   "Coefficient",
+                   "[",
+                   RowBox[{"diff", ",", "t", ",", "2"}],
+                   "]"
+                  }
+                 ],
+                 ",",
+                 RowBox[{"QuantumField", "[", "h", "]"}],
+                 ",",
+                 "4"
+                }
+               ],
+               "]"
+              }
+             ]
+            ],
+            "Input",
+            CellLabel -> "In[11]:="
+           ],
+           Cell[
+            BoxData[
+             RowBox[
+              {
+               "\[LeftAssociation]",
+               RowBox[
+                {
+                 RowBox[{"CV2", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CV32", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"Vh", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CV2V2", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CV32V2", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CV3V3VV", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CV32V32", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CVV3V3Dh", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CVVDhDh", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CV2Dh2", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CV32Dh2", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CDh2Dh2", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CQ2V2", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CQ2V32", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CQ2V12V3", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CQ2Dh2", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CQ2V12Dh", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CQ2", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CQ41", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CQ42", "\[Rule]", "0"}]
+                }
+               ],
+               "\[RightAssociation]"
+              }
+             ]
+            ],
+            "Output",
+            CellLabel -> "Out[11]="
+           ]
+          },
+          Open
+         ]
+        ],
+        Cell[
+         CellGroupData[
+          {
+           Cell[
+            BoxData[
+             RowBox[
+              {
+               "Cut",
+               "[",
+               RowBox[
+                {
+                 RowBox[
+                  {
+                   "Coefficient",
+                   "[",
+                   RowBox[{"diff", ",", "t", ",", "3"}],
+                   "]"
+                  }
+                 ],
+                 ",",
+                 RowBox[{"QuantumField", "[", "h", "]"}],
+                 ",",
+                 "4"
+                }
+               ],
+               "]"
+              }
+             ]
+            ],
+            "Input",
+            CellLabel -> "In[12]:="
+           ],
+           Cell[
+            BoxData[
+             RowBox[
+              {
+               "\[LeftAssociation]",
+               RowBox[
+                {
+                 RowBox[{"CV2", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CV32", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"Vh", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CV2V2", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CV32V2", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CV3V3VV", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CV32V32", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CVV3V3Dh", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CVVDhDh", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CV2Dh2", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CV32Dh2", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CDh2Dh2", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CQ2V2", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CQ2V32", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CQ2V12V3", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CQ2Dh2", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CQ2V12Dh", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CQ2", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CQ41", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CQ42", "\[Rule]", "0"}]
+                }
+               ],
+               "\[RightAssociation]"
+              }
+             ]
+            ],
+            "Output",
+            CellLabel -> "Out[12]="
+           ]
+          },
+          Open
+         ]
+        ]
+       },
+       Open
+      ]
+     ],
+     Cell[
+      CellGroupData[
+       {
+        Cell[
+         "dHEFT \[DoubleLongRightArrow] \[Xi]-HEFT",
+         "Subsection"
+        ],
+        Cell[
+         BoxData[
+          {
+           RowBox[
+            {
+             RowBox[
+              {
+               RowBox[{"{", RowBox[{"mh2", ",", "mK2"}], "}"}],
+               "=",
+               RowBox[
+                {
+                 RowBox[
+                  {
+                   RowBox[
+                    {
+                     RowBox[
+                      {
+                       RowBox[
+                        {
+                         "Simplify",
+                         "@",
+                         RowBox[
+                          {
+                           "Eigenvalues",
+                           "@",
+                           RowBox[
+                            {
+                             "{",
+                             RowBox[
+                              {
+                               RowBox[
+                                {
+                                 "{",
+                                 RowBox[
+                                  {
+                                   RowBox[
+                                    {
+                                     "2",
+                                     " ",
+                                     SubsuperscriptBox["v", "H", "2"],
+                                     " ",
+                                     SubscriptBox["Z", "1"]
+                                    }
+                                   ],
+                                   ",",
+                                   RowBox[
+                                    {
+                                     SubscriptBox["v", "H"],
+                                     " ",
+                                     RowBox[
+                                      {
+                                       "(",
+                                       RowBox[
+                                        {
+                                         RowBox[{"-", SubscriptBox["Y", "3"]}],
+                                         "+",
+                                         RowBox[
+                                          {
+                                           SubscriptBox["v", "\[CapitalSigma]"],
+                                           " ",
+                                           SubscriptBox["Z", "3"]
+                                          }
+                                         ]
+                                        }
+                                       ],
+                                       ")"
+                                      }
+                                     ]
+                                    }
+                                   ]
+                                  }
+                                 ],
+                                 "}"
+                                }
+                               ],
+                               ",",
+                               RowBox[
+                                {
+                                 "{",
+                                 RowBox[
+                                  {
+                                   RowBox[
+                                    {
+                                     SubscriptBox["v", "H"],
+                                     " ",
+                                     RowBox[
+                                      {
+                                       "(",
+                                       RowBox[
+                                        {
+                                         RowBox[{"-", SubscriptBox["Y", "3"]}],
+                                         "+",
+                                         RowBox[
+                                          {
+                                           SubscriptBox["v", "\[CapitalSigma]"],
+                                           " ",
+                                           SubscriptBox["Z", "3"]
+                                          }
+                                         ]
+                                        }
+                                       ],
+                                       ")"
+                                      }
+                                     ]
+                                    }
+                                   ],
+                                   ",",
+                                   RowBox[
+                                    {
+                                     FractionBox[
+                                      RowBox[
+                                       {
+                                        SubsuperscriptBox["v", "H", "2"],
+                                        " ",
+                                        SubscriptBox["Y", "3"]
+                                       }
+                                      ],
+                                      RowBox[{"2", " ", SubscriptBox["v", "\[CapitalSigma]"]}]
+                                     ],
+                                     "+",
+                                     RowBox[
+                                      {
+                                       "2",
+                                       " ",
+                                       SubsuperscriptBox["v", "\[CapitalSigma]", "2"],
+                                       " ",
+                                       SubscriptBox["Z", "2"]
+                                      }
+                                     ]
+                                    }
+                                   ]
+                                  }
+                                 ],
+                                 "}"
+                                }
+                               ]
+                              }
+                             ],
+                             "}"
+                            }
+                           ]
+                          }
+                         ]
+                        }
+                       ],
+                       "+",
+                       SuperscriptBox[RowBox[{"O", "[", "\[Xi]", "]"}], "6"]
+                      }
+                     ],
+                     "/.",
+                     "\[VeryThinSpace]",
+                     RowBox[
+                      {
+                       SubscriptBox["v", "\[CapitalSigma]"],
+                       "\[Rule]",
+                       RowBox[{"\[Xi]", " ", SubscriptBox["v", "H"]}]
+                      }
+                     ]
+                    }
+                   ],
+                   "//",
+                   "PowerExpand"
+                  }
+                 ],
+                 "//",
+                 "Simplify"
+                }
+               ]
+              }
+             ],
+             ";"
+            }
+           ],
+           "\n",
+           RowBox[
+            {
+             RowBox[
+              {
+               "m\[Phi]2",
+               "=",
+               RowBox[
+                {
+                 RowBox[
+                  {
+                   FractionBox[
+                    RowBox[
+                     {
+                      RowBox[
+                       {
+                        "(",
+                        RowBox[
+                         {
+                          SubsuperscriptBox["v", "H", "2"],
+                          "+",
+                          RowBox[
+                           {"4", " ", SubsuperscriptBox["v", "\[CapitalSigma]", "2"]}
+                          ]
+                         }
+                        ],
+                        ")"
+                       }
+                      ],
+                      " ",
+                      SubscriptBox["Y", "3"]
+                     }
+                    ],
+                    RowBox[{"2", " ", SubscriptBox["v", "\[CapitalSigma]"]}]
+                   ],
+                   "/.",
+                   "\[VeryThinSpace]",
+                   RowBox[
+                    {
+                     SubscriptBox["v", "\[CapitalSigma]"],
+                     "\[Rule]",
+                     RowBox[{"\[Xi]", " ", SubscriptBox["v", "H"]}]
+                    }
+                   ]
+                  }
+                 ],
+                 "//",
+                 "Simplify"
+                }
+               ]
+              }
+             ],
+             ";"
+            }
+           ],
+           "\n",
+           RowBox[
+            {
+             RowBox[
+              {
+               "s\[Gamma]",
+               "=",
+               RowBox[
+                {
+                 RowBox[
+                  {
+                   RowBox[
+                    {
+                     RowBox[
+                      {
+                       "Sin",
+                       "[",
+                       RowBox[
+                        {
+                         FractionBox["1", "2"],
+                         " ",
+                         RowBox[
+                          {
+                           "ArcTan",
+                           "[",
+                           FractionBox[
+                            RowBox[
+                             {
+                              "4",
+                              " ",
+                              SubscriptBox["v", "H"],
+                              " ",
+                              SubscriptBox["v", "\[CapitalSigma]"],
+                              " ",
+                              RowBox[
+                               {
+                                "(",
+                                RowBox[
+                                 {
+                                  RowBox[{"-", SubscriptBox["Y", "3"]}],
+                                  "+",
+                                  RowBox[
+                                   {
+                                    SubscriptBox["v", "\[CapitalSigma]"],
+                                    " ",
+                                    SubscriptBox["Z", "3"]
+                                   }
+                                  ]
+                                 }
+                                ],
+                                ")"
+                               }
+                              ]
+                             }
+                            ],
+                            RowBox[
+                             {
+                              RowBox[
+                               {
+                                SubsuperscriptBox["v", "H", "2"],
+                                " ",
+                                RowBox[
+                                 {
+                                  "(",
+                                  RowBox[
+                                   {
+                                    SubscriptBox["Y", "3"],
+                                    "-",
+                                    RowBox[
+                                     {
+                                      "4",
+                                      " ",
+                                      SubscriptBox["v", "\[CapitalSigma]"],
+                                      " ",
+                                      SubscriptBox["Z", "1"]
+                                     }
+                                    ]
+                                   }
+                                  ],
+                                  ")"
+                                 }
+                                ]
+                               }
+                              ],
+                              "+",
+                              RowBox[
+                               {
+                                "4",
+                                " ",
+                                SubsuperscriptBox["v", "\[CapitalSigma]", "3"],
+                                " ",
+                                SubscriptBox["Z", "2"]
+                               }
+                              ]
+                             }
+                            ]
+                           ],
+                           "]"
+                          }
+                         ]
+                        }
+                       ],
+                       "]"
+                      }
+                     ],
+                     "+",
+                     SuperscriptBox[RowBox[{"O", "[", "\[Xi]", "]"}], "6"]
+                    }
+                   ],
+                   "/.",
+                   "\[VeryThinSpace]",
+                   RowBox[
+                    {
+                     SubscriptBox["v", "\[CapitalSigma]"],
+                     "\[Rule]",
+                     RowBox[{"\[Xi]", " ", SubscriptBox["v", "H"]}]
+                    }
+                   ]
+                  }
+                 ],
+                 "//",
+                 "Simplify"
+                }
+               ]
+              }
+             ],
+             ";"
+            }
+           ]
+          }
+         ],
+         "Input",
+         CellLabel -> "In[13]:="
+        ],
+        Cell[
+         CellGroupData[
+          {
+           Cell[
+            BoxData[
+             RowBox[
+              {
+               "Ld\[Xi]",
+               "=",
+               RowBox[
+                {
+                 RowBox[
+                  {
+                   RowBox[
+                    {
+                     RowBox[
+                      {RowBox[{"data", "[", "Leff", "]"}], "[", "dHEFT", "]"}
+                     ],
+                     "/.",
+                     RowBox[{"t", "->", "1"}]
+                    }
+                   ],
+                   "/.",
+                   RowBox[
+                    {
+                     "{",
+                     RowBox[
+                      {
+                       RowBox[
+                        {
+                         SubscriptBox["m", "\[Phi]"],
+                         "\[Rule]",
+                         SqrtBox["m\[Phi]2"]
+                        }
+                       ],
+                       ",",
+                       RowBox[{SubscriptBox["m", "K"], "\[Rule]", SqrtBox["mK2"]}],
+                       ",",
+                       RowBox[{SubscriptBox["m", "h"], "\[Rule]", SqrtBox["mh2"]}],
+                       ",",
+                       RowBox[
+                        {SubscriptBox["s", "\[Gamma]"], "\[Rule]", "s\[Gamma]"}
+                       ],
+                       ",",
+                       RowBox[
+                        {
+                         SubscriptBox["c", "\[Gamma]"],
+                         "\[Rule]",
+                         SqrtBox[
+                          RowBox[{"1", "-", SuperscriptBox["s\[Gamma]", "2"]}]
+                         ]
+                        }
+                       ],
+                       ",",
+                       RowBox[
+                        {
+                         SubscriptBox["v", "EW"],
+                         "->",
+                         RowBox[
+                          {
+                           SubscriptBox["v", "H"],
+                           SqrtBox[
+                            RowBox[
+                             {"1", "+", RowBox[{"4", SuperscriptBox["\[Xi]", "2"]}]}
+                            ]
+                           ]
+                          }
+                         ]
+                        }
+                       ]
+                      }
+                     ],
+                     "}"
+                    }
+                   ]
+                  }
+                 ],
+                 "//",
+                 RowBox[
+                  {
+                   RowBox[
+                    {"Cut", "[", RowBox[{"#", ",", "\[Xi]", ",", "3"}], "]"}
+                   ],
+                   "&"
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            ],
+            "Input",
+            CellLabel -> "In[16]:="
+           ],
+           Cell[
+            BoxData[
+             RowBox[
+              {
+               "\[LeftAssociation]",
+               RowBox[
+                {
+                 RowBox[
+                  {
+                   "CV2",
+                   "\[Rule]",
+                   RowBox[
+                    {
+                     RowBox[
+                      {
+                       RowBox[{"-", FractionBox["1", "4"]}],
+                       " ",
+                       SuperscriptBox[
+                        RowBox[
+                         {"(", RowBox[{"h", "+", SubscriptBox["v", "H"]}], ")"}
+                        ],
+                        "2"
+                       ]
+                      }
+                     ],
+                     "+",
+                     RowBox[
+                      {
+                       SuperscriptBox["\[Xi]", "2"],
+                       " ",
+                       RowBox[
+                        {
+                         "(",
+                         RowBox[
+                          {
+                           RowBox[{RowBox[{"-", "4"}], " ", SuperscriptBox["h", "2"]}],
+                           "-",
+                           FractionBox[
+                            RowBox[{"2", " ", SuperscriptBox["h", "4"]}],
+                            RowBox[{"3", " ", SubsuperscriptBox["v", "H", "2"]}]
+                           ],
+                           "-",
+                           FractionBox[
+                            RowBox[{"8", " ", SuperscriptBox["h", "3"]}],
+                            RowBox[{"3", " ", SubscriptBox["v", "H"]}]
+                           ],
+                           "-",
+                           RowBox[{"3", " ", "h", " ", SubscriptBox["v", "H"]}],
+                           "-",
+                           SubsuperscriptBox["v", "H", "2"]
+                          }
+                         ],
+                         ")"
+                        }
+                       ]
+                      }
+                     ],
+                     "-",
+                     FractionBox[
+                      RowBox[
+                       {
+                        "2",
+                        " ",
+                        SuperscriptBox["\[Xi]", "3"],
+                        " ",
+                        "h",
+                        " ",
+                        RowBox[
+                         {
+                          "(",
+                          RowBox[
+                           {
+                            RowBox[{"9", " ", SuperscriptBox["h", "5"]}],
+                            "+",
+                            RowBox[
+                             {
+                              "54",
+                              " ",
+                              SuperscriptBox["h", "4"],
+                              " ",
+                              SubscriptBox["v", "H"]
+                             }
+                            ],
+                            "+",
+                            RowBox[
+                             {
+                              "125",
+                              " ",
+                              SuperscriptBox["h", "3"],
+                              " ",
+                              SubsuperscriptBox["v", "H", "2"]
+                             }
+                            ],
+                            "+",
+                            RowBox[
+                             {
+                              "140",
+                              " ",
+                              SuperscriptBox["h", "2"],
+                              " ",
+                              SubsuperscriptBox["v", "H", "3"]
+                             }
+                            ],
+                            "+",
+                            RowBox[
+                             {"75", " ", "h", " ", SubsuperscriptBox["v", "H", "4"]}
+                            ],
+                            "+",
+                            RowBox[{"15", " ", SubsuperscriptBox["v", "H", "5"]}]
+                           }
+                          ],
+                          ")"
+                         }
+                        ],
+                        " ",
+                        RowBox[
+                         {
+                          "(",
+                          RowBox[
+                           {
+                            RowBox[{"4", " ", SubscriptBox["Z", "1"]}],
+                            "-",
+                            SubscriptBox["Z", "3"]
+                           }
+                          ],
+                          ")"
+                         }
+                        ]
+                       }
+                      ],
+                      RowBox[
+                       {
+                        "15",
+                        " ",
+                        SubsuperscriptBox["v", "H", "3"],
+                        " ",
+                        SubscriptBox["Y", "3"]
+                       }
+                      ]
+                     ]
+                    }
+                   ]
+                  }
+                 ],
+                 ",",
+                 RowBox[
+                  {
+                   "CV32",
+                   "\[Rule]",
+                   RowBox[
+                    {
+                     FractionBox[
+                      RowBox[
+                       {
+                        SuperscriptBox["\[Xi]", "2"],
+                        " ",
+                        SuperscriptBox[
+                         RowBox[
+                          {"(", RowBox[{"h", "+", SubscriptBox["v", "H"]}], ")"}
+                         ],
+                         "4"
+                        ]
+                       }
+                      ],
+                      RowBox[{"2", " ", SubsuperscriptBox["v", "H", "2"]}]
+                     ],
+                     "+",
+                     FractionBox[
+                      RowBox[
+                       {
+                        SuperscriptBox["\[Xi]", "3"],
+                        " ",
+                        "h",
+                        " ",
+                        SuperscriptBox[
+                         RowBox[
+                          {"(", RowBox[{"h", "+", SubscriptBox["v", "H"]}], ")"}
+                         ],
+                         "4"
+                        ],
+                        " ",
+                        RowBox[
+                         {
+                          "(",
+                          RowBox[
+                           {"h", "+", RowBox[{"2", " ", SubscriptBox["v", "H"]}]}
+                          ],
+                          ")"
+                         }
+                        ],
+                        " ",
+                        RowBox[
+                         {
+                          "(",
+                          RowBox[
+                           {
+                            RowBox[{"4", " ", SubscriptBox["Z", "1"]}],
+                            "-",
+                            SubscriptBox["Z", "3"]
+                           }
+                          ],
+                          ")"
+                         }
+                        ]
+                       }
+                      ],
+                      RowBox[
+                       {
+                        SubsuperscriptBox["v", "H", "3"],
+                        " ",
+                        SubscriptBox["Y", "3"]
+                       }
+                      ]
+                     ]
+                    }
+                   ]
+                  }
+                 ],
+                 ",",
+                 RowBox[
+                  {
+                   "Vh",
+                   "\[Rule]",
+                   RowBox[
+                    {
+                     FractionBox[
+                      RowBox[
+                       {
+                        "\[Xi]",
+                        " ",
+                        SuperscriptBox[
+                         RowBox[
+                          {"(", RowBox[{"h", "+", SubscriptBox["v", "H"]}], ")"}
+                         ],
+                         "2"
+                        ],
+                        " ",
+                        RowBox[
+                         {
+                          "(",
+                          RowBox[
+                           {
+                            SuperscriptBox["h", "2"],
+                            "+",
+                            RowBox[{"2", " ", "h", " ", SubscriptBox["v", "H"]}],
+                            "-",
+                            SubsuperscriptBox["v", "H", "2"]
+                           }
+                          ],
+                          ")"
+                         }
+                        ],
+                        " ",
+                        SubscriptBox["Y", "3"]
+                       }
+                      ],
+                      RowBox[{"4", " ", SubscriptBox["v", "H"]}]
+                     ],
+                     "-",
+                     RowBox[
+                      {
+                       FractionBox["1", "4"],
+                       " ",
+                       SuperscriptBox[
+                        RowBox[
+                         {"(", RowBox[{"h", "+", SubscriptBox["v", "H"]}], ")"}
+                        ],
+                        "2"
+                       ],
+                       " ",
+                       RowBox[
+                        {
+                         "(",
+                         RowBox[
+                          {
+                           SuperscriptBox["h", "2"],
+                           "+",
+                           RowBox[{"2", " ", "h", " ", SubscriptBox["v", "H"]}],
+                           "-",
+                           SubsuperscriptBox["v", "H", "2"]
+                          }
+                         ],
+                         ")"
+                        }
+                       ],
+                       " ",
+                       SubscriptBox["Z", "1"]
+                      }
+                     ],
+                     "+",
+                     FractionBox[
+                      RowBox[
+                       {
+                        SuperscriptBox["\[Xi]", "2"],
+                        " ",
+                        RowBox[
+                         {"(", RowBox[{"h", "+", SubscriptBox["v", "H"]}], ")"}
+                        ],
+                        " ",
+                        RowBox[
+                         {
+                          "(",
+                          RowBox[
+                           {
+                            RowBox[
+                             {
+                              "3",
+                              " ",
+                              SuperscriptBox["h", "2"],
+                              " ",
+                              SubsuperscriptBox["v", "H", "3"],
+                              " ",
+                              RowBox[
+                               {
+                                "(",
+                                RowBox[
+                                 {
+                                  RowBox[{"16", " ", SubscriptBox["Z", "1"]}],
+                                  "-",
+                                  RowBox[{"7", " ", SubscriptBox["Z", "3"]}]
+                                 }
+                                ],
+                                ")"
+                               }
+                              ]
+                             }
+                            ],
+                            "+",
+                            RowBox[
+                             {
+                              SuperscriptBox["h", "5"],
+                              " ",
+                              RowBox[
+                               {
+                                "(",
+                                RowBox[
+                                 {
+                                  RowBox[{"8", " ", SubscriptBox["Z", "1"]}],
+                                  "-",
+                                  RowBox[{"3", " ", SubscriptBox["Z", "3"]}]
+                                 }
+                                ],
+                                ")"
+                               }
+                              ]
+                             }
+                            ],
+                            "+",
+                            RowBox[
+                             {
+                              "5",
+                              " ",
+                              SuperscriptBox["h", "4"],
+                              " ",
+                              SubscriptBox["v", "H"],
+                              " ",
+                              RowBox[
+                               {
+                                "(",
+                                RowBox[
+                                 {
+                                  RowBox[{"8", " ", SubscriptBox["Z", "1"]}],
+                                  "-",
+                                  RowBox[{"3", " ", SubscriptBox["Z", "3"]}]
+                                 }
+                                ],
+                                ")"
+                               }
+                              ]
+                             }
+                            ],
+                            "+",
+                            RowBox[
+                             {
+                              "9",
+                              " ",
+                              SuperscriptBox["h", "3"],
+                              " ",
+                              SubsuperscriptBox["v", "H", "2"],
+                              " ",
+                              RowBox[
+                               {
+                                "(",
+                                RowBox[
+                                 {
+                                  RowBox[{"8", " ", SubscriptBox["Z", "1"]}],
+                                  "-",
+                                  RowBox[{"3", " ", SubscriptBox["Z", "3"]}]
+                                 }
+                                ],
+                                ")"
+                               }
+                              ]
+                             }
+                            ],
+                            "-",
+                            RowBox[
+                             {
+                              "3",
+                              " ",
+                              "h",
+                              " ",
+                              SubsuperscriptBox["v", "H", "4"],
+                              " ",
+                              SubscriptBox["Z", "3"]
+                             }
+                            ],
+                            "+",
+                            RowBox[
+                             {
+                              "3",
+                              " ",
+                              SubsuperscriptBox["v", "H", "5"],
+                              " ",
+                              SubscriptBox["Z", "3"]
+                             }
+                            ]
+                           }
+                          ],
+                          ")"
+                         }
+                        ]
+                       }
+                      ],
+                      RowBox[{"12", " ", SubsuperscriptBox["v", "H", "2"]}]
+                     ],
+                     "+",
+                     RowBox[
+                      {
+                       FractionBox[
+                        "1",
+                        RowBox[
+                         {
+                          "60",
+                          " ",
+                          SubsuperscriptBox["v", "H", "3"],
+                          " ",
+                          SubscriptBox["Y", "3"]
+                         }
+                        ]
+                       ],
+                       RowBox[
+                        {
+                         SuperscriptBox["\[Xi]", "3"],
+                         " ",
+                         SuperscriptBox["h", "2"],
+                         " ",
+                         RowBox[
+                          {
+                           "(",
+                           RowBox[
+                            {
+                             RowBox[
+                              {
+                               "15",
+                               " ",
+                               SuperscriptBox["h", "6"],
+                               " ",
+                               SuperscriptBox[
+                                RowBox[
+                                 {
+                                  "(",
+                                  RowBox[
+                                   {
+                                    RowBox[{RowBox[{"-", "4"}], " ", SubscriptBox["Z", "1"]}],
+                                    "+",
+                                    SubscriptBox["Z", "3"]
+                                   }
+                                  ],
+                                  ")"
+                                 }
+                                ],
+                                "2"
+                               ]
+                              }
+                             ],
+                             "+",
+                             RowBox[
+                              {
+                               "120",
+                               " ",
+                               SuperscriptBox["h", "5"],
+                               " ",
+                               SubscriptBox["v", "H"],
+                               " ",
+                               SuperscriptBox[
+                                RowBox[
+                                 {
+                                  "(",
+                                  RowBox[
+                                   {
+                                    RowBox[{RowBox[{"-", "4"}], " ", SubscriptBox["Z", "1"]}],
+                                    "+",
+                                    SubscriptBox["Z", "3"]
+                                   }
+                                  ],
+                                  ")"
+                                 }
+                                ],
+                                "2"
+                               ]
+                              }
+                             ],
+                             "+",
+                             RowBox[
+                              {
+                               "60",
+                               " ",
+                               RowBox[
+                                {
+                                 "(",
+                                 RowBox[
+                                  {
+                                   RowBox[
+                                    {
+                                     RowBox[{"-", "4"}],
+                                     " ",
+                                     SubsuperscriptBox["v", "H", "4"],
+                                     " ",
+                                     SubsuperscriptBox["Y", "3", "2"]
+                                    }
+                                   ],
+                                   "+",
+                                   RowBox[
+                                    {
+                                     SubsuperscriptBox["v", "H", "6"],
+                                     " ",
+                                     SuperscriptBox[
+                                      RowBox[
+                                       {
+                                        "(",
+                                        RowBox[
+                                         {
+                                          RowBox[{RowBox[{"-", "4"}], " ", SubscriptBox["Z", "1"]}],
+                                          "+",
+                                          SubscriptBox["Z", "3"]
+                                         }
+                                        ],
+                                        ")"
+                                       }
+                                      ],
+                                      "2"
+                                     ]
+                                    }
+                                   ]
+                                  }
+                                 ],
+                                 ")"
+                                }
+                               ]
+                              }
+                             ],
+                             "+",
+                             RowBox[
+                              {
+                               "60",
+                               " ",
+                               "h",
+                               " ",
+                               RowBox[
+                                {
+                                 "(",
+                                 RowBox[
+                                  {
+                                   RowBox[
+                                    {
+                                     RowBox[{"-", "10"}],
+                                     " ",
+                                     SubsuperscriptBox["v", "H", "3"],
+                                     " ",
+                                     SubsuperscriptBox["Y", "3", "2"]
+                                    }
+                                   ],
+                                   "+",
+                                   RowBox[
+                                    {
+                                     SubsuperscriptBox["v", "H", "5"],
+                                     " ",
+                                     RowBox[
+                                      {
+                                       "(",
+                                       RowBox[
+                                        {
+                                         RowBox[{"64", " ", SubsuperscriptBox["Z", "1", "2"]}],
+                                         "-",
+                                         RowBox[
+                                          {
+                                           "36",
+                                           " ",
+                                           SubscriptBox["Z", "1"],
+                                           " ",
+                                           SubscriptBox["Z", "3"]
+                                          }
+                                         ],
+                                         "+",
+                                         RowBox[{"5", " ", SubsuperscriptBox["Z", "3", "2"]}]
+                                        }
+                                       ],
+                                       ")"
+                                      }
+                                     ]
+                                    }
+                                   ]
+                                  }
+                                 ],
+                                 ")"
+                                }
+                               ]
+                              }
+                             ],
+                             "+",
+                             RowBox[
+                              {
+                               "60",
+                               " ",
+                               SuperscriptBox["h", "3"],
+                               " ",
+                               RowBox[
+                                {
+                                 "(",
+                                 RowBox[
+                                  {
+                                   RowBox[
+                                    {
+                                     RowBox[{"-", "4"}],
+                                     " ",
+                                     SubscriptBox["v", "H"],
+                                     " ",
+                                     SubsuperscriptBox["Y", "3", "2"]
+                                    }
+                                   ],
+                                   "+",
+                                   RowBox[
+                                    {
+                                     SubsuperscriptBox["v", "H", "3"],
+                                     " ",
+                                     RowBox[
+                                      {
+                                       "(",
+                                       RowBox[
+                                        {
+                                         RowBox[{"112", " ", SubsuperscriptBox["Z", "1", "2"]}],
+                                         "-",
+                                         RowBox[
+                                          {
+                                           "72",
+                                           " ",
+                                           SubscriptBox["Z", "1"],
+                                           " ",
+                                           SubscriptBox["Z", "3"]
+                                          }
+                                         ],
+                                         "+",
+                                         RowBox[{"11", " ", SubsuperscriptBox["Z", "3", "2"]}]
+                                        }
+                                       ],
+                                       ")"
+                                      }
+                                     ]
+                                    }
+                                   ]
+                                  }
+                                 ],
+                                 ")"
+                                }
+                               ]
+                              }
+                             ],
+                             "+",
+                             RowBox[
+                              {
+                               "5",
+                               " ",
+                               SuperscriptBox["h", "2"],
+                               " ",
+                               RowBox[
+                                {
+                                 "(",
+                                 RowBox[
+                                  {
+                                   RowBox[
+                                    {
+                                     RowBox[{"-", "112"}],
+                                     " ",
+                                     SubsuperscriptBox["v", "H", "2"],
+                                     " ",
+                                     SubsuperscriptBox["Y", "3", "2"]
+                                    }
+                                   ],
+                                   "+",
+                                   RowBox[
+                                    {
+                                     SubsuperscriptBox["v", "H", "4"],
+                                     " ",
+                                     RowBox[
+                                      {
+                                       "(",
+                                       RowBox[
+                                        {
+                                         RowBox[{"1360", " ", SubsuperscriptBox["Z", "1", "2"]}],
+                                         "-",
+                                         RowBox[
+                                          {
+                                           "832",
+                                           " ",
+                                           SubscriptBox["Z", "1"],
+                                           " ",
+                                           SubscriptBox["Z", "3"]
+                                          }
+                                         ],
+                                         "+",
+                                         RowBox[{"123", " ", SubsuperscriptBox["Z", "3", "2"]}]
+                                        }
+                                       ],
+                                       ")"
+                                      }
+                                     ]
+                                    }
+                                   ]
+                                  }
+                                 ],
+                                 ")"
+                                }
+                               ]
+                              }
+                             ],
+                             "+",
+                             RowBox[
+                              {
+                               SuperscriptBox["h", "4"],
+                               " ",
+                               RowBox[
+                                {
+                                 "(",
+                                 RowBox[
+                                  {
+                                   RowBox[
+                                    {
+                                     RowBox[{"-", "40"}],
+                                     " ",
+                                     SubsuperscriptBox["Y", "3", "2"]
+                                    }
+                                   ],
+                                   "+",
+                                   RowBox[
+                                    {
+                                     "2",
+                                     " ",
+                                     SubsuperscriptBox["v", "H", "2"],
+                                     " ",
+                                     RowBox[
+                                      {
+                                       "(",
+                                       RowBox[
+                                        {
+                                         RowBox[{"1904", " ", SubsuperscriptBox["Z", "1", "2"]}],
+                                         "-",
+                                         RowBox[
+                                          {
+                                           "1256",
+                                           " ",
+                                           SubscriptBox["Z", "1"],
+                                           " ",
+                                           SubscriptBox["Z", "3"]
+                                          }
+                                         ],
+                                         "+",
+                                         RowBox[{"195", " ", SubsuperscriptBox["Z", "3", "2"]}]
+                                        }
+                                       ],
+                                       ")"
+                                      }
+                                     ]
+                                    }
+                                   ]
+                                  }
+                                 ],
+                                 ")"
+                                }
+                               ]
+                              }
+                             ]
+                            }
+                           ],
+                           ")"
+                          }
+                         ]
+                        }
+                       ]
+                      }
+                     ]
+                    }
+                   ]
+                  }
+                 ],
+                 ",",
+                 RowBox[
+                  {
+                   "CV2V2",
+                   "\[Rule]",
+                   FractionBox[
+                    RowBox[
+                     {
+                      SuperscriptBox["\[Xi]", "3"],
+                      " ",
+                      SuperscriptBox[
+                       RowBox[
+                        {"(", RowBox[{"h", "+", SubscriptBox["v", "H"]}], ")"}
+                       ],
+                       "4"
+                      ]
+                     }
+                    ],
+                    RowBox[
+                     {
+                      SubsuperscriptBox["v", "H", "3"],
+                      " ",
+                      SubscriptBox["Y", "3"]
+                     }
+                    ]
+                   ]
+                  }
+                 ],
+                 ",",
+                 RowBox[
+                  {
+                   "CV32V2",
+                   "\[Rule]",
+                   RowBox[
+                    {
+                     "-",
+                     FractionBox[
+                      RowBox[
+                       {
+                        "2",
+                        " ",
+                        SuperscriptBox["\[Xi]", "3"],
+                        " ",
+                        SuperscriptBox[
+                         RowBox[
+                          {"(", RowBox[{"h", "+", SubscriptBox["v", "H"]}], ")"}
+                         ],
+                         "4"
+                        ]
+                       }
+                      ],
+                      RowBox[
+                       {
+                        SubsuperscriptBox["v", "H", "3"],
+                        " ",
+                        SubscriptBox["Y", "3"]
+                       }
+                      ]
+                     ]
+                    }
+                   ]
+                  }
+                 ],
+                 ",",
+                 RowBox[
+                  {
+                   "CV3V3VV",
+                   "\[Rule]",
+                   FractionBox[
+                    RowBox[
+                     {
+                      "2",
+                      " ",
+                      SuperscriptBox["\[Xi]", "3"],
+                      " ",
+                      SuperscriptBox[
+                       RowBox[
+                        {"(", RowBox[{"h", "+", SubscriptBox["v", "H"]}], ")"}
+                       ],
+                       "4"
+                      ]
+                     }
+                    ],
+                    RowBox[
+                     {
+                      SubsuperscriptBox["v", "H", "3"],
+                      " ",
+                      SubscriptBox["Y", "3"]
+                     }
+                    ]
+                   ]
+                  }
+                 ],
+                 ",",
+                 RowBox[{"CV32V32", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[
+                  {
+                   "CVV3V3Dh",
+                   "\[Rule]",
+                   RowBox[
+                    {
+                     "-",
+                     FractionBox[
+                      RowBox[
+                       {
+                        "8",
+                        " ",
+                        SuperscriptBox["\[Xi]", "3"],
+                        " ",
+                        SuperscriptBox[
+                         RowBox[
+                          {"(", RowBox[{"h", "+", SubscriptBox["v", "H"]}], ")"}
+                         ],
+                         "3"
+                        ]
+                       }
+                      ],
+                      RowBox[
+                       {
+                        SubsuperscriptBox["v", "H", "3"],
+                        " ",
+                        SubscriptBox["Y", "3"]
+                       }
+                      ]
+                     ]
+                    }
+                   ]
+                  }
+                 ],
+                 ",",
+                 RowBox[
+                  {
+                   "CVVDhDh",
+                   "\[Rule]",
+                   RowBox[
+                    {
+                     "-",
+                     FractionBox[
+                      RowBox[
+                       {
+                        "4",
+                        " ",
+                        SuperscriptBox["\[Xi]", "3"],
+                        " ",
+                        SuperscriptBox[
+                         RowBox[
+                          {"(", RowBox[{"h", "+", SubscriptBox["v", "H"]}], ")"}
+                         ],
+                         "2"
+                        ]
+                       }
+                      ],
+                      RowBox[
+                       {
+                        SubsuperscriptBox["v", "H", "3"],
+                        " ",
+                        SubscriptBox["Y", "3"]
+                       }
+                      ]
+                     ]
+                    }
+                   ]
+                  }
+                 ],
+                 ",",
+                 RowBox[
+                  {
+                   "CV2Dh2",
+                   "\[Rule]",
+                   FractionBox[
+                    RowBox[
+                     {
+                      "4",
+                      " ",
+                      SuperscriptBox["\[Xi]", "3"],
+                      " ",
+                      SuperscriptBox[
+                       RowBox[
+                        {"(", RowBox[{"h", "+", SubscriptBox["v", "H"]}], ")"}
+                       ],
+                       "2"
+                      ]
+                     }
+                    ],
+                    RowBox[
+                     {
+                      SubsuperscriptBox["v", "H", "3"],
+                      " ",
+                      SubscriptBox["Y", "3"]
+                     }
+                    ]
+                   ]
+                  }
+                 ],
+                 ",",
+                 RowBox[
+                  {
+                   "CV32Dh2",
+                   "\[Rule]",
+                   RowBox[
+                    {
+                     "-",
+                     FractionBox[
+                      RowBox[
+                       {
+                        "4",
+                        " ",
+                        SuperscriptBox["\[Xi]", "3"],
+                        " ",
+                        SuperscriptBox[
+                         RowBox[
+                          {"(", RowBox[{"h", "+", SubscriptBox["v", "H"]}], ")"}
+                         ],
+                         "2"
+                        ]
+                       }
+                      ],
+                      RowBox[
+                       {
+                        SubsuperscriptBox["v", "H", "3"],
+                        " ",
+                        SubscriptBox["Y", "3"]
+                       }
+                      ]
+                     ]
+                    }
+                   ]
+                  }
+                 ],
+                 ",",
+                 RowBox[
+                  {
+                   "CDh2Dh2",
+                   "\[Rule]",
+                   FractionBox[
+                    RowBox[{"4", " ", SuperscriptBox["\[Xi]", "3"]}],
+                    RowBox[
+                     {
+                      SubsuperscriptBox["v", "H", "3"],
+                      " ",
+                      SubscriptBox["Y", "3"]
+                     }
+                    ]
+                   ]
+                  }
+                 ],
+                 ",",
+                 RowBox[
+                  {
+                   "CQ2V2",
+                   "\[Rule]",
+                   RowBox[
+                    {
+                     "-",
+                     FractionBox[
+                      RowBox[
+                       {
+                        "2",
+                        " ",
+                        SqrtBox["2"],
+                        " ",
+                        SuperscriptBox["\[Xi]", "3"],
+                        " ",
+                        SuperscriptBox[
+                         RowBox[
+                          {"(", RowBox[{"h", "+", SubscriptBox["v", "H"]}], ")"}
+                         ],
+                         "3"
+                        ]
+                       }
+                      ],
+                      RowBox[
+                       {
+                        SubsuperscriptBox["v", "H", "3"],
+                        " ",
+                        SubscriptBox["Y", "3"]
+                       }
+                      ]
+                     ]
+                    }
+                   ]
+                  }
+                 ],
+                 ",",
+                 RowBox[
+                  {
+                   "CQ2V32",
+                   "\[Rule]",
+                   FractionBox[
+                    RowBox[
+                     {
+                      "2",
+                      " ",
+                      SqrtBox["2"],
+                      " ",
+                      SuperscriptBox["\[Xi]", "3"],
+                      " ",
+                      SuperscriptBox[
+                       RowBox[
+                        {"(", RowBox[{"h", "+", SubscriptBox["v", "H"]}], ")"}
+                       ],
+                       "3"
+                      ]
+                     }
+                    ],
+                    RowBox[
+                     {
+                      SubsuperscriptBox["v", "H", "3"],
+                      " ",
+                      SubscriptBox["Y", "3"]
+                     }
+                    ]
+                   ]
+                  }
+                 ],
+                 ",",
+                 RowBox[
+                  {
+                   "CQ2V12V3",
+                   "\[Rule]",
+                   FractionBox[
+                    RowBox[
+                     {
+                      "2",
+                      " ",
+                      SqrtBox["2"],
+                      " ",
+                      SuperscriptBox["\[Xi]", "3"],
+                      " ",
+                      SuperscriptBox[
+                       RowBox[
+                        {"(", RowBox[{"h", "+", SubscriptBox["v", "H"]}], ")"}
+                       ],
+                       "2"
+                      ]
+                     }
+                    ],
+                    RowBox[
+                     {
+                      SubsuperscriptBox["v", "H", "2"],
+                      " ",
+                      SubscriptBox["Y", "3"]
+                     }
+                    ]
+                   ]
+                  }
+                 ],
+                 ",",
+                 RowBox[
+                  {
+                   "CQ2Dh2",
+                   "\[Rule]",
+                   RowBox[
+                    {
+                     "-",
+                     FractionBox[
+                      RowBox[
+                       {
+                        "4",
+                        " ",
+                        SqrtBox["2"],
+                        " ",
+                        SuperscriptBox["\[Xi]", "3"],
+                        " ",
+                        RowBox[
+                         {"(", RowBox[{"h", "+", SubscriptBox["v", "H"]}], ")"}
+                        ]
+                       }
+                      ],
+                      RowBox[
+                       {
+                        SubsuperscriptBox["v", "H", "3"],
+                        " ",
+                        SubscriptBox["Y", "3"]
+                       }
+                      ]
+                     ]
+                    }
+                   ]
+                  }
+                 ],
+                 ",",
+                 RowBox[
+                  {
+                   "CQ2V12Dh",
+                   "\[Rule]",
+                   RowBox[
+                    {
+                     "-",
+                     FractionBox[
+                      RowBox[
+                       {
+                        "4",
+                        " ",
+                        SqrtBox["2"],
+                        " ",
+                        SuperscriptBox["\[Xi]", "3"],
+                        " ",
+                        RowBox[
+                         {"(", RowBox[{"h", "+", SubscriptBox["v", "H"]}], ")"}
+                        ]
+                       }
+                      ],
+                      RowBox[
+                       {
+                        SubsuperscriptBox["v", "H", "2"],
+                        " ",
+                        SubscriptBox["Y", "3"]
+                       }
+                      ]
+                     ]
+                    }
+                   ]
+                  }
+                 ],
+                 ",",
+                 RowBox[
+                  {
+                   "CQ2",
+                   "\[Rule]",
+                   RowBox[
+                    {
+                     RowBox[
+                      {
+                       "-",
+                       FractionBox[
+                        RowBox[{"h", "+", SubscriptBox["v", "H"]}],
+                        SqrtBox["2"]
+                       ]
+                      }
+                     ],
+                     "+",
+                     FractionBox[
+                      RowBox[
+                       {
+                        SqrtBox["2"],
+                        " ",
+                        SuperscriptBox["\[Xi]", "2"],
+                        " ",
+                        "h",
+                        " ",
+                        RowBox[
+                         {
+                          "(",
+                          RowBox[
+                           {
+                            SuperscriptBox["h", "2"],
+                            "+",
+                            RowBox[{"3", " ", "h", " ", SubscriptBox["v", "H"]}],
+                            "+",
+                            RowBox[{"3", " ", SubsuperscriptBox["v", "H", "2"]}]
+                           }
+                          ],
+                          ")"
+                         }
+                        ]
+                       }
+                      ],
+                      RowBox[{"3", " ", SubsuperscriptBox["v", "H", "2"]}]
+                     ],
+                     "+",
+                     FractionBox[
+                      RowBox[
+                       {
+                        "2",
+                        " ",
+                        SqrtBox["2"],
+                        " ",
+                        SuperscriptBox["\[Xi]", "3"],
+                        " ",
+                        "h",
+                        " ",
+                        RowBox[
+                         {
+                          "(",
+                          RowBox[
+                           {
+                            RowBox[{"6", " ", SuperscriptBox["h", "4"]}],
+                            "+",
+                            RowBox[
+                             {
+                              "30",
+                              " ",
+                              SuperscriptBox["h", "3"],
+                              " ",
+                              SubscriptBox["v", "H"]
+                             }
+                            ],
+                            "+",
+                            RowBox[
+                             {
+                              "55",
+                              " ",
+                              SuperscriptBox["h", "2"],
+                              " ",
+                              SubsuperscriptBox["v", "H", "2"]
+                             }
+                            ],
+                            "+",
+                            RowBox[
+                             {"45", " ", "h", " ", SubsuperscriptBox["v", "H", "3"]}
+                            ],
+                            "+",
+                            RowBox[{"15", " ", SubsuperscriptBox["v", "H", "4"]}]
+                           }
+                          ],
+                          ")"
+                         }
+                        ],
+                        " ",
+                        RowBox[
+                         {
+                          "(",
+                          RowBox[
+                           {
+                            RowBox[{"4", " ", SubscriptBox["Z", "1"]}],
+                            "-",
+                            SubscriptBox["Z", "3"]
+                           }
+                          ],
+                          ")"
+                         }
+                        ]
+                       }
+                      ],
+                      RowBox[
+                       {
+                        "15",
+                        " ",
+                        SubsuperscriptBox["v", "H", "3"],
+                        " ",
+                        SubscriptBox["Y", "3"]
+                       }
+                      ]
+                     ]
+                    }
+                   ]
+                  }
+                 ],
+                 ",",
+                 RowBox[
+                  {
+                   "CQ41",
+                   "\[Rule]",
+                   FractionBox[
+                    RowBox[
+                     {
+                      "2",
+                      " ",
+                      SuperscriptBox["\[Xi]", "3"],
+                      " ",
+                      SuperscriptBox[
+                       RowBox[
+                        {"(", RowBox[{"h", "+", SubscriptBox["v", "H"]}], ")"}
+                       ],
+                       "2"
+                      ]
+                     }
+                    ],
+                    RowBox[
+                     {
+                      SubsuperscriptBox["v", "H", "3"],
+                      " ",
+                      SubscriptBox["Y", "3"]
+                     }
+                    ]
+                   ]
+                  }
+                 ],
+                 ",",
+                 RowBox[
+                  {
+                   "CQ42",
+                   "\[Rule]",
+                   FractionBox[
+                    RowBox[{"8", " ", SuperscriptBox["\[Xi]", "3"]}],
+                    RowBox[
+                     {SubscriptBox["v", "H"], " ", SubscriptBox["Y", "3"]}
+                    ]
+                   ]
+                  }
+                 ]
+                }
+               ],
+               "\[RightAssociation]"
+              }
+             ]
+            ],
+            "Output",
+            CellLabel -> "Out[16]="
+           ]
+          },
+          Open
+         ]
+        ],
+        Cell[
+         TextData[
+          {
+           "The result is consistent with ",
+           Cell[
+            BoxData[
+             TemplateBox[
+              {
+               "\"arXiv:2503.00707\"",
+               "https://arxiv.org/abs/2503.00707"
+              },
+              "HyperlinkURL"
+             ]
+            ],
+            "Output"
+           ],
+           ", except for the normalization of the ",
+           StyleBox["h", FontSlant -> "Italic"],
+           " kinetic term."
+          }
+         ],
+         "Text"
+        ]
+       },
+       Open
+      ]
+     ],
+     Cell[
+      CellGroupData[
+       {
+        Cell[
+         "pHEFT \[DoubleLongRightArrow] \[Xi]-HEFT",
+         "Subsection"
+        ],
+        Cell[
+         BoxData[
+          RowBox[
+           {
+            RowBox[
+             {
+              "Lp\[Xi]",
+              "=",
+              RowBox[
+               {
+                RowBox[
+                 {
+                  RowBox[
+                   {
+                    RowBox[
+                     {RowBox[{"data", "[", "Leff", "]"}], "[", "pHEFT", "]"}
+                    ],
+                    "/.",
+                    RowBox[{"t", "->", "1"}]
+                   }
+                  ],
+                  "/.",
+                  RowBox[
+                   {
+                    "{",
+                    RowBox[
+                     {
+                      RowBox[
+                       {
+                        SubscriptBox["m", "\[Phi]"],
+                        "\[Rule]",
+                        SqrtBox["m\[Phi]2"]
+                       }
+                      ],
+                      ",",
+                      RowBox[{SubscriptBox["m", "K"], "\[Rule]", SqrtBox["mK2"]}],
+                      ",",
+                      RowBox[{SubscriptBox["m", "h"], "\[Rule]", SqrtBox["mh2"]}],
+                      ",",
+                      RowBox[
+                       {SubscriptBox["s", "\[Gamma]"], "\[Rule]", "s\[Gamma]"}
+                      ],
+                      ",",
+                      RowBox[
+                       {
+                        SubscriptBox["c", "\[Gamma]"],
+                        "\[Rule]",
+                        SqrtBox[
+                         RowBox[{"1", "-", SuperscriptBox["s\[Gamma]", "2"]}]
+                        ]
+                       }
+                      ],
+                      ",",
+                      RowBox[
+                       {
+                        SubscriptBox["v", "EW"],
+                        "->",
+                        RowBox[
+                         {
+                          SubscriptBox["v", "H"],
+                          SqrtBox[
+                           RowBox[
+                            {"1", "+", RowBox[{"4", SuperscriptBox["\[Xi]", "2"]}]}
+                           ]
+                          ]
+                         }
+                        ]
+                       }
+                      ]
+                     }
+                    ],
+                    "}"
+                   }
+                  ]
+                 }
+                ],
+                "//",
+                RowBox[
+                 {
+                  RowBox[
+                   {"Cut", "[", RowBox[{"#", ",", "\[Xi]", ",", "3"}], "]"}
+                  ],
+                  "&"
+                 }
+                ]
+               }
+              ]
+             }
+            ],
+            ";"
+           }
+          ]
+         ],
+         "Input",
+         CellLabel -> "In[17]:="
+        ],
+        Cell[
+         CellGroupData[
+          {
+           Cell[
+            BoxData[
+             RowBox[
+              {
+               "Cut",
+               "[",
+               RowBox[
+                {
+                 RowBox[{"Ld\[Xi]", "-", "Lp\[Xi]"}],
+                 ",",
+                 "\[Xi]",
+                 ",",
+                 "3"
+                }
+               ],
+               "]"
+              }
+             ]
+            ],
+            "Input",
+            CellLabel -> "In[18]:="
+           ],
+           Cell[
+            BoxData[
+             RowBox[
+              {
+               "\[LeftAssociation]",
+               RowBox[
+                {
+                 RowBox[
+                  {
+                   "CV2",
+                   "\[Rule]",
+                   RowBox[
+                    {
+                     "-",
+                     FractionBox[
+                      RowBox[
+                       {
+                        "6",
+                        " ",
+                        SuperscriptBox["\[Xi]", "3"],
+                        " ",
+                        SuperscriptBox["h", "5"],
+                        " ",
+                        RowBox[
+                         {
+                          "(",
+                          RowBox[
+                           {"h", "+", RowBox[{"6", " ", SubscriptBox["v", "H"]}]}
+                          ],
+                          ")"
+                         }
+                        ],
+                        " ",
+                        RowBox[
+                         {
+                          "(",
+                          RowBox[
+                           {
+                            RowBox[{"4", " ", SubscriptBox["Z", "1"]}],
+                            "-",
+                            SubscriptBox["Z", "3"]
+                           }
+                          ],
+                          ")"
+                         }
+                        ]
+                       }
+                      ],
+                      RowBox[
+                       {
+                        "5",
+                        " ",
+                        SubsuperscriptBox["v", "H", "3"],
+                        " ",
+                        SubscriptBox["Y", "3"]
+                       }
+                      ]
+                     ]
+                    }
+                   ]
+                  }
+                 ],
+                 ",",
+                 RowBox[
+                  {
+                   "CV32",
+                   "\[Rule]",
+                   FractionBox[
+                    RowBox[
+                     {
+                      SuperscriptBox["\[Xi]", "3"],
+                      " ",
+                      SuperscriptBox["h", "5"],
+                      " ",
+                      RowBox[
+                       {
+                        "(",
+                        RowBox[
+                         {"h", "+", RowBox[{"6", " ", SubscriptBox["v", "H"]}]}
+                        ],
+                        ")"
+                       }
+                      ],
+                      " ",
+                      RowBox[
+                       {
+                        "(",
+                        RowBox[
+                         {
+                          RowBox[{"4", " ", SubscriptBox["Z", "1"]}],
+                          "-",
+                          SubscriptBox["Z", "3"]
+                         }
+                        ],
+                        ")"
+                       }
+                      ]
+                     }
+                    ],
+                    RowBox[
+                     {
+                      SubsuperscriptBox["v", "H", "3"],
+                      " ",
+                      SubscriptBox["Y", "3"]
+                     }
+                    ]
+                   ]
+                  }
+                 ],
+                 ",",
+                 RowBox[
+                  {
+                   "Vh",
+                   "\[Rule]",
+                   RowBox[
+                    {
+                     RowBox[
+                      {
+                       "-",
+                       FractionBox[
+                        RowBox[
+                         {
+                          SuperscriptBox["\[Xi]", "2"],
+                          " ",
+                          SuperscriptBox["h", "5"],
+                          " ",
+                          RowBox[
+                           {
+                            "(",
+                            RowBox[
+                             {"h", "+", RowBox[{"6", " ", SubscriptBox["v", "H"]}]}
+                            ],
+                            ")"
+                           }
+                          ],
+                          " ",
+                          SubscriptBox["Z", "1"]
+                         }
+                        ],
+                        RowBox[{"3", " ", SubsuperscriptBox["v", "H", "2"]}]
+                       ]
+                      }
+                     ],
+                     "+",
+                     FractionBox[
+                      RowBox[
+                       {
+                        SuperscriptBox["\[Xi]", "3"],
+                        " ",
+                        SuperscriptBox["h", "5"],
+                        " ",
+                        RowBox[
+                         {
+                          "(",
+                          RowBox[
+                           {
+                            RowBox[
+                             {
+                              "15",
+                              " ",
+                              SuperscriptBox["h", "3"],
+                              " ",
+                              SuperscriptBox[
+                               RowBox[
+                                {
+                                 "(",
+                                 RowBox[
+                                  {
+                                   RowBox[{RowBox[{"-", "4"}], " ", SubscriptBox["Z", "1"]}],
+                                   "+",
+                                   SubscriptBox["Z", "3"]
+                                  }
+                                 ],
+                                 ")"
+                                }
+                               ],
+                               "2"
+                              ]
+                             }
+                            ],
+                            "+",
+                            RowBox[
+                             {
+                              "120",
+                              " ",
+                              SuperscriptBox["h", "2"],
+                              " ",
+                              SubscriptBox["v", "H"],
+                              " ",
+                              SuperscriptBox[
+                               RowBox[
+                                {
+                                 "(",
+                                 RowBox[
+                                  {
+                                   RowBox[{RowBox[{"-", "4"}], " ", SubscriptBox["Z", "1"]}],
+                                   "+",
+                                   SubscriptBox["Z", "3"]
+                                  }
+                                 ],
+                                 ")"
+                                }
+                               ],
+                               "2"
+                              ]
+                             }
+                            ],
+                            "+",
+                            RowBox[
+                             {
+                              "120",
+                              " ",
+                              SubscriptBox["v", "H"],
+                              " ",
+                              RowBox[
+                               {
+                                "(",
+                                RowBox[
+                                 {
+                                  SubsuperscriptBox["Y", "3", "2"],
+                                  "+",
+                                  RowBox[
+                                   {
+                                    "11",
+                                    " ",
+                                    SubsuperscriptBox["v", "H", "2"],
+                                    " ",
+                                    SubscriptBox["Z", "1"],
+                                    " ",
+                                    RowBox[
+                                     {
+                                      "(",
+                                      RowBox[
+                                       {
+                                        RowBox[{RowBox[{"-", "4"}], " ", SubscriptBox["Z", "1"]}],
+                                        "+",
+                                        SubscriptBox["Z", "3"]
+                                       }
+                                      ],
+                                      ")"
+                                     }
+                                    ]
+                                   }
+                                  ]
+                                 }
+                                ],
+                                ")"
+                               }
+                              ]
+                             }
+                            ],
+                            "+",
+                            RowBox[
+                             {
+                              "4",
+                              " ",
+                              "h",
+                              " ",
+                              RowBox[
+                               {
+                                "(",
+                                RowBox[
+                                 {
+                                  RowBox[{"5", " ", SubsuperscriptBox["Y", "3", "2"]}],
+                                  "+",
+                                  RowBox[
+                                   {
+                                    "167",
+                                    " ",
+                                    SubsuperscriptBox["v", "H", "2"],
+                                    " ",
+                                    SubscriptBox["Z", "1"],
+                                    " ",
+                                    RowBox[
+                                     {
+                                      "(",
+                                      RowBox[
+                                       {
+                                        RowBox[{RowBox[{"-", "4"}], " ", SubscriptBox["Z", "1"]}],
+                                        "+",
+                                        SubscriptBox["Z", "3"]
+                                       }
+                                      ],
+                                      ")"
+                                     }
+                                    ]
+                                   }
+                                  ]
+                                 }
+                                ],
+                                ")"
+                               }
+                              ]
+                             }
+                            ]
+                           }
+                          ],
+                          ")"
+                         }
+                        ]
+                       }
+                      ],
+                      RowBox[
+                       {
+                        "60",
+                        " ",
+                        SubsuperscriptBox["v", "H", "3"],
+                        " ",
+                        SubscriptBox["Y", "3"]
+                       }
+                      ]
+                     ]
+                    }
+                   ]
+                  }
+                 ],
+                 ",",
+                 RowBox[{"CV2V2", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CV32V2", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CV3V3VV", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CV32V32", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CVV3V3Dh", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CVVDhDh", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CV2Dh2", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CV32Dh2", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CDh2Dh2", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CQ2V2", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CQ2V32", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CQ2V12V3", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CQ2Dh2", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CQ2V12Dh", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[
+                  {
+                   "CQ2",
+                   "\[Rule]",
+                   FractionBox[
+                    RowBox[
+                     {
+                      "4",
+                      " ",
+                      SqrtBox["2"],
+                      " ",
+                      SuperscriptBox["\[Xi]", "3"],
+                      " ",
+                      SuperscriptBox["h", "5"],
+                      " ",
+                      RowBox[
+                       {
+                        "(",
+                        RowBox[
+                         {
+                          RowBox[{"4", " ", SubscriptBox["Z", "1"]}],
+                          "-",
+                          SubscriptBox["Z", "3"]
+                         }
+                        ],
+                        ")"
+                       }
+                      ]
+                     }
+                    ],
+                    RowBox[
+                     {
+                      "5",
+                      " ",
+                      SubsuperscriptBox["v", "H", "3"],
+                      " ",
+                      SubscriptBox["Y", "3"]
+                     }
+                    ]
+                   ]
+                  }
+                 ],
+                 ",",
+                 RowBox[{"CQ41", "\[Rule]", "0"}],
+                 ",",
+                 RowBox[{"CQ42", "\[Rule]", "0"}]
+                }
+               ],
+               "\[RightAssociation]"
+              }
+             ]
+            ],
+            "Output",
+            CellLabel -> "Out[18]="
+           ]
+          },
+          Open
+         ]
+        ],
+        Cell[
+         TextData[
+          {
+           "The discrepancy arises from higher-order terms in ",
+           StyleBox["h", FontSlant -> "Italic"],
+           " that are not computed in pHEFT."
+          }
+         ],
+         "Text"
+        ]
+       },
+       Open
+      ]
+     ]
+    },
+    Open
+   ]
+  ]
+ },
+ FrontEndVersion -> "14.1 for Microsoft Windows (64-bit) (2024\:5e747\:670816\:65e5)",
+ StyleDefinitions -> "Default.nb",
+ ExpressionUUID -> "66b537f2-7281-1241-9d04-2d0447fadf05"
+]

@@ -1,13 +1,13 @@
 <|Leff -> 
-  <|pHEFT -> <|CV2 -> (h^2*(-1 - 3*Subscript[s, \[Gamma]]^2 - 
+  <|pHEFT -> <|CV2 -> (QuantumField[h]^2*(-1 - 3*Subscript[s, \[Gamma]]^2 - 
           (Subscript[s, \[Gamma]]*(4*\[Xi]*Subscript[c, \[Gamma]] + 
              Subscript[s, \[Gamma]])*(Subscript[m, \[Phi]]^2*(4*\[Xi] + 3*
                 Subscript[c, \[Gamma]]*Subscript[s, \[Gamma]] - 6*\[Xi]*
                 Subscript[s, \[Gamma]]^2) + (1 + 4*\[Xi]^2)*Subscript[m, K]^2*
               (-(Subscript[c, \[Gamma]]*Subscript[s, \[Gamma]]) + \[Xi]*
                 (-1 + Subscript[s, \[Gamma]]^2))))/((\[Xi] + 4*\[Xi]^3)*
-            Subscript[m, K]^2)))/4 + 
-       t*h^2*((Subscript[m, h]^2*Subscript[s, \[Gamma]]*
+            Subscript[m, K]^2)))/4 + t*QuantumField[h]^2*
+        ((Subscript[m, h]^2*Subscript[s, \[Gamma]]*
            (4*\[Xi]*Subscript[c, \[Gamma]] + Subscript[s, \[Gamma]])*
            ((1 + 4*\[Xi]^2)*Subscript[m, K]^2*(\[Xi] + \[Xi]*Subscript[c, 
                  \[Gamma]]^2 + 2*Subscript[c, \[Gamma]]*Subscript[s, 
@@ -15,45 +15,45 @@
             Subscript[m, \[Phi]]^2*(-4*\[Xi] - 3*Subscript[c, \[Gamma]]*
                Subscript[s, \[Gamma]] + 6*\[Xi]*Subscript[s, \[Gamma]]^2)))/
           (2*(\[Xi] + 4*\[Xi]^3)*Subscript[m, K]^4) + 
-         ((1 + 4*\[Xi]^2)*h^2*Subscript[m, h]^2*Subscript[s, \[Gamma]]*
-           (96*\[Xi]^2*(1 + 4*\[Xi]^2)*Subscript[c, \[Gamma]]^7*
-             Subscript[m, K]^2*((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 3*
-                Subscript[m, \[Phi]]^2)^2*Subscript[s, \[Gamma]]^2 - 
-            6*\[Xi]*Subscript[c, \[Gamma]]^6*((2 + 8*\[Xi]^2)*Subscript[m, K]^
-                2 - 3*Subscript[m, \[Phi]]^2)*Subscript[s, \[Gamma]]*
-             ((1 + 4*\[Xi]^2)^2*(-83 + 64*\[Xi]^2)*Subscript[m, K]^4*
-               Subscript[s, \[Gamma]]^2 - 144*Subscript[m, \[Phi]]^4*
-               Subscript[s, \[Gamma]]^2 - (1 + 4*\[Xi]^2)*Subscript[m, K]^
-                2*Subscript[m, \[Phi]]^2*(-64*\[Xi]^2 + 3*(-79 + 64*\[Xi]^2)*
-                 Subscript[s, \[Gamma]]^2)) + 3*\[Xi]*Subscript[c, \[Gamma]]^
-              4*Subscript[s, \[Gamma]]*(3*(1 + 4*\[Xi]^2)*Subscript[m, K]^
-                2*Subscript[m, \[Phi]]^4*(1776*\[Xi]^2 + 
-                (2085 - 10096*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
-                60*(-81 + 220*\[Xi]^2)*Subscript[s, \[Gamma]]^4) - 
-              6*Subscript[m, \[Phi]]^6*(736*\[Xi]^2 - 9*(-75 + 416*\[Xi]^2)*
-                 Subscript[s, \[Gamma]]^2 + 9*(-169 + 512*\[Xi]^2)*
-                 Subscript[s, \[Gamma]]^4) + 2*(1 + 4*\[Xi]^2)^3*Subscript[m, 
-                 K]^6*(80*\[Xi]^2 + (146 - 533*\[Xi]^2)*Subscript[s, 
-                   \[Gamma]]^2 + (-554 + 957*\[Xi]^2)*Subscript[s, \[Gamma]]^
-                  4) - (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, 
-                 \[Phi]]^2*(1812*\[Xi]^2 + (2761 - 11592*\[Xi]^2)*
-                 Subscript[s, \[Gamma]]^2 + 6*(-1227 + 2780*\[Xi]^2)*
-                 Subscript[s, \[Gamma]]^4)) + 3*Subscript[c, \[Gamma]]^5*
-             (54*Subscript[m, \[Phi]]^6*Subscript[s, \[Gamma]]^2*(
-                -80*\[Xi]^2 + (-7 + 208*\[Xi]^2)*Subscript[s, \[Gamma]]^2) - 
-              2*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^
-                2*Subscript[s, \[Gamma]]^2*(1425*\[Xi]^2 - 128*\[Xi]^4 + 
-                3*(81 - 1667*\[Xi]^2 + 128*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                  2) + (1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[s, 
-                 \[Gamma]]^2*(300*\[Xi]^2 + (99 - 1604*\[Xi]^2 + 128*\[Xi]^4)*
-                 Subscript[s, \[Gamma]]^2) + (1 + 4*\[Xi]^2)*Subscript[m, K]^
-                2*Subscript[m, \[Phi]]^4*(128*\[Xi]^4 + (6576*\[Xi]^2 - 
-                  768*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
-                9*(85 - 2124*\[Xi]^2 + 128*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                  4)) - 2*\[Xi]*Subscript[c, \[Gamma]]^2*Subscript[s, 
-              \[Gamma]]*(-36*Subscript[m, \[Phi]]^6*(-292*\[Xi]^2 + 
-                12*(-14 + 197*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
-                (555 - 5199*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 
+         ((1 + 4*\[Xi]^2)*QuantumField[h]^2*Subscript[m, h]^2*
+           Subscript[s, \[Gamma]]*(96*\[Xi]^2*(1 + 4*\[Xi]^2)*
+             Subscript[c, \[Gamma]]^7*Subscript[m, K]^2*
+             ((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)^2*
+             Subscript[s, \[Gamma]]^2 - 6*\[Xi]*Subscript[c, \[Gamma]]^6*
+             ((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)*
+             Subscript[s, \[Gamma]]*((1 + 4*\[Xi]^2)^2*(-83 + 64*\[Xi]^2)*
+               Subscript[m, K]^4*Subscript[s, \[Gamma]]^2 - 
+              144*Subscript[m, \[Phi]]^4*Subscript[s, \[Gamma]]^2 - 
+              (1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^2*(
+                -64*\[Xi]^2 + 3*(-79 + 64*\[Xi]^2)*Subscript[s, \[Gamma]]^
+                  2)) + 3*\[Xi]*Subscript[c, \[Gamma]]^4*Subscript[s, 
+              \[Gamma]]*(3*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, 
+                 \[Phi]]^4*(1776*\[Xi]^2 + (2085 - 10096*\[Xi]^2)*
+                 Subscript[s, \[Gamma]]^2 + 60*(-81 + 220*\[Xi]^2)*
+                 Subscript[s, \[Gamma]]^4) - 6*Subscript[m, \[Phi]]^6*(
+                736*\[Xi]^2 - 9*(-75 + 416*\[Xi]^2)*Subscript[s, \[Gamma]]^
+                  2 + 9*(-169 + 512*\[Xi]^2)*Subscript[s, \[Gamma]]^4) + 
+              2*(1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*(80*\[Xi]^2 + 
+                (146 - 533*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
+                (-554 + 957*\[Xi]^2)*Subscript[s, \[Gamma]]^4) - 
+              (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^2*(
+                1812*\[Xi]^2 + (2761 - 11592*\[Xi]^2)*Subscript[s, \[Gamma]]^
+                  2 + 6*(-1227 + 2780*\[Xi]^2)*Subscript[s, \[Gamma]]^4)) + 
+            3*Subscript[c, \[Gamma]]^5*(54*Subscript[m, \[Phi]]^6*
+               Subscript[s, \[Gamma]]^2*(-80*\[Xi]^2 + (-7 + 208*\[Xi]^2)*
+                 Subscript[s, \[Gamma]]^2) - 2*(1 + 4*\[Xi]^2)^2*Subscript[m, 
+                 K]^4*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^2*(
+                1425*\[Xi]^2 - 128*\[Xi]^4 + 3*(81 - 1667*\[Xi]^2 + 
+                  128*\[Xi]^4)*Subscript[s, \[Gamma]]^2) + (1 + 4*\[Xi]^2)^
+                3*Subscript[m, K]^6*Subscript[s, \[Gamma]]^2*(300*\[Xi]^2 + 
+                (99 - 1604*\[Xi]^2 + 128*\[Xi]^4)*Subscript[s, \[Gamma]]^2) + 
+              (1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^4*(
+                128*\[Xi]^4 + (6576*\[Xi]^2 - 768*\[Xi]^4)*Subscript[s, 
+                   \[Gamma]]^2 + 9*(85 - 2124*\[Xi]^2 + 128*\[Xi]^4)*
+                 Subscript[s, \[Gamma]]^4)) - 2*\[Xi]*Subscript[c, \[Gamma]]^
+              2*Subscript[s, \[Gamma]]*(-36*Subscript[m, \[Phi]]^6*(
+                -292*\[Xi]^2 + 12*(-14 + 197*\[Xi]^2)*Subscript[s, \[Gamma]]^
+                  2 + (555 - 5199*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 
                 9*(-47 + 385*\[Xi]^2)*Subscript[s, \[Gamma]]^6) + 
               (1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*(-146*\[Xi]^2 + 
                 (8 + 1643*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
@@ -130,21 +130,21 @@
                  Subscript[s, \[Gamma]]^6 + 3*(166 - 4033*\[Xi]^2 + 
                   1768*\[Xi]^4)*Subscript[s, \[Gamma]]^8))))/
           (48*(\[Xi] + 4*\[Xi]^3)^3*Subscript[m, K]^8*Subscript[v, EW]^2) + 
-         (Sqrt[1 + 4*\[Xi]^2]*h*Subscript[m, h]^2*Subscript[s, \[Gamma]]*
-           (24*\[Xi]^2*(1 + 4*\[Xi]^2)*Subscript[c, \[Gamma]]^5*
-             Subscript[m, K]^2*((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 
-              3*Subscript[m, \[Phi]]^2)*Subscript[s, \[Gamma]] - 
-            2*\[Xi]*Subscript[c, \[Gamma]]^4*(2*(1 + 4*\[Xi]^2)^2*(-31 + 
-                12*\[Xi]^2)*Subscript[m, K]^4*Subscript[s, \[Gamma]]^2 - 
-              108*Subscript[m, \[Phi]]^4*Subscript[s, \[Gamma]]^2 - 
-              3*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^2*(
-                -8*\[Xi]^2 + (-59 + 24*\[Xi]^2)*Subscript[s, \[Gamma]]^2)) + 
-            Subscript[c, \[Gamma]]^3*Subscript[s, \[Gamma]]*
-             (18*Subscript[m, \[Phi]]^4*(36*\[Xi]^2 + (5 - 84*\[Xi]^2)*
-                 Subscript[s, \[Gamma]]^2) + (1 + 4*\[Xi]^2)*Subscript[m, K]^
-                2*Subscript[m, \[Phi]]^2*(-616*\[Xi]^2 + 
-                9*(-13 + 172*\[Xi]^2)*Subscript[s, \[Gamma]]^2) - 
-              (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*(-94*\[Xi]^2 + 
+         (Sqrt[1 + 4*\[Xi]^2]*QuantumField[h]*Subscript[m, h]^2*
+           Subscript[s, \[Gamma]]*(24*\[Xi]^2*(1 + 4*\[Xi]^2)*
+             Subscript[c, \[Gamma]]^5*Subscript[m, K]^2*
+             ((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)*
+             Subscript[s, \[Gamma]] - 2*\[Xi]*Subscript[c, \[Gamma]]^4*
+             (2*(1 + 4*\[Xi]^2)^2*(-31 + 12*\[Xi]^2)*Subscript[m, K]^4*
+               Subscript[s, \[Gamma]]^2 - 108*Subscript[m, \[Phi]]^4*
+               Subscript[s, \[Gamma]]^2 - 3*(1 + 4*\[Xi]^2)*Subscript[m, K]^
+                2*Subscript[m, \[Phi]]^2*(-8*\[Xi]^2 + (-59 + 24*\[Xi]^2)*
+                 Subscript[s, \[Gamma]]^2)) + Subscript[c, \[Gamma]]^3*
+             Subscript[s, \[Gamma]]*(18*Subscript[m, \[Phi]]^4*(36*\[Xi]^2 + 
+                (5 - 84*\[Xi]^2)*Subscript[s, \[Gamma]]^2) + 
+              (1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^2*(
+                -616*\[Xi]^2 + 9*(-13 + 172*\[Xi]^2)*Subscript[s, \[Gamma]]^
+                  2) - (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*(-94*\[Xi]^2 + 
                 (-35 + 332*\[Xi]^2)*Subscript[s, \[Gamma]]^2)) + 
             \[Xi]*Subscript[s, \[Gamma]]^2*(-((1 + 4*\[Xi]^2)^2*
                 (-9 + 16*\[Xi]^2)*Subscript[m, K]^4*(-1 + Subscript[s, 
@@ -174,7 +174,7 @@
                  Subscript[s, \[Gamma]]^2 + 9*(-9 + 212*\[Xi]^2)*
                  Subscript[s, \[Gamma]]^4))))/(12*(\[Xi] + 4*\[Xi]^3)^2*
            Subscript[m, K]^6*Subscript[v, EW])) + 
-       ((1 + 4*\[Xi]^2)*h^4*Subscript[s, \[Gamma]]*
+       ((1 + 4*\[Xi]^2)*QuantumField[h]^4*Subscript[s, \[Gamma]]*
          (288*\[Xi]^2*Subscript[c, \[Gamma]]^5*Subscript[m, \[Phi]]^2*
            (2*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4 - 9*(1 + 4*\[Xi]^2)*
              Subscript[m, K]^2*Subscript[m, \[Phi]]^2 + 
@@ -256,7 +256,7 @@
               3*(277 - 8296*\[Xi]^2 + 6272*\[Xi]^4)*Subscript[s, \[Gamma]]^
                 6 + 9*(63 - 1552*\[Xi]^2 + 944*\[Xi]^4)*Subscript[s, 
                  \[Gamma]]^8))))/(48*(\[Xi] + 4*\[Xi]^3)^3*Subscript[m, K]^6*
-         Subscript[v, EW]^2) + (Sqrt[1 + 4*\[Xi]^2]*h^3*
+         Subscript[v, EW]^2) + (Sqrt[1 + 4*\[Xi]^2]*QuantumField[h]^3*
          Subscript[s, \[Gamma]]*(-((1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*
             Subscript[s, \[Gamma]]*(-(Subscript[c, \[Gamma]]^3*Subscript[s, 
                  \[Gamma]]^2) + 2*\[Xi]*Subscript[c, \[Gamma]]^2*
@@ -285,24 +285,24 @@
                Subscript[s, \[Gamma]]^2 + 3*(-69 + 176*\[Xi]^2)*Subscript[s, 
                  \[Gamma]]^4 - 9*(-15 + 32*\[Xi]^2)*Subscript[s, \[Gamma]]^
                 6))))/(12*(\[Xi] + 4*\[Xi]^3)^2*Subscript[m, K]^4*
-         Subscript[v, EW]) - (h*(Subscript[c, \[Gamma]] - 
+         Subscript[v, EW]) - (QuantumField[h]*(Subscript[c, \[Gamma]] - 
           4*\[Xi]*Subscript[s, \[Gamma]])*Subscript[v, EW])/
         (2*Sqrt[1 + 4*\[Xi]^2]) - Subscript[v, EW]^2/4, 
-     CV32 -> (h^2*Subscript[s, \[Gamma]]*((1 + 4*\[Xi]^2)*Subscript[m, K]^2*
-           Subscript[s, \[Gamma]]^3 - 3*Subscript[m, \[Phi]]^2*
-           Subscript[s, \[Gamma]]*(-1 + Subscript[s, \[Gamma]]^2) + 
-          \[Xi]*Subscript[c, \[Gamma]]*(2*Subscript[m, \[Phi]]^2*
-             (2 - 3*Subscript[s, \[Gamma]]^2) + (1 + 4*\[Xi]^2)*
-             Subscript[m, K]^2*(-1 + Subscript[s, \[Gamma]]^2))))/
-        (2*(1 + 4*\[Xi]^2)*Subscript[m, K]^2) + 
-       t*h^2*(-((Subscript[c, \[Gamma]]*Subscript[m, h]^2*
+     CV32 -> (QuantumField[h]^2*Subscript[s, \[Gamma]]*
+         ((1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[s, \[Gamma]]^3 - 
+          3*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*
+           (-1 + Subscript[s, \[Gamma]]^2) + \[Xi]*Subscript[c, \[Gamma]]*
+           (2*Subscript[m, \[Phi]]^2*(2 - 3*Subscript[s, \[Gamma]]^2) + 
+            (1 + 4*\[Xi]^2)*Subscript[m, K]^2*(-1 + Subscript[s, \[Gamma]]^
+               2))))/(2*(1 + 4*\[Xi]^2)*Subscript[m, K]^2) + 
+       t*QuantumField[h]^2*(-((Subscript[c, \[Gamma]]*Subscript[m, h]^2*
             Subscript[s, \[Gamma]]*((1 + 4*\[Xi]^2)*Subscript[m, K]^2*
               (\[Xi] + \[Xi]*Subscript[c, \[Gamma]]^2 + 2*Subscript[c, 
                  \[Gamma]]*Subscript[s, \[Gamma]] - \[Xi]*Subscript[s, 
                   \[Gamma]]^2) + Subscript[m, \[Phi]]^2*(-4*\[Xi] - 3*
                 Subscript[c, \[Gamma]]*Subscript[s, \[Gamma]] + 6*\[Xi]*
                 Subscript[s, \[Gamma]]^2)))/((1 + 4*\[Xi]^2)*
-            Subscript[m, K]^4)) - (h^2*Subscript[m, h]^2*
+            Subscript[m, K]^4)) - (QuantumField[h]^2*Subscript[m, h]^2*
            Subscript[s, \[Gamma]]*(24*\[Xi]*(1 + 4*\[Xi]^2)*
              Subscript[c, \[Gamma]]^7*Subscript[m, K]^2*
              ((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)^2*
@@ -402,7 +402,7 @@
                 (1745 - 1608*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 
                 (-1039 + 663*\[Xi]^2)*Subscript[s, \[Gamma]]^8))))/
           (24*\[Xi]^2*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^8*Subscript[v, EW]^
-            2) + (h*Subscript[m, h]^2*Subscript[s, \[Gamma]]*
+            2) + (QuantumField[h]*Subscript[m, h]^2*Subscript[s, \[Gamma]]*
            (-6*\[Xi]*(1 + 4*\[Xi]^2)*Subscript[c, \[Gamma]]^5*
              Subscript[m, K]^2*((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 
               3*Subscript[m, \[Phi]]^2)*Subscript[s, \[Gamma]] + 
@@ -436,9 +436,10 @@
                  Subscript[s, \[Gamma]]^2 + 3*(-24 + 61*\[Xi]^2)*
                  Subscript[s, \[Gamma]]^4))))/(6*\[Xi]*(1 + 4*\[Xi]^2)^(3/2)*
            Subscript[m, K]^6*Subscript[v, EW])) + 
-       (h^4*Subscript[s, \[Gamma]]*(-72*\[Xi]*Subscript[c, \[Gamma]]^5*
-           Subscript[m, \[Phi]]^2*(2*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4 - 
-            9*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^2 + 
+       (QuantumField[h]^4*Subscript[s, \[Gamma]]*
+         (-72*\[Xi]*Subscript[c, \[Gamma]]^5*Subscript[m, \[Phi]]^2*
+           (2*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4 - 9*(1 + 4*\[Xi]^2)*
+             Subscript[m, K]^2*Subscript[m, \[Phi]]^2 + 
             9*Subscript[m, \[Phi]]^4)*Subscript[s, \[Gamma]]^4 + 
           72*Subscript[c, \[Gamma]]^4*Subscript[m, \[Phi]]^2*
            Subscript[s, \[Gamma]]^3*(9*Subscript[m, \[Phi]]^4*
@@ -507,13 +508,13 @@
               9*(-269 + 2396*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 
               9*(-111 + 956*\[Xi]^2)*Subscript[s, \[Gamma]]^8))))/
         (24*\[Xi]^2*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^6*Subscript[v, EW]^2) + 
-       (h^3*Subscript[s, \[Gamma]]*(-18*\[Xi]*Subscript[c, \[Gamma]]^3*
-           Subscript[m, \[Phi]]^2*((1 + 4*\[Xi]^2)*Subscript[m, K]^2 - 
-            3*Subscript[m, \[Phi]]^2)*Subscript[s, \[Gamma]]^3 + 
-          \[Xi]^2*Subscript[s, \[Gamma]]^2*(2*Subscript[m, \[Phi]]^2*
-              (2 - 3*Subscript[s, \[Gamma]]^2) + (1 + 4*\[Xi]^2)*
-              Subscript[m, K]^2*(-1 + Subscript[s, \[Gamma]]^2))^2 + 
-          \[Xi]*Subscript[c, \[Gamma]]*Subscript[s, \[Gamma]]*
+       (QuantumField[h]^3*Subscript[s, \[Gamma]]*
+         (-18*\[Xi]*Subscript[c, \[Gamma]]^3*Subscript[m, \[Phi]]^2*
+           ((1 + 4*\[Xi]^2)*Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)*
+           Subscript[s, \[Gamma]]^3 + \[Xi]^2*Subscript[s, \[Gamma]]^2*
+           (2*Subscript[m, \[Phi]]^2*(2 - 3*Subscript[s, \[Gamma]]^2) + 
+             (1 + 4*\[Xi]^2)*Subscript[m, K]^2*(-1 + Subscript[s, \[Gamma]]^
+                2))^2 + \[Xi]*Subscript[c, \[Gamma]]*Subscript[s, \[Gamma]]*
            (-8*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[s, \[Gamma]]^2*
              (-1 + Subscript[s, \[Gamma]]^2) - 6*Subscript[m, \[Phi]]^4*
              (9 - 37*Subscript[s, \[Gamma]]^2 + 33*Subscript[s, \[Gamma]]^
@@ -529,10 +530,11 @@
                Subscript[s, \[Gamma]]^2 + 3*(-7 + 24*\[Xi]^2)*Subscript[s, 
                  \[Gamma]]^4))))/(6*\[Xi]*(1 + 4*\[Xi]^2)^(3/2)*
          Subscript[m, K]^4*Subscript[v, EW]) - 
-       (\[Xi]*h*Subscript[s, \[Gamma]]*Subscript[v, EW])/
+       (\[Xi]*QuantumField[h]*Subscript[s, \[Gamma]]*Subscript[v, EW])/
         Sqrt[1 + 4*\[Xi]^2] + (\[Xi]^2*Subscript[v, EW]^2)/
-        (2*(1 + 4*\[Xi]^2)), Vh -> -1/2*(h^2*Subscript[m, h]^2) + 
-       (t*h^4*Subscript[m, h]^4*Subscript[s, \[Gamma]]^2*
+        (2*(1 + 4*\[Xi]^2)), 
+     Vh -> -1/2*(QuantumField[h]^2*Subscript[m, h]^2) + 
+       (t*QuantumField[h]^4*Subscript[m, h]^4*Subscript[s, \[Gamma]]^2*
          (Subscript[m, \[Phi]]^4*(4*\[Xi] + 3*Subscript[c, \[Gamma]]*
               Subscript[s, \[Gamma]] - 6*\[Xi]*Subscript[s, \[Gamma]]^2)^2 + 
           (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*
@@ -550,7 +552,7 @@
             2*\[Xi]^2*(2 - 5*Subscript[s, \[Gamma]]^2 + 
               3*Subscript[s, \[Gamma]]^4))))/(6*\[Xi]^2*(1 + 4*\[Xi]^2)*
          Subscript[m, K]^6*Subscript[v, EW]^2) + 
-       (h^4*Subscript[m, h]^2*(4*Subscript[s, \[Gamma]]^2*
+       (QuantumField[h]^4*Subscript[m, h]^2*(4*Subscript[s, \[Gamma]]^2*
            (Subscript[m, \[Phi]]^2*(4*\[Xi] + 3*Subscript[c, \[Gamma]]*
                 Subscript[s, \[Gamma]] - 6*\[Xi]*Subscript[s, \[Gamma]]^2) + 
              (1 + 4*\[Xi]^2)*Subscript[m, K]^2*(-(Subscript[c, \[Gamma]]*
@@ -566,13 +568,13 @@
                 9*Subscript[s, \[Gamma]]^2) + (-1 + Subscript[s, \[Gamma]]^2)*
                (-4*\[Xi]^2 + (-3 + 6*\[Xi]^2)*Subscript[s, \[Gamma]]^2)))))/
         (24*\[Xi]^2*(1 + 4*\[Xi]^2)*Subscript[m, K]^4*Subscript[v, EW]^2) + 
-       (Sqrt[1 + 4*\[Xi]^2]*h^3*Subscript[m, h]^2*(Subscript[s, \[Gamma]]^3 + 
-          \[Xi]*Subscript[c, \[Gamma]]*(-1 + Subscript[s, \[Gamma]]^2)))/
-        (2*\[Xi]*Subscript[v, EW]) + (Subscript[m, h]^2*
-         (1 - 2*\[Xi]*Subscript[c, \[Gamma]]*Subscript[s, \[Gamma]] + 
-          (-1 + \[Xi]^2)*Subscript[s, \[Gamma]]^2)*Subscript[v, EW]^2)/
-        (8*(1 + 4*\[Xi]^2)) + 
-       ((h^6*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^2*
+       (Sqrt[1 + 4*\[Xi]^2]*QuantumField[h]^3*Subscript[m, h]^2*
+         (Subscript[s, \[Gamma]]^3 + \[Xi]*Subscript[c, \[Gamma]]*
+           (-1 + Subscript[s, \[Gamma]]^2)))/(2*\[Xi]*Subscript[v, EW]) + 
+       (Subscript[m, h]^2*(1 - 2*\[Xi]*Subscript[c, \[Gamma]]*
+           Subscript[s, \[Gamma]] + (-1 + \[Xi]^2)*Subscript[s, \[Gamma]]^2)*
+         Subscript[v, EW]^2)/(8*(1 + 4*\[Xi]^2)) + 
+       ((QuantumField[h]^6*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^2*
            (-3*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^2*
              (-1 + Subscript[s, \[Gamma]]^2)*(48*\[Xi]^4 + (639*\[Xi]^2 - 
                 496*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (155 - 3353*\[Xi]^2 + 
@@ -674,11 +676,11 @@
                   (149 - 132*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 
                   9*(-11 + 8*\[Xi]^2)*Subscript[s, \[Gamma]]^6)))))/
           (48*\[Xi]^4*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^6*Subscript[v, EW]^
-            4) + (h^5*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^2*
-           (Subscript[s, \[Gamma]]*(-1 + Subscript[s, \[Gamma]]^2)*
-             ((1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*(19*\[Xi]^2 + 
-                (7 - 64*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
-                9*(-1 + 5*\[Xi]^2)*Subscript[s, \[Gamma]]^4) - 
+            4) + (QuantumField[h]^5*Subscript[m, \[Phi]]^2*
+           Subscript[s, \[Gamma]]^2*(Subscript[s, \[Gamma]]*
+             (-1 + Subscript[s, \[Gamma]]^2)*((1 + 4*\[Xi]^2)^2*Subscript[m, 
+                 K]^4*(19*\[Xi]^2 + (7 - 64*\[Xi]^2)*Subscript[s, \[Gamma]]^
+                  2 + 9*(-1 + 5*\[Xi]^2)*Subscript[s, \[Gamma]]^4) - 
               6*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^2*(
                 16*\[Xi]^2 + (5 - 58*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
                 6*(-1 + 8*\[Xi]^2)*Subscript[s, \[Gamma]]^4) + 
@@ -703,7 +705,7 @@
                 Subscript[m, K]^2*(-(Subscript[c, \[Gamma]]*Subscript[s, 
                     \[Gamma]]) + \[Xi]*(-1 + Subscript[s, \[Gamma]]^2)))^2))/
           (8*\[Xi]^3*(1 + 4*\[Xi]^2)^(3/2)*Subscript[m, K]^4*
-           Subscript[v, EW]^3) + (h^4*Subscript[m, \[Phi]]^2*
+           Subscript[v, EW]^3) + (QuantumField[h]^4*Subscript[m, \[Phi]]^2*
            Subscript[s, \[Gamma]]^2*(Subscript[m, \[Phi]]^2*
              (4*\[Xi] + 3*Subscript[c, \[Gamma]]*Subscript[s, \[Gamma]] - 6*
                 \[Xi]*Subscript[s, \[Gamma]]^2)^2 - (1 + 4*\[Xi]^2)*
@@ -712,14 +714,14 @@
               2*\[Xi]*Subscript[c, \[Gamma]]*Subscript[s, \[Gamma]]*(-7 + 
                 9*Subscript[s, \[Gamma]]^2))))/(8*\[Xi]^2*(1 + 4*\[Xi]^2)*
            Subscript[m, K]^2*Subscript[v, EW]^2) - 
-         (h^3*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^2*
+         (QuantumField[h]^3*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^2*
            (2*\[Xi]*Subscript[c, \[Gamma]] + Subscript[s, \[Gamma]]))/
           (2*\[Xi]*Sqrt[1 + 4*\[Xi]^2]*Subscript[v, EW]) - 
          ((\[Xi]^2*Subscript[m, \[Phi]]^2 + (1 + 4*\[Xi]^2)*Subscript[m, K]^2*
              (-\[Xi]^2 - 2*\[Xi]*Subscript[c, \[Gamma]]*Subscript[s, 
                 \[Gamma]] + (-1 + \[Xi]^2)*Subscript[s, \[Gamma]]^2))*
            Subscript[v, EW]^2)/((1 + 4*\[Xi]^2)*(8 + 32*\[Xi]^2)))/t, 
-     CV2V2 -> t*((h^2*(32*\[Xi]^2*Subscript[c, \[Gamma]]^6*
+     CV2V2 -> t*((QuantumField[h]^2*(32*\[Xi]^2*Subscript[c, \[Gamma]]^6*
             ((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)^2*
             Subscript[s, \[Gamma]]^2 - 16*\[Xi]*Subscript[c, \[Gamma]]^5*
             ((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)*
@@ -781,7 +783,8 @@
                  1200*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 3*(15 - 
                  590*\[Xi]^2 + 672*\[Xi]^4)*Subscript[s, \[Gamma]]^6))))/
          (16*(\[Xi] + 4*\[Xi]^3)^2*Subscript[m, K]^6) + 
-        ((1 + 4*\[Xi]^2)*h^4*(384*\[Xi]^2*Subscript[c, \[Gamma]]^10*
+        ((1 + 4*\[Xi]^2)*QuantumField[h]^4*
+          (384*\[Xi]^2*Subscript[c, \[Gamma]]^10*
             ((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)^4*
             Subscript[s, \[Gamma]]^4 - 192*\[Xi]*Subscript[c, \[Gamma]]^9*
             ((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)^3*
@@ -792,308 +795,311 @@
             ((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)^2*
             Subscript[s, \[Gamma]]^2*(-12*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*
               Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^2*
-              (2*\[Xi]^2*(67 - 96*\[Xi]^2) + (9 - 530*\[Xi]^2 + 576*\[Xi]^4)*
+              (48*\[Xi]^2*(3 - 4*\[Xi]^2) + (9 - 590*\[Xi]^2 + 576*\[Xi]^4)*
                 Subscript[s, \[Gamma]]^2) + (1 + 4*\[Xi]^2)^2*
               Subscript[m, K]^4*Subscript[s, \[Gamma]]^2*(120*\[Xi]^2 + 
-               (27 - 1264*\[Xi]^2 + 1152*\[Xi]^4)*Subscript[s, \[Gamma]]^2) + 
-             36*Subscript[m, \[Phi]]^4*(32*\[Xi]^4 + (68*\[Xi]^2 - 
-                 192*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (3 - 208*\[Xi]^2 + 
+               (27 - 1384*\[Xi]^2 + 1152*\[Xi]^4)*Subscript[s, \[Gamma]]^2) + 
+             36*Subscript[m, \[Phi]]^4*(32*\[Xi]^4 + (78*\[Xi]^2 - 
+                 192*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (3 - 238*\[Xi]^2 + 
                  288*\[Xi]^4)*Subscript[s, \[Gamma]]^4)) - 
-           16*\[Xi]*Subscript[c, \[Gamma]]^7*((2 + 8*\[Xi]^2)*
-              Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)*
-            Subscript[s, \[Gamma]]*((1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*
-              Subscript[s, \[Gamma]]^2*(-144*\[Xi]^2 + 2*(-81 + 406*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + (525 - 4108*\[Xi]^2 + 768*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4) + 3*(1 + 4*\[Xi]^2)*
+           8*\[Xi]*Subscript[c, \[Gamma]]^7*((2 + 8*\[Xi]^2)*Subscript[m, 
+                K]^2 - 3*Subscript[m, \[Phi]]^2)*Subscript[s, \[Gamma]]*
+            ((1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[s, \[Gamma]]^2*
+              (-288*\[Xi]^2 + (-369 + 1624*\[Xi]^2)*Subscript[s, \[Gamma]]^
+                 2 + (1155 - 9656*\[Xi]^2 + 1536*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^4) - (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*
+              Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^2*
+              (-3600*\[Xi]^2 + (-3201 + 33068*\[Xi]^2 - 4608*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + 3*(2773 - 28352*\[Xi]^2 + 
+                 4608*\[Xi]^4)*Subscript[s, \[Gamma]]^4) + 3*(1 + 4*\[Xi]^2)*
               Subscript[m, K]^2*Subscript[m, \[Phi]]^4*Subscript[s, \[Gamma]]^
-               2*(4*\[Xi]^2*(-565 + 192*\[Xi]^2) + (-1113 + 17584*\[Xi]^2 - 
-                 4608*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 3*(937 - 
-                 10744*\[Xi]^2 + 2304*\[Xi]^4)*Subscript[s, \[Gamma]]^4) - 
-             (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^2*
-              Subscript[s, \[Gamma]]^2*(-1800*\[Xi]^2 + (-1413 + 
-                 15574*\[Xi]^2 - 2304*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
-               (3777 - 36768*\[Xi]^2 + 6912*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4) - 6*Subscript[m, \[Phi]]^6*(-128*\[Xi]^4 + 12*\[Xi]^2*
-                (-95 + 96*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 36*
-                (11 - 227*\[Xi]^2 + 96*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 9*
-                (112 - 1475*\[Xi]^2 + 384*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 6)) + 2*\[Xi]*Subscript[c, \[Gamma]]^5*Subscript[s, 
-             \[Gamma]]*(4*(1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*
-              Subscript[s, \[Gamma]]^2*(-48*\[Xi]^2 + 2*(-210 - 807*\[Xi]^2 + 
-                 1114*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (-540 + 
-                 5231*\[Xi]^2 - 10392*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
-               (1714 - 17529*\[Xi]^2 + 13588*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 6) - 2*(1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, 
-                \[Phi]]^2*Subscript[s, \[Gamma]]^2*(64*\[Xi]^2*
-                (117 - 226*\[Xi]^2) + 3*(1537 - 50346*\[Xi]^2 + 
-                 54740*\[Xi]^4)*Subscript[s, \[Gamma]]^2 - 6*(7875 - 
-                 92958*\[Xi]^2 + 88900*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 18*
-                (3381 - 38987*\[Xi]^2 + 28334*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 6) - 2*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, 
-                \[Phi]]^6*(24384*\[Xi]^4 - 8*\[Xi]^2*(-21579 + 70924*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + 72*(992 - 29515*\[Xi]^2 + 
-                 50122*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 18*(21131 - 
-                 389342*\[Xi]^2 + 467872*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
-               81*(5473 - 84880*\[Xi]^2 + 78656*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^8) + 3*Subscript[m, \[Phi]]^8*(14336*\[Xi]^4 - 
-               960*\[Xi]^2*(-79 + 368*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 24*
-                (1089 - 39124*\[Xi]^2 + 87584*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 - 72*(1921 - 43668*\[Xi]^2 + 63672*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + 27*(6377 - 113232*\[Xi]^2 + 
-                 122240*\[Xi]^4)*Subscript[s, \[Gamma]]^8) + 
+               2*(24*\[Xi]^2*(-195 + 64*\[Xi]^2) + (-2541 + 38528*\[Xi]^2 - 
+                 9216*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 3*(2069 - 
+                 24848*\[Xi]^2 + 4608*\[Xi]^4)*Subscript[s, \[Gamma]]^4) - 
+             3*Subscript[m, \[Phi]]^6*(-512*\[Xi]^4 + 144*\[Xi]^2*
+                (-35 + 32*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 9*
+                (201 - 4112*\[Xi]^2 + 1536*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4 + 9*(493 - 6860*\[Xi]^2 + 1536*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6)) + 2*\[Xi]*Subscript[c, \[Gamma]]^5*
+            Subscript[s, \[Gamma]]*(2*(1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*
+              Subscript[s, \[Gamma]]^2*(-96*\[Xi]^2 + (-870 - 4848*\[Xi]^2 + 
+                 4456*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (-1095 + 
+                 9742*\[Xi]^2 - 23184*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 8*
+                (436 - 4416*\[Xi]^2 + 4177*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6) - (1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, 
+                \[Phi]]^2*Subscript[s, \[Gamma]]^2*(32*\[Xi]^2*
+                (543 - 904*\[Xi]^2) + 12*(891 - 28703*\[Xi]^2 + 
+                 29450*\[Xi]^4)*Subscript[s, \[Gamma]]^2 - 6*(16975 - 
+                 199076*\[Xi]^2 + 202440*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
+               9*(14249 - 166228*\[Xi]^2 + 135736*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6) + 9*Subscript[m, \[Phi]]^8*
+              (5632*\[Xi]^4 - 160*\[Xi]^2*(-173 + 840*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (9882 - 340112*\[Xi]^2 + 
+                 796672*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 6*(8329 - 
+                 187632*\[Xi]^2 + 291168*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
+               9*(6677 - 120192*\[Xi]^2 + 141440*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^8) - (1 + 4*\[Xi]^2)*Subscript[m, K]^2*
+              Subscript[m, \[Phi]]^6*(52608*\[Xi]^4 - 16*\[Xi]^2*
+                (-23919 + 78364*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 36*
+                (4513 - 129670*\[Xi]^2 + 224968*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^4 - 18*(46147 - 844024*\[Xi]^2 + 1068224*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + 81*(11591 - 182280*\[Xi]^2 + 
+                 183552*\[Xi]^4)*Subscript[s, \[Gamma]]^8) + 
              3*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^4*
-              (4608*\[Xi]^4 - 16*\[Xi]^2*(-3109 + 7514*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + 4*(6441 - 167951*\[Xi]^2 + 
-                 221180*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 96*(1589 - 
-                 23728*\[Xi]^2 + 24139*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 3*
-                (59001 - 792620*\[Xi]^2 + 635568*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^8)) + 4*Subscript[c, \[Gamma]]^6*
-            ((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^4*
-              (-4*\[Xi]^2*(207 + 944*\[Xi]^2) + (351 - 4268*\[Xi]^2 + 
-                 17376*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 3*(-159 + 
-                 6648*\[Xi]^2 - 14656*\[Xi]^4 + 512*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^4) - 6*(1 + 4*\[Xi]^2)^3*
+              (4608*\[Xi]^4 - 16*\[Xi]^2*(-3459 + 8014*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + 4*(7321 - 185751*\[Xi]^2 + 
+                 244620*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 12*(13867 - 
+                 205664*\[Xi]^2 + 220392*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
+               3*(62691 - 853520*\[Xi]^2 + 749808*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8)) + 2*Subscript[c, \[Gamma]]^6*
+            (4*(1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^4*
+              (-2*\[Xi]^2*(147 + 944*\[Xi]^2) + 2*(99 - 1262*\[Xi]^2 + 
+                 4464*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 3*(-87 + 
+                 3664*\[Xi]^2 - 8848*\[Xi]^4 + 256*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^4) - 3*(1 + 4*\[Xi]^2)^3*
               Subscript[m, K]^6*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^
-               2*(960*\[Xi]^4 - 4*\[Xi]^2*(-537 + 3704*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + (531 - 21507*\[Xi]^2 + 
-                 67472*\[Xi]^4 - 1024*\[Xi]^6)*Subscript[s, \[Gamma]]^4 + 
-               (-759 + 42019*\[Xi]^2 - 101304*\[Xi]^4 + 3072*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^6) - 6*(1 + 4*\[Xi]^2)*
+               2*(3840*\[Xi]^4 - 8*\[Xi]^2*(-1319 + 7608*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (2379 - 96388*\[Xi]^2 + 
+                 290208*\[Xi]^4 - 4096*\[Xi]^6)*Subscript[s, \[Gamma]]^4 + 
+               (-3291 + 185176*\[Xi]^2 - 473856*\[Xi]^4 + 12288*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^6) - 3*(1 + 4*\[Xi]^2)*
               Subscript[m, K]^2*Subscript[m, \[Phi]]^6*Subscript[s, \[Gamma]]^
-               2*(16*\[Xi]^4*(943 - 64*\[Xi]^2) + 24*\[Xi]^2*(1053 - 
-                 8318*\[Xi]^2 + 384*\[Xi]^4)*Subscript[s, \[Gamma]]^2 - 3*
-                (-711 + 56218*\[Xi]^2 - 245800*\[Xi]^4 + 9216*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^4 + 9*(-383 + 28708*\[Xi]^2 - 
-                 89760*\[Xi]^4 + 3072*\[Xi]^6)*Subscript[s, \[Gamma]]^6) + 
+               2*(64*\[Xi]^4*(1023 - 64*\[Xi]^2) + 48*\[Xi]^2*(2441 - 
+                 18156*\[Xi]^2 + 768*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
+               (9477 - 759936*\[Xi]^2 + 3286560*\[Xi]^4 - 110592*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^4 + 9*(-1637 + 126172*\[Xi]^2 - 
+                 413760*\[Xi]^4 + 12288*\[Xi]^6)*Subscript[s, \[Gamma]]^6) + 
              3*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^4*
-              Subscript[s, \[Gamma]]^2*(13184*\[Xi]^4 + 128*\[Xi]^2*
-                (218 - 1421*\[Xi]^2 + 24*\[Xi]^4)*Subscript[s, \[Gamma]]^2 - 
-               3*(-1101 + 67168*\[Xi]^2 - 244960*\[Xi]^4 + 6144*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^4 + 3*(-1661 + 108882*\[Xi]^2 - 
-                 299360*\[Xi]^4 + 9216*\[Xi]^6)*Subscript[s, \[Gamma]]^6) + 
-             12*Subscript[m, \[Phi]]^8*(128*\[Xi]^6 - 48*\[Xi]^4*
-                (-115 + 32*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
-               (7209*\[Xi]^2 - 71520*\[Xi]^4 + 6912*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^4 - 18*(-27 + 2650*\[Xi]^2 - 
-                 13854*\[Xi]^4 + 768*\[Xi]^6)*Subscript[s, \[Gamma]]^6 + 108*
-                (-8 + 679*\[Xi]^2 - 2373*\[Xi]^4 + 96*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^8)) + \[Xi]*Subscript[c, \[Gamma]]^3*
-            Subscript[s, \[Gamma]]*(-2*(1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*
-              Subscript[s, \[Gamma]]^2*(804*\[Xi]^2 + 640*\[Xi]^4 - 6*
-                (-47 + 235*\[Xi]^2 + 1928*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
-               (-1093 - 32700*\[Xi]^2 + 51612*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 + (-674 + 63508*\[Xi]^2 - 86488*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + (1733 - 38914*\[Xi]^2 + 
-                 45804*\[Xi]^4)*Subscript[s, \[Gamma]]^8) - 
-             6*Subscript[m, \[Phi]]^8*Subscript[s, \[Gamma]]^2*
-              (768*\[Xi]^2*(-47 + 579*\[Xi]^2) - 4*(3537 - 276516*\[Xi]^2 + 
-                 1127392*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 3*(52245 - 
-                 1850464*\[Xi]^2 + 5131136*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 - 9*(38153 - 1063348*\[Xi]^2 + 2413376*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + 216*(1012 - 24941*\[Xi]^2 + 
-                 50528*\[Xi]^4)*Subscript[s, \[Gamma]]^8) + (1 + 4*\[Xi]^2)^3*
-              Subscript[m, K]^6*Subscript[m, \[Phi]]^2*(-1344*\[Xi]^4 + 128*
-                \[Xi]^2*(57 + 659*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 2*
-                (363 - 163472*\[Xi]^2 + 509480*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^4 + 3*(29982 - 825547*\[Xi]^2 + 1315920*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + (-263143 + 4753946*\[Xi]^2 - 
-                 5982576*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 3*(62065 - 
-                 950719*\[Xi]^2 + 1029488*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 10) + 2*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, 
-                \[Phi]]^6*(-6528*\[Xi]^4 + 16*\[Xi]^2*(-8811 + 93898*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 - 3*(21615 - 1499852*\[Xi]^2 + 
-                 5038944*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 9*(84523 - 
-                 2559974*\[Xi]^2 + 5719840*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 6 - 36*(47487 - 1109338*\[Xi]^2 + 1997560*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 + 27*(40313 - 830336*\[Xi]^2 + 
-                 1316096*\[Xi]^4)*Subscript[s, \[Gamma]]^10) - 
-             2*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^4*
-              (-3744*\[Xi]^4 + 4*\[Xi]^2*(-9033 + 115268*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 - 6*(4179 - 284765*\[Xi]^2 + 
-                 823800*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 3*(120809 - 
-                 3179661*\[Xi]^2 + 5848464*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 6 - 18*(47994 - 948441*\[Xi]^2 + 1390696*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 + 9*(62427 - 1085721*\[Xi]^2 + 
-                 1385744*\[Xi]^4)*Subscript[s, \[Gamma]]^10)) + 
-           Subscript[c, \[Gamma]]^4*(-((1 + 4*\[Xi]^2)^4*Subscript[m, K]^
-                8*Subscript[s, \[Gamma]]^2*(-528*\[Xi]^4 + 72*\[Xi]^2*
-                 (-11 + 96*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
-                (369 - 1288*\[Xi]^2 - 70350*\[Xi]^4 + 9248*\[Xi]^6)*
-                 Subscript[s, \[Gamma]]^4 - 2*(-9 + 5322*\[Xi]^2 - 
-                  77958*\[Xi]^4 + 17984*\[Xi]^6)*Subscript[s, \[Gamma]]^6 + 
-                (-475 + 32236*\[Xi]^2 - 151470*\[Xi]^4 + 26720*\[Xi]^6)*
-                 Subscript[s, \[Gamma]]^8)) + Subscript[m, \[Phi]]^8*
-              Subscript[s, \[Gamma]]^2*(256*\[Xi]^4*(891 - 1796*\[Xi]^2) + 48*
-                \[Xi]^2*(6921 - 128572*\[Xi]^2 + 96384*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 - 9*(-3051 + 418016*\[Xi]^2 - 
-                 4023712*\[Xi]^4 + 1838336*\[Xi]^6)*Subscript[s, \[Gamma]]^
-                 4 + 54*(-1779 + 192814*\[Xi]^2 - 1376928*\[Xi]^4 + 
-                 460416*\[Xi]^6)*Subscript[s, \[Gamma]]^6 - 324*
-                (-287 + 25691*\[Xi]^2 - 153352*\[Xi]^4 + 41216*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^8) + 4*(1 + 4*\[Xi]^2)^3*
+              Subscript[s, \[Gamma]]^2*(27648*\[Xi]^4 + 32*\[Xi]^2*
+                (2029 - 12063*\[Xi]^2 + 192*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 2 + (7371 - 453168*\[Xi]^2 + 1611840*\[Xi]^4 - 
+                 36864*\[Xi]^6)*Subscript[s, \[Gamma]]^4 + 3*(-3577 + 
+                 240204*\[Xi]^2 - 692320*\[Xi]^4 + 18432*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^6) + 3*Subscript[m, \[Phi]]^8*
+              (1024*\[Xi]^6 - 768*\[Xi]^4*(-65 + 16*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + 48*\[Xi]^2*(1389 - 13360*\[Xi]^2 + 
+                 1152*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 9*(-477 + 
+                 47560*\[Xi]^2 - 250464*\[Xi]^4 + 12288*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^6 + 27*(-271 + 23648*\[Xi]^2 - 
+                 87456*\[Xi]^4 + 3072*\[Xi]^6)*Subscript[s, \[Gamma]]^8)) + 
+           \[Xi]*Subscript[c, \[Gamma]]^3*Subscript[s, \[Gamma]]*
+            (-2*(1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*
+              (16*\[Xi]^2*(39 + 40*\[Xi]^2) - 6*(-17 + 300*\[Xi]^2 + 
+                 2168*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 2*(-554 - 
+                 13845*\[Xi]^2 + 26736*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
+               (-89 + 49768*\[Xi]^2 - 81568*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6 + (1343 - 30034*\[Xi]^2 + 40464*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8) - 6*Subscript[m, \[Phi]]^8*
+              Subscript[s, \[Gamma]]^2*(32*\[Xi]^2*(-2193 + 15536*\[Xi]^2) - 
+               16*(1458 - 86199*\[Xi]^2 + 311128*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^2 + 3*(62415 - 2093224*\[Xi]^2 + 5621696*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 - 9*(41873 - 1151188*\[Xi]^2 + 
+                 2624576*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 54*
+                (4273 - 105344*\[Xi]^2 + 217952*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^8) + 2*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*
+              Subscript[m, \[Phi]]^6*(-10368*\[Xi]^4 + 16*\[Xi]^2*
+                (-19191 + 109018*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 3*
+                (39225 - 1943692*\[Xi]^2 + 5696224*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 + 27*(34891 - 985738*\[Xi]^2 + 
+                 2130880*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 9*(213453 - 
+                 4879552*\[Xi]^2 + 8857600*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 8 + 108*(10847 - 222344*\[Xi]^2 + 362264*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^10) + (1 + 4*\[Xi]^2)^3*
+              Subscript[m, K]^6*Subscript[m, \[Phi]]^2*(-1344*\[Xi]^4 + 4*
+                \[Xi]^2*(-3111 + 23788*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 2*
+                (6543 - 234032*\[Xi]^2 + 566000*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^4 + 3*(41782 - 929307*\[Xi]^2 + 1436560*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + (-298573 + 4993346*\[Xi]^2 - 
+                 6434016*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 3*(66235 - 
+                 971899*\[Xi]^2 + 1097888*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 10) - 2*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, 
+                \[Phi]]^4*(-5184*\[Xi]^4 + 2*\[Xi]^2*(-57261 + 269056*
+                  \[Xi]^2)*Subscript[s, \[Gamma]]^2 - 6*(9474 - 
+                 386985*\[Xi]^2 + 934040*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
+               3*(156224 - 3709821*\[Xi]^2 + 6550384*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 - 9*(109693 - 2086742*\[Xi]^2 + 
+                 3089392*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 9*(67887 - 
+                 1161291*\[Xi]^2 + 1530704*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 10)) - Subscript[c, \[Gamma]]^4*((1 + 4*\[Xi]^2)^4*
+              Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*(-528*\[Xi]^4 + 24*
+                \[Xi]^2*(-13 + 318*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
+               (459 - 5548*\[Xi]^2 - 82110*\[Xi]^4 + 9248*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^4 - 2*(81 - 318*\[Xi]^2 - 
+                 69318*\[Xi]^4 + 21824*\[Xi]^6)*Subscript[s, \[Gamma]]^6 + 
+               (-385 + 25186*\[Xi]^2 - 130350*\[Xi]^4 + 34400*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^8) + Subscript[m, \[Phi]]^8*
+              Subscript[s, \[Gamma]]^2*(256*\[Xi]^4*(-1131 + 2036*\[Xi]^2) - 
+               48*\[Xi]^2*(7641 - 144292*\[Xi]^2 + 109824*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + 9*(-3321 + 445256*\[Xi]^2 - 
+                 4356832*\[Xi]^4 + 2114816*\[Xi]^6)*Subscript[s, \[Gamma]]^
+                 4 - 54*(-1869 + 201574*\[Xi]^2 - 1464288*\[Xi]^4 + 
+                 537216*\[Xi]^6)*Subscript[s, \[Gamma]]^6 + 162*
+                (-589 + 53002*\[Xi]^2 - 322544*\[Xi]^4 + 97792*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^8) - 2*(1 + 4*\[Xi]^2)^3*
               Subscript[m, K]^6*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^
-               2*(-2064*\[Xi]^4 - 2*\[Xi]^2*(2913 - 44962*\[Xi]^2 + 
-                 5732*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 3*(-363 + 
-                 31938*\[Xi]^2 - 209668*\[Xi]^4 + 35784*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^4 + (5163 - 309719*\[Xi]^2 + 
-                 1410654*\[Xi]^4 - 256856*\[Xi]^6)*Subscript[s, \[Gamma]]^6 + 
-               3*(-1553 + 93779*\[Xi]^2 - 353146*\[Xi]^4 + 57336*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^8) - (1 + 4*\[Xi]^2)^2*
+               2*(-5208*\[Xi]^4 - 4*\[Xi]^2*(2823 - 50422*\[Xi]^2 + 
+                 5732*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 6*(-363 + 
+                 31493*\[Xi]^2 - 229228*\[Xi]^4 + 39624*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^4 + (10461 - 615748*\[Xi]^2 + 
+                 2921148*\[Xi]^4 - 621232*\[Xi]^6)*Subscript[s, \[Gamma]]^6 + 
+               3*(-3151 + 188518*\[Xi]^2 - 722012*\[Xi]^4 + 145392*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^8) + (1 + 4*\[Xi]^2)^2*
               Subscript[m, K]^4*Subscript[m, \[Phi]]^4*Subscript[s, \[Gamma]]^
-               2*(16*\[Xi]^4*(-6435 + 2792*\[Xi]^2) - 24*\[Xi]^2*
-                (9435 - 129390*\[Xi]^2 + 34936*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^2 + 6*(-4839 + 469144*\[Xi]^2 - 3143520*\[Xi]^4 + 
-                 731232*\[Xi]^6)*Subscript[s, \[Gamma]]^4 - 36*(-3015 + 
-                 220589*\[Xi]^2 - 1101940*\[Xi]^4 + 226800*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^6 + 9*(-10389 + 712604*\[Xi]^2 - 
-                 3035400*\[Xi]^4 + 545216*\[Xi]^6)*Subscript[s, \[Gamma]]^
-                 8) + 2*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, 
-                \[Phi]]^6*(-2304*\[Xi]^6 + 128*\[Xi]^4*(-1200 + 1321*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 - 8*\[Xi]^2*(32679 - 501378*
-                  \[Xi]^2 + 237848*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 72*
-                (-354 + 41223*\[Xi]^2 - 323714*\[Xi]^4 + 105848*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^6 - 18*(-5046 + 449591*\[Xi]^2 - 
-                 2650696*\[Xi]^4 + 683776*\[Xi]^6)*Subscript[s, \[Gamma]]^8 + 
-               27*(-2999 + 235898*\[Xi]^2 - 1179824*\[Xi]^4 + 254592*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^10)) + Subscript[s, \[Gamma]]^2*
-            (-((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*(-1 + Subscript[s, 
-                   \[Gamma]]^2)^2*(-24*\[Xi]^4 - \[Xi]^2*(63 + 184*\[Xi]^2)*
-                 Subscript[s, \[Gamma]]^2 + (-54 + 141*\[Xi]^2 - 
-                  1662*\[Xi]^4 + 2048*\[Xi]^6)*Subscript[s, \[Gamma]]^4 + 
-                (108 - 1335*\[Xi]^2 + 11270*\[Xi]^4 - 2944*\[Xi]^6)*
-                 Subscript[s, \[Gamma]]^6 + (-54 + 1581*\[Xi]^2 - 
-                  4444*\[Xi]^4 + 896*\[Xi]^6)*Subscript[s, \[Gamma]]^8)) - 
-             16*\[Xi]^2*Subscript[m, \[Phi]]^8*Subscript[s, \[Gamma]]^2*
-              (96*\[Xi]^2*(103 - 96*\[Xi]^2) + (11313 - 160972*\[Xi]^2 + 
-                 106496*\[Xi]^4)*Subscript[s, \[Gamma]]^2 - 6*(10251 - 
-                 116186*\[Xi]^2 + 69632*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
-               27*(4526 - 47903*\[Xi]^2 + 27904*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^6 - 54*(1950 - 20437*\[Xi]^2 + 11936*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 + 81*(411 - 4409*\[Xi]^2 + 
-                 2624*\[Xi]^4)*Subscript[s, \[Gamma]]^10) + (1 + 4*\[Xi]^2)^3*
-              Subscript[m, K]^6*Subscript[m, \[Phi]]^2*(-1 + Subscript[s, 
-                 \[Gamma]]^2)*(144*\[Xi]^4 + \[Xi]^2*(207 - 1448*\[Xi]^2 + 
-                 6528*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (108 - 
-                 4101*\[Xi]^2 + 106524*\[Xi]^4 - 72704*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^4 + (-216 + 35739*\[Xi]^2 - 
-                 451952*\[Xi]^4 + 184960*\[Xi]^6)*Subscript[s, \[Gamma]]^6 + 
-               (108 - 73137*\[Xi]^2 + 571264*\[Xi]^4 - 174848*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^8 + 12*\[Xi]^2*(3441 - 18361*\[Xi]^2 + 
-                 4672*\[Xi]^4)*Subscript[s, \[Gamma]]^10) + 
-             4*\[Xi]^2*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^
-               6*Subscript[s, \[Gamma]]^2*(36 + 44344*\[Xi]^2 - 44544*
-                \[Xi]^4 + (61536 - 790660*\[Xi]^2 + 481280*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 + (-353991 + 3484384*\[Xi]^2 - 
-                 1747328*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 36*
-                (20471 - 179321*\[Xi]^2 + 80608*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^6 - 27*(24473 - 201856*\[Xi]^2 + 84480*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 + 54*(4005 - 32104*\[Xi]^2 + 
-                 12800*\[Xi]^4)*Subscript[s, \[Gamma]]^10) - 
-             2*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^4*
-              (-108*\[Xi]^4 + (23900*\[Xi]^4 - 30720*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^2 + (-27 + 42576*\[Xi]^2 - 
-                 544466*\[Xi]^4 + 329472*\[Xi]^6)*Subscript[s, \[Gamma]]^4 - 
-               6*(-9 + 44683*\[Xi]^2 - 416572*\[Xi]^4 + 186944*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^6 + 3*(-9 + 198240*\[Xi]^2 - 
-                 1536588*\[Xi]^4 + 570752*\[Xi]^6)*Subscript[s, \[Gamma]]^8 - 
-               36*\[Xi]^2*(15486 - 105549*\[Xi]^2 + 34016*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^10 + 54*\[Xi]^2*(3487 - 
-                 21665*\[Xi]^2 + 6208*\[Xi]^4)*Subscript[s, \[Gamma]]^12)) + 
-           2*\[Xi]*Subscript[c, \[Gamma]]*Subscript[s, \[Gamma]]*
-            ((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*
-              (-1 + Subscript[s, \[Gamma]]^2)*(-32*\[Xi]^2*(3 + \[Xi]^2) + 
-               (-144 + 601*\[Xi]^2 - 3824*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
-               6*(123 - 778*\[Xi]^2 + 3896*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 + (-1881 + 18325*\[Xi]^2 - 30556*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + (1287 - 11894*\[Xi]^2 + 
-                 11036*\[Xi]^4)*Subscript[s, \[Gamma]]^8) + 
-             Subscript[m, \[Phi]]^8*Subscript[s, \[Gamma]]^2*
-              (-370176*\[Xi]^4 + (972 - 907008*\[Xi]^2 + 5376256*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 - 3*(32913 - 2093032*\[Xi]^2 + 
-                 8255104*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 27*
-                (13731 - 566060*\[Xi]^2 + 1878336*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 - 27*(16779 - 584892*\[Xi]^2 + 
-                 1785536*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 81*
-                (2223 - 73064*\[Xi]^2 + 214592*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^10) - (1 + 4*\[Xi]^2)*Subscript[m, K]^2*
+               2*(64*\[Xi]^4*(-2025 + 698*\[Xi]^2) - 24*\[Xi]^2*
+                (10215 - 146250*\[Xi]^2 + 37816*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^2 + 6*(-5169 + 494014*\[Xi]^2 - 3437360*\[Xi]^4 + 
+                 832352*\[Xi]^6)*Subscript[s, \[Gamma]]^4 - 36*(-3160 + 
+                 230239*\[Xi]^2 - 1173220*\[Xi]^4 + 270960*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^6 + 9*(-10749 + 739994*\[Xi]^2 - 
+                 3203160*\[Xi]^4 + 675776*\[Xi]^6)*Subscript[s, \[Gamma]]^
+                 8) - 2*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, 
+                \[Phi]]^6*(-2304*\[Xi]^6 + 64*\[Xi]^4*(-3075 + 2882*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 - 16*\[Xi]^2*(18057 - 285189*
+                  \[Xi]^2 + 133324*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 18*
+                (-1536 + 176277*\[Xi]^2 - 1418056*\[Xi]^4 + 486112*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^6 - 9*(-10647 + 947092*\[Xi]^2 - 
+                 5683952*\[Xi]^4 + 1613312*\[Xi]^6)*Subscript[s, \[Gamma]]^
+                 8 + 216*(-388 + 30721*\[Xi]^2 - 156538*\[Xi]^4 + 
+                 38544*\[Xi]^6)*Subscript[s, \[Gamma]]^10)) + 
+           Subscript[s, \[Gamma]]^2*(-((1 + 4*\[Xi]^2)^4*Subscript[m, K]^
+                8*(-1 + Subscript[s, \[Gamma]]^2)^2*(-24*\[Xi]^4 - 
+                \[Xi]^2*(63 + 184*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
+                (-54 + 861*\[Xi]^2 - 1302*\[Xi]^4 + 2048*\[Xi]^6)*
+                 Subscript[s, \[Gamma]]^4 + (108 - 5415*\[Xi]^2 + 
+                  11390*\[Xi]^4 - 2944*\[Xi]^6)*Subscript[s, \[Gamma]]^6 + 
+                (-54 + 5181*\[Xi]^2 - 4924*\[Xi]^4 + 896*\[Xi]^6)*
+                 Subscript[s, \[Gamma]]^8)) - 16*\[Xi]^2*Subscript[m, \[Phi]]^
+               8*Subscript[s, \[Gamma]]^2*(192*\[Xi]^2*(59 - 48*\[Xi]^2) + 
+               (19413 - 181132*\[Xi]^2 + 106496*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^2 - 3*(34677 - 259492*\[Xi]^2 + 139264*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 + 27*(7451 - 53163*\[Xi]^2 + 
+                 27904*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 27*(6225 - 
+                 45074*\[Xi]^2 + 23872*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 81*
+                (636 - 4829*\[Xi]^2 + 2624*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 10) + 4*\[Xi]^2*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*
               Subscript[m, \[Phi]]^6*Subscript[s, \[Gamma]]^2*
-              (-24*\[Xi]^2*(129 + 18272*\[Xi]^2) + 6*(171 - 187619*\[Xi]^2 + 
-                 1054912*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (-146187 + 
-                 8308952*\[Xi]^2 - 28690112*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 + 18*(32969 - 1165235*\[Xi]^2 + 3178864*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 - 27*(28401 - 820092*\[Xi]^2 + 
-                 1948288*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 54*
-                (5907 - 155102*\[Xi]^2 + 338432*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^10) - (1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*
-              Subscript[m, \[Phi]]^2*(-96*\[Xi]^4 - 14*\[Xi]^2*
-                (21 + 592*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 2*
-                (-135 - 7688*\[Xi]^2 + 102628*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 + (-5793 + 243619*\[Xi]^2 - 1049120*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + 3*(11969 - 275497*\[Xi]^2 + 
-                 684392*\[Xi]^4)*Subscript[s, \[Gamma]]^8 - 2*(27477 - 
-                 499797*\[Xi]^2 + 868256*\[Xi]^4)*Subscript[s, \[Gamma]]^10 + 
-               6*(4185 - 67034*\[Xi]^2 + 89264*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^12) + (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*
-              Subscript[m, \[Phi]]^4*(-288*\[Xi]^4 - 2*\[Xi]^2*(1539 + 
-                 65744*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (-360 - 
-                 344895*\[Xi]^2 + 2096272*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 
-               3*(19913 - 983492*\[Xi]^2 + 3227600*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + 3*(91175 - 2670654*\[Xi]^2 + 
-                 6327648*\[Xi]^4)*Subscript[s, \[Gamma]]^8 - 36*
-                (10446 - 244279*\[Xi]^2 + 467660*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^10 + 27*(6026 - 125725*\[Xi]^2 + 207008*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^12)) + Subscript[c, \[Gamma]]^2*
-            ((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*
-              (-336*\[Xi]^4 + \[Xi]^2*(-489 + 768*\[Xi]^2 + 1408*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 - (243 + 2728*\[Xi]^2 - 
-                 26732*\[Xi]^4 + 20448*\[Xi]^6)*Subscript[s, \[Gamma]]^4 + 
-               (357 + 27172*\[Xi]^2 - 132840*\[Xi]^4 + 57792*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^6 + (15 - 48414*\[Xi]^2 + 
-                 179496*\[Xi]^4 - 59872*\[Xi]^6)*Subscript[s, \[Gamma]]^8 + 
-               (-129 + 25035*\[Xi]^2 - 73820*\[Xi]^4 + 21120*\[Xi]^6)*
+              (36 + 53944*\[Xi]^2 - 44544*\[Xi]^4 + 4*(30459 - 229105*
+                  \[Xi]^2 + 120320*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
+               (-678711 + 3979984*\[Xi]^2 - 1747328*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 + 18*(75297 - 406122*\[Xi]^2 + 
+                 161216*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 27*(43133 - 
+                 227016*\[Xi]^2 + 84480*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 
+               216*(1695 - 8971*\[Xi]^2 + 3200*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^10) + (1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*
+              Subscript[m, \[Phi]]^2*(-1 + Subscript[s, \[Gamma]]^2)*
+              (144*\[Xi]^4 + \[Xi]^2*(207 - 2888*\[Xi]^2 + 6528*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + (108 - 30261*\[Xi]^2 + 
+                 125724*\[Xi]^4 - 72704*\[Xi]^6)*Subscript[s, \[Gamma]]^4 + 
+               (-216 + 161739*\[Xi]^2 - 520952*\[Xi]^4 + 184960*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^6 + (108 - 251097*\[Xi]^2 + 
+                 658384*\[Xi]^4 - 174848*\[Xi]^6)*Subscript[s, \[Gamma]]^8 + 
+               12*\[Xi]^2*(9951 - 21271*\[Xi]^2 + 4672*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^10) - 2*(1 + 4*\[Xi]^2)^2*
+              Subscript[m, K]^4*Subscript[m, \[Phi]]^4*(-108*\[Xi]^4 + 
+               (33020*\[Xi]^4 - 30720*\[Xi]^6)*Subscript[s, \[Gamma]]^2 + 
+               (-27 + 113256*\[Xi]^2 - 656666*\[Xi]^4 + 329472*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^4 - 6*(-9 + 109943*\[Xi]^2 - 
+                 488572*\[Xi]^4 + 186944*\[Xi]^6)*Subscript[s, \[Gamma]]^6 + 
+               3*(-9 + 452320*\[Xi]^2 - 1780508*\[Xi]^4 + 570752*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^8 - 36*\[Xi]^2*(33056 - 121449*
+                  \[Xi]^2 + 34016*\[Xi]^4)*Subscript[s, \[Gamma]]^10 + 54*
+                \[Xi]^2*(7027 - 24805*\[Xi]^2 + 6208*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^12)) + 2*\[Xi]*Subscript[c, \[Gamma]]*
+            Subscript[s, \[Gamma]]*((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*
+              Subscript[s, \[Gamma]]^2*(-1 + Subscript[s, \[Gamma]]^2)*
+              (-32*\[Xi]^2*(3 + \[Xi]^2) + (-234 + 2176*\[Xi]^2 - 
+                 3104*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 6*(263 - 
+                 2423*\[Xi]^2 + 3816*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
+               (-3321 + 35860*\[Xi]^2 - 31216*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6 + (1977 - 20894*\[Xi]^2 + 11456*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8) + Subscript[m, \[Phi]]^8*
+              Subscript[s, \[Gamma]]^2*(192*\[Xi]^2*(15 - 2168*\[Xi]^2) + 4*
+                (4293 - 325392*\[Xi]^2 + 1513984*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^2 - 3*(69363 - 2828392*\[Xi]^2 + 9203584*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 + 27*(22281 - 731060*\[Xi]^2 + 
+                 2068736*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 189*
+                (3447 - 103956*\[Xi]^2 + 277568*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^8 + 81*(2973 - 88064*\[Xi]^2 + 230912*\[Xi]^4)*
                 Subscript[s, \[Gamma]]^10) - (1 + 4*\[Xi]^2)*Subscript[m, 
                 K]^2*Subscript[m, \[Phi]]^6*Subscript[s, \[Gamma]]^2*
-              (-32*\[Xi]^4*(117 + 10960*\[Xi]^2) + (76140*\[Xi]^2 - 
-                 5200464*\[Xi]^4 + 6112000*\[Xi]^6)*Subscript[s, \[Gamma]]^
-                 2 + (621 - 3351438*\[Xi]^2 + 44856344*\[Xi]^4 - 
-                 31744512*\[Xi]^6)*Subscript[s, \[Gamma]]^4 + 9*
-                (-7899 + 1666790*\[Xi]^2 - 14570056*\[Xi]^4 + 7889920*
-                  \[Xi]^6)*Subscript[s, \[Gamma]]^6 - 18*(-8757 + 
-                 1227090*\[Xi]^2 - 8826968*\[Xi]^4 + 4024320*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^8 + 1296*(-68 + 8118*\[Xi]^2 - 
-                 52859*\[Xi]^4 + 21408*\[Xi]^6)*Subscript[s, \[Gamma]]^10) - 
+              (24*\[Xi]^2*(71 - 21632*\[Xi]^2) + 6*(5196 - 304419*\[Xi]^2 + 
+                 1234112*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (-356607 + 
+                 12279152*\[Xi]^2 - 33017792*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4 + 27*(39091 - 1078010*\[Xi]^2 + 2401536*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 - 27*(43711 - 1085152*\[Xi]^2 + 
+                 2177568*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 27*
+                (16689 - 395344*\[Xi]^2 + 747424*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^10) + (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*
+              Subscript[m, \[Phi]]^4*(-288*\[Xi]^4 - 2*\[Xi]^2*
+                (399 + 84704*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (17310 - 
+                 730725*\[Xi]^2 + 2568832*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 
+               3*(62683 - 1722452*\[Xi]^2 + 3843920*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + 3*(187995 - 4197794*\[Xi]^2 + 
+                 7385408*\[Xi]^4)*Subscript[s, \[Gamma]]^8 - 18*
+                (35727 - 714028*\[Xi]^2 + 1074760*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^10 + 27*(9256 - 174275*\[Xi]^2 + 
+                 234848*\[Xi]^4)*Subscript[s, \[Gamma]]^12) - 
              (1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, \[Phi]]^2*
-              Subscript[s, \[Gamma]]^2*(-16*\[Xi]^4*(255 + 248*\[Xi]^2) + 32*
-                \[Xi]^2*(-306 - 2989*\[Xi]^2 + 4664*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 - (1413 + 105501*\[Xi]^2 - 
-                 1468850*\[Xi]^4 + 963776*\[Xi]^6)*Subscript[s, \[Gamma]]^4 + 
-               3*(-1047 + 269497*\[Xi]^2 - 1734386*\[Xi]^4 + 752320*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^6 - 3*(-4023 + 474421*\[Xi]^2 - 
-                 2252482*\[Xi]^4 + 745024*\[Xi]^6)*Subscript[s, \[Gamma]]^8 + 
-               9*(-839 + 82499*\[Xi]^2 - 329994*\[Xi]^4 + 88512*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^10) + 3*Subscript[m, \[Phi]]^8*
-              Subscript[s, \[Gamma]]^2*(-94208*\[Xi]^6 + 8*\[Xi]^2*
-                (2745 - 182680*\[Xi]^2 + 233088*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^2 - 12*(-27 + 66525*\[Xi]^2 - 1014240*\[Xi]^4 + 
-                 850432*\[Xi]^6)*Subscript[s, \[Gamma]]^4 + 3*(-4779 + 
-                 1121700*\[Xi]^2 - 11712848*\[Xi]^4 + 7972608*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^6 - 18*(-1647 + 265704*\[Xi]^2 - 
-                 2367736*\[Xi]^4 + 1425408*\[Xi]^6)*Subscript[s, \[Gamma]]^
-                 8 + 27*(-579 + 83004*\[Xi]^2 - 686720*\[Xi]^4 + 
-                 384768*\[Xi]^6)*Subscript[s, \[Gamma]]^10) + 
-             (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^4*
-              (384*\[Xi]^6 - 608*\[Xi]^4*(15 + 164*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + \[Xi]^2*(6003 - 1565528*\[Xi]^2 + 
-                 1846336*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 3*
-                (507 + 426507*\[Xi]^2 - 5104076*\[Xi]^4 + 3275392*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^6 + 3*(-11262 + 2157967*\[Xi]^2 - 
-                 15724876*\[Xi]^4 + 7265024*\[Xi]^6)*Subscript[s, \[Gamma]]^
-                 8 - 9*(-9164 + 1121197*\[Xi]^2 - 6476860*\[Xi]^4 + 
-                 2403072*\[Xi]^6)*Subscript[s, \[Gamma]]^10 + 9*
-                (-5301 + 550854*\[Xi]^2 - 2805860*\[Xi]^4 + 884928*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^12))))/(192*(\[Xi] + 4*\[Xi]^3)^4*
-          Subscript[m, K]^10*Subscript[v, EW]^2) + 
-        (Sqrt[1 + 4*\[Xi]^2]*h^3*(96*\[Xi]^2*Subscript[c, \[Gamma]]^8*
+              (-96*\[Xi]^4 - 2*\[Xi]^2*(57 + 5584*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + 4*(750 - 19969*\[Xi]^2 + 
+                 61904*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (-31233 + 
+                 627904*\[Xi]^2 - 1233080*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
+               18*(5269 - 90757*\[Xi]^2 + 132132*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^8 + (-109584 + 1718109*\[Xi]^2 - 1987432*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^10 + (42975 - 633549*\[Xi]^2 + 
+                 605784*\[Xi]^4)*Subscript[s, \[Gamma]]^12)) + 
+           Subscript[c, \[Gamma]]^2*((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*
+              Subscript[s, \[Gamma]]^2*(-336*\[Xi]^4 + \[Xi]^2*
+                (321 - 312*\[Xi]^2 + 1408*\[Xi]^4)*Subscript[s, \[Gamma]]^2 - 
+               (123 + 9928*\[Xi]^2 - 30692*\[Xi]^4 + 20448*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^4 + (-3 + 42172*\[Xi]^2 - 
+                 153330*\[Xi]^4 + 53472*\[Xi]^6)*Subscript[s, \[Gamma]]^6 + 
+               (375 - 59814*\[Xi]^2 + 208356*\[Xi]^4 - 51232*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^8 + (-249 + 27825*\[Xi]^2 - 
+                 85070*\[Xi]^4 + 16800*\[Xi]^6)*Subscript[s, \[Gamma]]^10) - 
+             (1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, \[Phi]]^2*
+              Subscript[s, \[Gamma]]^2*(-16*\[Xi]^4*(165 + 248*\[Xi]^2) + 4*
+                \[Xi]^2*(5292 - 48947*\[Xi]^2 + 39472*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + (1797 - 341571*\[Xi]^2 + 
+                 2136830*\[Xi]^4 - 1024256*\[Xi]^6)*Subscript[s, \[Gamma]]^
+                 4 + 3*(-4537 + 447967*\[Xi]^2 - 2294826*\[Xi]^4 + 
+                 786880*\[Xi]^6)*Subscript[s, \[Gamma]]^6 - 3*(-7793 + 
+                 637431*\[Xi]^2 - 2835902*\[Xi]^4 + 763264*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^8 + 9*(-1289 + 100189*\[Xi]^2 - 
+                 401174*\[Xi]^4 + 88832*\[Xi]^6)*Subscript[s, \[Gamma]]^10) - 
+             (1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^6*
+              Subscript[s, \[Gamma]]^2*(36576*\[Xi]^4 - 381440*\[Xi]^6 + 4*
+                \[Xi]^2*(98775 - 1766676*\[Xi]^2 + 1666240*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + (24651 - 5635278*\[Xi]^2 + 
+                 56792984*\[Xi]^4 - 34647552*\[Xi]^6)*Subscript[s, \[Gamma]]^
+                 4 + 9*(-16389 + 2248350*\[Xi]^2 - 17721816*\[Xi]^4 + 
+                 8587520*\[Xi]^6)*Subscript[s, \[Gamma]]^6 - 36*
+                (-6621 + 750795*\[Xi]^2 - 5208904*\[Xi]^4 + 2180160*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^8 + 162*(-719 + 75264*\[Xi]^2 - 
+                 487152*\[Xi]^4 + 184704*\[Xi]^6)*Subscript[s, \[Gamma]]^
+                 10) + 3*Subscript[m, \[Phi]]^8*Subscript[s, \[Gamma]]^2*
+              (512*\[Xi]^4*(15 - 184*\[Xi]^2) + 8*\[Xi]^2*(10125 - 
+                 230920*\[Xi]^2 + 244608*\[Xi]^4)*Subscript[s, \[Gamma]]^2 - 
+               6*(-729 + 202050*\[Xi]^2 - 2440960*\[Xi]^4 + 1808384*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^4 + 3*(-8829 + 1430460*\[Xi]^2 - 
+                 13654448*\[Xi]^4 + 8502528*\[Xi]^6)*Subscript[s, \[Gamma]]^
+                 6 - 36*(-1161 + 156372*\[Xi]^2 - 1344668*\[Xi]^4 + 
+                 758784*\[Xi]^6)*Subscript[s, \[Gamma]]^8 + 27*(-729 + 
+                 93204*\[Xi]^2 - 763040*\[Xi]^4 + 407808*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^10) + (1 + 4*\[Xi]^2)^2*
+              Subscript[m, K]^4*Subscript[m, \[Phi]]^4*(384*\[Xi]^6 - 16*
+                \[Xi]^4*(-615 + 6952*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
+               \[Xi]^2*(184893 - 2428928*\[Xi]^2 + 2036416*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 - 3*(-4563 + 862707*\[Xi]^2 - 
+                 6947916*\[Xi]^4 + 3597952*\[Xi]^6)*Subscript[s, \[Gamma]]^
+                 6 + 3*(-27912 + 3163807*\[Xi]^2 - 20149756*\[Xi]^4 + 
+                 7921664*\[Xi]^6)*Subscript[s, \[Gamma]]^8 - 9*(-15214 + 
+                 1439077*\[Xi]^2 - 7978380*\[Xi]^4 + 2598912*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^10 + 9*(-7491 + 659244*\[Xi]^2 - 
+                 3355700*\[Xi]^4 + 950208*\[Xi]^6)*Subscript[s, \[Gamma]]^
+                 12))))/(192*(\[Xi] + 4*\[Xi]^3)^4*Subscript[m, K]^10*
+          Subscript[v, EW]^2) + (Sqrt[1 + 4*\[Xi]^2]*QuantumField[h]^3*
+          (96*\[Xi]^2*Subscript[c, \[Gamma]]^8*
             ((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)^3*
             Subscript[s, \[Gamma]]^3 - 144*\[Xi]*Subscript[c, \[Gamma]]^7*
             ((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)^2*
@@ -1236,9 +1242,9 @@
                 Subscript[s, \[Gamma]]^6 + 3*(267 - 16291*\[Xi]^2 + 
                  44096*\[Xi]^4)*Subscript[s, \[Gamma]]^8))))/
          (48*(\[Xi] + 4*\[Xi]^3)^3*Subscript[m, K]^8*Subscript[v, EW]) - 
-        (h*(4*\[Xi]*Subscript[c, \[Gamma]] + Subscript[s, \[Gamma]])*
-          (-4*\[Xi]*Subscript[c, \[Gamma]]^3*((2 + 8*\[Xi]^2)*
-              Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)*
+        (QuantumField[h]*(4*\[Xi]*Subscript[c, \[Gamma]] + 
+           Subscript[s, \[Gamma]])*(-4*\[Xi]*Subscript[c, \[Gamma]]^3*
+            ((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)*
             Subscript[s, \[Gamma]] - 8*\[Xi]^2*Subscript[s, \[Gamma]]^2*
             (2*Subscript[m, \[Phi]]^2*(2 - 3*Subscript[s, \[Gamma]]^2) + 
              (1 + 4*\[Xi]^2)*Subscript[m, K]^2*(-1 + Subscript[s, \[Gamma]]^
@@ -1253,7 +1259,7 @@
           Subscript[m, K]^4) + ((4*\[Xi]*Subscript[c, \[Gamma]] + 
             Subscript[s, \[Gamma]])^2*Subscript[v, EW]^2)/
          (8*(1 + 4*\[Xi]^2)*Subscript[m, K]^2)), 
-     CV32V2 -> t*((h^2*(-8*\[Xi]*Subscript[c, \[Gamma]]^6*
+     CV32V2 -> t*((QuantumField[h]^2*(-8*\[Xi]*Subscript[c, \[Gamma]]^6*
             ((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)^2*
             Subscript[s, \[Gamma]]^2 + 2*Subscript[c, \[Gamma]]^5*
             ((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)*
@@ -1311,7 +1317,8 @@
                 Subscript[s, \[Gamma]]^2 + (24 - 902*\[Xi]^2)*
                 Subscript[s, \[Gamma]]^4 + (-39 + 762*\[Xi]^2)*
                 Subscript[s, \[Gamma]]^6))))/(4*\[Xi]*(1 + 4*\[Xi]^2)^2*
-          Subscript[m, K]^6) + (h^4*(-96*\[Xi]*Subscript[c, \[Gamma]]^10*
+          Subscript[m, K]^6) + (QuantumField[h]^4*
+          (-96*\[Xi]*Subscript[c, \[Gamma]]^10*
             ((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)^4*
             Subscript[s, \[Gamma]]^4 + 24*Subscript[c, \[Gamma]]^9*
             ((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)^3*
@@ -1320,287 +1327,289 @@
              Subscript[m, \[Phi]]^2*(32*\[Xi]^2 + (6 - 96*\[Xi]^2)*
                 Subscript[s, \[Gamma]]^2)) - 8*\[Xi]*Subscript[c, \[Gamma]]^8*
             ((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)^2*
-            Subscript[s, \[Gamma]]^2*((1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*
-              Subscript[s, \[Gamma]]^2*(18 + (-211 + 288*\[Xi]^2)*
+            Subscript[s, \[Gamma]]^2*(2*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*
+              Subscript[s, \[Gamma]]^2*(9 + (-113 + 144*\[Xi]^2)*
                 Subscript[s, \[Gamma]]^2) - 3*(1 + 4*\[Xi]^2)*
               Subscript[m, K]^2*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^
-               2*(91 - 192*\[Xi]^2 + (-341 + 576*\[Xi]^2)*Subscript[s, 
-                  \[Gamma]]^2) + 9*Subscript[m, \[Phi]]^4*(32*\[Xi]^2 + 
-               (43 - 192*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (-127 + 
-                 288*\[Xi]^2)*Subscript[s, \[Gamma]]^4)) + 
-           4*Subscript[c, \[Gamma]]^7*((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 
+               2*(96 - 192*\[Xi]^2 + (-371 + 576*\[Xi]^2)*Subscript[s, 
+                  \[Gamma]]^2) + 18*Subscript[m, \[Phi]]^4*(16*\[Xi]^2 + 
+               (24 - 96*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (-71 + 
+                 144*\[Xi]^2)*Subscript[s, \[Gamma]]^4)) + 
+           Subscript[c, \[Gamma]]^7*((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 
              3*Subscript[m, \[Phi]]^2)*Subscript[s, \[Gamma]]*
             ((1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[s, \[Gamma]]^2*
-              (-144*\[Xi]^2 + 7*(-9 + 86*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
-               (159 - 3178*\[Xi]^2 + 768*\[Xi]^4)*Subscript[s, \[Gamma]]^4) + 
-             3*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^4*
-              Subscript[s, \[Gamma]]^2*(8*\[Xi]^2*(-229 + 96*\[Xi]^2) + 
-               (-387 + 13648*\[Xi]^2 - 4608*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 2 + 6*(127 - 4055*\[Xi]^2 + 1152*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4) - (1 + 4*\[Xi]^2)^2*
-              Subscript[m, K]^4*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^
-               2*(-1584*\[Xi]^2 + (-531 + 12451*\[Xi]^2 - 2304*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 + 3*(367 - 9487*\[Xi]^2 + 
-                 2304*\[Xi]^4)*Subscript[s, \[Gamma]]^4) - 
-             3*Subscript[m, \[Phi]]^6*(-256*\[Xi]^4 + 48*\[Xi]^2*
-                (-35 + 48*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 27*
-                (9 - 444*\[Xi]^2 + 256*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 9*
-                (55 - 2146*\[Xi]^2 + 768*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 6)) - 2*\[Xi]*Subscript[c, \[Gamma]]^6*
-            (2*(1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^4*
-              (-435 - 944*\[Xi]^2 + 3*(-7 + 1248*\[Xi]^2)*Subscript[s, 
-                  \[Gamma]]^2 + (2422 - 9504*\[Xi]^2 + 384*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4) + 6*(1 + 4*\[Xi]^2)^2*
+              (-576*\[Xi]^2 + (-297 + 2408*\[Xi]^2)*Subscript[s, \[Gamma]]^
+                 2 + (681 - 15112*\[Xi]^2 + 3072*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^4) - (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*
+              Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^2*
+              (-6336*\[Xi]^2 + (-2439 + 52684*\[Xi]^2 - 9216*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + 3*(1573 - 44188*\[Xi]^2 + 
+                 9216*\[Xi]^4)*Subscript[s, \[Gamma]]^4) + 3*(1 + 4*\[Xi]^2)*
+              Subscript[m, K]^2*Subscript[m, \[Phi]]^4*Subscript[s, \[Gamma]]^
+               2*(192*\[Xi]^2*(-39 + 16*\[Xi]^2) + (-1773 + 59392*\[Xi]^2 - 
+                 18432*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 3*(1091 - 
+                 37720*\[Xi]^2 + 9216*\[Xi]^4)*Subscript[s, \[Gamma]]^4) - 
+             3*Subscript[m, \[Phi]]^6*(-1024*\[Xi]^4 + 288*\[Xi]^2*
+                (-25 + 32*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 9*
+                (123 - 5968*\[Xi]^2 + 3072*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4 + 9*(235 - 10024*\[Xi]^2 + 3072*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6)) + \[Xi]*Subscript[c, \[Gamma]]^6*
+            (-2*(1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^4*
+              (-2*(405 + 944*\[Xi]^2) + (-417 + 7608*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (5414 - 23208*\[Xi]^2 + 
+                 768*\[Xi]^4)*Subscript[s, \[Gamma]]^4) - 6*(1 + 4*\[Xi]^2)^2*
               Subscript[m, K]^4*Subscript[m, \[Phi]]^4*Subscript[s, \[Gamma]]^
-               2*(3040*\[Xi]^2 + 4*(710 - 10247*\[Xi]^2 + 192*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 - 3*(8637 - 54128*\[Xi]^2 + 
-                 1536*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 3*(13701 - 
-                 65252*\[Xi]^2 + 2304*\[Xi]^4)*Subscript[s, \[Gamma]]^6) - 
+               2*(6240*\[Xi]^2 + 4*(1695 - 21349*\[Xi]^2 + 384*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 - 6*(9837 - 58688*\[Xi]^2 + 
+                 1536*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 3*(30177 - 
+                 150844*\[Xi]^2 + 4608*\[Xi]^4)*Subscript[s, \[Gamma]]^6) + 
              3*(1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, \[Phi]]^2*
-              Subscript[s, \[Gamma]]^2*(960*\[Xi]^2 - 2*(-73 + 6952*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 - 2*(5181 - 30020*\[Xi]^2 + 
-                 512*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (21523 - 
-                 88608*\[Xi]^2 + 3072*\[Xi]^4)*Subscript[s, \[Gamma]]^6) - 
+              Subscript[s, \[Gamma]]^2*(1920*\[Xi]^2 + (782 - 28208*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 - 2*(12087 - 63860*\[Xi]^2 + 
+                 1024*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (47501 - 
+                 207816*\[Xi]^2 + 6144*\[Xi]^4)*Subscript[s, \[Gamma]]^6) + 
              3*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^6*
-              Subscript[s, \[Gamma]]^2*(32*\[Xi]^2*(403 - 32*\[Xi]^2) + 6*
-                (1939 - 28912*\[Xi]^2 + 1536*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 2 - 24*(3544 - 26693*\[Xi]^2 + 1152*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 + 9*(13909 - 77472*\[Xi]^2 + 
-                 3072*\[Xi]^4)*Subscript[s, \[Gamma]]^6) + 
-             12*Subscript[m, \[Phi]]^8*(64*\[Xi]^4 + (2172*\[Xi]^2 - 
-                 768*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 3*(549 - 
-                 9940*\[Xi]^2 + 1152*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 9*
-                (1271 - 11754*\[Xi]^2 + 768*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 6 + 162*(105 - 673*\[Xi]^2 + 32*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^8)) - Subscript[c, \[Gamma]]^5*
-            Subscript[s, \[Gamma]]*((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*
-              Subscript[s, \[Gamma]]^2*(-408*\[Xi]^2 + (-753 + 694*\[Xi]^2 + 
-                 4744*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (354 + 
-                 1480*\[Xi]^2 - 20304*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
-               (947 - 23874*\[Xi]^2 + 26216*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 6) - (1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, 
-                \[Phi]]^2*Subscript[s, \[Gamma]]^2*(-4*\[Xi]^2*
-                (15 + 3904*\[Xi]^2) + 12*(-121 - 6424*\[Xi]^2 + 
-                 14085*\[Xi]^4)*Subscript[s, \[Gamma]]^2 - 6*(1769 - 
-                 59032*\[Xi]^2 + 87980*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 3*
-                (6007 - 164214*\[Xi]^2 + 165732*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^6) + 3*Subscript[m, \[Phi]]^8*(5888*\[Xi]^4 - 144*
-                \[Xi]^2*(-141 + 1156*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 3*
-                (999 - 99008*\[Xi]^2 + 338816*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 - 54*(335 - 18962*\[Xi]^2 + 41328*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + 27*(853 - 36816*\[Xi]^2 + 
-                 59584*\[Xi]^4)*Subscript[s, \[Gamma]]^8) + 
-             6*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^4*
-              (1152*\[Xi]^4 - 8*\[Xi]^2*(-671 + 3846*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + (891 - 102911*\[Xi]^2 + 
-                 222956*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 6*(1655 - 
-                 63565*\[Xi]^2 + 95576*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 3*
-                (4263 - 137113*\[Xi]^2 + 155580*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^8) - (1 + 4*\[Xi]^2)*Subscript[m, K]^2*
-              Subscript[m, \[Phi]]^6*(22656*\[Xi]^4 - 100*\[Xi]^2*
-                (-897 + 5576*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 36*
-                (411 - 37569*\[Xi]^2 + 99052*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 - 18*(5589 - 259732*\[Xi]^2 + 460240*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + 27*(4559 - 171318*\[Xi]^2 + 
-                 230976*\[Xi]^4)*Subscript[s, \[Gamma]]^8)) + 
-           \[Xi]*Subscript[c, \[Gamma]]^4*((1 + 4*\[Xi]^2)^4*Subscript[m, 
-                K]^8*Subscript[s, \[Gamma]]^2*(-132*\[Xi]^2 + 2*
-                (-81 + 374*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (-2223 - 
-                 11611*\[Xi]^2 + 2816*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
-               (66 + 28110*\[Xi]^2 - 10000*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 6 + (5795 - 31215*\[Xi]^2 + 7184*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8) + 2*Subscript[m, \[Phi]]^8*
-              Subscript[s, \[Gamma]]^2*(32*\[Xi]^2*(-549 + 2156*\[Xi]^2) - 12*
-                (1107 - 48646*\[Xi]^2 + 56832*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 2 + 252*(837 - 13948*\[Xi]^2 + 9544*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 - 27*(22985 - 269040*\[Xi]^2 + 
-                 132384*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 81*(6185 - 
-                 59920*\[Xi]^2 + 23488*\[Xi]^4)*Subscript[s, \[Gamma]]^8) + 
-             (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^4*
-              Subscript[s, \[Gamma]]^2*(4*\[Xi]^2*(-3435 + 3944*\[Xi]^2) - 6*
-                (1325 - 96016*\[Xi]^2 + 44344*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 2 + 9*(30165 - 410136*\[Xi]^2 + 146000*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 - 27*(35731 - 295100*\[Xi]^2 + 
-                 87120*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 36*(23787 - 
-                 155166*\[Xi]^2 + 38180*\[Xi]^4)*Subscript[s, \[Gamma]]^8) - 
+              Subscript[s, \[Gamma]]^2*(64*\[Xi]^2*(423 - 32*\[Xi]^2) + 144*
+                (187 - 2576*\[Xi]^2 + 128*\[Xi]^4)*Subscript[s, \[Gamma]]^2 - 
+               6*(32057 - 235264*\[Xi]^2 + 9216*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^4 + 9*(30473 - 178224*\[Xi]^2 + 6144*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6) - 6*Subscript[m, \[Phi]]^8*
+              (256*\[Xi]^4 - 192*\[Xi]^2*(-49 + 16*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + 3*(2511 - 43600*\[Xi]^2 + 
+                 4608*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 9*(5699 - 
+                 52536*\[Xi]^2 + 3072*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 162*
+                (455 - 3092*\[Xi]^2 + 128*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 8)) - Subscript[c, \[Gamma]]^5*Subscript[s, \[Gamma]]*
+            ((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*
+              (-408*\[Xi]^2 + (-798 - 596*\[Xi]^2 + 4744*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + (354 + 1180*\[Xi]^2 - 
+                 22464*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (992 - 
+                 23589*\[Xi]^2 + 32216*\[Xi]^4)*Subscript[s, \[Gamma]]^6) - 
              (1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, \[Phi]]^2*
-              Subscript[s, \[Gamma]]^2*(-648*\[Xi]^2 + (1662 + 
-                 61098*\[Xi]^2 - 14632*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 3*
-                (7461 - 158194*\[Xi]^2 + 42408*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^4 + (-144775 + 1117704*\[Xi]^2 - 289112*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + 3*(53557 - 291392*\[Xi]^2 + 
-                 62520*\[Xi]^4)*Subscript[s, \[Gamma]]^8) - 
+              Subscript[s, \[Gamma]]^2*(540*\[Xi]^2 - 15616*\[Xi]^4 + 6*
+                (-242 - 15543*\[Xi]^2 + 30010*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 2 - 6*(1919 - 64507*\[Xi]^2 + 99180*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 + 3*(6307 - 174894*\[Xi]^2 + 
+                 197412*\[Xi]^4)*Subscript[s, \[Gamma]]^6) + 
+             9*Subscript[m, \[Phi]]^8*(2176*\[Xi]^4 + (7248*\[Xi]^2 - 
+                 61568*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 2*(567 - 
+                 53674*\[Xi]^2 + 189088*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 9*
+                (715 - 40804*\[Xi]^2 + 93216*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6 + 9*(883 - 39036*\[Xi]^2 + 68224*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8) - (1 + 4*\[Xi]^2)*Subscript[m, K]^2*
+              Subscript[m, \[Phi]]^6*(23616*\[Xi]^4 + (98100*\[Xi]^2 - 
+                 602720*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 54*
+                (314 - 27621*\[Xi]^2 + 72888*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4 - 18*(6024 - 283057*\[Xi]^2 + 518800*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + 27*(4769 - 184068*\[Xi]^2 + 
+                 266976*\[Xi]^4)*Subscript[s, \[Gamma]]^8) + 
+             3*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^4*
+              (2304*\[Xi]^4 - 8*\[Xi]^2*(-1507 + 8102*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + 8*(264 - 28919*\[Xi]^2 + 
+                 60809*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 3*(7165 - 
+                 278500*\[Xi]^2 + 431344*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
+               3*(8961 - 295721*\[Xi]^2 + 364200*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^8)) + \[Xi]*Subscript[c, \[Gamma]]^4*
+            (4*Subscript[m, \[Phi]]^8*Subscript[s, \[Gamma]]^2*
+              (8*\[Xi]^2*(-1323 + 4792*\[Xi]^2) - 12*(621 - 26543*\[Xi]^2 + 
+                 31776*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 18*(6264 - 
+                 103981*\[Xi]^2 + 75448*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 
+               27*(12025 - 141360*\[Xi]^2 + 75792*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + 162*(1595 - 15595*\[Xi]^2 + 
+                 6832*\[Xi]^4)*Subscript[s, \[Gamma]]^8) + (1 + 4*\[Xi]^2)^4*
+              Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*(-132*\[Xi]^2 + 2*
+                (-51 + 419*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (-3018 - 
+                 14401*\[Xi]^2 + 2816*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
+               (1701 + 23730*\[Xi]^2 - 11920*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6 + (4925 - 25455*\[Xi]^2 + 9104*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8) - (1 + 4*\[Xi]^2)^3*
+              Subscript[m, K]^6*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^
+               2*(-918*\[Xi]^2 + (1902 + 68958*\[Xi]^2 - 14632*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + 3*(6871 - 173734*\[Xi]^2 + 
+                 46248*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 8*(18020 - 
+                 143088*\[Xi]^2 + 42859*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 3*
+                (54097 - 292922*\[Xi]^2 + 77880*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^8) + 2*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*
+              Subscript[m, \[Phi]]^4*Subscript[s, \[Gamma]]^2*
+              (\[Xi]^2*(-8535 + 7888*\[Xi]^2) - 6*(775 - 53498*\[Xi]^2 + 
+                 23612*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 3*(48065 - 
+                 666364*\[Xi]^2 + 244280*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 
+               27*(18733 - 155340*\[Xi]^2 + 50920*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + 9*(49449 - 323457*\[Xi]^2 + 
+                 92680*\[Xi]^4)*Subscript[s, \[Gamma]]^8) - 
              (1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^6*
-              (-1152*\[Xi]^4 + 8*\[Xi]^2*(-5697 + 13160*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 - 2*(17415 - 756264*\[Xi]^2 + 
-                 577648*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 9*(70707 - 
-                 1015472*\[Xi]^2 + 500576*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 
-               9*(217305 - 2111000*\[Xi]^2 + 790912*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 + 27*(59687 - 473288*\[Xi]^2 + 
-                 144576*\[Xi]^4)*Subscript[s, \[Gamma]]^10)) + 
+              (-1152*\[Xi]^4 + 8*\[Xi]^2*(-7017 + 14120*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 - 16*(2475 - 105033*\[Xi]^2 + 
+                 79406*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 9*(76057 - 
+                 1095952*\[Xi]^2 + 563296*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 
+               36*(57345 - 559190*\[Xi]^2 + 228448*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 + 27*(62177 - 496928*\[Xi]^2 + 
+                 171456*\[Xi]^4)*Subscript[s, \[Gamma]]^10)) + 
            Subscript[c, \[Gamma]]^3*Subscript[s, \[Gamma]]*
             ((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*
-              (\[Xi]^2*(579 + 320*\[Xi]^2) + (114 - 2049*\[Xi]^2 - 
-                 4604*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (-292 - 
-                 8913*\[Xi]^2 + 21593*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
-               (-272 + 22187*\[Xi]^2 - 38154*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 6 + 11*(46 - 1423*\[Xi]^2 + 1895*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8) + 3*Subscript[m, \[Phi]]^8*
-              Subscript[s, \[Gamma]]^2*(16*\[Xi]^2*(-459 + 12404*\[Xi]^2) - 4*
-                (81 - 83439*\[Xi]^2 + 503552*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 2 + 6*(3159 - 293112*\[Xi]^2 + 1149064*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 - 36*(1239 - 85349*\[Xi]^2 + 
-                 270896*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 27*(1025 - 
-                 63916*\[Xi]^2 + 181824*\[Xi]^4)*Subscript[s, \[Gamma]]^8) - 
+              (534*\[Xi]^2 + 320*\[Xi]^4 + (54 - 2409*\[Xi]^2 - 5324*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + (-157 - 5403*\[Xi]^2 + 
+                 22658*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (-362 + 
+                 15047*\[Xi]^2 - 35724*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
+               (521 - 11723*\[Xi]^2 + 18070*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 8) + 3*Subscript[m, \[Phi]]^8*Subscript[s, \[Gamma]]^2*
+              (288*\[Xi]^2*(-53 + 768*\[Xi]^2) + (-2349 + 400716*\[Xi]^2 - 
+                 2221568*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 6*(4239 - 
+                 323472*\[Xi]^2 + 1259104*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 
+               9*(5721 - 363356*\[Xi]^2 + 1178624*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + 27*(1115 - 66676*\[Xi]^2 + 
+                 195984*\[Xi]^4)*Subscript[s, \[Gamma]]^8) - 
              (1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, \[Phi]]^2*
-              (-336*\[Xi]^4 + 2*\[Xi]^2*(2589 + 8638*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + (1974 + 24191*\[Xi]^2 - 
-                 214358*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 3*(625 - 
-                 118961*\[Xi]^2 + 288018*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
-               (-17982 + 795341*\[Xi]^2 - 1346958*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 + 3*(5123 - 172741*\[Xi]^2 + 
-                 236318*\[Xi]^4)*Subscript[s, \[Gamma]]^10) - 
-             (1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^6*
-              (-192*\[Xi]^4 + 144*\[Xi]^2*(-128 + 4537*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + (1890 + 1288056*\[Xi]^2 - 
-                 6746296*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 9*(9465 - 
-                 805492*\[Xi]^2 + 2581168*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 
-               9*(25305 - 1455708*\[Xi]^2 + 3631432*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 + 54*(2785 - 139042*\[Xi]^2 + 
-                 300632*\[Xi]^4)*Subscript[s, \[Gamma]]^10) + 
-             3*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^4*
-              (-224*\[Xi]^4 + \[Xi]^2*(1751 + 64848*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + (1494 + 145772*\[Xi]^2 - 
-                 725324*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 2*(5697 - 
-                 489673*\[Xi]^2 + 1314850*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 
-               3*(12979 - 632311*\[Xi]^2 + 1267820*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 + 3*(9342 - 378861*\[Xi]^2 + 
-                 637928*\[Xi]^4)*Subscript[s, \[Gamma]]^10)) + 
-           \[Xi]*Subscript[s, \[Gamma]]^2*((1 + 4*\[Xi]^2)^4*Subscript[m, 
-                K]^8*(-1 + Subscript[s, \[Gamma]]^2)^2*(-12*\[Xi]^2 - 2*
-                (6 + 59*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 2*(-27 - 
-                 71*\[Xi]^2 + 184*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
-               (-63 + 1993*\[Xi]^2 - 448*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
-               (225 - 539*\[Xi]^2 + 80*\[Xi]^4)*Subscript[s, \[Gamma]]^8) + 
+              (-336*\[Xi]^4 + 2*\[Xi]^2*(1389 + 9853*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (369 + 40106*\[Xi]^2 - 
+                 240728*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 6*(1185 - 
+                 63383*\[Xi]^2 + 158309*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 2*
+                (11886 - 400243*\[Xi]^2 + 725694*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^8 + 3*(5843 - 171796*\[Xi]^2 + 251468*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^10) - (1 + 4*\[Xi]^2)*Subscript[m, 
+                K]^2*Subscript[m, \[Phi]]^6*(-1152*\[Xi]^4 + 48*\[Xi]^2*
+                (-1194 + 15751*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
+               (-10125 + 1615776*\[Xi]^2 - 7627096*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 + 18*(6975 - 452491*\[Xi]^2 + 
+                 1443964*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 9*(30345 - 
+                 1568358*\[Xi]^2 + 4028752*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 8 + 54*(3100 - 146677*\[Xi]^2 + 330932*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^10) + 3*(1 + 4*\[Xi]^2)^2*
+              Subscript[m, K]^4*Subscript[m, \[Phi]]^4*(-344*\[Xi]^4 + 
+               (-4504*\[Xi]^2 + 75708*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
+               (-1041 + 195912*\[Xi]^2 - 824764*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^4 + (20049 - 1105776*\[Xi]^2 + 2953820*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 - 3*(16294 - 677471*\[Xi]^2 + 
+                 1410180*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 3*(10617 - 
+                 397311*\[Xi]^2 + 704288*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 10)) + \[Xi]*Subscript[s, \[Gamma]]^2*
+            ((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*(-1 + Subscript[s, \[Gamma]]^
+                 2)^2*(-12*\[Xi]^2 - 2*(6 + 59*\[Xi]^2)*Subscript[s, 
+                  \[Gamma]]^2 + (36 - 97*\[Xi]^2 + 368*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 + (-573 + 2008*\[Xi]^2 - 
+                 448*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + (675 - 599*\[Xi]^2 + 
+                 80*\[Xi]^4)*Subscript[s, \[Gamma]]^8) + 
              2*Subscript[m, \[Phi]]^8*Subscript[s, \[Gamma]]^2*
-              (2304*\[Xi]^2*(3 - 4*\[Xi]^2) + 8*(891 - 23550*\[Xi]^2 + 
-                 16832*\[Xi]^4)*Subscript[s, \[Gamma]]^2 - 6*(6399 - 
-                 147320*\[Xi]^2 + 96640*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
-               27*(2763 - 61720*\[Xi]^2 + 40832*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^6 - 108*(579 - 13083*\[Xi]^2 + 9056*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 + 81*(237 - 5552*\[Xi]^2 + 
-                 4096*\[Xi]^4)*Subscript[s, \[Gamma]]^10) - (1 + 4*\[Xi]^2)^3*
+              (288*\[Xi]^2*(29 - 32*\[Xi]^2) + 4*(3807 - 52140*\[Xi]^2 + 
+                 33664*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (-80919 + 
+                 965280*\[Xi]^2 - 579840*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
+               108*(1422 - 16745*\[Xi]^2 + 10208*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^6 - 27*(4641 - 56532*\[Xi]^2 + 36224*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 + 162*(231 - 2986*\[Xi]^2 + 
+                 2048*\[Xi]^4)*Subscript[s, \[Gamma]]^10) - (1 + 4*\[Xi]^2)^3*
               Subscript[m, K]^6*Subscript[m, \[Phi]]^2*(-1 + Subscript[s, 
-                 \[Gamma]]^2)*(72*\[Xi]^2 + 6*(-28 + 305*\[Xi]^2 + 
-                 176*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (1104 + 
-                 12081*\[Xi]^2 - 12992*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
-               (1095 - 74643*\[Xi]^2 + 33280*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 6 + (-6567 + 99699*\[Xi]^2 - 31040*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 + (4536 - 38139*\[Xi]^2 + 
-                 9696*\[Xi]^4)*Subscript[s, \[Gamma]]^10) - 
+                 \[Gamma]]^2)*(72*\[Xi]^2 + 6*(-28 + 275*\[Xi]^2 + 
+                 176*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (-2166 + 
+                 14481*\[Xi]^2 - 12992*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
+               (16845 - 83268*\[Xi]^2 + 33280*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6 + (-28812 + 110589*\[Xi]^2 - 31040*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 + 3*(4767 - 14168*\[Xi]^2 + 
+                 3232*\[Xi]^4)*Subscript[s, \[Gamma]]^10) - 
              (1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^6*
-              Subscript[s, \[Gamma]]^2*(8*(81 + 718*\[Xi]^2 - 3264*\[Xi]^4) + 
-               4*(3609 - 107012*\[Xi]^2 + 81152*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^2 + (-99747 + 2188268*\[Xi]^2 - 1249664*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 + 9*(24203 - 471320*\[Xi]^2 + 
-                 238720*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 27*(7329 - 
-                 134588*\[Xi]^2 + 64128*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 
-               27*(2397 - 42904*\[Xi]^2 + 19840*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^10) + 3*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*
-              Subscript[m, \[Phi]]^4*(-32*\[Xi]^2 - 4*(-63 + 405*\[Xi]^2 + 
-                 800*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (254 - 
-                 42894*\[Xi]^2 + 38208*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
-               (-9729 + 257334*\[Xi]^2 - 135104*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^6 + (27790 - 513284*\[Xi]^2 + 210304*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 - 3*(9609 - 145730*\[Xi]^2 + 
-                 50752*\[Xi]^4)*Subscript[s, \[Gamma]]^10 + 18*
-                (570 - 7603*\[Xi]^2 + 2336*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 12)) - \[Xi]*Subscript[c, \[Gamma]]^2*
-            ((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*
-              (-120*\[Xi]^2 + (-24 + 891*\[Xi]^2 + 352*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 + (-396 + 2615*\[Xi]^2 - 
-                 4752*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 3*(1095 - 
-                 8475*\[Xi]^2 + 4456*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
-               (-6189 + 39093*\[Xi]^2 - 13888*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 8 + 2*(1722 - 8527*\[Xi]^2 + 2460*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^10) + 6*Subscript[m, \[Phi]]^8*
-              Subscript[s, \[Gamma]]^2*(-7936*\[Xi]^4 + 4*(81 - 
-                 34544*\[Xi]^2 + 49440*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
-               (-42255 + 1176680*\[Xi]^2 - 1151808*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 + 9*(21075 - 380748*\[Xi]^2 + 
-                 309344*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 27*(9921 - 
-                 154044*\[Xi]^2 + 112832*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 
-               216*(564 - 8333*\[Xi]^2 + 5796*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 10) - (1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, 
-                \[Phi]]^2*Subscript[s, \[Gamma]]^2*(-4*\[Xi]^2*
-                (525 + 248*\[Xi]^2) + (-2892 + 119*\[Xi]^2 + 34720*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 - 4*(-411 - 57265*\[Xi]^2 + 
-                 55772*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (73971 - 
-                 995859*\[Xi]^2 + 525072*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 
-               3*(56001 - 466822*\[Xi]^2 + 174544*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 + 6*(16251 - 107081*\[Xi]^2 + 
-                 31320*\[Xi]^4)*Subscript[s, \[Gamma]]^10) - 
-             (1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^6*
-              Subscript[s, \[Gamma]]^2*(-128*\[Xi]^2*(60 + 523*\[Xi]^2) + 4*
-                (-1269 - 226707*\[Xi]^2 + 330448*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^2 + (-316566 + 8487452*\[Xi]^2 - 7175808*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 + 9*(185409 - 2852232*\[Xi]^2 + 
-                 1828096*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 27*
-                (94887 - 1173184*\[Xi]^2 + 632320*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 + 108*(11379 - 127714*\[Xi]^2 + 
-                 61344*\[Xi]^4)*Subscript[s, \[Gamma]]^10) + 
-             2*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^4*
-              (48*\[Xi]^4 - 4*\[Xi]^2*(1053 + 2540*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + (-4506 - 108245*\[Xi]^2 + 
-                 203144*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 12*(3651 - 
-                 114426*\[Xi]^2 + 92804*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 3*
-                (113529 - 1530769*\[Xi]^2 + 838624*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 - 27*(22084 - 219161*\[Xi]^2 + 
-                 93744*\[Xi]^4)*Subscript[s, \[Gamma]]^10 + 27*(11420 - 
-                 97377*\[Xi]^2 + 34904*\[Xi]^4)*Subscript[s, \[Gamma]]^12)) - 
-           Subscript[c, \[Gamma]]*Subscript[s, \[Gamma]]*
-            ((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*
-              (-1 + Subscript[s, \[Gamma]]^2)*(-6*\[Xi]^2*(17 + 12*\[Xi]^2) - 
-               6*(11 + 36*\[Xi]^2 + 230*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
-               (123 - 402*\[Xi]^2 + 10262*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
-               (-186 + 5979*\[Xi]^2 - 13915*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 6 + (129 - 4365*\[Xi]^2 + 5105*\[Xi]^4)*Subscript[s, 
+              Subscript[s, \[Gamma]]^2*(8*(81 + 1318*\[Xi]^2 - 
+                 3264*\[Xi]^4) + (44586 - 490928*\[Xi]^2 + 324608*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + (-262107 + 2436068*\[Xi]^2 - 
+                 1249664*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 18*
+                (29279 - 259400*\[Xi]^2 + 119360*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^6 - 81*(5553 - 49056*\[Xi]^2 + 21376*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 + 108*(1293 - 11671*\[Xi]^2 + 
+                 4960*\[Xi]^4)*Subscript[s, \[Gamma]]^10) + 
+             3*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^4*
+              (-32*\[Xi]^2 - 4*(-63 + 215*\[Xi]^2 + 800*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + 4*(1536 - 13061*\[Xi]^2 + 
+                 9552*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (-42359 + 
+                 293334*\[Xi]^2 - 135104*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
+               (91310 - 574264*\[Xi]^2 + 210304*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^8 - 3*(27179 - 161630*\[Xi]^2 + 50752*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^10 + 18*(1455 - 8388*\[Xi]^2 + 
+                 2336*\[Xi]^4)*Subscript[s, \[Gamma]]^12)) - 
+           \[Xi]*Subscript[c, \[Gamma]]^2*(2*(1 + 4*\[Xi]^2)^4*
+              Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*(-60*\[Xi]^2 + 
+               (33 + 288*\[Xi]^2 + 176*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
+               (-753 + 1795*\[Xi]^2 - 2376*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4 + 3*(955 - 5070*\[Xi]^2 + 2048*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + (-4047 + 23304*\[Xi]^2 - 
+                 5864*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + (1962 - 
+                 10117*\[Xi]^2 + 1920*\[Xi]^4)*Subscript[s, \[Gamma]]^10) + 
+             6*Subscript[m, \[Phi]]^8*Subscript[s, \[Gamma]]^2*
+              (480*\[Xi]^2 - 7936*\[Xi]^4 + 16*(189 - 11111*\[Xi]^2 + 
+                 13080*\[Xi]^4)*Subscript[s, \[Gamma]]^2 - 2*(32535 - 
+                 721300*\[Xi]^2 + 616224*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
+               9*(26955 - 450948*\[Xi]^2 + 331424*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 - 54*(5853 - 88602*\[Xi]^2 + 
+                 60256*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 54*(2541 - 
+                 37412*\[Xi]^2 + 24624*\[Xi]^4)*Subscript[s, \[Gamma]]^10) - 
+             (1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, \[Phi]]^2*
+              Subscript[s, \[Gamma]]^2*(-32*\[Xi]^2*(60 + 31*\[Xi]^2) + 
+               (378 - 21931*\[Xi]^2 + 36880*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 2 + (-29976 + 381025*\[Xi]^2 - 238208*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 + 6*(25101 - 230819*\[Xi]^2 + 
+                 91832*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 3*(79936 - 
+                 603307*\[Xi]^2 + 179104*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 
+               3*(40362 - 264427*\[Xi]^2 + 62880*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^10) - 2*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*
+              Subscript[m, \[Phi]]^6*Subscript[s, \[Gamma]]^2*
+              (-32*\[Xi]^2*(45 + 1166*\[Xi]^2) + (12537 - 645654*\[Xi]^2 + 
+                 730016*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (-289908 + 
+                 5540746*\[Xi]^2 - 3950784*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4 + 9*(127967 - 1773576*\[Xi]^2 + 1001248*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 - 54*(29323 - 351801*\[Xi]^2 + 
+                 172080*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 27*(26523 - 
+                 297698*\[Xi]^2 + 132768*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 10) + (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, 
+                \[Phi]]^4*(96*\[Xi]^4 - 32*\[Xi]^2*(192 + 725*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (8658 - 397990*\[Xi]^2 + 
+                 453808*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 24*(10321 - 
+                 165531*\[Xi]^2 + 102884*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
+               3*(357973 - 4059358*\[Xi]^2 + 1841408*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 - 9*(174719 - 1655046*\[Xi]^2 + 
+                 611424*\[Xi]^4)*Subscript[s, \[Gamma]]^10 + 54*
+                (13825 - 118077*\[Xi]^2 + 37624*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^12)) - Subscript[c, \[Gamma]]*
+            Subscript[s, \[Gamma]]*((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*
+              Subscript[s, \[Gamma]]^2*(-1 + Subscript[s, \[Gamma]]^2)*
+              (-6*\[Xi]^2*(17 + 12*\[Xi]^2) - 3*(22 - 183*\[Xi]^2 + 
+                 340*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (183 - 
+                 5277*\[Xi]^2 + 10022*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 2*
+                (153 - 7092*\[Xi]^2 + 7190*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6 + (189 - 8400*\[Xi]^2 + 5450*\[Xi]^4)*Subscript[s, 
                   \[Gamma]]^8) + Subscript[m, \[Phi]]^8*Subscript[s, 
-                \[Gamma]]^2*(-137472*\[Xi]^4 + 8*\[Xi]^2*(-32319 + 
-                 275336*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 12*
-                (729 - 154134*\[Xi]^2 + 871216*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^4 + 27*(1215 - 166940*\[Xi]^2 + 801776*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 - 54*(729 - 84894*\[Xi]^2 + 
-                 382264*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 81*
-                (189 - 20676*\[Xi]^2 + 91760*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 10) - (1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^
-               6*Subscript[s, \[Gamma]]^2*(-32*\[Xi]^2*(171 + 4786*\[Xi]^2) + 
-               12*(-27 - 22405*\[Xi]^2 + 211024*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^2 + (-10395 + 2341152*\[Xi]^2 - 12021920*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 + 108*(458 - 57571*\[Xi]^2 + 
-                 227018*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 54*(1244 - 
-                 123523*\[Xi]^2 + 422808*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 
-               27*(1053 - 93522*\[Xi]^2 + 296224*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^10) - (1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*
-              Subscript[m, \[Phi]]^2*(-120*\[Xi]^4 - 2*\[Xi]^2*
-                (381 + 592*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
-               (24 + 10617*\[Xi]^2 + 77942*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 + (189 + 32541*\[Xi]^2 - 443216*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + 3*(603 - 75877*\[Xi]^2 + 
-                 300474*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + (-4623 + 
-                 325065*\[Xi]^2 - 777712*\[Xi]^4)*Subscript[s, \[Gamma]]^10 + 
-               3*(867 - 46770*\[Xi]^2 + 80956*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 12) + (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, 
-                \[Phi]]^4*(-456*\[Xi]^4 - 8*\[Xi]^2*(696 + 4823*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + (-342 - 37200*\[Xi]^2 + 
-                 810700*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 3*(687 - 
-                 242057*\[Xi]^2 + 1342188*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
-               3*(6453 - 777593*\[Xi]^2 + 2719752*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 - 9*(3594 - 304311*\[Xi]^2 + 
-                 819692*\[Xi]^4)*Subscript[s, \[Gamma]]^10 + 27*
-                (570 - 40481*\[Xi]^2 + 91912*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 12))))/(48*\[Xi]^3*(1 + 4*\[Xi]^2)^3*Subscript[m, K]^10*
-          Subscript[v, EW]^2) + (h^3*(-24*\[Xi]*Subscript[c, \[Gamma]]^8*
+                \[Gamma]]^2*(-160512*\[Xi]^4 + 8*\[Xi]^2*(-51489 + 
+                 316736*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 3*(4941 - 
+                 900216*\[Xi]^2 + 3938944*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
+               162*(315 - 38160*\[Xi]^2 + 148576*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^6 - 27*(2133 - 221988*\[Xi]^2 + 837488*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 + 648*(33 - 3252*\[Xi]^2 + 
+                 12400*\[Xi]^4)*Subscript[s, \[Gamma]]^10) - 
+             (1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^6*
+              Subscript[s, \[Gamma]]^2*(-32*\[Xi]^2*(171 + 6016*\[Xi]^2) + 12*
+                (-27 - 45745*\[Xi]^2 + 254384*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 2 - 2*(11205 - 1960596*\[Xi]^2 + 7047520*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 + 9*(9741 - 1042292*\[Xi]^2 + 
+                 3125856*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 27*
+                (3983 - 347486*\[Xi]^2 + 953256*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^8 + 54*(789 - 62481*\[Xi]^2 + 164492*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^10) - (1 + 4*\[Xi]^2)^3*
+              Subscript[m, K]^6*Subscript[m, \[Phi]]^2*(-120*\[Xi]^4 - 2*
+                \[Xi]^2*(381 + 1312*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
+               (24 - 17943*\[Xi]^2 + 98852*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4 - 2*(708 - 100968*\[Xi]^2 + 266653*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + 6*(1174 - 96086*\[Xi]^2 + 
+                 176797*\[Xi]^4)*Subscript[s, \[Gamma]]^8 - 2*(5139 - 
+                 314460*\[Xi]^2 + 450731*\[Xi]^4)*Subscript[s, \[Gamma]]^10 + 
+               3*(1542 - 78705*\[Xi]^2 + 92626*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^12) + (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*
+              Subscript[m, \[Phi]]^4*(-456*\[Xi]^4 - 32*\[Xi]^2*
+                (174 + 1787*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (-342 - 
+                 197325*\[Xi]^2 + 1041040*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 
+               3*(3222 - 548317*\[Xi]^2 + 1640268*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + (44334 - 4194639*\[Xi]^2 + 
+                 9684336*\[Xi]^4)*Subscript[s, \[Gamma]]^8 - 9*(6619 - 
+                 483351*\[Xi]^2 + 953012*\[Xi]^4)*Subscript[s, \[Gamma]]^10 + 
+               27*(935 - 59306*\[Xi]^2 + 105152*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^12))))/(48*\[Xi]^3*(1 + 4*\[Xi]^2)^3*
+          Subscript[m, K]^10*Subscript[v, EW]^2) + 
+        (QuantumField[h]^3*(-24*\[Xi]*Subscript[c, \[Gamma]]^8*
             ((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)^3*
             Subscript[s, \[Gamma]]^3 + 18*Subscript[c, \[Gamma]]^7*
             ((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)^2*
@@ -1734,8 +1743,9 @@
                  18147*\[Xi]^2 + 17680*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 18*
                 (213 - 5455*\[Xi]^2 + 3968*\[Xi]^4)*Subscript[s, \[Gamma]]^
                  8))))/(12*\[Xi]^2*(1 + 4*\[Xi]^2)^(5/2)*Subscript[m, K]^8*
-          Subscript[v, EW]) + (h*(-4*\[Xi]*Subscript[c, \[Gamma]]^4*
-            ((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)*
+          Subscript[v, EW]) + (QuantumField[h]*
+          (-4*\[Xi]*Subscript[c, \[Gamma]]^4*((2 + 8*\[Xi]^2)*
+              Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)*
             Subscript[s, \[Gamma]] + \[Xi]*Subscript[s, \[Gamma]]^3*
             (-((1 + 4*\[Xi]^2)*Subscript[m, K]^2*(-1 + Subscript[s, \[Gamma]]^
                  2)) + 2*Subscript[m, \[Phi]]^2*(-2 + 3*Subscript[s, 
@@ -1755,39 +1765,40 @@
         (\[Xi]*Subscript[c, \[Gamma]]*(4*\[Xi]*Subscript[c, \[Gamma]] + 
            Subscript[s, \[Gamma]])*Subscript[v, EW]^2)/(2*(1 + 4*\[Xi]^2)*
           Subscript[m, K]^2)), CV3V3VV -> 
-      t*((h^2*((1 + 4*\[Xi]^2)*Subscript[m, K]^4*Subscript[s, \[Gamma]]^2*
-            (-1 + Subscript[c, \[Gamma]]^2 + Subscript[s, \[Gamma]]^2) + 
-           Subscript[m, \[Phi]]^4*Subscript[s, \[Gamma]]*
-            (3*(3 - 4*\[Xi]^2)*Subscript[c, \[Gamma]]^2*Subscript[s, 
-               \[Gamma]] - 4*\[Xi]^2*(-1 + 4*\[Xi]^2)*Subscript[s, \[Gamma]]*
-              (-2 + 3*Subscript[s, \[Gamma]]^2) + 4*\[Xi]*Subscript[c, 
-               \[Gamma]]*(3 - 4*\[Xi]^2 + 6*(-1 + 2*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2)) + Subscript[m, K]^2*
-            Subscript[m, \[Phi]]^2*(-2*\[Xi]^2 + (9 - 60*\[Xi]^2 + 8*
-                \[Xi]^4 - 32*\[Xi]^6)*Subscript[s, \[Gamma]]^2 + 
-             (-2*\[Xi]^2 + 24*\[Xi]^4 + 32*\[Xi]^6)*Subscript[s, \[Gamma]]^
-               4 + \[Xi]*Subscript[c, \[Gamma]]*Subscript[s, \[Gamma]]*
-              (9 - 136*\[Xi]^2 + 80*\[Xi]^4 + (11 - 4*\[Xi]^2 - 48*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2) + 2*Subscript[c, \[Gamma]]^2*
-              (4*(\[Xi]^2 - 8*\[Xi]^4 + 4*\[Xi]^6) + (-3 - 4*\[Xi]^2 + 
-                 8*\[Xi]^4)*Subscript[s, \[Gamma]]^2))))/
-         (2*(1 + 4*\[Xi]^2)^3*Subscript[m, K]^2*Subscript[m, \[Phi]]^4) + 
-        (h^4*(6*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^10*Subscript[s, \[Gamma]]^4*
-            (-1 + Subscript[c, \[Gamma]]^2 + Subscript[s, \[Gamma]]^2)^2 - 
-           (1 + 4*\[Xi]^2)*Subscript[m, K]^8*Subscript[m, \[Phi]]^2*
+      t*((QuantumField[h]^2*((1 + 4*\[Xi]^2)*Subscript[m, K]^4*
             Subscript[s, \[Gamma]]^2*(-1 + Subscript[c, \[Gamma]]^2 + 
-             Subscript[s, \[Gamma]]^2)*(-3*\[Xi]^2*(-7 + 8*\[Xi]^2 + 16*
-                \[Xi]^4) + (-108 + 601*\[Xi]^2 - 256*\[Xi]^4 + 784*\[Xi]^6 - 
-               384*\[Xi]^8)*Subscript[s, \[Gamma]]^2 + 48*\[Xi]*
-              (1 + 4*\[Xi]^2)^2*Subscript[c, \[Gamma]]^3*Subscript[s, 
-                \[Gamma]]^3 + \[Xi]^2*(19 - 760*\[Xi]^2 - 1856*\[Xi]^4 + 1152*
-                \[Xi]^6 - 768*\[Xi]^8)*Subscript[s, \[Gamma]]^4 + 
-             (\[Xi] + 4*\[Xi]^3)^2*(31 + 24*\[Xi]^2 + 48*\[Xi]^4)*
-              Subscript[s, \[Gamma]]^6 + Subscript[c, \[Gamma]]^2*
-              (-48*\[Xi]^2*(3 - 12*\[Xi]^2 + 4*\[Xi]^4) + 3*(17 - 
-                 40*\[Xi]^2 - 176*\[Xi]^4 + 256*\[Xi]^6)*Subscript[s, 
-                  \[Gamma]]^2 + (1 + 4*\[Xi]^2)^2*(13 - 24*\[Xi]^2 + 
-                 96*\[Xi]^4)*Subscript[s, \[Gamma]]^4) - 
+             Subscript[s, \[Gamma]]^2) + Subscript[m, \[Phi]]^4*
+            Subscript[s, \[Gamma]]*(3*(3 - 4*\[Xi]^2)*Subscript[c, \[Gamma]]^
+               2*Subscript[s, \[Gamma]] - 4*\[Xi]^2*(-1 + 4*\[Xi]^2)*
+              Subscript[s, \[Gamma]]*(-2 + 3*Subscript[s, \[Gamma]]^2) + 
+             4*\[Xi]*Subscript[c, \[Gamma]]*(3 - 4*\[Xi]^2 + 6*
+                (-1 + 2*\[Xi]^2)*Subscript[s, \[Gamma]]^2)) + 
+           Subscript[m, K]^2*Subscript[m, \[Phi]]^2*(-2*\[Xi]^2 + 
+             (9 - 60*\[Xi]^2 + 8*\[Xi]^4 - 32*\[Xi]^6)*Subscript[s, \[Gamma]]^
+               2 + (-2*\[Xi]^2 + 24*\[Xi]^4 + 32*\[Xi]^6)*Subscript[s, 
+                \[Gamma]]^4 + \[Xi]*Subscript[c, \[Gamma]]*Subscript[s, 
+               \[Gamma]]*(9 - 136*\[Xi]^2 + 80*\[Xi]^4 + (11 - 4*\[Xi]^2 - 
+                 48*\[Xi]^4)*Subscript[s, \[Gamma]]^2) + 
+             2*Subscript[c, \[Gamma]]^2*(4*(\[Xi]^2 - 8*\[Xi]^4 + 
+                 4*\[Xi]^6) + (-3 - 4*\[Xi]^2 + 8*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2))))/(2*(1 + 4*\[Xi]^2)^3*
+          Subscript[m, K]^2*Subscript[m, \[Phi]]^4) + 
+        (QuantumField[h]^4*(6*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^10*
+            Subscript[s, \[Gamma]]^4*(-1 + Subscript[c, \[Gamma]]^2 + 
+              Subscript[s, \[Gamma]]^2)^2 - (1 + 4*\[Xi]^2)*Subscript[m, K]^8*
+            Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^2*
+            (-1 + Subscript[c, \[Gamma]]^2 + Subscript[s, \[Gamma]]^2)*
+            (-3*\[Xi]^2*(-7 + 8*\[Xi]^2 + 16*\[Xi]^4) + 
+             (-108 + 601*\[Xi]^2 - 256*\[Xi]^4 + 784*\[Xi]^6 - 384*\[Xi]^8)*
+              Subscript[s, \[Gamma]]^2 + 48*\[Xi]*(1 + 4*\[Xi]^2)^2*
+              Subscript[c, \[Gamma]]^3*Subscript[s, \[Gamma]]^3 + 
+             \[Xi]^2*(19 - 760*\[Xi]^2 - 1856*\[Xi]^4 + 1152*\[Xi]^6 - 768*
+                \[Xi]^8)*Subscript[s, \[Gamma]]^4 + (\[Xi] + 4*\[Xi]^3)^2*
+              (31 + 24*\[Xi]^2 + 48*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
+             Subscript[c, \[Gamma]]^2*(-48*\[Xi]^2*(3 - 12*\[Xi]^2 + 
+                 4*\[Xi]^4) + 3*(17 - 40*\[Xi]^2 - 176*\[Xi]^4 + 256*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^2 + (1 + 4*\[Xi]^2)^2*
+                (13 - 24*\[Xi]^2 + 96*\[Xi]^4)*Subscript[s, \[Gamma]]^4) - 
              4*\[Xi]*Subscript[c, \[Gamma]]*Subscript[s, \[Gamma]]*
               (45 - 288*\[Xi]^2 + 312*\[Xi]^4 - 96*\[Xi]^6 - 4*
                 (-13 - 5*\[Xi]^2 + 50*\[Xi]^4 - 96*\[Xi]^6 + 96*\[Xi]^8)*
@@ -1953,9 +1964,10 @@
                 Subscript[s, \[Gamma]]^6 + 9*(281 + 1252*\[Xi]^2 - 
                  272*\[Xi]^4 + 12544*\[Xi]^8)*Subscript[s, \[Gamma]]^8))))/
          (24*\[Xi]^2*(1 + 4*\[Xi]^2)^4*Subscript[m, K]^6*Subscript[m, \[Phi]]^
-           6*Subscript[v, EW]^2) - (h^3*(4*\[Xi]^2*Subscript[m, \[Phi]]^6*
-            Subscript[s, \[Gamma]]^3*(-2 + 3*Subscript[s, \[Gamma]]^2)*
-            (15 - 44*\[Xi]^2 + 6*(-3 + 8*\[Xi]^2)*Subscript[s, \[Gamma]]^2) + 
+           6*Subscript[v, EW]^2) - (QuantumField[h]^3*
+          (4*\[Xi]^2*Subscript[m, \[Phi]]^6*Subscript[s, \[Gamma]]^3*
+            (-2 + 3*Subscript[s, \[Gamma]]^2)*(15 - 44*\[Xi]^2 + 
+             6*(-3 + 8*\[Xi]^2)*Subscript[s, \[Gamma]]^2) + 
            3*(1 + 4*\[Xi]^2)*Subscript[m, K]^6*Subscript[s, \[Gamma]]^3*
             (-1 + Subscript[s, \[Gamma]]^2)*(4 - 7*\[Xi]^2 + 4*\[Xi]^4 + 
              \[Xi]^2*(-1 + 16*\[Xi]^4)*Subscript[s, \[Gamma]]^2) - 
@@ -2017,19 +2029,19 @@
                  96*\[Xi]^6 + 256*\[Xi]^8)*Subscript[s, \[Gamma]]^6))))/
          (6*\[Xi]*(1 + 4*\[Xi]^2)^(7/2)*Subscript[m, K]^4*
           Subscript[m, \[Phi]]^4*Subscript[v, EW]) + 
-        (\[Xi]*h*((-2*\[Xi] + 8*\[Xi]^3)*Subscript[c, \[Gamma]] + 
-           (-3 + 4*\[Xi]^2)*Subscript[s, \[Gamma]])*Subscript[v, EW])/
-         ((1 + 4*\[Xi]^2)^(5/2)*Subscript[m, \[Phi]]^2) + 
+        (\[Xi]*QuantumField[h]*((-2*\[Xi] + 8*\[Xi]^3)*Subscript[c, 
+             \[Gamma]] + (-3 + 4*\[Xi]^2)*Subscript[s, \[Gamma]])*
+          Subscript[v, EW])/((1 + 4*\[Xi]^2)^(5/2)*Subscript[m, \[Phi]]^2) + 
         (\[Xi]^2*Subscript[v, EW]^2)/((1 + 4*\[Xi]^2)^2*Subscript[m, \[Phi]]^
            2)), CV32V32 -> 
-      t*((h^2*(-((1 + 4*\[Xi]^2)*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*
-             (-1 + Subscript[c, \[Gamma]]^2 + Subscript[s, \[Gamma]]^2)) + 
-           Subscript[m, K]^6*Subscript[m, \[Phi]]^2*(2*\[Xi]^2 + 
-             (-9 + 60*\[Xi]^2 - 8*\[Xi]^4 + 32*\[Xi]^6)*Subscript[s, 
-                \[Gamma]]^2 + (2*\[Xi]^2 - 24*\[Xi]^4 - 32*\[Xi]^6)*
-              Subscript[s, \[Gamma]]^4 + Subscript[c, \[Gamma]]^2*
-              (-8*(\[Xi]^2 - 8*\[Xi]^4 + 4*\[Xi]^6) + (6 + 8*\[Xi]^2 - 
-                 16*\[Xi]^4)*Subscript[s, \[Gamma]]^2) + 
+      t*((QuantumField[h]^2*(-((1 + 4*\[Xi]^2)*Subscript[m, K]^8*
+             Subscript[s, \[Gamma]]^2*(-1 + Subscript[c, \[Gamma]]^2 + 
+              Subscript[s, \[Gamma]]^2)) + Subscript[m, K]^6*
+            Subscript[m, \[Phi]]^2*(2*\[Xi]^2 + (-9 + 60*\[Xi]^2 - 8*
+                \[Xi]^4 + 32*\[Xi]^6)*Subscript[s, \[Gamma]]^2 + 
+             (2*\[Xi]^2 - 24*\[Xi]^4 - 32*\[Xi]^6)*Subscript[s, \[Gamma]]^4 + 
+             Subscript[c, \[Gamma]]^2*(-8*(\[Xi]^2 - 8*\[Xi]^4 + 4*\[Xi]^6) + 
+               (6 + 8*\[Xi]^2 - 16*\[Xi]^4)*Subscript[s, \[Gamma]]^2) + 
              \[Xi]*Subscript[c, \[Gamma]]*Subscript[s, \[Gamma]]*
               (-9 + 136*\[Xi]^2 - 80*\[Xi]^4 + (-11 + 4*\[Xi]^2 + 48*\[Xi]^4)*
                 Subscript[s, \[Gamma]]^2)) - (1 + 4*\[Xi]^2)^2*
@@ -2086,22 +2098,22 @@
                  2 - 3*(-5 + 34*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 18*
                 (-1 + 5*\[Xi]^2)*Subscript[s, \[Gamma]]^6))))/
          (4*(1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, \[Phi]]^4) + 
-        (h^4*(-6*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^14*Subscript[s, \[Gamma]]^
-             4*(-1 + Subscript[c, \[Gamma]]^2 + Subscript[s, \[Gamma]]^2)^2 + 
-           (1 + 4*\[Xi]^2)*Subscript[m, K]^12*Subscript[m, \[Phi]]^2*
-            Subscript[s, \[Gamma]]^2*(-1 + Subscript[c, \[Gamma]]^2 + 
-             Subscript[s, \[Gamma]]^2)*(-3*\[Xi]^2*(-7 + 8*\[Xi]^2 + 16*
-                \[Xi]^4) + (-108 + 601*\[Xi]^2 - 256*\[Xi]^4 + 784*\[Xi]^6 - 
-               384*\[Xi]^8)*Subscript[s, \[Gamma]]^2 + 48*\[Xi]*
-              (1 + 4*\[Xi]^2)^2*Subscript[c, \[Gamma]]^3*Subscript[s, 
-                \[Gamma]]^3 + \[Xi]^2*(19 - 760*\[Xi]^2 - 1856*\[Xi]^4 + 1152*
-                \[Xi]^6 - 768*\[Xi]^8)*Subscript[s, \[Gamma]]^4 + 
-             (\[Xi] + 4*\[Xi]^3)^2*(31 + 24*\[Xi]^2 + 48*\[Xi]^4)*
-              Subscript[s, \[Gamma]]^6 + Subscript[c, \[Gamma]]^2*
-              (-48*\[Xi]^2*(3 - 12*\[Xi]^2 + 4*\[Xi]^4) + 3*(17 - 
-                 40*\[Xi]^2 - 176*\[Xi]^4 + 256*\[Xi]^6)*Subscript[s, 
-                  \[Gamma]]^2 + (1 + 4*\[Xi]^2)^2*(13 - 24*\[Xi]^2 + 
-                 96*\[Xi]^4)*Subscript[s, \[Gamma]]^4) - 
+        (QuantumField[h]^4*(-6*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^14*
+            Subscript[s, \[Gamma]]^4*(-1 + Subscript[c, \[Gamma]]^2 + 
+              Subscript[s, \[Gamma]]^2)^2 + (1 + 4*\[Xi]^2)*
+            Subscript[m, K]^12*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^
+             2*(-1 + Subscript[c, \[Gamma]]^2 + Subscript[s, \[Gamma]]^2)*
+            (-3*\[Xi]^2*(-7 + 8*\[Xi]^2 + 16*\[Xi]^4) + 
+             (-108 + 601*\[Xi]^2 - 256*\[Xi]^4 + 784*\[Xi]^6 - 384*\[Xi]^8)*
+              Subscript[s, \[Gamma]]^2 + 48*\[Xi]*(1 + 4*\[Xi]^2)^2*
+              Subscript[c, \[Gamma]]^3*Subscript[s, \[Gamma]]^3 + 
+             \[Xi]^2*(19 - 760*\[Xi]^2 - 1856*\[Xi]^4 + 1152*\[Xi]^6 - 768*
+                \[Xi]^8)*Subscript[s, \[Gamma]]^4 + (\[Xi] + 4*\[Xi]^3)^2*
+              (31 + 24*\[Xi]^2 + 48*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
+             Subscript[c, \[Gamma]]^2*(-48*\[Xi]^2*(3 - 12*\[Xi]^2 + 
+                 4*\[Xi]^4) + 3*(17 - 40*\[Xi]^2 - 176*\[Xi]^4 + 256*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^2 + (1 + 4*\[Xi]^2)^2*
+                (13 - 24*\[Xi]^2 + 96*\[Xi]^4)*Subscript[s, \[Gamma]]^4) - 
              4*\[Xi]*Subscript[c, \[Gamma]]*Subscript[s, \[Gamma]]*
               (45 - 288*\[Xi]^2 + 312*\[Xi]^4 - 96*\[Xi]^6 - 4*
                 (-13 - 5*\[Xi]^2 + 50*\[Xi]^4 - 96*\[Xi]^6 + 96*\[Xi]^8)*
@@ -2165,70 +2177,71 @@
                 Subscript[s, \[Gamma]]^4 + (-23 + 144*\[Xi]^2)*
                 Subscript[s, \[Gamma]]^6) - 18*\[Xi]*Subscript[c, \[Gamma]]^7*
               Subscript[s, \[Gamma]]*(-128*\[Xi]^2 + 36*(-15 + 32*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 - 72*(-53 + 48*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^4 + 9*(-671 + 384*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 - 144*(-29 + 24*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^4 + 9*(-791 + 384*\[Xi]^2)*
                 Subscript[s, \[Gamma]]^6) - 8*\[Xi]^2*Subscript[s, \[Gamma]]^
                6*(-6345 + 3520*\[Xi]^2 + (32292 - 20256*\[Xi]^2)*
                 Subscript[s, \[Gamma]]^2 + 27*(-2227 + 1616*\[Xi]^2)*
                 Subscript[s, \[Gamma]]^4 - 54*(-903 + 772*\[Xi]^2)*
                 Subscript[s, \[Gamma]]^6 + 324*(-45 + 46*\[Xi]^2)*
                 Subscript[s, \[Gamma]]^8) + 18*\[Xi]*Subscript[c, \[Gamma]]^5*
-              Subscript[s, \[Gamma]]*(192*\[Xi]^2 + (324 - 6512*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + (-7371 + 40912*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^4 + (26667 - 90468*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^6 + 18*(-1419 + 3628*\[Xi]^2)*
+              Subscript[s, \[Gamma]]*(192*\[Xi]^2 + (324 - 6992*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (-8001 + 44752*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^4 - 189*(-153 + 532*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^6 + 18*(-1509 + 4108*\[Xi]^2)*
                 Subscript[s, \[Gamma]]^8) - 6*\[Xi]*Subscript[c, \[Gamma]]^3*
-              Subscript[s, \[Gamma]]^3*(4*(-81 + 5240*\[Xi]^2) + (22221 - 
-                 214504*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 27*(-4529 + 
-                 27396*\[Xi]^2)*Subscript[s, \[Gamma]]^4 - 9*(-24139 + 
-                 116892*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 27*(-4529 + 
-                 19688*\[Xi]^2)*Subscript[s, \[Gamma]]^8) + 
+              Subscript[s, \[Gamma]]^3*(4*(-81 + 5840*\[Xi]^2) + (23301 - 
+                 237064*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 9*(-14097 + 
+                 90308*\[Xi]^2)*Subscript[s, \[Gamma]]^4 - 9*(-24799 + 
+                 127452*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 27*(-4619 + 
+                 21248*\[Xi]^2)*Subscript[s, \[Gamma]]^8) + 
              3*Subscript[c, \[Gamma]]^6*(128*\[Xi]^4 - 96*\[Xi]^2*
                 (-33 + 16*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (891 - 
-                 47760*\[Xi]^2 + 6912*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 54*
-                (167 - 3218*\[Xi]^2 + 256*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
-               108*(119 - 1665*\[Xi]^2 + 96*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 50640*\[Xi]^2 + 6912*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 108*
+                (91 - 1769*\[Xi]^2 + 128*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
+               54*(253 - 3810*\[Xi]^2 + 192*\[Xi]^4)*Subscript[s, \[Gamma]]^
                  8) + Subscript[c, \[Gamma]]^4*Subscript[s, \[Gamma]]^2*
-              (4752*\[Xi]^2 - 40256*\[Xi]^4 + 36*(27 - 5877*\[Xi]^2 + 
-                 10912*\[Xi]^4)*Subscript[s, \[Gamma]]^2 - 9*(3861 - 
-                 144708*\[Xi]^2 + 152336*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
-               162*(641 - 16668*\[Xi]^2 + 12472*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^6 - 81*(1047 - 22188*\[Xi]^2 + 13184*\[Xi]^4)*
+              (4752*\[Xi]^2 - 44096*\[Xi]^4 + 36*(27 - 6117*\[Xi]^2 + 
+                 12032*\[Xi]^4)*Subscript[s, \[Gamma]]^2 - 9*(4131 - 
+                 150348*\[Xi]^2 + 169616*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
+               162*(671 - 17228*\[Xi]^2 + 14072*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^6 - 81*(1077 - 22788*\[Xi]^2 + 15104*\[Xi]^4)*
                 Subscript[s, \[Gamma]]^8) + 12*\[Xi]*Subscript[c, \[Gamma]]*
-              Subscript[s, \[Gamma]]^3*(-2304*\[Xi]^2 + 8*(-297 + 
-                 4976*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 6*(-3159 + 
-                 32024*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 9*(-5229 + 
-                 44320*\[Xi]^2)*Subscript[s, \[Gamma]]^6 - 108*(-433 + 
-                 3509*\[Xi]^2)*Subscript[s, \[Gamma]]^8 + 81*(-201 + 
-                 1672*\[Xi]^2)*Subscript[s, \[Gamma]]^10) + 
-             24*Subscript[c, \[Gamma]]^2*Subscript[s, \[Gamma]]^2*
-              (-256*\[Xi]^4 + 18*\[Xi]^2*(-343 + 564*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + (-729 + 54648*\[Xi]^2 - 
-                 64248*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 9*(423 - 
-                 17973*\[Xi]^2 + 17906*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 27*
-                (201 - 7303*\[Xi]^2 + 6680*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 8 + 81*(29 - 1049*\[Xi]^2 + 930*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^10)) - (1 + 4*\[Xi]^2)^2*Subscript[m, K]^2*
-            Subscript[m, \[Phi]]^12*(5184*Subscript[c, \[Gamma]]^10*
-              Subscript[s, \[Gamma]]^4 - 5184*\[Xi]*Subscript[c, \[Gamma]]^9*
-              Subscript[s, \[Gamma]]^3*(-2 + 7*Subscript[s, \[Gamma]]^2) - 
-             12*\[Xi]*Subscript[c, \[Gamma]]^7*Subscript[s, \[Gamma]]*
-              (-128*\[Xi]^2 + 27*(-59 + 64*\[Xi]^2)*Subscript[s, \[Gamma]]^
-                 2 - 12*(-925 + 576*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 1080*
-                (-17 + 8*\[Xi]^2)*Subscript[s, \[Gamma]]^6) + 
+              Subscript[s, \[Gamma]]^3*(-2784*\[Xi]^2 + (-5076 + 
+                 46528*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (33129 - 
+                 219264*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 18*(-4077 + 
+                 24790*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + (67689 - 
+                 416772*\[Xi]^2)*Subscript[s, \[Gamma]]^8 + 972*
+                (-23 + 151*\[Xi]^2)*Subscript[s, \[Gamma]]^10) + 
+             6*Subscript[c, \[Gamma]]^2*Subscript[s, \[Gamma]]^2*
+              (-1024*\[Xi]^4 + 10872*\[Xi]^2*(-3 + 4*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 - 3*(1647 - 91824*\[Xi]^2 + 
+                 92384*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 9*(2367 - 
+                 87112*\[Xi]^2 + 77144*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 27*
+                (1029 - 34212*\[Xi]^2 + 28640*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 8 + 243*(47 - 1592*\[Xi]^2 + 1320*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^10)) - (1 + 4*\[Xi]^2)^2*
+            Subscript[m, K]^2*Subscript[m, \[Phi]]^12*
+            (5184*Subscript[c, \[Gamma]]^10*Subscript[s, \[Gamma]]^4 - 
+             5184*\[Xi]*Subscript[c, \[Gamma]]^9*Subscript[s, \[Gamma]]^3*
+              (-2 + 7*Subscript[s, \[Gamma]]^2) - 12*\[Xi]*Subscript[c, 
+                \[Gamma]]^7*Subscript[s, \[Gamma]]*(-128*\[Xi]^2 + 27*
+                (-59 + 64*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 96*
+                (-125 + 72*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 4320*
+                (-5 + 2*\[Xi]^2)*Subscript[s, \[Gamma]]^6) + 
              432*Subscript[c, \[Gamma]]^8*(16*\[Xi]^2*Subscript[s, \[Gamma]]^
                  2 - 15*(-1 + 8*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 6*
                 (-7 + 36*\[Xi]^2)*Subscript[s, \[Gamma]]^6) + 
              2*\[Xi]*Subscript[c, \[Gamma]]^5*Subscript[s, \[Gamma]]*
-              (2616*\[Xi]^2 + (2835 - 68476*\[Xi]^2)*Subscript[s, \[Gamma]]^
-                 2 + 18*(-5296 + 24465*\[Xi]^2)*Subscript[s, \[Gamma]]^4 - 9*
-                (-41133 + 113152*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 648*
-                (-574 + 1177*\[Xi]^2)*Subscript[s, \[Gamma]]^8) + 
-             12*Subscript[c, \[Gamma]]^6*(2*\[Xi]^2*(669 - 64*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + 9*(31 - 2046*\[Xi]^2 + 
-                 128*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (-4293 + 
-                 67983*\[Xi]^2 - 3456*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 9*
-                (689 - 8148*\[Xi]^2 + 384*\[Xi]^4)*Subscript[s, \[Gamma]]^
+              (2616*\[Xi]^2 + (2835 - 72316*\[Xi]^2)*Subscript[s, \[Gamma]]^
+                 2 + 18*(-5906 + 26545*\[Xi]^2)*Subscript[s, \[Gamma]]^4 - 9*
+                (-45423 + 125872*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 81*
+                (-4957 + 10776*\[Xi]^2)*Subscript[s, \[Gamma]]^8) + 
+             6*Subscript[c, \[Gamma]]^6*(4*\[Xi]^2*(669 - 64*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + 18*(31 - 2126*\[Xi]^2 + 
+                 128*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 3*(3177 - 
+                 49162*\[Xi]^2 + 2304*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 9*
+                (1483 - 18696*\[Xi]^2 + 768*\[Xi]^4)*Subscript[s, \[Gamma]]^
                  8) - 8*\[Xi]^2*Subscript[s, \[Gamma]]^4*
               (-24*(21 + 10*\[Xi]^2) + (-6228 + 5248*\[Xi]^2)*
                 Subscript[s, \[Gamma]]^2 + (40563 - 23500*\[Xi]^2)*
@@ -2236,120 +2249,121 @@
                 Subscript[s, \[Gamma]]^6 + (69795 - 36936*\[Xi]^2)*
                 Subscript[s, \[Gamma]]^8 + 27*(-807 + 440*\[Xi]^2)*
                 Subscript[s, \[Gamma]]^10) + 2*\[Xi]*Subscript[c, \[Gamma]]*
-              Subscript[s, \[Gamma]]^3*(-8*(81 + 1702*\[Xi]^2) + 12*
-                (-627 + 21944*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 3*
-                (-41823 + 434860*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 9*
-                (-42385 + 301024*\[Xi]^2)*Subscript[s, \[Gamma]]^6 - 27*
-                (-15775 + 94292*\[Xi]^2)*Subscript[s, \[Gamma]]^8 + 81*
-                (-1997 + 11064*\[Xi]^2)*Subscript[s, \[Gamma]]^10) - 
+              Subscript[s, \[Gamma]]^3*(-8*(81 + 2302*\[Xi]^2) + 6*
+                (-6279 + 54368*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 3*
+                (-95943 + 517460*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 108*
+                (-6395 + 29042*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 
+               (677835 - 2885544*\[Xi]^2)*Subscript[s, \[Gamma]]^8 + 486*
+                (-487 + 2054*\[Xi]^2)*Subscript[s, \[Gamma]]^10) - 
              2*\[Xi]*Subscript[c, \[Gamma]]^3*Subscript[s, \[Gamma]]*
-              (360*\[Xi]^2 + (54 + 66698*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
-               (81891 - 718660*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 9*
-                (-56183 + 280122*\[Xi]^2)*Subscript[s, \[Gamma]]^6 - 108*
-                (-8892 + 33235*\[Xi]^2)*Subscript[s, \[Gamma]]^8 + 54*
-                (-10487 + 33310*\[Xi]^2)*Subscript[s, \[Gamma]]^10) + 
-             Subscript[c, \[Gamma]]^4*(288*\[Xi]^4 + (4788*\[Xi]^2 - 
-                 31504*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (-189 - 
-                 266826*\[Xi]^2 + 339800*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 
-               9*(5463 - 189402*\[Xi]^2 + 144440*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^6 + 36*(4773 - 100515*\[Xi]^2 + 56128*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 - 324*(463 - 7584*\[Xi]^2 + 
-                 3372*\[Xi]^4)*Subscript[s, \[Gamma]]^10) + 
+              (360*\[Xi]^2 + (54 + 77258*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
+               (86661 - 815620*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 9*
+                (-58393 + 314762*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 
+               (990441 - 3995460*\[Xi]^2)*Subscript[s, \[Gamma]]^8 + 27*
+                (-21529 + 73460*\[Xi]^2)*Subscript[s, \[Gamma]]^10) + 
              2*Subscript[c, \[Gamma]]^2*Subscript[s, \[Gamma]]^2*
-              (-152*\[Xi]^2*(9 + 38*\[Xi]^2) + 4*(-81 - 18087*\[Xi]^2 + 
-                 34862*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (-6993 + 
-                 765006*\[Xi]^2 - 801936*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
-               18*(3381 - 134852*\[Xi]^2 + 105232*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 - 54*(1947 - 56888*\[Xi]^2 + 
-                 37120*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 81*(637 - 
-                 16742*\[Xi]^2 + 9744*\[Xi]^4)*Subscript[s, \[Gamma]]^10)) + 
-           Subscript[m, K]^8*Subscript[m, \[Phi]]^6*Subscript[s, \[Gamma]]*
-            (2*\[Xi]^2*(39 + 152*\[Xi]^2 + 2384*\[Xi]^4 + 7872*\[Xi]^6 + 3072*
-                \[Xi]^8 + 3072*\[Xi]^10)*Subscript[s, \[Gamma]] + 
-             \[Xi]^2*(1187 + 1064*\[Xi]^2 + 26720*\[Xi]^4 - 98176*\[Xi]^6 + 
-               68352*\[Xi]^8 + 36864*\[Xi]^10)*Subscript[s, \[Gamma]]^3 + 
-             384*(1 + 4*\[Xi]^2)^5*Subscript[c, \[Gamma]]^10*Subscript[s, 
-                \[Gamma]]^3 - 1536*\[Xi]*(1 + 4*\[Xi]^2)^5*Subscript[c, 
-                \[Gamma]]^9*Subscript[s, \[Gamma]]^4 - 
-             (-297 + 623*\[Xi]^2 + 24248*\[Xi]^4 + 87520*\[Xi]^6 - 236288*
-                \[Xi]^8 + 220928*\[Xi]^10 + 176128*\[Xi]^12 + 57344*\[Xi]^14)*
-              Subscript[s, \[Gamma]]^5 + (-621 - 1371*\[Xi]^2 + 27776*
-                \[Xi]^4 - 32672*\[Xi]^6 - 441856*\[Xi]^8 - 195328*\[Xi]^10 - 
-               75776*\[Xi]^12 + 155648*\[Xi]^14)*Subscript[s, \[Gamma]]^7 + 
-             (324 + 645*\[Xi]^2 + 7704*\[Xi]^4 + 129312*\[Xi]^6 + 509952*
-                \[Xi]^8 + 771840*\[Xi]^10 + 534528*\[Xi]^12 - 122880*
-                \[Xi]^14)*Subscript[s, \[Gamma]]^9 + 8*\[Xi]^2*
-              (-45 + \[Xi]^2)*(1 + 4*\[Xi]^2)^5*Subscript[s, \[Gamma]]^11 + 
-             4*\[Xi]^2*(1 + 4*\[Xi]^2)^5*(3 + 4*\[Xi]^2)*Subscript[s, 
-                \[Gamma]]^13 + 16*(1 + 4*\[Xi]^2)^5*Subscript[c, \[Gamma]]^8*
-              Subscript[s, \[Gamma]]^3*(3 + (-53 + 144*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2) - 16*\[Xi]*(1 + 4*\[Xi]^2)^5*
-              Subscript[c, \[Gamma]]^7*Subscript[s, \[Gamma]]^2*
-              (-18 + 49*Subscript[s, \[Gamma]]^2 + (-281 + 96*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^4) + (1 + 4*\[Xi]^2)^5*
-              Subscript[c, \[Gamma]]^6*Subscript[s, \[Gamma]]^3*
-              (-639 - 944*\[Xi]^2 + (578 + 3144*\[Xi]^2)*Subscript[s, 
-                  \[Gamma]]^2 + (941 - 8016*\[Xi]^2 + 384*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4) + 2*\[Xi]*(1 + 4*\[Xi]^2)*
-              Subscript[c, \[Gamma]]^5*Subscript[s, \[Gamma]]^2*
-              (-6*(45 + 272*\[Xi]^2 + 1376*\[Xi]^4 + 3840*\[Xi]^6 + 
-                 3840*\[Xi]^8) + (1492 + 10389*\[Xi]^2 + 57104*\[Xi]^4 + 
-                 193504*\[Xi]^6 + 294144*\[Xi]^8 + 161024*\[Xi]^10)*
-                Subscript[s, \[Gamma]]^2 - 2*(1 + 4*\[Xi]^2)^4*
-                (260 + 1239*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 
-               (1 + 4*\[Xi]^2)^4*(-2070 + 3157*\[Xi]^2)*Subscript[s, 
-                  \[Gamma]]^6) + Subscript[c, \[Gamma]]^4*Subscript[s, 
-               \[Gamma]]*(3*\[Xi]^2*(-85 + 2140*\[Xi]^2 - 7392*\[Xi]^4 + 
-                 11904*\[Xi]^6 + 14080*\[Xi]^8 + 11264*\[Xi]^10) + 
-               (171 - 794*\[Xi]^2 + 30872*\[Xi]^4 + 137344*\[Xi]^6 + 
-                 176128*\[Xi]^8 + 212480*\[Xi]^10 + 59392*\[Xi]^12)*
-                Subscript[s, \[Gamma]]^2 + (903 + 8594*\[Xi]^2 + 
-                 75722*\[Xi]^4 + 467176*\[Xi]^6 + 1376832*\[Xi]^8 + 
-                 1778432*\[Xi]^10 + 487936*\[Xi]^12 - 849920*\[Xi]^14)*
-                Subscript[s, \[Gamma]]^4 + (1 + 4*\[Xi]^2)^5*(-207 - 
-                 4584*\[Xi]^2 + 2752*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 
-               (1 + 4*\[Xi]^2)^5*(819 - 6315*\[Xi]^2 + 1922*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8) - 2*\[Xi]*Subscript[c, \[Gamma]]^3*
-              (48*\[Xi]^2*(3 - 100*\[Xi]^2 + 376*\[Xi]^4 + 32*\[Xi]^6) + 4*
-                (-75 + 57*\[Xi]^2 + 14784*\[Xi]^4 - 9184*\[Xi]^6 + 
-                 32256*\[Xi]^8 + 34304*\[Xi]^10 + 10240*\[Xi]^12)*
-                Subscript[s, \[Gamma]]^2 - 2*(-844 + 8315*\[Xi]^2 + 
-                 32068*\[Xi]^4 + 74016*\[Xi]^6 + 304640*\[Xi]^8 + 
-                 390400*\[Xi]^10 + 209920*\[Xi]^12)*Subscript[s, \[Gamma]]^
-                 4 + (421 - 6044*\[Xi]^2 - 49408*\[Xi]^4 + 9216*\[Xi]^6 + 
-                 739840*\[Xi]^8 + 2164736*\[Xi]^10 + 2146304*\[Xi]^12)*
-                Subscript[s, \[Gamma]]^6 - (1 + 4*\[Xi]^2)^5*(-1597 + 
-                 4034*\[Xi]^2)*Subscript[s, \[Gamma]]^8 + (1 + 4*\[Xi]^2)^5*
-                (-1345 + 2308*\[Xi]^2)*Subscript[s, \[Gamma]]^10) + 
+              (-8*\[Xi]^2*(171 + 842*\[Xi]^2) + 4*(-81 - 27807*\[Xi]^2 + 
+                 39182*\[Xi]^4)*Subscript[s, \[Gamma]]^2 - 6*(3168 - 
+                 174361*\[Xi]^2 + 148776*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
+               9*(11007 - 346304*\[Xi]^2 + 232264*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 - 27*(5389 - 139576*\[Xi]^2 + 
+                 81240*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 162*
+                (406 - 9911*\[Xi]^2 + 5292*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 10) + Subscript[c, \[Gamma]]^4*(288*\[Xi]^4 + 
+               (4788*\[Xi]^2 - 33424*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
+               (-189 - 283626*\[Xi]^2 + 368600*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^4 - 9*(5943 - 199822*\[Xi]^2 + 160120*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + 18*(10101 - 209520*\[Xi]^2 + 
+                 127616*\[Xi]^4)*Subscript[s, \[Gamma]]^8 - 162*
+                (961 - 15698*\[Xi]^2 + 7864*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 10)) + Subscript[m, K]^8*Subscript[m, \[Phi]]^6*
+            Subscript[s, \[Gamma]]*(2*\[Xi]^2*(39 + 152*\[Xi]^2 + 2384*
+                \[Xi]^4 + 7872*\[Xi]^6 + 3072*\[Xi]^8 + 3072*\[Xi]^10)*
+              Subscript[s, \[Gamma]] + \[Xi]^2*(1187 + 1064*\[Xi]^2 + 26720*
+                \[Xi]^4 - 98176*\[Xi]^6 + 68352*\[Xi]^8 + 36864*\[Xi]^10)*
+              Subscript[s, \[Gamma]]^3 + 384*(1 + 4*\[Xi]^2)^5*
+              Subscript[c, \[Gamma]]^10*Subscript[s, \[Gamma]]^3 - 
+             1536*\[Xi]*(1 + 4*\[Xi]^2)^5*Subscript[c, \[Gamma]]^9*
+              Subscript[s, \[Gamma]]^4 - (-297 + 623*\[Xi]^2 + 24248*
+                \[Xi]^4 + 87520*\[Xi]^6 - 236288*\[Xi]^8 + 220928*\[Xi]^10 + 
+               176128*\[Xi]^12 + 57344*\[Xi]^14)*Subscript[s, \[Gamma]]^5 + 
+             (-621 - 1371*\[Xi]^2 + 27776*\[Xi]^4 - 32672*\[Xi]^6 - 441856*
+                \[Xi]^8 - 195328*\[Xi]^10 - 75776*\[Xi]^12 + 155648*\[Xi]^14)*
+              Subscript[s, \[Gamma]]^7 + (324 + 645*\[Xi]^2 + 7704*\[Xi]^4 + 
+               129312*\[Xi]^6 + 509952*\[Xi]^8 + 771840*\[Xi]^10 + 534528*
+                \[Xi]^12 - 122880*\[Xi]^14)*Subscript[s, \[Gamma]]^9 + 
+             8*\[Xi]^2*(-45 + \[Xi]^2)*(1 + 4*\[Xi]^2)^5*Subscript[s, 
+                \[Gamma]]^11 + 4*\[Xi]^2*(1 + 4*\[Xi]^2)^5*(3 + 4*\[Xi]^2)*
+              Subscript[s, \[Gamma]]^13 + 16*(1 + 4*\[Xi]^2)^5*
+              Subscript[c, \[Gamma]]^8*Subscript[s, \[Gamma]]^3*
+              (3 + (-53 + 144*\[Xi]^2)*Subscript[s, \[Gamma]]^2) - 
+             16*\[Xi]*(1 + 4*\[Xi]^2)^5*Subscript[c, \[Gamma]]^7*
+              Subscript[s, \[Gamma]]^2*(-18 + 49*Subscript[s, \[Gamma]]^2 + 
+               (-341 + 96*\[Xi]^2)*Subscript[s, \[Gamma]]^4) + 
+             (1 + 4*\[Xi]^2)^5*Subscript[c, \[Gamma]]^6*Subscript[s, 
+                \[Gamma]]^3*(-639 - 944*\[Xi]^2 + (398 + 3144*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (1121 - 9936*\[Xi]^2 + 
+                 384*\[Xi]^4)*Subscript[s, \[Gamma]]^4) + 
+             2*\[Xi]*(1 + 4*\[Xi]^2)*Subscript[c, \[Gamma]]^5*
+              Subscript[s, \[Gamma]]^2*(-6*(45 + 272*\[Xi]^2 + 1376*\[Xi]^4 + 
+                 3840*\[Xi]^6 + 3840*\[Xi]^8) + (1372 + 8469*\[Xi]^2 + 
+                 45584*\[Xi]^4 + 162784*\[Xi]^6 + 263424*\[Xi]^8 + 
+                 161024*\[Xi]^10)*Subscript[s, \[Gamma]]^2 - 2*
+                (1 + 4*\[Xi]^2)^4*(245 + 1359*\[Xi]^2)*Subscript[s, \[Gamma]]^
+                 4 + (1 + 4*\[Xi]^2)^4*(-2010 + 3877*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^6) + Subscript[c, \[Gamma]]^4*
+              Subscript[s, \[Gamma]]*(3*\[Xi]^2*(-85 + 2140*\[Xi]^2 - 
+                 7392*\[Xi]^4 + 11904*\[Xi]^6 + 14080*\[Xi]^8 + 
+                 11264*\[Xi]^10) + (171 - 794*\[Xi]^2 + 30872*\[Xi]^4 + 
+                 137344*\[Xi]^6 + 176128*\[Xi]^8 + 212480*\[Xi]^10 + 
+                 59392*\[Xi]^12)*Subscript[s, \[Gamma]]^2 + (993 + 
+                 11054*\[Xi]^2 + 103322*\[Xi]^4 + 630376*\[Xi]^6 + 
+                 1914432*\[Xi]^8 + 2715392*\[Xi]^10 + 1163776*\[Xi]^12 - 
+                 849920*\[Xi]^14)*Subscript[s, \[Gamma]]^4 + (1 + 4*\[Xi]^2)^
+                 5*(-387 - 3504*\[Xi]^2 + 3232*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^6 - (1 + 4*\[Xi]^2)^5*(729 - 4785*\[Xi]^2 + 
+                 2402*\[Xi]^4)*Subscript[s, \[Gamma]]^8) - 
+             2*\[Xi]*Subscript[c, \[Gamma]]^3*(48*\[Xi]^2*(3 - 100*\[Xi]^2 + 
+                 376*\[Xi]^4 + 32*\[Xi]^6) + 4*(-75 + 57*\[Xi]^2 + 
+                 14784*\[Xi]^4 - 9184*\[Xi]^6 + 32256*\[Xi]^8 + 
+                 34304*\[Xi]^10 + 10240*\[Xi]^12)*Subscript[s, \[Gamma]]^2 - 
+               4*(-407 + 4480*\[Xi]^2 + 18884*\[Xi]^4 + 50208*\[Xi]^6 + 
+                 185920*\[Xi]^8 + 239360*\[Xi]^10 + 128000*\[Xi]^12)*
+                Subscript[s, \[Gamma]]^4 + 2*(488 + 2603*\[Xi]^2 + 
+                 21196*\[Xi]^4 + 194208*\[Xi]^6 + 773120*\[Xi]^8 + 
+                 1462528*\[Xi]^10 + 1149952*\[Xi]^12)*Subscript[s, \[Gamma]]^
+                 6 - 2*(1 + 4*\[Xi]^2)^5*(-326 + 1867*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^8 + (1 + 4*\[Xi]^2)^5*(-895 + 
+                 1948*\[Xi]^2)*Subscript[s, \[Gamma]]^10) + 
              Subscript[c, \[Gamma]]^2*Subscript[s, \[Gamma]]*
               (2*\[Xi]^2*(39 + 3844*\[Xi]^2 - 59464*\[Xi]^4 + 14240*\[Xi]^6 - 
-                 32384*\[Xi]^8 - 19968*\[Xi]^10) + (-45 + 1172*\[Xi]^2 + 
-                 3276*\[Xi]^4 + 463648*\[Xi]^6 + 70016*\[Xi]^8 + 
-                 659968*\[Xi]^10 + 463872*\[Xi]^12 + 90112*\[Xi]^14)*
-                Subscript[s, \[Gamma]]^2 - (6 - 7339*\[Xi]^2 + 103150*
-                  \[Xi]^4 + 291416*\[Xi]^6 + 109568*\[Xi]^8 + 1181440*
-                  \[Xi]^10 + 1561088*\[Xi]^12 + 1124352*\[Xi]^14)*
-                Subscript[s, \[Gamma]]^4 + (-804 + 2509*\[Xi]^2 - 
-                 24760*\[Xi]^4 - 576320*\[Xi]^6 - 2378240*\[Xi]^8 - 
-                 3757312*\[Xi]^10 - 874496*\[Xi]^12 + 3145728*\[Xi]^14)*
-                Subscript[s, \[Gamma]]^6 - (1 + 4*\[Xi]^2)^5*(558 - 
-                 8475*\[Xi]^2 + 3202*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 3*
-                (1 + 4*\[Xi]^2)^5*(146 - 1311*\[Xi]^2 + 380*\[Xi]^4)*
+                 32384*\[Xi]^8 - 19968*\[Xi]^10) + (-45 + 1082*\[Xi]^2 + 
+                 1476*\[Xi]^4 + 449248*\[Xi]^6 + 12416*\[Xi]^8 + 
+                 544768*\[Xi]^10 + 371712*\[Xi]^12 + 90112*\[Xi]^14)*
+                Subscript[s, \[Gamma]]^2 - (126 - 5179*\[Xi]^2 + 
+                 117550*\[Xi]^4 + 329816*\[Xi]^6 + 109568*\[Xi]^8 + 
+                 997120*\[Xi]^10 + 1315328*\[Xi]^12 + 1124352*\[Xi]^14)*
+                Subscript[s, \[Gamma]]^4 + (-444 + 8509*\[Xi]^2 + 
+                 8570*\[Xi]^4 - 543320*\[Xi]^6 - 2728640*\[Xi]^8 - 
+                 5097472*\[Xi]^10 - 2448896*\[Xi]^12 + 2869248*\[Xi]^14)*
+                Subscript[s, \[Gamma]]^6 - (1 + 4*\[Xi]^2)^5*(918 - 
+                 10395*\[Xi]^2 + 2662*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 3*
+                (1 + 4*\[Xi]^2)^5*(186 - 1601*\[Xi]^2 + 290*\[Xi]^4)*
                 Subscript[s, \[Gamma]]^10) + 2*\[Xi]*Subscript[c, \[Gamma]]*
               (6*\[Xi]^2*(9 - 100*\[Xi]^2 + 112*\[Xi]^4 + 1088*\[Xi]^6) + 
                (-192 + 1353*\[Xi]^2 - 26052*\[Xi]^4 + 57968*\[Xi]^6 - 
                  40128*\[Xi]^8 + 51200*\[Xi]^10 + 16384*\[Xi]^12)*
-                Subscript[s, \[Gamma]]^2 + (1773 + 15818*\[Xi]^2 + 
-                 84136*\[Xi]^4 - 76320*\[Xi]^6 + 395392*\[Xi]^8 + 
-                 175104*\[Xi]^10 + 110592*\[Xi]^12)*Subscript[s, \[Gamma]]^
-                 4 - 3*(1197 + 13490*\[Xi]^2 + 25864*\[Xi]^4 + 
-                 91024*\[Xi]^6 + 470336*\[Xi]^8 + 627456*\[Xi]^10 + 
-                 445440*\[Xi]^12)*Subscript[s, \[Gamma]]^6 + (2202 + 
-                 7577*\[Xi]^2 + 2212*\[Xi]^4 + 246560*\[Xi]^6 + 1517696*
-                  \[Xi]^8 + 3311872*\[Xi]^10 + 2917376*\[Xi]^12)*
-                Subscript[s, \[Gamma]]^8 - 3*(1 + 4*\[Xi]^2)^5*(-299 + 
-                 765*\[Xi]^2)*Subscript[s, \[Gamma]]^10 + 33*(1 + 4*\[Xi]^2)^
-                 5*(-13 + 19*\[Xi]^2)*Subscript[s, \[Gamma]]^12)) - 
+                Subscript[s, \[Gamma]]^2 + (1683 + 13973*\[Xi]^2 + 
+                 68836*\[Xi]^4 - 141120*\[Xi]^6 + 251392*\[Xi]^8 + 
+                 25344*\[Xi]^10 + 64512*\[Xi]^12)*Subscript[s, \[Gamma]]^4 - 
+               3*(967 + 8865*\[Xi]^2 - 11436*\[Xi]^4 - 60176*\[Xi]^6 + 
+                 159936*\[Xi]^8 + 359936*\[Xi]^10 + 419840*\[Xi]^12)*
+                Subscript[s, \[Gamma]]^6 + 2*(321 - 11789*\[Xi]^2 - 
+                 123244*\[Xi]^4 - 372320*\[Xi]^6 - 225152*\[Xi]^8 + 
+                 886016*\[Xi]^10 + 1481728*\[Xi]^12)*Subscript[s, \[Gamma]]^
+                 8 - 3*(1 + 4*\[Xi]^2)^5*(-769 + 810*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^10 + 3*(1 + 4*\[Xi]^2)^5*
+                (-293 + 229*\[Xi]^2)*Subscript[s, \[Gamma]]^12)) - 
            Subscript[m, K]^6*Subscript[m, \[Phi]]^8*Subscript[s, \[Gamma]]*
             (32*\[Xi]^2*(3 + 31*\[Xi]^2 + 324*\[Xi]^4 + 336*\[Xi]^6 + 384*
                 \[Xi]^8)*Subscript[s, \[Gamma]] + 2*\[Xi]^2*(1461 + 18508*
@@ -2372,122 +2386,124 @@
               Subscript[c, \[Gamma]]^8*Subscript[s, \[Gamma]]^3*
               (9 - 32*\[Xi]^2 + (-43 + 144*\[Xi]^2)*Subscript[s, \[Gamma]]^
                  2) - 4*\[Xi]*(1 + 4*\[Xi]^2)^4*Subscript[c, \[Gamma]]^7*
-              Subscript[s, \[Gamma]]^2*(-792 + (4958 - 1152*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + 9*(-1307 + 448*\[Xi]^2)*
+              Subscript[s, \[Gamma]]^2*(-792 + (5198 - 1152*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + 63*(-221 + 64*\[Xi]^2)*
                 Subscript[s, \[Gamma]]^4) + \[Xi]*Subscript[c, \[Gamma]]^5*
               Subscript[s, \[Gamma]]^2*(-2*(1323 + 17216*\[Xi]^2 + 
                  117344*\[Xi]^4 + 429312*\[Xi]^6 + 764672*\[Xi]^8 + 
-                 536576*\[Xi]^10) + 3*(-96 - 2027*\[Xi]^2 + 114256*\[Xi]^4 + 
-                 1089504*\[Xi]^6 + 3407104*\[Xi]^8 + 3708160*\[Xi]^10)*
-                Subscript[s, \[Gamma]]^2 - 9*(1 + 4*\[Xi]^2)^4*(-5631 + 
-                 14510*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 81*(1 + 4*\[Xi]^2)^
-                 4*(-1047 + 1495*\[Xi]^2)*Subscript[s, \[Gamma]]^6) + 
+                 536576*\[Xi]^10) + 3*(-1076 - 16907*\[Xi]^2 + 
+                 32976*\[Xi]^4 + 915424*\[Xi]^6 + 3361024*\[Xi]^8 + 
+                 3912960*\[Xi]^10)*Subscript[s, \[Gamma]]^2 - 3*
+                (1 + 4*\[Xi]^2)^4*(-19393 + 48570*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^4 + 9*(1 + 4*\[Xi]^2)^4*(-10073 + 
+                 15935*\[Xi]^2)*Subscript[s, \[Gamma]]^6) + 
              6*(1 + 4*\[Xi]^2)^4*Subscript[c, \[Gamma]]^6*Subscript[s, 
                \[Gamma]]*(240*\[Xi]^2 - 4*(93 + 812*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 - 16*(49 - 822*\[Xi]^2 + 16*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 + (2299 - 18978*\[Xi]^2 + 
-                 768*\[Xi]^4)*Subscript[s, \[Gamma]]^6) - 
+                Subscript[s, \[Gamma]]^2 + (-1039 + 13792*\[Xi]^2 - 
+                 256*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (2554 - 
+                 22338*\[Xi]^2 + 768*\[Xi]^4)*Subscript[s, \[Gamma]]^6) - 
              Subscript[c, \[Gamma]]^4*Subscript[s, \[Gamma]]*
               (96*\[Xi]^2*(-1 + 72*\[Xi]^2 + 160*\[Xi]^4 + 512*\[Xi]^6 + 
-                 512*\[Xi]^8) + (825 + 18073*\[Xi]^2 + 158046*\[Xi]^4 + 
-                 887744*\[Xi]^6 + 1828672*\[Xi]^8 + 974592*\[Xi]^10 - 
+                 512*\[Xi]^8) + (825 + 19273*\[Xi]^2 + 177246*\[Xi]^4 + 
+                 1002944*\[Xi]^6 + 2135872*\[Xi]^8 + 1281792*\[Xi]^10 - 
                  1139200*\[Xi]^12)*Subscript[s, \[Gamma]]^2 + 3*
-                (-739 - 32557*\[Xi]^2 - 463134*\[Xi]^4 - 2558272*\[Xi]^6 - 
-                 5937472*\[Xi]^8 - 3865344*\[Xi]^10 + 3138048*\[Xi]^12)*
-                Subscript[s, \[Gamma]]^4 - (1 + 4*\[Xi]^2)^4*(11823 - 
-                 210831*\[Xi]^2 + 80342*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 9*
-                (1 + 4*\[Xi]^2)^4*(2003 - 19467*\[Xi]^2 + 5642*\[Xi]^4)*
+                (-739 - 35497*\[Xi]^2 - 509214*\[Xi]^4 - 2825152*\[Xi]^6 - 
+                 6597952*\[Xi]^8 - 4372224*\[Xi]^10 + 3383808*\[Xi]^12)*
+                Subscript[s, \[Gamma]]^4 - (1 + 4*\[Xi]^2)^4*(12093 - 
+                 212691*\[Xi]^2 + 93782*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 9*
+                (1 + 4*\[Xi]^2)^4*(2033 - 19147*\[Xi]^2 + 6922*\[Xi]^4)*
                 Subscript[s, \[Gamma]]^8) + \[Xi]*Subscript[c, \[Gamma]]^3*
               (12*\[Xi]^2*(31 - 464*\[Xi]^2 + 544*\[Xi]^4 + 1792*\[Xi]^6 + 
-                 1792*\[Xi]^8) - 6*(91 + 7209*\[Xi]^2 + 22912*\[Xi]^4 + 
-                 115424*\[Xi]^6 + 199936*\[Xi]^8 + 137472*\[Xi]^10)*
-                Subscript[s, \[Gamma]]^2 + 2*(769 + 45247*\[Xi]^2 + 
-                 330336*\[Xi]^4 + 2179744*\[Xi]^6 + 5501440*\[Xi]^8 + 
-                 5369088*\[Xi]^10)*Subscript[s, \[Gamma]]^4 + (36831 + 
-                 502608*\[Xi]^2 + 1240272*\[Xi]^4 - 6510336*\[Xi]^6 - 
-                 35275776*\[Xi]^8 - 46162944*\[Xi]^10)*Subscript[s, \[Gamma]]^
-                 6 + 2*(1 + 4*\[Xi]^2)^4*(-58801 + 146760*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^8 - 12*(1 + 4*\[Xi]^2)^4*
-                (-7156 + 13247*\[Xi]^2)*Subscript[s, \[Gamma]]^10) + 
+                 1792*\[Xi]^8) - 6*(91 + 7299*\[Xi]^2 + 24352*\[Xi]^4 + 
+                 124064*\[Xi]^6 + 222976*\[Xi]^8 + 160512*\[Xi]^10)*
+                Subscript[s, \[Gamma]]^2 + 2*(1009 + 52147*\[Xi]^2 + 
+                 402336*\[Xi]^4 + 2534944*\[Xi]^6 + 6346240*\[Xi]^8 + 
+                 6152448*\[Xi]^10)*Subscript[s, \[Gamma]]^4 - 3*(-10117 - 
+                 126216*\[Xi]^2 - 97904*\[Xi]^4 + 3372032*\[Xi]^6 + 
+                 14042112*\[Xi]^8 + 17118208*\[Xi]^10)*Subscript[s, \[Gamma]]^
+                 6 + 8*(1 + 4*\[Xi]^2)^4*(-13339 + 39690*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^8 - 6*(1 + 4*\[Xi]^2)^4*(-13517 + 
+                 28144*\[Xi]^2)*Subscript[s, \[Gamma]]^10) + 
              Subscript[c, \[Gamma]]^2*Subscript[s, \[Gamma]]*
               (-(\[Xi]^2*(1587 + 38488*\[Xi]^2 + 46816*\[Xi]^4 + 
                   220928*\[Xi]^6 + 245504*\[Xi]^8 + 63488*\[Xi]^10)) + 
-               (-543 + 6878*\[Xi]^2 + 229536*\[Xi]^4 + 420160*\[Xi]^6 + 
-                 2067584*\[Xi]^8 + 3220992*\[Xi]^10 + 2056192*\[Xi]^12)*
-                Subscript[s, \[Gamma]]^2 + (4461 + 49168*\[Xi]^2 + 
-                 444548*\[Xi]^4 + 2842912*\[Xi]^6 + 2850688*\[Xi]^8 - 
-                 5719552*\[Xi]^10 - 13134848*\[Xi]^12)*Subscript[s, \[Gamma]]^
-                 4 + 12*(-94 - 12178*\[Xi]^2 - 223739*\[Xi]^4 - 1301448*
-                  \[Xi]^6 - 2917792*\[Xi]^8 - 1328768*\[Xi]^10 + 
-                 2591488*\[Xi]^12)*Subscript[s, \[Gamma]]^6 - 3*
-                (1 + 4*\[Xi]^2)^4*(4350 - 95603*\[Xi]^2 + 40708*\[Xi]^4)*
+               (-543 + 2078*\[Xi]^2 + 153276*\[Xi]^4 - 32000*\[Xi]^6 + 
+                 890624*\[Xi]^8 + 2130432*\[Xi]^10 + 2194432*\[Xi]^12)*
+                Subscript[s, \[Gamma]]^2 + (1251 + 32278*\[Xi]^2 + 
+                 684128*\[Xi]^4 + 5269792*\[Xi]^6 + 10490368*\[Xi]^8 + 
+                 2137088*\[Xi]^10 - 14102528*\[Xi]^12)*Subscript[s, \[Gamma]]^
+                 4 + 6*(1557 - 11411*\[Xi]^2 - 518478*\[Xi]^4 - 3576496*
+                  \[Xi]^6 - 9118784*\[Xi]^8 - 6214656*\[Xi]^10 + 
+                 5459456*\[Xi]^12)*Subscript[s, \[Gamma]]^6 - 3*
+                (1 + 4*\[Xi]^2)^4*(8120 - 127453*\[Xi]^2 + 41848*\[Xi]^4)*
                 Subscript[s, \[Gamma]]^8 + 18*(1 + 4*\[Xi]^2)^4*
-                (563 - 7686*\[Xi]^2 + 2454*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                (788 - 9651*\[Xi]^2 + 2464*\[Xi]^4)*Subscript[s, \[Gamma]]^
                  10) + 2*\[Xi]*Subscript[c, \[Gamma]]*(-96*(\[Xi]^2 + 
-                 6*\[Xi]^4 - 12*\[Xi]^6 + 64*\[Xi]^8 + 64*\[Xi]^10) + 4*
-                (-219 - 1785*\[Xi]^2 + 7456*\[Xi]^4 - 10568*\[Xi]^6 + 
-                 9984*\[Xi]^8 + 9600*\[Xi]^10)*Subscript[s, \[Gamma]]^2 + 3*
-                (2826 + 25353*\[Xi]^2 + 83760*\[Xi]^4 + 530272*\[Xi]^6 + 
-                 853760*\[Xi]^8 + 640256*\[Xi]^10)*Subscript[s, \[Gamma]]^4 - 
-               3*(5167 + 44572*\[Xi]^2 + 335256*\[Xi]^4 + 1979200*\[Xi]^6 + 
-                 4459264*\[Xi]^8 + 4137984*\[Xi]^10)*Subscript[s, \[Gamma]]^
-                 6 + 3*(-1307 - 23182*\[Xi]^2 + 185032*\[Xi]^4 + 
-                 2402080*\[Xi]^6 + 7823360*\[Xi]^8 + 8750080*\[Xi]^10)*
-                Subscript[s, \[Gamma]]^8 - 9*(1 + 4*\[Xi]^2)^4*(-2619 + 
-                 10018*\[Xi]^2)*Subscript[s, \[Gamma]]^10 + 27*
-                (1 + 4*\[Xi]^2)^4*(-426 + 1055*\[Xi]^2)*Subscript[s, 
-                  \[Gamma]]^12)) + Subscript[m, K]^4*Subscript[m, \[Phi]]^10*
+                 6*\[Xi]^4 - 12*\[Xi]^6 + 64*\[Xi]^8 + 64*\[Xi]^10) - 4*
+                (219 + 1830*\[Xi]^2 - 6736*\[Xi]^4 + 14888*\[Xi]^6 + 
+                 1536*\[Xi]^8 + 1920*\[Xi]^10)*Subscript[s, \[Gamma]]^2 + 3*
+                (1736 + 8773*\[Xi]^2 - 7120*\[Xi]^4 + 333792*\[Xi]^6 + 
+                 794880*\[Xi]^8 + 860416*\[Xi]^10)*Subscript[s, \[Gamma]]^4 - 
+               9*(-391 - 17731*\[Xi]^2 - 71528*\[Xi]^4 + 236320*\[Xi]^6 + 
+                 1259008*\[Xi]^8 + 1692928*\[Xi]^10)*Subscript[s, \[Gamma]]^
+                 6 + 3*(-13972 - 219317*\[Xi]^2 - 926728*\[Xi]^4 - 
+                 215680*\[Xi]^6 + 6246400*\[Xi]^8 + 10415360*\[Xi]^10)*
+                Subscript[s, \[Gamma]]^8 - 3*(1 + 4*\[Xi]^2)^4*(-18527 + 
+                 35139*\[Xi]^2)*Subscript[s, \[Gamma]]^10 + 9*(1 + 4*\[Xi]^2)^
+                 4*(-2363 + 3650*\[Xi]^2)*Subscript[s, \[Gamma]]^12)) + 
+           Subscript[m, K]^4*Subscript[m, \[Phi]]^10*
             (5184*(1 + 4*\[Xi]^2)^3*Subscript[c, \[Gamma]]^10*
               Subscript[s, \[Gamma]]^4 - 3456*\[Xi]*(1 + 4*\[Xi]^2)^3*
               Subscript[c, \[Gamma]]^9*Subscript[s, \[Gamma]]^3*
-              (-2 + 9*Subscript[s, \[Gamma]]^2) + 36*(1 + 4*\[Xi]^2)^3*
+              (-2 + 9*Subscript[s, \[Gamma]]^2) - 18*\[Xi]*(1 + 4*\[Xi]^2)^3*
+              Subscript[c, \[Gamma]]^7*Subscript[s, \[Gamma]]^3*
+              (8*(-87 + 32*\[Xi]^2) - 24*(-213 + 80*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + 27*(-385 + 128*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^4) + 36*(1 + 4*\[Xi]^2)^3*
               Subscript[c, \[Gamma]]^8*Subscript[s, \[Gamma]]^2*
               (64*\[Xi]^2 + (135 - 768*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
-               (-449 + 1872*\[Xi]^2)*Subscript[s, \[Gamma]]^4) - 
-             18*\[Xi]*(1 + 4*\[Xi]^2)^3*Subscript[c, \[Gamma]]^7*
-              Subscript[s, \[Gamma]]^3*(8*(-87 + 32*\[Xi]^2) - 8*
-                (-599 + 240*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (-8835 + 
-                 3456*\[Xi]^2)*Subscript[s, \[Gamma]]^4) + 
-             9*(1 + 4*\[Xi]^2)^3*Subscript[c, \[Gamma]]^6*Subscript[s, 
-                \[Gamma]]^2*(928*\[Xi]^2 + 2*(-47 - 6084*\[Xi]^2 + 
-                 128*\[Xi]^4)*Subscript[s, \[Gamma]]^2 - 4*(853 - 
-                 11754*\[Xi]^2 + 384*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
-               (5709 - 55664*\[Xi]^2 + 2304*\[Xi]^4)*Subscript[s, \[Gamma]]^
+               (-449 + 1872*\[Xi]^2)*Subscript[s, \[Gamma]]^4) + 
+             3*(1 + 4*\[Xi]^2)^3*Subscript[c, \[Gamma]]^6*Subscript[s, 
+                \[Gamma]]^2*(2784*\[Xi]^2 + (-282 - 37144*\[Xi]^2 + 
+                 768*\[Xi]^4)*Subscript[s, \[Gamma]]^2 - 6*(1961 - 
+                 25108*\[Xi]^2 + 768*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 3*
+                (6219 - 64304*\[Xi]^2 + 2304*\[Xi]^4)*Subscript[s, \[Gamma]]^
                  6) + 6*\[Xi]*Subscript[c, \[Gamma]]^5*Subscript[s, \[Gamma]]*
-              (288*\[Xi]^2*(1 + 4*\[Xi]^2)^3 - 2*(159 + 5123*\[Xi]^2 + 
-                 52260*\[Xi]^4 + 195600*\[Xi]^6 + 251840*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^2 + (-12174 - 94225*\[Xi]^2 + 
-                 74292*\[Xi]^4 + 1896912*\[Xi]^6 + 3595712*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^4 - 3*(1 + 4*\[Xi]^2)^3*(-19975 + 
-                 47298*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 9*(1 + 4*\[Xi]^2)^
-                 3*(-7641 + 12689*\[Xi]^2)*Subscript[s, \[Gamma]]^8) - 
+              (288*\[Xi]^2*(1 + 4*\[Xi]^2)^3 - 6*(53 + 1761*\[Xi]^2 + 
+                 18060*\[Xi]^4 + 67760*\[Xi]^6 + 87360*\[Xi]^8)*
+                Subscript[s, \[Gamma]]^2 + (-14374 - 116345*\[Xi]^2 + 
+                 20052*\[Xi]^4 + 1961552*\[Xi]^6 + 3869632*\[Xi]^8)*
+                Subscript[s, \[Gamma]]^4 - 3*(1 + 4*\[Xi]^2)^3*(-22415 + 
+                 52738*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 9*(1 + 4*\[Xi]^2)^
+                 3*(-8291 + 14729*\[Xi]^2)*Subscript[s, \[Gamma]]^8) - 
              Subscript[c, \[Gamma]]^4*Subscript[s, \[Gamma]]^2*
               (\[Xi]^2*(-249 - 3652*\[Xi]^2 + 28464*\[Xi]^4 + 201024*
-                  \[Xi]^6 + 326144*\[Xi]^8) + 3*(666 + 38237*\[Xi]^2 + 
-                 390928*\[Xi]^4 + 1266912*\[Xi]^6 + 779264*\[Xi]^8 - 
-                 1720064*\[Xi]^10)*Subscript[s, \[Gamma]]^2 + 9*
-                (1707 - 53873*\[Xi]^2 - 783512*\[Xi]^4 - 3015168*\[Xi]^6 - 
-                 2810240*\[Xi]^8 + 2722048*\[Xi]^10)*Subscript[s, \[Gamma]]^
-                 4 - 27*(1 + 4*\[Xi]^2)^3*(3198 - 56819*\[Xi]^2 + 
-                 24660*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 9*(1 + 4*\[Xi]^2)^
-                 3*(9723 - 122658*\[Xi]^2 + 42284*\[Xi]^4)*
+                  \[Xi]^6 + 326144*\[Xi]^8) + 3*(666 + 40877*\[Xi]^2 + 
+                 421168*\[Xi]^4 + 1376352*\[Xi]^6 + 879104*\[Xi]^8 - 
+                 1812224*\[Xi]^10)*Subscript[s, \[Gamma]]^2 + 3*
+                (5781 - 168919*\[Xi]^2 - 2488856*\[Xi]^4 - 9582144*\[Xi]^6 - 
+                 8798080*\[Xi]^8 + 8975104*\[Xi]^10)*Subscript[s, \[Gamma]]^
+                 4 - 9*(1 + 4*\[Xi]^2)^3*(10174 - 176697*\[Xi]^2 + 
+                 85020*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 9*(1 + 4*\[Xi]^2)^
+                 3*(10083 - 125808*\[Xi]^2 + 50444*\[Xi]^4)*
                 Subscript[s, \[Gamma]]^8) - 2*\[Xi]*Subscript[c, \[Gamma]]^3*
               Subscript[s, \[Gamma]]*(6*\[Xi]^2*(59 + 68*\[Xi]^2 + 
-                 528*\[Xi]^4 + 704*\[Xi]^6) + (1824 + 34219*\[Xi]^2 + 
-                 302916*\[Xi]^4 + 1005840*\[Xi]^6 + 1213120*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^2 - 3*(-7115 - 19720*\[Xi]^2 + 
-                 543744*\[Xi]^4 + 3145600*\[Xi]^6 + 4851968*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^4 + 3*(-65433 - 512956*\[Xi]^2 + 
-                 239280*\[Xi]^4 + 9409728*\[Xi]^6 + 18192896*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^6 - 18*(1 + 4*\[Xi]^2)^3*(-23656 + 
-                 70011*\[Xi]^2)*Subscript[s, \[Gamma]]^8 + 27*(1 + 4*\[Xi]^2)^
-                 3*(-10054 + 23853*\[Xi]^2)*Subscript[s, \[Gamma]]^10) + 
-             Subscript[s, \[Gamma]]^2*(96*\[Xi]^2*(1 + 4*\[Xi]^2)^3 + 16*
-                \[Xi]^2*(459 + 2044*\[Xi]^2 + 11360*\[Xi]^4 + 16704*\[Xi]^6 + 
-                 3840*\[Xi]^8)*Subscript[s, \[Gamma]]^2 - 3*(-243 + 
-                 2914*\[Xi]^2 - 49368*\[Xi]^4 - 91872*\[Xi]^6 + 
-                 41344*\[Xi]^8 + 344064*\[Xi]^10)*Subscript[s, \[Gamma]]^4 + 
-               6*(-243 - 14158*\[Xi]^2 - 225656*\[Xi]^4 - 775872*\[Xi]^6 - 
+                 528*\[Xi]^4 + 704*\[Xi]^6) + (1824 + 37549*\[Xi]^2 + 
+                 342876*\[Xi]^4 + 1165680*\[Xi]^6 + 1426240*\[Xi]^8)*
+                Subscript[s, \[Gamma]]^2 - 3*(-7565 - 14040*\[Xi]^2 + 
+                 655104*\[Xi]^4 + 3648640*\[Xi]^6 + 5561088*\[Xi]^8)*
+                Subscript[s, \[Gamma]]^4 + 12*(-16557 - 121334*\[Xi]^2 + 
+                 161760*\[Xi]^4 + 2785632*\[Xi]^6 + 5142784*\[Xi]^8)*
+                Subscript[s, \[Gamma]]^6 - 9*(1 + 4*\[Xi]^2)^3*(-47757 + 
+                 156362*\[Xi]^2)*Subscript[s, \[Gamma]]^8 + 27*
+                (1 + 4*\[Xi]^2)^3*(-10174 + 26363*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^10) + Subscript[s, \[Gamma]]^2*
+              (96*\[Xi]^2*(1 + 4*\[Xi]^2)^3 + 16*\[Xi]^2*(459 + 
+                 2044*\[Xi]^2 + 11360*\[Xi]^4 + 16704*\[Xi]^6 + 3840*\[Xi]^8)*
+                Subscript[s, \[Gamma]]^2 - 3*(-243 + 2914*\[Xi]^2 - 
+                 49368*\[Xi]^4 - 91872*\[Xi]^6 + 41344*\[Xi]^8 + 
+                 344064*\[Xi]^10)*Subscript[s, \[Gamma]]^4 + 6*(-243 - 
+                 14158*\[Xi]^2 - 225656*\[Xi]^4 - 775872*\[Xi]^6 - 
                  707200*\[Xi]^8 + 666112*\[Xi]^10)*Subscript[s, \[Gamma]]^6 + 
                3*(243 + 78192*\[Xi]^2 + 966416*\[Xi]^4 + 3556032*\[Xi]^6 + 
                  3664896*\[Xi]^8 - 2163712*\[Xi]^10)*Subscript[s, \[Gamma]]^
@@ -2495,43 +2511,42 @@
                 Subscript[s, \[Gamma]]^10 - 54*\[Xi]^2*(1 + 4*\[Xi]^2)^3*
                 (-1261 + 392*\[Xi]^2)*Subscript[s, \[Gamma]]^12) + 
              2*\[Xi]*Subscript[c, \[Gamma]]*Subscript[s, \[Gamma]]*
-              (-96*\[Xi]^2*(1 + 4*\[Xi]^2)^3 - 4*(378 + 1161*\[Xi]^2 + 
-                 15356*\[Xi]^4 + 36144*\[Xi]^6 + 36672*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^2 + 18*(644 + 7037*\[Xi]^2 + 
-                 71708*\[Xi]^4 + 234800*\[Xi]^6 + 284992*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^4 - 3*(-4451 + 37594*\[Xi]^2 + 
-                 1384152*\[Xi]^4 + 6419680*\[Xi]^6 + 9215872*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^6 + 12*(-10715 - 60309*\[Xi]^2 + 
-                 372468*\[Xi]^4 + 2903152*\[Xi]^6 + 4822080*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^8 - 9*(1 + 4*\[Xi]^2)^3*(-20279 + 
-                 92418*\[Xi]^2)*Subscript[s, \[Gamma]]^10 + 54*
-                (1 + 4*\[Xi]^2)^3*(-1435 + 5239*\[Xi]^2)*Subscript[s, 
-                  \[Gamma]]^12) + Subscript[c, \[Gamma]]^2*(24*\[Xi]^4*
-                (1 + 4*\[Xi]^2)^3 - 8*\[Xi]^2*(654 + 4619*\[Xi]^2 + 
-                 24804*\[Xi]^4 + 48144*\[Xi]^6 + 31424*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^2 + 4*(-360 - 1760*\[Xi]^2 - 
-                 49295*\[Xi]^4 + 34332*\[Xi]^6 + 748528*\[Xi]^8 + 
-                 1403968*\[Xi]^10)*Subscript[s, \[Gamma]]^4 - 6*
-                (-819 - 75609*\[Xi]^2 - 864736*\[Xi]^4 - 2665632*\[Xi]^6 - 
-                 861312*\[Xi]^8 + 5328128*\[Xi]^10)*Subscript[s, \[Gamma]]^
-                 6 + 3*(12225 - 414882*\[Xi]^2 - 5920984*\[Xi]^4 - 
-                 22135968*\[Xi]^6 - 18304896*\[Xi]^8 + 24611840*\[Xi]^10)*
-                Subscript[s, \[Gamma]]^8 - 18*(1 + 4*\[Xi]^2)^3*
-                (5346 - 130493*\[Xi]^2 + 65520*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^10 + 54*(1 + 4*\[Xi]^2)^3*(1047 - 19957*\[Xi]^2 + 
-                 8234*\[Xi]^4)*Subscript[s, \[Gamma]]^12))))/
-         (48*\[Xi]^2*(1 + 4*\[Xi]^2)^4*Subscript[m, K]^10*
+              (-96*\[Xi]^2*(1 + 4*\[Xi]^2)^3 - 4*(378 + 1731*\[Xi]^2 + 
+                 22196*\[Xi]^4 + 63504*\[Xi]^6 + 73152*\[Xi]^8)*
+                Subscript[s, \[Gamma]]^2 + 6*(-1013 - 9554*\[Xi]^2 + 
+                 129864*\[Xi]^4 + 740320*\[Xi]^6 + 1154176*\[Xi]^8)*
+                Subscript[s, \[Gamma]]^4 - 3*(-37081 - 317966*\[Xi]^2 + 
+                 249912*\[Xi]^4 + 6059360*\[Xi]^6 + 11519872*\[Xi]^8)*
+                Subscript[s, \[Gamma]]^6 + 12*(-26595 - 235624*\[Xi]^2 - 
+                 206832*\[Xi]^4 + 2618592*\[Xi]^6 + 5797760*\[Xi]^8)*
+                Subscript[s, \[Gamma]]^8 - 63*(1 + 4*\[Xi]^2)^3*
+                (-5407 + 15474*\[Xi]^2)*Subscript[s, \[Gamma]]^10 + 432*
+                (1 + 4*\[Xi]^2)^3*(-290 + 753*\[Xi]^2)*Subscript[s, \[Gamma]]^
+                 12) + Subscript[c, \[Gamma]]^2*(24*\[Xi]^4*(1 + 4*\[Xi]^2)^
+                 3 - 8*\[Xi]^2*(654 + 4709*\[Xi]^2 + 25884*\[Xi]^4 + 
+                 52464*\[Xi]^6 + 37184*\[Xi]^8)*Subscript[s, \[Gamma]]^2 + 2*
+                (-720 - 22285*\[Xi]^2 - 317830*\[Xi]^4 - 760776*\[Xi]^6 + 
+                 581216*\[Xi]^8 + 3188096*\[Xi]^10)*Subscript[s, \[Gamma]]^
+                 4 - 6*(1716 - 90409*\[Xi]^2 - 1275616*\[Xi]^4 - 
+                 4552992*\[Xi]^6 - 3271552*\[Xi]^8 + 5973248*\[Xi]^10)*
+                Subscript[s, \[Gamma]]^6 + 3*(28875 - 440002*\[Xi]^2 - 
+                 7779784*\[Xi]^4 - 31374048*\[Xi]^6 - 30729856*\[Xi]^8 + 
+                 27238400*\[Xi]^10)*Subscript[s, \[Gamma]]^8 - 18*
+                (1 + 4*\[Xi]^2)^3*(8371 - 168973*\[Xi]^2 + 71640*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^10 + 108*(1 + 4*\[Xi]^2)^3*
+                (706 - 12311*\[Xi]^2 + 4457*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 12))))/(48*\[Xi]^2*(1 + 4*\[Xi]^2)^4*Subscript[m, K]^10*
           Subscript[m, \[Phi]]^6*Subscript[v, EW]^2) + 
-        (h^3*(6*(1 + 4*\[Xi]^2)*Subscript[c, \[Gamma]]^8*Subscript[m, \[Phi]]^
-             4*((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)^
-             3*Subscript[s, \[Gamma]]^3 + 360*\[Xi]^2*(1 + 4*\[Xi]^2)*
-            Subscript[m, \[Phi]]^10*Subscript[s, \[Gamma]]^5*
-            (2 - 3*Subscript[s, \[Gamma]]^2)^2*(-1 + Subscript[s, \[Gamma]]^
-              2) + 3*(1 + 4*\[Xi]^2)*Subscript[m, K]^10*
-            Subscript[s, \[Gamma]]^3*(-1 + Subscript[s, \[Gamma]]^2)*
-            (4 - 7*\[Xi]^2 + 4*\[Xi]^4 + \[Xi]^2*(-1 + 16*\[Xi]^4)*
-              Subscript[s, \[Gamma]]^2) + Subscript[m, K]^8*
-            Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*
+        (QuantumField[h]^3*(6*(1 + 4*\[Xi]^2)*Subscript[c, \[Gamma]]^8*
+            Subscript[m, \[Phi]]^4*((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 
+              3*Subscript[m, \[Phi]]^2)^3*Subscript[s, \[Gamma]]^3 + 
+           360*\[Xi]^2*(1 + 4*\[Xi]^2)*Subscript[m, \[Phi]]^10*
+            Subscript[s, \[Gamma]]^5*(2 - 3*Subscript[s, \[Gamma]]^2)^2*
+            (-1 + Subscript[s, \[Gamma]]^2) + 3*(1 + 4*\[Xi]^2)*
+            Subscript[m, K]^10*Subscript[s, \[Gamma]]^3*
+            (-1 + Subscript[s, \[Gamma]]^2)*(4 - 7*\[Xi]^2 + 4*\[Xi]^4 + 
+             \[Xi]^2*(-1 + 16*\[Xi]^4)*Subscript[s, \[Gamma]]^2) + 
+           Subscript[m, K]^8*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*
             (24*\[Xi]^2*(-1 + 4*\[Xi]^2 + 8*\[Xi]^4) + 
              (36 - 357*\[Xi]^2 + 1432*\[Xi]^4 + 512*\[Xi]^6 + 832*\[Xi]^8)*
               Subscript[s, \[Gamma]]^2 - 2*\[Xi]^2*(45 + 124*\[Xi]^2 + 752*
@@ -2706,14 +2721,15 @@
                 (-975 + 1064*\[Xi]^2)*Subscript[s, \[Gamma]]^8))))/
          (12*\[Xi]*(1 + 4*\[Xi]^2)^(7/2)*Subscript[m, K]^8*
           Subscript[m, \[Phi]]^4*Subscript[v, EW]) - 
-        (\[Xi]*h*((-3 + 4*\[Xi]^2)*Subscript[m, K]^4*Subscript[s, \[Gamma]] - 
-           (1 + 4*\[Xi]^2)*Subscript[c, \[Gamma]]^4*Subscript[m, \[Phi]]^2*
-            ((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)*
-            Subscript[s, \[Gamma]] + 2*\[Xi]*(1 + 4*\[Xi]^2)*
-            Subscript[c, \[Gamma]]^3*Subscript[m, \[Phi]]^2*
-            ((1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[s, \[Gamma]]^2 + 
-             Subscript[m, \[Phi]]^2*(1 - 3*Subscript[s, \[Gamma]]^2)) + 
-           2*(1 + 4*\[Xi]^2)*Subscript[c, \[Gamma]]^2*Subscript[m, \[Phi]]^2*
+        (\[Xi]*QuantumField[h]*((-3 + 4*\[Xi]^2)*Subscript[m, K]^4*
+            Subscript[s, \[Gamma]] - (1 + 4*\[Xi]^2)*Subscript[c, \[Gamma]]^4*
+            Subscript[m, \[Phi]]^2*((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 
+             3*Subscript[m, \[Phi]]^2)*Subscript[s, \[Gamma]] + 
+           2*\[Xi]*(1 + 4*\[Xi]^2)*Subscript[c, \[Gamma]]^3*
+            Subscript[m, \[Phi]]^2*((1 + 4*\[Xi]^2)*Subscript[m, K]^2*
+              Subscript[s, \[Gamma]]^2 + Subscript[m, \[Phi]]^2*
+              (1 - 3*Subscript[s, \[Gamma]]^2)) + 2*(1 + 4*\[Xi]^2)*
+            Subscript[c, \[Gamma]]^2*Subscript[m, \[Phi]]^2*
             Subscript[s, \[Gamma]]*(-3*Subscript[m, \[Phi]]^2*
               Subscript[s, \[Gamma]]^2 + (1 + 4*\[Xi]^2)*Subscript[m, K]^2*
               (1 + Subscript[s, \[Gamma]]^2)) - 2*\[Xi]*Subscript[c, 
@@ -2726,118 +2742,130 @@
         (\[Xi]^2*(Subscript[c, \[Gamma]]^2/Subscript[m, K]^2 - 
            1/((1 + 4*\[Xi]^2)*Subscript[m, \[Phi]]^2))*Subscript[v, EW]^2)/
          (2*(1 + 4*\[Xi]^2))), CVV3V3Dh -> 
-      t*((4*h*(-(\[Xi]*Subscript[c, \[Gamma]]*Subscript[s, \[Gamma]]*
-             (Subscript[m, \[Phi]]^2*(4 - 9*Subscript[s, \[Gamma]]^2) + 
-              2*Subscript[m, K]^2*(2 - 8*\[Xi]^2 + (1 + 4*\[Xi]^2)*
-                 Subscript[s, \[Gamma]]^2))) + Subscript[c, \[Gamma]]^2*
-            (-3*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^2 + 
-             Subscript[m, K]^2*(\[Xi]^2*(-3 + 4*\[Xi]^2) + (1 + 4*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2)) + Subscript[s, \[Gamma]]^2*
+      t*((4*QuantumField[h]*(-(\[Xi]*Subscript[c, \[Gamma]]*
+             Subscript[s, \[Gamma]]*(Subscript[m, \[Phi]]^2*(4 - 
+                9*Subscript[s, \[Gamma]]^2) + 2*Subscript[m, K]^2*(2 - 
+                8*\[Xi]^2 + (1 + 4*\[Xi]^2)*Subscript[s, \[Gamma]]^2))) + 
+           Subscript[c, \[Gamma]]^2*(-3*Subscript[m, \[Phi]]^2*
+              Subscript[s, \[Gamma]]^2 + Subscript[m, K]^2*
+              (\[Xi]^2*(-3 + 4*\[Xi]^2) + (1 + 4*\[Xi]^2)*Subscript[s, 
+                  \[Gamma]]^2)) + Subscript[s, \[Gamma]]^2*
             (2*\[Xi]^2*Subscript[m, \[Phi]]^2*(2 - 3*Subscript[s, \[Gamma]]^
                  2) + Subscript[m, K]^2*(-2 + 7*\[Xi]^2 - 4*\[Xi]^4 + 
                (\[Xi]^2 + 4*\[Xi]^4)*Subscript[s, \[Gamma]]^2))))/
          ((1 + 4*\[Xi]^2)^2*Subscript[m, K]^2*Subscript[m, \[Phi]]^2) - 
-        (h^4*(24*\[Xi]^2*Subscript[c, \[Gamma]]^6*Subscript[m, \[Phi]]^2*
+        (QuantumField[h]^4*(120*\[Xi]*Subscript[c, \[Gamma]]^7*
+            Subscript[m, \[Phi]]^4*((1 + 4*\[Xi]^2)*Subscript[m, K]^2 - 
+             3*Subscript[m, \[Phi]]^2)*((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 
+              3*Subscript[m, \[Phi]]^2)^2*Subscript[s, \[Gamma]]^4*
+            ((1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[s, \[Gamma]]^2 + 
+             Subscript[m, \[Phi]]^2*(1 - 3*Subscript[s, \[Gamma]]^2)) - 
+           3*Subscript[c, \[Gamma]]^6*Subscript[m, \[Phi]]^2*
             (2*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4 - 9*(1 + 4*\[Xi]^2)*
               Subscript[m, K]^2*Subscript[m, \[Phi]]^2 + 
              9*Subscript[m, \[Phi]]^4)*Subscript[s, \[Gamma]]^3*
-            ((1 + 4*\[Xi]^2)*Subscript[m, K]^6*Subscript[s, \[Gamma]]^2 + 
-             9*Subscript[m, \[Phi]]^6*Subscript[s, \[Gamma]]^4 + 
-             Subscript[m, K]^4*Subscript[m, \[Phi]]^2*(1 + 2*
-                (-7 - 12*\[Xi]^2 + 40*\[Xi]^4)*Subscript[s, \[Gamma]]^2) - 
-             Subscript[m, K]^2*Subscript[m, \[Phi]]^4*(11 - 20*\[Xi]^2 + 
-               (-33 + 60*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 3*
-                (1 + 4*\[Xi]^2)*Subscript[s, \[Gamma]]^4)) + 
+            (-8*\[Xi]^2*(1 + 4*\[Xi]^2)*Subscript[m, K]^6*Subscript[s, 
+                \[Gamma]]^2 + Subscript[m, K]^4*Subscript[m, \[Phi]]^2*
+              (-8*\[Xi]^2 + (15 + 232*\[Xi]^2 + 432*\[Xi]^4 - 640*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^2 + 15*(1 + 4*\[Xi]^2)^2*
+                (-1 + 16*\[Xi]^2)*Subscript[s, \[Gamma]]^4) + 
+             Subscript[m, \[Phi]]^6*(160*\[Xi]^2 - 45*(-1 + 24*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + 9*(-5 + 192*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^4) - 4*Subscript[m, K]^2*
+              Subscript[m, \[Phi]]^4*(-22*\[Xi]^2 + 40*\[Xi]^4 + 
+               (15 + 26*\[Xi]^2 - 520*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 3*
+                (-5 + 88*\[Xi]^2 + 432*\[Xi]^4)*Subscript[s, \[Gamma]]^4)) + 
            \[Xi]*Subscript[c, \[Gamma]]^5*(-6*(1 + 4*\[Xi]^2)^2*
-              Subscript[m, K]^12*Subscript[s, \[Gamma]]^4 - 
-             81*Subscript[m, \[Phi]]^12*Subscript[s, \[Gamma]]^6*
-              (-4*(5 + 38*\[Xi]^2) + 5*(11 + 72*\[Xi]^2)*Subscript[s, 
-                  \[Gamma]]^2) + (1 + 4*\[Xi]^2)*Subscript[m, K]^10*
-              Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^2*
-              (24*\[Xi]^2*(-9 + 14*\[Xi]^2) + 3*(33 - 16*\[Xi]^2 - 
-                 368*\[Xi]^4 + 128*\[Xi]^6)*Subscript[s, \[Gamma]]^2 + 
-               (1 + 4*\[Xi]^2)^2*(127 - 24*\[Xi]^2 + 96*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4) + 6*Subscript[m, K]^6*
-              Subscript[m, \[Phi]]^6*Subscript[s, \[Gamma]]^2*
-              (8*\[Xi]^2*(-22 + 299*\[Xi]^2 - 580*\[Xi]^4 + 32*\[Xi]^6) - 2*
-                (65 + 1454*\[Xi]^2 - 132*\[Xi]^4 - 11568*\[Xi]^6 + 
-                 4608*\[Xi]^8)*Subscript[s, \[Gamma]]^2 + (1472 + 
-                 5631*\[Xi]^2 - 14244*\[Xi]^4 - 42832*\[Xi]^6 + 
-                 40128*\[Xi]^8)*Subscript[s, \[Gamma]]^4 + 5*(1 + 4*\[Xi]^2)^
-                 3*(25 + 36*\[Xi]^2)*Subscript[s, \[Gamma]]^6) - 
-             6*Subscript[m, K]^4*Subscript[m, \[Phi]]^8*Subscript[s, 
-                \[Gamma]]^2*(16*\[Xi]^2*(11 - 75*\[Xi]^2 + 52*\[Xi]^4) - 3*
-                (241 + 640*\[Xi]^2 - 5232*\[Xi]^4 + 3712*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^2 + 9*(321 - 206*\[Xi]^2 - 
-                 4440*\[Xi]^4 + 2400*\[Xi]^6)*Subscript[s, \[Gamma]]^4 + 36*
-                (1 + 4*\[Xi]^2)^2*(14 + 47*\[Xi]^2)*Subscript[s, \[Gamma]]^
-                 6) + 9*Subscript[m, K]^2*Subscript[m, \[Phi]]^10*
-              Subscript[s, \[Gamma]]^2*(16*\[Xi]^2*(-11 + 20*\[Xi]^2) - 3*
-                (153 - 804*\[Xi]^2 + 800*\[Xi]^4)*Subscript[s, \[Gamma]]^2 - 
-               3*(-403 + 2710*\[Xi]^2 + 104*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 + 6*(107 + 992*\[Xi]^2 + 2256*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^6) - Subscript[m, K]^8*Subscript[m, \[Phi]]^4*
-              (384*\[Xi]^4*(3 - 14*\[Xi]^2) - 24*\[Xi]^2*(49 - 152*\[Xi]^2 - 
-                 512*\[Xi]^4 + 1120*\[Xi]^6)*Subscript[s, \[Gamma]]^2 - 8*
-                (-39 + 362*\[Xi]^2 + 2132*\[Xi]^4 - 1616*\[Xi]^6 - 
-                 8960*\[Xi]^8 + 768*\[Xi]^10)*Subscript[s, \[Gamma]]^4 + 2*
-                (1 + 4*\[Xi]^2)^2*(911 - 68*\[Xi]^2 - 4456*\[Xi]^4 + 
-                 3840*\[Xi]^6)*Subscript[s, \[Gamma]]^6 + 73*(1 + 4*\[Xi]^2)^
-                 4*Subscript[s, \[Gamma]]^8)) + Subscript[c, \[Gamma]]^4*
-            Subscript[s, \[Gamma]]*(-6*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^12*
-              Subscript[s, \[Gamma]]^4 + 54*Subscript[m, \[Phi]]^12*
-              Subscript[s, \[Gamma]]^4*(8*\[Xi]^2*(15 + 52*\[Xi]^2) + 
-               (45 - 254*\[Xi]^2 - 1776*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 3*
-                (-17 - 5*\[Xi]^2 + 576*\[Xi]^4)*Subscript[s, \[Gamma]]^4) - 
+              Subscript[m, K]^12*Subscript[s, \[Gamma]]^4 + 
              (1 + 4*\[Xi]^2)*Subscript[m, K]^10*Subscript[m, \[Phi]]^2*
+              Subscript[s, \[Gamma]]^2*(24*\[Xi]^2*(-9 + 14*\[Xi]^2) + 3*
+                (33 - 16*\[Xi]^2 - 368*\[Xi]^4 + 128*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^2 + (1 + 4*\[Xi]^2)^2*(127 - 
+                 24*\[Xi]^2 + 96*\[Xi]^4)*Subscript[s, \[Gamma]]^4) + 
+             27*Subscript[m, \[Phi]]^12*Subscript[s, \[Gamma]]^2*
+              (-160*\[Xi]^2 + 30*(-7 + 48*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
+               (855 - 3864*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 30*
+                (-25 + 108*\[Xi]^2)*Subscript[s, \[Gamma]]^6) - 
+             3*Subscript[m, K]^6*Subscript[m, \[Phi]]^6*Subscript[s, 
+                \[Gamma]]^2*(16*\[Xi]^2*(22 - 299*\[Xi]^2 + 580*\[Xi]^4 - 
+                 32*\[Xi]^6) + 2*(-115 + 168*\[Xi]^2 - 9624*\[Xi]^4 - 
+                 29216*\[Xi]^6 + 22016*\[Xi]^8)*Subscript[s, \[Gamma]]^2 + 
+               (-1439 + 3638*\[Xi]^2 + 62808*\[Xi]^4 + 30304*\[Xi]^6 - 
+                 282496*\[Xi]^8)*Subscript[s, \[Gamma]]^4 + 40*
+                (1 + 4*\[Xi]^2)^3*(-37 + 168*\[Xi]^2)*Subscript[s, \[Gamma]]^
+                 6) + 3*Subscript[m, K]^4*Subscript[m, \[Phi]]^8*
+              Subscript[s, \[Gamma]]^2*(-32*\[Xi]^2*(21 + 5*\[Xi]^2 + 
+                 212*\[Xi]^4) + (-754 - 9160*\[Xi]^2 - 29792*\[Xi]^4 + 
+                 95872*\[Xi]^6)*Subscript[s, \[Gamma]]^2 + (2307 + 
+                 47268*\[Xi]^2 + 40320*\[Xi]^4 - 381120*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^4 + 9*(1 + 4*\[Xi]^2)^2*(-847 + 
+                 3104*\[Xi]^2)*Subscript[s, \[Gamma]]^6) + 
+             3*Subscript[m, K]^2*Subscript[m, \[Phi]]^10*Subscript[s, 
+                \[Gamma]]^2*(16*\[Xi]^2*(47 + 380*\[Xi]^2) + (2283 + 
+                 7956*\[Xi]^2 - 62880*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 18*
+                (-566 - 1665*\[Xi]^2 + 10988*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4 - 18*(-707 - 152*\[Xi]^2 + 10704*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6) + Subscript[m, K]^8*
+              Subscript[m, \[Phi]]^4*(384*\[Xi]^4*(-3 + 14*\[Xi]^2) + 24*
+                \[Xi]^2*(49 - 152*\[Xi]^2 - 512*\[Xi]^4 + 1120*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^2 + 16*(-27 + 61*\[Xi]^2 + 
+                 346*\[Xi]^4 - 2728*\[Xi]^6 - 6400*\[Xi]^8 + 384*\[Xi]^10)*
+                Subscript[s, \[Gamma]]^4 - 2*(1 + 4*\[Xi]^2)^2*
+                (851 - 428*\[Xi]^2 - 4456*\[Xi]^4 + 5760*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^6 + (1 + 4*\[Xi]^2)^4*(-103 + 
+                 1680*\[Xi]^2)*Subscript[s, \[Gamma]]^8)) + 
+           Subscript[c, \[Gamma]]^4*Subscript[s, \[Gamma]]*
+            (-6*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^12*Subscript[s, \[Gamma]]^
+               4 - (1 + 4*\[Xi]^2)*Subscript[m, K]^10*Subscript[m, \[Phi]]^2*
               Subscript[s, \[Gamma]]^2*(12*\[Xi]^2*(28 - 139*\[Xi]^2 + 
                  128*\[Xi]^4 - 16*\[Xi]^6) + (-63 + 616*\[Xi]^2 + 
                  1748*\[Xi]^4 - 2384*\[Xi]^6 + 1728*\[Xi]^8 - 768*\[Xi]^10)*
                 Subscript[s, \[Gamma]]^2 + (1 + 4*\[Xi]^2)^2*(-37 + 
                  98*\[Xi]^2 - 192*\[Xi]^4 + 96*\[Xi]^6)*Subscript[s, 
-                  \[Gamma]]^4) + Subscript[m, K]^8*Subscript[m, \[Phi]]^4*
+                  \[Gamma]]^4) - 3*Subscript[m, \[Phi]]^12*(640*\[Xi]^4 - 480*
+                \[Xi]^2*(-3 + 17*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 9*
+                (45 - 1390*\[Xi]^2 + 3328*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 
+               18*(90 - 1469*\[Xi]^2 + 2304*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6 + 27*(49 - 470*\[Xi]^2 + 768*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^8) + Subscript[m, K]^8*Subscript[m, \[Phi]]^4*
               (24*\[Xi]^4*(-71 + 982*\[Xi]^2 - 2256*\[Xi]^4 + 800*\[Xi]^6) - 
                2*\[Xi]^2*(-471 + 7796*\[Xi]^2 - 12832*\[Xi]^4 - 
                  81920*\[Xi]^6 + 83968*\[Xi]^8 + 1536*\[Xi]^10)*
-                Subscript[s, \[Gamma]]^2 + (21 + 7691*\[Xi]^2 + 
-                 10724*\[Xi]^4 - 110912*\[Xi]^6 - 108032*\[Xi]^8 + 
-                 212736*\[Xi]^10 - 27648*\[Xi]^12)*Subscript[s, \[Gamma]]^4 + 
-               (1 + 4*\[Xi]^2)^2*(-621 + 3434*\[Xi]^2 + 28*\[Xi]^4 - 
-                 18304*\[Xi]^6 + 5760*\[Xi]^8)*Subscript[s, \[Gamma]]^6 + 
-               (1 + 4*\[Xi]^2)^4*(-43 + 262*\[Xi]^2)*Subscript[s, \[Gamma]]^
-                 8) - Subscript[m, K]^6*Subscript[m, \[Phi]]^6*
-              (96*\[Xi]^4*(11 - 216*\[Xi]^2 + 392*\[Xi]^4 + 32*\[Xi]^6) + 16*
-                \[Xi]^2*(-69 - 700*\[Xi]^2 + 13884*\[Xi]^4 - 20480*\[Xi]^6 + 
-                 1440*\[Xi]^8)*Subscript[s, \[Gamma]]^2 - 3*(-463 - 
-                 6097*\[Xi]^2 + 37832*\[Xi]^4 + 80320*\[Xi]^6 - 
-                 241536*\[Xi]^8 + 67840*\[Xi]^10)*Subscript[s, \[Gamma]]^4 + 
-               (-2847 + 15422*\[Xi]^2 + 122928*\[Xi]^4 - 185856*\[Xi]^6 - 
-                 941440*\[Xi]^8 + 211968*\[Xi]^10)*Subscript[s, \[Gamma]]^6 + 
-               3*(1 + 4*\[Xi]^2)^3*(-193 + 740*\[Xi]^2 + 468*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8) + 3*Subscript[m, K]^4*
-              Subscript[m, \[Phi]]^8*(-32*\[Xi]^4*(11 - 116*\[Xi]^2 + 
-                 64*\[Xi]^4) + 2*\[Xi]^2*(91 + 9888*\[Xi]^2 - 28464*\[Xi]^4 + 
-                 12288*\[Xi]^6)*Subscript[s, \[Gamma]]^2 - 3*(-397 + 
-                 1809*\[Xi]^2 + 20536*\[Xi]^4 - 75600*\[Xi]^6 + 
-                 24512*\[Xi]^8)*Subscript[s, \[Gamma]]^4 - 3*(479 - 
-                 8432*\[Xi]^2 - 4132*\[Xi]^4 + 114912*\[Xi]^6 + 3840*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^6 + 9*(1 + 4*\[Xi]^2)^2*
-                (-97 + 176*\[Xi]^2 + 740*\[Xi]^4)*Subscript[s, \[Gamma]]^8) - 
-             3*Subscript[m, K]^2*Subscript[m, \[Phi]]^10*(64*\[Xi]^4*
-                (11 - 20*\[Xi]^2) + 24*\[Xi]^2*(93 - 462*\[Xi]^2 + 
-                 440*\[Xi]^4)*Subscript[s, \[Gamma]]^2 - 9*(-90 + 
-                 1567*\[Xi]^2 - 7468*\[Xi]^4 + 992*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^4 - 18*(5 - 1373*\[Xi]^2 + 
-                 6776*\[Xi]^4 + 4368*\[Xi]^6)*Subscript[s, \[Gamma]]^6 + 9*
-                (-175 - 660*\[Xi]^2 + 3088*\[Xi]^4 + 11712*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^8)) + \[Xi]*Subscript[c, \[Gamma]]^3*
-            (-12*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^12*Subscript[s, \[Gamma]]^
-               4*(-1 + Subscript[s, \[Gamma]]^2) - 9*Subscript[m, \[Phi]]^12*
-              Subscript[s, \[Gamma]]^4*(-32*\[Xi]^2*(45 + 44*\[Xi]^2) + 6*
-                (-405 + 760*\[Xi]^2 + 1408*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 2 - 12*(-433 + 222*\[Xi]^2 + 1320*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 + 9*(-251 - 156*\[Xi]^2 + 
-                 1056*\[Xi]^4)*Subscript[s, \[Gamma]]^6) + (1 + 4*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (66 + 8861*\[Xi]^2 + 
+                 22244*\[Xi]^4 - 56192*\[Xi]^6 + 18688*\[Xi]^8 + 
+                 327936*\[Xi]^10 - 27648*\[Xi]^12)*Subscript[s, \[Gamma]]^4 + 
+               (1 + 4*\[Xi]^2)^2*(-711 + 3224*\[Xi]^2 + 3148*\[Xi]^4 - 
+                 6304*\[Xi]^6 + 13440*\[Xi]^8)*Subscript[s, \[Gamma]]^6 - 
+               (1 + 4*\[Xi]^2)^4*(-2 + 563*\[Xi]^2 + 960*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8) - 3*Subscript[m, K]^4*
+              Subscript[m, \[Phi]]^8*(32*\[Xi]^4*(11 - 116*\[Xi]^2 + 
+                 64*\[Xi]^4) - 2*\[Xi]^2*(-569 + 5128*\[Xi]^2 - 
+                 34864*\[Xi]^4 + 20608*\[Xi]^6)*Subscript[s, \[Gamma]]^2 + 
+               (-861 - 1743*\[Xi]^2 - 992*\[Xi]^4 - 298960*\[Xi]^6 + 
+                 243136*\[Xi]^8)*Subscript[s, \[Gamma]]^4 + (567 - 
+                 15576*\[Xi]^2 + 74244*\[Xi]^4 + 348576*\[Xi]^6 - 
+                 514560*\[Xi]^8)*Subscript[s, \[Gamma]]^6 + 9*(1 + 4*\[Xi]^2)^
+                 2*(157 - 1351*\[Xi]^2 + 2660*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 8) + Subscript[m, K]^6*Subscript[m, \[Phi]]^6*
+              (-96*\[Xi]^4*(11 - 216*\[Xi]^2 + 392*\[Xi]^4 + 32*\[Xi]^6) - 8*
+                \[Xi]^2*(-213 - 2300*\[Xi]^2 + 24168*\[Xi]^4 - 
+                 45760*\[Xi]^6 + 2880*\[Xi]^8)*Subscript[s, \[Gamma]]^2 + 3*
+                (-463 - 8057*\[Xi]^2 + 15192*\[Xi]^4 - 3200*\[Xi]^6 - 
+                 324736*\[Xi]^8 + 124160*\[Xi]^10)*Subscript[s, \[Gamma]]^4 - 
+               2*(-1356 + 6181*\[Xi]^2 + 43764*\[Xi]^4 - 115248*\[Xi]^6 - 
+                 277760*\[Xi]^8 + 562944*\[Xi]^10)*Subscript[s, \[Gamma]]^6 + 
+               3*(1 + 4*\[Xi]^2)^3*(238 - 1235*\[Xi]^2 + 5172*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8) + 3*Subscript[m, K]^2*
+              Subscript[m, \[Phi]]^10*(128*\[Xi]^4*(-3 + 20*\[Xi]^2) - 8*
+                \[Xi]^2*(-71 - 2026*\[Xi]^2 + 4360*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + 3*(-30 - 769*\[Xi]^2 - 
+                 36124*\[Xi]^4 + 50976*\[Xi]^6)*Subscript[s, \[Gamma]]^4 - 9*
+                (175 - 774*\[Xi]^2 - 21232*\[Xi]^4 + 28704*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^6 + 9*(280 - 1605*\[Xi]^2 - 
+                 6388*\[Xi]^4 + 18048*\[Xi]^6)*Subscript[s, \[Gamma]]^8)) + 
+           \[Xi]*Subscript[c, \[Gamma]]^3*(-12*(1 + 4*\[Xi]^2)^2*
+              Subscript[m, K]^12*Subscript[s, \[Gamma]]^4*
+              (-1 + Subscript[s, \[Gamma]]^2) + (1 + 4*\[Xi]^2)*
               Subscript[m, K]^10*Subscript[m, \[Phi]]^2*Subscript[s, 
                 \[Gamma]]^2*(-3*\[Xi]^2*(-83 + 104*\[Xi]^2 + 16*\[Xi]^4) + 
                (-327 + 1429*\[Xi]^2 - 1552*\[Xi]^4 + 1168*\[Xi]^6 - 
@@ -2845,110 +2873,118 @@
                  1224*\[Xi]^4 + 4544*\[Xi]^6 - 1920*\[Xi]^8 + 768*\[Xi]^10)*
                 Subscript[s, \[Gamma]]^4 + (1 + 4*\[Xi]^2)^2*(101 + 
                  127*\[Xi]^2 - 72*\[Xi]^4 + 48*\[Xi]^6)*Subscript[s, 
-                  \[Gamma]]^6) + Subscript[m, K]^6*Subscript[m, \[Phi]]^6*
-              Subscript[s, \[Gamma]]^2*(\[Xi]^2*(345 + 18568*\[Xi]^2 - 
-                 278976*\[Xi]^4 + 212864*\[Xi]^6 - 11520*\[Xi]^8) + 
-               (-2385 - 21877*\[Xi]^2 - 82214*\[Xi]^4 + 1295224*\[Xi]^6 - 
-                 1296160*\[Xi]^8 + 124800*\[Xi]^10)*Subscript[s, \[Gamma]]^
-                 2 - 12*(-325 - 6594*\[Xi]^2 + 39534*\[Xi]^4 + 112448*
-                  \[Xi]^6 - 212832*\[Xi]^8 + 25344*\[Xi]^10)*
-                Subscript[s, \[Gamma]]^4 + (-8738 + 66735*\[Xi]^2 + 
-                 615558*\[Xi]^4 + 328168*\[Xi]^6 - 1984224*\[Xi]^8 + 
-                 176256*\[Xi]^10)*Subscript[s, \[Gamma]]^6 + 3*
-                (1 + 4*\[Xi]^2)^3*(-1397 + 1791*\[Xi]^2 + 156*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8) + Subscript[m, K]^4*
+                  \[Gamma]]^6) - 3*Subscript[m, \[Phi]]^12*Subscript[s, 
+                \[Gamma]]^2*(160*\[Xi]^2*(15 - 4*\[Xi]^2) + 24*
+                (45 - 1180*\[Xi]^2 + 104*\[Xi]^4)*Subscript[s, \[Gamma]]^2 - 
+               9*(1365 - 10580*\[Xi]^2 + 64*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4 - 18*(-1241 + 6564*\[Xi]^2 + 240*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + 108*(-89 + 426*\[Xi]^2 + 
+                 24*\[Xi]^4)*Subscript[s, \[Gamma]]^8) + Subscript[m, K]^4*
               Subscript[m, \[Phi]]^8*Subscript[s, \[Gamma]]^2*
-              (4*\[Xi]^2*(1443 + 21982*\[Xi]^2 - 38656*\[Xi]^4 + 
-                 6240*\[Xi]^6) + (9771 + 4872*\[Xi]^2 - 670284*\[Xi]^4 + 
-                 1199328*\[Xi]^6 - 171840*\[Xi]^8)*Subscript[s, \[Gamma]]^2 + 
-               3*(-8291 + 55434*\[Xi]^2 + 483816*\[Xi]^4 - 948032*\[Xi]^6 + 
-                 87552*\[Xi]^8)*Subscript[s, \[Gamma]]^4 + 9*(988 - 
-                 48305*\[Xi]^2 - 116536*\[Xi]^4 + 254768*\[Xi]^6 + 
-                 1920*\[Xi]^8)*Subscript[s, \[Gamma]]^6 - 27*(1 + 4*\[Xi]^2)^
-                 2*(-719 + 540*\[Xi]^2 + 368*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 8) + 6*Subscript[m, K]^2*Subscript[m, \[Phi]]^10*
-              Subscript[s, \[Gamma]]^2*(-8*\[Xi]^2*(245 - 642*\[Xi]^2 + 
-                 200*\[Xi]^4) + 3*(-558 + 6611*\[Xi]^2 - 18068*\[Xi]^4 + 
-                 1856*\[Xi]^6)*Subscript[s, \[Gamma]]^2 + 3*(241 - 
-                 25321*\[Xi]^2 + 50536*\[Xi]^4 + 4176*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^4 - 9*(-700 - 10581*\[Xi]^2 + 
-                 14244*\[Xi]^4 + 5696*\[Xi]^6)*Subscript[s, \[Gamma]]^6 + 9*
-                (-644 - 2609*\[Xi]^2 + 924*\[Xi]^4 + 4224*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^8) + Subscript[m, K]^8*
-              Subscript[m, \[Phi]]^4*(-96*\[Xi]^4*(-9 + 3*\[Xi]^2 + 
-                 56*\[Xi]^4) - 2*\[Xi]^2*(993 - 12908*\[Xi]^2 + 
-                 71944*\[Xi]^4 - 113536*\[Xi]^6 + 31616*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^2 + (933 - 7684*\[Xi]^2 + 
-                 77343*\[Xi]^4 + 38800*\[Xi]^6 - 572960*\[Xi]^8 + 
-                 298240*\[Xi]^10 - 11520*\[Xi]^12)*Subscript[s, \[Gamma]]^4 + 
-               (2043 - 10970*\[Xi]^2 - 37422*\[Xi]^4 + 226416*\[Xi]^6 + 
-                 288832*\[Xi]^8 - 460032*\[Xi]^10 + 53760*\[Xi]^12)*
-                Subscript[s, \[Gamma]]^6 - (1 + 4*\[Xi]^2)^2*(-583 + 
-                 8542*\[Xi]^2 + 4289*\[Xi]^4 - 25080*\[Xi]^6 + 2640*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^8 - (1 + 4*\[Xi]^2)^4*(-277 + 
-                 393*\[Xi]^2)*Subscript[s, \[Gamma]]^10)) + 
-           Subscript[c, \[Gamma]]^2*Subscript[s, \[Gamma]]*
-            (-12*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^12*Subscript[s, \[Gamma]]^
-               4*(-1 + Subscript[s, \[Gamma]]^2) + (1 + 4*\[Xi]^2)*
-              Subscript[m, K]^10*Subscript[m, \[Phi]]^2*Subscript[s, 
-                \[Gamma]]^2*(3*\[Xi]^2*(123 - 548*\[Xi]^2 + 496*\[Xi]^4 - 
-                 64*\[Xi]^6) + (-135 + 809*\[Xi]^2 + 2332*\[Xi]^4 - 
-                 3040*\[Xi]^6 + 1344*\[Xi]^8 - 768*\[Xi]^10)*
+              (2442*\[Xi]^2 + 61288*\[Xi]^4 - 207904*\[Xi]^6 + 24960*
+                \[Xi]^8 + (8421 + 31272*\[Xi]^2 - 396444*\[Xi]^4 + 
+                 1777248*\[Xi]^6 - 206400*\[Xi]^8)*Subscript[s, \[Gamma]]^2 + 
+               6*(-3583 + 9832*\[Xi]^2 + 74988*\[Xi]^4 - 806896*\[Xi]^6 + 
+                 94336*\[Xi]^8)*Subscript[s, \[Gamma]]^4 - 9*(-253 + 
+                 34725*\[Xi]^2 - 21864*\[Xi]^4 - 521968*\[Xi]^6 + 
+                 86400*\[Xi]^8)*Subscript[s, \[Gamma]]^6 + 27*(1 + 4*\[Xi]^2)^
+                 2*(899 - 3575*\[Xi]^2 + 992*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 8) - Subscript[m, K]^6*Subscript[m, \[Phi]]^6*
+              Subscript[s, \[Gamma]]^2*(\[Xi]^2*(-615 - 21808*\[Xi]^2 + 
+                 266016*\[Xi]^4 - 230144*\[Xi]^6 + 11520*\[Xi]^8) + 
+               (2625 + 28417*\[Xi]^2 + 137654*\[Xi]^4 - 1104184*\[Xi]^6 + 
+                 1530400*\[Xi]^8 - 124800*\[Xi]^10)*Subscript[s, \[Gamma]]^
+                 2 + 6*(-1190 - 22093*\[Xi]^2 + 24288*\[Xi]^4 + 
+                 76816*\[Xi]^6 - 569344*\[Xi]^8 + 66048*\[Xi]^10)*
+                Subscript[s, \[Gamma]]^4 + (14048 + 9915*\[Xi]^2 - 
+                 212238*\[Xi]^4 + 551672*\[Xi]^6 + 2489184*\[Xi]^8 - 
+                 606336*\[Xi]^10)*Subscript[s, \[Gamma]]^6 + 3*
+                (1 + 4*\[Xi]^2)^3*(647 - 2961*\[Xi]^2 + 1764*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8) - 6*Subscript[m, K]^2*
+              Subscript[m, \[Phi]]^10*Subscript[s, \[Gamma]]^2*
+              (8*\[Xi]^2*(25 - 1502*\[Xi]^2 + 280*\[Xi]^4) + (879 - 
+                 5453*\[Xi]^2 + 122044*\[Xi]^4 - 15168*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^2 + 12*(246 + 2574*\[Xi]^2 - 
+                 31579*\[Xi]^4 + 2876*\[Xi]^6)*Subscript[s, \[Gamma]]^4 - 18*
+                (675 + 2123*\[Xi]^2 - 23712*\[Xi]^4 + 2272*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^6 + 18*(487 - 143*\[Xi]^2 - 
+                 8052*\[Xi]^4 + 1248*\[Xi]^6)*Subscript[s, \[Gamma]]^8) + 
+             Subscript[m, K]^8*Subscript[m, \[Phi]]^4*(-96*\[Xi]^4*
+                (-9 + 3*\[Xi]^2 + 56*\[Xi]^4) - 2*\[Xi]^2*(993 - 
+                 12908*\[Xi]^2 + 71944*\[Xi]^4 - 113536*\[Xi]^6 + 
+                 31616*\[Xi]^8)*Subscript[s, \[Gamma]]^2 + (993 - 
+                 6634*\[Xi]^2 + 84543*\[Xi]^4 + 62800*\[Xi]^6 - 
+                 534560*\[Xi]^8 + 321280*\[Xi]^10 - 11520*\[Xi]^12)*
+                Subscript[s, \[Gamma]]^4 + (1443 - 21050*\[Xi]^2 - 
+                 102702*\[Xi]^4 + 26736*\[Xi]^6 + 12352*\[Xi]^8 - 
+                 582912*\[Xi]^10 + 53760*\[Xi]^12)*Subscript[s, \[Gamma]]^6 - 
+               (1 + 4*\[Xi]^2)^2*(-1618 + 1102*\[Xi]^2 - 5311*\[Xi]^4 - 
+                 9720*\[Xi]^6 + 6480*\[Xi]^8)*Subscript[s, \[Gamma]]^8 + 2*
+                (1 + 4*\[Xi]^2)^4*(-109 + 366*\[Xi]^2 + 120*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^10)) + Subscript[c, \[Gamma]]^2*
+            Subscript[s, \[Gamma]]*(-12*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^12*
+              Subscript[s, \[Gamma]]^4*(-1 + Subscript[s, \[Gamma]]^2) + 
+             (1 + 4*\[Xi]^2)*Subscript[m, K]^10*Subscript[m, \[Phi]]^2*
+              Subscript[s, \[Gamma]]^2*(3*\[Xi]^2*(123 - 548*\[Xi]^2 + 
+                 496*\[Xi]^4 - 64*\[Xi]^6) + (-135 + 809*\[Xi]^2 + 
+                 2332*\[Xi]^4 - 3040*\[Xi]^6 + 1344*\[Xi]^8 - 768*\[Xi]^10)*
                 Subscript[s, \[Gamma]]^2 + (26 - 693*\[Xi]^2 - 1908*\[Xi]^4 + 
                  1664*\[Xi]^6 - 2112*\[Xi]^8 + 768*\[Xi]^10)*
                 Subscript[s, \[Gamma]]^4 + (1 + 4*\[Xi]^2)^2*
                 (37 - 109*\[Xi]^2 + 204*\[Xi]^4)*Subscript[s, \[Gamma]]^6) + 
              3*Subscript[m, \[Phi]]^12*Subscript[s, \[Gamma]]^2*
-              (11168*\[Xi]^4 + (23436*\[Xi]^2 - 80656*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 + 27*(45 - 3442*\[Xi]^2 + 
-                 7872*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 108*
-                (9 - 1075*\[Xi]^2 + 2234*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
-               27*(-9 - 1656*\[Xi]^2 + 3680*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 8) + Subscript[m, K]^8*Subscript[m, \[Phi]]^4*
-              (48*\[Xi]^4*(26 - 139*\[Xi]^2 - 304*\[Xi]^4 + 400*\[Xi]^6) + 
-               \[Xi]^2*(-1101 + 19186*\[Xi]^2 - 121708*\[Xi]^4 + 
-                 384256*\[Xi]^6 - 295872*\[Xi]^8 + 67584*\[Xi]^10)*
-                Subscript[s, \[Gamma]]^2 + (213 - 6255*\[Xi]^2 + 
-                 19109*\[Xi]^4 - 103212*\[Xi]^6 - 148896*\[Xi]^8 + 
-                 852800*\[Xi]^10 - 392448*\[Xi]^12)*Subscript[s, \[Gamma]]^
-                 4 + 2*(217 + 456*\[Xi]^2 + 10823*\[Xi]^4 + 6374*\[Xi]^6 - 
-                 276944*\[Xi]^8 - 428576*\[Xi]^10 + 374528*\[Xi]^12)*
-                Subscript[s, \[Gamma]]^6 - (1 + 4*\[Xi]^2)^2*(180 + 
-                 909*\[Xi]^2 - 16219*\[Xi]^4 - 37364*\[Xi]^6 + 36752*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^8 + (1 + 4*\[Xi]^2)^4*
-                (45 - 921*\[Xi]^2 + 640*\[Xi]^4)*Subscript[s, \[Gamma]]^10) + 
-             Subscript[m, K]^4*Subscript[m, \[Phi]]^8*(48*\[Xi]^4*
-                (19 + 96*\[Xi]^2 - 432*\[Xi]^4) + 2*\[Xi]^2*(8526 + 
-                 41735*\[Xi]^2 - 236664*\[Xi]^4 + 345008*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^2 - 3*(-1149 + 22914*\[Xi]^2 + 
-                 37566*\[Xi]^4 - 1001920*\[Xi]^6 + 1297568*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^4 + (-5751 + 90912*\[Xi]^2 - 
-                 810126*\[Xi]^4 - 5759280*\[Xi]^6 + 8246496*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^6 - 9*(-244 - 4483*\[Xi]^2 - 
-                 185980*\[Xi]^4 - 430512*\[Xi]^6 + 813952*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^8 + 27*(1 + 4*\[Xi]^2)^2*
-                (32 - 4147*\[Xi]^2 + 5230*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 10) + Subscript[m, K]^6*Subscript[m, \[Phi]]^6*
-              (12*\[Xi]^4*(45 - 500*\[Xi]^2 - 1104*\[Xi]^4 + 1856*\[Xi]^6) - 
-               2*\[Xi]^2*(1665 + 17310*\[Xi]^2 + 142048*\[Xi]^4 - 
-                 419776*\[Xi]^6 + 270976*\[Xi]^8)*Subscript[s, \[Gamma]]^2 + 
-               (-801 + 14529*\[Xi]^2 + 145398*\[Xi]^4 + 352752*\[Xi]^6 - 
-                 3726688*\[Xi]^8 + 2776064*\[Xi]^10)*Subscript[s, \[Gamma]]^
-                 4 - 3*(-408 + 3945*\[Xi]^2 + 67219*\[Xi]^4 - 504676*
-                  \[Xi]^6 - 1703856*\[Xi]^8 + 1783616*\[Xi]^10)*
-                Subscript[s, \[Gamma]]^6 + 12*(-95 + 919*\[Xi]^2 - 
-                 19889*\[Xi]^4 - 176432*\[Xi]^6 - 214880*\[Xi]^8 + 
-                 357952*\[Xi]^10)*Subscript[s, \[Gamma]]^8 - 3*
-                (1 + 4*\[Xi]^2)^3*(147 - 6672*\[Xi]^2 + 6127*\[Xi]^4)*
+              (16*\[Xi]^2*(-495 + 1028*\[Xi]^2) + (-2025 + 81396*\[Xi]^2 - 
+                 123376*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 18*
+                (405 - 13028*\[Xi]^2 + 18628*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4 - 27*(261 - 9520*\[Xi]^2 + 14376*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + 54*(33 - 1743*\[Xi]^2 + 
+                 2980*\[Xi]^4)*Subscript[s, \[Gamma]]^8) + Subscript[m, K]^8*
+              Subscript[m, \[Phi]]^4*(48*\[Xi]^4*(26 - 139*\[Xi]^2 - 
+                 304*\[Xi]^4 + 400*\[Xi]^6) + 2*\[Xi]^2*(-573 + 
+                 9233*\[Xi]^2 - 63014*\[Xi]^4 + 186368*\[Xi]^6 - 
+                 153696*\[Xi]^8 + 33792*\[Xi]^10)*Subscript[s, \[Gamma]]^2 + 
+               (153 - 7155*\[Xi]^2 + 14219*\[Xi]^4 - 114252*\[Xi]^6 - 
+                 157536*\[Xi]^8 + 845120*\[Xi]^10 - 415488*\[Xi]^12)*
+                Subscript[s, \[Gamma]]^4 + (614 + 3747*\[Xi]^2 + 
+                 38221*\[Xi]^4 + 54748*\[Xi]^6 - 517888*\[Xi]^8 - 
+                 864832*\[Xi]^10 + 752896*\[Xi]^12)*Subscript[s, \[Gamma]]^
+                 6 - (1 + 4*\[Xi]^2)^2*(360 + 2334*\[Xi]^2 - 14029*\[Xi]^4 - 
+                 42164*\[Xi]^6 + 27632*\[Xi]^8)*Subscript[s, \[Gamma]]^8 + 
+               (1 + 4*\[Xi]^2)^4*(105 - 906*\[Xi]^2 + 145*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^10) + Subscript[m, K]^6*
+              Subscript[m, \[Phi]]^6*(12*\[Xi]^4*(45 - 500*\[Xi]^2 - 
+                 1104*\[Xi]^4 + 1856*\[Xi]^6) - 2*\[Xi]^2*(465 + 
+                 3180*\[Xi]^2 + 87688*\[Xi]^4 - 483616*\[Xi]^6 + 
+                 288256*\[Xi]^8)*Subscript[s, \[Gamma]]^2 + 2*(402 + 
+                 8397*\[Xi]^2 + 11724*\[Xi]^4 - 150444*\[Xi]^6 - 
+                 2288384*\[Xi]^8 + 1546432*\[Xi]^10)*Subscript[s, \[Gamma]]^
+                 4 + (-4011 - 32970*\[Xi]^2 + 33903*\[Xi]^4 + 3019308*
+                  \[Xi]^6 + 7137168*\[Xi]^8 - 6207168*\[Xi]^10)*
+                Subscript[s, \[Gamma]]^6 + (4515 + 36558*\[Xi]^2 - 
+                 461478*\[Xi]^4 - 3622584*\[Xi]^6 - 4629600*\[Xi]^8 + 
+                 5172864*\[Xi]^10)*Subscript[s, \[Gamma]]^8 - 3*
+                (1 + 4*\[Xi]^2)^3*(822 - 11772*\[Xi]^2 + 7807*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^10) + Subscript[m, K]^4*
+              Subscript[m, \[Phi]]^8*(24*\[Xi]^4*(23 + 72*\[Xi]^2 - 
+                 1104*\[Xi]^4) + \[Xi]^2*(-1713 - 57380*\[Xi]^2 - 
+                 699408*\[Xi]^4 + 838336*\[Xi]^6)*Subscript[s, \[Gamma]]^2 - 
+               6*(693 - 1238*\[Xi]^2 - 133037*\[Xi]^4 - 781680*\[Xi]^6 + 
+                 818064*\[Xi]^8)*Subscript[s, \[Gamma]]^4 + 3*(6408 - 
+                 16351*\[Xi]^2 - 985202*\[Xi]^4 - 3270400*\[Xi]^6 + 
+                 3671712*\[Xi]^8)*Subscript[s, \[Gamma]]^6 - 9*(2781 - 
+                 19208*\[Xi]^2 - 426520*\[Xi]^4 - 873632*\[Xi]^6 + 
+                 1173312*\[Xi]^8)*Subscript[s, \[Gamma]]^8 + 27*
+                (1 + 4*\[Xi]^2)^2*(397 - 8932*\[Xi]^2 + 8420*\[Xi]^4)*
                 Subscript[s, \[Gamma]]^10) + Subscript[m, K]^2*
-              Subscript[m, \[Phi]]^10*(3072*\[Xi]^6 - 8*\[Xi]^2*
-                (2151 - 8618*\[Xi]^2 + 33736*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 2 + (-3240 + 39657*\[Xi]^2 - 807668*\[Xi]^4 + 1749088*
-                  \[Xi]^6)*Subscript[s, \[Gamma]]^4 + 18*(45 + 5386*\[Xi]^2 + 
-                 122630*\[Xi]^4 - 229784*\[Xi]^6)*Subscript[s, \[Gamma]]^6 + 
-               27*(67 - 12082*\[Xi]^2 - 76004*\[Xi]^4 + 152688*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^8 - 27*(-15 - 8109*\[Xi]^2 - 
-                 18820*\[Xi]^4 + 53504*\[Xi]^6)*Subscript[s, \[Gamma]]^10)) + 
+              Subscript[m, \[Phi]]^10*(192*\[Xi]^4*(5 + 36*\[Xi]^2) - 8*
+                \[Xi]^2*(-2709 - 24578*\[Xi]^2 + 47656*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + (8775 - 198213*\[Xi]^2 - 
+                 1763708*\[Xi]^4 + 2499808*\[Xi]^6)*Subscript[s, \[Gamma]]^
+                 4 - 9*(4155 - 72602*\[Xi]^2 - 504060*\[Xi]^4 + 
+                 685328*\[Xi]^6)*Subscript[s, \[Gamma]]^6 + 27*(1562 - 
+                 33017*\[Xi]^2 - 161624*\[Xi]^4 + 240848*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^8 - 54*(255 - 7902*\[Xi]^2 - 
+                 24320*\[Xi]^4 + 45472*\[Xi]^6)*Subscript[s, \[Gamma]]^10)) + 
            \[Xi]*Subscript[c, \[Gamma]]*(-6*(1 + 4*\[Xi]^2)^2*
               Subscript[m, K]^12*Subscript[s, \[Gamma]]^4*
               (-1 + Subscript[s, \[Gamma]]^2)^2 + (1 + 4*\[Xi]^2)*
@@ -2959,133 +2995,137 @@
                (-214 + 443*\[Xi]^2 + 1816*\[Xi]^4 - 4544*\[Xi]^6 + 
                  3456*\[Xi]^8 - 768*\[Xi]^10)*Subscript[s, \[Gamma]]^4 + 
                (1 + 4*\[Xi]^2)^2*(-26 + 151*\[Xi]^2 - 168*\[Xi]^4 + 
-                 48*\[Xi]^6)*Subscript[s, \[Gamma]]^6) + 
-             Subscript[m, \[Phi]]^12*Subscript[s, \[Gamma]]^2*
-              (4800*\[Xi]^4 + (87228*\[Xi]^2 - 62464*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 + 15*(2673 - 39368*\[Xi]^2 + 
-                 19216*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 972*
-                (147 - 1474*\[Xi]^2 + 628*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
-               27*(5913 - 54828*\[Xi]^2 + 22496*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^8 - 162*(351 - 3394*\[Xi]^2 + 1424*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^10) + Subscript[m, K]^6*
+                 48*\[Xi]^6)*Subscript[s, \[Gamma]]^6) + Subscript[m, K]^6*
               Subscript[m, \[Phi]]^6*Subscript[s, \[Gamma]]^2*
-              (4*\[Xi]^4*(-2095 + 2604*\[Xi]^2 + 26224*\[Xi]^4 - 
-                 1728*\[Xi]^6) + 2*(-846 - 6582*\[Xi]^2 - 21931*\[Xi]^4 + 
-                 148108*\[Xi]^6 - 902864*\[Xi]^8 + 80192*\[Xi]^10)*
-                Subscript[s, \[Gamma]]^2 + (8360 + 31261*\[Xi]^2 - 
-                 205188*\[Xi]^4 - 386768*\[Xi]^6 + 7203264*\[Xi]^8 - 
-                 797184*\[Xi]^10)*Subscript[s, \[Gamma]]^4 + 3*(-1555 + 
-                 26263*\[Xi]^2 + 284310*\[Xi]^4 - 514392*\[Xi]^6 - 
-                 3854560*\[Xi]^8 + 508032*\[Xi]^10)*Subscript[s, \[Gamma]]^
-                 6 - (11724 + 220287*\[Xi]^2 + 572464*\[Xi]^4 - 2637504*
-                  \[Xi]^6 - 8297472*\[Xi]^8 + 1259776*\[Xi]^10)*
-                Subscript[s, \[Gamma]]^8 + 3*(1 + 4*\[Xi]^2)^3*(3813 - 
-                 13129*\[Xi]^2 + 1976*\[Xi]^4)*Subscript[s, \[Gamma]]^10) + 
+              (4*\[Xi]^2*(45 - 1555*\[Xi]^2 + 4764*\[Xi]^4 + 29104*\[Xi]^6 - 
+                 1728*\[Xi]^8) + 2*(789 + 10548*\[Xi]^2 + 26804*\[Xi]^4 + 
+                 134848*\[Xi]^6 - 1055744*\[Xi]^8 + 88832*\[Xi]^10)*
+                Subscript[s, \[Gamma]]^2 - (12265 + 187979*\[Xi]^2 + 
+                 857958*\[Xi]^4 + 372968*\[Xi]^6 - 8921184*\[Xi]^8 + 
+                 918144*\[Xi]^10)*Subscript[s, \[Gamma]]^4 + 3*(12855 + 
+                 177703*\[Xi]^2 + 719310*\[Xi]^4 - 610232*\[Xi]^6 - 
+                 5177440*\[Xi]^8 + 577152*\[Xi]^10)*Subscript[s, \[Gamma]]^
+                 6 - (49389 + 609237*\[Xi]^2 + 1625734*\[Xi]^4 - 
+                 3231864*\[Xi]^6 - 12249312*\[Xi]^8 + 1369216*\[Xi]^10)*
+                Subscript[s, \[Gamma]]^8 + 3*(1 + 4*\[Xi]^2)^3*(7743 - 
+                 20479*\[Xi]^2 + 2006*\[Xi]^4)*Subscript[s, \[Gamma]]^10) - 
              Subscript[m, K]^4*Subscript[m, \[Phi]]^8*Subscript[s, \[Gamma]]^
-               2*(16*\[Xi]^2*(63 - 526*\[Xi]^2 - 5840*\[Xi]^4 + 
-                 1440*\[Xi]^6) + (7056 + 12767*\[Xi]^2 - 37208*\[Xi]^4 + 
-                 1974960*\[Xi]^6 - 374784*\[Xi]^8)*Subscript[s, \[Gamma]]^2 + 
-               3*(-6114 + 48351*\[Xi]^2 - 27628*\[Xi]^4 - 3086960*\[Xi]^6 + 
-                 582720*\[Xi]^8)*Subscript[s, \[Gamma]]^4 - 3*(9937 + 
-                 211393*\[Xi]^2 - 496056*\[Xi]^4 - 5772176*\[Xi]^6 + 
-                 1131904*\[Xi]^8)*Subscript[s, \[Gamma]]^6 + 9*(11276 + 
-                 76467*\[Xi]^2 - 302152*\[Xi]^4 - 1576752*\[Xi]^6 + 
-                 325376*\[Xi]^8)*Subscript[s, \[Gamma]]^8 - 27*
-                (1 + 4*\[Xi]^2)^2*(2277 - 10936*\[Xi]^2 + 2144*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^10) + Subscript[m, K]^2*
-              Subscript[m, \[Phi]]^10*Subscript[s, \[Gamma]]^2*
-              (192*\[Xi]^4*(79 - 100*\[Xi]^2) + 4*(-1620 - 3525*\[Xi]^2 - 
-                 175844*\[Xi]^4 + 68416*\[Xi]^6)*Subscript[s, \[Gamma]]^2 - 2*
-                (10233 + 1018*\[Xi]^2 - 2016432*\[Xi]^4 + 632000*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^4 + 9*(17975 - 11352*\[Xi]^2 - 
-                 970440*\[Xi]^4 + 284576*\[Xi]^6)*Subscript[s, \[Gamma]]^6 - 
-               81*(2975 - 5062*\[Xi]^2 - 100392*\[Xi]^4 + 29248*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^8 + 54*(1977 - 5647*\[Xi]^2 - 
-                 50436*\[Xi]^4 + 15136*\[Xi]^6)*Subscript[s, \[Gamma]]^10) - 
+               2*(8*\[Xi]^2*(159 + 3287*\[Xi]^2 + 15880*\[Xi]^4 - 
+                 3600*\[Xi]^6) + 2*(5307 + 40889*\[Xi]^2 - 24326*\[Xi]^4 - 
+                 1338240*\[Xi]^6 + 234912*\[Xi]^8)*Subscript[s, \[Gamma]]^2 - 
+               3*(29051 + 248451*\[Xi]^2 - 104668*\[Xi]^4 - 4305840*\[Xi]^6 + 
+                 744000*\[Xi]^8)*Subscript[s, \[Gamma]]^4 + 3*(81782 + 
+                 612713*\[Xi]^2 - 713536*\[Xi]^4 - 8383056*\[Xi]^6 + 
+                 1460224*\[Xi]^8)*Subscript[s, \[Gamma]]^6 - 9*(31871 + 
+                 186847*\[Xi]^2 - 401552*\[Xi]^4 - 2397872*\[Xi]^6 + 
+                 423296*\[Xi]^8)*Subscript[s, \[Gamma]]^8 + 27*
+                (1 + 4*\[Xi]^2)^2*(4412 - 17171*\[Xi]^2 + 2824*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^10) + Subscript[m, \[Phi]]^12*
+              Subscript[s, \[Gamma]]^2*(960*\[Xi]^2*(-3 + 5*\[Xi]^2) - 4*
+                (4050 - 37827*\[Xi]^2 + 17776*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 2 + 60*(2187 - 15398*\[Xi]^2 + 5812*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 - 81*(3939 - 26268*\[Xi]^2 + 
+                 9376*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 54*(5619 - 
+                 39114*\[Xi]^2 + 14128*\[Xi]^4)*Subscript[s, \[Gamma]]^8 - 81*
+                (1227 - 9368*\[Xi]^2 + 3568*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 10) + Subscript[m, K]^2*Subscript[m, \[Phi]]^10*
+              Subscript[s, \[Gamma]]^2*(192*\[Xi]^2*(25 + 174*\[Xi]^2 - 
+                 120*\[Xi]^4) + 2*(11835 + 2370*\[Xi]^2 - 546568*\[Xi]^4 + 
+                 171392*\[Xi]^6)*Subscript[s, \[Gamma]]^2 - (194841 + 
+                 170576*\[Xi]^2 - 6057984*\[Xi]^4 + 1626880*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^4 + 9*(56575 + 18968*\[Xi]^2 - 
+                 1444960*\[Xi]^4 + 371776*\[Xi]^6)*Subscript[s, \[Gamma]]^6 - 
+               54*(9875 - 5133*\[Xi]^2 - 223848*\[Xi]^4 + 57872*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^8 + 54*(3627 - 5557*\[Xi]^2 - 
+                 75216*\[Xi]^4 + 20176*\[Xi]^6)*Subscript[s, \[Gamma]]^10) - 
              Subscript[m, K]^8*Subscript[m, \[Phi]]^4*(24*\[Xi]^4*
                 (3 + 12*\[Xi]^2 + 16*\[Xi]^4) + \[Xi]^2*(-681 + 
                  7672*\[Xi]^2 + 3880*\[Xi]^4 - 42304*\[Xi]^6 + 3968*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^2 + (474 - 6320*\[Xi]^2 + 
-                 61555*\[Xi]^4 - 230064*\[Xi]^6 + 182432*\[Xi]^8 - 
-                 292608*\[Xi]^10 + 11008*\[Xi]^12)*Subscript[s, \[Gamma]]^4 + 
-               (849 - 7529*\[Xi]^2 + 25567*\[Xi]^4 - 32400*\[Xi]^6 + 
-                 37536*\[Xi]^8 + 1138688*\[Xi]^10 - 73984*\[Xi]^12)*
-                Subscript[s, \[Gamma]]^6 + (93 + 3533*\[Xi]^2 + 
-                 59896*\[Xi]^4 + 164096*\[Xi]^6 - 483456*\[Xi]^8 - 
-                 1675008*\[Xi]^10 + 159744*\[Xi]^12)*Subscript[s, \[Gamma]]^
-                 8 - (1 + 4*\[Xi]^2)^2*(783 + 7734*\[Xi]^2 + 3625*\[Xi]^4 - 
-                 74896*\[Xi]^6 + 8848*\[Xi]^8)*Subscript[s, \[Gamma]]^10 + 
-               (1 + 4*\[Xi]^2)^4*(525 - 1357*\[Xi]^2 + 175*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^12)) - Subscript[s, \[Gamma]]*
-            (6*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^12*Subscript[s, \[Gamma]]^4*
-              (-1 + Subscript[s, \[Gamma]]^2)^2 - (1 + 4*\[Xi]^2)*
-              Subscript[m, K]^10*Subscript[m, \[Phi]]^2*Subscript[s, 
-                \[Gamma]]^2*(-1 + Subscript[s, \[Gamma]]^2)*(33*\[Xi]^2 + 24*
-                \[Xi]^4 - 48*\[Xi]^6 + (-72 + 577*\[Xi]^2 - 700*\[Xi]^4 + 
-                 1648*\[Xi]^6 - 576*\[Xi]^8)*Subscript[s, \[Gamma]]^2 + 
-               \[Xi]^2*(25 - 928*\[Xi]^2 - 2384*\[Xi]^4 + 1920*\[Xi]^6 - 
-                 1536*\[Xi]^8)*Subscript[s, \[Gamma]]^4 + (\[Xi] + 4*\[Xi]^3)^
-                 2*(37 + 12*\[Xi]^2 + 96*\[Xi]^4)*Subscript[s, \[Gamma]]^6) + 
-             Subscript[m, K]^6*Subscript[m, \[Phi]]^6*Subscript[s, \[Gamma]]^
-               2*(8*\[Xi]^2*(-9 - 151*\[Xi]^2 - 3426*\[Xi]^4 - 9752*\[Xi]^6 + 
-                 1536*\[Xi]^8) + \[Xi]^2*(-286 + 5421*\[Xi]^2 + 
-                 165556*\[Xi]^4 + 954416*\[Xi]^6 - 331072*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^2 + (498 + 12931*\[Xi]^2 + 
-                 4780*\[Xi]^4 - 869104*\[Xi]^6 - 3164224*\[Xi]^8 + 
-                 1371648*\[Xi]^10)*Subscript[s, \[Gamma]]^4 - 12*
-                (218 + 2711*\[Xi]^2 - 8010*\[Xi]^4 - 168414*\[Xi]^6 - 
-                 368368*\[Xi]^8 + 189344*\[Xi]^10)*Subscript[s, \[Gamma]]^6 + 
-               (3828 + 24927*\[Xi]^2 - 217328*\[Xi]^4 - 1832880*\[Xi]^6 - 
-                 2812608*\[Xi]^8 + 1705216*\[Xi]^10)*Subscript[s, \[Gamma]]^
-                 8 - 3*(1 + 4*\[Xi]^2)^3*(570 - 5376*\[Xi]^2 + 2531*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^10) + Subscript[m, K]^4*
-              Subscript[m, \[Phi]]^8*Subscript[s, \[Gamma]]^2*
-              (16*\[Xi]^2*(3 + 703*\[Xi]^2 + 3944*\[Xi]^4 - 1920*\[Xi]^6) + 
-               \[Xi]^2*(-2903 - 158982*\[Xi]^2 - 969392*\[Xi]^4 + 
-                 592992*\[Xi]^6)*Subscript[s, \[Gamma]]^2 - 3*(1404 + 
-                 1069*\[Xi]^2 - 296306*\[Xi]^4 - 1288640*\[Xi]^6 + 
-                 864096*\[Xi]^8)*Subscript[s, \[Gamma]]^4 + 6*(2772 - 
-                 3343*\[Xi]^2 - 342864*\[Xi]^4 - 1055376*\[Xi]^6 + 
-                 776384*\[Xi]^8)*Subscript[s, \[Gamma]]^6 - 27*
-                (775 - 2593*\[Xi]^2 - 74434*\[Xi]^4 - 170192*\[Xi]^6 + 
-                 139168*\[Xi]^8)*Subscript[s, \[Gamma]]^8 + 27*
-                (1 + 4*\[Xi]^2)^2*(315 - 4153*\[Xi]^2 + 2614*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^10) + Subscript[m, \[Phi]]^12*
-              Subscript[s, \[Gamma]]^2*(-4800*\[Xi]^4 + (-40284*\[Xi]^2 + 
-                 75904*\[Xi]^4)*Subscript[s, \[Gamma]]^2 - 3*(2349 - 
-                 82260*\[Xi]^2 + 117680*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
-               27*(783 - 19762*\[Xi]^2 + 26448*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^6 - 27*(783 - 18000*\[Xi]^2 + 24536*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 + 81*(87 - 1962*\[Xi]^2 + 
-                 2848*\[Xi]^4)*Subscript[s, \[Gamma]]^10) + Subscript[m, K]^2*
-              Subscript[m, \[Phi]]^10*Subscript[s, \[Gamma]]^2*
-              (192*\[Xi]^4*(-51 + 112*\[Xi]^2) - 4*\[Xi]^2*(-8121 - 
-                 80086*\[Xi]^2 + 92936*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
-               (10098 - 196215*\[Xi]^2 - 1608200*\[Xi]^4 + 1697392*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^4 - 9*(3810 - 52799*\[Xi]^2 - 
-                 342076*\[Xi]^4 + 364096*\[Xi]^6)*Subscript[s, \[Gamma]]^6 + 
-               27*(1418 - 18493*\[Xi]^2 - 93632*\[Xi]^4 + 106096*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^8 - 27*(522 - 6969*\[Xi]^2 - 
-                 27580*\[Xi]^4 + 34592*\[Xi]^6)*Subscript[s, \[Gamma]]^10) + 
+                Subscript[s, \[Gamma]]^2 + (564 - 4880*\[Xi]^2 + 
+                 70195*\[Xi]^4 - 207024*\[Xi]^6 + 205472*\[Xi]^8 - 
+                 292608*\[Xi]^10 + 11008*\[Xi]^12)*Subscript[s, \[Gamma]]^4 - 
+               (-99 + 19484*\[Xi]^2 + 45713*\[Xi]^4 + 220080*\[Xi]^6 + 
+                 142944*\[Xi]^8 - 1150208*\[Xi]^10 + 73984*\[Xi]^12)*
+                Subscript[s, \[Gamma]]^6 + (1833 + 30728*\[Xi]^2 + 
+                 216481*\[Xi]^4 + 545456*\[Xi]^6 - 216096*\[Xi]^8 - 
+                 1874688*\[Xi]^10 + 125184*\[Xi]^12)*Subscript[s, \[Gamma]]^
+                 8 - (1 + 4*\[Xi]^2)^2*(2373 + 19359*\[Xi]^2 + 
+                 20035*\[Xi]^4 - 94576*\[Xi]^6 + 4528*\[Xi]^8)*
+                Subscript[s, \[Gamma]]^10 + (1 + 4*\[Xi]^2)^4*(1035 - 
+                 1852*\[Xi]^2 + 40*\[Xi]^4)*Subscript[s, \[Gamma]]^12)) - 
+           Subscript[s, \[Gamma]]*(6*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^12*
+              Subscript[s, \[Gamma]]^4*(-1 + Subscript[s, \[Gamma]]^2)^2 - 
+             (1 + 4*\[Xi]^2)*Subscript[m, K]^10*Subscript[m, \[Phi]]^2*
+              Subscript[s, \[Gamma]]^2*(-1 + Subscript[s, \[Gamma]]^2)*
+              (33*\[Xi]^2 + 24*\[Xi]^4 - 48*\[Xi]^6 + (-72 + 577*\[Xi]^2 - 
+                 700*\[Xi]^4 + 1648*\[Xi]^6 - 576*\[Xi]^8)*
+                Subscript[s, \[Gamma]]^2 + \[Xi]^2*(25 - 928*\[Xi]^2 - 
+                 2384*\[Xi]^4 + 1920*\[Xi]^6 - 1536*\[Xi]^8)*
+                Subscript[s, \[Gamma]]^4 + (\[Xi] + 4*\[Xi]^3)^2*
+                (37 + 12*\[Xi]^2 + 96*\[Xi]^4)*Subscript[s, \[Gamma]]^6) + 
+             Subscript[m, \[Phi]]^12*Subscript[s, \[Gamma]]^2*
+              (-7680*\[Xi]^4 + 4*\[Xi]^2*(-14121 + 29056*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (-7047 + 331830*\[Xi]^2 - 
+                 515760*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 27*
+                (783 - 25612*\[Xi]^2 + 36968*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6 - 27*(783 - 22650*\[Xi]^2 + 32936*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 + 81*(87 - 2412*\[Xi]^2 + 
+                 3688*\[Xi]^4)*Subscript[s, \[Gamma]]^10) + Subscript[m, K]^6*
+              Subscript[m, \[Phi]]^6*Subscript[s, \[Gamma]]^2*
+              (4*\[Xi]^2*(-18 - 257*\[Xi]^2 - 6312*\[Xi]^4 - 17344*\[Xi]^6 + 
+                 5952*\[Xi]^8) + \[Xi]^2*(2984 + 42081*\[Xi]^2 + 
+                 291556*\[Xi]^4 + 1039856*\[Xi]^6 - 496192*\[Xi]^8)*
+                Subscript[s, \[Gamma]]^2 + (498 - 6089*\[Xi]^2 - 
+                 212435*\[Xi]^4 - 1649764*\[Xi]^6 - 3852304*\[Xi]^8 + 
+                 2077248*\[Xi]^10)*Subscript[s, \[Gamma]]^4 + (-2616 + 
+                 5463*\[Xi]^2 + 532545*\[Xi]^4 + 3610548*\[Xi]^6 + 
+                 5915376*\[Xi]^8 - 3521088*\[Xi]^10)*Subscript[s, \[Gamma]]^
+                 6 + (3828 - 7083*\[Xi]^2 - 586193*\[Xi]^4 - 3186300*
+                  \[Xi]^6 - 4129008*\[Xi]^8 + 2681536*\[Xi]^10)*
+                Subscript[s, \[Gamma]]^8 - 3*(1 + 4*\[Xi]^2)^3*
+                (570 - 8631*\[Xi]^2 + 3986*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 10) + Subscript[m, K]^4*Subscript[m, \[Phi]]^8*
+              Subscript[s, \[Gamma]]^2*(8*\[Xi]^2*(6 + 1121*\[Xi]^2 + 
+                 5608*\[Xi]^4 - 8400*\[Xi]^6) + \[Xi]^2*(-20573 - 
+                 272292*\[Xi]^2 - 1027712*\[Xi]^4 + 1041792*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^2 + (-4212 + 94683*\[Xi]^2 + 
+                 1564038*\[Xi]^4 + 4568160*\[Xi]^6 - 4320288*\[Xi]^8)*
+                Subscript[s, \[Gamma]]^4 + 18*(924 - 11701*\[Xi]^2 - 
+                 188818*\[Xi]^4 - 439872*\[Xi]^6 + 421408*\[Xi]^8)*
+                Subscript[s, \[Gamma]]^6 - 9*(2325 - 25349*\[Xi]^2 - 
+                 347962*\[Xi]^4 - 664496*\[Xi]^6 + 671904*\[Xi]^8)*
+                Subscript[s, \[Gamma]]^8 + 27*(1 + 4*\[Xi]^2)^2*
+                (315 - 5923*\[Xi]^2 + 4184*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 10) + Subscript[m, K]^2*Subscript[m, \[Phi]]^10*
+              Subscript[s, \[Gamma]]^2*(384*\[Xi]^4*(-13 + 106*\[Xi]^2) + 
+               (62634*\[Xi]^2 + 378064*\[Xi]^4 - 623264*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^2 + (10098 - 358575*\[Xi]^2 - 
+                 2009840*\[Xi]^4 + 2688592*\[Xi]^6)*Subscript[s, \[Gamma]]^
+                 4 - 18*(1905 - 43577*\[Xi]^2 - 216008*\[Xi]^4 + 
+                 277008*\[Xi]^6)*Subscript[s, \[Gamma]]^6 + 27*(1418 - 
+                 27823*\[Xi]^2 - 118372*\[Xi]^4 + 156416*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^8 - 54*(261 - 4872*\[Xi]^2 - 
+                 17450*\[Xi]^4 + 24856*\[Xi]^6)*Subscript[s, \[Gamma]]^10) + 
              Subscript[m, K]^8*Subscript[m, \[Phi]]^4*(24*\[Xi]^4*
                 (3 + 12*\[Xi]^2 + 16*\[Xi]^4) + \[Xi]^2*(-177 + 
                  2560*\[Xi]^2 - 728*\[Xi]^4 - 16576*\[Xi]^6 + 7040*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^2 + 2*(57 - 872*\[Xi]^2 + 
-                 4097*\[Xi]^4 - 31272*\[Xi]^6 + 3488*\[Xi]^8 - 
-                 67712*\[Xi]^10 + 24832*\[Xi]^12)*Subscript[s, \[Gamma]]^4 + 
-               (3 - 268*\[Xi]^2 + 5527*\[Xi]^4 + 18744*\[Xi]^6 + 
-                 197824*\[Xi]^8 + 428672*\[Xi]^10 - 183040*\[Xi]^12)*
-                Subscript[s, \[Gamma]]^6 + (81 + 1343*\[Xi]^2 + 
-                 2623*\[Xi]^4 - 65424*\[Xi]^6 - 405664*\[Xi]^8 - 
-                 613376*\[Xi]^10 + 277248*\[Xi]^12)*Subscript[s, \[Gamma]]^
-                 8 - (1 + 4*\[Xi]^2)^2*(171 + 627*\[Xi]^2 - 6925*\[Xi]^4 - 
-                 31256*\[Xi]^6 + 12752*\[Xi]^8)*Subscript[s, \[Gamma]]^10 + 
-               (1 + 4*\[Xi]^2)^4*(87 - 567*\[Xi]^2 + 235*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + (114 - 1834*\[Xi]^2 + 
+                 6709*\[Xi]^4 - 71904*\[Xi]^6 - 20384*\[Xi]^8 - 
+                 169984*\[Xi]^10 + 38144*\[Xi]^12)*Subscript[s, \[Gamma]]^4 + 
+               (3 + 422*\[Xi]^2 + 16642*\[Xi]^4 + 86184*\[Xi]^6 + 
+                 381664*\[Xi]^8 + 624512*\[Xi]^10 - 163840*\[Xi]^12)*
+                Subscript[s, \[Gamma]]^6 + (81 - 217*\[Xi]^2 - 
+                 22292*\[Xi]^4 - 214464*\[Xi]^6 - 800704*\[Xi]^8 - 
+                 1001216*\[Xi]^10 + 288768*\[Xi]^12)*Subscript[s, \[Gamma]]^
+                 8 - (1 + 4*\[Xi]^2)^2*(171 - 783*\[Xi]^2 - 18070*\[Xi]^4 - 
+                 52736*\[Xi]^6 + 14912*\[Xi]^8)*Subscript[s, \[Gamma]]^10 + 
+               (1 + 4*\[Xi]^2)^4*(87 - 1017*\[Xi]^2 + 295*\[Xi]^4)*
                 Subscript[s, \[Gamma]]^12))))/(6*\[Xi]^3*
           (1 + 4*\[Xi]^2)^(7/2)*Subscript[m, K]^8*Subscript[m, \[Phi]]^6*
-          Subscript[v, EW]^3) + (2*h^3*(-24*\[Xi]*Subscript[c, \[Gamma]]^5*
-            Subscript[m, \[Phi]]^2*(2*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4 - 
-             9*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^2 + 
+          Subscript[v, EW]^3) + (2*QuantumField[h]^3*
+          (-24*\[Xi]*Subscript[c, \[Gamma]]^5*Subscript[m, \[Phi]]^2*
+            (2*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4 - 9*(1 + 4*\[Xi]^2)*
+              Subscript[m, K]^2*Subscript[m, \[Phi]]^2 + 
              9*Subscript[m, \[Phi]]^4)*Subscript[s, \[Gamma]]^3*
             ((1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[s, \[Gamma]]^2 + 
              Subscript[m, \[Phi]]^2*(1 - 3*Subscript[s, \[Gamma]]^2)) + 
@@ -3231,9 +3271,9 @@
                 (1 - 10*\[Xi]^2 - 53*\[Xi]^4 + 12*\[Xi]^6)*
                 Subscript[s, \[Gamma]]^8))))/(3*\[Xi]^2*(1 + 4*\[Xi]^2)^3*
           Subscript[m, K]^6*Subscript[m, \[Phi]]^4*Subscript[v, EW]^2) - 
-        (2*h^2*(-((1 + 4*\[Xi]^2)*Subscript[m, K]^6*Subscript[s, \[Gamma]]^3*
-             (-1 + Subscript[s, \[Gamma]]^2)) + 2*\[Xi]^2*
-            Subscript[m, \[Phi]]^6*Subscript[s, \[Gamma]]^3*
+        (2*QuantumField[h]^2*(-((1 + 4*\[Xi]^2)*Subscript[m, K]^6*
+             Subscript[s, \[Gamma]]^3*(-1 + Subscript[s, \[Gamma]]^2)) + 
+           2*\[Xi]^2*Subscript[m, \[Phi]]^6*Subscript[s, \[Gamma]]^3*
             (26 - 69*Subscript[s, \[Gamma]]^2 + 45*Subscript[s, \[Gamma]]^
                4) - \[Xi]^2*Subscript[m, K]^2*Subscript[m, \[Phi]]^4*
             Subscript[s, \[Gamma]]^3*(9 + 228*\[Xi]^2 - 2*(25 + 244*\[Xi]^2)*
@@ -3285,170 +3325,252 @@
           Subscript[m, \[Phi]]^2)), CVVDhDh -> 
       t*((-2*(\[Xi]*Subscript[c, \[Gamma]] + Subscript[s, \[Gamma]])^2)/
          ((1 + 4*\[Xi]^2)*Subscript[m, \[Phi]]^2) + 
-        (h^4*(24*\[Xi]*Subscript[c, \[Gamma]]^7*Subscript[m, \[Phi]]^2*
+        (QuantumField[h]^4*(-6*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^12*
+            Subscript[s, \[Gamma]]^6*(-1 + Subscript[s, \[Gamma]]^2)^2 + 
+           (1 + 4*\[Xi]^2)*Subscript[m, K]^10*Subscript[m, \[Phi]]^2*
+            Subscript[s, \[Gamma]]^4*(-1 + Subscript[s, \[Gamma]]^2)*
+            (45*\[Xi]^2 + 72*\[Xi]^4 - 48*\[Xi]^6 + (-48 + 481*\[Xi]^2 - 1156*
+                \[Xi]^4 + 2800*\[Xi]^6 - 960*\[Xi]^8)*Subscript[s, \[Gamma]]^
+               2 + \[Xi]^2*(7 - 1264*\[Xi]^2 - 3104*\[Xi]^4 + 3072*\[Xi]^6 - 
+               2304*\[Xi]^8)*Subscript[s, \[Gamma]]^4 + (\[Xi] + 4*\[Xi]^3)^2*
+              (43 - 12*\[Xi]^2 + 144*\[Xi]^4)*Subscript[s, \[Gamma]]^6) + 
+           Subscript[m, K]^6*Subscript[m, \[Phi]]^6*Subscript[s, \[Gamma]]^4*
+            (8*\[Xi]^2*(9 + 477*\[Xi]^2 + 7936*\[Xi]^4 + 19600*\[Xi]^6 - 8640*
+                \[Xi]^8 + 768*\[Xi]^10) - \[Xi]^2*(6991 + 108458*\[Xi]^2 + 
+               812664*\[Xi]^4 + 2223520*\[Xi]^6 - 1659008*\[Xi]^8 + 91136*
+                \[Xi]^10)*Subscript[s, \[Gamma]]^2 + (-2085 + 11107*\[Xi]^2 + 
+               555634*\[Xi]^4 + 4022840*\[Xi]^6 + 7681376*\[Xi]^8 - 6784128*
+                \[Xi]^10 + 282624*\[Xi]^12)*Subscript[s, \[Gamma]]^4 - 
+             3*(-2503 + 3153*\[Xi]^2 + 422074*\[Xi]^4 + 2640024*\[Xi]^6 + 
+               3664416*\[Xi]^8 - 3662464*\[Xi]^10 + 115712*\[Xi]^12)*
+              Subscript[s, \[Gamma]]^6 + (-8844 + 16785*\[Xi]^2 + 1262758*
+                \[Xi]^4 + 6513800*\[Xi]^6 + 7191072*\[Xi]^8 - 7948160*
+                \[Xi]^10 + 180224*\[Xi]^12)*Subscript[s, \[Gamma]]^8 - 
+             6*(1 + 4*\[Xi]^2)^3*(-570 + 8847*\[Xi]^2 - 5672*\[Xi]^4 + 80*
+                \[Xi]^6)*Subscript[s, \[Gamma]]^10) + Subscript[m, K]^4*
+            Subscript[m, \[Phi]]^8*Subscript[s, \[Gamma]]^4*
+            (-16*\[Xi]^2*(3 + 1305*\[Xi]^2 + 5512*\[Xi]^4 - 10128*\[Xi]^6 + 
+               768*\[Xi]^8) + 2*\[Xi]^2*(25704 + 332037*\[Xi]^2 + 998168*
+                \[Xi]^4 - 1511664*\[Xi]^6 + 90624*\[Xi]^8)*Subscript[s, 
+                \[Gamma]]^2 - 3*(-3897 + 78064*\[Xi]^2 + 1188364*\[Xi]^4 + 
+               2865696*\[Xi]^6 - 4283328*\[Xi]^8 + 221696*\[Xi]^10)*
+              Subscript[s, \[Gamma]]^4 + 3*(-13365 + 164484*\[Xi]^2 + 2435252*
+                \[Xi]^4 + 4758272*\[Xi]^6 - 7471808*\[Xi]^8 + 343552*
+                \[Xi]^10)*Subscript[s, \[Gamma]]^6 - 
+             18*(-2523 + 27887*\[Xi]^2 + 356130*\[Xi]^4 + 566816*\[Xi]^6 - 
+               975456*\[Xi]^8 + 40448*\[Xi]^10)*Subscript[s, \[Gamma]]^8 + 
+             54*(1 + 4*\[Xi]^2)^2*(-315 + 6067*\[Xi]^2 - 6053*\[Xi]^4 + 224*
+                \[Xi]^6)*Subscript[s, \[Gamma]]^10) + 
+           2*Subscript[m, \[Phi]]^12*Subscript[s, \[Gamma]]^4*
+            (7680*\[Xi]^4 + 4*\[Xi]^2*(14121 - 36889*\[Xi]^2 + 2176*\[Xi]^4)*
+              Subscript[s, \[Gamma]]^2 + (7047 - 335718*\[Xi]^2 + 696768*
+                \[Xi]^4 - 49920*\[Xi]^6)*Subscript[s, \[Gamma]]^4 + 
+             27*(-783 + 26116*\[Xi]^2 - 51236*\[Xi]^4 + 3968*\[Xi]^6)*
+              Subscript[s, \[Gamma]]^6 - 27*(-783 + 23226*\[Xi]^2 - 46256*
+                \[Xi]^4 + 3776*\[Xi]^6)*Subscript[s, \[Gamma]]^8 + 
+             81*(-87 + 2484*\[Xi]^2 - 5224*\[Xi]^4 + 448*\[Xi]^6)*
+              Subscript[s, \[Gamma]]^10) + Subscript[m, K]^2*
+            Subscript[m, \[Phi]]^10*Subscript[s, \[Gamma]]^4*
+            (768*\[Xi]^4*(13 - 116*\[Xi]^2 + 8*\[Xi]^4) - 
+             4*\[Xi]^2*(35313 + 181664*\[Xi]^2 - 420400*\[Xi]^4 + 28928*
+                \[Xi]^6)*Subscript[s, \[Gamma]]^2 + (-22869 + 794442*
+                \[Xi]^2 + 3826552*\[Xi]^4 - 7583808*\[Xi]^6 + 498176*\[Xi]^8)*
+              Subscript[s, \[Gamma]]^4 - 18*(-4107 + 94444*\[Xi]^2 + 404748*
+                \[Xi]^4 - 789872*\[Xi]^6 + 50048*\[Xi]^8)*Subscript[s, 
+                \[Gamma]]^6 + 27*(-2935 + 58898*\[Xi]^2 + 216432*\[Xi]^4 - 
+               445408*\[Xi]^6 + 27648*\[Xi]^8)*Subscript[s, \[Gamma]]^8 - 
+             108*(-261 + 5034*\[Xi]^2 + 15392*\[Xi]^4 - 35136*\[Xi]^6 + 2176*
+                \[Xi]^8)*Subscript[s, \[Gamma]]^10) + Subscript[m, K]^8*
+            Subscript[m, \[Phi]]^4*Subscript[s, \[Gamma]]^2*
+            (-48*\[Xi]^4*(3 + 16*\[Xi]^2 + 24*\[Xi]^4) + 
+             \[Xi]^2*(141 - 2328*\[Xi]^2 + 6632*\[Xi]^4 + 28576*\[Xi]^6 - 
+               29056*\[Xi]^8 + 1536*\[Xi]^10)*Subscript[s, \[Gamma]]^2 + 
+             2*(-33 + 799*\[Xi]^2 + 198*\[Xi]^4 + 48224*\[Xi]^6 + 27232*
+                \[Xi]^8 + 219136*\[Xi]^10 - 97280*\[Xi]^12 + 4096*\[Xi]^14)*
+              Subscript[s, \[Gamma]]^4 - (-93 + 70*\[Xi]^2 + 25602*\[Xi]^4 + 
+               194824*\[Xi]^6 + 880832*\[Xi]^8 + 1302016*\[Xi]^10 - 744960*
+                \[Xi]^12 + 14336*\[Xi]^14)*Subscript[s, \[Gamma]]^6 - 
+             4*(90 + 463*\[Xi]^2 - 10111*\[Xi]^4 - 116106*\[Xi]^6 - 431120*
+                \[Xi]^8 - 472768*\[Xi]^10 + 284160*\[Xi]^12 + 1536*\[Xi]^14)*
+              Subscript[s, \[Gamma]]^8 + (1 + 4*\[Xi]^2)^2*(441 - 1323*
+                \[Xi]^2 - 38834*\[Xi]^4 - 107488*\[Xi]^6 + 49856*\[Xi]^8 + 
+               1408*\[Xi]^10)*Subscript[s, \[Gamma]]^10 - 2*(1 + 4*\[Xi]^2)^4*
+              (87 - 1053*\[Xi]^2 + 418*\[Xi]^4 + 20*\[Xi]^6)*Subscript[s, 
+                \[Gamma]]^12) + 240*\[Xi]^2*Subscript[c, \[Gamma]]^8*
+            Subscript[m, \[Phi]]^4*((1 + 4*\[Xi]^2)*Subscript[m, K]^2 - 
+             3*Subscript[m, \[Phi]]^2)*((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 
+              3*Subscript[m, \[Phi]]^2)^2*Subscript[s, \[Gamma]]^4*
+            ((1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[s, \[Gamma]]^2 + 
+             Subscript[m, \[Phi]]^2*(1 - 3*Subscript[s, \[Gamma]]^2)) + 
+           6*\[Xi]*Subscript[c, \[Gamma]]^7*Subscript[m, \[Phi]]^2*
             (2*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4 - 9*(1 + 4*\[Xi]^2)*
               Subscript[m, K]^2*Subscript[m, \[Phi]]^2 + 
              9*Subscript[m, \[Phi]]^4)*Subscript[s, \[Gamma]]^3*
-            (\[Xi]^2*(1 + 4*\[Xi]^2)*Subscript[m, K]^6*Subscript[s, \[Gamma]]^
-               2 + 6*Subscript[m, \[Phi]]^6*Subscript[s, \[Gamma]]^2*
-              (-4 + 3*(4 + \[Xi]^2)*Subscript[s, \[Gamma]]^2) + 
-             Subscript[m, K]^4*Subscript[m, \[Phi]]^2*(\[Xi]^2 + 2*\[Xi]^2*
-                (-15 - 52*\[Xi]^2 + 8*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 8*
-                (1 + 4*\[Xi]^2)^2*Subscript[s, \[Gamma]]^4) - 
-             Subscript[m, K]^2*Subscript[m, \[Phi]]^4*(27*\[Xi]^2 - 4*
-                \[Xi]^4 + (-8 - 113*\[Xi]^2 + 12*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^2 + 6*(8 + 33*\[Xi]^2 + 4*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4)) + Subscript[c, \[Gamma]]^6*
-            (-6*(\[Xi] + 4*\[Xi]^3)^2*Subscript[m, K]^12*Subscript[s, 
-                \[Gamma]]^4 - 324*Subscript[m, \[Phi]]^12*Subscript[s, 
-                \[Gamma]]^4*(32*\[Xi]^2 + (6 - 208*\[Xi]^2 - 76*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 + (-14 + 335*\[Xi]^2 + 180*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4) + (1 + 4*\[Xi]^2)*Subscript[m, 
-                K]^10*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^2*
-              (-300*\[Xi]^4 - 9*\[Xi]^2*(-19 - 24*\[Xi]^2 + 144*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 + (1 + 4*\[Xi]^2)^2*(-12 + 
-                 241*\[Xi]^2 - 24*\[Xi]^4 + 96*\[Xi]^6)*Subscript[s, 
-                  \[Gamma]]^4) + 12*Subscript[m, K]^6*Subscript[m, \[Phi]]^6*
-              Subscript[s, \[Gamma]]^2*(-263*\[Xi]^4 + 1948*\[Xi]^6 - 192*
-                \[Xi]^8 - \[Xi]^2*(129 + 3540*\[Xi]^2 + 4876*\[Xi]^4 - 
-                 18384*\[Xi]^6 + 512*\[Xi]^8)*Subscript[s, \[Gamma]]^2 + 
-               (24 + 2363*\[Xi]^2 + 7698*\[Xi]^4 - 36060*\[Xi]^6 - 
-                 122512*\[Xi]^8 - 768*\[Xi]^10)*Subscript[s, \[Gamma]]^4 + 
-               (1 + 4*\[Xi]^2)^3*(-92 + 1679*\[Xi]^2 + 180*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6) - 6*Subscript[m, K]^4*
-              Subscript[m, \[Phi]]^8*Subscript[s, \[Gamma]]^2*
-              (16*\[Xi]^4*(33 - 70*\[Xi]^2 + 8*\[Xi]^4) - \[Xi]^2*
-                (1585 + 3284*\[Xi]^2 - 43784*\[Xi]^4 + 1536*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^2 - 3*(-108 - 2611*\[Xi]^2 + 
-                 11044*\[Xi]^4 + 74120*\[Xi]^6 + 4608*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^4 + 18*(1 + 4*\[Xi]^2)^2*
-                (-40 + 791*\[Xi]^2 + 188*\[Xi]^4)*Subscript[s, \[Gamma]]^6) + 
-             9*Subscript[m, K]^2*Subscript[m, \[Phi]]^10*Subscript[s, 
-                \[Gamma]]^2*(16*\[Xi]^4*(-27 + 4*\[Xi]^2) + (-419*\[Xi]^2 + 
-                 11332*\[Xi]^4 - 384*\[Xi]^6)*Subscript[s, \[Gamma]]^2 - 3*
-                (-132 + 703*\[Xi]^2 + 19060*\[Xi]^4 + 3136*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^4 + 12*(-68 + 1197*\[Xi]^2 + 
-                 6440*\[Xi]^4 + 2256*\[Xi]^6)*Subscript[s, \[Gamma]]^6) - 
-             2*Subscript[m, K]^8*Subscript[m, \[Phi]]^4*(1248*\[Xi]^6 + 24*
+            (4*\[Xi]^2*(1 + 4*\[Xi]^2)*Subscript[m, K]^6*Subscript[s, 
+                \[Gamma]]^2 + Subscript[m, \[Phi]]^6*(-160*\[Xi]^2 + 9*
+                (-29 + 120*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 9*
+                (-77 + 192*\[Xi]^2)*Subscript[s, \[Gamma]]^4) + 
+             Subscript[m, K]^4*Subscript[m, \[Phi]]^2*(4*\[Xi]^2 + 
+               (-15 - 240*\[Xi]^2 - 656*\[Xi]^4 + 64*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^2 - (1 + 4*\[Xi]^2)^2*(-127 + 
+                 240*\[Xi]^2)*Subscript[s, \[Gamma]]^4) + 4*Subscript[m, K]^2*
+              Subscript[m, \[Phi]]^4*(\[Xi]^2*(-27 + 4*\[Xi]^2) + 
+               (43 + 153*\[Xi]^2 - 412*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 9*
+                (-17 - 32*\[Xi]^2 + 144*\[Xi]^4)*Subscript[s, \[Gamma]]^4)) + 
+           Subscript[c, \[Gamma]]^6*(-6*(\[Xi] + 4*\[Xi]^3)^2*
+              Subscript[m, K]^12*Subscript[s, \[Gamma]]^4 + 
+             (1 + 4*\[Xi]^2)*Subscript[m, K]^10*Subscript[m, \[Phi]]^2*
+              Subscript[s, \[Gamma]]^2*(-300*\[Xi]^4 - 9*\[Xi]^2*
+                (-19 - 24*\[Xi]^2 + 144*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
+               (1 + 4*\[Xi]^2)^2*(-12 + 241*\[Xi]^2 - 24*\[Xi]^4 + 
+                 96*\[Xi]^6)*Subscript[s, \[Gamma]]^4) + 
+             54*Subscript[m, \[Phi]]^12*Subscript[s, \[Gamma]]^2*
+              (-160*\[Xi]^4 + 2*\[Xi]^2*(-281 + 720*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (-81 + 3123*\[Xi]^2 - 
+                 3864*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 3*(43 - 
+                 1465*\[Xi]^2 + 1080*\[Xi]^4)*Subscript[s, \[Gamma]]^6) + 
+             6*Subscript[m, K]^4*Subscript[m, \[Phi]]^8*Subscript[s, 
+                \[Gamma]]^2*(-16*\[Xi]^4*(53 + 90*\[Xi]^2 + 328*\[Xi]^4) + 
+               \[Xi]^2*(-935 - 12276*\[Xi]^2 - 47304*\[Xi]^4 + 75136*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^2 - 3*(363 + 36*\[Xi]^2 - 
+                 36844*\[Xi]^4 - 91640*\[Xi]^6 + 108032*\[Xi]^8)*
+                Subscript[s, \[Gamma]]^4 + 9*(1 + 4*\[Xi]^2)^2*
+                (165 - 4277*\[Xi]^2 + 3104*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6) - 6*Subscript[m, K]^6*Subscript[m, \[Phi]]^6*
+              Subscript[s, \[Gamma]]^2*(526*\[Xi]^4 - 3896*\[Xi]^6 + 384*
+                \[Xi]^8 + 8*\[Xi]^2*(-29 + 200*\[Xi]^2 - 1121*\[Xi]^4 - 
+                 6116*\[Xi]^6 + 3328*\[Xi]^8)*Subscript[s, \[Gamma]]^2 - 
+               (303 + 5481*\[Xi]^2 + 3136*\[Xi]^4 - 128520*\[Xi]^6 - 
+                 240864*\[Xi]^8 + 200704*\[Xi]^10)*Subscript[s, \[Gamma]]^4 + 
+               (1 + 4*\[Xi]^2)^3*(439 - 9388*\[Xi]^2 + 6720*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6) - 3*Subscript[m, K]^2*
+              Subscript[m, \[Phi]]^10*Subscript[s, \[Gamma]]^2*
+              (-16*\[Xi]^4*(79 + 652*\[Xi]^2) + 3*\[Xi]^2*(-2981 - 
+                 15652*\[Xi]^2 + 37504*\[Xi]^4)*Subscript[s, \[Gamma]]^2 - 9*
+                (342 - 5893*\[Xi]^2 - 32140*\[Xi]^4 + 41024*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^4 + 18*(241 - 6294*\[Xi]^2 - 
+                 23680*\[Xi]^4 + 21408*\[Xi]^6)*Subscript[s, \[Gamma]]^6) + 
+             2*Subscript[m, K]^8*Subscript[m, \[Phi]]^4*(-1248*\[Xi]^6 - 24*
                 \[Xi]^4*(-51 - 4*\[Xi]^2 + 500*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^2 + 2*\[Xi]^2*(183 - 1220*\[Xi]^2 - 
-                 12148*\[Xi]^4 - 15968*\[Xi]^6 + 9024*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^4 + (1 + 4*\[Xi]^2)^2*(-24 + 
-                 2517*\[Xi]^2 + 620*\[Xi]^4 - 18712*\[Xi]^6 + 384*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^6 + 4*(1 + 4*\[Xi]^2)^4*
-                (-13 + 220*\[Xi]^2)*Subscript[s, \[Gamma]]^8)) - 
-           \[Xi]*Subscript[c, \[Gamma]]^5*Subscript[s, \[Gamma]]*
+                  \[Gamma]]^2 + 2*\[Xi]^2*(-243 + 260*\[Xi]^2 + 
+                 6388*\[Xi]^4 + 608*\[Xi]^6 - 24384*\[Xi]^8)*
+                Subscript[s, \[Gamma]]^4 - (1 + 4*\[Xi]^2)^2*
+                (66 + 3117*\[Xi]^2 + 1340*\[Xi]^4 - 18712*\[Xi]^6 + 
+                 4224*\[Xi]^8)*Subscript[s, \[Gamma]]^6 + 2*(1 + 4*\[Xi]^2)^4*
+                (71 - 1175*\[Xi]^2 + 840*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 8)) - \[Xi]*Subscript[c, \[Gamma]]^5*Subscript[s, \[Gamma]]*
             (12*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^12*Subscript[s, \[Gamma]]^
                4 + 2*(1 + 4*\[Xi]^2)*Subscript[m, K]^10*Subscript[m, \[Phi]]^
                2*Subscript[s, \[Gamma]]^2*(6*\[Xi]^2*(51 - 158*\[Xi]^2 + 
                  88*\[Xi]^4) + (-99 + 536*\[Xi]^2 + 2476*\[Xi]^4 - 
                  1600*\[Xi]^6 + 960*\[Xi]^8)*Subscript[s, \[Gamma]]^2 + 
                (1 + 4*\[Xi]^2)^2*(-151 + 124*\[Xi]^2 - 168*\[Xi]^4 + 
-                 48*\[Xi]^6)*Subscript[s, \[Gamma]]^4) - 
-             18*Subscript[m, \[Phi]]^12*Subscript[s, \[Gamma]]^2*
-              (-800*\[Xi]^2 + 12*(-63 + 692*\[Xi]^2 + 208*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 - 24*(-179 + 986*\[Xi]^2 + 
-                 444*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 9*(-573 + 
-                 2138*\[Xi]^2 + 1152*\[Xi]^4)*Subscript[s, \[Gamma]]^6) + 
-             Subscript[m, K]^8*Subscript[m, \[Phi]]^4*(12*\[Xi]^4*
-                (375 - 2592*\[Xi]^2 + 2000*\[Xi]^4) + 2*\[Xi]^2*
+                 48*\[Xi]^6)*Subscript[s, \[Gamma]]^4) + 3*Subscript[m, K]^4*
+              Subscript[m, \[Phi]]^8*(32*\[Xi]^4*(35 - 128*\[Xi]^2 + 
+                 16*\[Xi]^4) + (3906*\[Xi]^2 - 21104*\[Xi]^4 + 134432*
+                  \[Xi]^6 - 38400*\[Xi]^8)*Subscript[s, \[Gamma]]^2 + 2*
+                (1001 + 21573*\[Xi]^2 + 51298*\[Xi]^4 - 496160*\[Xi]^6 + 
+                 157696*\[Xi]^8)*Subscript[s, \[Gamma]]^4 - 3*(6460 + 
+                 83583*\[Xi]^2 - 27268*\[Xi]^4 - 846256*\[Xi]^6 + 
+                 279680*\[Xi]^8)*Subscript[s, \[Gamma]]^6 + 90*
+                (1 + 4*\[Xi]^2)^2*(404 - 1737*\[Xi]^2 + 532*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8) + 6*Subscript[m, \[Phi]]^12*
+              (640*\[Xi]^4 - 480*\[Xi]^2*(-11 + 17*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + 9*(507 - 5358*\[Xi]^2 + 
+                 3328*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 9*(2317 - 
+                 14638*\[Xi]^2 + 4608*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 27*
+                (783 - 4058*\[Xi]^2 + 768*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 8) + Subscript[m, K]^8*Subscript[m, \[Phi]]^4*
+              (12*\[Xi]^4*(375 - 2592*\[Xi]^2 + 2000*\[Xi]^4) + 2*\[Xi]^2*
                 (-1245 + 15442*\[Xi]^2 + 13448*\[Xi]^4 - 133280*\[Xi]^6 + 
-                 29952*\[Xi]^8)*Subscript[s, \[Gamma]]^2 + 2*
-                (57 - 10259*\[Xi]^2 - 27174*\[Xi]^4 + 128112*\[Xi]^6 + 
-                 264352*\[Xi]^8 - 142848*\[Xi]^10 + 3072*\[Xi]^12)*
-                Subscript[s, \[Gamma]]^4 - (1 + 4*\[Xi]^2)^2*(-4182 + 
-                 15139*\[Xi]^2 + 35012*\[Xi]^4 - 86384*\[Xi]^6 + 384*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^6 - 8*(1 + 4*\[Xi]^2)^4*
-                (-89 + 439*\[Xi]^2)*Subscript[s, \[Gamma]]^8) - 
-             3*Subscript[m, K]^4*Subscript[m, \[Phi]]^8*(-32*\[Xi]^4*
-                (35 - 128*\[Xi]^2 + 16*\[Xi]^4) + (-626*\[Xi]^2 + 
-                 45264*\[Xi]^4 - 98592*\[Xi]^6 + 5120*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^2 + (3058 - 31486*\[Xi]^2 - 
-                 230996*\[Xi]^4 + 700800*\[Xi]^6 + 23808*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^4 - 3*(-490 - 61023*\[Xi]^2 - 
-                 56892*\[Xi]^4 + 618416*\[Xi]^6 + 71040*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^6 + 90*(1 + 4*\[Xi]^2)^2*
-                (-245 + 806*\[Xi]^2 + 148*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 8) + 2*Subscript[m, K]^6*Subscript[m, \[Phi]]^6*
-              (24*\[Xi]^4*(67 - 724*\[Xi]^2 + 96*\[Xi]^4) + 4*\[Xi]^2*
-                (-264 - 6115*\[Xi]^2 + 49340*\[Xi]^4 - 29184*\[Xi]^6 + 
-                 960*\[Xi]^8)*Subscript[s, \[Gamma]]^2 - 3*(-719 - 
-                 9043*\[Xi]^2 + 53708*\[Xi]^4 + 173280*\[Xi]^6 - 
-                 259456*\[Xi]^8 + 3072*\[Xi]^10)*Subscript[s, \[Gamma]]^4 + 
-               (-7205 + 47255*\[Xi]^2 + 457236*\[Xi]^4 + 28864*\[Xi]^6 - 
-                 2352256*\[Xi]^8 - 82944*\[Xi]^10)*Subscript[s, \[Gamma]]^6 + 
-               3*(1 + 4*\[Xi]^2)^3*(-2085 + 7712*\[Xi]^2 + 468*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8) + 6*Subscript[m, K]^2*
-              Subscript[m, \[Phi]]^10*(32*\[Xi]^4*(27 - 4*\[Xi]^2) + 20*
-                \[Xi]^2*(107 - 1072*\[Xi]^2 + 48*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^2 + 3*(-322 - 9599*\[Xi]^2 + 56372*\[Xi]^4 + 
-                 6816*\[Xi]^6)*Subscript[s, \[Gamma]]^4 - 18*(-743 - 
-                 3798*\[Xi]^2 + 24752*\[Xi]^4 + 5952*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^6 + 9*(-2519 - 1804*\[Xi]^2 + 
-                 36016*\[Xi]^4 + 11712*\[Xi]^6)*Subscript[s, \[Gamma]]^8)) + 
-           Subscript[c, \[Gamma]]^4*(-6*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^12*
-              Subscript[s, \[Gamma]]^4*(-2*\[Xi]^2 + (1 + 2*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2) + (1 + 4*\[Xi]^2)*Subscript[m, 
-                K]^10*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^2*
-              (345*\[Xi]^4 + 72*\[Xi]^6 - 48*\[Xi]^8 + \[Xi]^2*(-675 + 
-                 2605*\[Xi]^2 - 4816*\[Xi]^4 + 1552*\[Xi]^6 - 384*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^2 + (63 - 1122*\[Xi]^2 - 
-                 2453*\[Xi]^4 + 4616*\[Xi]^6 - 7616*\[Xi]^8 + 2688*\[Xi]^10 - 
-                 768*\[Xi]^12)*Subscript[s, \[Gamma]]^4 + (1 + 4*\[Xi]^2)^2*
+                 29952*\[Xi]^8)*Subscript[s, \[Gamma]]^2 + 2*(132 - 
+                 9509*\[Xi]^2 - 27174*\[Xi]^4 + 104112*\[Xi]^6 + 
+                 168352*\[Xi]^8 - 258048*\[Xi]^10 + 3072*\[Xi]^12)*
+                Subscript[s, \[Gamma]]^4 - (1 + 4*\[Xi]^2)^2*(-4122 + 
+                 16159*\[Xi]^2 + 41252*\[Xi]^4 - 70064*\[Xi]^6 + 
+                 15744*\[Xi]^8)*Subscript[s, \[Gamma]]^6 + 2*(1 + 4*\[Xi]^2)^
+                 4*(341 - 2611*\[Xi]^2 + 960*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 8) - 2*Subscript[m, K]^6*Subscript[m, \[Phi]]^6*
+              (-24*\[Xi]^4*(67 - 724*\[Xi]^2 + 96*\[Xi]^4) - 4*\[Xi]^2*
+                (-414 - 7915*\[Xi]^2 + 42140*\[Xi]^4 - 38784*\[Xi]^6 + 
+                 960*\[Xi]^8)*Subscript[s, \[Gamma]]^2 + 3*(-229 - 
+                 5523*\[Xi]^2 + 49788*\[Xi]^4 + 101920*\[Xi]^6 - 
+                 368256*\[Xi]^8 + 59392*\[Xi]^10)*Subscript[s, \[Gamma]]^4 + 
+               (2555 - 88895*\[Xi]^2 - 524796*\[Xi]^4 + 181856*\[Xi]^6 + 
+                 2573056*\[Xi]^8 - 830976*\[Xi]^10)*Subscript[s, \[Gamma]]^
+                 6 + 3*(1 + 4*\[Xi]^2)^3*(3360 - 15287*\[Xi]^2 + 
+                 5172*\[Xi]^4)*Subscript[s, \[Gamma]]^8) - 
+             6*Subscript[m, K]^2*Subscript[m, \[Phi]]^10*(32*\[Xi]^4*
+                (-17 + 44*\[Xi]^2) - 20*\[Xi]^2*(-97 - 1584*\[Xi]^2 + 
+                 1264*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 3*(1782 + 
+                 4369*\[Xi]^2 - 88652*\[Xi]^4 + 41184*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^4 - 18*(1603 + 2348*\[Xi]^2 - 
+                 39632*\[Xi]^4 + 12768*\[Xi]^6)*Subscript[s, \[Gamma]]^6 + 9*
+                (3824 - 2141*\[Xi]^2 - 65236*\[Xi]^4 + 18048*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^8)) + Subscript[c, \[Gamma]]^4*
+            (-6*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^12*Subscript[s, \[Gamma]]^4*
+              (-2*\[Xi]^2 + (1 + 2*\[Xi]^2)*Subscript[s, \[Gamma]]^2) + 
+             (1 + 4*\[Xi]^2)*Subscript[m, K]^10*Subscript[m, \[Phi]]^2*
+              Subscript[s, \[Gamma]]^2*(345*\[Xi]^4 + 72*\[Xi]^6 - 48*
+                \[Xi]^8 + \[Xi]^2*(-675 + 2605*\[Xi]^2 - 4816*\[Xi]^4 + 
+                 1552*\[Xi]^6 - 384*\[Xi]^8)*Subscript[s, \[Gamma]]^2 + 
+               (63 - 1122*\[Xi]^2 - 2453*\[Xi]^4 + 4616*\[Xi]^6 - 
+                 7616*\[Xi]^8 + 2688*\[Xi]^10 - 768*\[Xi]^12)*
+                Subscript[s, \[Gamma]]^4 + (1 + 4*\[Xi]^2)^2*
                 (49 - 159*\[Xi]^2 + 439*\[Xi]^4 - 264*\[Xi]^6 + 48*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^6) + Subscript[m, K]^6*
+                Subscript[s, \[Gamma]]^6) - 6*Subscript[m, \[Phi]]^12*
+              Subscript[s, \[Gamma]]^2*(160*\[Xi]^4*(29 - 4*\[Xi]^2) + 192*
+                \[Xi]^2*(51 - 305*\[Xi]^2 + 13*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^2 - 9*(-270 + 9043*\[Xi]^2 - 25844*\[Xi]^4 + 
+                 64*\[Xi]^6)*Subscript[s, \[Gamma]]^4 - 18*(342 - 
+                 9875*\[Xi]^2 + 20736*\[Xi]^4 + 240*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^6 + 27*(157 - 4116*\[Xi]^2 + 
+                 7896*\[Xi]^4 + 96*\[Xi]^6)*Subscript[s, \[Gamma]]^8) + 
+             Subscript[m, K]^4*Subscript[m, \[Phi]]^8*Subscript[s, \[Gamma]]^
+               2*(8*\[Xi]^4*(483 + 19492*\[Xi]^2 - 38688*\[Xi]^4) - 3*\[Xi]^2*
+                (-1373 + 33904*\[Xi]^2 + 670248*\[Xi]^4 - 1118016*\[Xi]^6 + 
+                 7680*\[Xi]^8)*Subscript[s, \[Gamma]]^2 + 3*(-2502 - 
+                 9301*\[Xi]^2 + 500548*\[Xi]^4 + 2312688*\[Xi]^6 - 
+                 4211968*\[Xi]^8 + 85504*\[Xi]^10)*Subscript[s, \[Gamma]]^4 - 
+               18*(-1524 + 1445*\[Xi]^2 + 223628*\[Xi]^4 + 437020*\[Xi]^6 - 
+                 1072832*\[Xi]^8 + 53760*\[Xi]^10)*Subscript[s, \[Gamma]]^6 + 
+               54*(1 + 4*\[Xi]^2)^2*(-490 + 7898*\[Xi]^2 - 13039*\[Xi]^4 + 
+                 992*\[Xi]^6)*Subscript[s, \[Gamma]]^8) + Subscript[m, K]^6*
               Subscript[m, \[Phi]]^6*Subscript[s, \[Gamma]]^2*
-              (\[Xi]^4*(1101 + 68444*\[Xi]^2 - 471376*\[Xi]^4 + 
-                 134208*\[Xi]^6) - \[Xi]^2*(4737 + 34775*\[Xi]^2 + 
-                 169604*\[Xi]^4 - 3602640*\[Xi]^6 + 1309248*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^2 + 3*(-110 + 5078*\[Xi]^2 + 
-                 101047*\[Xi]^4 - 667588*\[Xi]^6 - 2655632*\[Xi]^8 + 
-                 1655360*\[Xi]^10 + 19968*\[Xi]^12)*Subscript[s, \[Gamma]]^
-                 4 + (-1026 - 84034*\[Xi]^2 + 290295*\[Xi]^4 + 4636428*
-                  \[Xi]^6 + 6792272*\[Xi]^8 - 8002752*\[Xi]^10 - 
-                 119808*\[Xi]^12)*Subscript[s, \[Gamma]]^6 + 6*
-                (1 + 4*\[Xi]^2)^3*(757 - 9723*\[Xi]^2 + 10947*\[Xi]^4 + 
-                 156*\[Xi]^6)*Subscript[s, \[Gamma]]^8) + Subscript[m, K]^4*
-              Subscript[m, \[Phi]]^8*Subscript[s, \[Gamma]]^2*
-              (4*\[Xi]^4*(2631 + 52304*\[Xi]^2 - 50736*\[Xi]^4) + 3*\[Xi]^2*
-                (4913 - 32464*\[Xi]^2 - 827208*\[Xi]^4 + 699456*\[Xi]^6 + 
-                 15360*\[Xi]^8)*Subscript[s, \[Gamma]]^2 - 3*(1842 + 
-                 25891*\[Xi]^2 - 446888*\[Xi]^4 - 2836048*\[Xi]^6 + 
-                 2541248*\[Xi]^8 + 116736*\[Xi]^10)*Subscript[s, \[Gamma]]^
-                 4 + 36*(617 + 1265*\[Xi]^2 - 104164*\[Xi]^4 - 287070*
-                  \[Xi]^6 + 315136*\[Xi]^8 + 17280*\[Xi]^10)*
-                Subscript[s, \[Gamma]]^6 - 54*(1 + 4*\[Xi]^2)^2*
-                (430 - 6543*\[Xi]^2 + 6604*\[Xi]^4 + 368*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^8) - 6*Subscript[m, \[Phi]]^12*
-              Subscript[s, \[Gamma]]^2*(1600*\[Xi]^4 - 24*\[Xi]^2*
-                (-303 + 1100*\[Xi]^2 + 176*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 2 + 9*(225 - 7338*\[Xi]^2 + 12624*\[Xi]^4 + 2816*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^4 - 18*(297 - 8285*\[Xi]^2 + 
-                 10536*\[Xi]^4 + 2640*\[Xi]^6)*Subscript[s, \[Gamma]]^6 + 27*
-                (142 - 3531*\[Xi]^2 + 4116*\[Xi]^4 + 1056*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^8) + 3*Subscript[m, K]^2*
-              Subscript[m, \[Phi]]^10*Subscript[s, \[Gamma]]^2*
-              (16*\[Xi]^4*(-557 + 1796*\[Xi]^2) - 4*\[Xi]^2*(-1361 - 
-                 49770*\[Xi]^2 + 88208*\[Xi]^4 + 5952*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^2 + 3*(1875 - 24998*\[Xi]^2 - 
-                 362684*\[Xi]^4 + 453552*\[Xi]^6 + 50304*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^4 - 9*(1893 - 26413*\[Xi]^2 - 
-                 204012*\[Xi]^4 + 230208*\[Xi]^6 + 30464*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^6 + 18*(763 - 11608*\[Xi]^2 - 
-                 43934*\[Xi]^4 + 60936*\[Xi]^6 + 8448*\[Xi]^8)*
+              (\[Xi]^4*(1641 + 74924*\[Xi]^2 - 445456*\[Xi]^4 + 
+                 168768*\[Xi]^6) - \[Xi]^2*(4017 + 33455*\[Xi]^2 + 
+                 222884*\[Xi]^4 - 3297360*\[Xi]^6 + 1777728*\[Xi]^8)*
+                Subscript[s, \[Gamma]]^2 - 3*(110 - 3318*\[Xi]^2 - 
+                 91387*\[Xi]^4 + 615508*\[Xi]^6 + 2229712*\[Xi]^8 - 
+                 2342720*\[Xi]^10 + 41472*\[Xi]^12)*Subscript[s, \[Gamma]]^
+                 4 + (-1296 - 88534*\[Xi]^2 + 207795*\[Xi]^4 + 3919068*
+                  \[Xi]^6 + 4260752*\[Xi]^8 - 10840512*\[Xi]^10 + 
+                 740352*\[Xi]^12)*Subscript[s, \[Gamma]]^6 - 6*
+                (1 + 4*\[Xi]^2)^3*(-802 + 9468*\[Xi]^2 - 17757*\[Xi]^4 + 
+                 1764*\[Xi]^6)*Subscript[s, \[Gamma]]^8) - 
+             3*Subscript[m, K]^2*Subscript[m, \[Phi]]^10*Subscript[s, 
+                \[Gamma]]^2*(16*\[Xi]^4*(77 - 3676*\[Xi]^2 + 160*\[Xi]^4) - 8*
+                \[Xi]^2*(1778 + 18975*\[Xi]^2 - 84104*\[Xi]^4 + 1824*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^2 + 3*(-2355 + 40838*\[Xi]^2 + 
+                 330024*\[Xi]^4 - 852672*\[Xi]^6 + 12416*\[Xi]^8)*
+                Subscript[s, \[Gamma]]^4 - 9*(-2263 + 36053*\[Xi]^2 + 
+                 194032*\[Xi]^4 - 437808*\[Xi]^6 + 10496*\[Xi]^8)*
+                Subscript[s, \[Gamma]]^6 + 18*(-868 + 14533*\[Xi]^2 + 
+                 41444*\[Xi]^4 - 121056*\[Xi]^6 + 4992*\[Xi]^8)*
                 Subscript[s, \[Gamma]]^8) + Subscript[m, K]^8*
               Subscript[m, \[Phi]]^4*(600*\[Xi]^6*(3 + 8*\[Xi]^2) - 2*\[Xi]^4*
                 (2523 - 23176*\[Xi]^2 + 100504*\[Xi]^4 - 102592*\[Xi]^6 + 
                  13440*\[Xi]^8)*Subscript[s, \[Gamma]]^2 + \[Xi]^2*
-                (2169 - 22586*\[Xi]^2 + 154684*\[Xi]^4 + 272480*\[Xi]^6 - 
-                 1346752*\[Xi]^8 + 188928*\[Xi]^10)*Subscript[s, \[Gamma]]^
-                 4 + (90 + 10079*\[Xi]^2 - 43226*\[Xi]^4 - 299720*\[Xi]^6 + 
-                 596272*\[Xi]^8 + 1991168*\[Xi]^10 - 804096*\[Xi]^12)*
-                Subscript[s, \[Gamma]]^6 + 2*(1 + 4*\[Xi]^2)^2*(-352 + 
-                 5569*\[Xi]^2 - 15499*\[Xi]^4 - 57954*\[Xi]^6 + 
-                 54384*\[Xi]^8)*Subscript[s, \[Gamma]]^8 - 2*(1 + 4*\[Xi]^2)^
-                 4*(115 - 1277*\[Xi]^2 + 1908*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 10)) + \[Xi]*Subscript[c, \[Gamma]]^3*Subscript[s, \[Gamma]]*
+                (2289 - 20486*\[Xi]^2 + 169084*\[Xi]^4 + 320480*\[Xi]^6 - 
+                 1269952*\[Xi]^8 + 235008*\[Xi]^10)*Subscript[s, \[Gamma]]^
+                 4 + (180 + 11219*\[Xi]^2 - 40346*\[Xi]^4 - 320840*\[Xi]^6 + 
+                 450352*\[Xi]^8 + 1668608*\[Xi]^10 - 1049856*\[Xi]^12)*
+                Subscript[s, \[Gamma]]^6 - 2*(1 + 4*\[Xi]^2)^2*
+                (442 - 6394*\[Xi]^2 + 4939*\[Xi]^4 + 36354*\[Xi]^6 - 
+                 46704*\[Xi]^8 + 3840*\[Xi]^10)*Subscript[s, \[Gamma]]^8 + 2*
+                (1 + 4*\[Xi]^2)^4*(-70 - 43*\[Xi]^2 - 1743*\[Xi]^4 + 
+                 240*\[Xi]^6)*Subscript[s, \[Gamma]]^10)) + 
+           \[Xi]*Subscript[c, \[Gamma]]^3*Subscript[s, \[Gamma]]*
             (-24*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^12*Subscript[s, \[Gamma]]^
                4*(-1 + Subscript[s, \[Gamma]]^2) + 6*(1 + 4*\[Xi]^2)*
               Subscript[m, K]^10*Subscript[m, \[Phi]]^2*Subscript[s, 
@@ -3459,286 +3581,213 @@
                   \[Gamma]]^4 + (1 + 4*\[Xi]^2)^2*(41 + 3*\[Xi]^2 + 
                  12*\[Xi]^4 + 16*\[Xi]^6)*Subscript[s, \[Gamma]]^6) + 
              6*Subscript[m, \[Phi]]^12*Subscript[s, \[Gamma]]^2*
-              (32*\[Xi]^2*(-174 + 521*\[Xi]^2) - 4*(1566 - 25231*\[Xi]^2 + 
-                 32524*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 9*(4659 - 
-                 44418*\[Xi]^2 + 41840*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 18*
-                (3911 - 32300*\[Xi]^2 + 26628*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 6 + 54*(637 - 5234*\[Xi]^2 + 4192*\[Xi]^4)*
+              (16*\[Xi]^2*(-993 + 1412*\[Xi]^2) + (-9369 + 182884*\[Xi]^2 - 
+                 179536*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 9*(5889 - 
+                 69208*\[Xi]^2 + 58360*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 9*
+                (9247 - 92500*\[Xi]^2 + 74376*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6 + 54*(727 - 7079*\[Xi]^2 + 5812*\[Xi]^4)*
                 Subscript[s, \[Gamma]]^8) + Subscript[m, K]^8*
               Subscript[m, \[Phi]]^4*(12*\[Xi]^4*(289 - 344*\[Xi]^2 - 
-                 2704*\[Xi]^4 + 896*\[Xi]^6) + 2*\[Xi]^2*(-1605 + 
-                 22023*\[Xi]^2 - 105878*\[Xi]^4 + 386112*\[Xi]^6 - 
-                 308448*\[Xi]^8 + 13312*\[Xi]^10)*Subscript[s, \[Gamma]]^2 - 
-               2*(-552 + 7713*\[Xi]^2 - 36817*\[Xi]^4 + 197462*\[Xi]^6 + 
-                 659744*\[Xi]^8 - 1464480*\[Xi]^10 + 196096*\[Xi]^12)*
-                Subscript[s, \[Gamma]]^4 + (3024 + 325*\[Xi]^2 + 
-                 160718*\[Xi]^4 + 915508*\[Xi]^6 - 714816*\[Xi]^8 - 
-                 4601280*\[Xi]^10 + 1357824*\[Xi]^12)*Subscript[s, \[Gamma]]^
-                 6 - (1 + 4*\[Xi]^2)^2*(1255 + 32447*\[Xi]^2 - 
-                 17758*\[Xi]^4 - 237828*\[Xi]^6 + 108608*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^8 + 4*(1 + 4*\[Xi]^2)^4*
-                (389 - 1231*\[Xi]^2 + 728*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 2704*\[Xi]^4 + 896*\[Xi]^6) + 2*\[Xi]^2*(-1650 + 
+                 21303*\[Xi]^2 - 110198*\[Xi]^4 + 374592*\[Xi]^6 - 
+                 319968*\[Xi]^8 + 13312*\[Xi]^10)*Subscript[s, \[Gamma]]^2 - 
+               2*(-552 + 7563*\[Xi]^2 - 39127*\[Xi]^4 + 184502*\[Xi]^6 + 
+                 629984*\[Xi]^8 - 1479840*\[Xi]^10 + 219136*\[Xi]^12)*
+                Subscript[s, \[Gamma]]^4 + (2184 - 14165*\[Xi]^2 + 
+                 63308*\[Xi]^4 + 600148*\[Xi]^6 - 1195776*\[Xi]^8 - 
+                 4862400*\[Xi]^10 + 1365504*\[Xi]^12)*Subscript[s, \[Gamma]]^
+                 6 - (1 + 4*\[Xi]^2)^2*(-455 + 20417*\[Xi]^2 - 
+                 32578*\[Xi]^4 - 216708*\[Xi]^6 + 98048*\[Xi]^8)*
+                Subscript[s, \[Gamma]]^8 + 2*(1 + 4*\[Xi]^2)^4*
+                (343 - 1322*\[Xi]^2 + 1201*\[Xi]^4)*Subscript[s, \[Gamma]]^
                  10) + Subscript[m, K]^4*Subscript[m, \[Phi]]^8*
-              (-48*\[Xi]^4*(-55 - 344*\[Xi]^2 + 400*\[Xi]^4) + 4*\[Xi]^2*
-                (9783 + 37434*\[Xi]^2 - 454600*\[Xi]^4 + 251520*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^2 - 12*(580 + 33516*\[Xi]^2 + 
-                 54227*\[Xi]^4 - 1141872*\[Xi]^6 + 586736*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^4 + 6*(19313 + 272992*\[Xi]^2 - 
-                 257238*\[Xi]^4 - 5682088*\[Xi]^6 + 3110176*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^6 - 9*(29481 + 233194*\[Xi]^2 - 
-                 692660*\[Xi]^4 - 3693040*\[Xi]^6 + 2387648*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^8 + 162*(1 + 4*\[Xi]^2)^2*
-                (1093 - 5749*\[Xi]^2 + 3490*\[Xi]^4)*Subscript[s, \[Gamma]]^
+              (-384*\[Xi]^4*(-5 - 28*\[Xi]^2 + 80*\[Xi]^4) + 2*\[Xi]^2*
+                (-2529 - 92622*\[Xi]^2 - 1188560*\[Xi]^4 + 651360*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^2 - 6*(4145 + 32842*\[Xi]^2 - 
+                 286466*\[Xi]^4 - 3037824*\[Xi]^6 + 1523552*\[Xi]^8)*
+                Subscript[s, \[Gamma]]^4 + 6*(28763 + 190567*\[Xi]^2 - 
+                 1306238*\[Xi]^4 - 7698488*\[Xi]^6 + 4134176*\[Xi]^8)*
+                Subscript[s, \[Gamma]]^6 - 9*(37001 + 176584*\[Xi]^2 - 
+                 1450540*\[Xi]^4 - 5113680*\[Xi]^6 + 3283008*\[Xi]^8)*
+                Subscript[s, \[Gamma]]^8 + 54*(1 + 4*\[Xi]^2)^2*
+                (3824 - 25067*\[Xi]^2 + 15020*\[Xi]^4)*Subscript[s, \[Gamma]]^
                  10) - 2*Subscript[m, K]^6*Subscript[m, \[Phi]]^6*
               (6*\[Xi]^4*(-153 + 836*\[Xi]^2 + 3728*\[Xi]^4 - 576*\[Xi]^6) + 
-               \[Xi]^2*(3072 + 38181*\[Xi]^2 + 394300*\[Xi]^4 - 1151888*
-                  \[Xi]^6 + 243264*\[Xi]^8)*Subscript[s, \[Gamma]]^2 - 
-               (-945 + 35590*\[Xi]^2 + 369822*\[Xi]^4 + 1157280*\[Xi]^6 - 
-                 6557216*\[Xi]^8 + 1870080*\[Xi]^10)*Subscript[s, \[Gamma]]^
-                 4 + 12*(525 + 12555*\[Xi]^2 + 109458*\[Xi]^4 - 
-                 103508*\[Xi]^6 - 1073496*\[Xi]^8 + 426080*\[Xi]^10)*
-                Subscript[s, \[Gamma]]^6 - (15499 + 333149*\[Xi]^2 + 
-                 833298*\[Xi]^4 - 3949112*\[Xi]^6 - 10309408*\[Xi]^8 + 
-                 5864064*\[Xi]^10)*Subscript[s, \[Gamma]]^8 + 3*
-                (1 + 4*\[Xi]^2)^3*(5330 - 22905*\[Xi]^2 + 12523*\[Xi]^4)*
+               \[Xi]^2*(402 + 6681*\[Xi]^2 + 272620*\[Xi]^4 - 1296848*
+                  \[Xi]^6 + 277824*\[Xi]^8)*Subscript[s, \[Gamma]]^2 - 
+               (420 + 31315*\[Xi]^2 + 192432*\[Xi]^4 + 312600*\[Xi]^6 - 
+                 7641536*\[Xi]^8 + 2186880*\[Xi]^10)*Subscript[s, \[Gamma]]^
+                 4 + 3*(2765 + 39455*\[Xi]^2 + 249752*\[Xi]^4 - 1211952*
+                  \[Xi]^6 - 5256544*\[Xi]^8 + 2020480*\[Xi]^10)*
+                Subscript[s, \[Gamma]]^6 - (15844 + 282029*\[Xi]^2 + 
+                 207168*\[Xi]^4 - 6334352*\[Xi]^6 - 12865408*\[Xi]^8 + 
+                 7171584*\[Xi]^10)*Subscript[s, \[Gamma]]^8 + 3*
+                (1 + 4*\[Xi]^2)^3*(5255 - 29175*\[Xi]^2 + 16123*\[Xi]^4)*
                 Subscript[s, \[Gamma]]^10) - 2*Subscript[m, K]^2*
-              Subscript[m, \[Phi]]^10*(-3072*\[Xi]^6 + 4*\[Xi]^2*
-                (1743 - 56340*\[Xi]^2 + 72928*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 2 - (19998 + 60425*\[Xi]^2 - 2500836*\[Xi]^4 + 2112832*
-                  \[Xi]^6)*Subscript[s, \[Gamma]]^4 + 18*(9252 + 
-                 6399*\[Xi]^2 - 441854*\[Xi]^4 + 320296*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^6 - 54*(5791 - 4287*\[Xi]^2 - 
-                 176726*\[Xi]^4 + 127592*\[Xi]^6)*Subscript[s, \[Gamma]]^8 + 
-               27*(6295 - 16061*\[Xi]^2 - 136876*\[Xi]^4 + 112352*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^10)) - \[Xi]*Subscript[c, \[Gamma]]*
-            Subscript[s, \[Gamma]]*(12*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^12*
-              Subscript[s, \[Gamma]]^4*(-1 + Subscript[s, \[Gamma]]^2)^2 - 
-             2*(1 + 4*\[Xi]^2)*Subscript[m, K]^10*Subscript[m, \[Phi]]^2*
-              Subscript[s, \[Gamma]]^2*(-1 + Subscript[s, \[Gamma]]^2)*
-              (45*\[Xi]^2 + 72*\[Xi]^4 - 48*\[Xi]^6 + (-114 + 913*\[Xi]^2 - 
-                 2908*\[Xi]^4 + 2416*\[Xi]^6 - 576*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^2 + (-86 + 645*\[Xi]^2 + 
-                 1344*\[Xi]^4 - 4880*\[Xi]^6 + 3456*\[Xi]^8 - 1536*\[Xi]^10)*
-                Subscript[s, \[Gamma]]^4 + (1 + 4*\[Xi]^2)^2*(-28 + 
-                 157*\[Xi]^2 - 132*\[Xi]^4 + 96*\[Xi]^6)*Subscript[s, 
-                  \[Gamma]]^6) - 2*Subscript[m, K]^6*Subscript[m, \[Phi]]^6*
-              Subscript[s, \[Gamma]]^2*(-2*\[Xi]^2*(249 + 5148*\[Xi]^2 - 
-                 17296*\[Xi]^4 - 96928*\[Xi]^6 + 16512*\[Xi]^8) + 
-               (-630 + 834*\[Xi]^2 + 48837*\[Xi]^4 - 93884*\[Xi]^6 - 
-                 3429328*\[Xi]^8 + 803776*\[Xi]^10)*Subscript[s, \[Gamma]]^
-                 2 - (192 + 71271*\[Xi]^2 + 408428*\[Xi]^4 - 1874208*
-                  \[Xi]^6 - 13217600*\[Xi]^8 + 3805440*\[Xi]^10)*
-                Subscript[s, \[Gamma]]^4 + 3*(4672 + 87055*\[Xi]^2 + 
-                 230966*\[Xi]^4 - 2103216*\[Xi]^6 - 6761248*\[Xi]^8 + 
-                 2310400*\[Xi]^10)*Subscript[s, \[Gamma]]^6 - (26757 + 
-                 303105*\[Xi]^2 + 57256*\[Xi]^4 - 6710640*\[Xi]^6 - 
-                 13843776*\[Xi]^8 + 5463808*\[Xi]^10)*Subscript[s, \[Gamma]]^
-                 8 + 3*(1 + 4*\[Xi]^2)^3*(4779 - 24571*\[Xi]^2 + 
-                 8163*\[Xi]^4)*Subscript[s, \[Gamma]]^10) + 
-             2*Subscript[m, K]^4*Subscript[m, \[Phi]]^8*Subscript[s, 
-                \[Gamma]]^2*(-8*\[Xi]^2*(147 - 3144*\[Xi]^2 - 20648*\[Xi]^4 + 
-                 9792*\[Xi]^6) + 2*(-1575 - 134*\[Xi]^2 - 211979*\[Xi]^4 - 
-                 1858688*\[Xi]^6 + 783216*\[Xi]^8)*Subscript[s, \[Gamma]]^2 - 
-               3*(4763 + 65638*\[Xi]^2 - 864914*\[Xi]^4 - 5681104*\[Xi]^6 + 
-                 2516832*\[Xi]^8)*Subscript[s, \[Gamma]]^4 + 3*(35050 + 
-                 194355*\[Xi]^2 - 2299876*\[Xi]^4 - 10251568*\[Xi]^6 + 
-                 4913216*\[Xi]^8)*Subscript[s, \[Gamma]]^6 - 18*
-                (9094 + 25063*\[Xi]^2 - 430749*\[Xi]^4 - 1342688*\[Xi]^6 + 
-                 706192*\[Xi]^8)*Subscript[s, \[Gamma]]^8 + 27*
-                (1 + 4*\[Xi]^2)^2*(2832 - 20695*\[Xi]^2 + 9330*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^10) + 2*Subscript[m, \[Phi]]^12*
-              Subscript[s, \[Gamma]]^2*(-9600*\[Xi]^4 + 32*\[Xi]^2*
-                (-5355 + 6194*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 6*
-                (8505 - 189746*\[Xi]^2 + 175104*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^4 + 27*(6687 - 100174*\[Xi]^2 + 86576*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 - 108*(1872 - 25389*\[Xi]^2 + 
-                 21794*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 81*(897 - 
-                 12410*\[Xi]^2 + 10944*\[Xi]^4)*Subscript[s, \[Gamma]]^10) - 
-             2*Subscript[m, K]^2*Subscript[m, \[Phi]]^10*Subscript[s, 
-                \[Gamma]]^2*(384*\[Xi]^4*(73 - 134*\[Xi]^2) + 4*
-                (-729 - 27050*\[Xi]^2 - 333998*\[Xi]^4 + 253464*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^2 + (-58563 + 584989*\[Xi]^2 + 
-                 7472840*\[Xi]^4 - 5099024*\[Xi]^6)*Subscript[s, \[Gamma]]^
-                 4 + 9*(28799 - 164421*\[Xi]^2 - 1745540*\[Xi]^4 + 
-                 1182528*\[Xi]^6)*Subscript[s, \[Gamma]]^6 - 27*
-                (12302 - 67205*\[Xi]^2 - 524872*\[Xi]^4 + 368592*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^8 + 27*(4980 - 30581*\[Xi]^2 - 
-                 170068*\[Xi]^4 + 127744*\[Xi]^6)*Subscript[s, \[Gamma]]^
-                 10) + Subscript[m, K]^8*Subscript[m, \[Phi]]^4*
-              (96*\[Xi]^4*(3 + 16*\[Xi]^2 + 24*\[Xi]^4) + 2*\[Xi]^2*
-                (-411 + 5352*\[Xi]^2 - 5720*\[Xi]^4 - 58048*\[Xi]^6 + 
-                 18304*\[Xi]^8)*Subscript[s, \[Gamma]]^2 + 2*(270 - 
-                 1871*\[Xi]^2 + 31159*\[Xi]^4 - 134064*\[Xi]^6 + 
-                 244480*\[Xi]^8 - 611072*\[Xi]^10 + 91392*\[Xi]^12)*
-                Subscript[s, \[Gamma]]^4 - 2*(127 + 11110*\[Xi]^2 + 
-                 25820*\[Xi]^4 + 119312*\[Xi]^6 - 371200*\[Xi]^8 - 
-                 2145536*\[Xi]^10 + 465920*\[Xi]^12)*Subscript[s, \[Gamma]]^
-                 6 + (2567 + 41986*\[Xi]^2 + 255794*\[Xi]^4 + 239968*
-                  \[Xi]^6 - 2636800*\[Xi]^8 - 5929472*\[Xi]^10 + 
-                 1598976*\[Xi]^12)*Subscript[s, \[Gamma]]^8 - (1 + 4*\[Xi]^2)^
-                 2*(3297 + 21734*\[Xi]^2 - 19604*\[Xi]^4 - 273616*\[Xi]^6 + 
-                 70848*\[Xi]^8)*Subscript[s, \[Gamma]]^10 + 4*(1 + 4*\[Xi]^2)^
-                 4*(342 - 1241*\[Xi]^2 + 277*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 12)) - Subscript[s, \[Gamma]]^2*(6*(1 + 4*\[Xi]^2)^2*
-              Subscript[m, K]^12*Subscript[s, \[Gamma]]^4*
-              (-1 + Subscript[s, \[Gamma]]^2)^2 - (1 + 4*\[Xi]^2)*
+              Subscript[m, \[Phi]]^10*(-192*\[Xi]^4*(5 + 36*\[Xi]^2) + 4*
+                \[Xi]^2*(-10617 - 98580*\[Xi]^2 + 101728*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + (-36783 + 263725*\[Xi]^2 + 
+                 3863916*\[Xi]^4 - 2921152*\[Xi]^6)*Subscript[s, \[Gamma]]^
+                 4 + 9*(25199 - 79082*\[Xi]^2 - 1294068*\[Xi]^4 + 
+                 897712*\[Xi]^6)*Subscript[s, \[Gamma]]^6 - 27*(14377 - 
+                 42179*\[Xi]^2 - 505432*\[Xi]^4 + 363824*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^8 + 54*(3740 - 14773*\[Xi]^2 - 
+                 98528*\[Xi]^4 + 81616*\[Xi]^6)*Subscript[s, \[Gamma]]^10)) - 
+           \[Xi]*Subscript[c, \[Gamma]]*Subscript[s, \[Gamma]]*
+            (12*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^12*Subscript[s, \[Gamma]]^4*
+              (-1 + Subscript[s, \[Gamma]]^2)^2 - 2*(1 + 4*\[Xi]^2)*
               Subscript[m, K]^10*Subscript[m, \[Phi]]^2*Subscript[s, 
                 \[Gamma]]^2*(-1 + Subscript[s, \[Gamma]]^2)*(45*\[Xi]^2 + 72*
-                \[Xi]^4 - 48*\[Xi]^6 + (-48 + 481*\[Xi]^2 - 1156*\[Xi]^4 + 
-                 2800*\[Xi]^6 - 960*\[Xi]^8)*Subscript[s, \[Gamma]]^2 + 
-               \[Xi]^2*(7 - 1264*\[Xi]^2 - 3104*\[Xi]^4 + 3072*\[Xi]^6 - 
-                 2304*\[Xi]^8)*Subscript[s, \[Gamma]]^4 + (\[Xi] + 4*\[Xi]^3)^
-                 2*(43 - 12*\[Xi]^2 + 144*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 6) + Subscript[m, K]^6*Subscript[m, \[Phi]]^6*
-              Subscript[s, \[Gamma]]^2*(-8*\[Xi]^2*(9 + 522*\[Xi]^2 + 
-                 8476*\[Xi]^4 + 21760*\[Xi]^6 - 5760*\[Xi]^8 + 
-                 768*\[Xi]^10) + \[Xi]^2*(451 + 35138*\[Xi]^2 + 
-                 560664*\[Xi]^4 + 2052640*\[Xi]^6 - 1328768*\[Xi]^8 + 
-                 91136*\[Xi]^10)*Subscript[s, \[Gamma]]^2 + (2085 + 
-                 26933*\[Xi]^2 - 121204*\[Xi]^4 - 2461520*\[Xi]^6 - 
-                 6305216*\[Xi]^8 + 5372928*\[Xi]^10 - 282624*\[Xi]^12)*
-                Subscript[s, \[Gamma]]^4 + (-7509 - 66531*\[Xi]^2 + 
-                 393372*\[Xi]^4 + 4740912*\[Xi]^6 + 8003328*\[Xi]^8 - 
-                 8489472*\[Xi]^10 + 347136*\[Xi]^12)*Subscript[s, \[Gamma]]^
-                 6 + (8844 + 47235*\[Xi]^2 - 525028*\[Xi]^4 - 3806960*
-                  \[Xi]^6 - 4558272*\[Xi]^8 + 5995520*\[Xi]^10 - 
-                 180224*\[Xi]^12)*Subscript[s, \[Gamma]]^8 + 6*
-                (1 + 4*\[Xi]^2)^3*(-570 + 5592*\[Xi]^2 - 4217*\[Xi]^4 + 
-                 80*\[Xi]^6)*Subscript[s, \[Gamma]]^10) + Subscript[m, K]^4*
+                \[Xi]^4 - 48*\[Xi]^6 + (-114 + 913*\[Xi]^2 - 2908*\[Xi]^4 + 
+                 2416*\[Xi]^6 - 576*\[Xi]^8)*Subscript[s, \[Gamma]]^2 + 
+               (-86 + 645*\[Xi]^2 + 1344*\[Xi]^4 - 4880*\[Xi]^6 + 
+                 3456*\[Xi]^8 - 1536*\[Xi]^10)*Subscript[s, \[Gamma]]^4 + 
+               (1 + 4*\[Xi]^2)^2*(-28 + 157*\[Xi]^2 - 132*\[Xi]^4 + 
+                 96*\[Xi]^6)*Subscript[s, \[Gamma]]^6) + 
+             2*Subscript[m, \[Phi]]^12*Subscript[s, \[Gamma]]^2*
+              (-960*\[Xi]^2*(-3 + 13*\[Xi]^2) + 8*(2025 - 31455*\[Xi]^2 + 
+                 30896*\[Xi]^4)*Subscript[s, \[Gamma]]^2 - 3*(47385 - 
+                 518962*\[Xi]^2 + 424608*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
+               108*(3303 - 32941*\[Xi]^2 + 25654*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^6 - 27*(12813 - 129606*\[Xi]^2 + 101336*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 + 162*(711 - 7720*\[Xi]^2 + 
+                 6252*\[Xi]^4)*Subscript[s, \[Gamma]]^10) - 
+             2*Subscript[m, K]^6*Subscript[m, \[Phi]]^6*Subscript[s, 
+                \[Gamma]]^2*(-2*\[Xi]^2*(159 + 4158*\[Xi]^2 - 20536*\[Xi]^4 - 
+                 98368*\[Xi]^6 + 22272*\[Xi]^8) + (2640 + 31824*\[Xi]^2 + 
+                 109647*\[Xi]^4 - 246404*\[Xi]^6 - 3820528*\[Xi]^8 + 
+                 986176*\[Xi]^10)*Subscript[s, \[Gamma]]^2 - (20817 + 
+                 271491*\[Xi]^2 + 843983*\[Xi]^4 - 2668668*\[Xi]^6 - 
+                 15623600*\[Xi]^8 + 4632000*\[Xi]^10)*Subscript[s, \[Gamma]]^
+                 4 + 3*(19082 + 225830*\[Xi]^2 + 520491*\[Xi]^4 - 
+                 2728916*\[Xi]^6 - 8582448*\[Xi]^8 + 2795840*\[Xi]^10)*
+                Subscript[s, \[Gamma]]^6 - (64422 + 660045*\[Xi]^2 + 
+                 741661*\[Xi]^4 - 8658420*\[Xi]^6 - 19112016*\[Xi]^8 + 
+                 6549568*\[Xi]^10)*Subscript[s, \[Gamma]]^8 + 3*
+                (1 + 4*\[Xi]^2)^3*(8709 - 35176*\[Xi]^2 + 9648*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^10) + 2*Subscript[m, K]^4*
               Subscript[m, \[Phi]]^8*Subscript[s, \[Gamma]]^2*
-              (16*\[Xi]^2*(3 + 1590*\[Xi]^2 + 7792*\[Xi]^4 - 5568*\[Xi]^6 + 
-                 768*\[Xi]^8) - 2*\[Xi]^2*(8034 + 218727*\[Xi]^2 + 
-                 939848*\[Xi]^4 - 1062864*\[Xi]^6 + 90624*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^2 + 3*(-3897 + 12804*\[Xi]^2 + 
-                 738284*\[Xi]^4 + 2397536*\[Xi]^6 - 3131328*\[Xi]^8 + 
-                 221696*\[Xi]^10)*Subscript[s, \[Gamma]]^4 - 3*(-13365 + 
-                 37444*\[Xi]^2 + 1540892*\[Xi]^4 + 3701312*\[Xi]^6 - 
-                 5520448*\[Xi]^8 + 343552*\[Xi]^10)*Subscript[s, \[Gamma]]^
-                 6 + 18*(-2523 + 10317*\[Xi]^2 + 231470*\[Xi]^4 + 
-                 412896*\[Xi]^6 - 721056*\[Xi]^8 + 40448*\[Xi]^10)*
-                Subscript[s, \[Gamma]]^8 - 54*(1 + 4*\[Xi]^2)^2*
-                (-315 + 4297*\[Xi]^2 - 4483*\[Xi]^4 + 224*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^10) - 2*Subscript[m, \[Phi]]^12*
-              Subscript[s, \[Gamma]]^2*(4800*\[Xi]^4 + 4*\[Xi]^2*
-                (10071 - 26809*\[Xi]^2 + 2176*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 2 + (7047 - 250668*\[Xi]^2 + 534048*\[Xi]^4 - 49920*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^4 + 27*(-783 + 20266*\[Xi]^2 - 
-                 40716*\[Xi]^4 + 3968*\[Xi]^6)*Subscript[s, \[Gamma]]^6 - 27*
-                (-783 + 18576*\[Xi]^2 - 37856*\[Xi]^4 + 3776*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^8 + 81*(-87 + 2034*\[Xi]^2 - 
-                 4384*\[Xi]^4 + 448*\[Xi]^6)*Subscript[s, \[Gamma]]^10) + 
-             Subscript[m, K]^2*Subscript[m, \[Phi]]^10*Subscript[s, \[Gamma]]^
-               2*(-384*\[Xi]^4*(51 - 132*\[Xi]^2 + 16*\[Xi]^4) + 8*\[Xi]^2*
-                (10119 + 76402*\[Xi]^2 - 147320*\[Xi]^4 + 14464*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^2 + (22869 - 469722*\[Xi]^2 - 
-                 3023272*\[Xi]^4 + 5601408*\[Xi]^6 - 498176*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^4 + 18*(-4107 + 60089*\[Xi]^2 + 
-                 314808*\[Xi]^4 - 599952*\[Xi]^6 + 50048*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^6 - 27*(-2935 + 40238*\[Xi]^2 + 
-                 166952*\[Xi]^4 - 344768*\[Xi]^6 + 27648*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^8 + 54*(-522 + 7293*\[Xi]^2 + 
-                 23464*\[Xi]^4 - 55152*\[Xi]^6 + 4352*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^10) + Subscript[m, K]^8*
-              Subscript[m, \[Phi]]^4*(48*\[Xi]^4*(3 + 16*\[Xi]^2 + 
-                 24*\[Xi]^4) - \[Xi]^2*(141 - 2328*\[Xi]^2 + 6632*\[Xi]^4 + 
-                 28576*\[Xi]^6 - 29056*\[Xi]^8 + 1536*\[Xi]^10)*
-                Subscript[s, \[Gamma]]^2 + (66 - 1418*\[Xi]^2 + 
-                 2574*\[Xi]^4 - 77728*\[Xi]^6 + 256*\[Xi]^8 - 369152*
-                  \[Xi]^10 + 217600*\[Xi]^12 - 8192*\[Xi]^14)*
-                Subscript[s, \[Gamma]]^4 + (-93 - 1310*\[Xi]^2 + 
-                 3372*\[Xi]^4 + 59944*\[Xi]^6 + 513152*\[Xi]^8 + 
-                 910336*\[Xi]^10 - 783360*\[Xi]^12 + 14336*\[Xi]^14)*
-                Subscript[s, \[Gamma]]^6 + 2*(180 + 2486*\[Xi]^2 + 
-                 4693*\[Xi]^4 - 83172*\[Xi]^6 - 467200*\[Xi]^8 - 
-                 557696*\[Xi]^10 + 556800*\[Xi]^12 + 3072*\[Xi]^14)*
-                Subscript[s, \[Gamma]]^8 - (1 + 4*\[Xi]^2)^2*(441 + 
-                 1497*\[Xi]^2 - 16544*\[Xi]^4 - 64528*\[Xi]^6 + 
-                 45536*\[Xi]^8 + 1408*\[Xi]^10)*Subscript[s, \[Gamma]]^10 + 2*
-                (1 + 4*\[Xi]^2)^4*(87 - 603*\[Xi]^2 + 358*\[Xi]^4 + 
-                 20*\[Xi]^6)*Subscript[s, \[Gamma]]^12)) + 
-           Subscript[c, \[Gamma]]^2*(-6*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^12*
-              Subscript[s, \[Gamma]]^4*(-1 + Subscript[s, \[Gamma]]^2)*
-              (-\[Xi]^2 + (2 + \[Xi]^2)*Subscript[s, \[Gamma]]^2) + 
-             (1 + 4*\[Xi]^2)*Subscript[m, K]^10*Subscript[m, \[Phi]]^2*
-              Subscript[s, \[Gamma]]^2*(-45*\[Xi]^4 - 72*\[Xi]^6 + 48*
-                \[Xi]^8 + \[Xi]^2*(549 - 3004*\[Xi]^2 + 6136*\[Xi]^4 - 
-                 1600*\[Xi]^6 + 384*\[Xi]^8)*Subscript[s, \[Gamma]]^2 + 3*
-                (-33 + 375*\[Xi]^2 + 974*\[Xi]^4 - 4328*\[Xi]^6 + 
-                 2608*\[Xi]^8 - 1536*\[Xi]^10 + 256*\[Xi]^12)*
-                Subscript[s, \[Gamma]]^4 - (10 + 1229*\[Xi]^2 + 460*\[Xi]^4 - 
-                 9624*\[Xi]^6 + 8736*\[Xi]^8 - 7296*\[Xi]^10 + 1536*\[Xi]^12)*
+              (16*\[Xi]^2*(69 + 2547*\[Xi]^2 + 11284*\[Xi]^4 - 
+                 7536*\[Xi]^6) + (14520 + 76607*\[Xi]^2 - 623128*\[Xi]^4 - 
+                 4477216*\[Xi]^6 + 2110272*\[Xi]^8)*Subscript[s, \[Gamma]]^
+                 2 - 6*(19964 + 116554*\[Xi]^2 - 583497*\[Xi]^4 - 
+                 3567032*\[Xi]^6 + 1627056*\[Xi]^8)*Subscript[s, \[Gamma]]^
+                 4 + 3*(106895 + 532155*\[Xi]^2 - 2964536*\[Xi]^4 - 
+                 13390928*\[Xi]^6 + 6217216*\[Xi]^8)*Subscript[s, \[Gamma]]^
+                 6 - 9*(38783 + 142936*\[Xi]^2 - 1085558*\[Xi]^4 - 
+                 3660416*\[Xi]^6 + 1764704*\[Xi]^8)*Subscript[s, \[Gamma]]^
+                 8 + 27*(1 + 4*\[Xi]^2)^2*(4967 - 28700*\[Xi]^2 + 
+                 11580*\[Xi]^4)*Subscript[s, \[Gamma]]^10) - 
+             2*Subscript[m, K]^2*Subscript[m, \[Phi]]^10*Subscript[s, 
+                \[Gamma]]^2*(192*\[Xi]^2*(25 + 216*\[Xi]^2 - 388*\[Xi]^4) + 2*
+                (13617 - 59755*\[Xi]^2 - 891736*\[Xi]^4 + 667248*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^2 + (-232938 + 578809*\[Xi]^2 + 
+                 9899600*\[Xi]^4 - 6453104*\[Xi]^6)*Subscript[s, \[Gamma]]^
+                 4 + 9*(67399 - 168456*\[Xi]^2 - 2310000*\[Xi]^4 + 
+                 1459648*\[Xi]^6)*Subscript[s, \[Gamma]]^6 - 27*
+                (23127 - 71615*\[Xi]^2 - 696132*\[Xi]^4 + 446912*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^8 + 108*(2070 - 8294*\[Xi]^2 - 
+                 56737*\[Xi]^4 + 38236*\[Xi]^6)*Subscript[s, \[Gamma]]^10) + 
+             Subscript[m, K]^8*Subscript[m, \[Phi]]^4*(96*\[Xi]^4*
+                (3 + 16*\[Xi]^2 + 24*\[Xi]^4) + 2*\[Xi]^2*(-411 + 
+                 5352*\[Xi]^2 - 5720*\[Xi]^4 - 58048*\[Xi]^6 + 18304*\[Xi]^8)*
+                Subscript[s, \[Gamma]]^2 + 2*(360 - 521*\[Xi]^2 + 
+                 38314*\[Xi]^4 - 120384*\[Xi]^6 + 240160*\[Xi]^8 - 
+                 645632*\[Xi]^10 + 79872*\[Xi]^12)*Subscript[s, \[Gamma]]^4 - 
+               2*(877 + 22375*\[Xi]^2 + 85985*\[Xi]^4 + 239552*\[Xi]^6 - 
+                 374560*\[Xi]^8 - 2352896*\[Xi]^10 + 446720*\[Xi]^12)*
+                Subscript[s, \[Gamma]]^6 + (6047 + 93256*\[Xi]^2 + 
+                 519134*\[Xi]^4 + 704608*\[Xi]^6 - 2892160*\[Xi]^8 - 
+                 7104512*\[Xi]^10 + 1552896*\[Xi]^12)*Subscript[s, \[Gamma]]^
+                 8 - (1 + 4*\[Xi]^2)^2*(6477 + 42164*\[Xi]^2 - 9074*\[Xi]^4 - 
+                 355936*\[Xi]^6 + 66528*\[Xi]^8)*Subscript[s, \[Gamma]]^10 + 
+               2*(1 + 4*\[Xi]^2)^4*(1194 - 3427*\[Xi]^2 + 479*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^12)) + Subscript[c, \[Gamma]]^2*
+            (-6*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^12*Subscript[s, \[Gamma]]^4*
+              (-1 + Subscript[s, \[Gamma]]^2)*(-\[Xi]^2 + (2 + \[Xi]^2)*
+                Subscript[s, \[Gamma]]^2) + (1 + 4*\[Xi]^2)*Subscript[m, 
+                K]^10*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^2*
+              (-45*\[Xi]^4 - 72*\[Xi]^6 + 48*\[Xi]^8 + \[Xi]^2*
+                (549 - 3004*\[Xi]^2 + 6136*\[Xi]^4 - 1600*\[Xi]^6 + 
+                 384*\[Xi]^8)*Subscript[s, \[Gamma]]^2 + 3*(-33 + 
+                 375*\[Xi]^2 + 974*\[Xi]^4 - 4328*\[Xi]^6 + 2608*\[Xi]^8 - 
+                 1536*\[Xi]^10 + 256*\[Xi]^12)*Subscript[s, \[Gamma]]^4 - 
+               (10 + 1229*\[Xi]^2 + 460*\[Xi]^4 - 9624*\[Xi]^6 + 
+                 8736*\[Xi]^8 - 7296*\[Xi]^10 + 1536*\[Xi]^12)*
                 Subscript[s, \[Gamma]]^6 + (1 + 4*\[Xi]^2)^2*
                 (61 - 357*\[Xi]^2 + 451*\[Xi]^4 - 216*\[Xi]^6 + 48*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^8) + Subscript[m, K]^4*
-              Subscript[m, \[Phi]]^8*Subscript[s, \[Gamma]]^2*
-              (80*\[Xi]^4*(63 - 162*\[Xi]^2 - 3080*\[Xi]^4 + 480*\[Xi]^6) - 2*
-                \[Xi]^2*(-9015 + 83304*\[Xi]^2 + 716680*\[Xi]^4 - 
-                 3273152*\[Xi]^6 + 352128*\[Xi]^8)*Subscript[s, \[Gamma]]^2 + 
-               3*(1017 + 14805*\[Xi]^2 + 829752*\[Xi]^4 + 2899992*\[Xi]^6 - 
-                 11801120*\[Xi]^8 + 1301888*\[Xi]^10)*Subscript[s, \[Gamma]]^
-                 4 - 3*(-963 + 167177*\[Xi]^2 + 2858134*\[Xi]^4 + 
-                 4594064*\[Xi]^6 - 24995040*\[Xi]^8 + 2995968*\[Xi]^10)*
-                Subscript[s, \[Gamma]]^6 + 18*(-689 + 55988*\[Xi]^2 + 
-                 566867*\[Xi]^4 + 281692*\[Xi]^6 - 3822400*\[Xi]^8 + 
-                 508352*\[Xi]^10)*Subscript[s, \[Gamma]]^8 - 108*
-                (1 + 4*\[Xi]^2)^2*(-64 + 6178*\[Xi]^2 - 14181*\[Xi]^4 + 
-                 1978*\[Xi]^6)*Subscript[s, \[Gamma]]^10) + Subscript[m, K]^6*
+                Subscript[s, \[Gamma]]^8) - 2*Subscript[m, \[Phi]]^12*
+              Subscript[s, \[Gamma]]^2*(-960*\[Xi]^4*(-3 + 5*\[Xi]^2) + 4*
+                \[Xi]^2*(13311 - 66739*\[Xi]^2 + 20896*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + (6075 - 516672*\[Xi]^2 + 
+                 1846512*\[Xi]^4 - 452976*\[Xi]^6)*Subscript[s, \[Gamma]]^4 + 
+               54*(-459 + 27269*\[Xi]^2 - 87978*\[Xi]^4 + 19832*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^6 - 27*(-999 + 60732*\[Xi]^2 - 
+                 195356*\[Xi]^4 + 43040*\[Xi]^6)*Subscript[s, \[Gamma]]^8 + 
+               162*(-51 + 3882*\[Xi]^2 - 13128*\[Xi]^4 + 2936*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^10) + Subscript[m, K]^6*
               Subscript[m, \[Phi]]^6*Subscript[s, \[Gamma]]^2*
-              (-16*\[Xi]^4*(-30 + 2283*\[Xi]^2 + 2776*\[Xi]^4 - 
-                 14288*\[Xi]^6 + 384*\[Xi]^8) + \[Xi]^2*(-6657 - 
-                 49023*\[Xi]^2 + 66252*\[Xi]^4 + 3027856*\[Xi]^6 - 
-                 4968384*\[Xi]^8 + 227840*\[Xi]^10)*Subscript[s, \[Gamma]]^
-                 2 - (513 - 24948*\[Xi]^2 + 118245*\[Xi]^4 + 3145904*
-                  \[Xi]^6 + 11564832*\[Xi]^8 - 23946368*\[Xi]^10 + 
-                 1573632*\[Xi]^12)*Subscript[s, \[Gamma]]^4 + 3*
-                (-324 + 4754*\[Xi]^2 + 376753*\[Xi]^4 + 3581308*\[Xi]^6 + 
-                 3848688*\[Xi]^8 - 15060032*\[Xi]^10 + 1288704*\[Xi]^12)*
-                Subscript[s, \[Gamma]]^6 - (-2454 + 85527*\[Xi]^2 + 
-                 2228971*\[Xi]^4 + 10033280*\[Xi]^6 + 1092672*\[Xi]^8 - 
-                 36926720*\[Xi]^10 + 3954944*\[Xi]^12)*Subscript[s, \[Gamma]]^
-                 8 + 6*(1 + 4*\[Xi]^2)^3*(-327 + 18087*\[Xi]^2 - 
-                 31146*\[Xi]^4 + 3752*\[Xi]^6)*Subscript[s, \[Gamma]]^10) - 
-             2*Subscript[m, \[Phi]]^12*Subscript[s, \[Gamma]]^2*
-              (-4800*\[Xi]^6 + 4*\[Xi]^2*(3321 - 46759*\[Xi]^2 + 
-                 18736*\[Xi]^4)*Subscript[s, \[Gamma]]^2 - 3*\[Xi]^2*
-                (83889 - 461664*\[Xi]^2 + 130832*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^4 + 27*(-243 + 32283*\[Xi]^2 - 136576*\[Xi]^4 + 
-                 34144*\[Xi]^6)*Subscript[s, \[Gamma]]^6 - 27*(-324 + 
-                 39747*\[Xi]^2 - 155636*\[Xi]^4 + 37280*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^8 + 81*(-27 + 5409*\[Xi]^2 - 
-                 21396*\[Xi]^4 + 5152*\[Xi]^6)*Subscript[s, \[Gamma]]^10) + 
-             Subscript[m, K]^2*Subscript[m, \[Phi]]^10*Subscript[s, \[Gamma]]^
-               2*(-384*\[Xi]^4*(-4 - 135*\[Xi]^2 + 100*\[Xi]^4) + 8*\[Xi]^2*
-                (1062 + 29001*\[Xi]^2 - 346964*\[Xi]^4 + 75808*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^2 - (2916 + 460983*\[Xi]^2 + 
-                 2800052*\[Xi]^4 - 17599616*\[Xi]^6 + 3167744*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^4 + 36*(-405 + 54393*\[Xi]^2 + 
-                 204589*\[Xi]^4 - 1166860*\[Xi]^6 + 201568*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^6 - 27*(-995 + 104133*\[Xi]^2 + 
-                 235368*\[Xi]^4 - 1595936*\[Xi]^6 + 280896*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^8 + 54*(-165 + 24699*\[Xi]^2 + 
-                 24398*\[Xi]^4 - 294440*\[Xi]^6 + 54848*\[Xi]^8)*
+              (-8*\[Xi]^4*(-105 + 4026*\[Xi]^2 + 3392*\[Xi]^4 - 
+                 31456*\[Xi]^6 + 768*\[Xi]^8) + \[Xi]^2*(4683 + 
+                 76017*\[Xi]^2 + 478632*\[Xi]^4 + 3230176*\[Xi]^6 - 
+                 5649024*\[Xi]^8 + 262400*\[Xi]^10)*Subscript[s, \[Gamma]]^
+                 2 - (-2697 + 11772*\[Xi]^2 + 800625*\[Xi]^4 + 5758724*
+                  \[Xi]^6 + 13237392*\[Xi]^8 - 28015808*\[Xi]^10 + 
+                 1815552*\[Xi]^12)*Subscript[s, \[Gamma]]^4 + 3*
+                (-3814 + 19484*\[Xi]^2 + 836673*\[Xi]^4 + 5454828*\[Xi]^6 + 
+                 5007408*\[Xi]^8 - 18276672*\[Xi]^10 + 1426944*\[Xi]^12)*
+                Subscript[s, \[Gamma]]^6 - (-13764 + 109797*\[Xi]^2 + 
+                 3452491*\[Xi]^4 + 15150620*\[Xi]^6 + 4006032*\[Xi]^8 - 
+                 46585280*\[Xi]^10 + 4173824*\[Xi]^12)*Subscript[s, \[Gamma]]^
+                 8 + 6*(1 + 4*\[Xi]^2)^3*(-1002 + 27117*\[Xi]^2 - 
+                 40176*\[Xi]^4 + 3782*\[Xi]^6)*Subscript[s, \[Gamma]]^10) - 
+             Subscript[m, K]^4*Subscript[m, \[Phi]]^8*Subscript[s, \[Gamma]]^
+               2*(-80*\[Xi]^4*(-3 - 681*\[Xi]^2 - 4064*\[Xi]^4 + 
+                 624*\[Xi]^6) + 2*\[Xi]^2*(27420 + 318699*\[Xi]^2 + 
+                 856900*\[Xi]^4 - 4122992*\[Xi]^6 + 447168*\[Xi]^8)*
+                Subscript[s, \[Gamma]]^2 - 3*(-4053 + 135915*\[Xi]^2 + 
+                 1837232*\[Xi]^4 + 3868792*\[Xi]^6 - 14916000*\[Xi]^8 + 
+                 1624448*\[Xi]^10)*Subscript[s, \[Gamma]]^4 + 3*(-17613 + 
+                 404177*\[Xi]^2 + 5091094*\[Xi]^4 + 6860384*\[Xi]^6 - 
+                 32062560*\[Xi]^8 + 3652608*\[Xi]^10)*Subscript[s, \[Gamma]]^
+                 6 - 18*(-3714 + 91308*\[Xi]^2 + 917787*\[Xi]^4 + 
+                 625412*\[Xi]^6 - 5002880*\[Xi]^8 + 606272*\[Xi]^10)*
+                Subscript[s, \[Gamma]]^8 + 54*(1 + 4*\[Xi]^2)^2*
+                (-493 + 19276*\[Xi]^2 - 37787*\[Xi]^4 + 4636*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^10) + Subscript[m, K]^2*
+              Subscript[m, \[Phi]]^10*Subscript[s, \[Gamma]]^2*
+              (-768*\[Xi]^4*(-17 - 125*\[Xi]^2 + 60*\[Xi]^4) + 4*\[Xi]^2*
+                (36639 + 131262*\[Xi]^2 - 944488*\[Xi]^4 + 186176*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^2 + (21114 - 1285473*\[Xi]^2 - 
+                 5049212*\[Xi]^4 + 23151296*\[Xi]^6 - 3893504*\[Xi]^8)*
+                Subscript[s, \[Gamma]]^4 + 18*(-5055 + 209216*\[Xi]^2 + 
+                 698298*\[Xi]^4 - 3034000*\[Xi]^6 + 490336*\[Xi]^8)*
+                Subscript[s, \[Gamma]]^6 - 27*(-3985 + 167653*\[Xi]^2 + 
+                 416448*\[Xi]^4 - 2065296*\[Xi]^6 + 336896*\[Xi]^8)*
+                Subscript[s, \[Gamma]]^8 + 108*(-345 + 17847*\[Xi]^2 + 
+                 27199*\[Xi]^4 - 190720*\[Xi]^6 + 32464*\[Xi]^8)*
                 Subscript[s, \[Gamma]]^10) - Subscript[m, K]^8*
               Subscript[m, \[Phi]]^4*(48*\[Xi]^6*(3 + 16*\[Xi]^2 + 
                  24*\[Xi]^4) + \[Xi]^4*(-2397 + 16728*\[Xi]^2 + 
                  25096*\[Xi]^4 - 103360*\[Xi]^6 + 2944*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^2 + 2*\[Xi]^2*(609 - 11353*\[Xi]^2 + 
-                 72014*\[Xi]^4 - 303792*\[Xi]^6 + 660000*\[Xi]^8 - 
+                Subscript[s, \[Gamma]]^2 + 2*\[Xi]^2*(744 - 9193*\[Xi]^2 + 
+                 84974*\[Xi]^4 - 269232*\[Xi]^6 + 694560*\[Xi]^8 - 
                  347648*\[Xi]^10 + 4096*\[Xi]^12)*Subscript[s, \[Gamma]]^4 - 
-               (33 - 7959*\[Xi]^2 + 32932*\[Xi]^4 - 41284*\[Xi]^6 + 
-                 799648*\[Xi]^8 + 2999360*\[Xi]^10 - 3585536*\[Xi]^12 + 
-                 143360*\[Xi]^14)*Subscript[s, \[Gamma]]^6 + (-807 - 
-                 2310*\[Xi]^2 + 22660*\[Xi]^4 + 588074*\[Xi]^6 + 
-                 2874048*\[Xi]^8 + 1958272*\[Xi]^10 - 6329344*\[Xi]^12 + 
-                 443904*\[Xi]^14)*Subscript[s, \[Gamma]]^8 - (1 + 4*\[Xi]^2)^
-                 2*(-618 + 3903*\[Xi]^2 + 79779*\[Xi]^4 + 140816*\[Xi]^6 - 
-                 307016*\[Xi]^8 + 30656*\[Xi]^10)*Subscript[s, \[Gamma]]^10 + 
-               2*(1 + 4*\[Xi]^2)^4*(-81 + 2265*\[Xi]^2 - 2759*\[Xi]^4 + 
-                 355*\[Xi]^6)*Subscript[s, \[Gamma]]^12))))/
+               (-87 - 8259*\[Xi]^2 + 47062*\[Xi]^4 + 79196*\[Xi]^6 + 
+                 1157728*\[Xi]^8 + 3344960*\[Xi]^10 - 3654656*\[Xi]^12 + 
+                 143360*\[Xi]^14)*Subscript[s, \[Gamma]]^6 + (-1167 - 
+                 4500*\[Xi]^2 + 43900*\[Xi]^4 + 817244*\[Xi]^6 + 
+                 3564768*\[Xi]^8 + 2508352*\[Xi]^10 - 6736384*\[Xi]^12 + 
+                 374784*\[Xi]^14)*Subscript[s, \[Gamma]]^8 - (1 + 4*\[Xi]^2)^
+                 2*(-978 + 4233*\[Xi]^2 + 98649*\[Xi]^4 + 183236*\[Xi]^6 - 
+                 328136*\[Xi]^8 + 22016*\[Xi]^10)*Subscript[s, \[Gamma]]^10 + 
+               2*(1 + 4*\[Xi]^2)^4*(-141 + 2760*\[Xi]^2 - 2759*\[Xi]^4 + 
+                 220*\[Xi]^6)*Subscript[s, \[Gamma]]^12))))/
          (12*\[Xi]^4*(1 + 4*\[Xi]^2)^3*Subscript[m, K]^8*Subscript[m, \[Phi]]^
-           6*Subscript[v, EW]^4) + (h^3*(48*\[Xi]^2*Subscript[c, \[Gamma]]^6*
-            Subscript[m, \[Phi]]^2*(2*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4 - 
-             9*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^2 + 
+           6*Subscript[v, EW]^4) + (QuantumField[h]^3*
+          (48*\[Xi]^2*Subscript[c, \[Gamma]]^6*Subscript[m, \[Phi]]^2*
+            (2*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4 - 9*(1 + 4*\[Xi]^2)*
+              Subscript[m, K]^2*Subscript[m, \[Phi]]^2 + 
              9*Subscript[m, \[Phi]]^4)*Subscript[s, \[Gamma]]^3*
             ((1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[s, \[Gamma]]^2 + 
              Subscript[m, \[Phi]]^2*(1 - 3*Subscript[s, \[Gamma]]^2)) - 
@@ -3925,9 +3974,9 @@
                 (11 - 278*\[Xi]^2 - 936*\[Xi]^4 + 1408*\[Xi]^6)*
                 Subscript[s, \[Gamma]]^8))))/(3*\[Xi]^3*(1 + 4*\[Xi]^2)^(5/2)*
           Subscript[m, K]^6*Subscript[m, \[Phi]]^4*Subscript[v, EW]^3) + 
-        (h^2*(-((1 + 4*\[Xi]^2)*Subscript[m, K]^6*Subscript[s, \[Gamma]]^4*
-             (-1 + Subscript[s, \[Gamma]]^2)) - 4*\[Xi]^2*
-            Subscript[m, \[Phi]]^6*Subscript[s, \[Gamma]]^4*
+        (QuantumField[h]^2*(-((1 + 4*\[Xi]^2)*Subscript[m, K]^6*
+             Subscript[s, \[Gamma]]^4*(-1 + Subscript[s, \[Gamma]]^2)) - 
+           4*\[Xi]^2*Subscript[m, \[Phi]]^6*Subscript[s, \[Gamma]]^4*
             (-2 + 3*Subscript[s, \[Gamma]]^2)*(13 - 4*\[Xi]^2 + 
              3*(-5 + 2*\[Xi]^2)*Subscript[s, \[Gamma]]^2) + 
            2*\[Xi]^2*Subscript[m, K]^2*Subscript[m, \[Phi]]^4*
@@ -3996,14 +4045,15 @@
                 (1 + 4*\[Xi]^2)^2*(2 - 11*\[Xi]^2 + 2*\[Xi]^4)*
                 Subscript[s, \[Gamma]]^6))))/(\[Xi]^2*(1 + 4*\[Xi]^2)^2*
           Subscript[m, K]^4*Subscript[m, \[Phi]]^4*Subscript[v, EW]^2) - 
-        (2*h*(\[Xi]*Subscript[c, \[Gamma]] + Subscript[s, \[Gamma]])*
-          (2*Subscript[c, \[Gamma]]^2*(-3*Subscript[m, \[Phi]]^2*
-              Subscript[s, \[Gamma]]^2 + Subscript[m, K]^2*(-2*\[Xi]^2 + 
-               (1 + 4*\[Xi]^2)*Subscript[s, \[Gamma]]^2)) - 
-           \[Xi]*Subscript[c, \[Gamma]]*Subscript[s, \[Gamma]]*
-            (2*Subscript[m, \[Phi]]^2*(4 - 9*Subscript[s, \[Gamma]]^2) + 
-             Subscript[m, K]^2*(3 - 20*\[Xi]^2 + 4*(1 + 4*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2)) + Subscript[s, \[Gamma]]^2*
+        (2*QuantumField[h]*(\[Xi]*Subscript[c, \[Gamma]] + 
+           Subscript[s, \[Gamma]])*(2*Subscript[c, \[Gamma]]^2*
+            (-3*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^2 + 
+             Subscript[m, K]^2*(-2*\[Xi]^2 + (1 + 4*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2)) - \[Xi]*Subscript[c, \[Gamma]]*
+            Subscript[s, \[Gamma]]*(2*Subscript[m, \[Phi]]^2*
+              (4 - 9*Subscript[s, \[Gamma]]^2) + Subscript[m, K]^2*
+              (3 - 20*\[Xi]^2 + 4*(1 + 4*\[Xi]^2)*Subscript[s, \[Gamma]]^
+                 2)) + Subscript[s, \[Gamma]]^2*
             (4*\[Xi]^2*Subscript[m, \[Phi]]^2*(2 - 3*Subscript[s, \[Gamma]]^
                  2) + Subscript[m, K]^2*(-1 + 10*\[Xi]^2 - 8*\[Xi]^4 + 2*
                 (\[Xi]^2 + 4*\[Xi]^4)*Subscript[s, \[Gamma]]^2))))/
@@ -4015,642 +4065,645 @@
              6*\[Xi]*Subscript[s, \[Gamma]]^2) + (1 + 4*\[Xi]^2)*
             Subscript[m, K]^2*(-(Subscript[c, \[Gamma]]*Subscript[s, 
                 \[Gamma]]) + \[Xi]*(-1 + Subscript[s, \[Gamma]]^2))))/
-         (2*(\[Xi] + 4*\[Xi]^3)*Subscript[m, K]^4) + 
-        ((1 + 4*\[Xi]^2)^2*h^4*Subscript[s, \[Gamma]]*
-          (-96*\[Xi]*Subscript[c, \[Gamma]]^10*((1 + 4*\[Xi]^2)*
+         (2*(\[Xi] + 4*\[Xi]^3)*Subscript[m, K]^4) - 
+        ((1 + 4*\[Xi]^2)^2*QuantumField[h]^4*Subscript[s, \[Gamma]]*
+          (96*\[Xi]*Subscript[c, \[Gamma]]^10*((1 + 4*\[Xi]^2)*
               Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)*
             ((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)^4*
-            Subscript[s, \[Gamma]]^5 + 24*Subscript[c, \[Gamma]]^9*
+            Subscript[s, \[Gamma]]^5 - 24*Subscript[c, \[Gamma]]^9*
             ((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)^3*
-            Subscript[s, \[Gamma]]^4*(18*Subscript[m, \[Phi]]^4*
-              (-20*\[Xi]^2 + (-1 + 56*\[Xi]^2)*Subscript[s, \[Gamma]]^2) + 
-             (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*(-8*\[Xi]^2 + 
-               (-3 + 112*\[Xi]^2)*Subscript[s, \[Gamma]]^2) - 
-             (1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^2*
-              (-148*\[Xi]^2 + 3*(-5 + 228*\[Xi]^2)*Subscript[s, \[Gamma]]^
-                 2)) - 8*\[Xi]*Subscript[c, \[Gamma]]^8*
-            ((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)^2*
-            Subscript[s, \[Gamma]]^3*((1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*
-              Subscript[s, \[Gamma]]^2*(186 - 264*\[Xi]^2 + 11*
-                (-47 + 168*\[Xi]^2)*Subscript[s, \[Gamma]]^2) + 
-             12*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^4*
-              (304*\[Xi]^2 + (396 - 2460*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
-               9*(-99 + 494*\[Xi]^2)*Subscript[s, \[Gamma]]^4) - 
+            Subscript[s, \[Gamma]]^4*((1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*
+              (-8*\[Xi]^2 + (-3 + 312*\[Xi]^2)*Subscript[s, \[Gamma]]^2) + 
+             6*Subscript[m, \[Phi]]^4*(-160*\[Xi]^2 + (-3 + 468*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2) - 3*(1 + 4*\[Xi]^2)*
+              Subscript[m, K]^2*Subscript[m, \[Phi]]^2*(-116*\[Xi]^2 + 
+               (-5 + 628*\[Xi]^2)*Subscript[s, \[Gamma]]^2)) + 
+           8*\[Xi]*Subscript[c, \[Gamma]]^8*((2 + 8*\[Xi]^2)*Subscript[m, K]^
+                2 - 3*Subscript[m, \[Phi]]^2)^2*Subscript[s, \[Gamma]]^3*
+            ((1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[s, \[Gamma]]^2*
+              (411 - 264*\[Xi]^2 + (-1117 + 5448*\[Xi]^2)*Subscript[s, 
+                  \[Gamma]]^2) + 3*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*
+              Subscript[m, \[Phi]]^4*(2416*\[Xi]^2 + (3309 - 24240*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + 36*(-199 + 1394*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^4) - 9*Subscript[m, \[Phi]]^6*
+              (1952*\[Xi]^2 - 9*(-97 + 1264*\[Xi]^2)*Subscript[s, \[Gamma]]^
+                 2 + 3*(-613 + 5520*\[Xi]^2)*Subscript[s, \[Gamma]]^4) - 
              3*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^2*
-              (160*\[Xi]^2 + (598 - 2180*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
-               3*(-477 + 1964*\[Xi]^2)*Subscript[s, \[Gamma]]^4) - 
-             9*Subscript[m, \[Phi]]^6*(752*\[Xi]^2 - 9*(-47 + 464*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + (-939 + 5760*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^4)) + 4*Subscript[c, \[Gamma]]^7*
-            ((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)*
-            Subscript[s, \[Gamma]]^2*(2*(1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*
-              Subscript[s, \[Gamma]]^2*(-444*\[Xi]^2 - 3*(48 - 583*\[Xi]^2 + 
-                 432*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (174 - 
-                 4549*\[Xi]^2 + 4272*\[Xi]^4)*Subscript[s, \[Gamma]]^4) - 
-             (1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, \[Phi]]^2*
-              Subscript[s, \[Gamma]]^2*(288*\[Xi]^2*(-47 + 33*\[Xi]^2) + 
-               (-2925 + 70073*\[Xi]^2 - 70128*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 2 + 3*(1237 - 40745*\[Xi]^2 + 39792*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4) + 9*Subscript[m, \[Phi]]^8*
-              (-4672*\[Xi]^4 + 384*\[Xi]^2*(-23 + 99*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 - 3*(243 - 15656*\[Xi]^2 + 
-                 33984*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 9*(121 - 
-                 7094*\[Xi]^2 + 9984*\[Xi]^4)*Subscript[s, \[Gamma]]^6) - 
-             3*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^6*
-              (-10816*\[Xi]^4 + 6*\[Xi]^2*(-6953 + 18912*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 - 9*(507 - 24416*\[Xi]^2 + 
-                 40992*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 18*(351 - 
-                 17029*\[Xi]^2 + 20976*\[Xi]^4)*Subscript[s, \[Gamma]]^6) + 
-             9*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^4*
-              (-768*\[Xi]^4 + 2*\[Xi]^2*(-3673 + 5944*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + (-1101 + 38993*\[Xi]^2 - 
-                 50688*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 3*(484 - 
-                 19461*\[Xi]^2 + 21072*\[Xi]^4)*Subscript[s, \[Gamma]]^6)) - 
-           2*\[Xi]*Subscript[c, \[Gamma]]^6*Subscript[s, \[Gamma]]*
+              (160*\[Xi]^2 + (1248 - 4580*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
+               3*(-977 + 5564*\[Xi]^2)*Subscript[s, \[Gamma]]^4)) - 
+           Subscript[c, \[Gamma]]^7*((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 
+             3*Subscript[m, \[Phi]]^2)*Subscript[s, \[Gamma]]^2*
+            ((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*
+              (-8352*\[Xi]^2 - 3*(759 - 7144*\[Xi]^2 + 6656*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + (2517 - 64712*\[Xi]^2 + 
+                 101376*\[Xi]^4)*Subscript[s, \[Gamma]]^4) - 
+             4*(1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, \[Phi]]^2*
+              Subscript[s, \[Gamma]]^2*(12*\[Xi]^2*(-2483 + 1792*\[Xi]^2) + 
+               (-5400 + 137303*\[Xi]^2 - 174528*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^2 + 3*(2062 - 77645*\[Xi]^2 + 115392*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4) + 27*Subscript[m, \[Phi]]^8*
+              (-16896*\[Xi]^4 + 64*\[Xi]^2*(-419 + 2192*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (-1647 + 128384*\[Xi]^2 - 
+                 385536*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 3*(709 - 
+                 51416*\[Xi]^2 + 116736*\[Xi]^4)*Subscript[s, \[Gamma]]^6) - 
+             12*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^6*
+              (-26816*\[Xi]^4 + 12*\[Xi]^2*(-7999 + 24656*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 - 18*(441 - 25758*\[Xi]^2 + 
+                 56096*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 9*(1077 - 
+                 64718*\[Xi]^2 + 121152*\[Xi]^4)*Subscript[s, \[Gamma]]^6) + 
+             6*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^4*
+              (-11008*\[Xi]^4 + 8*\[Xi]^2*(-12457 + 22016*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 - 3*(3927 - 163126*\[Xi]^2 + 
+                 267776*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 9*(1543 - 
+                 75402*\[Xi]^2 + 121344*\[Xi]^4)*Subscript[s, \[Gamma]]^6)) + 
+           \[Xi]*Subscript[c, \[Gamma]]^6*Subscript[s, \[Gamma]]*
             (2*(1 + 4*\[Xi]^2)^5*Subscript[m, K]^10*Subscript[s, \[Gamma]]^2*
-              (432*\[Xi]^2 + (969 - 9108*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
-               (-5467 + 23592*\[Xi]^2 - 5568*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 + 4*(1546 - 7991*\[Xi]^2 + 2352*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6) - (1 + 4*\[Xi]^2)^4*
+              (864*\[Xi]^2 - 27*(-79 + 1448*\[Xi]^2)*Subscript[s, \[Gamma]]^
+                 2 + (-12119 + 33384*\[Xi]^2 - 30336*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 + (13733 - 66328*\[Xi]^2 + 
+                 57216*\[Xi]^4)*Subscript[s, \[Gamma]]^6) - (1 + 4*\[Xi]^2)^4*
               Subscript[m, K]^8*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^
-               2*(42912*\[Xi]^2 + 6*(8327 - 74196*\[Xi]^2 + 9600*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 - 2*(111291 - 642352*\[Xi]^2 + 
-                 161184*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 3*(75173 - 
-                 448712*\[Xi]^2 + 123840*\[Xi]^4)*Subscript[s, \[Gamma]]^6) + 
+               2*(149184*\[Xi]^2 + 9*(17211 - 173008*\[Xi]^2 + 38400*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 - 2*(324537 - 1736444*\[Xi]^2 + 
+                 965568*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 24*(25727 - 
+                 162338*\[Xi]^2 + 95760*\[Xi]^4)*Subscript[s, \[Gamma]]^6) + 
              (1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, \[Phi]]^4*
-              Subscript[s, \[Gamma]]^2*(371784*\[Xi]^2 - 81792*\[Xi]^4 + 
-               (305220 - 3298570*\[Xi]^2 + 870912*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 - 6*(213527 - 1553770*\[Xi]^2 + 
-                 459072*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 9*(140993 - 
-                 979690*\[Xi]^2 + 281472*\[Xi]^4)*Subscript[s, \[Gamma]]^6) - 
-             108*Subscript[m, \[Phi]]^10*(1280*\[Xi]^4 + (7868*\[Xi]^2 - 
-                 13760*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 4*(819 - 
-                 16813*\[Xi]^2 + 13680*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 6*
-                (2315 - 30622*\[Xi]^2 + 15840*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 6 + 9*(1685 - 17674*\[Xi]^2 + 6720*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8) + 3*(1 + 4*\[Xi]^2)*
-              Subscript[m, K]^2*Subscript[m, \[Phi]]^8*(45824*\[Xi]^4 - 144*
-                \[Xi]^2*(-3909 + 4208*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 72*
-                (3979 - 65737*\[Xi]^2 + 39312*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 - 18*(65985 - 718126*\[Xi]^2 + 309504*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + 27*(45413 - 418724*\[Xi]^2 + 
-                 144000*\[Xi]^4)*Subscript[s, \[Gamma]]^8) - 
-             3*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^6*
-              (11776*\[Xi]^4 - 8*\[Xi]^2*(-50435 + 29368*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + 12*(21321 - 284644*\[Xi]^2 + 
-                 118896*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 18*(58631 - 
-                 524332*\[Xi]^2 + 186912*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
-               9*(117203 - 941536*\[Xi]^2 + 293568*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8)) + \[Xi]*Subscript[c, \[Gamma]]^4*
-            Subscript[s, \[Gamma]]*((1 + 4*\[Xi]^2)^5*Subscript[m, K]^10*
-              Subscript[s, \[Gamma]]^2*(-2100*\[Xi]^2 + (441 + 
-                 22482*\[Xi]^2 - 11320*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 3*
-                (1672 - 41315*\[Xi]^2 + 23872*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 + (-15315 + 208882*\[Xi]^2 - 136536*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + (10338 - 114571*\[Xi]^2 + 
-                 76240*\[Xi]^4)*Subscript[s, \[Gamma]]^8) - (1 + 4*\[Xi]^2)^4*
+              Subscript[s, \[Gamma]]^2*(48*\[Xi]^2*(28021 - 10608*\[Xi]^2) + 
+               (1028205 - 11362460*\[Xi]^2 + 5351424*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 - 6*(669199 - 4831760*\[Xi]^2 + 
+                 2818944*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 18*(203153 - 
+                 1547770*\[Xi]^2 + 876672*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6) - 18*Subscript[m, \[Phi]]^10*(47360*\[Xi]^4 - 336*\[Xi]^2*
+                (-541 + 1520*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 3*
+                (22779 - 475648*\[Xi]^2 + 679680*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^4 - 18*(14315 - 201688*\[Xi]^2 + 197760*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + 27*(9035 - 109816*\[Xi]^2 + 
+                 84480*\[Xi]^4)*Subscript[s, \[Gamma]]^8) + 3*(1 + 4*\[Xi]^2)*
+              Subscript[m, K]^2*Subscript[m, \[Phi]]^8*(283648*\[Xi]^4 - 384*
+                \[Xi]^2*(-5653 + 9756*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 9*
+                (111679 - 1879872*\[Xi]^2 + 1947392*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 - 36*(104745 - 1201666*\[Xi]^2 + 
+                 962304*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 216*
+                (15947 - 168191*\[Xi]^2 + 112800*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^8) - 3*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*
+              Subscript[m, \[Phi]]^6*(74752*\[Xi]^4 - 16*\[Xi]^2*
+                (-94975 + 91368*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 3*
+                (296783 - 4018872*\[Xi]^2 + 2941568*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 - 18*(187447 - 1728384*\[Xi]^2 + 
+                 1157824*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 18*(169073 - 
+                 1526296*\[Xi]^2 + 917568*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 8)) + \[Xi]*Subscript[c, \[Gamma]]^4*Subscript[s, \[Gamma]]*
+            (-((1 + 4*\[Xi]^2)^5*Subscript[m, K]^10*Subscript[s, \[Gamma]]^2*(
+                -7680*\[Xi]^2 + (-2184 + 33222*\[Xi]^2 - 22480*\[Xi]^4)*
+                 Subscript[s, \[Gamma]]^2 + 3*(-1228 - 53735*\[Xi]^2 + 
+                  27352*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
+                (10020 + 192757*\[Xi]^2 - 120336*\[Xi]^4)*Subscript[s, 
+                   \[Gamma]]^6 + (-3672 - 72346*\[Xi]^2 + 60760*\[Xi]^4)*
+                 Subscript[s, \[Gamma]]^8)) + (1 + 4*\[Xi]^2)^4*
               Subscript[m, K]^8*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^
-               2*(-51972*\[Xi]^2 + 48256*\[Xi]^4 + (-41358 + 928346*\[Xi]^2 - 
-                 648948*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (381090 - 
-                 4398019*\[Xi]^2 + 2820924*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 + (-775068 + 7362338*\[Xi]^2 - 4627420*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + 3*(151203 - 1350043*\[Xi]^2 + 
-                 830556*\[Xi]^4)*Subscript[s, \[Gamma]]^8) + 
-             (1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^8*
-              (-674688*\[Xi]^4 + 8*\[Xi]^2*(-551217 + 1787048*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 - 3*(637731 - 19430840*\[Xi]^2 + 
-                 32926272*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 324*
-                (40922 - 733385*\[Xi]^2 + 913648*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^6 - 108*(234591 - 3495623*\[Xi]^2 + 3665864*
-                  \[Xi]^4)*Subscript[s, \[Gamma]]^8 + 972*(15335 - 
-                 209372*\[Xi]^2 + 199408*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 10) - 6*Subscript[m, \[Phi]]^10*(-79360*\[Xi]^4 + 160*
-                \[Xi]^2*(-2475 + 11152*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 6*
-                (23949 - 881896*\[Xi]^2 + 2014592*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 + 9*(111993 - 2431760*\[Xi]^2 + 
-                 3917952*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 27*
-                (72875 - 1306312*\[Xi]^2 + 1718048*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 + 81*(14687 - 238492*\[Xi]^2 + 
-                 279104*\[Xi]^4)*Subscript[s, \[Gamma]]^10) - 
+               2*(2*\[Xi]^2*(-153711 + 60848*\[Xi]^2) + (-185043 + 
+                 2737106*\[Xi]^2 - 1263468*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 2 + (745845 - 9050689*\[Xi]^2 + 4496604*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 - 2*(548799 - 5912494*\[Xi]^2 + 
+                 3381170*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + (556569 - 
+                 5529189*\[Xi]^2 + 3573108*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 8) + 6*Subscript[m, \[Phi]]^10*(-222720*\[Xi]^4 + 80*\[Xi]^2*
+                (-14571 + 47960*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 12*
+                (29457 - 927908*\[Xi]^2 + 1891696*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 + 36*(47517 - 1030130*\[Xi]^2 + 
+                 1682688*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 27*(101615 - 
+                 1912432*\[Xi]^2 + 2761568*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 8 + 162*(9091 - 157766*\[Xi]^2 + 212512*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^10) - (1 + 4*\[Xi]^2)*Subscript[m, 
+                K]^2*Subscript[m, \[Phi]]^8*(-2057088*\[Xi]^4 + 16*\[Xi]^2*
+                (-912141 + 2116264*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 3*
+                (1675251 - 45240020*\[Xi]^2 + 66954432*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 + 54*(443827 - 8148570*\[Xi]^2 + 
+                 10067808*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 27*
+                (1398909 - 22148732*\[Xi]^2 + 25091936*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 + 243*(81255 - 1192208*\[Xi]^2 + 
+                 1297792*\[Xi]^4)*Subscript[s, \[Gamma]]^10) + 
              (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^6*
-              (-267072*\[Xi]^4 + 36*\[Xi]^2*(-75557 + 172280*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 - 2*(732987 - 18527184*\[Xi]^2 + 
-                 23318360*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 216*
-                (47524 - 705231*\[Xi]^2 + 689352*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^6 - 27*(720249 - 8963376*\[Xi]^2 + 7655840*
-                  \[Xi]^4)*Subscript[s, \[Gamma]]^8 + 54*(207963 - 
-                 2403848*\[Xi]^2 + 1905736*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 10) + (1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, 
-                \[Phi]]^4*(-32832*\[Xi]^4 + 12*\[Xi]^2*(-53809 + 
-                 84104*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 24*(18542 - 
-                 403099*\[Xi]^2 + 376521*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
-               4*(827079 - 10366123*\[Xi]^2 + 8076168*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 - 12*(528832 - 5581325*\[Xi]^2 + 
-                 3986642*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 9*(405085 - 
-                 4018936*\[Xi]^2 + 2732048*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 10)) + Subscript[c, \[Gamma]]^5*((1 + 4*\[Xi]^2)^5*
-              Subscript[m, K]^10*Subscript[s, \[Gamma]]^4*(4*\[Xi]^2*
-                (-849 + 1616*\[Xi]^2) + (-1227 + 36140*\[Xi]^2 - 
-                 68352*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (3774 - 
-                 74312*\[Xi]^2 + 167184*\[Xi]^4 - 8448*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^4 + (-2715 + 58364*\[Xi]^2 - 
-                 131600*\[Xi]^4 + 8448*\[Xi]^6)*Subscript[s, \[Gamma]]^6) - 
-             (1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[m, \[Phi]]^2*
-              Subscript[s, \[Gamma]]^2*(-13824*\[Xi]^4 + 12*\[Xi]^2*
-                (-11387 + 28976*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
-               (-29625 + 1116700*\[Xi]^2 - 2263320*\[Xi]^4 + 54528*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^4 + (84678 - 2507630*\[Xi]^2 + 
-                 5052168*\[Xi]^4 - 251904*\[Xi]^6)*Subscript[s, \[Gamma]]^6 + 
-               12*(-4963 + 151930*\[Xi]^2 - 302252*\[Xi]^4 + 17856*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^8) + 3*(1 + 4*\[Xi]^2)^3*
-              Subscript[m, K]^6*Subscript[m, \[Phi]]^4*Subscript[s, \[Gamma]]^
-               2*(-81088*\[Xi]^4 - 16*\[Xi]^2*(22432 - 84663*\[Xi]^2 + 
-                 2352*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (-57858 + 
-                 2772380*\[Xi]^2 - 7135076*\[Xi]^4 + 317696*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^4 - 4*(-41199 + 1568249*\[Xi]^2 - 
-                 3607170*\[Xi]^4 + 202176*\[Xi]^6)*Subscript[s, \[Gamma]]^6 + 
-               3*(-39499 + 1488778*\[Xi]^2 - 3237452*\[Xi]^4 + 194304*
-                  \[Xi]^6)*Subscript[s, \[Gamma]]^8) - (1 + 4*\[Xi]^2)^2*
-              Subscript[m, K]^4*Subscript[m, \[Phi]]^6*Subscript[s, \[Gamma]]^
-               2*(384*\[Xi]^4*(-3239 + 250*\[Xi]^2) - 16*\[Xi]^2*
-                (205113 - 1081922*\[Xi]^2 + 77856*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 + 18*(-23223 + 1383468*\[Xi]^2 - 
-                 4540868*\[Xi]^4 + 311040*\[Xi]^6)*Subscript[s, \[Gamma]]^4 - 
-               54*(-22332 + 1051283*\[Xi]^2 - 2872476*\[Xi]^4 + 
-                 191232*\[Xi]^6)*Subscript[s, \[Gamma]]^6 + 27*(-33447 + 
-                 1495892*\[Xi]^2 - 3717568*\[Xi]^4 + 238848*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^8) - 3*Subscript[m, \[Phi]]^10*
-              (-20480*\[Xi]^6 + 768*\[Xi]^4*(-601 + 360*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 - 48*\[Xi]^2*(13707 - 126920*
-                  \[Xi]^2 + 30720*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 27*
-                (-2169 + 189064*\[Xi]^2 - 1002816*\[Xi]^4 + 143360*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^6 - 54*(-3291 + 227224*\[Xi]^2 - 
-                 907920*\[Xi]^4 + 92160*\[Xi]^6)*Subscript[s, \[Gamma]]^8 + 
-               81*(-1897 + 112852*\[Xi]^2 - 381184*\[Xi]^4 + 30720*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^10) + 3*(1 + 4*\[Xi]^2)*
-              Subscript[m, K]^2*Subscript[m, \[Phi]]^8*(-9728*\[Xi]^6 + 32*
-                \[Xi]^4*(-23955 + 6224*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 4*
-                \[Xi]^2*(355689 - 2508200*\[Xi]^2 + 351360*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 + 9*(-16557 + 1203140*\[Xi]^2 - 
-                 5011872*\[Xi]^4 + 502272*\[Xi]^6)*Subscript[s, \[Gamma]]^6 - 
-               18*(-24423 + 1397242*\[Xi]^2 - 4596768*\[Xi]^4 + 
-                 374784*\[Xi]^6)*Subscript[s, \[Gamma]]^8 + 54*(-6473 + 
-                 336503*\[Xi]^2 - 971504*\[Xi]^4 + 69120*\[Xi]^6)*
+              (-848352*\[Xi]^4 + 18*\[Xi]^2*(-579449 + 854640*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (-4213449 + 95488098*\[Xi]^2 - 
+                 98038000*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 9*(2181871 - 
+                 33853124*\[Xi]^2 + 31111168*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6 - 81*(375893 - 5028092*\[Xi]^2 + 4471520*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 + 54*(289233 - 3606683*\[Xi]^2 + 
+                 3201256*\[Xi]^4)*Subscript[s, \[Gamma]]^10) - 
+             (1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, \[Phi]]^4*
+              (-112032*\[Xi]^4 + 192*\[Xi]^2*(-15779 + 13404*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 - 3*(491641 - 9177142*\[Xi]^2 + 
+                 6281048*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (6609966 - 
+                 87624082*\[Xi]^2 + 58931712*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6 - 3*(3356728 - 38567705*\[Xi]^2 + 27065048*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 + 9*(567520 - 6095011*\[Xi]^2 + 
+                 4494128*\[Xi]^4)*Subscript[s, \[Gamma]]^10)) + 
+           Subscript[c, \[Gamma]]^5*(-((1 + 4*\[Xi]^2)^5*Subscript[m, K]^
+                10*Subscript[s, \[Gamma]]^4*(4*\[Xi]^2*(-249 + 
+                  3416*\[Xi]^2) - (507 + 4900*\[Xi]^2 + 115152*\[Xi]^4)*
+                 Subscript[s, \[Gamma]]^2 + (2334 + 43438*\[Xi]^2 + 
+                  135264*\[Xi]^4 - 27648*\[Xi]^6)*Subscript[s, \[Gamma]]^4 + 
+                (-1995 - 16201*\[Xi]^2 - 94880*\[Xi]^4 + 27648*\[Xi]^6)*
+                 Subscript[s, \[Gamma]]^6)) + (1 + 4*\[Xi]^2)^4*
+              Subscript[m, K]^8*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^
+               2*(-35424*\[Xi]^4 + 18*\[Xi]^2*(-8423 + 40304*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (-32055 + 1003900*\[Xi]^2 - 
+                 3950880*\[Xi]^4 + 188928*\[Xi]^6)*Subscript[s, \[Gamma]]^4 + 
+               (92913 - 2129195*\[Xi]^2 + 7230888*\[Xi]^4 - 866304*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^6 + 3*(-21787 + 554020*\[Xi]^2 - 
+                 1669688*\[Xi]^4 + 244224*\[Xi]^6)*Subscript[s, \[Gamma]]^
+                 8) + (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, 
+                \[Phi]]^6*Subscript[s, \[Gamma]]^2*(48*\[Xi]^4*(-65297 + 
+                 7200*\[Xi]^2) - 16*\[Xi]^2*(319113 - 2321867*\[Xi]^2 + 
+                 277056*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 18*(-30723 + 
+                 1937423*\[Xi]^2 - 8575148*\[Xi]^4 + 1098240*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^4 - 27*(-56339 + 2776521*\[Xi]^2 - 
+                 9827352*\[Xi]^4 + 1342464*\[Xi]^6)*Subscript[s, \[Gamma]]^
+                 6 + 54*(-20061 + 948931*\[Xi]^2 - 3018104*\[Xi]^4 + 
+                 417024*\[Xi]^6)*Subscript[s, \[Gamma]]^8) - 
+             3*(1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, \[Phi]]^4*
+              Subscript[s, \[Gamma]]^2*(-209808*\[Xi]^4 - 4*\[Xi]^2*
+                (125383 - 730022*\[Xi]^2 + 33408*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^2 + 2*(-36159 + 1724160*\[Xi]^2 - 6635158*
+                  \[Xi]^4 + 558848*\[Xi]^6)*Subscript[s, \[Gamma]]^4 + 
+               (200991 - 7492616*\[Xi]^2 + 23761920*\[Xi]^4 - 2824704*
+                  \[Xi]^6)*Subscript[s, \[Gamma]]^6 + 3*(-46744 + 
+                 1766593*\[Xi]^2 - 5104532*\[Xi]^4 + 674304*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^8) + 3*Subscript[m, \[Phi]]^10*
+              (-71680*\[Xi]^6 + 384*\[Xi]^4*(-2747 + 2520*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 - 48*\[Xi]^2*(22437 - 249020*
+                  \[Xi]^2 + 107520*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 27*
+                (-2979 + 273224*\[Xi]^2 - 1764096*\[Xi]^4 + 501760*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^6 - 54*(-4101 + 297994*\[Xi]^2 - 
+                 1468080*\[Xi]^4 + 322560*\[Xi]^6)*Subscript[s, \[Gamma]]^8 + 
+               81*(-2167 + 137152*\[Xi]^2 - 577984*\[Xi]^4 + 107520*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^10) - 3*(1 + 4*\[Xi]^2)*
+              Subscript[m, K]^2*Subscript[m, \[Phi]]^8*(-35328*\[Xi]^6 + 64*
+                \[Xi]^4*(-29165 + 11112*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
+               (-2318946*\[Xi]^2 + 20918240*\[Xi]^4 - 4976640*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^4 + 9*(-22497 + 1752750*\[Xi]^2 - 
+                 9287392*\[Xi]^4 + 1769472*\[Xi]^6)*Subscript[s, \[Gamma]]^
+                 6 - 9*(-61851 + 3762884*\[Xi]^2 - 15564096*\[Xi]^4 + 
+                 2631168*\[Xi]^6)*Subscript[s, \[Gamma]]^8 + 27*(-15301 + 
+                 851926*\[Xi]^2 - 3098368*\[Xi]^4 + 483840*\[Xi]^6)*
                 Subscript[s, \[Gamma]]^10)) + \[Xi]*Subscript[c, \[Gamma]]^2*
-            Subscript[s, \[Gamma]]*(-((1 + 4*\[Xi]^2)^5*Subscript[m, K]^10*
-               Subscript[s, \[Gamma]]^2*(-1 + Subscript[s, \[Gamma]]^2)*(
-                \[Xi]^2*(777 + 1040*\[Xi]^2) + (639 + 14904*\[Xi]^2 - 
-                  21468*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
-                (6072 - 92385*\[Xi]^2 + 88016*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                  4 - 3*(6713 - 48519*\[Xi]^2 + 37044*\[Xi]^4)*
-                 Subscript[s, \[Gamma]]^6 + 2*(6750 - 34089*\[Xi]^2 + 
-                  21772*\[Xi]^4)*Subscript[s, \[Gamma]]^8)) + 
-             6*Subscript[m, \[Phi]]^10*Subscript[s, \[Gamma]]^2*
-              (16*\[Xi]^2*(9801 - 130528*\[Xi]^2) + (61398 - 5380368*
-                  \[Xi]^2 + 21226240*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
-               (-881199 + 30244416*\[Xi]^2 - 81456576*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 + 108*(24387 - 617438*\[Xi]^2 + 
-                 1385344*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 108*
-                (26739 - 599928*\[Xi]^2 + 1228076*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 + 81*(13257 - 286876*\[Xi]^2 + 
-                 563296*\[Xi]^4)*Subscript[s, \[Gamma]]^10) + 
-             (1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[m, \[Phi]]^2*
-              (1056*\[Xi]^4 + (972*\[Xi]^2 - 103492*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 + (-549 - 648741*\[Xi]^2 + 
-                 1273022*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 6*(30481 - 
-                 685766*\[Xi]^2 + 871415*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
-               (703842 - 9115515*\[Xi]^2 + 9340450*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 + (-866313 + 8559750*\[Xi]^2 - 
-                 7583066*\[Xi]^4)*Subscript[s, \[Gamma]]^10 + 6*
-                (57651 - 485492*\[Xi]^2 + 383420*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^12) - 2*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*
-              Subscript[m, \[Phi]]^8*(40704*\[Xi]^4 + (924408*\[Xi]^2 - 
-                 9627392*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (391824 - 
-                 29290734*\[Xi]^2 + 95212624*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 - 6*(904878 - 27180085*\[Xi]^2 + 59757028*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + 27*(610409 - 13237002*\[Xi]^2 + 
-                 23850912*\[Xi]^4)*Subscript[s, \[Gamma]]^8 - 54*
-                (341649 - 6391362*\[Xi]^2 + 10291960*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^10 + 81*(86541 - 1516288*\[Xi]^2 + 
-                 2289808*\[Xi]^4)*Subscript[s, \[Gamma]]^12) + 
-             (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^6*
-              (82848*\[Xi]^4 + (1115388*\[Xi]^2 - 9574352*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 + (541989 - 35553378*\[Xi]^2 + 
-                 94369832*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 2*(3827799 - 
-                 99106782*\[Xi]^2 + 176990500*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 6 + 9*(2632671 - 48043090*\[Xi]^2 + 69667576*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 - 108*(249643 - 3835605*\[Xi]^2 + 
-                 4899808*\[Xi]^4)*Subscript[s, \[Gamma]]^10 + 54*
-                (192324 - 2702181*\[Xi]^2 + 3179828*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^12) - 3*(1 + 4*\[Xi]^2)^3*
-              Subscript[m, K]^6*Subscript[m, \[Phi]]^4*(6096*\[Xi]^4 + 
-               (66381*\[Xi]^2 - 587184*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
-               (40161 - 2752326*\[Xi]^2 + 6103220*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 + (-699495 + 15858625*\[Xi]^2 - 
-                 23411364*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 4*(568728 - 
-                 8672829*\[Xi]^2 + 10345268*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 8 + (-2649009 + 32976435*\[Xi]^2 - 34301780*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^10 + 3*(344541 - 3823921*\[Xi]^2 + 
-                 3608188*\[Xi]^4)*Subscript[s, \[Gamma]]^12)) + 
-           Subscript[c, \[Gamma]]^3*(-((1 + 4*\[Xi]^2)^5*Subscript[m, K]^
-                10*Subscript[s, \[Gamma]]^2*(276*\[Xi]^4 - \[Xi]^2*
-                 (2349 + 10666*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 
-                (603 + 16186*\[Xi]^2 - 79627*\[Xi]^4 + 10220*\[Xi]^6)*
-                 Subscript[s, \[Gamma]]^4 + (744 + 93886*\[Xi]^2 - 
-                  226824*\[Xi]^4 + 38388*\[Xi]^6)*Subscript[s, \[Gamma]]^6 + 
-                (321 - 132696*\[Xi]^2 + 271375*\[Xi]^4 - 46116*\[Xi]^6)*
-                 Subscript[s, \[Gamma]]^8 + 2*(-231 + 28830*\[Xi]^2 - 
-                  56894*\[Xi]^4 + 8974*\[Xi]^6)*Subscript[s, \[Gamma]]^10)) + 
-             (1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[m, \[Phi]]^2*
-              Subscript[s, \[Gamma]]^2*(17736*\[Xi]^4 + \[Xi]^2*
-                (12243 - 472884*\[Xi]^2 + 61480*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^2 + (1278 - 755469*\[Xi]^2 + 3351228*\[Xi]^4 - 
-                 586632*\[Xi]^6)*Subscript[s, \[Gamma]]^4 + 3*(-9675 + 
-                 1052892*\[Xi]^2 - 3101575*\[Xi]^4 + 553872*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^6 + (57930 - 4335255*\[Xi]^2 + 
-                 10988970*\[Xi]^4 - 1851688*\[Xi]^6)*Subscript[s, \[Gamma]]^
-                 8 + 3*(-10065 + 644696*\[Xi]^2 - 1540543*\[Xi]^4 + 
-                 238408*\[Xi]^6)*Subscript[s, \[Gamma]]^10) + 
-             Subscript[m, \[Phi]]^10*Subscript[s, \[Gamma]]^2*
-              (-256*\[Xi]^4*(-4545 + 9128*\[Xi]^2) + 96*\[Xi]^2*
-                (17145 - 327580*\[Xi]^2 + 270752*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^2 - 288*(-405 + 81315*\[Xi]^2 - 710252*\[Xi]^4 + 
-                 386800*\[Xi]^6)*Subscript[s, \[Gamma]]^4 + 108*
-                (-5967 + 766743*\[Xi]^2 - 4987608*\[Xi]^4 + 2130880*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^6 - 81*(-12267 + 1347092*\[Xi]^2 - 
-                 7722448*\[Xi]^4 + 2842112*\[Xi]^6)*Subscript[s, \[Gamma]]^
-                 8 + 243*(-1917 + 201388*\[Xi]^2 - 1094240*\[Xi]^4 + 
-                 368896*\[Xi]^6)*Subscript[s, \[Gamma]]^10) - 
-             (1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, \[Phi]]^4*
-              Subscript[s, \[Gamma]]^2*(231900*\[Xi]^4 - 85856*\[Xi]^6 + 3*
-                \[Xi]^2*(158865 - 1990992*\[Xi]^2 + 536528*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 - 6*(-8862 + 1366151*\[Xi]^2 - 
-                 6676018*\[Xi]^4 + 1566312*\[Xi]^6)*Subscript[s, \[Gamma]]^
-                 4 + (-343305 + 30273675*\[Xi]^2 - 107178396*\[Xi]^4 + 
-                 22548608*\[Xi]^6)*Subscript[s, \[Gamma]]^6 - 3*(-188358 + 
-                 13443317*\[Xi]^2 - 41305760*\[Xi]^4 + 7908832*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^8 + 18*(-15333 + 996518*\[Xi]^2 - 
-                 2867588*\[Xi]^4 + 505888*\[Xi]^6)*Subscript[s, \[Gamma]]^
-                 10) - (1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^
-               8*(32256*\[Xi]^6 - 96*\[Xi]^4*(-20951 + 28848*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + 4*\[Xi]^2*(820989 - 12781380*
-                  \[Xi]^2 + 7658944*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 3*
-                (-87453 + 15239796*\[Xi]^2 - 109403008*\[Xi]^4 + 
-                 44876224*\[Xi]^6)*Subscript[s, \[Gamma]]^6 + 27*
-                (-53673 + 5967738*\[Xi]^2 - 31711912*\[Xi]^4 + 10441728*
-                  \[Xi]^6)*Subscript[s, \[Gamma]]^8 - 27*(-83715 + 
-                 7851474*\[Xi]^2 - 36403368*\[Xi]^4 + 10431104*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^10 + 324*(-3333 + 291947*\[Xi]^2 - 
-                 1271216*\[Xi]^4 + 333536*\[Xi]^6)*Subscript[s, \[Gamma]]^
-                 12) + (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, 
-                \[Phi]]^6*(12672*\[Xi]^6 - 24*\[Xi]^4*(-46471 + 
-                 39400*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + \[Xi]^2*
-                (2136039 - 27797968*\[Xi]^2 + 11720160*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 + (198450 - 30636411*\[Xi]^2 + 
-                 179848480*\[Xi]^4 - 55975232*\[Xi]^6)*Subscript[s, \[Gamma]]^
-                 6 + 9*(-125439 + 12094250*\[Xi]^2 - 52340400*\[Xi]^4 + 
-                 13607264*\[Xi]^6)*Subscript[s, \[Gamma]]^8 - 27*
-                (-66101 + 5312704*\[Xi]^2 - 19981392*\[Xi]^4 + 4600928*
-                  \[Xi]^6)*Subscript[s, \[Gamma]]^10 + 27*(-31830 + 
-                 2362605*\[Xi]^2 - 8311700*\[Xi]^4 + 1757248*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^12)) + \[Xi]*Subscript[s, \[Gamma]]*
-            (-((1 + 4*\[Xi]^2)^5*Subscript[m, K]^10*Subscript[s, \[Gamma]]^
-                2*(-1 + Subscript[s, \[Gamma]]^2)^2*(\[Xi]^2*(-81 + 
-                  32*\[Xi]^2) + (-54 - 567*\[Xi]^2 + 3032*\[Xi]^4)*
-                 Subscript[s, \[Gamma]]^2 + (-333 + 6996*\[Xi]^2 - 
-                  9727*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
-                (423 - 9339*\[Xi]^2 + 4857*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                  6 + 3*(-12 + 253*\[Xi]^2 + 602*\[Xi]^4)*Subscript[s, 
-                   \[Gamma]]^8)) - 3*(1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*
-              Subscript[m, \[Phi]]^2*(-1 + Subscript[s, \[Gamma]]^2)^2*
-              (56*\[Xi]^4 + \[Xi]^2*(1395 + 1544*\[Xi]^2)*Subscript[s, 
-                  \[Gamma]]^2 + (1476 + 15513*\[Xi]^2 - 40078*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 + 2*(-9 - 50338*\[Xi]^2 + 
-                 59908*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + (-4518 + 
-                 135629*\[Xi]^2 - 90272*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 
-               (2925 - 38253*\[Xi]^2 + 4460*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 10) - 6*Subscript[m, \[Phi]]^10*Subscript[s, \[Gamma]]^2*
-              (76544*\[Xi]^4 - 384*\[Xi]^2*(-1389 + 3574*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + (50058 - 3710808*\[Xi]^2 + 
-                 7452544*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 3*(75087 - 
-                 3372936*\[Xi]^2 + 6327680*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 6 + 27*(13905 - 503196*\[Xi]^2 + 939376*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 - 27*(10197 - 333156*\[Xi]^2 + 
-                 640448*\[Xi]^4)*Subscript[s, \[Gamma]]^10 + 81*
-                (927 - 29016*\[Xi]^2 + 58768*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 12) + 3*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, 
-                \[Phi]]^8*Subscript[s, \[Gamma]]^2*(48*\[Xi]^2*
-                (193 + 6104*\[Xi]^2) + (3888 + 1915008*\[Xi]^2 - 
-                 4640576*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (188433 - 
-                 13563212*\[Xi]^2 + 23352032*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 + (-905310 + 36918108*\[Xi]^2 - 55595504*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + 18*(86397 - 2729866*\[Xi]^2 + 
-                 3864992*\[Xi]^4)*Subscript[s, \[Gamma]]^8 - 54*
-                (21621 - 595638*\[Xi]^2 + 823312*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^10 + 27*(12051 - 307632*\[Xi]^2 + 425296*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^12) + 3*(1 + 4*\[Xi]^2)^3*
-              Subscript[m, K]^6*Subscript[m, \[Phi]]^4*(-1 + Subscript[s, 
-                 \[Gamma]]^2)*(-392*\[Xi]^4 - 8*\[Xi]^2*(1059 + 3974*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + (-6354 - 244383*\[Xi]^2 + 
-                 514964*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 2*(8373 - 
-                 806973*\[Xi]^2 + 996274*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
-               3*(34907 - 1128314*\[Xi]^2 + 1030568*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 - 5*(26973 - 582684*\[Xi]^2 + 
-                 413056*\[Xi]^4)*Subscript[s, \[Gamma]]^10 + (53244 - 
-                 889857*\[Xi]^2 + 481980*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 12) - 2*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, 
-                \[Phi]]^6*(1008*\[Xi]^4 + 8*\[Xi]^2*(2988 + 30907*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + (13176 + 1686087*\[Xi]^2 - 
-                 3833720*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 3*(52101 - 
-                 4107032*\[Xi]^2 + 6065332*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 6 + (-872478 + 33354069*\[Xi]^2 - 40216980*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 + 9*(173331 - 4839129*\[Xi]^2 + 
-                 5134552*\[Xi]^4)*Subscript[s, \[Gamma]]^10 - 54*
-                (22107 - 514135*\[Xi]^2 + 498176*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^12 + 81*(4158 - 85853*\[Xi]^2 + 77756*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^14)) + Subscript[c, \[Gamma]]*
-            ((1 + 4*\[Xi]^2)^5*Subscript[m, K]^10*Subscript[s, \[Gamma]]^2*
-              (-1 + Subscript[s, \[Gamma]]^2)^2*(96*\[Xi]^4 + (117*\[Xi]^2 + 
-                 4305*\[Xi]^4 - 672*\[Xi]^6)*Subscript[s, \[Gamma]]^2 + 
-               (54 + 3360*\[Xi]^2 - 41697*\[Xi]^4 + 6964*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^4 + (819 - 15708*\[Xi]^2 + 
-                 73809*\[Xi]^4 - 9536*\[Xi]^6)*Subscript[s, \[Gamma]]^6 + 
-               (-873 + 11988*\[Xi]^2 - 19710*\[Xi]^4 + 3244*\[Xi]^6)*
+            Subscript[s, \[Gamma]]*((1 + 4*\[Xi]^2)^5*Subscript[m, K]^10*
+              Subscript[s, \[Gamma]]^2*(-1 + Subscript[s, \[Gamma]]^2)*
+              (2*\[Xi]^2*(1221 + 520*\[Xi]^2) + (654 + 9219*\[Xi]^2 - 
+                 16068*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (19737 - 
+                 88950*\[Xi]^2 + 78761*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 3*
+                (16013 - 60094*\[Xi]^2 + 31104*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^6 + (27720 - 99783*\[Xi]^2 + 29579*\[Xi]^4)*
                 Subscript[s, \[Gamma]]^8) - (1 + 4*\[Xi]^2)^4*
-              Subscript[m, K]^8*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^
-               2*(-1 + Subscript[s, \[Gamma]]^2)*(-8*\[Xi]^4*(531 + 
-                 424*\[Xi]^2) + \[Xi]^2*(-14112 - 220839*\[Xi]^2 + 
-                 85904*\[Xi]^4)*Subscript[s, \[Gamma]]^2 - 6*(441 + 
-                 20983*\[Xi]^2 - 314240*\[Xi]^4 + 78916*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^4 + (-9495 + 725964*\[Xi]^2 - 
-                 4662195*\[Xi]^4 + 948728*\[Xi]^6)*Subscript[s, \[Gamma]]^6 + 
-               (29070 - 1062594*\[Xi]^2 + 4367145*\[Xi]^4 - 796376*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^8 + 3*(-5643 + 158736*\[Xi]^2 - 
-                 450993*\[Xi]^4 + 79544*\[Xi]^6)*Subscript[s, \[Gamma]]^10) - 
+              Subscript[m, K]^8*Subscript[m, \[Phi]]^2*(2856*\[Xi]^4 - 
+               \[Xi]^2*(8763 + 132922*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
+               (55041 - 833316*\[Xi]^2 + 1539842*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^4 + (-660981 + 5610321*\[Xi]^2 - 6294960*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + (1836387 - 12915120*\[Xi]^2 + 
+                 11085370*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + (-1920873 + 
+                 12464370*\[Xi]^2 - 8767826*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 10 + 6*(115071 - 719942*\[Xi]^2 + 427940*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^12) - 6*Subscript[m, \[Phi]]^10*
+              (38400*\[Xi]^4 - 64*\[Xi]^2*(-10629 + 49822*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + 2*(128709 - 5223504*\[Xi]^2 + 
+                 14555360*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 3*(658233 - 
+                 16093712*\[Xi]^2 + 35386592*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6 + 432*(10968 - 223612*\[Xi]^2 + 436071*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 - 216*(21297 - 408174*\[Xi]^2 + 
+                 752578*\[Xi]^4)*Subscript[s, \[Gamma]]^10 + 81*
+                (19497 - 372676*\[Xi]^2 + 674896*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^12) + (1 + 4*\[Xi]^2)*Subscript[m, K]^2*
+              Subscript[m, \[Phi]]^8*(630528*\[Xi]^4 - 32*\[Xi]^2*
+                (-240633 + 990332*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
+               (3417633 - 116846568*\[Xi]^2 + 274628288*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 - 12*(2185398 - 44993395*\[Xi]^2 + 
+                 81205288*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 27*
+                (2362223 - 40019384*\[Xi]^2 + 62450144*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 - 54*(1166133 - 18248544*\[Xi]^2 + 
+                 26235200*\[Xi]^4)*Subscript[s, \[Gamma]]^10 + 324*
+                (67923 - 1038314*\[Xi]^2 + 1429784*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^12) - (1 + 4*\[Xi]^2)^2*
+              Subscript[m, K]^4*Subscript[m, \[Phi]]^6*(429888*\[Xi]^4 + 
+               (4474548*\[Xi]^2 - 16427552*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 2 + (2569239 - 70924848*\[Xi]^2 + 139704032*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 + (-20129823 + 334046394*\[Xi]^2 - 
+                 491795120*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 72*
+                (690297 - 9359315*\[Xi]^2 + 11652257*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 - 54*(920311 - 11402350*\[Xi]^2 + 
+                 12782376*\[Xi]^4)*Subscript[s, \[Gamma]]^10 + 54*
+                (325194 - 3884781*\[Xi]^2 + 4074008*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^12) + 3*(1 + 4*\[Xi]^2)^3*
+              Subscript[m, K]^6*Subscript[m, \[Phi]]^4*(23136*\[Xi]^4 + 
+               (246551*\[Xi]^2 - 945924*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
+               (243131 - 5045986*\[Xi]^2 + 8685980*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 + (-2061925 + 25750620*\[Xi]^2 - 
+                 31705464*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + (5242952 - 
+                 53733861*\[Xi]^2 + 54364272*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 8 + (-5315829 + 49778865*\[Xi]^2 - 44055080*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^10 + 3*(630651 - 5671651*\[Xi]^2 + 
+                 4552048*\[Xi]^4)*Subscript[s, \[Gamma]]^12)) + 
+           Subscript[c, \[Gamma]]^3*((1 + 4*\[Xi]^2)^5*Subscript[m, K]^10*
+              Subscript[s, \[Gamma]]^2*(636*\[Xi]^4 + (3831*\[Xi]^2 - 
+                 13996*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (447 - 
+                 77491*\[Xi]^2 + 90037*\[Xi]^4 - 10220*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^4 + (-2406 + 237286*\[Xi]^2 - 
+                 264129*\[Xi]^4 + 31308*\[Xi]^6)*Subscript[s, \[Gamma]]^6 + 
+               (3471 - 258021*\[Xi]^2 + 308935*\[Xi]^4 - 31956*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^8 + (-1512 + 94755*\[Xi]^2 - 
+                 121483*\[Xi]^4 + 10868*\[Xi]^6)*Subscript[s, \[Gamma]]^10) + 
              Subscript[m, \[Phi]]^10*Subscript[s, \[Gamma]]^2*
-              (768*\[Xi]^4*(45 + 928*\[Xi]^2) - 16*\[Xi]^2*(13851 - 
-                 914952*\[Xi]^2 + 791872*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
-               24*\[Xi]^2*(334989 - 5175944*\[Xi]^2 + 3085120*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 - 9*(-25029 + 4284756*\[Xi]^2 - 
-                 44682976*\[Xi]^4 + 22891776*\[Xi]^6)*Subscript[s, \[Gamma]]^
-                 6 + 27*(-25029 + 2682156*\[Xi]^2 - 23345280*\[Xi]^4 + 
-                 11149184*\[Xi]^6)*Subscript[s, \[Gamma]]^8 - 81*
-                (-8343 + 744096*\[Xi]^2 - 5948192*\[Xi]^4 + 2762368*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^10 + 243*(-927 + 76536*\[Xi]^2 - 
-                 593840*\[Xi]^4 + 275328*\[Xi]^6)*Subscript[s, \[Gamma]]^
+              (128*\[Xi]^4*(-34965 + 28096*\[Xi]^2) - 384*\[Xi]^2*
+                (16470 - 179215*\[Xi]^2 + 101288*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^2 + 9*(-50625 + 5713200*\[Xi]^2 - 39658144*
+                  \[Xi]^4 + 18037760*\[Xi]^6)*Subscript[s, \[Gamma]]^4 - 27*
+                (-61533 + 5244372*\[Xi]^2 - 30581952*\[Xi]^4 + 12110080*
+                  \[Xi]^6)*Subscript[s, \[Gamma]]^6 + 162*(-12411 + 
+                 996346*\[Xi]^2 - 5423384*\[Xi]^4 + 1970176*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^8 - 972*(-828 + 67657*\[Xi]^2 - 
+                 360320*\[Xi]^4 + 124864*\[Xi]^6)*Subscript[s, \[Gamma]]^
+                 10) + (1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, 
+                \[Phi]]^4*Subscript[s, \[Gamma]]^2*(978810*\[Xi]^4 - 167936*
+                \[Xi]^6 + 3*\[Xi]^2*(1189745 - 5124532*\[Xi]^2 + 
+                 910928*\[Xi]^4)*Subscript[s, \[Gamma]]^2 - 6*(-59472 + 
+                 4507361*\[Xi]^2 - 13523373*\[Xi]^4 + 2458712*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^4 + (-1350675 + 70197720*\[Xi]^2 - 
+                 189162336*\[Xi]^4 + 33702368*\[Xi]^6)*Subscript[s, \[Gamma]]^
+                 6 - 3*(-557298 + 25482347*\[Xi]^2 - 66643520*\[Xi]^4 + 
+                 11471392*\[Xi]^6)*Subscript[s, \[Gamma]]^8 + 36*
+                (-18864 + 831199*\[Xi]^2 - 2176459*\[Xi]^4 + 360944*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^10) - (1 + 4*\[Xi]^2)^4*
+              Subscript[m, K]^8*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^
+               2*(62826*\[Xi]^4 + \[Xi]^2*(396963 - 1103664*\[Xi]^2 + 
+                 90280*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (46623 - 
+                 3189624*\[Xi]^2 + 6246708*\[Xi]^4 - 804072*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^4 + 3*(-59480 + 2756467*\[Xi]^2 - 
+                 5112320*\[Xi]^4 + 715472*\[Xi]^6)*Subscript[s, \[Gamma]]^6 + 
+               (220725 - 8817000*\[Xi]^2 + 16657710*\[Xi]^4 - 2290408*
+                  \[Xi]^6)*Subscript[s, \[Gamma]]^8 + (-88920 + 3360003*
+                  \[Xi]^2 - 6592044*\[Xi]^4 + 857784*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^10) + (1 + 4*\[Xi]^2)*Subscript[m, 
+                K]^2*Subscript[m, \[Phi]]^8*(132096*\[Xi]^6 - 96*\[Xi]^4*
+                (-84931 + 55128*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 2*\[Xi]^2*
+                (7087023 - 60623520*\[Xi]^2 + 25589888*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 - 3*(-371763 + 37160436*\[Xi]^2 - 
+                 205760728*\[Xi]^4 + 70268224*\[Xi]^6)*Subscript[s, \[Gamma]]^
+                 6 + 27*(-153393 + 11158788*\[Xi]^2 - 52147432*\[Xi]^4 + 
+                 15682688*\[Xi]^6)*Subscript[s, \[Gamma]]^8 - 27*
+                (-188385 + 12576594*\[Xi]^2 - 54729288*\[Xi]^4 + 
+                 15204224*\[Xi]^6)*Subscript[s, \[Gamma]]^10 + 324*
+                (-6378 + 422477*\[Xi]^2 - 1792496*\[Xi]^4 + 475616*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^12) - (1 + 4*\[Xi]^2)^2*
+              Subscript[m, K]^4*Subscript[m, \[Phi]]^6*(52992*\[Xi]^6 - 48*
+                \[Xi]^4*(-98453 + 40840*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
+               \[Xi]^2*(11117409 - 70244008*\[Xi]^2 + 20503200*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 + (974160 - 85063731*\[Xi]^2 + 
+                 358336720*\[Xi]^4 - 90329792*\[Xi]^6)*Subscript[s, \[Gamma]]^
+                 6 + 9*(-406869 + 25010370*\[Xi]^2 - 90833880*\[Xi]^4 + 
+                 20927584*\[Xi]^6)*Subscript[s, \[Gamma]]^8 - 27*
+                (-167751 + 9254314*\[Xi]^2 - 31666872*\[Xi]^4 + 6863648*
+                  \[Xi]^6)*Subscript[s, \[Gamma]]^10 + 27*(-68400 + 
+                 3684045*\[Xi]^2 - 12370280*\[Xi]^4 + 2574208*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^12)) + \[Xi]*Subscript[s, \[Gamma]]*
+            ((1 + 4*\[Xi]^2)^5*Subscript[m, K]^10*Subscript[s, \[Gamma]]^2*
+              (-1 + Subscript[s, \[Gamma]]^2)^2*(2*\[Xi]^2*(-63 + 
+                 16*\[Xi]^2) + (-324 - 1647*\[Xi]^2 + 2132*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + (1557 + 16701*\[Xi]^2 - 
+                 9127*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 3*(-849 - 
+                 8283*\[Xi]^2 + 2104*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 3*
+                (438 + 2293*\[Xi]^2 + 217*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 8) + 3*(1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[m, 
+                \[Phi]]^2*(-1 + Subscript[s, \[Gamma]]^2)^2*(56*\[Xi]^4 + 2*
+                \[Xi]^2*(855 + 1372*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
+               (5436 + 35288*\[Xi]^2 - 54848*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4 + 2*(-8739 - 104373*\[Xi]^2 + 87613*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 - 9*(-2018 - 32721*\[Xi]^2 + 
+                 18148*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + (-6255 - 
+                 105333*\[Xi]^2 + 34610*\[Xi]^4)*Subscript[s, \[Gamma]]^10) + 
+             6*Subscript[m, \[Phi]]^10*Subscript[s, \[Gamma]]^2*
+              (114944*\[Xi]^4 - 72*\[Xi]^2*(-11083 + 27568*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + 2*(25029 - 2735064*\[Xi]^2 + 
+                 5270432*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 3*(75087 - 
+                 4884936*\[Xi]^2 + 8771360*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6 + 27*(13905 - 714236*\[Xi]^2 + 1275456*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 - 27*(10197 - 462876*\[Xi]^2 + 
+                 850688*\[Xi]^4)*Subscript[s, \[Gamma]]^10 + 81*
+                (927 - 39456*\[Xi]^2 + 76288*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 12) - 3*(1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, 
+                \[Phi]]^4*(-1 + Subscript[s, \[Gamma]]^2)*(-272*\[Xi]^4 - 12*
+                \[Xi]^2*(641 + 4481*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
+               (-22644 - 458443*\[Xi]^2 + 785224*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^4 + (64434 + 2855236*\[Xi]^2 - 3067528*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + (-36309 - 5931552*\[Xi]^2 + 
+                 4976944*\[Xi]^4)*Subscript[s, \[Gamma]]^8 - 5*(6237 - 
+                 1026246*\[Xi]^2 + 716416*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 10 + 3*(8568 - 529689*\[Xi]^2 + 312700*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^12) - 3*(1 + 4*\[Xi]^2)*
+              Subscript[m, K]^2*Subscript[m, \[Phi]]^8*Subscript[s, \[Gamma]]^
+               2*(32*\[Xi]^2*(117 + 14026*\[Xi]^2) - 24*(-567 - 
+                 126802*\[Xi]^2 + 288064*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
+               (139833 - 21018092*\[Xi]^2 + 34344592*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 + (-817830 + 56267148*\[Xi]^2 - 
+                 80982704*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 18*
+                (82617 - 4094546*\[Xi]^2 + 5576472*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 - 54*(21261 - 878838*\[Xi]^2 + 
+                 1175272*\[Xi]^4)*Subscript[s, \[Gamma]]^10 + 27*
+                (12051 - 446352*\[Xi]^2 + 599776*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^12) + 2*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*
+              Subscript[m, \[Phi]]^6*(288*\[Xi]^4 + 4*\[Xi]^2*(3771 + 
+                 100664*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (46386 + 
+                 2886897*\[Xi]^2 - 5898920*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4 + 3*(-9189 - 6749512*\[Xi]^2 + 9254392*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + (-490158 + 53958069*\[Xi]^2 - 
+                 61606200*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 9*(131661 - 
+                 7747659*\[Xi]^2 + 7936492*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 10 - 162*(6304 - 272005*\[Xi]^2 + 259552*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^12 + 81*(3798 - 135153*\[Xi]^2 + 
+                 122956*\[Xi]^4)*Subscript[s, \[Gamma]]^14)) - 
+           Subscript[c, \[Gamma]]*((1 + 4*\[Xi]^2)^5*Subscript[m, K]^10*
+              Subscript[s, \[Gamma]]^2*(-1 + Subscript[s, \[Gamma]]^2)^2*
+              (276*\[Xi]^4 + 3*\[Xi]^2*(729 + 880*\[Xi]^2 - 224*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + (324 - 5400*\[Xi]^2 - 
+                 30987*\[Xi]^4 + 6964*\[Xi]^6)*Subscript[s, \[Gamma]]^4 + 
+               (279 - 19548*\[Xi]^2 + 68004*\[Xi]^4 - 6656*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^6 + (-603 + 23718*\[Xi]^2 - 
+                 18285*\[Xi]^4 + 364*\[Xi]^6)*Subscript[s, \[Gamma]]^8) - 
+             (1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[m, \[Phi]]^2*
+              Subscript[s, \[Gamma]]^2*(-1 + Subscript[s, \[Gamma]]^2)*
+              (-2*\[Xi]^4*(4419 + 1696*\[Xi]^2) + \[Xi]^2*(-84342 - 
+                 208389*\[Xi]^2 + 90944*\[Xi]^4)*Subscript[s, \[Gamma]]^2 - 
+               12*(828 - 6686*\[Xi]^2 - 171325*\[Xi]^4 + 41888*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^4 + (13995 + 848499*\[Xi]^2 - 
+                 5453865*\[Xi]^4 + 973568*\[Xi]^6)*Subscript[s, \[Gamma]]^6 + 
+               (3960 - 1677204*\[Xi]^2 + 5375415*\[Xi]^4 - 766496*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^8 + 3*(-2673 + 277281*\[Xi]^2 - 
+                 578853*\[Xi]^4 + 69344*\[Xi]^6)*Subscript[s, \[Gamma]]^10) + 
+             Subscript[m, \[Phi]]^10*Subscript[s, \[Gamma]]^2*
+              (768*\[Xi]^4*(105 - 928*\[Xi]^2) + 8*\[Xi]^2*(126927 - 
+                 2520744*\[Xi]^2 + 1721984*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 2 - 48*\[Xi]^2*(326457 - 3414772*\[Xi]^2 + 1721120*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 + 9*(-25029 + 7104096*\[Xi]^2 - 
+                 57690016*\[Xi]^4 + 25794816*\[Xi]^6)*Subscript[s, \[Gamma]]^
+                 6 - 27*(-25029 + 4099896*\[Xi]^2 - 29622720*\[Xi]^4 + 
+                 12600704*\[Xi]^6)*Subscript[s, \[Gamma]]^8 + 81*
+                (-8343 + 1077276*\[Xi]^2 - 7424672*\[Xi]^4 + 3119488*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^10 - 243*(-927 + 106356*\[Xi]^2 - 
+                 729200*\[Xi]^4 + 309888*\[Xi]^6)*Subscript[s, \[Gamma]]^
                  12) + (1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^
-               8*Subscript[s, \[Gamma]]^2*(64*\[Xi]^4*(189 + 18104*\[Xi]^2) - 
-               32*\[Xi]^2*(13743 - 789135*\[Xi]^2 + 576728*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 + 2*(2916 + 7770429*\[Xi]^2 - 
-                 105484008*\[Xi]^4 + 50559808*\[Xi]^6)*Subscript[s, \[Gamma]]^
-                 4 + (458055 - 74952630*\[Xi]^2 + 671519664*\[Xi]^4 - 
-                 265890624*\[Xi]^6)*Subscript[s, \[Gamma]]^6 + 27*
-                (-54045 + 5250656*\[Xi]^2 - 38189576*\[Xi]^4 + 13594880*
-                  \[Xi]^6)*Subscript[s, \[Gamma]]^8 - 27*(-56331 + 
-                 4405686*\[Xi]^2 - 28515672*\[Xi]^4 + 9525184*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^10 + 81*(-6489 + 457290*\[Xi]^2 - 
-                 2775120*\[Xi]^4 + 892480*\[Xi]^6)*Subscript[s, \[Gamma]]^
-                 12) + (1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, 
-                \[Phi]]^4*(-672*\[Xi]^6 + 12*\[Xi]^4*(1221 + 7912*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + (-2349*\[Xi]^2 + 3052386*\[Xi]^4 - 
-                 1555600*\[Xi]^6)*Subscript[s, \[Gamma]]^4 + 3*(3510 + 
-                 743659*\[Xi]^2 - 8758450*\[Xi]^4 + 2809696*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^6 - 3*(-26802 + 3944101*\[Xi]^2 - 
-                 27129690*\[Xi]^4 + 6969952*\[Xi]^6)*Subscript[s, \[Gamma]]^
-                 8 + (-325890 + 22954239*\[Xi]^2 - 117881010*\[Xi]^4 + 
-                 26385952*\[Xi]^6)*Subscript[s, \[Gamma]]^10 - 3*
-                (-123003 + 6451806*\[Xi]^2 - 27136492*\[Xi]^4 + 5515952*
-                  \[Xi]^6)*Subscript[s, \[Gamma]]^12 + 9*(-14895 + 
-                 667206*\[Xi]^2 - 2412556*\[Xi]^4 + 456000*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^14) - (1 + 4*\[Xi]^2)^2*
-              Subscript[m, K]^4*Subscript[m, \[Phi]]^6*(-2688*\[Xi]^6 + 24*
-                \[Xi]^4*(203 + 23832*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 12*
-                \[Xi]^2*(19722 - 1191111*\[Xi]^2 + 724384*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 + (13770 + 9923553*\[Xi]^2 - 
-                 119126664*\[Xi]^4 + 46173280*\[Xi]^6)*Subscript[s, \[Gamma]]^
-                 6 + (313470 - 48741426*\[Xi]^2 + 373122720*\[Xi]^4 - 
-                 116689504*\[Xi]^6)*Subscript[s, \[Gamma]]^8 + 18*
-                (-60237 + 5152414*\[Xi]^2 - 31029658*\[Xi]^4 + 8525648*
-                  \[Xi]^6)*Subscript[s, \[Gamma]]^10 - 27*(-43509 + 
-                 2887984*\[Xi]^2 - 14967624*\[Xi]^4 + 3767840*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^12 + 27*(-15471 + 899511*\[Xi]^2 - 
-                 4219452*\[Xi]^4 + 997184*\[Xi]^6)*Subscript[s, \[Gamma]]^
-                 14))))/(48*(\[Xi] + 4*\[Xi]^3)^5*Subscript[m, K]^12*
-          Subscript[v, EW]^4) + ((1 + 4*\[Xi]^2)^(3/2)*h^3*
-          Subscript[s, \[Gamma]]*(-24*\[Xi]*Subscript[c, \[Gamma]]^8*
-            ((1 + 4*\[Xi]^2)*Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)*
+               8*Subscript[s, \[Gamma]]^2*(32*\[Xi]^4*(-8007 + 
+                 41848*\[Xi]^2) - 16*\[Xi]^2*(109341 - 2220660*\[Xi]^2 + 
+                 1344976*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 4*(5103 + 
+                 7495947*\[Xi]^2 - 70970634*\[Xi]^4 + 29505584*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^4 + (414315 - 127026630*\[Xi]^2 + 
+                 887292864*\[Xi]^4 - 309882624*\[Xi]^6)*Subscript[s, 
+                  \[Gamma]]^6 + 27*(-52425 + 8335706*\[Xi]^2 - 49848016*
+                  \[Xi]^4 + 15808320*\[Xi]^6)*Subscript[s, \[Gamma]]^8 - 27*
+                (-55791 + 6686946*\[Xi]^2 - 36831432*\[Xi]^4 + 11050624*
+                  \[Xi]^6)*Subscript[s, \[Gamma]]^10 + 81*(-6489 + 
+                 670110*\[Xi]^2 - 3548160*\[Xi]^4 + 1033600*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^12) + (1 + 4*\[Xi]^2)^3*
+              Subscript[m, K]^6*Subscript[m, \[Phi]]^4*(-2112*\[Xi]^6 + 42*
+                \[Xi]^4*(101 + 3032*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
+               (145431*\[Xi]^2 + 3914886*\[Xi]^4 - 1871680*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^4 + 3*(12600 + 956489*\[Xi]^2 - 
+                 11203230*\[Xi]^4 + 3276256*\[Xi]^6)*Subscript[s, \[Gamma]]^
+                 6 - 3*(9198 + 6041181*\[Xi]^2 - 35055390*\[Xi]^4 + 
+                 7980832*\[Xi]^6)*Subscript[s, \[Gamma]]^8 + (-167400 + 
+                 36812199*\[Xi]^2 - 154162080*\[Xi]^4 + 29736832*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^10 - 3*(-88983 + 10498566*\[Xi]^2 - 
+                 35911612*\[Xi]^4 + 6115232*\[Xi]^6)*Subscript[s, \[Gamma]]^
+                 12 + 9*(-12195 + 1088016*\[Xi]^2 - 3228076*\[Xi]^4 + 
+                 496560*\[Xi]^6)*Subscript[s, \[Gamma]]^14) - 
+             (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^6*
+              (-8448*\[Xi]^6 + 48*\[Xi]^4*(-3371 + 15616*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 - 12*\[Xi]^2*(58042 - 1673031*
+                  \[Xi]^2 + 884384*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
+               (48600 + 17786733*\[Xi]^2 - 160644504*\[Xi]^4 + 55124320*
+                  \[Xi]^6)*Subscript[s, \[Gamma]]^6 + (190350 - 82064361*
+                  \[Xi]^2 + 497568600*\[Xi]^4 - 137704864*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^8 + 9*(-103104 + 16773773*\[Xi]^2 - 
+                 82402676*\[Xi]^4 + 19970816*\[Xi]^6)*Subscript[s, \[Gamma]]^
+                 10 - 27*(-40449 + 4578579*\[Xi]^2 - 19830864*\[Xi]^4 + 
+                 4389920*\[Xi]^6)*Subscript[s, \[Gamma]]^12 + 27*
+                (-14931 + 1393776*\[Xi]^2 - 5581332*\[Xi]^4 + 1157984*
+                  \[Xi]^6)*Subscript[s, \[Gamma]]^14))))/
+         (48*(\[Xi] + 4*\[Xi]^3)^5*Subscript[m, K]^12*Subscript[v, EW]^4) + 
+        ((1 + 4*\[Xi]^2)^(3/2)*QuantumField[h]^3*Subscript[s, \[Gamma]]*
+          (-24*\[Xi]*Subscript[c, \[Gamma]]^8*((1 + 4*\[Xi]^2)*
+              Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)*
             ((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)^3*
             Subscript[s, \[Gamma]]^4 + 6*Subscript[c, \[Gamma]]^7*
             ((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)^2*
-            Subscript[s, \[Gamma]]^3*(6*Subscript[m, \[Phi]]^4*
-              (-56*\[Xi]^2 + 3*(-1 + 52*\[Xi]^2)*Subscript[s, \[Gamma]]^2) + 
+            Subscript[s, \[Gamma]]^3*(18*Subscript[m, \[Phi]]^4*
+              (-32*\[Xi]^2 + (-1 + 92*\[Xi]^2)*Subscript[s, \[Gamma]]^2) + 
              (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*(-8*\[Xi]^2 + 
-               (-3 + 104*\[Xi]^2)*Subscript[s, \[Gamma]]^2) - 
+               (-3 + 184*\[Xi]^2)*Subscript[s, \[Gamma]]^2) - 
              (1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^2*
-              (-140*\[Xi]^2 + 3*(-5 + 212*\[Xi]^2)*Subscript[s, \[Gamma]]^
+              (-220*\[Xi]^2 + 3*(-5 + 372*\[Xi]^2)*Subscript[s, \[Gamma]]^
                  2)) - 2*\[Xi]*Subscript[c, \[Gamma]]^6*
             ((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)*
             Subscript[s, \[Gamma]]^2*((1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*
-              Subscript[s, \[Gamma]]^2*(24*(7 - 9*\[Xi]^2) + (-479 + 
-                 1224*\[Xi]^2)*Subscript[s, \[Gamma]]^2) + 18*(1 + 4*\[Xi]^2)*
-              Subscript[m, K]^2*Subscript[m, \[Phi]]^4*(156*\[Xi]^2 - 4*
-                (-61 + 294*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 3*
-                (-185 + 672*\[Xi]^2)*Subscript[s, \[Gamma]]^4) - 
-             27*Subscript[m, \[Phi]]^6*(176*\[Xi]^2 + (131 - 960*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + (-293 + 1296*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^4) - 3*(1 + 4*\[Xi]^2)^2*
-              Subscript[m, K]^4*Subscript[m, \[Phi]]^2*(144*\[Xi]^2 + 
-               (550 - 1644*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 3*
-                (-445 + 1332*\[Xi]^2)*Subscript[s, \[Gamma]]^4)) + 
-           Subscript[c, \[Gamma]]^5*Subscript[s, \[Gamma]]*
-            ((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*
-              (-768*\[Xi]^2 - 3*(87 - 574*\[Xi]^2 + 576*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 + (318 - 5246*\[Xi]^2 + 
-                 3648*\[Xi]^4)*Subscript[s, \[Gamma]]^4) - (1 + 4*\[Xi]^2)^3*
-              Subscript[m, K]^6*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^
-               2*(12*\[Xi]^2*(-889 + 576*\[Xi]^2) + (-2682 + 45545*\[Xi]^2 - 
-                 42912*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (3435 - 
-                 78225*\[Xi]^2 + 56736*\[Xi]^4)*Subscript[s, \[Gamma]]^4) + 
-             3*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^4*
-              (-1728*\[Xi]^4 + 2*\[Xi]^2*(-8101 + 11808*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + (-3042 + 79023*\[Xi]^2 - 
-                 88128*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 27*(150 - 
-                 4265*\[Xi]^2 + 3456*\[Xi]^4)*Subscript[s, \[Gamma]]^6) + 
-             9*Subscript[m, \[Phi]]^8*(-2560*\[Xi]^4 + 12*\[Xi]^2*
-                (-503 + 1680*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 15*
-                (45 - 2080*\[Xi]^2 + 3456*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
-               9*(113 - 4604*\[Xi]^2 + 4800*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 6) - 6*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, 
-                \[Phi]]^6*(-3536*\[Xi]^4 + 3*\[Xi]^2*(-4873 + 11280*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 - 54*(39 - 1372*\[Xi]^2 + 
-                 1864*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 9*(327 - 
-                 11194*\[Xi]^2 + 10320*\[Xi]^4)*Subscript[s, \[Gamma]]^6)) + 
+              Subscript[s, \[Gamma]]^2*(258 - 216*\[Xi]^2 + 13*
+                (-53 + 168*\[Xi]^2)*Subscript[s, \[Gamma]]^2) + 
+             6*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^4*
+              (628*\[Xi]^2 + (1047 - 5448*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
+               18*(-125 + 576*\[Xi]^2)*Subscript[s, \[Gamma]]^4) - 
+             3*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^2*
+              (144*\[Xi]^2 + (800 - 2284*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
+               9*(-205 + 764*\[Xi]^2)*Subscript[s, \[Gamma]]^4) - 
+             9*Subscript[m, \[Phi]]^6*(848*\[Xi]^2 + (543 - 4800*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + 3*(-383 + 2256*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^4)) + Subscript[c, \[Gamma]]^5*
+            Subscript[s, \[Gamma]]*((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*
+              Subscript[s, \[Gamma]]^2*(-1248*\[Xi]^2 - 3*(117 - 
+                 614*\[Xi]^2 + 896*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
+               (408 - 5966*\[Xi]^2 + 6528*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4) - (1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, 
+                \[Phi]]^2*Subscript[s, \[Gamma]]^2*(12*\[Xi]^2*(-1379 + 
+                 976*\[Xi]^2) + (-3447 + 62465*\[Xi]^2 - 73152*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + 3*(1400 - 33335*\[Xi]^2 + 
+                 33792*\[Xi]^4)*Subscript[s, \[Gamma]]^4) + 
+             18*Subscript[m, \[Phi]]^8*(-2240*\[Xi]^4 + 6*\[Xi]^2*
+                (-753 + 2960*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 15*
+                (27 - 1436*\[Xi]^2 + 3072*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
+               18*(32 - 1451*\[Xi]^2 + 2160*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6) + 3*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, 
+                \[Phi]]^4*(-3008*\[Xi]^4 + (-25322*\[Xi]^2 + 40736*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 - 3*(1269 - 37701*\[Xi]^2 + 
+                 51136*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 9*(535 - 
+                 16835*\[Xi]^2 + 18528*\[Xi]^4)*Subscript[s, \[Gamma]]^6) - 
+             9*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^6*
+              (-4064*\[Xi]^4 + 14*\[Xi]^2*(-1079 + 2800*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 - 3*(573 - 23464*\[Xi]^2 + 
+                 39328*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 3*(759 - 
+                 29168*\[Xi]^2 + 36960*\[Xi]^4)*Subscript[s, \[Gamma]]^6)) + 
            \[Xi]*Subscript[c, \[Gamma]]^4*(-((1 + 4*\[Xi]^2)^4*Subscript[m, 
                  K]^8*Subscript[s, \[Gamma]]^2*(168*\[Xi]^2 - 
-                6*(-50 + 459*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
-                (-1363 + 6426*\[Xi]^2 - 1056*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                  4 + 4*(358 - 1671*\[Xi]^2 + 264*\[Xi]^4)*Subscript[s, 
+                6*(-40 + 679*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
+                (-1033 + 4506*\[Xi]^2 - 2016*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                  4 + 8*(149 - 543*\[Xi]^2 + 252*\[Xi]^4)*Subscript[s, 
                    \[Gamma]]^6)) - 3*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*
               Subscript[m, \[Phi]]^4*Subscript[s, \[Gamma]]^2*
-              (17388*\[Xi]^2 - 2784*\[Xi]^4 + 2*(6905 - 70357*\[Xi]^2 + 
-                 12432*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (-53193 + 
-                 358680*\[Xi]^2 - 65952*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
-               18*(2706 - 16187*\[Xi]^2 + 2736*\[Xi]^4)*Subscript[s, 
+              (22988*\[Xi]^2 - 5664*\[Xi]^4 + 2*(8665 - 87717*\[Xi]^2 + 
+                 25072*\[Xi]^4)*Subscript[s, \[Gamma]]^2 - 3*(21331 - 
+                 137480*\[Xi]^2 + 44064*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
+               18*(3151 - 18257*\[Xi]^2 + 5456*\[Xi]^4)*Subscript[s, 
                   \[Gamma]]^6) + 3*(1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*
               Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^2*
-              (2524*\[Xi]^2 + (2797 - 23043*\[Xi]^2 + 1920*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 - 2*(5491 - 29723*\[Xi]^2 + 
-                 4544*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (10175 - 
-                 51195*\[Xi]^2 + 7872*\[Xi]^4)*Subscript[s, \[Gamma]]^6) - 
-             6*Subscript[m, \[Phi]]^8*(1280*\[Xi]^4 - 480*\[Xi]^2*
-                (-27 + 28*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 18*
-                (363 - 5948*\[Xi]^2 + 2880*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 - 27*(971 - 10348*\[Xi]^2 + 3200*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + 108*(238 - 2085*\[Xi]^2 + 
-                 480*\[Xi]^4)*Subscript[s, \[Gamma]]^8) + 3*(1 + 4*\[Xi]^2)*
-              Subscript[m, K]^2*Subscript[m, \[Phi]]^6*(1216*\[Xi]^4 - 4*
-                \[Xi]^2*(-9425 + 4672*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 3*
-                (7909 - 100712*\[Xi]^2 + 30912*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^4 - 9*(10243 - 85912*\[Xi]^2 + 20352*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + 144*(598 - 4293*\[Xi]^2 + 
-                 840*\[Xi]^4)*Subscript[s, \[Gamma]]^8)) + 
+              (3324*\[Xi]^2 + (3287 - 29323*\[Xi]^2 + 3840*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 - 2*(6206 - 31603*\[Xi]^2 + 
+                 9024*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (11330 - 
+                 52995*\[Xi]^2 + 15552*\[Xi]^4)*Subscript[s, \[Gamma]]^6) - 
+             6*Subscript[m, \[Phi]]^8*(2560*\[Xi]^4 - 240*\[Xi]^2*
+                (-69 + 112*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 9*
+                (921 - 14416*\[Xi]^2 + 11520*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4 - 108*(289 - 3007*\[Xi]^2 + 1600*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + 108*(268 - 2355*\[Xi]^2 + 
+                 960*\[Xi]^4)*Subscript[s, \[Gamma]]^8) + 3*(1 + 4*\[Xi]^2)*
+              Subscript[m, K]^2*Subscript[m, \[Phi]]^6*(2496*\[Xi]^4 + 
+               (50180*\[Xi]^2 - 37888*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 3*
+                (10089 - 125712*\[Xi]^2 + 62272*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^4 - 9*(12413 - 101472*\[Xi]^2 + 40832*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + 9*(11083 - 79128*\[Xi]^2 + 
+                 26880*\[Xi]^4)*Subscript[s, \[Gamma]]^8)) + 
            Subscript[c, \[Gamma]]^3*Subscript[s, \[Gamma]]*
             (-((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*(
-                72*\[Xi]^2 - 428*\[Xi]^4 + (69 - 3453*\[Xi]^2 + 3357*\[Xi]^4)*
-                 Subscript[s, \[Gamma]]^2 + (-204 + 5935*\[Xi]^2 - 
-                  7710*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
-                (135 - 2992*\[Xi]^2 + 4781*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                  6)) + (1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, 
-                \[Phi]]^2*(984*\[Xi]^4 - 3*\[Xi]^2*(-3453 + 6794*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + 6*(371 - 14777*\[Xi]^2 + 
-                 19457*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 2*(2970 - 
-                 87131*\[Xi]^2 + 114351*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 6*
-                (645 - 17332*\[Xi]^2 + 23117*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 8) - 3*Subscript[m, \[Phi]]^8*(12160*\[Xi]^4 + 
-               (28944*\[Xi]^2 - 175360*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 9*
-                (369 - 24452*\[Xi]^2 + 86624*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 - 36*(234 - 13183*\[Xi]^2 + 37176*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + 27*(219 - 11348*\[Xi]^2 + 
-                 29024*\[Xi]^4)*Subscript[s, \[Gamma]]^8) - 
+                -4*\[Xi]^2*(42 + 197*\[Xi]^2) + 3*(8 - 521*\[Xi]^2 + 
+                  1319*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
+                (-114 + 1615*\[Xi]^2 - 6750*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                  4 + (90 - 427*\[Xi]^2 + 3581*\[Xi]^4)*Subscript[s, 
+                   \[Gamma]]^6)) - 6*Subscript[m, \[Phi]]^8*(11200*\[Xi]^4 - 
+               8*\[Xi]^2*(-2169 + 17020*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 9*
+                (207 - 13716*\[Xi]^2 + 60992*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4 - 9*(513 - 28526*\[Xi]^2 + 97872*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + 27*(117 - 6004*\[Xi]^2 + 
+                 18112*\[Xi]^4)*Subscript[s, \[Gamma]]^8) - 
              3*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^4*
-              (3904*\[Xi]^4 + (22537*\[Xi]^2 - 65064*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 + 2*(1830 - 84953*\[Xi]^2 + 
-                 159448*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 9*(1072 - 
-                 38467*\[Xi]^2 + 63392*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 9*
-                (711 - 23675*\[Xi]^2 + 37108*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 8) + 2*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, 
-                \[Phi]]^6*(20856*\[Xi]^4 + (69684*\[Xi]^2 - 297652*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 + 9*(1023 - 57344*\[Xi]^2 + 
-                 148572*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 27*
-                (888 - 39939*\[Xi]^2 + 84944*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 6 + 27*(603 - 25076*\[Xi]^2 + 49088*\[Xi]^4)*
+              (8344*\[Xi]^4 + (25657*\[Xi]^2 - 110104*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + 6*(665 - 30116*\[Xi]^2 + 
+                 78976*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 3*(3506 - 
+                 120301*\[Xi]^2 + 261056*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
+               9*(771 - 24680*\[Xi]^2 + 48508*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 8) + (1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, 
+                \[Phi]]^2*(2064*\[Xi]^4 + (9999*\[Xi]^2 - 32622*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + 6*(371 - 13352*\[Xi]^2 + 
+                 26457*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (-6075 + 
+                 153412*\[Xi]^2 - 283422*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
+               3*(1335 - 31004*\[Xi]^2 + 54754*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^8) + (1 + 4*\[Xi]^2)*Subscript[m, K]^2*
+              Subscript[m, \[Phi]]^6*(84912*\[Xi]^4 + (166848*\[Xi]^2 - 
+                 997544*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 18*(1143 - 
+                 64369*\[Xi]^2 + 221772*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 
+               27*(1961 - 87168*\[Xi]^2 + 235168*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^6 + 27*(1311 - 53962*\[Xi]^2 + 128896*\[Xi]^4)*
                 Subscript[s, \[Gamma]]^8)) + \[Xi]*Subscript[s, \[Gamma]]^2*
             ((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*(-1 + Subscript[s, \[Gamma]]^
-                 2)^2*(21*\[Xi]^2 + (27 + 162*\[Xi]^2 - 112*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 + (18 - 795*\[Xi]^2 + 80*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 + (-45 + 183*\[Xi]^2 + 32*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6) - 3*(1 + 4*\[Xi]^2)^2*
-              Subscript[m, K]^4*Subscript[m, \[Phi]]^4*(-1 + Subscript[s, 
-                 \[Gamma]]^2)*(2*\[Xi]^2*(163 + 528*\[Xi]^2) + (207 + 
-                 18166*\[Xi]^2 - 11888*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
-               (543 - 81666*\[Xi]^2 + 33824*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 - 6*(363 - 18411*\[Xi]^2 + 6112*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + 18*(81 - 2650*\[Xi]^2 + 
-                 760*\[Xi]^4)*Subscript[s, \[Gamma]]^8) + (1 + 4*\[Xi]^2)^3*
+                 2)^2*(21*\[Xi]^2 + (-63 + 117*\[Xi]^2 - 112*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + (528 - 810*\[Xi]^2 + 80*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 + (-495 + 243*\[Xi]^2 + 32*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6) + (1 + 4*\[Xi]^2)^3*
               Subscript[m, K]^6*Subscript[m, \[Phi]]^2*(-1 + Subscript[s, 
-                 \[Gamma]]^2)*(9*\[Xi]^2*(33 + 40*\[Xi]^2) + (324 + 
-                 6921*\[Xi]^2 - 4384*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
-               (-351 - 31458*\[Xi]^2 + 10736*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 + (-378 + 37131*\[Xi]^2 - 9328*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + 3*(135 - 4215*\[Xi]^2 + 
-                 872*\[Xi]^4)*Subscript[s, \[Gamma]]^8) + 
-             2*Subscript[m, \[Phi]]^8*(2304*\[Xi]^4 - 8*\[Xi]^2*
-                (-5787 + 5104*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 6*
-                (405 - 42288*\[Xi]^2 + 30944*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 - 27*(315 - 18964*\[Xi]^2 + 13408*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + 108*(90 - 4203*\[Xi]^2 + 
-                 3016*\[Xi]^4)*Subscript[s, \[Gamma]]^8 - 81*
-                (45 - 1848*\[Xi]^2 + 1376*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 \[Gamma]]^2)*(9*\[Xi]^2*(13 + 40*\[Xi]^2) + (-2946 + 
+                 9321*\[Xi]^2 - 4384*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
+               (15399 - 40083*\[Xi]^2 + 10736*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4 + (-22623 + 48021*\[Xi]^2 - 9328*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + 6*(1695 - 2835*\[Xi]^2 + 
+                 436*\[Xi]^4)*Subscript[s, \[Gamma]]^8) - 3*(1 + 4*\[Xi]^2)^2*
+              Subscript[m, K]^4*Subscript[m, \[Phi]]^4*(-1 + Subscript[s, 
+                 \[Gamma]]^2)*(2*\[Xi]^2*(-217 + 528*\[Xi]^2) + (-5683 + 
+                 26756*\[Xi]^2 - 11888*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
+               (27283 - 109076*\[Xi]^2 + 33824*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^4 - 6*(6493 - 24006*\[Xi]^2 + 6112*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + 18*(966 - 3435*\[Xi]^2 + 
+                 760*\[Xi]^4)*Subscript[s, \[Gamma]]^8) - 
+             2*Subscript[m, \[Phi]]^8*(-288*\[Xi]^2*(-5 + 8*\[Xi]^2) + 
+               (8100 - 66456*\[Xi]^2 + 40832*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 2 - 3*(14985 - 111696*\[Xi]^2 + 61888*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 + 216*(405 - 3028*\[Xi]^2 + 
+                 1676*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 27*(2685 - 
+                 21012*\[Xi]^2 + 12064*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 
+               162*(135 - 1134*\[Xi]^2 + 688*\[Xi]^4)*Subscript[s, \[Gamma]]^
                  10) + (1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^
-               6*(-72*\[Xi]^2*(11 + 112*\[Xi]^2) + 4*(-81 - 32505*\[Xi]^2 + 
-                 26752*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (-6021 + 
-                 718404*\[Xi]^2 - 420064*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
-               9*(2631 - 158636*\[Xi]^2 + 80864*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^6 - 81*(349 - 15232*\[Xi]^2 + 7264*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 + 27*(405 - 14580*\[Xi]^2 + 
-                 6752*\[Xi]^4)*Subscript[s, \[Gamma]]^10)) + 
-           \[Xi]*Subscript[c, \[Gamma]]^2*((1 + 4*\[Xi]^2)^4*Subscript[m, 
-                K]^8*Subscript[s, \[Gamma]]^2*(-1 + Subscript[s, \[Gamma]]^2)*
-              (33*\[Xi]^2 + (-27 - 1347*\[Xi]^2 + 560*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 - 2*(297 - 2610*\[Xi]^2 + 
-                 854*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (759 - 
-                 3441*\[Xi]^2 + 1148*\[Xi]^4)*Subscript[s, \[Gamma]]^6) + 
-             4*Subscript[m, \[Phi]]^8*Subscript[s, \[Gamma]]^2*
-              (8*\[Xi]^2*(-1539 + 3448*\[Xi]^2) - 6*(1215 - 32578*\[Xi]^2 + 
-                 37696*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 81*(585 - 
-                 9436*\[Xi]^2 + 8112*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 108*
-                (747 - 10290*\[Xi]^2 + 7564*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 6 + 162*(258 - 3353*\[Xi]^2 + 2288*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8) - (1 + 4*\[Xi]^2)^3*
-              Subscript[m, K]^6*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^
-               2*(\[Xi]^2*(-399 + 2312*\[Xi]^2) - 3*(771 - 14274*\[Xi]^2 + 
-                 8872*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 3*(7666 - 
-                 67063*\[Xi]^2 + 27768*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
-               (-44115 + 293049*\[Xi]^2 - 99272*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^6 + 3*(7851 - 45311*\[Xi]^2 + 13424*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8) + 3*(1 + 4*\[Xi]^2)^2*
-              Subscript[m, K]^4*Subscript[m, \[Phi]]^4*(-224*\[Xi]^4 + 8*
-                \[Xi]^2*(-703 + 1390*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
-               (-6937 + 127096*\[Xi]^2 - 91360*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^4 + (50639 - 525118*\[Xi]^2 + 261376*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 - 6*(15084 - 125803*\[Xi]^2 + 
-                 51448*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 18*(2626 - 
-                 19831*\[Xi]^2 + 7176*\[Xi]^4)*Subscript[s, \[Gamma]]^10) - 
+               6*(4008*\[Xi]^2 - 8064*\[Xi]^4 + 2*(14913 - 96450*\[Xi]^2 + 
+                 53504*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (-168381 + 
+                 966204*\[Xi]^2 - 420064*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
+               18*(18493 - 103058*\[Xi]^2 + 40432*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 - 27*(10377 - 58276*\[Xi]^2 + 
+                 21792*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 108*
+                (795 - 4590*\[Xi]^2 + 1688*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 10)) + Subscript[c, \[Gamma]]*Subscript[s, \[Gamma]]*
+            ((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*
+              (-1 + Subscript[s, \[Gamma]]^2)*(4*\[Xi]^2*(72 - 55*\[Xi]^2) + 
+               3*(11 - 905*\[Xi]^2 + 849*\[Xi]^4)*Subscript[s, \[Gamma]]^2 - 
+               3*(37 - 2019*\[Xi]^2 + 1078*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4 + (78 - 3447*\[Xi]^2 + 907*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6) - 3*(1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, 
+                \[Phi]]^2*(-1 + Subscript[s, \[Gamma]]^2)*(208*\[Xi]^4 + 
+               (4466*\[Xi]^2 - 7846*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
+               (454 - 30212*\[Xi]^2 + 38760*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4 - 2*(629 - 28280*\[Xi]^2 + 27814*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + (819 - 30951*\[Xi]^2 + 
+                 23834*\[Xi]^4)*Subscript[s, \[Gamma]]^8) + 
+             3*Subscript[m, \[Phi]]^8*(-3840*\[Xi]^4 + 4*\[Xi]^2*
+                (-8955 + 35488*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
+               (-2025 + 260640*\[Xi]^2 - 823232*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^4 + 18*(405 - 35386*\[Xi]^2 + 104288*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 - 27*(315 - 23972*\[Xi]^2 + 
+                 70224*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 108*
+                (30 - 2187*\[Xi]^2 + 6568*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 10) + 3*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, 
+                \[Phi]]^4*(-3256*\[Xi]^4 + (-30754*\[Xi]^2 + 78720*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + (-2382 + 224099*\[Xi]^2 - 
+                 413276*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (8919 - 
+                 546369*\[Xi]^2 + 855000*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 
+               3*(3607 - 183325*\[Xi]^2 + 258728*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^8 + 9*(476 - 21897*\[Xi]^2 + 28852*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^10) - (1 + 4*\[Xi]^2)*Subscript[m, 
+                K]^2*Subscript[m, \[Phi]]^6*(-21552*\[Xi]^4 + 2*\[Xi]^2*
+                (-90693 + 297740*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 2*
+                (5886 - 656373*\[Xi]^2 + 1621268*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^4 + 9*(4821 - 355748*\[Xi]^2 + 781400*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 - 27*(1921 - 120154*\[Xi]^2 + 
+                 250368*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 54*
+                (375 - 21765*\[Xi]^2 + 44584*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 10)) + \[Xi]*Subscript[c, \[Gamma]]^2*
+            ((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*
+              (-1 + Subscript[s, \[Gamma]]^2)*(213*\[Xi]^2 + (153 - 
+                 1737*\[Xi]^2 + 560*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
+               (-579 + 7380*\[Xi]^2 - 1168*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4 + (549 - 4821*\[Xi]^2 + 608*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^6) + 2*Subscript[m, \[Phi]]^8*Subscript[s, 
+                \[Gamma]]^2*(32*\[Xi]^2*(-2367 + 2264*\[Xi]^2) - 6*
+                (4725 - 127676*\[Xi]^2 + 95552*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^2 + 81*(1705 - 30372*\[Xi]^2 + 19904*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 - 216*(957 - 14700*\[Xi]^2 + 
+                 9004*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 81*(1227 - 
+                 17672*\[Xi]^2 + 10592*\[Xi]^4)*Subscript[s, \[Gamma]]^8) - 
+             (1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, \[Phi]]^2*
+              Subscript[s, \[Gamma]]^2*(\[Xi]^2*(-10269 + 3392*\[Xi]^2) - 3*
+                (2831 - 38274*\[Xi]^2 + 11392*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 2 + (40698 - 391029*\[Xi]^2 + 96264*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 + (-61290 + 496149*\[Xi]^2 - 
+                 106112*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 3*(9756 - 
+                 70541*\[Xi]^2 + 13544*\[Xi]^4)*Subscript[s, \[Gamma]]^8) + 
+             3*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^4*
+              (-704*\[Xi]^4 + 2*\[Xi]^2*(-15877 + 9520*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (-17527 + 319056*\[Xi]^2 - 
+                 131680*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 2*(42367 - 
+                 506059*\[Xi]^2 + 171728*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 
+               3*(42713 - 421866*\[Xi]^2 + 127376*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 + 144*(427 - 3802*\[Xi]^2 + 
+                 1067*\[Xi]^4)*Subscript[s, \[Gamma]]^10) - 
              (1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^6*
-              (-2112*\[Xi]^4 + 12*\[Xi]^2*(-5153 + 9800*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + (-45909 + 1030140*\[Xi]^2 - 
-                 907328*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 9*(34247 - 
-                 448144*\[Xi]^2 + 284000*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 
-               108*(4954 - 53505*\[Xi]^2 + 28344*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^8 + 108*(2565 - 25620*\[Xi]^2 + 12256*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^10)) + Subscript[c, \[Gamma]]*
-            Subscript[s, \[Gamma]]*((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*
-              Subscript[s, \[Gamma]]^2*(-1 + Subscript[s, \[Gamma]]^2)*
-              (-(\[Xi]^2*(117 + 400*\[Xi]^2)) + 3*(-9 - 80*\[Xi]^2 + 
-                 889*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (9 + 1692*\[Xi]^2 - 
-                 3069*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 2*
-                (9 - 606*\[Xi]^2 + 401*\[Xi]^4)*Subscript[s, \[Gamma]]^6) - 
-             3*(1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, \[Phi]]^2*
-              (-1 + Subscript[s, \[Gamma]]^2)*(-32*\[Xi]^4 - 2*\[Xi]^2*
-                (347 + 2278*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
-               (-81 - 4267*\[Xi]^2 + 26720*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 - 2*(24 - 8435*\[Xi]^2 + 20284*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + 4*(36 - 3009*\[Xi]^2 + 
-                 4496*\[Xi]^4)*Subscript[s, \[Gamma]]^8) + 
-             3*Subscript[m, \[Phi]]^8*Subscript[s, \[Gamma]]^2*
-              (-6300*\[Xi]^2 + 85312*\[Xi]^4 + (90360*\[Xi]^2 - 
-                 586112*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 9*(135 - 
-                 32152*\[Xi]^2 + 160976*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 
-               54*(45 - 6386*\[Xi]^2 + 28552*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 6 + 27*(45 - 5208*\[Xi]^2 + 22192*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8) + 3*(1 + 4*\[Xi]^2)^2*
-              Subscript[m, K]^4*Subscript[m, \[Phi]]^4*(-96*\[Xi]^4 + \[Xi]^2*
-                (-939 + 39340*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
-               (153 + 48359*\[Xi]^2 - 259196*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 + (594 - 179829*\[Xi]^2 + 590560*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 - 3*(582 - 74565*\[Xi]^2 + 
-                 189008*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 9*(111 - 
-                 10152*\[Xi]^2 + 21892*\[Xi]^4)*Subscript[s, \[Gamma]]^10) - 
-             (1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^6*
-              (-1392*\[Xi]^4 + (-21906*\[Xi]^2 + 326680*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 + (243 + 382146*\[Xi]^2 - 
-                 2160616*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 144*
-                (36 - 8858*\[Xi]^2 + 35605*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 6 - 54*(213 - 28517*\[Xi]^2 + 96524*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 + 27*(225 - 23190*\[Xi]^2 + 
-                 71528*\[Xi]^4)*Subscript[s, \[Gamma]]^10))))/
+              (-5952*\[Xi]^4 + 12*\[Xi]^2*(-18993 + 15560*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (-98739 + 2251740*\[Xi]^2 - 
+                 1270208*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 9*(53437 - 
+                 789184*\[Xi]^2 + 371200*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 
+               27*(26911 - 332260*\[Xi]^2 + 141376*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 + 27*(12915 - 146280*\[Xi]^2 + 
+                 59104*\[Xi]^4)*Subscript[s, \[Gamma]]^10))))/
          (12*(\[Xi] + 4*\[Xi]^3)^4*Subscript[m, K]^10*Subscript[v, EW]^3) + 
-        ((1 + 4*\[Xi]^2)*h^2*Subscript[s, \[Gamma]]*
+        ((1 + 4*\[Xi]^2)*QuantumField[h]^2*Subscript[s, \[Gamma]]*
           (-8*\[Xi]*Subscript[c, \[Gamma]]^6*((1 + 4*\[Xi]^2)*
               Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)*
             ((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)^2*
@@ -4748,7 +4801,7 @@
                  1352*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 3*(63 - 
                  1658*\[Xi]^2 + 568*\[Xi]^4)*Subscript[s, \[Gamma]]^8))))/
          (4*(\[Xi] + 4*\[Xi]^3)^3*Subscript[m, K]^8*Subscript[v, EW]^2) + 
-        (Sqrt[1 + 4*\[Xi]^2]*h*Subscript[s, \[Gamma]]*
+        (Sqrt[1 + 4*\[Xi]^2]*QuantumField[h]*Subscript[s, \[Gamma]]*
           (-4*\[Xi]*Subscript[c, \[Gamma]]^4*(2*(1 + 4*\[Xi]^2)^2*
               Subscript[m, K]^4 - 9*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*
               Subscript[m, \[Phi]]^2 + 9*Subscript[m, \[Phi]]^4)*
@@ -4791,499 +4844,503 @@
            (Subscript[m, \[Phi]]^2*(-4*\[Xi] - 3*Subscript[c, \[Gamma]]*
                Subscript[s, \[Gamma]] + 6*\[Xi]*Subscript[s, \[Gamma]]^2))/
             (1 + 4*\[Xi]^2)))/Subscript[m, K]^4 + 
-        (h^4*Subscript[s, \[Gamma]]*(24*Subscript[c, \[Gamma]]^10*
-            ((1 + 4*\[Xi]^2)*Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)*
-            ((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)^4*
-            Subscript[s, \[Gamma]]^5 - 24*\[Xi]*Subscript[c, \[Gamma]]^9*
-            ((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)^3*
-            Subscript[s, \[Gamma]]^4*(18*Subscript[m, \[Phi]]^4*
-              (-5 + 14*Subscript[s, \[Gamma]]^2) + 2*(1 + 4*\[Xi]^2)^2*
-              Subscript[m, K]^4*(-1 + 14*Subscript[s, \[Gamma]]^2) - 
-             (1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^2*
-              (-37 + 171*Subscript[s, \[Gamma]]^2)) + 
-           8*Subscript[c, \[Gamma]]^8*((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 
-              3*Subscript[m, \[Phi]]^2)^2*Subscript[s, \[Gamma]]^3*
-            ((1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[s, \[Gamma]]^2*
-              (39 - 66*\[Xi]^2 + (-58 + 462*\[Xi]^2)*Subscript[s, \[Gamma]]^
-                 2) - 18*Subscript[m, \[Phi]]^6*(94*\[Xi]^2 - 9*
-                (-3 + 58*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 6*
-                (-7 + 120*\[Xi]^2)*Subscript[s, \[Gamma]]^4) - 
-             3*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^2*
-              (40*\[Xi]^2 + (111 - 545*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 3*
-                (-54 + 491*\[Xi]^2)*Subscript[s, \[Gamma]]^4) + 
-             3*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^4*
-              (304*\[Xi]^2 + (252 - 2460*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
-               9*(-41 + 494*\[Xi]^2)*Subscript[s, \[Gamma]]^4)) - 
+        (QuantumField[h]^4*Subscript[s, \[Gamma]]*
+          (24*Subscript[c, \[Gamma]]^10*((1 + 4*\[Xi]^2)*Subscript[m, K]^2 - 
+             3*Subscript[m, \[Phi]]^2)*((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 
+              3*Subscript[m, \[Phi]]^2)^4*Subscript[s, \[Gamma]]^5 - 
+           24*\[Xi]*Subscript[c, \[Gamma]]^9*((2 + 8*\[Xi]^2)*Subscript[m, K]^
+                2 - 3*Subscript[m, \[Phi]]^2)^3*Subscript[s, \[Gamma]]^4*
+            (2*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*(-1 + 39*
+                Subscript[s, \[Gamma]]^2) + 6*Subscript[m, \[Phi]]^4*
+              (-40 + 117*Subscript[s, \[Gamma]]^2) - 3*(1 + 4*\[Xi]^2)*
+              Subscript[m, K]^2*Subscript[m, \[Phi]]^2*(-29 + 157*
+                Subscript[s, \[Gamma]]^2)) + 2*Subscript[c, \[Gamma]]^8*
+            ((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)^2*
+            Subscript[s, \[Gamma]]^3*((1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*
+              Subscript[s, \[Gamma]]^2*(381 - 264*\[Xi]^2 + (-457 + 
+                 5448*\[Xi]^2)*Subscript[s, \[Gamma]]^2) + 3*(1 + 4*\[Xi]^2)*
+              Subscript[m, K]^2*Subscript[m, \[Phi]]^4*(2416*\[Xi]^2 - 3*
+                (-711 + 8080*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 153*
+                (-17 + 328*\[Xi]^2)*Subscript[s, \[Gamma]]^4) - 
+             9*Subscript[m, \[Phi]]^6*(1952*\[Xi]^2 - 9*(-49 + 1264*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + 3*(-187 + 5520*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^4) - 3*(1 + 4*\[Xi]^2)^2*
+              Subscript[m, K]^4*Subscript[m, \[Phi]]^2*(160*\[Xi]^2 + 
+               (969 - 4580*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 3*
+                (-391 + 5564*\[Xi]^2)*Subscript[s, \[Gamma]]^4)) - 
            2*\[Xi]*Subscript[c, \[Gamma]]^7*((2 + 8*\[Xi]^2)*Subscript[m, 
                 K]^2 - 3*Subscript[m, \[Phi]]^2)*Subscript[s, \[Gamma]]^2*
-            (4*(1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*
-              (-105 + (285 - 324*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 2*
-                (-329 + 534*\[Xi]^2)*Subscript[s, \[Gamma]]^4) - 
-             (1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, \[Phi]]^2*
-              Subscript[s, \[Gamma]]^2*(6*(-973 + 792*\[Xi]^2) - 4*
-                (-6265 + 8766*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
-               (-38253 + 59688*\[Xi]^2)*Subscript[s, \[Gamma]]^4) + 
-             9*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^4*
-              (-384*\[Xi]^2 + (-2958 + 5944*\[Xi]^2)*Subscript[s, \[Gamma]]^
-                 2 - 8*(-1717 + 3168*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 9*
-                (-2033 + 3512*\[Xi]^2)*Subscript[s, \[Gamma]]^6) + 
-             9*Subscript[m, \[Phi]]^8*(-2336*\[Xi]^2 + 108*(-27 + 
-                 176*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 24*(-599 + 
-                 2124*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 9*(-2047 + 
-                 4992*\[Xi]^2)*Subscript[s, \[Gamma]]^6) - 3*(1 + 4*\[Xi]^2)*
-              Subscript[m, K]^2*Subscript[m, \[Phi]]^6*(-5408*\[Xi]^2 + 72*
-                (-215 + 788*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 144*
-                (-509 + 1281*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 9*
-                (-10333 + 20976*\[Xi]^2)*Subscript[s, \[Gamma]]^6)) + 
-           Subscript[c, \[Gamma]]^6*Subscript[s, \[Gamma]]*
-            ((1 + 4*\[Xi]^2)^5*Subscript[m, K]^10*Subscript[s, \[Gamma]]^2*
-              (432*\[Xi]^2 - 3*(55 + 2848*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 
-               2*(823 - 8088*\[Xi]^2 + 2784*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 + (2339 - 21200*\[Xi]^2 + 9408*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6) - (1 + 4*\[Xi]^2)^4*
-              Subscript[m, K]^8*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^
-               2*(20448*\[Xi]^2 + 3*(2631 - 65176*\[Xi]^2 + 9600*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 - 2*(21669 - 246110*\[Xi]^2 + 
-                 80592*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 3*(14505 - 
-                 163708*\[Xi]^2 + 61920*\[Xi]^4)*Subscript[s, \[Gamma]]^6) + 
+            (2*(1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*
+              (-510 + (900 - 1248*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
+               (-1961 + 6336*\[Xi]^2)*Subscript[s, \[Gamma]]^4) - 
+             2*(1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, \[Phi]]^2*
+              Subscript[s, \[Gamma]]^2*(-6849 + 5376*\[Xi]^2 + (25850 - 
+                 43632*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (-34539 + 
+                 86544*\[Xi]^2)*Subscript[s, \[Gamma]]^4) - 6*(1 + 4*\[Xi]^2)*
+              Subscript[m, K]^2*Subscript[m, \[Phi]]^6*(-6704*\[Xi]^2 + 3*
+                (-6335 + 24656*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 144*
+                (-562 + 1753*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 36*
+                (-2411 + 7572*\[Xi]^2)*Subscript[s, \[Gamma]]^6) + 
+             27*Subscript[m, \[Phi]]^8*(-2112*\[Xi]^2 + 16*(-147 + 
+                 1096*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (10162 - 
+                 48192*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 3*(-3577 + 
+                 14592*\[Xi]^2)*Subscript[s, \[Gamma]]^6) + 
+             3*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^4*
+              (-2752*\[Xi]^2 + 8*(-2683 + 5504*\[Xi]^2)*Subscript[s, 
+                  \[Gamma]]^2 + (90618 - 200832*\[Xi]^2)*Subscript[s, 
+                  \[Gamma]]^4 + 9*(-11569 + 30336*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^6)) + Subscript[c, \[Gamma]]^6*
+            Subscript[s, \[Gamma]]*(2*(1 + 4*\[Xi]^2)^5*Subscript[m, K]^10*
+              Subscript[s, \[Gamma]]^2*(216*\[Xi]^2 - 6*(85 + 1582*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (-373 + 2808*\[Xi]^2 - 
+                 7584*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (1147 - 
+                 5950*\[Xi]^2 + 14304*\[Xi]^4)*Subscript[s, \[Gamma]]^6) + 
              (1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, \[Phi]]^4*
-              Subscript[s, \[Gamma]]^2*(36*\[Xi]^2*(4669 - 1136*\[Xi]^2) + 2*
-                (29871 - 694426*\[Xi]^2 + 217728*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^2 - 6*(41646 - 602039*\[Xi]^2 + 229536*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 + 9*(25963 - 364034*\[Xi]^2 + 
-                 140736*\[Xi]^4)*Subscript[s, \[Gamma]]^6) - 
-             27*Subscript[m, \[Phi]]^10*(2560*\[Xi]^4 - 16*\[Xi]^2*
-                (-723 + 1720*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
-               (2403 - 97472*\[Xi]^2 + 109440*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 - 6*(1491 - 43916*\[Xi]^2 + 31680*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + 18*(515 - 12562*\[Xi]^2 + 
-                 6720*\[Xi]^4)*Subscript[s, \[Gamma]]^8) + 3*(1 + 4*\[Xi]^2)*
-              Subscript[m, K]^2*Subscript[m, \[Phi]]^8*(22912*\[Xi]^4 - 576*
-                \[Xi]^2*(-391 + 526*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 9*
-                (6141 - 202120*\[Xi]^2 + 157248*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^4 - 18*(11463 - 266915*\[Xi]^2 + 154752*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + 54*(3687 - 76061*\[Xi]^2 + 
-                 36000*\[Xi]^4)*Subscript[s, \[Gamma]]^8) - 
-             3*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^6*
-              (5888*\[Xi]^4 - 16*\[Xi]^2*(-10785 + 7342*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + 6*(8505 - 229808*\[Xi]^2 + 
-                 118896*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 36*(5445 - 
-                 100150*\[Xi]^2 + 46728*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 9*
-                (20285 - 347852*\[Xi]^2 + 146784*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^8)) - \[Xi]*Subscript[c, \[Gamma]]^5*
-            ((1 + 4*\[Xi]^2)^5*Subscript[m, K]^10*Subscript[s, \[Gamma]]^4*
-              (-177 + 1616*\[Xi]^2 + (2711 - 15786*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + (-8221 + 34152*\[Xi]^2 - 
-                 2112*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (9135 - 
-                 26078*\[Xi]^2 + 2112*\[Xi]^4)*Subscript[s, \[Gamma]]^6) - 
-             2*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^6*
-              Subscript[s, \[Gamma]]^2*(12*\[Xi]^2*(-11611 + 1000*\[Xi]^2) - 
-               2*(103725 - 956471*\[Xi]^2 + 77856*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 + 9*(183731 - 987745*\[Xi]^2 + 
-                 77760*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 27*(145158 - 
-                 614065*\[Xi]^2 + 47808*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
-               54*(53103 - 196285*\[Xi]^2 + 14928*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8) - (1 + 4*\[Xi]^2)^4*
-              Subscript[m, K]^8*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^
-               2*(-3456*\[Xi]^2 + 12*(-1383 + 6830*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + (138788 - 509337*\[Xi]^2 + 
-                 13632*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 3*(115127 - 
-                 359924*\[Xi]^2 + 20992*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 3*
-                (92235 - 253217*\[Xi]^2 + 17856*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^8) + 3*(1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*
-              Subscript[m, \[Phi]]^4*Subscript[s, \[Gamma]]^2*
-              (-18960*\[Xi]^2 + (-45894 + 308492*\[Xi]^2 - 9408*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 + (367316 - 1580629*\[Xi]^2 + 
-                 79424*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (-878756 + 
-                 3103986*\[Xi]^2 - 202176*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
-               3*(218954 - 685391*\[Xi]^2 + 48576*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8) - 6*Subscript[m, \[Phi]]^10*
-              (-2560*\[Xi]^4 + 288*\[Xi]^2*(-157 + 120*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 - 6*(6453 - 102800*\[Xi]^2 + 
-                 30720*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 54*(5983 - 
-                 51508*\[Xi]^2 + 8960*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 27*
-                (29623 - 187428*\[Xi]^2 + 23040*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^8 + 81*(7411 - 39344*\[Xi]^2 + 3840*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^10) + 3*(1 + 4*\[Xi]^2)*
-              Subscript[m, K]^2*Subscript[m, \[Phi]]^8*(-2432*\[Xi]^4 + 16*
-                \[Xi]^2*(-10191 + 3112*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
-               (-174051 + 2137640*\[Xi]^2 - 351360*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 + 9*(156649 - 1064016*\[Xi]^2 + 
-                 125568*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 216*
-                (15658 - 80739*\[Xi]^2 + 7808*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 8 + 108*(23001 - 101656*\[Xi]^2 + 8640*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^10)) + Subscript[c, \[Gamma]]^4*
-            Subscript[s, \[Gamma]]*(-((1 + 4*\[Xi]^2)^5*Subscript[m, K]^10*
-               Subscript[s, \[Gamma]]^2*(-411*\[Xi]^2 + (906 + 2214*\[Xi]^2 - 
-                  2902*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
-                (-1483 - 19284*\[Xi]^2 + 17100*\[Xi]^4)*Subscript[s, 
-                   \[Gamma]]^4 + (-794 + 39952*\[Xi]^2 - 32046*\[Xi]^4)*
-                 Subscript[s, \[Gamma]]^6 + (1451 - 24619*\[Xi]^2 + 
-                  17848*\[Xi]^4)*Subscript[s, \[Gamma]]^8)) + 
+              Subscript[s, \[Gamma]]^2*(-7956*\[Xi]^2*(-39 + 16*\[Xi]^2) + 32*
+                (2781 - 75901*\[Xi]^2 + 41808*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 2 - 6*(59526 - 914339*\[Xi]^2 + 704736*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 + 9*(34633 - 543674*\[Xi]^2 + 
+                 438336*\[Xi]^4)*Subscript[s, \[Gamma]]^6) - 
              (1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[m, \[Phi]]^2*
-              Subscript[s, \[Gamma]]^2*(\[Xi]^2*(-5415 + 12352*\[Xi]^2) + 
-               (9552 + 129917*\[Xi]^2 - 159027*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^2 + (1692 - 723604*\[Xi]^2 + 672891*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 + (-52290 + 1327562*\[Xi]^2 - 
-                 1094413*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + (43590 - 
-                 773664*\[Xi]^2 + 588789*\[Xi]^4)*Subscript[s, \[Gamma]]^8) + 
-             3*Subscript[m, \[Phi]]^10*(-29952*\[Xi]^4 + 16*\[Xi]^2*
-                (-6291 + 48488*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 24*
-                (405 - 67563*\[Xi]^2 + 228760*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 + 9*(14175 - 790156*\[Xi]^2 + 1814592*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 - 27*(10257 - 433928*\[Xi]^2 + 
-                 803728*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 81*(2087 - 
-                 79608*\[Xi]^2 + 131296*\[Xi]^4)*Subscript[s, \[Gamma]]^10) - 
-             2*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^8*
-              (-71184*\[Xi]^4 + 8*\[Xi]^2*(-35991 + 201262*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 - 9*(2547 - 503432*\[Xi]^2 + 
-                 1267696*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 108*
-                (3723 - 181689*\[Xi]^2 + 320330*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^6 - 27*(33759 - 1189045*\[Xi]^2 + 1723972*
-                  \[Xi]^4)*Subscript[s, \[Gamma]]^8 + 81*(7013 - 
-                 216658*\[Xi]^2 + 282264*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 10) - (1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, 
-                \[Phi]]^4*(-8208*\[Xi]^4 + 3*\[Xi]^2*(-26989 + 81772*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 - 6*(-3474 - 248915*\[Xi]^2 + 
-                 360507*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (139275 - 
-                 6968266*\[Xi]^2 + 7667196*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 6 - 6*(76755 - 1977424*\[Xi]^2 + 1886707*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 + 9*(35477 - 737085*\[Xi]^2 + 
-                 646460*\[Xi]^4)*Subscript[s, \[Gamma]]^10) + 
-             (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^6*
-              (-60864*\[Xi]^4 + 3*\[Xi]^2*(-119961 + 481736*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + (-4968 + 5818761*\[Xi]^2 - 
-                 10955164*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 27*
-                (20981 - 945155*\[Xi]^2 + 1299680*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 - 27*(52661 - 1558488*\[Xi]^2 + 
-                 1807408*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 27*
-                (33941 - 854977*\[Xi]^2 + 901076*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^10)) + \[Xi]*Subscript[c, \[Gamma]]^3*
-            (-2*Subscript[m, \[Phi]]^10*Subscript[s, \[Gamma]]^2*
-              (32*\[Xi]^2*(2241 - 9920*\[Xi]^2) + 12*(3807 - 240252*\[Xi]^2 + 
-                 292928*\[Xi]^4)*Subscript[s, \[Gamma]]^2 - 9*(153819 - 
-                 2229320*\[Xi]^2 + 1667584*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 + 27*(202017 - 2003292*\[Xi]^2 + 1144640*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 - 324*(22495 - 195459*\[Xi]^2 + 
-                 95152*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 4860*
-                (661 - 5537*\[Xi]^2 + 2464*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 10) + (1 + 4*\[Xi]^2)^5*Subscript[m, K]^10*Subscript[s, 
-                \[Gamma]]^2*(69*\[Xi]^2 - (1278 + 2231*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + (-71 + 14714*\[Xi]^2 - 
-                 2789*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (14332 - 
-                 46299*\[Xi]^2 + 10299*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
-               (-23542 + 61121*\[Xi]^2 - 12231*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^8 + (10631 - 27374*\[Xi]^2 + 4721*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^10) - (1 + 4*\[Xi]^2)^4*
-              Subscript[m, K]^8*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^
-               2*(3522*\[Xi]^2 + (-14898 - 89529*\[Xi]^2 + 17026*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 + (-47321 + 642765*\[Xi]^2 - 
-                 159402*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (408959 - 
-                 1891719*\[Xi]^2 + 445104*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
-               (-658052 + 2352453*\[Xi]^2 - 490714*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 + 6*(52383 - 171192*\[Xi]^2 + 
-                 31331*\[Xi]^4)*Subscript[s, \[Gamma]]^10) + 
-             (1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, \[Phi]]^4*
-              Subscript[s, \[Gamma]]^2*(36891*\[Xi]^2 - 24344*\[Xi]^4 + 6*
-                (-4947 - 184401*\[Xi]^2 + 74170*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^2 - 3*(260270 - 2610949*\[Xi]^2 + 851892*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 + (3965052 - 21877398*\[Xi]^2 + 
-                 6056768*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 24*(244729 - 
-                 1088688*\[Xi]^2 + 262964*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 
-               18*(152612 - 618857*\[Xi]^2 + 133492*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^10) + (1 + 4*\[Xi]^2)*Subscript[m, 
-                K]^2*Subscript[m, \[Phi]]^8*(8064*\[Xi]^4 - 144*\[Xi]^2*
-                (-1765 + 5232*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 4*
-                (36828 - 2328345*\[Xi]^2 + 2081200*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 + (-5223717 + 64396296*\[Xi]^2 - 
-                 36407280*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 108*
-                (197357 - 1605321*\[Xi]^2 + 702408*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 - 27*(1082729 - 7493196*\[Xi]^2 + 
-                 2793536*\[Xi]^4)*Subscript[s, \[Gamma]]^10 + 648*
-                (20283 - 131895*\[Xi]^2 + 44464*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^12) - (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*
-              Subscript[m, \[Phi]]^6*(3168*\[Xi]^4 + (154908*\[Xi]^2 - 
-                 260016*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (42354 - 
-                 5095628*\[Xi]^2 + 3208536*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 + (-3305691 + 35329490*\[Xi]^2 - 15190736*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + 9*(1598291 - 10664492*\[Xi]^2 + 
-                 3662648*\[Xi]^4)*Subscript[s, \[Gamma]]^8 - 54*(376707 - 
-                 2083465*\[Xi]^2 + 614716*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 10 + 108*(86294 - 439867*\[Xi]^2 + 116632*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^12)) + Subscript[c, \[Gamma]]^2*
-            Subscript[s, \[Gamma]]*((1 + 4*\[Xi]^2)^5*Subscript[m, K]^10*
-              Subscript[s, \[Gamma]]^2*(-1 + Subscript[s, \[Gamma]]^2)*
-              (414*\[Xi]^2 + 260*\[Xi]^4 + (6 + 1533*\[Xi]^2 - 4823*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 + (690 - 17103*\[Xi]^2 + 
-                 20305*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (-2076 + 
-                 29370*\[Xi]^2 - 26149*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 3*
-                (460 - 4688*\[Xi]^2 + 3469*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 8) - 3*Subscript[m, \[Phi]]^10*Subscript[s, \[Gamma]]^2*
-              (22032*\[Xi]^2 - 975232*\[Xi]^4 + 256*\[Xi]^2*(-7020 + 
-                 38477*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 3*(44469 - 
-                 3579516*\[Xi]^2 + 12531680*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 + 54*(7803 - 441480*\[Xi]^2 + 1272016*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 - 27*(16389 - 847500*\[Xi]^2 + 
-                 2242672*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 324*
-                (477 - 24792*\[Xi]^2 + 63892*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 10) - (1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[m, 
-                \[Phi]]^2*(264*\[Xi]^4 - 2*\[Xi]^2*(3438 + 11731*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + 6*(-557 - 12265*\[Xi]^2 + 
-                 48423*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 3*(2277 - 
-                 231510*\[Xi]^2 + 402754*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
-               (56601 - 1720986*\[Xi]^2 + 2179910*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 - 3*(26921 - 568432*\[Xi]^2 + 
-                 594388*\[Xi]^4)*Subscript[s, \[Gamma]]^10 + 9*(3815 - 
-                 66534*\[Xi]^2 + 60464*\[Xi]^4)*Subscript[s, \[Gamma]]^12) - 
-             (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^6*
-              (10104*\[Xi]^4 - 4*\[Xi]^2*(816 + 542483*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + (-29538 - 5336265*\[Xi]^2 + 
-                 21866428*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 6*
-                (79002 - 5754991*\[Xi]^2 + 13754706*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + 9*(210105 - 8806219*\[Xi]^2 + 
-                 16285204*\[Xi]^4)*Subscript[s, \[Gamma]]^8 - 27*
-                (83803 - 2874308*\[Xi]^2 + 4587344*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^10 + 486*(1801 - 56769*\[Xi]^2 + 
-                 82744*\[Xi]^4)*Subscript[s, \[Gamma]]^12) + 
+              Subscript[s, \[Gamma]]^2*(36288*\[Xi]^2 + 18*(441 - 
+                 19466*\[Xi]^2 + 4800*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
+               (-54363 + 623860*\[Xi]^2 - 482784*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^4 + (54495 - 629634*\[Xi]^2 + 574560*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6) - 9*Subscript[m, \[Phi]]^10*
+              (23680*\[Xi]^4 + (68184*\[Xi]^2 - 255360*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + 6*(2079 - 86596*\[Xi]^2 + 
+                 169920*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 9*(4377 - 
+                 142432*\[Xi]^2 + 197760*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
+               108*(325 - 9371*\[Xi]^2 + 10560*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^8) + 3*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*
+              Subscript[m, \[Phi]]^8*(70912*\[Xi]^4 + (445416*\[Xi]^2 - 
+                 936576*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 36*(2619 - 
+                 91495*\[Xi]^2 + 121712*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 
+               18*(17163 - 443315*\[Xi]^2 + 481152*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + 27*(9729 - 236842*\[Xi]^2 + 
+                 225600*\[Xi]^4)*Subscript[s, \[Gamma]]^8) - 
+             3*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^6*
+              (18688*\[Xi]^4 - 8*\[Xi]^2*(-41585 + 45684*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + 12*(6975 - 205739*\[Xi]^2 + 
+                 183848*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 36*(8115 - 
+                 163440*\[Xi]^2 + 144728*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
+               9*(27335 - 544382*\[Xi]^2 + 458784*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8)) + \[Xi]*Subscript[c, \[Gamma]]^5*
+            (-((1 + 4*\[Xi]^2)^5*Subscript[m, K]^10*Subscript[s, \[Gamma]]^4*(
+                7*(99 + 488*\[Xi]^2) - (10789 + 26946*\[Xi]^2)*
+                 Subscript[s, \[Gamma]]^2 + (18164 + 21552*\[Xi]^2 - 
+                  6912*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
+                2*(-2175 - 5449*\[Xi]^2 + 3456*\[Xi]^4)*Subscript[s, 
+                   \[Gamma]]^6)) + (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*
+              Subscript[m, \[Phi]]^6*Subscript[s, \[Gamma]]^2*
+              (12*\[Xi]^2*(-60587 + 7200*\[Xi]^2) + (-663435 + 8413124*
+                  \[Xi]^2 - 1108224*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 18*
+                (254106 - 1889405*\[Xi]^2 + 274560*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 - 54*(190113 - 1049575*\[Xi]^2 + 
+                 167808*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 108*
+                (66693 - 314275*\[Xi]^2 + 52128*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^8) + (1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*
+              Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^2*
+              (-8856*\[Xi]^2 + 3*(-3907 + 57900*\[Xi]^2)*Subscript[s, 
+                  \[Gamma]]^2 + (52478 - 895317*\[Xi]^2 + 47232*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 - 9*(23139 - 166088*\[Xi]^2 + 
+                 24064*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 3*(76155 - 
+                 326837*\[Xi]^2 + 61056*\[Xi]^4)*Subscript[s, \[Gamma]]^8) - 
+             3*(1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, \[Phi]]^4*
+              Subscript[s, \[Gamma]]^2*(-50420*\[Xi]^2 + (-59579 + 
+                 679732*\[Xi]^2 - 33408*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
+               (403066 - 2971869*\[Xi]^2 + 279424*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 + (-988976 + 5071386*\[Xi]^2 - 
+                 706176*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + (757212 - 
+                 3159933*\[Xi]^2 + 505728*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 8) + 6*Subscript[m, \[Phi]]^10*(-8960*\[Xi]^4 + 288*\[Xi]^2*
+                (-377 + 420*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 6*
+                (11853 - 206300*\[Xi]^2 + 107520*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^4 + 216*(2257 - 22797*\[Xi]^2 + 7840*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 - 27*(39103 - 301068*\[Xi]^2 + 
+                 80640*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 81*(8941 - 
+                 58544*\[Xi]^2 + 13440*\[Xi]^4)*Subscript[s, \[Gamma]]^10) - 
+             3*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^8*
+              (-8832*\[Xi]^4 + 16*\[Xi]^2*(-25901 + 11112*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 - 4*(76689 - 1143620*\[Xi]^2 + 
+                 311040*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 9*(234239 - 
+                 1996336*\[Xi]^2 + 442368*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 
+               81*(56543 - 364344*\[Xi]^2 + 73088*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 + 27*(115779 - 640264*\[Xi]^2 + 
+                 120960*\[Xi]^4)*Subscript[s, \[Gamma]]^10)) + 
+           Subscript[c, \[Gamma]]^4*Subscript[s, \[Gamma]]*
+            (-2*(1 + 4*\[Xi]^2)^5*Subscript[m, K]^10*Subscript[s, \[Gamma]]^2*
+              (-903*\[Xi]^2 + (-12 + 1797*\[Xi]^2 - 2846*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + (451 - 13092*\[Xi]^2 + 
+                 9585*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (-1387 + 
+                 21311*\[Xi]^2 - 12978*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
+               (988 - 10682*\[Xi]^2 + 6239*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 8) + (1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[m, 
+                \[Phi]]^2*Subscript[s, \[Gamma]]^2*(8*\[Xi]^2*(-8280 + 
+                 3839*\[Xi]^2) + (-26868 + 541487*\[Xi]^2 - 309417*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + (121017 - 1765999*\[Xi]^2 + 
+                 1065291*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (-182895 + 
+                 2354537*\[Xi]^2 - 1565383*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6 + 3*(30430 - 375788*\[Xi]^2 + 272583*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8) + 3*Subscript[m, \[Phi]]^10*
+              (-95232*\[Xi]^4 + 16*\[Xi]^2*(-27351 + 107528*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 - 12*(7695 - 342306*\[Xi]^2 + 
+                 865520*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 18*(21195 - 
+                 740198*\[Xi]^2 + 1554096*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 
+               27*(19887 - 670268*\[Xi]^2 + 1279888*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 + 162*(1591 - 54114*\[Xi]^2 + 
+                 98528*\[Xi]^4)*Subscript[s, \[Gamma]]^10) - 
              (1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^8*
-              (5760*\[Xi]^4 - 8*\[Xi]^2*(-9747 + 551632*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + 6*(-2592 - 1558521*\[Xi]^2 + 
-                 7365736*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 162*
-                (4694 - 354993*\[Xi]^2 + 1028916*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^6 + 54*(49080 - 2399841*\[Xi]^2 + 5540084*
-                  \[Xi]^4)*Subscript[s, \[Gamma]]^8 - 81*(36595 - 
-                 1552812*\[Xi]^2 + 3182408*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 10 + 243*(4485 - 183238*\[Xi]^2 + 353264*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^12) + 3*(1 + 4*\[Xi]^2)^3*
-              Subscript[m, K]^6*Subscript[m, \[Phi]]^4*(920*\[Xi]^4 - 2*
-                \[Xi]^2*(4389 + 66049*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 6*
-                (-989 - 62901*\[Xi]^2 + 234461*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^4 - 3*(11744 - 907129*\[Xi]^2 + 1816032*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + (178998 - 6429983*\[Xi]^2 + 
-                 9685454*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + (-232332 + 
-                 6347991*\[Xi]^2 - 8060858*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 10 + 3*(31512 - 752025*\[Xi]^2 + 850472*\[Xi]^4)*
+              (-474048*\[Xi]^4 + 26*\[Xi]^2*(-108801 + 303392*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 - 36*(18981 - 716531*\[Xi]^2 + 
+                 1305808*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 27*(105969 - 
+                 3021422*\[Xi]^2 + 4716800*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6 - 27*(149433 - 4023230*\[Xi]^2 + 5869784*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 + 162*(11903 - 319498*\[Xi]^2 + 
+                 454224*\[Xi]^4)*Subscript[s, \[Gamma]]^10) - 
+             (1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, \[Phi]]^4*
+              (-28008*\[Xi]^4 + 12*\[Xi]^2*(-52941 + 52628*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 - 6*(36126 - 922165*\[Xi]^2 + 
+                 757357*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (937755 - 
+                 17158306*\[Xi]^2 + 13994076*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6 - 3*(451665 - 7480358*\[Xi]^2 + 6352394*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 + 18*(36271 - 588990*\[Xi]^2 + 
+                 523540*\[Xi]^4)*Subscript[s, \[Gamma]]^10) + 
+             (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^6*
+              (-204024*\[Xi]^4 + 12*\[Xi]^2*(-175589 + 306714*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (-597888 + 18755841*\[Xi]^2 - 
+                 23318524*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 9*(282153 - 
+                 6478570*\[Xi]^2 + 7354560*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6 - 27*(133666 - 2838013*\[Xi]^2 + 3152528*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 + 27*(63836 - 1341067*\[Xi]^2 + 
+                 1497236*\[Xi]^4)*Subscript[s, \[Gamma]]^10)) + 
+           \[Xi]*Subscript[c, \[Gamma]]^3*((1 + 4*\[Xi]^2)^5*Subscript[m, 
+                K]^10*Subscript[s, \[Gamma]]^2*(159*\[Xi]^2 - 
+               (3 + 2861*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (-16046 + 
+                 16169*\[Xi]^2 - 2789*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
+               (51667 - 55824*\[Xi]^2 + 8529*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6 + (-55252 + 74816*\[Xi]^2 - 8691*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 + (19706 - 32459*\[Xi]^2 + 
+                 2951*\[Xi]^4)*Subscript[s, \[Gamma]]^10) - 
+             2*Subscript[m, \[Phi]]^10*Subscript[s, \[Gamma]]^2*
+              (443232*\[Xi]^2 - 474880*\[Xi]^4 + 6*(75249 - 1167024*\[Xi]^2 + 
+                 854656*\[Xi]^4)*Subscript[s, \[Gamma]]^2 - 9*(400869 - 
+                 4055480*\[Xi]^2 + 2375104*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4 + 27*(360237 - 3121932*\[Xi]^2 + 1592960*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 - 162*(66575 - 550878*\[Xi]^2 + 
+                 258944*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 2430*
+                (1751 - 14530*\[Xi]^2 + 6560*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 10) - (1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[m, 
+                \[Phi]]^2*Subscript[s, \[Gamma]]^2*(14187*\[Xi]^2 + 
+               (63147 - 234624*\[Xi]^2 + 24226*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^2 - 2*(270283 - 649335*\[Xi]^2 + 106881*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 + (1406219 - 3266064*\[Xi]^2 + 
+                 566304*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + (-1488782 + 
+                 3661023*\[Xi]^2 - 600394*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 
+               6*(93918 - 247812*\[Xi]^2 + 37271*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^10) + (1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*
+              Subscript[m, \[Phi]]^4*Subscript[s, \[Gamma]]^2*
+              (32*\[Xi]^2*(6543 - 1402*\[Xi]^2) + (566643 - 3254331*\[Xi]^2 + 
+                 725820*\[Xi]^4)*Subscript[s, \[Gamma]]^2 - 3*(1419820 - 
+                 5701559*\[Xi]^2 + 1298092*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4 + 2*(5465181 - 20099874*\[Xi]^2 + 4422604*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 - 3*(3934532 - 14321469*\[Xi]^2 + 
+                 2994352*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 9*(510859 - 
+                 1888549*\[Xi]^2 + 374984*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 10) + (1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^
+               8*(33024*\[Xi]^4 - 144*\[Xi]^2*(-11335 + 9612*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + 16*(130977 - 1555395*\[Xi]^2 + 
+                 841300*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 6*(2686077 - 
+                 21267216*\[Xi]^2 + 9241880*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6 + 27*(1584623 - 10807764*\[Xi]^2 + 4119872*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 - 27*(1754279 - 11347356*\[Xi]^2 + 
+                 3986816*\[Xi]^4)*Subscript[s, \[Gamma]]^10 + 162*
+                (115737 - 742080*\[Xi]^2 + 248896*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^12) - (1 + 4*\[Xi]^2)^2*
+              Subscript[m, K]^4*Subscript[m, \[Phi]]^6*(13248*\[Xi]^4 + 
+               (977808*\[Xi]^2 - 513696*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
+               (1706049 - 14678288*\[Xi]^2 + 5404296*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 - 2*(6385248 - 37541545*\[Xi]^2 + 
+                 11889688*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 9*(3697841 - 
+                 19113002*\[Xi]^2 + 5492728*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 8 - 54*(676292 - 3346085*\[Xi]^2 + 897556*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^10 + 54*(266788 - 1310849*\[Xi]^2 + 
+                 335384*\[Xi]^4)*Subscript[s, \[Gamma]]^12)) + 
+           Subscript[c, \[Gamma]]^2*Subscript[s, \[Gamma]]*
+            ((1 + 4*\[Xi]^2)^5*Subscript[m, K]^10*Subscript[s, \[Gamma]]^2*
+              (-1 + Subscript[s, \[Gamma]]^2)*(954*\[Xi]^2 + 260*\[Xi]^4 + 
+               (516 - 282*\[Xi]^2 - 3473*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
+               (-300 - 15243*\[Xi]^2 + 18295*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4 + (-1626 + 33930*\[Xi]^2 - 22909*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + 3*(470 - 6223*\[Xi]^2 + 
+                 2609*\[Xi]^4)*Subscript[s, \[Gamma]]^8) - (1 + 4*\[Xi]^2)^4*
+              Subscript[m, K]^8*Subscript[m, \[Phi]]^2*(714*\[Xi]^4 - 52*
+                \[Xi]^2*(348 + 581*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 3*
+                (-5684 - 11905*\[Xi]^2 + 116951*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^4 - 27*(-1332 - 28385*\[Xi]^2 + 53856*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + (14256 - 2137476*\[Xi]^2 + 
+                 2591705*\[Xi]^4)*Subscript[s, \[Gamma]]^8 - 3*(23206 - 
+                 742087*\[Xi]^2 + 690298*\[Xi]^4)*Subscript[s, \[Gamma]]^10 + 
+               9*(4050 - 89089*\[Xi]^2 + 67994*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^12) - 3*Subscript[m, \[Phi]]^10*(19200*\[Xi]^4 - 
+               8*\[Xi]^2*(-22329 + 185984*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
+               448*\[Xi]^2*(-7290 + 29999*\[Xi]^2)*Subscript[s, \[Gamma]]^4 - 
+               6*(27297 - 2640078*\[Xi]^2 + 8110960*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + 27*(18981 - 1189640*\[Xi]^2 + 
+                 3178992*\[Xi]^4)*Subscript[s, \[Gamma]]^8 - 108*
+                (4941 - 270645*\[Xi]^2 + 681748*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^10 + 81*(2283 - 122088*\[Xi]^2 + 303808*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^12) - (1 + 4*\[Xi]^2)^2*
+              Subscript[m, K]^4*Subscript[m, \[Phi]]^6*(90384*\[Xi]^4 + 
+               (424386*\[Xi]^2 - 3748532*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
+               4*(-28107 - 2514615*\[Xi]^2 + 8064892*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 - 6*(62037 - 8895851*\[Xi]^2 + 
+                 18993726*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 9*(237645 - 
+                 12619304*\[Xi]^2 + 21631304*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 8 - 27*(101243 - 3948738*\[Xi]^2 + 5935384*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^10 + 162*(6663 - 227387*\[Xi]^2 + 
+                 315262*\[Xi]^4)*Subscript[s, \[Gamma]]^12) + 
+             (1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^8*
+              (132000*\[Xi]^4 + (919656*\[Xi]^2 - 7258496*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + 54*(-1008 - 326949*\[Xi]^2 + 
+                 1172924*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 36*
+                (23733 - 2441231*\[Xi]^2 + 6243862*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + 108*(29610 - 1679243*\[Xi]^2 + 
+                 3596282*\[Xi]^4)*Subscript[s, \[Gamma]]^8 - 81*
+                (44715 - 2065752*\[Xi]^2 + 4020728*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^10 + 243*(5485 - 235478*\[Xi]^2 + 
+                 437184*\[Xi]^4)*Subscript[s, \[Gamma]]^12) + 
+             3*(1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, \[Phi]]^4*
+              (4910*\[Xi]^4 + (1532*\[Xi]^2 - 215018*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + (-25164 - 605921*\[Xi]^2 + 
+                 2000976*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (13368 + 
+                 3935957*\[Xi]^2 - 7352376*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6 + 6*(26278 - 1502463*\[Xi]^2 + 2110729*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 + (-258822 + 8750451*\[Xi]^2 - 
+                 10297778*\[Xi]^4)*Subscript[s, \[Gamma]]^10 + 3*
+                (37662 - 1023555*\[Xi]^2 + 1066712*\[Xi]^4)*
                 Subscript[s, \[Gamma]]^12)) + \[Xi]^2*Subscript[s, \[Gamma]]*
             ((1 + 4*\[Xi]^2)^5*Subscript[m, K]^10*Subscript[s, \[Gamma]]^2*
-              (-1 + Subscript[s, \[Gamma]]^2)^2*(-60 + 28*\[Xi]^2 + 6*
-                (43 + 98*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (261 - 
-                 1997*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 12*(-33 + 
-                 64*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + (-567 + 613*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^8) - (1 + 4*\[Xi]^2)^4*
+              (-1 + Subscript[s, \[Gamma]]^2)^2*(-60 + 28*\[Xi]^2 + 3*
+                (-64 + 121*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (3261 - 
+                 1847*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 3*(-1732 + 
+                 381*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + (1683 + 313*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^8) + (1 + 4*\[Xi]^2)^4*
               Subscript[m, K]^8*Subscript[m, \[Phi]]^2*
-              (-1 + Subscript[s, \[Gamma]]^2)^2*(-96*\[Xi]^2 + (-2604 + 
-                 346*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (2868 + 
-                 20611*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + (22803 - 
-                 67465*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + (-26853 + 
-                 45335*\[Xi]^2)*Subscript[s, \[Gamma]]^8 + 9*(-570 + 
-                 509*\[Xi]^2)*Subscript[s, \[Gamma]]^10) - 4*(1 + 4*\[Xi]^2)*
-              Subscript[m, K]^2*Subscript[m, \[Phi]]^8*Subscript[s, \[Gamma]]^
-               2*(5508 + 15632*\[Xi]^2 + (138150 - 476504*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + (-999522 + 2782796*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^4 + (2513718 - 7059402*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^6 + 27*(-111649 + 338570*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^8 - 27*(-65295 + 221092*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^10 + 972*(-418 + 1611*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^12) + 12*Subscript[m, \[Phi]]^10*
-              Subscript[s, \[Gamma]]^2*(1728*\[Xi]^2 + (28404 - 
-                 90080*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 2*(-87399 + 
-                 293152*\[Xi]^2)*Subscript[s, \[Gamma]]^4 - 48*(-8667 + 
-                 33487*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 27*(-17987 + 
-                 82680*\[Xi]^2)*Subscript[s, \[Gamma]]^8 - 54*(-5193 + 
-                 28862*\[Xi]^2)*Subscript[s, \[Gamma]]^10 + 81*(-795 + 
-                 5384*\[Xi]^2)*Subscript[s, \[Gamma]]^12) - 
+              (-1 + Subscript[s, \[Gamma]]^2)^2*(96*\[Xi]^2 + (2604 + 
+                 554*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (15282 - 
+                 31711*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + (-114453 + 
+                 109540*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + (162378 - 
+                 101435*\[Xi]^2)*Subscript[s, \[Gamma]]^8 + 9*(-6355 + 
+                 2116*\[Xi]^2)*Subscript[s, \[Gamma]]^10) + 
+             12*Subscript[m, \[Phi]]^10*Subscript[s, \[Gamma]]^2*
+              (6528*\[Xi]^2 + (55404 - 164480*\[Xi]^2)*Subscript[s, \[Gamma]]^
+                 2 + 8*(-44631 + 119788*\[Xi]^2)*Subscript[s, \[Gamma]]^4 - 
+               273*(-3267 + 9112*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 54*
+                (-20181 + 61490*\[Xi]^2)*Subscript[s, \[Gamma]]^8 - 27*
+                (-24261 + 82924*\[Xi]^2)*Subscript[s, \[Gamma]]^10 + 324*
+                (-480 + 1871*\[Xi]^2)*Subscript[s, \[Gamma]]^12) - 
+             2*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^8*
+              Subscript[s, \[Gamma]]^2*(11016 + 86464*\[Xi]^2 + (618300 - 
+                 1761808*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (-4328019 + 
+                 9494392*\[Xi]^2)*Subscript[s, \[Gamma]]^4 - 18*(-620127 + 
+                 1290328*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 27*(-514623 + 
+                 1087640*\[Xi]^2)*Subscript[s, \[Gamma]]^8 - 54*(-156645 + 
+                 347992*\[Xi]^2)*Subscript[s, \[Gamma]]^10 + 1944*
+                (-1043 + 2486*\[Xi]^2)*Subscript[s, \[Gamma]]^12) - 
              3*(1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, \[Phi]]^4*
               (-1 + Subscript[s, \[Gamma]]^2)*(-256*\[Xi]^2 - 4*
-                (1472 + 273*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (-7710 + 
-                 77378*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + (151517 - 
-                 340760*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 6*(-55516 + 
-                 89735*\[Xi]^2)*Subscript[s, \[Gamma]]^8 + (262137 - 
-                 347228*\[Xi]^2)*Subscript[s, \[Gamma]]^10 + 12*
-                (-5580 + 6103*\[Xi]^2)*Subscript[s, \[Gamma]]^12) + 
+                (1472 + 1523*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 8*
+                (-7370 + 17741*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 
+               (452367 - 602260*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 16*
+                (-59781 + 62635*\[Xi]^2)*Subscript[s, \[Gamma]]^8 + 
+               (813237 - 723728*\[Xi]^2)*Subscript[s, \[Gamma]]^10 + 12*
+                (-20355 + 15628*\[Xi]^2)*Subscript[s, \[Gamma]]^12) + 
              (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^6*
-              (1536*\[Xi]^2 + 8*(4509 + 3808*\[Xi]^2)*Subscript[s, \[Gamma]]^
-                 2 - 8*(-29865 + 133538*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 
-               (-2411703 + 5860600*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 
-               (6517524 - 13659704*\[Xi]^2)*Subscript[s, \[Gamma]]^8 + 18*
-                (-444083 + 891562*\[Xi]^2)*Subscript[s, \[Gamma]]^10 - 648*
-                (-7211 + 14541*\[Xi]^2)*Subscript[s, \[Gamma]]^12 + 27*
-                (-39261 + 81868*\[Xi]^2)*Subscript[s, \[Gamma]]^14)) - 
+              (1536*\[Xi]^2 + 8*(4509 + 12508*\[Xi]^2)*Subscript[s, \[Gamma]]^
+                 2 + (743070 - 2036104*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 
+               (-5862153 + 10415500*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 
+               (15623199 - 23934104*\[Xi]^2)*Subscript[s, \[Gamma]]^8 + 9*
+                (-2186491 + 3137024*\[Xi]^2)*Subscript[s, \[Gamma]]^10 - 27*
+                (-444689 + 621184*\[Xi]^2)*Subscript[s, \[Gamma]]^12 + 108*
+                (-26559 + 36967*\[Xi]^2)*Subscript[s, \[Gamma]]^14)) + 
            \[Xi]*Subscript[c, \[Gamma]]*((1 + 4*\[Xi]^2)^5*Subscript[m, K]^10*
               Subscript[s, \[Gamma]]^2*(-1 + Subscript[s, \[Gamma]]^2)^2*
-              (42*\[Xi]^2 + (66 + 485*\[Xi]^2 - 168*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 + (-48 - 8872*\[Xi]^2 + 
-                 1507*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (-1230 + 
-                 16105*\[Xi]^2 - 1916*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
-               (1380 - 3560*\[Xi]^2 + 577*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 8) - (1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[m, 
+              (-87*\[Xi]^2 + 2*(-348 - 85*\[Xi]^2 + 84*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + (3228 + 6667*\[Xi]^2 - 
+                 1507*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (-390 - 
+                 14875*\[Xi]^2 + 1196*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
+               (-2580 + 3155*\[Xi]^2 + 143*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 8) + (1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[m, 
                 \[Phi]]^2*Subscript[s, \[Gamma]]^2*(-1 + Subscript[s, 
-                 \[Gamma]]^2)*(-2*\[Xi]^2*(1245 + 424*\[Xi]^2) + (-7404 - 
-                 32745*\[Xi]^2 + 19820*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
-               (6525 + 378273*\[Xi]^2 - 105630*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^4 + (60501 - 988992*\[Xi]^2 + 207482*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + (-119103 + 933807*\[Xi]^2 - 
-                 171302*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 3*(19755 - 
-                 95023*\[Xi]^2 + 16826*\[Xi]^4)*Subscript[s, \[Gamma]]^10) - 
+                 \[Gamma]]^2)*(-(\[Xi]^2*(4155 + 848*\[Xi]^2)) + (-32364 - 
+                 22725*\[Xi]^2 + 21080*\[Xi]^4)*Subscript[s, \[Gamma]]^2 - 6*
+                (-17810 - 64743*\[Xi]^2 + 18820*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^4 + 2*(-15387 - 558786*\[Xi]^2 + 106846*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + (-143163 + 1121667*\[Xi]^2 - 
+                 163832*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + (99225 - 
+                 361209*\[Xi]^2 + 42828*\[Xi]^4)*Subscript[s, \[Gamma]]^10) + 
              2*Subscript[m, \[Phi]]^10*Subscript[s, \[Gamma]]^2*
-              (63744*\[Xi]^4 - 16*\[Xi]^2*(-95283 + 80768*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + 12*(35073 - 1054434*\[Xi]^2 + 
-                 658816*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 9*(226071 - 
-                 4468648*\[Xi]^2 + 2503488*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 6 + 27*(134109 - 2289720*\[Xi]^2 + 1238416*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 - 81*(34833 - 571428*\[Xi]^2 + 
-                 310448*\[Xi]^4)*Subscript[s, \[Gamma]]^10 + 243*
-                (3351 - 55844*\[Xi]^2 + 31248*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 12) + (1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^
-               8*Subscript[s, \[Gamma]]^2*(32*\[Xi]^2*(801 + 7144*\[Xi]^2) - 
-               8*(-5265 - 629688*\[Xi]^2 + 485864*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 + (1450143 - 42884100*\[Xi]^2 + 
-                 21863936*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 6*(1306665 - 
-                 22710602*\[Xi]^2 + 9724024*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 6 + 108*(136284 - 1921471*\[Xi]^2 + 753440*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 - 54*(221073 - 2837754*\[Xi]^2 + 
-                 1064504*\[Xi]^4)*Subscript[s, \[Gamma]]^10 + 81*
-                (44037 - 545552*\[Xi]^2 + 200944*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^12) + (1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*
-              Subscript[m, \[Phi]]^4*(-168*\[Xi]^4 + 24*\[Xi]^2*
-                (744 + 869*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (42474 + 
-                 516789*\[Xi]^2 - 343396*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
-               3*(25241 - 1739663*\[Xi]^2 + 619480*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 - 3*(362079 - 5614162*\[Xi]^2 + 
-                 1533880*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + (2477079 - 
-                 24738180*\[Xi]^2 + 5797360*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 10 - 3*(738417 - 5716071*\[Xi]^2 + 1210364*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^12 + 9*(78468 - 507671*\[Xi]^2 + 
-                 99960*\[Xi]^4)*Subscript[s, \[Gamma]]^14) - 
+              (63744*\[Xi]^4 - 8*\[Xi]^2*(-241191 + 178816*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + 6*(100521 - 2653728*\[Xi]^2 + 
+                 1496192*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 9*(327321 - 
+                 5588248*\[Xi]^2 + 2866368*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6 + 27*(194859 - 2843040*\[Xi]^2 + 1419856*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 - 81*(50583 - 703548*\[Xi]^2 + 
+                 355088*\[Xi]^4)*Subscript[s, \[Gamma]]^10 + 243*
+                (4851 - 68084*\[Xi]^2 + 35568*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 12) - (1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^
+               8*Subscript[s, \[Gamma]]^2*(208*\[Xi]^2*(99 + 1316*\[Xi]^2) - 
+               16*(-8505 - 406734*\[Xi]^2 + 290812*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + 4*(442017 - 13718115*\[Xi]^2 + 
+                 6522404*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 6*(1842075 - 
+                 28959512*\[Xi]^2 + 11557024*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6 + 81*(266367 - 3258048*\[Xi]^2 + 1189040*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 - 108*(164409 - 1798407*\[Xi]^2 + 
+                 627592*\[Xi]^4)*Subscript[s, \[Gamma]]^10 + 81*
+                (65787 - 688472*\[Xi]^2 + 236224*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^12) - (1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*
+              Subscript[m, \[Phi]]^4*(-528*\[Xi]^4 + 12*\[Xi]^2*
+                (2053 + 2413*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (162024 + 
+                 590034*\[Xi]^2 - 422416*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
+               6*(-66787 - 1049269*\[Xi]^2 + 368060*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 - 3*(249289 - 6956517*\[Xi]^2 + 
+                 1786600*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + (3164304 - 
+                 31294215*\[Xi]^2 + 6635080*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 10 - 3*(1098927 - 7360521*\[Xi]^2 + 1360184*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^12 + 9*(124338 - 664091*\[Xi]^2 + 
+                 110100*\[Xi]^4)*Subscript[s, \[Gamma]]^14) + 
              (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^6*
-              (-672*\[Xi]^4 + 144*\[Xi]^2*(281 + 829*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + (75456 + 2664830*\[Xi]^2 - 
-                 1871040*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (735255 - 
-                 23983706*\[Xi]^2 + 10067896*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 6 + (-4922649 + 76527194*\[Xi]^2 - 25627960*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 + 9*(1101105 - 12775190*\[Xi]^2 + 
-                 3764392*\[Xi]^4)*Subscript[s, \[Gamma]]^10 - 27*
-                (310603 - 3074664*\[Xi]^2 + 835544*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^12 + 54*(47931 - 431396*\[Xi]^2 + 
-                 111040*\[Xi]^4)*Subscript[s, \[Gamma]]^14))))/
+              (-2112*\[Xi]^4 + 24*\[Xi]^2*(1751 + 6824*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (262476 + 3426230*\[Xi]^2 - 
+                 2351040*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 2*(173025 - 
+                 15328543*\[Xi]^2 + 6152828*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6 + (-6180129 + 98132414*\[Xi]^2 - 30881800*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 + 18*(791290 - 8227245*\[Xi]^2 + 
+                 2247136*\[Xi]^4)*Subscript[s, \[Gamma]]^10 - 27*
+                (468873 - 3976264*\[Xi]^2 + 991064*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^12 + 54*(73851 - 559646*\[Xi]^2 + 
+                 131140*\[Xi]^4)*Subscript[s, \[Gamma]]^14))))/
          (24*\[Xi]^4*(1 + 4*\[Xi]^2)^3*Subscript[m, K]^12*
-          Subscript[v, EW]^4) - (h^3*Subscript[s, \[Gamma]]*
-          (-6*Subscript[c, \[Gamma]]^8*((1 + 4*\[Xi]^2)*Subscript[m, K]^2 - 
+          Subscript[v, EW]^4) + (QuantumField[h]^3*Subscript[s, \[Gamma]]*
+          (6*Subscript[c, \[Gamma]]^8*((1 + 4*\[Xi]^2)*Subscript[m, K]^2 - 
              3*Subscript[m, \[Phi]]^2)*((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 
-              3*Subscript[m, \[Phi]]^2)^3*Subscript[s, \[Gamma]]^4 + 
+              3*Subscript[m, \[Phi]]^2)^3*Subscript[s, \[Gamma]]^4 - 
            6*\[Xi]*Subscript[c, \[Gamma]]^7*((2 + 8*\[Xi]^2)*Subscript[m, K]^
                 2 - 3*Subscript[m, \[Phi]]^2)^2*Subscript[s, \[Gamma]]^3*
-            (2*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*(-1 + 13*
-                Subscript[s, \[Gamma]]^2) + 6*Subscript[m, \[Phi]]^4*
-              (-14 + 39*Subscript[s, \[Gamma]]^2) - (1 + 4*\[Xi]^2)*
-              Subscript[m, K]^2*Subscript[m, \[Phi]]^2*(-35 + 159*
-                Subscript[s, \[Gamma]]^2)) - Subscript[c, \[Gamma]]^6*
-            ((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)*
-            Subscript[s, \[Gamma]]^2*((1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*
-              Subscript[s, \[Gamma]]^2*(69 - 108*\[Xi]^2 + 2*(-53 + 
-                 306*\[Xi]^2)*Subscript[s, \[Gamma]]^2) - 9*(1 + 4*\[Xi]^2)^2*
-              Subscript[m, K]^4*Subscript[m, \[Phi]]^2*(24*\[Xi]^2 + 
-               (67 - 274*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 2*
-                (-50 + 333*\[Xi]^2)*Subscript[s, \[Gamma]]^4) - 
-             27*Subscript[m, \[Phi]]^6*(88*\[Xi]^2 + (33 - 480*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + (-52 + 648*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^4) + 27*(1 + 4*\[Xi]^2)*
-              Subscript[m, K]^2*Subscript[m, \[Phi]]^4*(52*\[Xi]^2 + 
-               (51 - 392*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (-76 + 
-                 672*\[Xi]^2)*Subscript[s, \[Gamma]]^4)) + 
+            (18*Subscript[m, \[Phi]]^4*(-8 + 23*Subscript[s, \[Gamma]]^2) + 
+             2*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*(-1 + 23*
+                Subscript[s, \[Gamma]]^2) - (1 + 4*\[Xi]^2)*Subscript[m, K]^2*
+              Subscript[m, \[Phi]]^2*(-55 + 279*Subscript[s, \[Gamma]]^2)) + 
+           Subscript[c, \[Gamma]]^6*((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 
+             3*Subscript[m, \[Phi]]^2)*Subscript[s, \[Gamma]]^2*
+            ((1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[s, \[Gamma]]^2*
+              (114 - 108*\[Xi]^2 + (-151 + 1092*\[Xi]^2)*Subscript[s, 
+                  \[Gamma]]^2) - 3*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*
+              Subscript[m, \[Phi]]^2*(72*\[Xi]^2 + (306 - 1142*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + 9*(-45 + 382*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^4) - 9*Subscript[m, \[Phi]]^6*
+              (424*\[Xi]^2 - 48*(-3 + 50*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
+               3*(-67 + 1128*\[Xi]^2)*Subscript[s, \[Gamma]]^4) + 
+             3*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^4*
+              (628*\[Xi]^2 + (684 - 5448*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
+               9*(-101 + 1152*\[Xi]^2)*Subscript[s, \[Gamma]]^4)) + 
            \[Xi]*Subscript[c, \[Gamma]]^5*Subscript[s, \[Gamma]]*
-            (4*(1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*
-              (-45 + (39 - 108*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
-               (-179 + 228*\[Xi]^2)*Subscript[s, \[Gamma]]^4) - 
+            (-2*(1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*
+              (-150 + (93 - 336*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 8*
+                (-41 + 102*\[Xi]^2)*Subscript[s, \[Gamma]]^4) + 
              (1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, \[Phi]]^2*
-              Subscript[s, \[Gamma]]^2*(72*(-31 + 24*\[Xi]^2) + (7295 - 
-                 10728*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 6*(-2047 + 
-                 2364*\[Xi]^2)*Subscript[s, \[Gamma]]^4) + 
-             18*Subscript[m, \[Phi]]^8*(-320*\[Xi]^2 + 9*(-53 + 280*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + (2343 - 6480*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^4 + 9*(-343 + 600*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^6) - 3*(1 + 4*\[Xi]^2)*
-              Subscript[m, K]^2*Subscript[m, \[Phi]]^6*(-1768*\[Xi]^2 + 18*
-                (-287 + 940*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 9*
-                (-2645 + 5592*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 36*
-                (-869 + 1290*\[Xi]^2)*Subscript[s, \[Gamma]]^6) + 
-             18*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^4*
-              (-72*\[Xi]^2 + (-521 + 984*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 
-               4*(-547 + 918*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + (-3057 + 
-                 3888*\[Xi]^2)*Subscript[s, \[Gamma]]^6)) + 
-           \[Xi]*Subscript[c, \[Gamma]]^3*Subscript[s, \[Gamma]]*
-            (-((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*(
-                -54 - 107*\[Xi]^2 + (-456 + 735*\[Xi]^2)*Subscript[s, 
-                   \[Gamma]]^2 + (1045 - 1686*\[Xi]^2)*Subscript[s, \[Gamma]]^
-                  4 + 2*(-317 + 529*\[Xi]^2)*Subscript[s, \[Gamma]]^6)) - 
-             12*Subscript[m, \[Phi]]^8*(576*\[Xi]^2 + (864 - 9124*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + 27*(-279 + 1562*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^4 - 9*(-1915 + 8196*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^6 + 27*(-419 + 1616*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^8) - 3*(1 + 4*\[Xi]^2)^2*
-              Subscript[m, K]^4*Subscript[m, \[Phi]]^4*(850*\[Xi]^2 + 
-               (2667 - 14306*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (-23678 + 
-                 70776*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + (52761 - 
-                 127806*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 18*(-1905 + 
-                 4193*\[Xi]^2)*Subscript[s, \[Gamma]]^8) + (1 + 4*\[Xi]^2)^3*
-              Subscript[m, K]^6*Subscript[m, \[Phi]]^2*(246*\[Xi]^2 + 
-               (1047 - 4647*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 9*
-                (-1386 + 2885*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 
-               (27685 - 51171*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 3*
-                (-5969 + 10459*\[Xi]^2)*Subscript[s, \[Gamma]]^8) + 
-             (1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^6*
-              (8580*\[Xi]^2 - 16*(-1044 + 7997*\[Xi]^2)*Subscript[s, 
-                  \[Gamma]]^2 + 9*(-15781 + 65344*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^4 - 54*(-5917 + 18918*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^6 + 54*(-3851 + 11024*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^8)) + Subscript[c, \[Gamma]]^4*
-            (-((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*(
-                42*\[Xi]^2 - 3*(17 + 210*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
-                (-92 + 1095*\[Xi]^2 - 264*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
-                2*(98 - 579*\[Xi]^2 + 132*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                  6)) - 9*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*
-              Subscript[m, \[Phi]]^4*Subscript[s, \[Gamma]]^2*
-              (1289*\[Xi]^2 - 232*\[Xi]^4 + (425 - 9834*\[Xi]^2 + 
-                 2072*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (-1869 + 
-                 23701*\[Xi]^2 - 5496*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 3*
-                (599 - 6309*\[Xi]^2 + 1368*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 6) + 3*(1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, 
-                \[Phi]]^2*Subscript[s, \[Gamma]]^2*(593*\[Xi]^2 + 2*
-                (87 - 2509*\[Xi]^2 + 240*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
-               (-1163 + 11686*\[Xi]^2 - 2272*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 + (1234 - 9885*\[Xi]^2 + 1968*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^6) - 3*Subscript[m, \[Phi]]^8*(640*\[Xi]^4 + 
-               (4824*\[Xi]^2 - 6720*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 432*
-                (3 - 92*\[Xi]^2 + 60*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 27*
-                (183 - 3848*\[Xi]^2 + 1600*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 6 + 108*(46 - 777*\[Xi]^2 + 240*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^8) + 3*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*
-              Subscript[m, \[Phi]]^6*(304*\[Xi]^4 + (7812*\[Xi]^2 - 
-                 4672*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 36*
-                (65 - 1673*\[Xi]^2 + 644*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 
-               9*(1023 - 16646*\[Xi]^2 + 5088*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 6 + 9*(979 - 13164*\[Xi]^2 + 3360*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8)) + \[Xi]^2*Subscript[s, \[Gamma]]^2*
-            ((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*(-1 + Subscript[s, \[Gamma]]^
-                 2)^2*(12 + (30 - 19*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
-               (-153 + 2*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + (3 + 17*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^6) + (1 + 4*\[Xi]^2)^3*
-              Subscript[m, K]^6*Subscript[m, \[Phi]]^2*(-1 + Subscript[s, 
-                 \[Gamma]]^2)*(180 + 54*\[Xi]^2 - 386*(-3 + 2*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + (-6153 + 1874*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^4 + (7038 - 1540*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^6 + 3*(-723 + 128*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^8) - 4*Subscript[m, \[Phi]]^8*
-              Subscript[s, \[Gamma]]^2*(-4293 + 2656*\[Xi]^2 - 48*
-                (-459 + 317*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 108*
-                (-381 + 302*\[Xi]^2)*Subscript[s, \[Gamma]]^4 - 108*
-                (-309 + 287*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 81*
-                (-123 + 136*\[Xi]^2)*Subscript[s, \[Gamma]]^8) - 
+              Subscript[s, \[Gamma]]^2*(6*(-617 + 488*\[Xi]^2) + (11045 - 
+                 18288*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 3*(-5069 + 
+                 8448*\[Xi]^2)*Subscript[s, \[Gamma]]^4) - 
              6*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^4*
-              (-1 + Subscript[s, \[Gamma]]^2)*(8*(14 + 9*\[Xi]^2) + 
-               (1617 - 1024*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (-7846 + 
-                 3070*\[Xi]^2)*Subscript[s, \[Gamma]]^4 - 12*(-869 + 
-                 283*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 9*(-483 + 
-                 142*\[Xi]^2)*Subscript[s, \[Gamma]]^8) + 4*(1 + 4*\[Xi]^2)*
+              (-376*\[Xi]^2 + (-2663 + 5092*\[Xi]^2)*Subscript[s, \[Gamma]]^
+                 2 - 24*(-426 + 799*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 108*
+                (-112 + 193*\[Xi]^2)*Subscript[s, \[Gamma]]^6) - 
+             18*Subscript[m, \[Phi]]^8*(-560*\[Xi]^2 + 24*(-33 + 185*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 - 12*(-289 + 960*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^4 + 9*(-433 + 1080*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^6) + 9*(1 + 4*\[Xi]^2)*
+              Subscript[m, K]^2*Subscript[m, \[Phi]]^6*(-1016*\[Xi]^2 + 
+               (-2942 + 9800*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 3*
+                (-4075 + 9832*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 21*
+                (-653 + 1320*\[Xi]^2)*Subscript[s, \[Gamma]]^6)) + 
+           \[Xi]*Subscript[c, \[Gamma]]^3*Subscript[s, \[Gamma]]*
+            ((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*
+              (-114 - 197*\[Xi]^2 + (99 + 885*\[Xi]^2)*Subscript[s, \[Gamma]]^
+                 2 - 2*(-50 + 693*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 2*
+                (-92 + 349*\[Xi]^2)*Subscript[s, \[Gamma]]^6) - 
+             (1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^6*
+              (19140*\[Xi]^2 + (21474 - 224912*\[Xi]^2)*Subscript[s, 
+                  \[Gamma]]^2 + 27*(-5997 + 33328*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^4 - 27*(-12949 + 52876*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^6 + 621*(-359 + 1256*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^8) + 3*(1 + 4*\[Xi]^2)^2*
+              Subscript[m, K]^4*Subscript[m, \[Phi]]^4*(1960*\[Xi]^2 + 
+               (3117 - 25386*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (-24473 + 
+                 107936*\[Xi]^2)*Subscript[s, \[Gamma]]^4 - 6*(-9016 + 
+                 29471*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 54*(-655 + 
+                 1816*\[Xi]^2)*Subscript[s, \[Gamma]]^8) + 
+             6*Subscript[m, \[Phi]]^8*(2352*\[Xi]^2 - 4*(-567 + 7382*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + 9*(-1929 + 13432*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^4 - 72*(-520 + 2709*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^6 + 27*(-883 + 4012*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^8) - (1 + 4*\[Xi]^2)^3*
+              Subscript[m, K]^6*Subscript[m, \[Phi]]^2*(516*\[Xi]^2 + 
+               (807 - 7707*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (-9234 + 
+                 36105*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + (22240 - 
+                 63171*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 3*(-5174 + 
+                 12109*\[Xi]^2)*Subscript[s, \[Gamma]]^8)) + 
+           Subscript[c, \[Gamma]]^4*((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*
+              Subscript[s, \[Gamma]]^2*(42*\[Xi]^2 - 96*(1 + 10*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (-2 + 555*\[Xi]^2 - 504*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 + (151 - 393*\[Xi]^2 + 504*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6) + 3*(1 + 4*\[Xi]^2)^2*
+              Subscript[m, K]^4*Subscript[m, \[Phi]]^4*Subscript[s, \[Gamma]]^
+               2*(5187*\[Xi]^2 - 1416*\[Xi]^4 + (1605 - 37112*\[Xi]^2 + 
+                 12536*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (-6477 + 
+                 80463*\[Xi]^2 - 33048*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 9*
+                (659 - 6834*\[Xi]^2 + 2728*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6) - 3*(1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, 
+                \[Phi]]^2*Subscript[s, \[Gamma]]^2*(793*\[Xi]^2 + 2*
+                (87 - 3244*\[Xi]^2 + 480*\[Xi]^4)*Subscript[s, \[Gamma]]^2 - 
+               4*(302 - 2999*\[Xi]^2 + 1128*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4 + (1279 - 9405*\[Xi]^2 + 3888*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^6) + 3*Subscript[m, \[Phi]]^8*(1280*\[Xi]^4 - 24*
+                \[Xi]^2*(-261 + 560*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 9*
+                (189 - 5356*\[Xi]^2 + 5760*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4 - 27*(213 - 4408*\[Xi]^2 + 3200*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + 27*(199 - 3408*\[Xi]^2 + 
+                 1920*\[Xi]^4)*Subscript[s, \[Gamma]]^8) - 6*(1 + 4*\[Xi]^2)*
+              Subscript[m, K]^2*Subscript[m, \[Phi]]^6*(312*\[Xi]^4 + 
+               (5306*\[Xi]^2 - 4736*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 3*
+                (510 - 12643*\[Xi]^2 + 7784*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4 - 18*(302 - 4869*\[Xi]^2 + 2552*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + 9*(542 - 7377*\[Xi]^2 + 
+                 3360*\[Xi]^4)*Subscript[s, \[Gamma]]^8)) + 
+           \[Xi]^2*Subscript[s, \[Gamma]]^2*(-((1 + 4*\[Xi]^2)^4*Subscript[m, 
+                 K]^8*(-1 + Subscript[s, \[Gamma]]^2)^2*(12 + 
+                (30 - 19*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
+                (-153 + 2*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 
+                (3 + 17*\[Xi]^2)*Subscript[s, \[Gamma]]^6)) - 
+             (1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, \[Phi]]^2*
+              (-1 + Subscript[s, \[Gamma]]^2)*(180 + 54*\[Xi]^2 - 386*
+                (-3 + 2*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (-6153 + 
+                 1874*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + (7038 - 
+                 1540*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 3*(-723 + 
+                 128*\[Xi]^2)*Subscript[s, \[Gamma]]^8) + 
+             4*Subscript[m, \[Phi]]^8*Subscript[s, \[Gamma]]^2*
+              (-4293 + 2656*\[Xi]^2 - 48*(-459 + 317*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + 108*(-381 + 302*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^4 - 108*(-309 + 287*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^6 + 81*(-123 + 136*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^8) + 6*(1 + 4*\[Xi]^2)^2*
+              Subscript[m, K]^4*Subscript[m, \[Phi]]^4*(-1 + Subscript[s, 
+                 \[Gamma]]^2)*(8*(14 + 9*\[Xi]^2) + (1617 - 1024*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (-7846 + 3070*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^4 - 12*(-869 + 283*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^6 + 9*(-483 + 142*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^8) - 4*(1 + 4*\[Xi]^2)*
               Subscript[m, K]^2*Subscript[m, \[Phi]]^6*(-72*(2 + 3*\[Xi]^2) + 
                (-5958 + 4240*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (33192 - 
                  18478*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 9*(-7081 + 
@@ -5291,70 +5348,72 @@
                  261*\[Xi]^2)*Subscript[s, \[Gamma]]^8 + 27*(-591 + 
                  332*\[Xi]^2)*Subscript[s, \[Gamma]]^10)) + 
            \[Xi]*Subscript[c, \[Gamma]]*Subscript[s, \[Gamma]]*
-            ((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*
-              (-1 + Subscript[s, \[Gamma]]^2)*(-20*(3 + 4*\[Xi]^2) + 
-               (51 + 617*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (234 - 
-                 739*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 2*(-99 + 
-                 101*\[Xi]^2)*Subscript[s, \[Gamma]]^6) - 3*(1 + 4*\[Xi]^2)^3*
-              Subscript[m, K]^6*Subscript[m, \[Phi]]^2*(-1 + Subscript[s, 
-                 \[Gamma]]^2)*(-26*\[Xi]^2 - 455*(1 + 2*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + 3*(74 + 1993*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^4 + (2111 - 9363*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^6 + 2*(-948 + 2105*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^8) + 6*Subscript[m, \[Phi]]^8*
-              Subscript[s, \[Gamma]]^2*(9552*\[Xi]^2 + (4914 - 65216*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + 9*(-1983 + 17764*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^4 - 108*(-194 + 1559*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^6 + 27*(-297 + 2392*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^8) + 3*(1 + 4*\[Xi]^2)^2*
-              Subscript[m, K]^4*Subscript[m, \[Phi]]^4*(102*\[Xi]^2 + 
-               (1367 + 8078*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (1844 - 
-                 57236*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + (-20353 + 
-                 133428*\[Xi]^2)*Subscript[s, \[Gamma]]^6 - 6*(-5062 + 
-                 21583*\[Xi]^2)*Subscript[s, \[Gamma]]^8 + 18*(-736 + 
-                 2515*\[Xi]^2)*Subscript[s, \[Gamma]]^10) - 
+            (-((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*(
+                -1 + Subscript[s, \[Gamma]]^2)*(30 - 35*\[Xi]^2 + 
+                (-549 + 587*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
+                (1194 - 814*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 
+                (-648 + 262*\[Xi]^2)*Subscript[s, \[Gamma]]^6)) + 
+             3*(1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, \[Phi]]^2*
+              (-1 + Subscript[s, \[Gamma]]^2)*(34*\[Xi]^2 + (635 - 
+                 1710*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (-5028 + 
+                 8854*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + (9526 - 
+                 12993*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + (-5151 + 
+                 5665*\[Xi]^2)*Subscript[s, \[Gamma]]^8) - 
+             6*Subscript[m, \[Phi]]^8*(-480*\[Xi]^2 + 36*(-75 + 452*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (19089 - 92336*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^4 + 36*(-1227 + 5756*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^6 - 27*(-1551 + 7636*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^8 + 54*(-261 + 1406*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^10) - 3*(1 + 4*\[Xi]^2)^2*
+              Subscript[m, K]^4*Subscript[m, \[Phi]]^4*(-658*\[Xi]^2 + 
+               (-4523 + 17428*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
+               (34474 - 93236*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 
+               (-83873 + 194408*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 
+               (83082 - 177198*\[Xi]^2)*Subscript[s, \[Gamma]]^8 + 18*
+                (-1621 + 3300*\[Xi]^2)*Subscript[s, \[Gamma]]^10) + 
              (1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^6*
-              (264*\[Xi]^2 + 4*(783 + 17495*\[Xi]^2)*Subscript[s, \[Gamma]]^
-                 2 + (33525 - 479404*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 9*
-                (-17225 + 127592*\[Xi]^2)*Subscript[s, \[Gamma]]^6 - 27*
-                (-7405 + 43344*\[Xi]^2)*Subscript[s, \[Gamma]]^8 + 27*
-                (-3021 + 16052*\[Xi]^2)*Subscript[s, \[Gamma]]^10)) + 
-           Subscript[c, \[Gamma]]^2*((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*
-              Subscript[s, \[Gamma]]^2*(-1 + Subscript[s, \[Gamma]]^2)*
-              (-3*\[Xi]^2 + (-48 - 135*\[Xi]^2 + 149*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 + (-12 + 1095*\[Xi]^2 - 445*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 + (87 - 873*\[Xi]^2 + 296*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6) - (1 + 4*\[Xi]^2)^3*
-              Subscript[m, K]^6*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^
-               2*(\[Xi]^2*(513 + 614*\[Xi]^2) + (807 + 4740*\[Xi]^2 - 
-                 6978*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 3*(-76 - 
-                 11779*\[Xi]^2 + 7212*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 5*
-                (537 - 11775*\[Xi]^2 + 5122*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 6 + 3*(711 - 9723*\[Xi]^2 + 3446*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8) + Subscript[m, \[Phi]]^8*
-              Subscript[s, \[Gamma]]^2*(16*\[Xi]^2*(-351 + 1796*\[Xi]^2) - 48*
-                \[Xi]^2*(-2763 + 4892*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 27*
-                (441 - 20852*\[Xi]^2 + 25200*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 - 54*(441 - 15570*\[Xi]^2 + 15632*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + 81*(147 - 5088*\[Xi]^2 + 
-                 4720*\[Xi]^4)*Subscript[s, \[Gamma]]^8) + 
-             3*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^4*
-              (-56*\[Xi]^4 + 2*\[Xi]^2*(71 + 1450*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + (726 + 18110*\[Xi]^2 - 
-                 23764*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (1551 - 
-                 93751*\[Xi]^2 + 67660*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 6*
-                (1044 - 24465*\[Xi]^2 + 13258*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 8 + 9*(447 - 8057*\[Xi]^2 + 3684*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^10) - (1 + 4*\[Xi]^2)*Subscript[m, 
-                K]^2*Subscript[m, \[Phi]]^6*(-528*\[Xi]^4 + 6*\[Xi]^2*
-                (-795 + 5092*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
-               (1539 + 163278*\[Xi]^2 - 235472*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^4 + 36*(438 - 20311*\[Xi]^2 + 18374*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 - 27*(1451 - 40946*\[Xi]^2 + 
-                 29256*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 54*(405 - 
-                 10047*\[Xi]^2 + 6308*\[Xi]^4)*Subscript[s, \[Gamma]]^10))))/
-         (6*\[Xi]^3*(1 + 4*\[Xi]^2)^(5/2)*Subscript[m, K]^10*
-          Subscript[v, EW]^3) + (h^2*Subscript[s, \[Gamma]]*
+              (-4536*\[Xi]^2 + 2*(-13509 + 66430*\[Xi]^2)*Subscript[s, 
+                  \[Gamma]]^2 + (195885 - 727204*\[Xi]^2)*Subscript[s, 
+                  \[Gamma]]^4 + 36*(-12895 + 43768*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^6 - 27*(-16735 + 55924*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^8 + 108*(-1449 + 4958*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^10)) + Subscript[c, \[Gamma]]^2*
+            (-((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*(
+                -1 + Subscript[s, \[Gamma]]^2)*(42*\[Xi]^2 + 
+                (12 - 210*\[Xi]^2 + 149*\[Xi]^4)*Subscript[s, \[Gamma]]^2 - 
+                2*(66 - 810*\[Xi]^2 + 155*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
+                (147 - 1308*\[Xi]^2 + 161*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                  6)) + (1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, 
+                \[Phi]]^2*Subscript[s, \[Gamma]]^2*(17*\[Xi]^2*(-111 + 
+                 52*\[Xi]^2) - 3*(266 - 7325*\[Xi]^2 + 2956*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + 3*(1669 - 26754*\[Xi]^2 + 
+                 8292*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 10*(834 - 
+                 10665*\[Xi]^2 + 2732*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 6*
+                (693 - 7809*\[Xi]^2 + 1738*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 8) + Subscript[m, \[Phi]]^8*Subscript[s, \[Gamma]]^2*
+              (64*\[Xi]^2*(459 - 584*\[Xi]^2) + 3*(2025 - 101088*\[Xi]^2 + 
+                 98432*\[Xi]^4)*Subscript[s, \[Gamma]]^2 - 324*
+                (93 - 3006*\[Xi]^2 + 2560*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
+               27*(1557 - 46140*\[Xi]^2 + 37024*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^6 - 162*(111 - 3414*\[Xi]^2 + 2720*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8) - 3*(1 + 4*\[Xi]^2)^2*
+              Subscript[m, K]^4*Subscript[m, \[Phi]]^4*(-176*\[Xi]^4 + 
+               \[Xi]^2*(-6113 + 4880*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
+               (-1809 + 63330*\[Xi]^2 - 33844*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4 + (9876 - 206211*\[Xi]^2 + 88180*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 - 3*(5113 - 87410*\[Xi]^2 + 
+                 32636*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 18*(406 - 
+                 6361*\[Xi]^2 + 2182*\[Xi]^4)*Subscript[s, \[Gamma]]^10) + 
+             (1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^6*
+              (-1488*\[Xi]^4 + 6*\[Xi]^2*(-7275 + 7972*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 - 2*(5238 - 222219*\[Xi]^2 + 
+                 163096*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 9*(5997 - 
+                 157844*\[Xi]^2 + 95296*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 
+               54*(1473 - 33373*\[Xi]^2 + 18128*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^8 + 27*(1335 - 29334*\[Xi]^2 + 15136*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^10))))/(6*\[Xi]^3*
+          (1 + 4*\[Xi]^2)^(5/2)*Subscript[m, K]^10*Subscript[v, EW]^3) + 
+        (QuantumField[h]^2*Subscript[s, \[Gamma]]*
           (2*Subscript[c, \[Gamma]]^6*((1 + 4*\[Xi]^2)*Subscript[m, K]^2 - 
              3*Subscript[m, \[Phi]]^2)*((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 
               3*Subscript[m, \[Phi]]^2)^2*Subscript[s, \[Gamma]]^3 - 
@@ -5439,10 +5498,10 @@
                  3108*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 9*(-175 + 
                  164*\[Xi]^2)*Subscript[s, \[Gamma]]^8))))/
          (2*\[Xi]^2*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^8*Subscript[v, EW]^2) - 
-        (h*Subscript[s, \[Gamma]]*(-(Subscript[c, \[Gamma]]^4*
-             (2*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4 - 9*(1 + 4*\[Xi]^2)*
-               Subscript[m, K]^2*Subscript[m, \[Phi]]^2 + 
-              9*Subscript[m, \[Phi]]^4)*Subscript[s, \[Gamma]]^2) + 
+        (QuantumField[h]*Subscript[s, \[Gamma]]*
+          (-(Subscript[c, \[Gamma]]^4*(2*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^
+                4 - 9*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^
+                2 + 9*Subscript[m, \[Phi]]^4)*Subscript[s, \[Gamma]]^2) + 
            \[Xi]^2*Subscript[s, \[Gamma]]^2*(2*Subscript[m, \[Phi]]^2*(2 - 
                 3*Subscript[s, \[Gamma]]^2) + (1 + 4*\[Xi]^2)*Subscript[m, K]^
                 2*(-1 + Subscript[s, \[Gamma]]^2))^2 + 
@@ -5467,793 +5526,798 @@
                 Subscript[s, \[Gamma]]^2 + (-33 + 72*\[Xi]^2)*
                 Subscript[s, \[Gamma]]^4))))/(\[Xi]*(1 + 4*\[Xi]^2)^(3/2)*
           Subscript[m, K]^6*Subscript[v, EW])), 
-     CDh2Dh2 -> t*((h^4*Subscript[s, \[Gamma]]^2*
+     CDh2Dh2 -> t*((QuantumField[h]^4*Subscript[s, \[Gamma]]^2*
           ((1 + 4*\[Xi]^2)^6*Subscript[m, K]^12*Subscript[s, \[Gamma]]^2*
             (384*Subscript[c, \[Gamma]]^10*Subscript[s, \[Gamma]]^4 - 
              768*\[Xi]*Subscript[c, \[Gamma]]^9*Subscript[s, \[Gamma]]^3*
-              (-1 + 12*Subscript[s, \[Gamma]]^2) - 16*\[Xi]*Subscript[c, 
-                \[Gamma]]^7*Subscript[s, \[Gamma]]^3*(6*(-57 + 28*\[Xi]^2) + 
-               (1661 - 2928*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 3*
-                (-603 + 1384*\[Xi]^2)*Subscript[s, \[Gamma]]^4) + 
-             16*Subscript[c, \[Gamma]]^8*(24*\[Xi]^2*Subscript[s, \[Gamma]]^
-                 2 + (153 - 744*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 
-               (-179 + 2160*\[Xi]^2)*Subscript[s, \[Gamma]]^6) + 
+              (-1 + 37*Subscript[s, \[Gamma]]^2) - 16*\[Xi]*Subscript[c, 
+                \[Gamma]]^7*Subscript[s, \[Gamma]]^3*(-867 + 168*\[Xi]^2 + 
+               (3401 - 7848*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 3*
+                (-1033 + 4224*\[Xi]^2)*Subscript[s, \[Gamma]]^4) + 
+             32*Subscript[c, \[Gamma]]^8*(12*\[Xi]^2*Subscript[s, \[Gamma]]^
+                 2 - 27*(-7 + 36*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 
+               (-202 + 3480*\[Xi]^2)*Subscript[s, \[Gamma]]^6) + 
              2*\[Xi]*Subscript[c, \[Gamma]]*Subscript[s, \[Gamma]]*
-              (-1 + Subscript[s, \[Gamma]]^2)^2*(171*\[Xi]^2 - 256*\[Xi]^4 + 
-               (-918 - 8988*\[Xi]^2 + 6737*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 2 + (-936 + 32049*\[Xi]^2 - 17062*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 + 3*(1173 - 9429*\[Xi]^2 + 
-                 2159*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 3*(-555 + 
-                 1037*\[Xi]^2 + 1368*\[Xi]^4)*Subscript[s, \[Gamma]]^8) + 
+              (-1 + Subscript[s, \[Gamma]]^2)^2*(306*\[Xi]^2 - 256*\[Xi]^4 + 
+               (342 - 9348*\[Xi]^2 + 4397*\[Xi]^4)*Subscript[s, \[Gamma]]^2 - 
+               2*(4158 - 23667*\[Xi]^2 + 5891*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4 + 3*(4953 - 21079*\[Xi]^2 + 289*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + 3*(-2295 + 7157*\[Xi]^2 + 
+                 2258*\[Xi]^4)*Subscript[s, \[Gamma]]^8) + 
              2*\[Xi]*Subscript[c, \[Gamma]]^3*Subscript[s, \[Gamma]]*
-              (-1 + Subscript[s, \[Gamma]]^2)*(-1041*\[Xi]^2 + (-2205 + 
-                 16188*\[Xi]^2 - 3173*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
-               (9807 - 60614*\[Xi]^2 + 30460*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 + (-17952 + 77791*\[Xi]^2 - 57809*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + 2*(5211 - 17218*\[Xi]^2 + 
-                 15261*\[Xi]^4)*Subscript[s, \[Gamma]]^8) - 
+              (-1 + Subscript[s, \[Gamma]]^2)*(-2526*\[Xi]^2 + (-2730 + 
+                 23508*\[Xi]^2 - 7043*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
+               (16482 - 58589*\[Xi]^2 + 36970*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4 + (-29922 + 52741*\[Xi]^2 - 48749*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + 2*(8121 - 8968*\[Xi]^2 + 
+                 9411*\[Xi]^4)*Subscript[s, \[Gamma]]^8) - 
              2*\[Xi]*Subscript[c, \[Gamma]]^5*Subscript[s, \[Gamma]]*
-              (-288*\[Xi]^2 + (-4293 + 12280*\[Xi]^2)*Subscript[s, \[Gamma]]^
-                 2 + (20677 - 69909*\[Xi]^2 + 7392*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 + (-29595 + 134362*\[Xi]^2 - 
-                 25536*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + (13395 - 
-                 77777*\[Xi]^2 + 18144*\[Xi]^4)*Subscript[s, \[Gamma]]^8) + 
-             Subscript[c, \[Gamma]]^6*(3600*\[Xi]^2*Subscript[s, \[Gamma]]^
-                 2 + (3573 - 42960*\[Xi]^2 + 8928*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 - 2*(4599 - 58820*\[Xi]^2 + 
-                 35232*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + (5897 - 
-                 88368*\[Xi]^2 + 68832*\[Xi]^4)*Subscript[s, \[Gamma]]^8) + 
+              (-288*\[Xi]^2 + 8*(-741 + 3245*\[Xi]^2)*Subscript[s, \[Gamma]]^
+                 2 + (10882 - 99549*\[Xi]^2 + 19872*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 + (-5475 + 138742*\[Xi]^2 - 
+                 70656*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + (705 - 
+                 68657*\[Xi]^2 + 50784*\[Xi]^4)*Subscript[s, \[Gamma]]^8) + 
+             Subscript[c, \[Gamma]]^6*(8400*\[Xi]^2*Subscript[s, \[Gamma]]^
+                 2 + 3*(1581 - 30480*\[Xi]^2 + 6176*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 - 2*(5769 - 87980*\[Xi]^2 + 
+                 94752*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + (7067 - 
+                 109128*\[Xi]^2 + 197472*\[Xi]^4)*Subscript[s, \[Gamma]]^8) + 
              Subscript[c, \[Gamma]]^4*Subscript[s, \[Gamma]]^2*
-              (6882*\[Xi]^2 - 2720*\[Xi]^4 + 7*(243 - 9074*\[Xi]^2 + 
-                 7896*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (-6933 + 
-                 183536*\[Xi]^2 - 210150*\[Xi]^4 + 8160*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^4 + (8763 - 212664*\[Xi]^2 + 
-                 293120*\[Xi]^4 - 16320*\[Xi]^6)*Subscript[s, \[Gamma]]^6 + 3*
-                (-1177 + 28620*\[Xi]^2 - 45174*\[Xi]^4 + 2720*\[Xi]^6)*
+              (11772*\[Xi]^2 - 6320*\[Xi]^4 + (2121 - 54278*\[Xi]^2 + 
+                 102372*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (-8193 + 
+                 102206*\[Xi]^2 - 241890*\[Xi]^4 + 23520*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^4 + (10023 - 97524*\[Xi]^2 + 
+                 235820*\[Xi]^4 - 47040*\[Xi]^6)*Subscript[s, \[Gamma]]^6 + 3*
+                (-1317 + 12670*\[Xi]^2 - 29994*\[Xi]^4 + 7840*\[Xi]^6)*
                 Subscript[s, \[Gamma]]^8) - \[Xi]^2*(-1 + Subscript[s, 
-                  \[Gamma]]^2)^2*(9*\[Xi]^2 + (1134 + 4017*\[Xi]^2 - 
-                 272*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 10*(-9 - 
-                 1827*\[Xi]^2 + 134*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 6*
-                (-1440 + 3801*\[Xi]^2 + 103*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 6 + (13014 - 5403*\[Xi]^2 - 4168*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 + (-5364 - 3159*\[Xi]^2 + 
-                 2482*\[Xi]^4)*Subscript[s, \[Gamma]]^10) - 
-             Subscript[c, \[Gamma]]^2*(-1 + Subscript[s, \[Gamma]]^2)*
-              (159*\[Xi]^4 + (3168*\[Xi]^2 - 8093*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 - 2*(378 + 13590*\[Xi]^2 - 
-                 36395*\[Xi]^4 + 3490*\[Xi]^6)*Subscript[s, \[Gamma]]^4 + 2*
-                (-333 + 29016*\[Xi]^2 - 82096*\[Xi]^4 + 11568*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^6 - 3*(-1200 + 14190*\[Xi]^2 - 
-                 40317*\[Xi]^4 + 8444*\[Xi]^6)*Subscript[s, \[Gamma]]^8 + 
-               (-2178 + 8658*\[Xi]^2 - 21615*\[Xi]^4 + 9176*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^10)) - (1 + 4*\[Xi]^2)^5*
-            Subscript[m, K]^10*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*
-            (4608*Subscript[c, \[Gamma]]^10*Subscript[s, \[Gamma]]^5 - 
-             1152*\[Xi]*Subscript[c, \[Gamma]]^9*Subscript[s, \[Gamma]]^4*
-              (-16 + 109*Subscript[s, \[Gamma]]^2) - 12*\[Xi]*
-              Subscript[c, \[Gamma]]^7*Subscript[s, \[Gamma]]^2*
-              (-512*\[Xi]^2 + 8*(-1107 + 2038*\[Xi]^2)*Subscript[s, \[Gamma]]^
-                 2 + (43186 - 93984*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 5*
-                (-9257 + 22032*\[Xi]^2)*Subscript[s, \[Gamma]]^6) + 
-             48*Subscript[c, \[Gamma]]^8*(416*\[Xi]^2*Subscript[s, \[Gamma]]^
-                 3 + (723 - 5100*\[Xi]^2)*Subscript[s, \[Gamma]]^5 + 
-               (-877 + 11388*\[Xi]^2)*Subscript[s, \[Gamma]]^7) + 
-             \[Xi]*Subscript[c, \[Gamma]]^5*Subscript[s, \[Gamma]]^2*
-              (61632*\[Xi]^2 + 24*(8982 - 43057*\[Xi]^2 + 4152*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 + (-1170894 + 5046079*\[Xi]^2 - 
-                 766176*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 3*(623815 - 
-                 2993638*\[Xi]^2 + 566016*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 
-               3*(313579 - 1680801*\[Xi]^2 + 358176*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8) + 2*Subscript[c, \[Gamma]]^6*
-              (72*\[Xi]^2*(857 - 280*\[Xi]^2)*Subscript[s, \[Gamma]]^3 + 
-               (36279 - 571604*\[Xi]^2 + 272016*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^5 - 6*(15779 - 245402*\[Xi]^2 + 163968*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^7 + 6*(10330 - 181427*\[Xi]^2 + 
-                 139272*\[Xi]^4)*Subscript[s, \[Gamma]]^9) - 
-             2*\[Xi]*Subscript[c, \[Gamma]]*(-1 + Subscript[s, \[Gamma]]^2)^2*
-              (-438*\[Xi]^4 + \[Xi]^2*(-14076 + 38819*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + (12150 + 416232*\[Xi]^2 - 
-                 379679*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 3*(17190 - 
-                 503276*\[Xi]^2 + 300377*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 
-               3*(47241 - 543275*\[Xi]^2 + 199430*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 + 3*(25686 - 156543*\[Xi]^2 + 
-                 5611*\[Xi]^4)*Subscript[s, \[Gamma]]^10) - 
+                  \[Gamma]]^2)^2*(99*\[Xi]^2 + (-486 + 1407*\[Xi]^2 - 
+                 272*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 10*(1431 - 
+                 936*\[Xi]^2 + 134*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 12*
+                (-4230 + 933*\[Xi]^2 + 59*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
+               (61254 + 2697*\[Xi]^2 - 4348*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 8 + (-24264 - 6039*\[Xi]^2 + 2572*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^10) + Subscript[c, \[Gamma]]^2*
+              (-1 + Subscript[s, \[Gamma]]^2)*(-339*\[Xi]^4 + \[Xi]^2*
+                (-4158 + 13313*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 4*
+                (-36 + 10245*\[Xi]^2 - 19975*\[Xi]^4 + 1745*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^4 - 2*(-1683 + 53361*\[Xi]^2 - 
+                 93001*\[Xi]^4 + 6978*\[Xi]^6)*Subscript[s, \[Gamma]]^6 + 3*
+                (-2100 + 33730*\[Xi]^2 - 50607*\[Xi]^4 + 2324*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^8 + (3078 - 31398*\[Xi]^2 + 
+                 32745*\[Xi]^4 + 4*\[Xi]^6)*Subscript[s, \[Gamma]]^10)) - 
+           (1 + 4*\[Xi]^2)^5*Subscript[m, K]^10*Subscript[m, \[Phi]]^2*
+            Subscript[s, \[Gamma]]*(4608*Subscript[c, \[Gamma]]^10*
+              Subscript[s, \[Gamma]]^5 - 768*\[Xi]*Subscript[c, \[Gamma]]^9*
+              Subscript[s, \[Gamma]]^4*(-49 + 501*Subscript[s, \[Gamma]]^2) - 
+             12*\[Xi]*Subscript[c, \[Gamma]]^7*Subscript[s, \[Gamma]]^2*
+              (-512*\[Xi]^2 + 16*(-1336 + 2169*\[Xi]^2)*Subscript[s, 
+                  \[Gamma]]^2 + (92646 - 247584*\[Xi]^2)*Subscript[s, 
+                  \[Gamma]]^4 + 5*(-17357 + 64656*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^6) + 96*Subscript[c, \[Gamma]]^8*
+              (408*\[Xi]^2*Subscript[s, \[Gamma]]^3 + (849 - 6850*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^5 + 2*(-463 + 8997*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^7) + \[Xi]*Subscript[c, \[Gamma]]^5*
+              Subscript[s, \[Gamma]]^2*(115632*\[Xi]^2 + 24*(13427 - 
+                 76807*\[Xi]^2 + 11112*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
+               (-1267194 + 7671919*\[Xi]^2 - 2063136*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 + 3*(599035 - 4059818*\[Xi]^2 + 
+                 1540736*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 3*(293299 - 
+                 2167341*\[Xi]^2 + 983136*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 8) + 2*Subscript[c, \[Gamma]]^6*(24*\[Xi]^2*(5591 - 
+                 1840*\[Xi]^2)*Subscript[s, \[Gamma]]^3 + (55719 - 
+                 1160204*\[Xi]^2 + 657936*\[Xi]^4)*Subscript[s, \[Gamma]]^5 - 
+               6*(22889 - 422142*\[Xi]^2 + 431968*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^7 + 48*(1775 - 35584*\[Xi]^2 + 
+                 48249*\[Xi]^4)*Subscript[s, \[Gamma]]^9) - 
              \[Xi]^2*Subscript[s, \[Gamma]]*(-1 + Subscript[s, \[Gamma]]^2)^2*
-              (7*\[Xi]^2*(-81 + 248*\[Xi]^2) - 8*(-2538 - 19773*\[Xi]^2 + 
-                 3743*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (52884 - 
-                 778386*\[Xi]^2 + 85112*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 6*
-                (62520 - 202099*\[Xi]^2 + 346*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 6 - 3*(-165246 + 217777*\[Xi]^2 + 51088*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 + 6*(-31941 + 9531*\[Xi]^2 + 
-                 16406*\[Xi]^4)*Subscript[s, \[Gamma]]^10) + 
+              (\[Xi]^2*(-2637 + 1736*\[Xi]^2) - 4*(15084 - 43911*\[Xi]^2 + 
+                 7441*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (686484 - 
+                 923736*\[Xi]^2 + 80792*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 6*
+                (-344340 + 269839*\[Xi]^2 + 2144*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^6 - 3*(-774246 + 351217*\[Xi]^2 + 57568*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 + 6*(-146781 + 29151*\[Xi]^2 + 
+                 17846*\[Xi]^4)*Subscript[s, \[Gamma]]^10) - 
+             2*\[Xi]*Subscript[c, \[Gamma]]*(-1 + Subscript[s, \[Gamma]]^2)^2*
+              (-888*\[Xi]^4 + \[Xi]^2*(-52236 + 48089*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (-43290 + 788427*\[Xi]^2 - 
+                 459074*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 3*(111390 - 
+                 972091*\[Xi]^2 + 385132*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
+               (-560223 + 3671235*\[Xi]^2 - 866640*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 + 3*(89586 - 471033*\[Xi]^2 + 
+                 30391*\[Xi]^4)*Subscript[s, \[Gamma]]^10) + 
              \[Xi]*Subscript[c, \[Gamma]]^3*Subscript[s, \[Gamma]]^2*
-              (20*\[Xi]^2*(5997 - 1580*\[Xi]^2) + (189468 - 1545830*\[Xi]^2 + 
-                 641739*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (-1085742 + 
-                 6709769*\[Xi]^2 - 3855390*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 + (2408466 - 12895647*\[Xi]^2 + 8824360*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 - 3*(775966 - 3804539*\[Xi]^2 + 
-                 2847782*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 3*(271902 - 
-                 1267683*\[Xi]^2 + 988079*\[Xi]^4)*Subscript[s, \[Gamma]]^
+              (296700*\[Xi]^2 - 83440*\[Xi]^4 + (397368 - 3112010*\[Xi]^2 + 
+                 1187559*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (-2207832 + 
+                 11275739*\[Xi]^2 - 5763810*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4 + (4558776 - 18905157*\[Xi]^2 + 11714920*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 - 9*(455302 - 1689473*\[Xi]^2 + 
+                 1168054*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 3*(449802 - 
+                 1587483*\[Xi]^2 + 1152419*\[Xi]^4)*Subscript[s, \[Gamma]]^
                  10) - Subscript[c, \[Gamma]]^2*Subscript[s, \[Gamma]]*
-              (-1 + Subscript[s, \[Gamma]]^2)*(22176*\[Xi]^4 + \[Xi]^2*
-                (156852 - 562269*\[Xi]^2 + 50266*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^2 - (7128 + 1245681*\[Xi]^2 - 3673908*\[Xi]^4 + 
-                 492692*\[Xi]^6)*Subscript[s, \[Gamma]]^4 + (-45612 + 
-                 2998107*\[Xi]^2 - 8261778*\[Xi]^4 + 1353424*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^6 - 3*(-39684 + 955155*\[Xi]^2 - 
-                 2419542*\[Xi]^4 + 481724*\[Xi]^6)*Subscript[s, \[Gamma]]^8 + 
-               3*(-22104 + 320361*\[Xi]^2 - 708181*\[Xi]^4 + 178058*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^10) + Subscript[c, \[Gamma]]^4*
-              (7200*\[Xi]^4*Subscript[s, \[Gamma]] - 6*\[Xi]^2*(-40617 + 
-                 51148*\[Xi]^2)*Subscript[s, \[Gamma]]^3 + (63873 - 
-                 2321557*\[Xi]^2 + 2803584*\[Xi]^4 - 68928*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^5 + 3*(-84057 + 2344349*\[Xi]^2 - 
-                 3043124*\[Xi]^4 + 136640*\[Xi]^6)*Subscript[s, \[Gamma]]^7 + 
-               (321555 - 8474361*\[Xi]^2 + 11999568*\[Xi]^4 - 645696*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^9 + 3*(-44415 + 1175981*\[Xi]^2 - 
-                 1800844*\[Xi]^4 + 101568*\[Xi]^6)*Subscript[s, \[Gamma]]^
+              (-1 + Subscript[s, \[Gamma]]^2)*(58086*\[Xi]^4 + \[Xi]^2*
+                (361422 - 1095939*\[Xi]^2 + 71146*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + (26712 - 2582091*\[Xi]^2 + 
+                 6106968*\[Xi]^4 - 619412*\[Xi]^6)*Subscript[s, \[Gamma]]^4 + 
+               (-155412 + 6180327*\[Xi]^2 - 13500138*\[Xi]^4 + 1480864*
+                  \[Xi]^6)*Subscript[s, \[Gamma]]^6 - 3*(-79044 + 
+                 2024835*\[Xi]^2 - 4112962*\[Xi]^4 + 458084*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^8 + 3*(-36144 + 706221*\[Xi]^2 - 
+                 1297981*\[Xi]^4 + 147218*\[Xi]^6)*Subscript[s, \[Gamma]]^
+                 10) + Subscript[c, \[Gamma]]^4*(18000*\[Xi]^4*Subscript[s, 
+                 \[Gamma]] + (460212*\[Xi]^2 - 636768*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^3 + (132573 - 3350557*\[Xi]^2 + 
+                 4837584*\[Xi]^4 - 193728*\[Xi]^6)*Subscript[s, \[Gamma]]^5 + 
+               3*(-160997 + 2891689*\[Xi]^2 - 4290384*\[Xi]^4 + 
+                 385600*\[Xi]^6)*Subscript[s, \[Gamma]]^7 - 3*(-192365 + 
+                 3201087*\[Xi]^2 - 4954936*\[Xi]^4 + 608832*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^9 + 3*(-75555 + 1279061*\[Xi]^2 - 
+                 2091424*\[Xi]^4 + 287808*\[Xi]^6)*Subscript[s, \[Gamma]]^
                  11)) + (1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*
             Subscript[m, \[Phi]]^4*(22464*Subscript[c, \[Gamma]]^10*
-              Subscript[s, \[Gamma]]^6 - 576*\[Xi]*Subscript[c, \[Gamma]]^9*
-              Subscript[s, \[Gamma]]^5*(-244 + 1203*Subscript[s, \[Gamma]]^
-                 2) - 6*\[Xi]*Subscript[c, \[Gamma]]^7*Subscript[s, \[Gamma]]^
-               3*(-26240*\[Xi]^2 + 144*(-908 + 2773*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + (612688 - 1601184*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^4 + 3*(-214747 + 552432*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^6) + 36*Subscript[c, \[Gamma]]^8*
-              (5872*\[Xi]^2*Subscript[s, \[Gamma]]^4 + (5313 - 51288*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^6 + (-6619 + 95784*\[Xi]^2)*
+              Subscript[s, \[Gamma]]^6 - 3456*\[Xi]*Subscript[c, \[Gamma]]^9*
+              Subscript[s, \[Gamma]]^5*(-99 + 613*Subscript[s, \[Gamma]]^2) - 
+             6*\[Xi]*Subscript[c, \[Gamma]]^7*Subscript[s, \[Gamma]]^3*
+              (-49920*\[Xi]^2 + (-311462 + 933712*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (1346908 - 4226544*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^4 + 3*(-415987 + 1589472*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^6) + 24*Subscript[c, \[Gamma]]^8*
+              (20408*\[Xi]^2*Subscript[s, \[Gamma]]^4 - 3*(-6069 + 
+                 71044*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 6*(-3361 + 
+                 74946*\[Xi]^2)*Subscript[s, \[Gamma]]^8) + 
+             3*Subscript[c, \[Gamma]]^6*Subscript[s, \[Gamma]]^2*
+              (25856*\[Xi]^4 + (898812*\[Xi]^2 - 779648*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + 3*(90553 - 2296780*\[Xi]^2 + 
+                 2047000*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 6*(112309 - 
+                 2524130*\[Xi]^2 + 2821240*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6 + 24*(17659 - 425812*\[Xi]^2 + 560091*\[Xi]^4)*
                 Subscript[s, \[Gamma]]^8) - 2*\[Xi]*Subscript[c, \[Gamma]]^5*
-              Subscript[s, \[Gamma]]^3*(36*\[Xi]^2*(-14129 + 2800*\[Xi]^2) - 
-               2*(462744 - 3297929*\[Xi]^2 + 666360*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 + 30*(171533 - 939881*\[Xi]^2 + 
-                 195432*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 3*(2831101 - 
-                 15575198*\[Xi]^2 + 3378672*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 6 + 9*(491771 - 2828230*\[Xi]^2 + 644304*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8) + 3*Subscript[c, \[Gamma]]^6*
-              Subscript[s, \[Gamma]]^2*(13056*\[Xi]^4 + (420492*\[Xi]^2 - 
-                 342528*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (166029 - 
-                 3414460*\[Xi]^2 + 2497320*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 - 6*(73329 - 1387100*\[Xi]^2 + 1082840*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + 6*(49261 - 1006228*\[Xi]^2 + 
-                 824124*\[Xi]^4)*Subscript[s, \[Gamma]]^8) + 
-             3*Subscript[c, \[Gamma]]^4*Subscript[s, \[Gamma]]^2*
-              (104928*\[Xi]^4 + 4*\[Xi]^2*(235641 - 535064*\[Xi]^2 + 
-                 16392*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (199770 - 
-                 8536805*\[Xi]^2 + 14375774*\[Xi]^4 - 676096*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^4 + (-791343 + 25572394*\[Xi]^2 - 
-                 40868832*\[Xi]^4 + 2319552*\[Xi]^6)*Subscript[s, \[Gamma]]^
-                 6 + (1025577 - 30917697*\[Xi]^2 + 50285354*\[Xi]^4 - 
-                 3068160*\[Xi]^6)*Subscript[s, \[Gamma]]^8 + 6*(-72525 + 
-                 2168744*\[Xi]^2 - 3658936*\[Xi]^4 + 228336*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^10) - 2*\[Xi]^2*
-              (-1 + Subscript[s, \[Gamma]]^2)^2*(-588*\[Xi]^4 + 4*\[Xi]^2*
-                (-4095 + 6973*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
-               (-59481 + 1138449*\[Xi]^2 - 268606*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 + 66*(15000 - 88345*\[Xi]^2 + 
-                 10388*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 6*(506964 - 
-                 1744155*\[Xi]^2 + 43340*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 
-               (3247479 - 7538742*\[Xi]^2 - 731712*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^10 + 9*(-124578 + 192705*\[Xi]^2 + 
-                 61718*\[Xi]^4)*Subscript[s, \[Gamma]]^12) - 
+              Subscript[s, \[Gamma]]^3*(144*\[Xi]^2*(-6511 + 1780*\[Xi]^2) - 
+               2*(723204 - 5722889*\[Xi]^2 + 1731720*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + 30*(224645 - 1498341*\[Xi]^2 + 
+                 515768*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 3*(3476161 - 
+                 23253458*\[Xi]^2 + 9032592*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6 + 9*(589691 - 4080310*\[Xi]^2 + 1740144*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8) + 3*Subscript[c, \[Gamma]]^4*
+              Subscript[s, \[Gamma]]^2*(224888*\[Xi]^4 + 2*\[Xi]^2*
+                (893467 - 2054808*\[Xi]^2 + 88464*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + (438330 - 13765425*\[Xi]^2 + 
+                 24528754*\[Xi]^4 - 1843456*\[Xi]^6)*Subscript[s, \[Gamma]]^
+                 4 + (-1596123 + 36968094*\[Xi]^2 - 62321632*\[Xi]^4 + 
+                 6372032*\[Xi]^6)*Subscript[s, \[Gamma]]^6 + (1922277 - 
+                 41793237*\[Xi]^2 + 71108414*\[Xi]^4 - 8474880*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^8 + 6*(-127605 + 2818754*\[Xi]^2 - 
+                 4966816*\[Xi]^4 + 633456*\[Xi]^6)*Subscript[s, \[Gamma]]^
+                 10) - 2*\[Xi]^2*(-1 + Subscript[s, \[Gamma]]^2)^2*
+              (-948*\[Xi]^4 + 4*\[Xi]^2*(-17595 + 8458*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (-704691 + 1893819*\[Xi]^2 - 
+                 304426*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 6*(922890 - 
+                 1566275*\[Xi]^2 + 127288*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 
+               6*(2386899 - 2964360*\[Xi]^2 + 52910*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 - 3*(-4960773 + 4724664*\[Xi]^2 + 
+                 248944*\[Xi]^4)*Subscript[s, \[Gamma]]^10 + 63*(-85374 + 
+                 61485*\[Xi]^2 + 9254*\[Xi]^4)*Subscript[s, \[Gamma]]^12) - 
              6*\[Xi]*Subscript[c, \[Gamma]]*Subscript[s, \[Gamma]]*
-              (-1 + Subscript[s, \[Gamma]]^2)*(7302*\[Xi]^4 + 
-               (135243*\[Xi]^2 - 301579*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
-               (31950 - 2379195*\[Xi]^2 + 2528929*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 - 2*(222621 - 5107302*\[Xi]^2 + 
-                 3873853*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + (1220187 - 
-                 17750253*\[Xi]^2 + 10570706*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 8 - 3*(411723 - 4530965*\[Xi]^2 + 2151279*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^10 + 3*(142758 - 1271226*\[Xi]^2 + 
-                 464483*\[Xi]^4)*Subscript[s, \[Gamma]]^12) + 
+              (-1 + Subscript[s, \[Gamma]]^2)*(16812*\[Xi]^4 + 
+               (441428*\[Xi]^2 - 496549*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
+               (281730 - 5439745*\[Xi]^2 + 3891889*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 + (-1883922 + 21697659*\[Xi]^2 - 
+                 11938226*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + (4129707 - 
+                 37770793*\[Xi]^2 + 16813966*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 8 - 3*(1246623 - 9965615*\[Xi]^2 + 3626159*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^10 + 3*(404118 - 2941806*\[Xi]^2 + 
+                 861323*\[Xi]^4)*Subscript[s, \[Gamma]]^12) + 
              2*\[Xi]*Subscript[c, \[Gamma]]^3*Subscript[s, \[Gamma]]*
-              (15120*\[Xi]^4 + (897471*\[Xi]^2 - 690258*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 + (989280 - 10993696*\[Xi]^2 + 
-                 7772589*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (-6178512 + 
-                 48015999*\[Xi]^2 - 35091318*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 6 + 3*(4768407 - 31663484*\[Xi]^2 + 23772890*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 - 3*(4720635 - 28958960*\[Xi]^2 + 
-                 21969864*\[Xi]^4)*Subscript[s, \[Gamma]]^10 + 9*
-                (560676 - 3314576*\[Xi]^2 + 2512333*\[Xi]^4)*
+              (47880*\[Xi]^4 - 6*\[Xi]^2*(-355216 + 246713*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (2198340 - 22295131*\[Xi]^2 + 
+                 13819629*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 3*(4178509 - 
+                 28350418*\[Xi]^2 + 18553986*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6 + 3*(8809302 - 50763759*\[Xi]^2 + 35210350*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 - 3*(8068335 - 43366430*\[Xi]^2 + 
+                 31181004*\[Xi]^4)*Subscript[s, \[Gamma]]^10 + 9*
+                (901716 - 4749056*\[Xi]^2 + 3471553*\[Xi]^4)*
                 Subscript[s, \[Gamma]]^12) + Subscript[c, \[Gamma]]^2*
-              Subscript[s, \[Gamma]]^2*(547227*\[Xi]^4 - 96584*\[Xi]^6 + 3*
-                \[Xi]^2*(690120 - 3760271*\[Xi]^2 + 658220*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 - 3*(-23382 + 6692697*\[Xi]^2 - 
-                 24376596*\[Xi]^4 + 4321060*\[Xi]^6)*Subscript[s, \[Gamma]]^
-                 4 + (-917406 + 67661865*\[Xi]^2 - 205633962*\[Xi]^4 + 
-                 37357256*\[Xi]^6)*Subscript[s, \[Gamma]]^6 - 3*(-809424 + 
-                 35054595*\[Xi]^2 - 94514377*\[Xi]^4 + 17747536*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^8 + 3*(-795708 + 25801245*\[Xi]^2 - 
-                 63252443*\[Xi]^4 + 12335788*\[Xi]^6)*Subscript[s, \[Gamma]]^
-                 10 - 18*(-44784 + 1216338*\[Xi]^2 - 2747531*\[Xi]^4 + 
-                 557606*\[Xi]^6)*Subscript[s, \[Gamma]]^12)) - 
+              Subscript[s, \[Gamma]]^2*(1454157*\[Xi]^4 - 172184*\[Xi]^6 + 3*
+                \[Xi]^2*(1703610 - 7940811*\[Xi]^2 + 1025180*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 - 3*(-158502 + 14352487*\[Xi]^2 - 
+                 45741576*\[Xi]^4 + 6184180*\[Xi]^6)*Subscript[s, \[Gamma]]^
+                 4 + (-2702286 + 134636955*\[Xi]^2 - 366586602*\[Xi]^4 + 
+                 50042216*\[Xi]^6)*Subscript[s, \[Gamma]]^6 + (5366772 - 
+                 199563375*\[Xi]^2 + 495778431*\[Xi]^4 - 67466208*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^8 + 3*(-1510308 + 47345445*\[Xi]^2 - 
+                 110220203*\[Xi]^4 + 14899948*\[Xi]^6)*Subscript[s, \[Gamma]]^
+                 10 - 36*(-38637 + 1087869*\[Xi]^2 - 2406058*\[Xi]^4 + 
+                 322963*\[Xi]^6)*Subscript[s, \[Gamma]]^12)) - 
            (1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, \[Phi]]^6*
             (57024*Subscript[c, \[Gamma]]^10*Subscript[s, \[Gamma]]^6 - 
-             14688*\[Xi]*Subscript[c, \[Gamma]]^9*Subscript[s, \[Gamma]]^5*
-              (-34 + 135*Subscript[s, \[Gamma]]^2) - 12*\[Xi]*
+             3456*\[Xi]*Subscript[c, \[Gamma]]^9*Subscript[s, \[Gamma]]^5*
+              (-382 + 1755*Subscript[s, \[Gamma]]^2) - 48*\[Xi]*
               Subscript[c, \[Gamma]]^7*Subscript[s, \[Gamma]]^3*
-              (-89536*\[Xi]^2 + 3*(-78051 + 332524*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 - 6*(-175421 + 546684*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^4 + 54*(-20243 + 57414*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^6) + 72*Subscript[c, \[Gamma]]^8*
-              (13264*\[Xi]^2*Subscript[s, \[Gamma]]^4 + (7371 - 
-                 94758*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 3*(-3137 + 
-                 51642*\[Xi]^2)*Subscript[s, \[Gamma]]^8) + 
-             12*Subscript[c, \[Gamma]]^6*Subscript[s, \[Gamma]]^2*
-              (39040*\[Xi]^4 + (470544*\[Xi]^2 - 649560*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 + 2*(66510 - 1768457*\[Xi]^2 + 
-                 1777716*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (-358803 + 
-                 8289282*\[Xi]^2 - 7657776*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 6 + 9*(27653 - 660360*\[Xi]^2 + 594720*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8) + \[Xi]*Subscript[c, \[Gamma]]^5*
-              Subscript[s, \[Gamma]]*(116736*\[Xi]^4 + (6334884*\[Xi]^2 - 
-                 2865984*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 4*(1820997 - 
-                 17878522*\[Xi]^2 + 5600448*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 - 3*(13510188 - 93050417*\[Xi]^2 + 25124352*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + 9*(7553003 - 48839218*\[Xi]^2 + 
-                 12440064*\[Xi]^4)*Subscript[s, \[Gamma]]^8 - 243*
-                (149339 - 965125*\[Xi]^2 + 244416*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^10) + Subscript[c, \[Gamma]]^4*
-              Subscript[s, \[Gamma]]^2*(24*\[Xi]^4*(123249 - 9136*\[Xi]^2) + 
-               2*\[Xi]^2*(6941583 - 23633680*\[Xi]^2 + 1743936*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 - 3*(-771030 + 40321759*\[Xi]^2 - 
-                 91123650*\[Xi]^4 + 6649216*\[Xi]^6)*Subscript[s, \[Gamma]]^
-                 4 + (-9249336 + 358583691*\[Xi]^2 - 712918710*\[Xi]^4 + 
-                 51465600*\[Xi]^6)*Subscript[s, \[Gamma]]^6 - 9*(-1355475 + 
-                 48306599*\[Xi]^2 - 93092338*\[Xi]^4 + 6633984*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^8 + 81*(-65339 + 2283101*\[Xi]^2 - 
-                 4423538*\[Xi]^4 + 312064*\[Xi]^6)*Subscript[s, \[Gamma]]^
-                 10) + 2*\[Xi]*Subscript[c, \[Gamma]]^3*Subscript[s, 
-               \[Gamma]]*(322056*\[Xi]^4 + (5287176*\[Xi]^2 - 8050764*
-                  \[Xi]^4)*Subscript[s, \[Gamma]]^2 + (4203918 - 
-                 63797751*\[Xi]^2 + 68140802*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 + (-28063413 + 279744830*\[Xi]^2 - 261748956*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + (67469013 - 560596791*\[Xi]^2 + 
-                 490786080*\[Xi]^4)*Subscript[s, \[Gamma]]^8 - 9*
-                (7603086 - 57891733*\[Xi]^2 + 48662324*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^10 + 81*(306550 - 2246809*\[Xi]^2 + 
-                 1837954*\[Xi]^4)*Subscript[s, \[Gamma]]^12) - 
-             4*\[Xi]^2*(-1 + Subscript[s, \[Gamma]]^2)*(2352*\[Xi]^4 + 
-               (31806*\[Xi]^2 - 82848*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
-               (313983 - 3249417*\[Xi]^2 + 837700*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 + (-3266847 + 21243549*\[Xi]^2 - 
-                 2933312*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + (10842966 - 
-                 54757287*\[Xi]^2 + 4104376*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 8 - 3*(5311566 - 22886589*\[Xi]^2 + 512924*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^10 - 18*(-601038 + 2326047*\[Xi]^2 + 
-                 69284*\[Xi]^4)*Subscript[s, \[Gamma]]^12 + 108*(-25686 + 
-                 92049*\[Xi]^2 + 7946*\[Xi]^4)*Subscript[s, \[Gamma]]^14) - 
+              (-49664*\[Xi]^2 + 3*(-46484 + 204981*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (585489 - 2189016*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^4 + 27*(-19724 + 81927*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^6) + 432*Subscript[c, \[Gamma]]^8*
+              (5644*\[Xi]^2*Subscript[s, \[Gamma]]^4 + (2766 - 45043*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^6 + (-3106 + 80571*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^8) + 12*Subscript[c, \[Gamma]]^6*
+              Subscript[s, \[Gamma]]^2*(86720*\[Xi]^4 - 2*\[Xi]^2*
+                (-505167 + 772160*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 4*
+                (56655 - 1796041*\[Xi]^2 + 2221428*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 - 6*(94053 - 2584202*\[Xi]^2 + 
+                 3322716*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 9*(40088 - 
+                 1147245*\[Xi]^2 + 1601880*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 8) + \[Xi]*Subscript[c, \[Gamma]]^5*Subscript[s, \[Gamma]]*
+              (285696*\[Xi]^4 - 12*\[Xi]^2*(-967567 + 605232*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + 8*(1470321 - 15560276*\[Xi]^2 + 
+                 7235664*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 3*(19342548 - 
+                 152757737*\[Xi]^2 + 65837952*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6 + 9*(10222403 - 76239598*\[Xi]^2 + 32978304*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 - 81*(585277 - 4369235*\[Xi]^2 + 
+                 1962688*\[Xi]^4)*Subscript[s, \[Gamma]]^10) + 
+             Subscript[c, \[Gamma]]^4*Subscript[s, \[Gamma]]^2*
+              (5994096*\[Xi]^4 - 574464*\[Xi]^6 + 4*\[Xi]^2*(6533649 - 
+                 21961520*\[Xi]^2 + 2321088*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 2 + (5207490 - 202471797*\[Xi]^2 + 466078590*\[Xi]^4 - 
+                 53666688*\[Xi]^6)*Subscript[s, \[Gamma]]^4 + 3*(-6307812 + 
+                 182920177*\[Xi]^2 - 374963610*\[Xi]^4 + 46512000*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^6 - 9*(-2544915 + 69486719*\[Xi]^2 - 
+                 138905938*\[Xi]^4 + 18094464*\[Xi]^6)*Subscript[s, \[Gamma]]^
+                 8 + 81*(-113799 + 3148001*\[Xi]^2 - 6376938*\[Xi]^4 + 
+                 855424*\[Xi]^6)*Subscript[s, \[Gamma]]^10) + 
+             2*\[Xi]*Subscript[c, \[Gamma]]^3*Subscript[s, \[Gamma]]*
+              (755616*\[Xi]^4 + (12136656*\[Xi]^2 - 15913164*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + (9600948 - 127376331*\[Xi]^2 + 
+                 120522362*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (-56551428 + 
+                 497547515*\[Xi]^2 - 429025836*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^6 + 6*(20367648 - 152572961*\[Xi]^2 + 
+                 127434940*\[Xi]^4)*Subscript[s, \[Gamma]]^8 - 9*
+                (12686376 - 89001433*\[Xi]^2 + 73304924*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^10 + 81*(480720 - 3312899*\[Xi]^2 + 
+                 2709594*\[Xi]^4)*Subscript[s, \[Gamma]]^12) - 
+             4*\[Xi]^2*(-1 + Subscript[s, \[Gamma]]^2)*(3792*\[Xi]^4 - 6*
+                \[Xi]^2*(-45231 + 18668*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
+               (2095353 - 6812967*\[Xi]^2 + 1057480*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 + (-17043687 + 39536409*\[Xi]^2 - 
+                 3673112*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + (51620976 - 
+                 99600867*\[Xi]^2 + 5387056*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 8 - 3*(24586326 - 41950299*\[Xi]^2 + 907664*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^10 - 18*(-2796318 + 4361487*\[Xi]^2 + 
+                 39404*\[Xi]^4)*Subscript[s, \[Gamma]]^12 + 108*(-122661 + 
+                 178359*\[Xi]^2 + 7136*\[Xi]^4)*Subscript[s, \[Gamma]]^14) - 
              2*\[Xi]*Subscript[c, \[Gamma]]*Subscript[s, \[Gamma]]*
-              (-179616*\[Xi]^4 + (-2829852*\[Xi]^2 + 6918442*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 + (-914490 + 46045419*\[Xi]^2 - 
-                 60891232*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 12*
-                (750276 - 19019500*\[Xi]^2 + 18885185*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 - 3*(9470151 - 173588540*\[Xi]^2 + 
-                 144205544*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + (40486419 - 
-                 611783226*\[Xi]^2 + 446981802*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^10 - 9*(3020535 - 40110861*\[Xi]^2 + 
-                 26493724*\[Xi]^4)*Subscript[s, \[Gamma]]^12 + 81*
-                (86667 - 1048910*\[Xi]^2 + 637172*\[Xi]^4)*
+              (-514296*\[Xi]^4 + 2*\[Xi]^2*(-4615971 + 6661721*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (-4646070 + 114254739*\[Xi]^2 - 
+                 105509512*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 12*
+                (2803026 - 42725100*\[Xi]^2 + 31527965*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 - 3*(30307011 - 373388620*\[Xi]^2 + 
+                 237993684*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 3*
+                (39197133 - 430115952*\[Xi]^2 + 246179594*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^10 - 9*(8193015 - 83911041*\[Xi]^2 + 
+                 44150284*\[Xi]^4)*Subscript[s, \[Gamma]]^12 + 81*
+                (223167 - 2189370*\[Xi]^2 + 1076092*\[Xi]^4)*
                 Subscript[s, \[Gamma]]^14) + Subscript[c, \[Gamma]]^2*
-              (30240*\[Xi]^6 + (4560156*\[Xi]^4 - 1755344*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^2 + 2*\[Xi]^2*(5312970 - 40906039*
-                  \[Xi]^2 + 11224044*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
-               (589680 - 109168605*\[Xi]^2 + 500318754*\[Xi]^4 - 118956728*
-                  \[Xi]^6)*Subscript[s, \[Gamma]]^6 + (-5085828 + 
-                 388434015*\[Xi]^2 - 1401274662*\[Xi]^4 + 311354704*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^8 - 3*(-4054428 + 211437315*\[Xi]^2 - 
-                 661194258*\[Xi]^4 + 142227296*\[Xi]^6)*Subscript[s, 
-                  \[Gamma]]^10 + 9*(-1271268 + 54213201*\[Xi]^2 - 
-                 154109468*\[Xi]^4 + 32665912*\[Xi]^6)*Subscript[s, \[Gamma]]^
-                 12 - 54*(-69894 + 2657385*\[Xi]^2 - 7068486*\[Xi]^4 + 
-                 1489972*\[Xi]^6)*Subscript[s, \[Gamma]]^14)) + 
+              (84960*\[Xi]^6 - 8*\[Xi]^4*(-1473627 + 406918*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + 2*\[Xi]^2*(13566105 - 
+                 88004029*\[Xi]^2 + 18223644*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4 + (2451600 - 235654065*\[Xi]^2 + 968700234*\[Xi]^4 - 
+                 179492888*\[Xi]^6)*Subscript[s, \[Gamma]]^6 + (-13312188 + 
+                 760125465*\[Xi]^2 - 2557512282*\[Xi]^4 + 446661424*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^8 - 3*(-8586468 + 387207075*\[Xi]^2 - 
+                 1165554078*\[Xi]^4 + 196382816*\[Xi]^6)*Subscript[s, 
+                  \[Gamma]]^10 + 9*(-2378268 + 94581141*\[Xi]^2 - 
+                 265856708*\[Xi]^4 + 43783672*\[Xi]^6)*Subscript[s, \[Gamma]]^
+                 12 - 54*(-120474 + 4466985*\[Xi]^2 - 12022626*\[Xi]^4 + 
+                 1951972*\[Xi]^6)*Subscript[s, \[Gamma]]^14)) + 
            Subscript[m, \[Phi]]^12*(17496*Subscript[c, \[Gamma]]^10*
               Subscript[s, \[Gamma]]^6 - 23328*\[Xi]*Subscript[c, \[Gamma]]^9*
-              Subscript[s, \[Gamma]]^5*(-13 + 36*Subscript[s, \[Gamma]]^2) - 
-             162*\[Xi]*Subscript[c, \[Gamma]]^7*Subscript[s, \[Gamma]]^3*
-              (-12736*\[Xi]^2 + 12*(-873 + 8032*\[Xi]^2)*Subscript[s, 
-                  \[Gamma]]^2 - 768*(-59 + 309*\[Xi]^2)*Subscript[s, 
-                  \[Gamma]]^4 + 27*(-1805 + 6976*\[Xi]^2)*Subscript[s, 
-                  \[Gamma]]^6) + 972*Subscript[c, \[Gamma]]^8*
-              (1024*\[Xi]^2*Subscript[s, \[Gamma]]^4 + (189 - 5280*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^6 + 3*(-89 + 2232*\[Xi]^2)*
+              Subscript[s, \[Gamma]]^5*(-38 + 111*Subscript[s, \[Gamma]]^2) - 
+             486*\[Xi]*Subscript[c, \[Gamma]]^7*Subscript[s, \[Gamma]]^3*
+              (-11392*\[Xi]^2 + 12*(-691 + 7344*\[Xi]^2)*Subscript[s, 
+                  \[Gamma]]^2 - 8*(-4063 + 27768*\[Xi]^2)*Subscript[s, 
+                  \[Gamma]]^4 + 9*(-3205 + 20096*\[Xi]^2)*Subscript[s, 
+                  \[Gamma]]^6) + 5832*Subscript[c, \[Gamma]]^8*
+              (504*\[Xi]^2*Subscript[s, \[Gamma]]^4 + (69 - 2680*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^6 + (-82 + 3516*\[Xi]^2)*
                 Subscript[s, \[Gamma]]^8) + 27*Subscript[c, \[Gamma]]^6*
-              Subscript[s, \[Gamma]]^2*(79744*\[Xi]^4 - 11520*\[Xi]^2*
-                (-17 + 70*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 3*
-                (8397 - 457072*\[Xi]^2 + 1001088*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^4 - 18*(4101 - 174314*\[Xi]^2 + 269952*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + 324*(188 - 7135*\[Xi]^2 + 
-                 8832*\[Xi]^4)*Subscript[s, \[Gamma]]^8) - 
-             18*\[Xi]*Subscript[c, \[Gamma]]^5*Subscript[s, \[Gamma]]*
-              (-74752*\[Xi]^4 + 192*\[Xi]^2*(-3099 + 4856*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 - 48*(5724 - 120293*\[Xi]^2 + 
-                 95328*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 9*(170085 - 
-                 2257840*\[Xi]^2 + 1224192*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 6 - 27*(101749 - 1127876*\[Xi]^2 + 480768*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 + 324*(4989 - 50251*\[Xi]^2 + 
-                 18432*\[Xi]^4)*Subscript[s, \[Gamma]]^10) + 
-             6*\[Xi]*Subscript[c, \[Gamma]]^3*Subscript[s, \[Gamma]]*
-              (787968*\[Xi]^4 - 512*\[Xi]^2*(-4887 + 26014*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + 12*(77355 - 2628096*\[Xi]^2 + 
-                 7258304*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 9*(837297 - 
-                 16071088*\[Xi]^2 + 31573824*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 6 + 27*(738801 - 11246920*\[Xi]^2 + 18174304*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 - 81*(263091 - 3658504*\[Xi]^2 + 
-                 5286352*\[Xi]^4)*Subscript[s, \[Gamma]]^10 + 729*
-                (10933 - 149504*\[Xi]^2 + 203680*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^12) + 3*Subscript[c, \[Gamma]]^4*
-              (131072*\[Xi]^6 - 3072*\[Xi]^4*(-1011 + 640*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + 192*\[Xi]^2*(24570 - 
-                 210727*\[Xi]^2 + 62976*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 
-               108*(-3915 + 371467*\[Xi]^2 - 1866432*\[Xi]^4 + 360448*
-                  \[Xi]^6)*Subscript[s, \[Gamma]]^6 + 27*(-66285 + 
-                 4505224*\[Xi]^2 - 17697072*\[Xi]^4 + 2555904*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^8 - 2592*(-981 + 59485*\[Xi]^2 - 
-                 207223*\[Xi]^4 + 24576*\[Xi]^6)*Subscript[s, \[Gamma]]^10 + 
-               729*(-1613 + 95316*\[Xi]^2 - 314384*\[Xi]^4 + 32768*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^12) - 24*\[Xi]*Subscript[c, \[Gamma]]*
-              Subscript[s, \[Gamma]]*(20736*\[Xi]^4 + 8*\[Xi]^2*(-31509 + 
-                 107872*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 4*(21870 - 
-                 1186299*\[Xi]^2 + 2728856*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 + 3*(250533 - 8595540*\[Xi]^2 + 16478320*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 - 27*(83349 - 2382143*\[Xi]^2 + 
-                 4179560*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 27*(115425 - 
-                 3065067*\[Xi]^2 + 5186524*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 10 - 81*(25317 - 660831*\[Xi]^2 + 1116116*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^12 + 729*(714 - 18923*\[Xi]^2 + 
-                 32688*\[Xi]^4)*Subscript[s, \[Gamma]]^14) - 
+              Subscript[s, \[Gamma]]^2*(206464*\[Xi]^4 - 720*\[Xi]^2*
+                (-589 + 2928*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 3*
+                (15147 - 913312*\[Xi]^2 + 2644608*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 - 18*(6351 - 315434*\[Xi]^2 + 
+                 721152*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 162*
+                (501 - 22910*\[Xi]^2 + 47744*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 8) - 18*\[Xi]*Subscript[c, \[Gamma]]^5*Subscript[s, 
+               \[Gamma]]*(-197632*\[Xi]^4 + 96*\[Xi]^2*(-11163 + 
+                 25712*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 12*(38151 - 
+                 825452*\[Xi]^2 + 1011072*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
+               9*(258285 - 3674080*\[Xi]^2 + 3251712*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 - 27*(140209 - 1733156*\[Xi]^2 + 
+                 1279488*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 324*
+                (6309 - 72631*\[Xi]^2 + 49152*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 10) + 6*\[Xi]*Subscript[c, \[Gamma]]^3*Subscript[s, 
+               \[Gamma]]*(1417728*\[Xi]^4 - 512*\[Xi]^2*(-10287 + 
+                 44299*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 48*(47385 - 
+                 1201524*\[Xi]^2 + 2946176*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4 - 9*(1605177 - 26301328*\[Xi]^2 + 49172544*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + 27*(1207521 - 16890280*\[Xi]^2 + 
+                 27274144*\[Xi]^4)*Subscript[s, \[Gamma]]^8 - 81*
+                (386091 - 5130664*\[Xi]^2 + 7667152*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^10 + 729*(14873 - 198304*\[Xi]^2 + 
+                 285920*\[Xi]^4)*Subscript[s, \[Gamma]]^12) + 
+             9*Subscript[c, \[Gamma]]^4*(118784*\[Xi]^6 - 6144*\[Xi]^4*
+                (-301 + 290*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 32*\[Xi]^2*
+                (88155 - 710954*\[Xi]^2 + 342432*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^4 - 36*(-9315 + 609307*\[Xi]^2 - 2980752*
+                  \[Xi]^4 + 979968*\[Xi]^6)*Subscript[s, \[Gamma]]^6 + 9*
+                (-131085 + 6753184*\[Xi]^2 - 26848752*\[Xi]^4 + 6948864*
+                  \[Xi]^6)*Subscript[s, \[Gamma]]^8 - 432*(-3312 + 
+                 164735*\[Xi]^2 - 599666*\[Xi]^4 + 133632*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^10 + 243*(-2413 + 123516*\[Xi]^2 - 
+                 435024*\[Xi]^4 + 89088*\[Xi]^6)*Subscript[s, \[Gamma]]^12) - 
+             24*\[Xi]*Subscript[c, \[Gamma]]*Subscript[s, \[Gamma]]*
+              (-21504*\[Xi]^4 + 128*\[Xi]^2*(-7749 + 15142*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 - 2*(171315 - 6194178*\[Xi]^2 + 
+                 9536752*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 3*(772983 - 
+                 18852840*\[Xi]^2 + 26203120*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6 - 81*(73683 - 1567461*\[Xi]^2 + 2092040*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 + 27*(274725 - 5607387*\[Xi]^2 + 
+                 7459324*\[Xi]^4)*Subscript[s, \[Gamma]]^10 - 81*
+                (55467 - 1138071*\[Xi]^2 + 1547876*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^12 + 729*(1464 - 30983*\[Xi]^2 + 
+                 43888*\[Xi]^4)*Subscript[s, \[Gamma]]^14) - 
              2*Subscript[c, \[Gamma]]^2*(-221184*\[Xi]^6 + 64*\[Xi]^4*
-                (-70335 + 107944*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 24*
-                \[Xi]^2*(194967 - 3363396*\[Xi]^2 + 2726528*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 + 9*(-32805 + 6529896*\[Xi]^2 - 
-                 55953856*\[Xi]^4 + 32668160*\[Xi]^6)*Subscript[s, \[Gamma]]^
-                 6 - 27*(-83349 + 8622612*\[Xi]^2 - 54990696*\[Xi]^4 + 
-                 26571136*\[Xi]^6)*Subscript[s, \[Gamma]]^8 + 81*
-                (-61479 + 5040906*\[Xi]^2 - 27931008*\[Xi]^4 + 12071648*
-                  \[Xi]^6)*Subscript[s, \[Gamma]]^10 - 243*(-18063 + 
-                 1361328*\[Xi]^2 - 7104512*\[Xi]^4 + 2883808*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^12 + 1458*(-936 + 69417*\[Xi]^2 - 
-                 358248*\[Xi]^4 + 141248*\[Xi]^6)*Subscript[s, \[Gamma]]^
-                 14) + 8*\[Xi]^2*(-27648*\[Xi]^4 + 4608*\[Xi]^2*
-                (-27 + 77*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 16*
-                (-10935 + 92097*\[Xi]^2 + 81848*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^4 + 12*(-141669 + 1520478*\[Xi]^2 + 
-                 41024*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 9*(699597 - 
-                 7930872*\[Xi]^2 + 936640*\[Xi]^4)*Subscript[s, \[Gamma]]^8 - 
-               27*(437157 - 5179704*\[Xi]^2 + 904352*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^10 + 81*(148239 - 1846884*\[Xi]^2 + 
-                 384056*\[Xi]^4)*Subscript[s, \[Gamma]]^12 - 243*
-                (26091 - 344244*\[Xi]^2 + 80720*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^14 + 17496*(78 - 1096*\[Xi]^2 + 285*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^16)) - (1 + 4*\[Xi]^2)*
-            Subscript[m, K]^2*Subscript[m, \[Phi]]^10*
-            (58320*Subscript[c, \[Gamma]]^10*Subscript[s, \[Gamma]]^6 - 
-             3888*\[Xi]*Subscript[c, \[Gamma]]^9*Subscript[s, \[Gamma]]^5*
-              (-215 + 651*Subscript[s, \[Gamma]]^2) - 108*\[Xi]*
-              Subscript[c, \[Gamma]]^7*Subscript[s, \[Gamma]]^3*
-              (-38416*\[Xi]^2 + 9*(-4885 + 35232*\[Xi]^2)*Subscript[s, 
-                  \[Gamma]]^2 - 48*(-3944 + 17427*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^4 + 9*(-22073 + 77328*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^6) + 1944*Subscript[c, \[Gamma]]^8*
-              (1204*\[Xi]^2*Subscript[s, \[Gamma]]^4 + (309 - 6732*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^6 + (-419 + 9132*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^8) + 18*Subscript[c, \[Gamma]]^6*
-              Subscript[s, \[Gamma]]^2*(191168*\[Xi]^4 + (728388*\[Xi]^2 - 
-                 2152128*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 9*(13137 - 
-                 567748*\[Xi]^2 + 972672*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 
-               216*(1553 - 53708*\[Xi]^2 + 70264*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^6 + 54*(4757 - 155105*\[Xi]^2 + 173472*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8) - 18*\[Xi]*Subscript[c, \[Gamma]]^5*
-              Subscript[s, \[Gamma]]*(-97280*\[Xi]^4 + 24*\[Xi]^2*
-                (-52919 + 56976*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 2*
-                (376911 - 6281878*\[Xi]^2 + 3696000*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 + 9*(465225 - 4967810*\[Xi]^2 + 
-                 2134656*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 9*(810001 - 
-                 7447052*\[Xi]^2 + 2663424*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 8 + 108*(38171 - 327822*\[Xi]^2 + 106176*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^10) + 12*\[Xi]*Subscript[c, \[Gamma]]^
-               3*Subscript[s, \[Gamma]]*(620160*\[Xi]^4 - 4*\[Xi]^2*
-                (-713061 + 2697136*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 3*
-                (438678 - 11658739*\[Xi]^2 + 24149776*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 - 6*(1658574 - 26146363*\[Xi]^2 + 
-                 40098664*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 27*
-                (946897 - 11962811*\[Xi]^2 + 15474804*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 - 54*(499545 - 5729708*\[Xi]^2 + 
-                 6711936*\[Xi]^4)*Subscript[s, \[Gamma]]^10 + 324*
-                (31041 - 344712*\[Xi]^2 + 381820*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^12) + 3*Subscript[c, \[Gamma]]^4*
-              (120832*\[Xi]^6 - 96*\[Xi]^4*(-58801 + 22560*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + 4*\[Xi]^2*(2910879 - 18820484*
-                  \[Xi]^2 + 3823872*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
-               (1255743 - 98630118*\[Xi]^2 + 382180344*\[Xi]^4 - 
-                 54807552*\[Xi]^6)*Subscript[s, \[Gamma]]^6 + 27*
-                (-192093 + 10893530*\[Xi]^2 - 33932200*\[Xi]^4 + 
-                 3898368*\[Xi]^6)*Subscript[s, \[Gamma]]^8 - 54*(-132711 + 
-                 6758286*\[Xi]^2 - 19094144*\[Xi]^4 + 1901568*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^10 + 324*(-10065 + 495715*\[Xi]^2 - 
-                 1345528*\[Xi]^4 + 122880*\[Xi]^6)*Subscript[s, \[Gamma]]^
-                 12) - 12*\[Xi]*Subscript[c, \[Gamma]]*Subscript[s, \[Gamma]]*
-              (-21312*\[Xi]^4 + 4*\[Xi]^2*(-334359 + 1073876*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + (-442746 + 22819008*\[Xi]^2 - 
-                 44615008*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 3*(1285659 - 
-                 39712568*\[Xi]^2 + 62140444*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 6 - 6*(1944918 - 48170847*\[Xi]^2 + 66912212*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 + 81*(201709 - 4487792*\[Xi]^2 + 
-                 5843420*\[Xi]^4)*Subscript[s, \[Gamma]]^10 - 162*
-                (67176 - 1423465*\[Xi]^2 + 1797580*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^12 + 324*(8640 - 180435*\[Xi]^2 + 
-                 226256*\[Xi]^4)*Subscript[s, \[Gamma]]^14) - 
-             4*Subscript[c, \[Gamma]]^2*(-170496*\[Xi]^6 + 32*\[Xi]^4*
-                (-156321 + 159922*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 6*
-                \[Xi]^2*(1042587 - 14229932*\[Xi]^2 + 8153552*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 + 3*(-129762 + 24206805*\[Xi]^2 - 
-                 172185836*\[Xi]^4 + 73837744*\[Xi]^6)*Subscript[s, \[Gamma]]^
-                 6 - 9*(-329670 + 30936381*\[Xi]^2 - 164641786*\[Xi]^4 + 
-                 59898760*\[Xi]^6)*Subscript[s, \[Gamma]]^8 + 81*
-                (-82521 + 5926940*\[Xi]^2 - 27118654*\[Xi]^4 + 8948456*
-                  \[Xi]^6)*Subscript[s, \[Gamma]]^10 - 324*(-18594 + 
-                 1189542*\[Xi]^2 - 5030743*\[Xi]^4 + 1566188*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^12 + 243*(-7893 + 483198*\[Xi]^2 - 
-                 1973144*\[Xi]^4 + 594416*\[Xi]^6)*Subscript[s, \[Gamma]]^
-                 14) + 8*\[Xi]^2*(-27648*\[Xi]^4 + 4*\[Xi]^2*(-39735 + 
-                 74096*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 6*(-73791 + 
-                 665630*\[Xi]^2 + 78960*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 6*
-                (731889 - 6762414*\[Xi]^2 + 589720*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + 3*(5458239 - 49555938*\[Xi]^2 + 
-                 5880056*\[Xi]^4)*Subscript[s, \[Gamma]]^8 - 18*(1701801 - 
-                 15490251*\[Xi]^2 + 1954388*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 10 + 81*(381963 - 3552246*\[Xi]^2 + 456584*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^12 - 162*(99873 - 962313*\[Xi]^2 + 
-                 125648*\[Xi]^4)*Subscript[s, \[Gamma]]^14 + 1944*
-                (1773 - 17871*\[Xi]^2 + 2395*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 16)) + (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*
-            Subscript[m, \[Phi]]^8*(79704*Subscript[c, \[Gamma]]^10*
-              Subscript[s, \[Gamma]]^6 - 182736*\[Xi]*Subscript[c, \[Gamma]]^
-               9*Subscript[s, \[Gamma]]^5*(-5 + 17*Subscript[s, \[Gamma]]^
-                 2) - 36*\[Xi]*Subscript[c, \[Gamma]]^7*Subscript[s, 
-                \[Gamma]]^3*(-86864*\[Xi]^2 + 72*(-2003 + 11228*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 - 72*(-8741 + 32460*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^4 + 45*(-14507 + 45744*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^6) + 648*Subscript[c, \[Gamma]]^8*
-              (3303*\[Xi]^2*Subscript[s, \[Gamma]]^4 - 6*(-203 + 
-                 3418*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + (-1598 + 
-                 30225*\[Xi]^2)*Subscript[s, \[Gamma]]^8) + 
-             9*Subscript[c, \[Gamma]]^6*Subscript[s, \[Gamma]]^2*
-              (217664*\[Xi]^4 - 4*\[Xi]^2*(-344901 + 714128*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + 3*(96933 - 3300668*\[Xi]^2 + 
-                 4371840*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 54*
-                (14855 - 419718*\[Xi]^2 + 461280*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^6 + 9*(64501 - 1801988*\[Xi]^2 + 1807008*\[Xi]^4)*
+                (-179415 + 138184*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 48*
+                \[Xi]^2*(274671 - 3508338*\[Xi]^2 + 1826944*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 + 9*(-105705 + 13725936*\[Xi]^2 - 
+                 103238656*\[Xi]^4 + 44119040*\[Xi]^6)*Subscript[s, \[Gamma]]^
+                 6 - 27*(-180549 + 15496812*\[Xi]^2 - 93228456*\[Xi]^4 + 
+                 35683456*\[Xi]^6)*Subscript[s, \[Gamma]]^8 + 81*
+                (-110079 + 8167746*\[Xi]^2 - 44374608*\[Xi]^4 + 16023008*
+                  \[Xi]^6)*Subscript[s, \[Gamma]]^10 - 243*(-28863 + 
+                 2045568*\[Xi]^2 - 10694432*\[Xi]^4 + 3770848*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^12 + 1458*(-1386 + 98457*\[Xi]^2 - 
+                 514608*\[Xi]^4 + 181568*\[Xi]^6)*Subscript[s, \[Gamma]]^
+                 14) + 8*\[Xi]^2*(-27648*\[Xi]^4 + 1152*\[Xi]^2*
+                (27 + 308*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 32*
+                (-32805 + 137781*\[Xi]^2 + 37684*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^4 - 24*(371547 - 1505034*\[Xi]^2 + 14048*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + 9*(3372597 - 13835232*\[Xi]^2 + 
+                 1241920*\[Xi]^4)*Subscript[s, \[Gamma]]^8 - 27*(1976157 - 
+                 8423664*\[Xi]^2 + 1082912*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 10 + 81*(634239 - 2858124*\[Xi]^2 + 442376*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^12 - 243*(106191 - 512004*\[Xi]^2 + 
+                 90800*\[Xi]^4)*Subscript[s, \[Gamma]]^14 + 17496*
+                (303 - 1576*\[Xi]^2 + 315*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 16)) - (1 + 4*\[Xi]^2)*Subscript[m, K]^2*
+            Subscript[m, \[Phi]]^10*(58320*Subscript[c, \[Gamma]]^10*
+              Subscript[s, \[Gamma]]^6 - 11664*\[Xi]*Subscript[c, \[Gamma]]^9*
+              Subscript[s, \[Gamma]]^5*(-205 + 667*Subscript[s, \[Gamma]]^
+                 2) - 324*\[Xi]*Subscript[c, \[Gamma]]^7*Subscript[s, 
+                \[Gamma]]^3*(-32832*\[Xi]^2 + (-34990 + 281296*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (139034 - 769392*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^4 + 3*(-41123 + 221328*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^6) + 1296*Subscript[c, \[Gamma]]^8*
+              (5156*\[Xi]^2*Subscript[s, \[Gamma]]^4 - 6*(-171 + 
+                 5033*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 3*(-397 + 
+                 14316*\[Xi]^2)*Subscript[s, \[Gamma]]^8) + 
+             18*Subscript[c, \[Gamma]]^6*Subscript[s, \[Gamma]]^2*
+              (476288*\[Xi]^4 + (1585308*\[Xi]^2 - 5472768*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + 9*(23457 - 1154788*\[Xi]^2 + 
+                 2521792*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 54*
+                (9807 - 400932*\[Xi]^2 + 742496*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^6 + 54*(6632 - 261665*\[Xi]^2 + 466752*\[Xi]^4)*
                 Subscript[s, \[Gamma]]^8) - 6*\[Xi]*Subscript[c, \[Gamma]]^5*
-              Subscript[s, \[Gamma]]*(-129280*\[Xi]^4 + 12*\[Xi]^2*
-                (-248167 + 181312*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
-               (-2382777 + 30903230*\[Xi]^2 - 13486848*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 + 18*(734925 - 6317314*\[Xi]^2 + 
-                 2158464*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 54*(417377 - 
-                 3208367*\[Xi]^2 + 965856*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 
-               27*(457169 - 3387884*\[Xi]^2 + 967488*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^10) + 2*\[Xi]*Subscript[c, \[Gamma]]^3*
-              Subscript[s, \[Gamma]]*(1838880*\[Xi]^4 + (14168646*\[Xi]^2 - 
-                 35729456*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 3*(2808909 - 
-                 57036040*\[Xi]^2 + 86443312*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 + (-59787261 + 756028473*\[Xi]^2 - 905880108*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + 27*(5508051 - 56771763*\[Xi]^2 + 
-                 59806684*\[Xi]^4)*Subscript[s, \[Gamma]]^8 - 81*
-                (1902449 - 17836529*\[Xi]^2 + 17418492*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^10 + 81*(701256 - 6328265*\[Xi]^2 + 
-                 5907308*\[Xi]^4)*Subscript[s, \[Gamma]]^12) + 
-             3*Subscript[c, \[Gamma]]^4*(27776*\[Xi]^6 - 640*\[Xi]^4*
-                (-5625 + 1154*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 2*\[Xi]^2*
-                (5374083 - 25581668*\[Xi]^2 + 3346752*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 + (1426059 - 91660101*\[Xi]^2 + 
-                 272320888*\[Xi]^4 - 28466688*\[Xi]^6)*Subscript[s, \[Gamma]]^
-                 6 + 9*(-642339 + 30133478*\[Xi]^2 - 74812440*\[Xi]^4 + 
-                 6832128*\[Xi]^6)*Subscript[s, \[Gamma]]^8 - 27*(-288414 + 
-                 12277685*\[Xi]^2 - 28480384*\[Xi]^4 + 2393088*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^10 + 108*(-32034 + 1324655*\[Xi]^2 - 
-                 3013280*\[Xi]^4 + 241536*\[Xi]^6)*Subscript[s, \[Gamma]]^
-                 12) - 2*\[Xi]*Subscript[c, \[Gamma]]*Subscript[s, \[Gamma]]*
-              (-431424*\[Xi]^4 + 4*\[Xi]^2*(-1857771 + 5254400*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 - 3*(808164 - 39956571*\[Xi]^2 + 
-                 64462096*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 3*(7269588 - 
-                 201663773*\[Xi]^2 + 251688568*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^6 - 6*(11143629 - 237128199*\[Xi]^2 + 
-                 255274814*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 162*
-                (582367 - 10710495*\[Xi]^2 + 10502946*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^10 - 81*(780516 - 13179685*\[Xi]^2 + 
-                 12167316*\[Xi]^4)*Subscript[s, \[Gamma]]^12 + 81*
-                (201924 - 3242847*\[Xi]^2 + 2882612*\[Xi]^4)*
+              Subscript[s, \[Gamma]]*(-755840*\[Xi]^4 + 48*\[Xi]^2*
+                (-145141 + 222864*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 12*
+                (314118 - 5483129*\[Xi]^2 + 4847520*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 + 27*(708455 - 8257530*\[Xi]^2 + 
+                 5629696*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 27*(1142191 - 
+                 11768732*\[Xi]^2 + 7060224*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 8 + 162*(100477 - 986004*\[Xi]^2 + 565632*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^10) + 12*\[Xi]*Subscript[c, \[Gamma]]^
+               3*Subscript[s, \[Gamma]]*(1202560*\[Xi]^4 - 64*\[Xi]^2*
+                (-96621 + 304466*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 3*
+                (1049508 - 22102779*\[Xi]^2 + 41124976*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 - 6*(3256929 - 44523193*\[Xi]^2 + 
+                 65072824*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 27*
+                (1616837 - 18764531*\[Xi]^2 + 24147364*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 - 216*(193110 - 2108447*\[Xi]^2 + 
+                 2535144*\[Xi]^4)*Subscript[s, \[Gamma]]^10 + 162*
+                (89277 - 964944*\[Xi]^2 + 1122920*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^12) + 3*Subscript[c, \[Gamma]]^4*
+              (320512*\[Xi]^6 - 544*\[Xi]^4*(-19549 + 10640*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + 8*\[Xi]^2*(2667357 - 16614742*
+                  \[Xi]^2 + 5136576*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 3*
+                (-979641 + 55077966*\[Xi]^2 - 211643048*\[Xi]^4 + 
+                 49273344*\[Xi]^6)*Subscript[s, \[Gamma]]^6 + 27*
+                (-388773 + 16783410*\[Xi]^2 - 53359080*\[Xi]^4 + 
+                 10546688*\[Xi]^6)*Subscript[s, \[Gamma]]^8 - 54*
+                (-235881 + 9706146*\[Xi]^2 - 28655264*\[Xi]^4 + 5157888*
+                  \[Xi]^6)*Subscript[s, \[Gamma]]^10 + 324*(-16065 + 
+                 671845*\[Xi]^2 - 1942168*\[Xi]^4 + 334080*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^12) - 12*\[Xi]*Subscript[c, \[Gamma]]*
+              Subscript[s, \[Gamma]]*(-249472*\[Xi]^4 + 16*\[Xi]^2*
+                (-300651 + 572629*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 4*
+                (452709 - 14747577*\[Xi]^2 + 19864532*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 + 3*(4163589 - 88777768*\[Xi]^2 + 
+                 102425404*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 6*
+                (5452623 - 98736537*\[Xi]^2 + 105213572*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 + 81*(510559 - 8648772*\[Xi]^2 + 
+                 8875820*\[Xi]^4)*Subscript[s, \[Gamma]]^10 - 162*
+                (157236 - 2612725*\[Xi]^2 + 2653860*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^12 + 324*(18990 - 317835*\[Xi]^2 + 
+                 325796*\[Xi]^4)*Subscript[s, \[Gamma]]^14) - 
+             4*Subscript[c, \[Gamma]]^2*(-266496*\[Xi]^6 + 16*\[Xi]^4*
+                (-787257 + 486164*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 48*
+                \[Xi]^2*(353214 - 3764119*\[Xi]^2 + 1509334*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 + 3*(-435942 + 51622515*\[Xi]^2 - 
+                 326630036*\[Xi]^4 + 106748464*\[Xi]^6)*Subscript[s, 
+                  \[Gamma]]^6 - 9*(-757350 + 57576411*\[Xi]^2 - 289966666*
+                  \[Xi]^4 + 84696040*\[Xi]^6)*Subscript[s, \[Gamma]]^8 + 81*
+                (-157041 + 10060070*\[Xi]^2 - 45188094*\[Xi]^4 + 
+                 12398856*\[Xi]^6)*Subscript[s, \[Gamma]]^10 - 324*
+                (-31554 + 1886397*\[Xi]^2 - 8016583*\[Xi]^4 + 2130908*
+                  \[Xi]^6)*Subscript[s, \[Gamma]]^12 + 243*(-12393 + 
+                 726858*\[Xi]^2 - 3026984*\[Xi]^4 + 796016*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^14) + 8*\[Xi]^2*(-27648*\[Xi]^4 + 4*
+                \[Xi]^2*(57285 + 67616*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 6*
+                (-445581 + 1805240*\[Xi]^2 + 10080*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 - 12*(1926207 - 6775767*\[Xi]^2 + 
+                 483560*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 3*(26608959 - 
+                 89553558*\[Xi]^2 + 7956176*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 8 - 18*(7888986 - 26437491*\[Xi]^2 + 2493128*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^10 + 81*(1704993 - 5826126*\[Xi]^2 + 
+                 564344*\[Xi]^4)*Subscript[s, \[Gamma]]^12 - 162*
+                (431973 - 1529133*\[Xi]^2 + 151928*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^14 + 486*(29817 - 110544*\[Xi]^2 + 
+                 11380*\[Xi]^4)*Subscript[s, \[Gamma]]^16)) + 
+           (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^8*
+            (79704*Subscript[c, \[Gamma]]^10*Subscript[s, \[Gamma]]^6 - 
+             1296*\[Xi]*Subscript[c, \[Gamma]]^9*Subscript[s, \[Gamma]]^5*
+              (-1955 + 7347*Subscript[s, \[Gamma]]^2) - 
+             36*\[Xi]*Subscript[c, \[Gamma]]^7*Subscript[s, \[Gamma]]^3*
+              (-209824*\[Xi]^2 + 3*(-114797 + 692472*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 - 18*(-77869 + 352080*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^4 + 45*(-27887 + 130440*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^6) + 648*Subscript[c, \[Gamma]]^8*
+              (9003*\[Xi]^2*Subscript[s, \[Gamma]]^4 + (2718 - 60008*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^6 + (-3098 + 94425*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^8) + 3*Subscript[c, \[Gamma]]^6*
+              Subscript[s, \[Gamma]]^2*(1550272*\[Xi]^4 + (8967252*\[Xi]^2 - 
+                 21122496*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 9*(169863 - 
+                 6739148*\[Xi]^2 + 11123840*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4 - 54*(70745 - 2374744*\[Xi]^2 + 3622560*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + 27*(92551 - 3122108*\[Xi]^2 + 
+                 4854048*\[Xi]^4)*Subscript[s, \[Gamma]]^8) - 
+             6*\[Xi]*Subscript[c, \[Gamma]]^5*Subscript[s, \[Gamma]]*
+              (-327040*\[Xi]^4 + 8*\[Xi]^2*(-682623 + 698648*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (-3931092 + 54078890*\[Xi]^2 - 
+                 35048448*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 9*(2200235 - 
+                 21037768*\[Xi]^2 + 11326208*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6 - 54*(586897 - 5095297*\[Xi]^2 + 2555616*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 + 27*(610679 - 5170184*\[Xi]^2 + 
+                 2579328*\[Xi]^4)*Subscript[s, \[Gamma]]^10) + 
+             2*\[Xi]*Subscript[c, \[Gamma]]^3*Subscript[s, \[Gamma]]*
+              (3820800*\[Xi]^4 - 8*\[Xi]^2*(-3950037 + 8414242*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + 6*(3282147 - 55683110*\[Xi]^2 + 
+                 75509856*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 3*(39760722 - 
+                 441706451*\[Xi]^2 + 498052756*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^6 + 27*(9731291 - 91752383*\[Xi]^2 + 
+                 94523644*\[Xi]^4)*Subscript[s, \[Gamma]]^8 - 81*
+                (3072979 - 27144789*\[Xi]^2 + 26677612*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^10 + 81*(1059456 - 9207665*\[Xi]^2 + 
+                 8843468*\[Xi]^4)*Subscript[s, \[Gamma]]^12) + 
+             3*Subscript[c, \[Gamma]]^4*(71296*\[Xi]^6 - 80*\[Xi]^4*
+                (-88029 + 24272*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 2*\[Xi]^2*
+                (10005543 - 46480388*\[Xi]^2 + 8910912*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 + (3276639 - 154822101*\[Xi]^2 + 
+                 461317288*\[Xi]^4 - 76420608*\[Xi]^6)*Subscript[s, \[Gamma]]^
+                 6 + 9*(-1314579 + 46856988*\[Xi]^2 - 119104760*\[Xi]^4 + 
+                 18451968*\[Xi]^6)*Subscript[s, \[Gamma]]^8 - 27*
+                (-531494 + 17912265*\[Xi]^2 - 43194304*\[Xi]^4 + 
+                 6494208*\[Xi]^6)*Subscript[s, \[Gamma]]^10 + 54*
+                (-107838 + 3679675*\[Xi]^2 - 8826760*\[Xi]^4 + 1316352*
+                  \[Xi]^6)*Subscript[s, \[Gamma]]^12) + 
+             2*\[Xi]*Subscript[c, \[Gamma]]*Subscript[s, \[Gamma]]*
+              (1575264*\[Xi]^4 + (25058724*\[Xi]^2 - 43121600*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + 3*(3543084 - 101684971*\[Xi]^2 + 
+                 115382456*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 3*
+                (24941808 - 455398573*\[Xi]^2 + 424604808*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + 6*(33173109 - 501272529*\[Xi]^2 + 
+                 416831654*\[Xi]^4)*Subscript[s, \[Gamma]]^8 - 54*
+                (4720191 - 65059625*\[Xi]^2 + 50391318*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^10 + 81*(1960836 - 25851005*\[Xi]^2 + 
+                 19173956*\[Xi]^4)*Subscript[s, \[Gamma]]^12 - 81*
+                (478764 - 6199347*\[Xi]^2 + 4491092*\[Xi]^4)*
                 Subscript[s, \[Gamma]]^14) + Subscript[c, \[Gamma]]^2*
-              (288000*\[Xi]^6 - 24*\[Xi]^4*(-627537 + 411512*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + 4*\[Xi]^2*(6098778 - 63792399*
-                  \[Xi]^2 + 25597168*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 3*
-                (-494424 + 88374849*\[Xi]^2 - 509284540*\[Xi]^4 + 
-                 161993104*\[Xi]^6)*Subscript[s, \[Gamma]]^6 + 6*
-                (-1935981 + 163538754*\[Xi]^2 - 717044228*\[Xi]^4 + 
-                 201127456*\[Xi]^6)*Subscript[s, \[Gamma]]^8 - 54*
-                (-495216 + 30608709*\[Xi]^2 - 115207446*\[Xi]^4 + 
-                 30060224*\[Xi]^6)*Subscript[s, \[Gamma]]^10 + 324*
-                (-75891 + 4026235*\[Xi]^2 - 13842383*\[Xi]^4 + 3459824*
-                  \[Xi]^6)*Subscript[s, \[Gamma]]^12 - 81*(-98514 + 
-                 4841679*\[Xi]^2 - 15789584*\[Xi]^4 + 3846736*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^14) + 2*\[Xi]^2*(-18240*\[Xi]^4 - 160*
-                \[Xi]^2*(801 + 100*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 4*
-                (410427 - 3901536*\[Xi]^2 + 737452*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 - 3*(5641461 - 44314544*\[Xi]^2 + 
-                 6093040*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + (64004337 - 
-                 449532600*\[Xi]^2 + 47953296*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 8 - 12*(9976878 - 65979471*\[Xi]^2 + 5474968*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^10 + 27*(4436403 - 28569324*\[Xi]^2 + 
-                 1806320*\[Xi]^4)*Subscript[s, \[Gamma]]^12 - 81*
-                (761043 - 4882060*\[Xi]^2 + 226240*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^14 + 324*(39699 - 257733*\[Xi]^2 + 
-                 8228*\[Xi]^4)*Subscript[s, \[Gamma]]^16))))/
+              (579840*\[Xi]^6 - 24*\[Xi]^4*(-1585687 + 700552*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + 4*\[Xi]^2*(16000893 - 136596609*
+                  \[Xi]^2 + 40369408*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
+               (5340492 - 570363507*\[Xi]^2 + 2952749940*\[Xi]^4 - 
+                 730070832*\[Xi]^6)*Subscript[s, \[Gamma]]^6 + 6*
+                (-4723461 + 313110504*\[Xi]^2 - 1297802348*\[Xi]^4 + 
+                 291514336*\[Xi]^6)*Subscript[s, \[Gamma]]^8 - 54*
+                (-997566 + 54120789*\[Xi]^2 - 199264086*\[Xi]^4 + 
+                 42367264*\[Xi]^6)*Subscript[s, \[Gamma]]^10 + 324*
+                (-136101 + 6712770*\[Xi]^2 - 23142323*\[Xi]^4 + 4770464*
+                  \[Xi]^6)*Subscript[s, \[Gamma]]^12 - 81*(-163314 + 
+                 7713099*\[Xi]^2 - 25692704*\[Xi]^4 + 5216656*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^14) + 2*\[Xi]^2*(-12480*\[Xi]^4 - 80*
+                \[Xi]^2*(-15435 + 2252*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 4*
+                (2515347 - 9538596*\[Xi]^2 + 1138852*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 - 3*(29626101 - 88068224*\[Xi]^2 + 
+                 8463040*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + (311840037 - 
+                 831523200*\[Xi]^2 + 65017296*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 8 - 12*(46762128 - 117833871*\[Xi]^2 + 7468288*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^10 + 27*(20380923 - 49978884*\[Xi]^2 + 
+                 2535680*\[Xi]^4)*Subscript[s, \[Gamma]]^12 - 81*
+                (3462603 - 8422420*\[Xi]^2 + 335680*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^14 + 324*(179964 - 439983*\[Xi]^2 + 
+                 13448*\[Xi]^4)*Subscript[s, \[Gamma]]^16))))/
          (48*\[Xi]^6*(1 + 4*\[Xi]^2)^3*Subscript[m, K]^14*
-          Subscript[v, EW]^6) + (h^3*Subscript[s, \[Gamma]]^2*
+          Subscript[v, EW]^6) + (QuantumField[h]^3*Subscript[s, \[Gamma]]^2*
           (6*Subscript[c, \[Gamma]]^8*((1 + 4*\[Xi]^2)*Subscript[m, K]^2 - 
               3*Subscript[m, \[Phi]]^2)^2*((2 + 8*\[Xi]^2)*Subscript[m, K]^
                 2 - 3*Subscript[m, \[Phi]]^2)^3*Subscript[s, \[Gamma]]^5 - 
            12*\[Xi]*Subscript[c, \[Gamma]]^7*((1 + 4*\[Xi]^2)*
               Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)*
             ((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)^2*
-            Subscript[s, \[Gamma]]^4*((1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*
-              (-2 + 23*Subscript[s, \[Gamma]]^2) + 3*Subscript[m, \[Phi]]^4*
-              (-25 + 69*Subscript[s, \[Gamma]]^2) - (1 + 4*\[Xi]^2)*
-              Subscript[m, K]^2*Subscript[m, \[Phi]]^2*(-32 + 141*
-                Subscript[s, \[Gamma]]^2)) + Subscript[c, \[Gamma]]^6*
-            ((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)*
-            Subscript[s, \[Gamma]]^3*(27*Subscript[m, \[Phi]]^8*
-              (824*\[Xi]^2 + (180 - 4128*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
-               15*(-17 + 336*\[Xi]^2)*Subscript[s, \[Gamma]]^4) + 
-             (1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*(24*\[Xi]^2 - 24*
-                (-6 + 29*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (-169 + 
-                 1608*\[Xi]^2)*Subscript[s, \[Gamma]]^4) - 
+            Subscript[s, \[Gamma]]^4*(9*Subscript[m, \[Phi]]^4*
+              (-15 + 43*Subscript[s, \[Gamma]]^2) + (1 + 4*\[Xi]^2)^2*
+              Subscript[m, K]^4*(-2 + 43*Subscript[s, \[Gamma]]^2) - 
+             (1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^2*
+              (-52 + 261*Subscript[s, \[Gamma]]^2)) + 
+           Subscript[c, \[Gamma]]^6*((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 
+             3*Subscript[m, \[Phi]]^2)*Subscript[s, \[Gamma]]^3*
+            (81*Subscript[m, \[Phi]]^8*(488*\[Xi]^2 + (90 - 2496*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + 5*(-23 + 624*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^4) - 216*(1 + 4*\[Xi]^2)*
+              Subscript[m, K]^2*Subscript[m, \[Phi]]^6*(188*\[Xi]^2 + 
+               (66 - 1151*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 2*
+                (-40 + 819*\[Xi]^2)*Subscript[s, \[Gamma]]^4) + 
+             (1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*(24*\[Xi]^2 - 6*
+                (-39 + 196*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (-259 + 
+                 3048*\[Xi]^2)*Subscript[s, \[Gamma]]^4) - 
              12*(1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, \[Phi]]^2*
-              (94*\[Xi]^2 + (135 - 955*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
-               (-166 + 1749*\[Xi]^2)*Subscript[s, \[Gamma]]^4) + 
+              (134*\[Xi]^2 - 5*(-42 + 323*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
+               (-241 + 3249*\[Xi]^2)*Subscript[s, \[Gamma]]^4) + 
              6*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^4*
-              (1453*\[Xi]^2 - 18*(-57 + 580*\[Xi]^2)*Subscript[s, \[Gamma]]^
-                 2 + 9*(-145 + 1803*\[Xi]^2)*Subscript[s, \[Gamma]]^4) - 
-             36*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^6*
-              (668*\[Xi]^2 - 9*(-29 + 434*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
-               (-345 + 5328*\[Xi]^2)*Subscript[s, \[Gamma]]^4)) - 
+              (2293*\[Xi]^2 - 18*(-87 + 1000*\[Xi]^2)*Subscript[s, \[Gamma]]^
+                 2 + 9*(-205 + 3323*\[Xi]^2)*Subscript[s, \[Gamma]]^4)) - 
            2*\[Xi]*Subscript[c, \[Gamma]]^5*Subscript[s, \[Gamma]]^2*
             ((1 + 4*\[Xi]^2)^5*Subscript[m, K]^10*Subscript[s, \[Gamma]]^2*
-              (6*(-53 + 24*\[Xi]^2) + (1279 - 2232*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + 4*(-287 + 636*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^4) - 27*Subscript[m, \[Phi]]^10*
-              (-2360*\[Xi]^2 + 2187*(-1 + 8*\[Xi]^2)*Subscript[s, \[Gamma]]^
-                 2 - 9*(-971 + 4656*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 72*
-                (-115 + 444*\[Xi]^2)*Subscript[s, \[Gamma]]^6) - 
+              (48*(-11 + 3*\[Xi]^2) + (1489 - 3432*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + 2*(-589 + 2112*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^4) - 81*Subscript[m, \[Phi]]^10*
+              (-1160*\[Xi]^2 + 9*(-111 + 968*\[Xi]^2)*Subscript[s, \[Gamma]]^
+                 2 + (3813 - 21168*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 6*
+                (-565 + 2736*\[Xi]^2)*Subscript[s, \[Gamma]]^6) - 
              (1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[m, \[Phi]]^2*
-              (-360*\[Xi]^2 + 288*(-19 + 35*\[Xi]^2)*Subscript[s, \[Gamma]]^
-                 2 + (23963 - 50940*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 36*
-                (-623 + 1405*\[Xi]^2)*Subscript[s, \[Gamma]]^6) + 
-             9*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^8*
-              (-10168*\[Xi]^2 + 162*(-87 + 520*\[Xi]^2)*Subscript[s, 
-                  \[Gamma]]^2 + (57039 - 219024*\[Xi]^2)*Subscript[s, 
-                  \[Gamma]]^4 + 54*(-979 + 3236*\[Xi]^2)*Subscript[s, 
-                  \[Gamma]]^6) + 18*(1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*
-              Subscript[m, \[Phi]]^4*(-452*\[Xi]^2 + (-1927 + 6012*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + (8318 - 21294*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^4 + 2*(-3881 + 9627*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^6) - 3*(1 + 4*\[Xi]^2)^2*
-              Subscript[m, K]^4*Subscript[m, \[Phi]]^6*(-14846*\[Xi]^2 + 9*
-                (-3667 + 16210*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 54*
-                (-2546 + 7915*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 18*
-                (-7066 + 20019*\[Xi]^2)*Subscript[s, \[Gamma]]^6)) + 
-           Subscript[c, \[Gamma]]^4*Subscript[s, \[Gamma]]*
-            ((1 + 4*\[Xi]^2)^5*Subscript[m, K]^10*Subscript[s, \[Gamma]]^2*
-              (408*\[Xi]^2 + (360 - 3873*\[Xi]^2 + 828*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 + (-852 + 9050*\[Xi]^2 - 
-                 4344*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (492 - 
-                 5726*\[Xi]^2 + 3516*\[Xi]^4)*Subscript[s, \[Gamma]]^6) - 
-             (1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[m, \[Phi]]^2*
-              Subscript[s, \[Gamma]]^2*(84*\[Xi]^2*(149 - 48*\[Xi]^2) + 
-               (7065 - 102587*\[Xi]^2 + 41274*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 2 - 4*(4341 - 58045*\[Xi]^2 + 29769*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 + 9*(1177 - 16484*\[Xi]^2 + 
-                 9690*\[Xi]^4)*Subscript[s, \[Gamma]]^6) + 6*(1 + 4*\[Xi]^2)*
-              Subscript[m, K]^2*Subscript[m, \[Phi]]^8*(16960*\[Xi]^4 + 
-               (99378*\[Xi]^2 - 191088*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 27*
-                (739 - 24165*\[Xi]^2 + 28400*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 - 9*(5751 - 149870*\[Xi]^2 + 143904*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + 324*(109 - 2630*\[Xi]^2 + 
-                 2376*\[Xi]^4)*Subscript[s, \[Gamma]]^8) - 
-             9*Subscript[m, \[Phi]]^10*(10496*\[Xi]^4 - 24*\[Xi]^2*
-                (-1467 + 4304*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 3*
-                (1809 - 75752*\[Xi]^2 + 124416*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^4 - 54*(267 - 8724*\[Xi]^2 + 10816*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + 27*(387 - 11248*\[Xi]^2 + 
-                 12288*\[Xi]^4)*Subscript[s, \[Gamma]]^8) - 
-             3*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^6*
-              (12008*\[Xi]^4 - 4*\[Xi]^2*(-32847 + 41192*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + 9*(3964 - 99907*\[Xi]^2 + 
-                 85120*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 18*(5051 - 
-                 104894*\[Xi]^2 + 79680*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
-               36*(1650 - 32993*\[Xi]^2 + 24972*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^8) + (1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*
-              Subscript[m, \[Phi]]^4*(4176*\[Xi]^4 - 36*\[Xi]^2*
-                (-3083 + 2328*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
-               (42354 - 814397*\[Xi]^2 + 495792*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^4 - 18*(5905 - 98007*\[Xi]^2 + 60244*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + 18*(3732 - 62021*\[Xi]^2 + 
-                 40380*\[Xi]^4)*Subscript[s, \[Gamma]]^8)) + 
-           \[Xi]*Subscript[c, \[Gamma]]^3*(-2*(1 + 4*\[Xi]^2)^5*
-              Subscript[m, K]^10*Subscript[s, \[Gamma]]^2*
-              (-1 + Subscript[s, \[Gamma]]^2)*(30*\[Xi]^2 + (405 - 
-                 955*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (-1065 + 
-                 2951*\[Xi]^2 - 510*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
-               (684 - 2878*\[Xi]^2 + 510*\[Xi]^4)*Subscript[s, \[Gamma]]^6) + 
-             3*(1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[m, \[Phi]]^2*
-              Subscript[s, \[Gamma]]^2*(-1992*\[Xi]^2 - 3*(2163 - 
-                 8208*\[Xi]^2 + 844*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 4*
-                (7072 - 23660*\[Xi]^2 + 3845*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 - 2*(19697 - 70420*\[Xi]^2 + 12262*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + 12*(1469 - 5772*\[Xi]^2 + 
-                 973*\[Xi]^4)*Subscript[s, \[Gamma]]^8) - 3*(1 + 4*\[Xi]^2)^3*
-              Subscript[m, K]^6*Subscript[m, \[Phi]]^4*Subscript[s, \[Gamma]]^
-               2*(12*\[Xi]^2*(-2113 + 472*\[Xi]^2) + (-46311 + 271096*
-                  \[Xi]^2 - 61536*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
-               (218775 - 982154*\[Xi]^2 + 219280*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^4 - 6*(54073 - 234889*\[Xi]^2 + 49712*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + 6*(25539 - 113492*\[Xi]^2 + 
-                 22704*\[Xi]^4)*Subscript[s, \[Gamma]]^8) + 
-             24*Subscript[m, \[Phi]]^10*(-2048*\[Xi]^4 + 48*\[Xi]^2*
-                (-363 + 512*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 3*
-                (3321 - 53450*\[Xi]^2 + 38400*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 + 54*(960 - 9781*\[Xi]^2 + 4864*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 - 81*(1021 - 8946*\[Xi]^2 + 
-                 3584*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 162*(261 - 
-                 2153*\[Xi]^2 + 768*\[Xi]^4)*Subscript[s, \[Gamma]]^10) - 
-             3*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^8*
-              (-15104*\[Xi]^4 + 16*\[Xi]^2*(-13917 + 13064*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 - 3*(58485 - 697912*\[Xi]^2 + 
-                 362752*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 9*(98941 - 
-                 775636*\[Xi]^2 + 296064*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 
-               108*(12895 - 88710*\[Xi]^2 + 28352*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 + 162*(4273 - 28188*\[Xi]^2 + 
-                 8192*\[Xi]^4)*Subscript[s, \[Gamma]]^10) + (1 + 4*\[Xi]^2)^2*
-              Subscript[m, K]^4*Subscript[m, \[Phi]]^6*(-10416*\[Xi]^4 + 150*
-                \[Xi]^2*(-2361 + 1336*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
-               (-411489 + 3503030*\[Xi]^2 - 1281792*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 + 72*(28175 - 167722*\[Xi]^2 + 
-                 49512*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 162*(19169 - 
-                 103968*\[Xi]^2 + 26976*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 
-               108*(13971 - 74515*\[Xi]^2 + 17904*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^10)) - Subscript[c, \[Gamma]]^2*
+              (-360*\[Xi]^2 + 3*(-2809 + 4400*\[Xi]^2)*Subscript[s, \[Gamma]]^
+                 2 + (30233 - 75060*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 18*
+                (-1471 + 4430*\[Xi]^2)*Subscript[s, \[Gamma]]^6) + 
+             27*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^8*
+              (-4776*\[Xi]^2 + (-6593 + 40720*\[Xi]^2)*Subscript[s, \[Gamma]]^
+                 2 + (25193 - 108768*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 18*
+                (-1229 + 4956*\[Xi]^2)*Subscript[s, \[Gamma]]^6) + 
+             3*(1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, \[Phi]]^4*
+              (-3352*\[Xi]^2 + 17*(-1001 + 2896*\[Xi]^2)*Subscript[s, 
+                  \[Gamma]]^2 + (65058 - 186684*\[Xi]^2)*Subscript[s, 
+                  \[Gamma]]^4 + 6*(-9607 + 29694*\[Xi]^2)*Subscript[s, 
+                  \[Gamma]]^6) - 18*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*
+              Subscript[m, \[Phi]]^6*(-3301*\[Xi]^2 + (-7878 + 34215*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (30309 - 104715*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^4 + 3*(-8896 + 30639*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^6)) + Subscript[c, \[Gamma]]^4*
             Subscript[s, \[Gamma]]*((1 + 4*\[Xi]^2)^5*Subscript[m, K]^10*
-              Subscript[s, \[Gamma]]^2*(-1 + Subscript[s, \[Gamma]]^2)*
-              (540*\[Xi]^2 - 209*\[Xi]^4 + (54 - 3321*\[Xi]^2 + 2951*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 - 2*(99 - 2196*\[Xi]^2 + 
-                 2474*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 2*(72 - 
-                 864*\[Xi]^2 + 1103*\[Xi]^4)*Subscript[s, \[Gamma]]^6) - 
+              Subscript[s, \[Gamma]]^2*(648*\[Xi]^2 + 3*(90 - 1611*\[Xi]^2 + 
+                 436*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (-672 + 
+                 7910*\[Xi]^2 - 6744*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
+               (402 - 4076*\[Xi]^2 + 5436*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6) - (1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[m, 
+                \[Phi]]^2*Subscript[s, \[Gamma]]^2*(48*\[Xi]^2*
+                (367 - 134*\[Xi]^2) + (6795 - 125507*\[Xi]^2 + 63594*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 - 2*(8547 - 122015*\[Xi]^2 + 
+                 90018*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 9*(1177 - 
+                 16224*\[Xi]^2 + 14570*\[Xi]^4)*Subscript[s, \[Gamma]]^6) + 
+             6*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^8*
+              (25120*\[Xi]^4 + (125748*\[Xi]^2 - 282768*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + 9*(2502 - 87765*\[Xi]^2 + 
+                 125840*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 18*(3198 - 
+                 87145*\[Xi]^2 + 106032*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
+               324*(119 - 2985*\[Xi]^2 + 3496*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 8) - 9*Subscript[m, \[Phi]]^10*(15616*\[Xi]^4 - 72*\[Xi]^2*
+                (-599 + 2128*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 3*
+                (2079 - 89912*\[Xi]^2 + 183936*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^4 - 54*(297 - 10024*\[Xi]^2 + 15936*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + 27*(417 - 12568*\[Xi]^2 + 
+                 18048*\[Xi]^4)*Subscript[s, \[Gamma]]^8) + (1 + 4*\[Xi]^2)^3*
+              Subscript[m, K]^6*Subscript[m, \[Phi]]^4*(6096*\[Xi]^4 + 
+               (147468*\[Xi]^2 - 125328*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
+               (44334 - 991277*\[Xi]^2 + 740832*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^4 - 18*(6240 - 109627*\[Xi]^2 + 89564*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + 18*(3957 - 67016*\[Xi]^2 + 
+                 59940*\[Xi]^4)*Subscript[s, \[Gamma]]^8) - 
+             3*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^6*
+              (17768*\[Xi]^4 - 4*\[Xi]^2*(-42457 + 61072*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + 3*(13032 - 364701*\[Xi]^2 + 
+                 378080*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 18*(5526 - 
+                 120849*\[Xi]^2 + 117680*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
+               18*(3585 - 74146*\[Xi]^2 + 73704*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^8)) + \[Xi]*Subscript[c, \[Gamma]]^3*
+            (-2*(1 + 4*\[Xi]^2)^5*Subscript[m, K]^10*Subscript[s, \[Gamma]]^2*
+              (-1 + Subscript[s, \[Gamma]]^2)*(30*\[Xi]^2 - 25*
+                (-12 + 55*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (-480 + 
+                 2471*\[Xi]^2 - 750*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
+               (189 - 1753*\[Xi]^2 + 750*\[Xi]^4)*Subscript[s, \[Gamma]]^6) + 
+             3*(1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[m, \[Phi]]^2*
+              Subscript[s, \[Gamma]]^2*(-2572*\[Xi]^2 + (-6089 + 
+                 31064*\[Xi]^2 - 3492*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 4*
+                (6172 - 26285*\[Xi]^2 + 5365*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4 - 2*(16787 - 71850*\[Xi]^2 + 17222*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + 12*(1254 - 5652*\[Xi]^2 + 
+                 1373*\[Xi]^4)*Subscript[s, \[Gamma]]^8) - 
+             3*(1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, \[Phi]]^4*
+              Subscript[s, \[Gamma]]^2*(4*\[Xi]^2*(-8089 + 1776*\[Xi]^2) + 
+               (-47391 + 331396*\[Xi]^2 - 79456*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^2 + 3*(72215 - 376938*\[Xi]^2 + 96240*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 - 6*(53323 - 259904*\[Xi]^2 + 
+                 66352*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 6*(25374 - 
+                 123287*\[Xi]^2 + 30624*\[Xi]^4)*Subscript[s, \[Gamma]]^8) + 
+             144*Subscript[m, \[Phi]]^10*(-448*\[Xi]^4 + 84*\[Xi]^2*
+                (-41 + 64*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (-1863 + 
+                 31315*\[Xi]^2 - 25200*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 9*
+                (1050 - 11311*\[Xi]^2 + 6384*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6 - 27*(548 - 5103*\[Xi]^2 + 2352*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 + 27*(276 - 2423*\[Xi]^2 + 
+                 1008*\[Xi]^4)*Subscript[s, \[Gamma]]^10) - 3*(1 + 4*\[Xi]^2)*
+              Subscript[m, K]^2*Subscript[m, \[Phi]]^8*(-18944*\[Xi]^4 + 16*
+                \[Xi]^2*(-17117 + 16624*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 3*
+                (64575 - 837072*\[Xi]^2 + 466432*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^4 + 9*(107091 - 909876*\[Xi]^2 + 383744*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 - 216*(6920 - 51155*\[Xi]^2 + 
+                 18496*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 486*(1521 - 
+                 10716*\[Xi]^2 + 3584*\[Xi]^4)*Subscript[s, \[Gamma]]^10) + 
+             (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^6*
+              (-12336*\[Xi]^4 + 30*\[Xi]^2*(-14791 + 8280*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (-441369 + 4237130*\[Xi]^2 - 
+                 1629312*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 144*
+                (14790 - 98011*\[Xi]^2 + 31996*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^6 - 54*(60177 - 356044*\[Xi]^2 + 105888*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 + 108*(14661 - 84070*\[Xi]^2 + 
+                 23664*\[Xi]^4)*Subscript[s, \[Gamma]]^10)) + 
+           Subscript[c, \[Gamma]]^2*Subscript[s, \[Gamma]]*
+            (-((1 + 4*\[Xi]^2)^5*Subscript[m, K]^10*Subscript[s, \[Gamma]]^2*(
+                -1 + Subscript[s, \[Gamma]]^2)*(510*\[Xi]^2 - 389*\[Xi]^4 + 
+                (174 - 2361*\[Xi]^2 + 3251*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                  2 + (-438 + 3552*\[Xi]^2 - 4078*\[Xi]^4)*Subscript[s, 
+                   \[Gamma]]^4 + 2*(132 - 849*\[Xi]^2 + 608*\[Xi]^4)*
+                 Subscript[s, \[Gamma]]^6)) + (1 + 4*\[Xi]^2)^4*
+              Subscript[m, K]^8*Subscript[m, \[Phi]]^2*(-1 + Subscript[s, 
+                 \[Gamma]]^2)*(1164*\[Xi]^4 + (21993*\[Xi]^2 - 28294*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + (6594 - 136995*\[Xi]^2 + 
+                 157112*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (-16422 + 
+                 248622*\[Xi]^2 - 253387*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
+               9*(1102 - 15260*\[Xi]^2 + 13641*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^8) + 18*Subscript[m, \[Phi]]^10*(-17600*\[Xi]^4 + 
+               36*\[Xi]^2*(-1037 + 5872*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
+               (-4941 + 282564*\[Xi]^2 - 945200*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^4 + 18*(891 - 40252*\[Xi]^2 + 109296*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 - 27*(639 - 28528*\[Xi]^2 + 
+                 71344*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 108*
+                (57 - 2712*\[Xi]^2 + 6634*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 10) - 2*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, 
+                \[Phi]]^8*(-246432*\[Xi]^4 + 38*\[Xi]^2*(-17307 + 
+                 77872*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 9*(11241 - 
+                 549909*\[Xi]^2 + 1463248*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
+               27*(12651 - 467917*\[Xi]^2 + 999764*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 - 54*(7053 - 247563*\[Xi]^2 + 
+                 478064*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 486*
+                (289 - 10373*\[Xi]^2 + 19204*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 10) + (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, 
+                \[Phi]]^6*(-224736*\[Xi]^4 + \[Xi]^2*(-869679 + 2889368*
+                  \[Xi]^2)*Subscript[s, \[Gamma]]^2 - 4*(40581 - 
+                 1629531*\[Xi]^2 + 3338650*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4 + 9*(62544 - 1836317*\[Xi]^2 + 3064564*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 - 108*(5959 - 160652*\[Xi]^2 + 
+                 241486*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 216*
+                (1125 - 30009*\[Xi]^2 + 42709*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 10) - 3*(1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, 
+                \[Phi]]^4*(-11292*\[Xi]^4 + 2*\[Xi]^2*(-38119 + 
+                 86581*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (-18000 + 
+                 568979*\[Xi]^2 - 881004*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
+               (63138 - 1426477*\[Xi]^2 + 1873334*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 - 12*(6073 - 123036*\[Xi]^2 + 
+                 146756*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 6*(4623 - 
+                 90498*\[Xi]^2 + 101354*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 10)) - 3*\[Xi]^2*Subscript[s, \[Gamma]]*
+            ((1 + 4*\[Xi]^2)^5*Subscript[m, K]^10*Subscript[s, \[Gamma]]^2*
+              (-1 + Subscript[s, \[Gamma]]^2)^2*(-78 + 41*\[Xi]^2 + 
+               (466 - 155*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 2*
+                (287 + 25*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 2*
+                (75 + 82*\[Xi]^2)*Subscript[s, \[Gamma]]^6) - 
              (1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[m, \[Phi]]^2*
-              (-1 + Subscript[s, \[Gamma]]^2)*(624*\[Xi]^4 + (17883*\[Xi]^2 - 
-                 20914*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (3024 - 
-                 118035*\[Xi]^2 + 132032*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
-               (-8442 + 205722*\[Xi]^2 - 229117*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^6 + 9*(612 - 12170*\[Xi]^2 + 13091*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8) + 2*(1 + 4*\[Xi]^2)*
-              Subscript[m, K]^2*Subscript[m, \[Phi]]^8*(-194112*\[Xi]^4 + 
-               (-494946*\[Xi]^2 + 2372576*\[Xi]^4)*Subscript[s, \[Gamma]]^2 - 
-               9*(6561 - 423319*\[Xi]^2 + 1191208*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 + 27*(7731 - 366047*\[Xi]^2 + 
-                 824324*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 54*(4473 - 
-                 196443*\[Xi]^2 + 398264*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 
-               486*(189 - 8343*\[Xi]^2 + 16124*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^10) - 18*Subscript[m, \[Phi]]^10*
-              (-14400*\[Xi]^4 + 4*\[Xi]^2*(-6993 + 43408*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 - 4*(729 - 54351*\[Xi]^2 + 
-                 195620*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 9*(1107 - 
-                 63384*\[Xi]^2 + 182752*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 
-               54*(207 - 11484*\[Xi]^2 + 30152*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^8 + 27*(153 - 8928*\[Xi]^2 + 22696*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^10) - (1 + 4*\[Xi]^2)^2*
-              Subscript[m, K]^4*Subscript[m, \[Phi]]^6*(-172896*\[Xi]^4 + 
-               \[Xi]^2*(-658989 + 2298248*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 
-               4*(23166 - 1264311*\[Xi]^2 + 2720890*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 + 9*(37404 - 1440347*\[Xi]^2 + 
-                 2541044*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 108*
-                (3699 - 126992*\[Xi]^2 + 202626*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^8 + 108*(1440 - 47763*\[Xi]^2 + 72188*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^10) + 3*(1 + 4*\[Xi]^2)^3*
-              Subscript[m, K]^6*Subscript[m, \[Phi]]^4*(-8112*\[Xi]^4 + 6*
-                \[Xi]^2*(-9778 + 22507*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
-               (-9720 + 451179*\[Xi]^2 - 721304*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^4 + (36018 - 1134927*\[Xi]^2 + 1580894*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 - 24*(1809 - 48888*\[Xi]^2 + 
-                 63188*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 6*(2853 - 
-                 71838*\[Xi]^2 + 88454*\[Xi]^4)*Subscript[s, \[Gamma]]^10)) - 
-           3*\[Xi]^2*Subscript[s, \[Gamma]]*((1 + 4*\[Xi]^2)^5*
+              (-1 + Subscript[s, \[Gamma]]^2)^2*(-204*\[Xi]^2 + 4*
+                (-983 + 995*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (17110 - 
+                 11321*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 2*(-9617 + 
+                 3130*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 3*(1732 + 
+                 635*\[Xi]^2)*Subscript[s, \[Gamma]]^8) + 2*(1 + 4*\[Xi]^2)^2*
+              Subscript[m, K]^4*Subscript[m, \[Phi]]^6*(-1 + Subscript[s, 
+                 \[Gamma]]^2)*(-6416*\[Xi]^2 + 2*(-32663 + 54758*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (356101 - 456522*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^4 + (-681750 + 782778*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^6 + (553995 - 600480*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^8 + 1080*(-151 + 159*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^10) - 2*(1 + 4*\[Xi]^2)^3*
+              Subscript[m, K]^6*Subscript[m, \[Phi]]^4*(-1 + Subscript[s, 
+                 \[Gamma]]^2)*(-1630*\[Xi]^2 + (-19709 + 26425*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 - 16*(-6656 + 6283*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^4 + (-197475 + 147269*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^6 + (151980 - 87288*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^8 + 18*(-2294 + 867*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^10) - 4*(1 + 4*\[Xi]^2)*
+              Subscript[m, K]^2*Subscript[m, \[Phi]]^8*(-1 + Subscript[s, 
+                 \[Gamma]]^2)*(-3248*\[Xi]^2 + 6*(-7013 + 13284*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (228603 - 381732*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^4 + 234*(-1882 + 3187*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^6 - 54*(-6735 + 12268*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^8 + 81*(-1357 + 2772*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^10) + 24*Subscript[m, \[Phi]]^10*
+              (32*\[Xi]^2 - 8*(-387 + 736*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
+               3*(-6579 + 13304*\[Xi]^2)*Subscript[s, \[Gamma]]^4 - 9*
+                (-5391 + 12140*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 18*
+                (-3235 + 8323*\[Xi]^2)*Subscript[s, \[Gamma]]^8 - 27*
+                (-1273 + 3812*\[Xi]^2)*Subscript[s, \[Gamma]]^10 + 81*
+                (-99 + 350*\[Xi]^2)*Subscript[s, \[Gamma]]^12)) + 
+           \[Xi]*Subscript[c, \[Gamma]]*(-2*(1 + 4*\[Xi]^2)^5*
               Subscript[m, K]^10*Subscript[s, \[Gamma]]^2*
-              (-1 + Subscript[s, \[Gamma]]^2)^2*(-18 + 71*\[Xi]^2 + 
-               (66 - 175*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (66 - 
-                 100*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 6*(-25 + 34*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^6) - (1 + 4*\[Xi]^2)^4*
-              Subscript[m, K]^8*Subscript[m, \[Phi]]^2*
-              (-1 + Subscript[s, \[Gamma]]^2)^2*(-84*\[Xi]^2 + 4*
-                (-378 + 625*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (4890 - 
-                 5711*\[Xi]^2)*Subscript[s, \[Gamma]]^4 - 4*(291 + 
-                 305*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + (-3114 + 
-                 5055*\[Xi]^2)*Subscript[s, \[Gamma]]^8) + 
-             2*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^6*
-              (-1 + Subscript[s, \[Gamma]]^2)*(-1776*\[Xi]^2 + 4*
-                (-7929 + 12409*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 3*
-                (-53227 + 70914*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 3*
-                (-90375 + 113866*\[Xi]^2)*Subscript[s, \[Gamma]]^6 - 45*
-                (-4125 + 5096*\[Xi]^2)*Subscript[s, \[Gamma]]^8 + 945*
-                (-45 + 56*\[Xi]^2)*Subscript[s, \[Gamma]]^10) - 
-             4*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^8*
-              (-1 + Subscript[s, \[Gamma]]^2)*(432*\[Xi]^2 + 2*(-9639 + 
-                 14732*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (96138 - 
-                 170052*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 27*(-6069 + 
-                 12974*\[Xi]^2)*Subscript[s, \[Gamma]]^6 - 54*(-2145 + 
-                 5908*\[Xi]^2)*Subscript[s, \[Gamma]]^8 + 567*(-51 + 
-                 196*\[Xi]^2)*Subscript[s, \[Gamma]]^10) + 
-             6*(1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, \[Phi]]^4*
-              (-1 + Subscript[s, \[Gamma]]^2)*(210*\[Xi]^2 + (3153 - 
-                 4505*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 2*(-7721 + 
-                 8038*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + (24265 - 
-                 18173*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 12*(-1160 + 
-                 333*\[Xi]^2)*Subscript[s, \[Gamma]]^8 + 6*(324 + 
-                 403*\[Xi]^2)*Subscript[s, \[Gamma]]^10) + 
-             24*Subscript[m, \[Phi]]^10*(-288*\[Xi]^2 - 16*(-81 + 58*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + (-7587 + 15112*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^4 - 18*(-933 + 2810*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^6 + 27*(-665 + 2862*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^8 - 108*(-87 + 533*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^10 + 486*(-4 + 35*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^12)) + \[Xi]*Subscript[c, \[Gamma]]*
-            (2*(1 + 4*\[Xi]^2)^5*Subscript[m, K]^10*Subscript[s, \[Gamma]]^2*
-              (-1 + Subscript[s, \[Gamma]]^2)^2*(45*\[Xi]^2 + (54 - 
-                 795*\[Xi]^2 + 136*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
-               (-225 + 1221*\[Xi]^2 - 137*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
-               (171 + 312*\[Xi]^2 + \[Xi]^4)*Subscript[s, \[Gamma]]^6) - 
+              (-1 + Subscript[s, \[Gamma]]^2)^2*(-90*\[Xi]^2 + (-204 + 
+                 825*\[Xi]^2 - 136*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
+               (855 - 1761*\[Xi]^2 + 2*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
+               (-681 + 183*\[Xi]^2 + 134*\[Xi]^4)*Subscript[s, \[Gamma]]^6) - 
              (1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[m, \[Phi]]^2*
               Subscript[s, \[Gamma]]^2*(-1 + Subscript[s, \[Gamma]]^2)*
-              (\[Xi]^2*(-5517 + 1376*\[Xi]^2) + (-7668 + 67557*\[Xi]^2 - 
-                 13334*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 2*(15309 - 
-                 87924*\[Xi]^2 + 15242*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 2*
-                (19197 - 71394*\[Xi]^2 + 12845*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^6 + 36*(429 - 794*\[Xi]^2 + 199*\[Xi]^4)*
+              (\[Xi]^2*(-11037 + 1916*\[Xi]^2) + (-18438 + 107697*\[Xi]^2 - 
+                 17114*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 4*(19467 - 
+                 71967*\[Xi]^2 + 8971*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 2*
+                (50937 - 135174*\[Xi]^2 + 13205*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^6 + 36*(1179 - 2174*\[Xi]^2 + 159*\[Xi]^4)*
                 Subscript[s, \[Gamma]]^8) - 4*Subscript[m, \[Phi]]^10*
-              Subscript[s, \[Gamma]]^2*(72036*\[Xi]^2 - 50624*\[Xi]^4 + 9*
-                (4617 - 85548*\[Xi]^2 + 51872*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 2 - 18*(11745 - 159192*\[Xi]^2 + 91544*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 + 54*(7263 - 91404*\[Xi]^2 + 
-                 52244*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 1458*
-                (217 - 2778*\[Xi]^2 + 1620*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 8 + 243*(387 - 5292*\[Xi]^2 + 3200*\[Xi]^4)*
+              Subscript[s, \[Gamma]]^2*(123876*\[Xi]^2 - 67904*\[Xi]^4 + 9*
+                (8667 - 138108*\[Xi]^2 + 68192*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^2 - 36*(10935 - 123426*\[Xi]^2 + 59092*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 + 108*(6669 - 68562*\[Xi]^2 + 
+                 33142*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 2916*
+                (196 - 2019*\[Xi]^2 + 1010*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 8 + 243*(687 - 7452*\[Xi]^2 + 3920*\[Xi]^4)*
                 Subscript[s, \[Gamma]]^10) + (1 + 4*\[Xi]^2)^3*
               Subscript[m, K]^6*Subscript[m, \[Phi]]^4*(-1 + Subscript[s, 
-                 \[Gamma]]^2)*(-1176*\[Xi]^4 + \[Xi]^2*(-87255 + 
-                 30656*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 4*(21006 - 
-                 211581*\[Xi]^2 + 50827*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
-               (345744 - 2316249*\[Xi]^2 + 476924*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 - 18*(25266 - 132033*\[Xi]^2 + 
-                 25732*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 18*(10746 - 
-                 45525*\[Xi]^2 + 8900*\[Xi]^4)*Subscript[s, \[Gamma]]^10) + 
-             4*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^8*
-              (2688*\[Xi]^4 + (148068*\[Xi]^2 - 89120*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 + 2*(45927 - 757680*\[Xi]^2 + 
-                 338216*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 9*(52416 - 
-                 600543*\[Xi]^2 + 240344*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
-               27*(32754 - 329443*\[Xi]^2 + 126556*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 - 54*(13365 - 128736*\[Xi]^2 + 
-                 49048*\[Xi]^4)*Subscript[s, \[Gamma]]^10 + 486*
-                (447 - 4313*\[Xi]^2 + 1660*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 12) - 4*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, 
-                \[Phi]]^6*(1848*\[Xi]^4 + (96426*\[Xi]^2 - 45696*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 + (70281 - 977883*\[Xi]^2 + 
-                 321758*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (-362178 + 
-                 3378543*\[Xi]^2 - 964346*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
-               9*(75687 - 590065*\[Xi]^2 + 157928*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 - 27*(20655 - 145516*\[Xi]^2 + 
-                 37904*\[Xi]^4)*Subscript[s, \[Gamma]]^10 + 27*(6237 - 
-                 41316*\[Xi]^2 + 10696*\[Xi]^4)*Subscript[s, \[Gamma]]^12))))/
+                 \[Gamma]]^2)*(-1896*\[Xi]^4 + \[Xi]^2*(-149625 + 
+                 44696*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 2*(83517 - 
+                 665532*\[Xi]^2 + 139994*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
+               (698934 - 3625959*\[Xi]^2 + 632444*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 - 18*(51286 - 213253*\[Xi]^2 + 
+                 32972*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 18*(21756 - 
+                 77475*\[Xi]^2 + 11000*\[Xi]^4)*Subscript[s, \[Gamma]]^10) + 
+             2*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^8*
+              (9216*\[Xi]^4 - 8*\[Xi]^2*(-61587 + 32720*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (344493 - 4812000*\[Xi]^2 + 
+                 1888544*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 18*
+                (98046 - 930113*\[Xi]^2 + 325824*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^6 + 27*(121533 - 1003506*\[Xi]^2 + 335992*
+                  \[Xi]^4)*Subscript[s, \[Gamma]]^8 - 54*(49035 - 
+                 386532*\[Xi]^2 + 128096*\[Xi]^4)*Subscript[s, \[Gamma]]^10 + 
+               486*(1619 - 12766*\[Xi]^2 + 4280*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^12) - 2*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*
+              Subscript[m, \[Phi]]^6*(6096*\[Xi]^4 - 96*\[Xi]^2*
+                (-3317 + 1412*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
+               (266157 - 3078066*\[Xi]^2 + 908116*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 - 2*(688068 - 5231463*\[Xi]^2 + 
+                 1321646*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 9*(286729 - 
+                 1821430*\[Xi]^2 + 424176*\[Xi]^4)*Subscript[s, \[Gamma]]^8 - 
+               108*(19435 - 112543*\[Xi]^2 + 25072*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^10 + 54*(11637 - 64176*\[Xi]^2 + 
+                 13996*\[Xi]^4)*Subscript[s, \[Gamma]]^12))))/
          (12*\[Xi]^5*(1 + 4*\[Xi]^2)^(5/2)*Subscript[m, K]^12*
-          Subscript[v, EW]^5) + (h^2*Subscript[s, \[Gamma]]^2*
+          Subscript[v, EW]^5) + (QuantumField[h]^2*Subscript[s, \[Gamma]]^2*
           ((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[s, \[Gamma]]*
             (8*Subscript[c, \[Gamma]]^6*Subscript[s, \[Gamma]]^3 + 
              16*\[Xi]*Subscript[c, \[Gamma]]^5*Subscript[s, \[Gamma]]^2*
@@ -6379,7 +6443,7 @@
                  468*\[Xi]^2)*Subscript[s, \[Gamma]]^8 + 54*(-123 + 
                  74*\[Xi]^2)*Subscript[s, \[Gamma]]^10))))/
          (4*\[Xi]^4*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^10*
-          Subscript[v, EW]^4) + (h*Subscript[s, \[Gamma]]^2*
+          Subscript[v, EW]^4) + (QuantumField[h]*Subscript[s, \[Gamma]]^2*
           (Subscript[c, \[Gamma]]^4*((1 + 4*\[Xi]^2)*Subscript[m, K]^2 - 
               3*Subscript[m, \[Phi]]^2)^2*((2 + 8*\[Xi]^2)*Subscript[m, K]^
                2 - 3*Subscript[m, \[Phi]]^2)*Subscript[s, \[Gamma]]^3 - 
@@ -6429,8 +6493,9 @@
              Subscript[m, K]^2*(-(Subscript[c, \[Gamma]]*Subscript[s, 
                  \[Gamma]]) + \[Xi]*(-1 + Subscript[s, \[Gamma]]^2)))^2)/
          (2*\[Xi]^2*(1 + 4*\[Xi]^2)*Subscript[m, K]^6*Subscript[v, EW]^2)), 
-     CQ2V2 -> t*((h*Subscript[s, \[Gamma]]*(12*\[Xi]*Subscript[c, \[Gamma]]^3*
-            ((1 + 4*\[Xi]^2)*Subscript[m, K]^2 - 2*Subscript[m, \[Phi]]^2)*
+     CQ2V2 -> t*((QuantumField[h]*Subscript[s, \[Gamma]]*
+          (12*\[Xi]*Subscript[c, \[Gamma]]^3*((1 + 4*\[Xi]^2)*
+              Subscript[m, K]^2 - 2*Subscript[m, \[Phi]]^2)*
             Subscript[s, \[Gamma]] + 4*\[Xi]^2*Subscript[s, \[Gamma]]^2*
             (2*Subscript[m, \[Phi]]^2*(2 - 3*Subscript[s, \[Gamma]]^2) + 
              (1 + 4*\[Xi]^2)*Subscript[m, K]^2*(-1 + Subscript[s, \[Gamma]]^
@@ -6442,268 +6507,270 @@
                 Subscript[s, \[Gamma]]^2) + 3*Subscript[m, \[Phi]]^2*
               (-8*\[Xi]^2 + (-3 + 16*\[Xi]^2)*Subscript[s, \[Gamma]]^2))))/
          (2*Sqrt[2]*(\[Xi] + 4*\[Xi]^3)*Subscript[m, K]^4) + 
-        ((1 + 4*\[Xi]^2)^(3/2)*h^4*Subscript[s, \[Gamma]]*
+        ((1 + 4*\[Xi]^2)^(3/2)*QuantumField[h]^4*Subscript[s, \[Gamma]]*
           (288*\[Xi]*Subscript[c, \[Gamma]]^9*
             ((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)^3*
             ((1 + 4*\[Xi]^2)*Subscript[m, K]^2 - 2*Subscript[m, \[Phi]]^2)*
             Subscript[s, \[Gamma]]^4 - 24*Subscript[c, \[Gamma]]^8*
             ((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)^2*
-            Subscript[s, \[Gamma]]^3*(-4*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*
-              Subscript[m, \[Phi]]^2*(-40*\[Xi]^2 + 3*(-3 + 55*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2) + 12*Subscript[m, \[Phi]]^4*
-              (-25*\[Xi]^2 + (-3 + 69*\[Xi]^2)*Subscript[s, \[Gamma]]^2) + 
-             (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*(-8*\[Xi]^2 + 
-               (-9 + 124*\[Xi]^2)*Subscript[s, \[Gamma]]^2)) + 
-           24*\[Xi]*Subscript[c, \[Gamma]]^7*((2 + 8*\[Xi]^2)*
+            Subscript[s, \[Gamma]]^3*((1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*
+              (-8*\[Xi]^2 + 9*(-1 + 16*\[Xi]^2)*Subscript[s, \[Gamma]]^2) + 
+             36*Subscript[m, \[Phi]]^4*(-10*\[Xi]^2 + (-1 + 28*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2) - 12*(1 + 4*\[Xi]^2)*
+              Subscript[m, K]^2*Subscript[m, \[Phi]]^2*(-15*\[Xi]^2 + 
+               (-3 + 65*\[Xi]^2)*Subscript[s, \[Gamma]]^2)) + 
+           12*\[Xi]*Subscript[c, \[Gamma]]^7*((2 + 8*\[Xi]^2)*
               Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)*
-            Subscript[s, \[Gamma]]^2*(4*(1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*
-              Subscript[s, \[Gamma]]^2*(-15*(-1 + \[Xi]^2) + (-58 + 
-                 103*\[Xi]^2)*Subscript[s, \[Gamma]]^2) - 
-             6*Subscript[m, \[Phi]]^6*(200*\[Xi]^2 - 3*(-61 + 364*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + 3*(-157 + 492*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^4) + 2*(1 + 4*\[Xi]^2)*
-              Subscript[m, K]^2*Subscript[m, \[Phi]]^4*(392*\[Xi]^2 + 
-               (717 - 2940*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 3*
-                (-641 + 1674*\[Xi]^2)*Subscript[s, \[Gamma]]^4) - 
-             (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^2*
-              (96*\[Xi]^2 + (567 - 1418*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 2*
-                (-844 + 1809*\[Xi]^2)*Subscript[s, \[Gamma]]^4)) - 
-           4*Subscript[c, \[Gamma]]^6*Subscript[s, \[Gamma]]*
-            ((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*
-              (-720*\[Xi]^2 + (-351 + 3196*\[Xi]^2 - 1056*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 + (477 - 9024*\[Xi]^2 + 
-                 3456*\[Xi]^4)*Subscript[s, \[Gamma]]^4) - 
-             6*(1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, \[Phi]]^2*
-              Subscript[s, \[Gamma]]^2*(8*\[Xi]^2*(-217 + 74*\[Xi]^2) + 
-               (-531 + 9800*\[Xi]^2 - 4536*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 2 + (759 - 18092*\[Xi]^2 + 7512*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^4) + 36*Subscript[m, \[Phi]]^8*(-392*\[Xi]^4 + 3*
-                \[Xi]^2*(-435 + 1048*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 6*
-                (27 - 1286*\[Xi]^2 + 1380*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
-               18*(16 - 613*\[Xi]^2 + 396*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 6) - 6*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, 
-                \[Phi]]^6*(-2048*\[Xi]^4 + 3*\[Xi]^2*(-4411 + 6896*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 - 3*(711 - 25865*\[Xi]^2 + 
-                 21648*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 9*(383 - 
-                 12719*\[Xi]^2 + 7104*\[Xi]^4)*Subscript[s, \[Gamma]]^6) + 
+            Subscript[s, \[Gamma]]^2*(3*(1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*
+              Subscript[s, \[Gamma]]^2*(45 - 40*\[Xi]^2 + (-173 + 
+                 328*\[Xi]^2)*Subscript[s, \[Gamma]]^2) - 
+             9*Subscript[m, \[Phi]]^6*(320*\[Xi]^2 - 3*(-93 + 592*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (-703 + 2448*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^4) + 3*(1 + 4*\[Xi]^2)*
+              Subscript[m, K]^2*Subscript[m, \[Phi]]^4*(576*\[Xi]^2 + 
+               (1091 - 4560*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (-2879 + 
+                 8136*\[Xi]^2)*Subscript[s, \[Gamma]]^4) - (1 + 4*\[Xi]^2)^2*
+              Subscript[m, K]^4*Subscript[m, \[Phi]]^2*(192*\[Xi]^2 + 
+               (1279 - 3156*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (-3781 + 
+                 8676*\[Xi]^2)*Subscript[s, \[Gamma]]^4)) - 
+           2*Subscript[c, \[Gamma]]^6*Subscript[s, \[Gamma]]*
+            (4*(1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*
+              (-420*\[Xi]^2 + (-198 + 1613*\[Xi]^2 - 648*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + 3*(87 - 1654*\[Xi]^2 + 
+                 696*\[Xi]^4)*Subscript[s, \[Gamma]]^4) - 3*(1 + 4*\[Xi]^2)^3*
+              Subscript[m, K]^6*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^
+               2*(4*\[Xi]^2*(-1981 + 792*\[Xi]^2) - 3*(793 - 14220*\[Xi]^2 + 
+                 7728*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (3291 - 
+                 80558*\[Xi]^2 + 37488*\[Xi]^4)*Subscript[s, \[Gamma]]^4) + 
+             9*Subscript[m, \[Phi]]^8*(-4096*\[Xi]^4 + 12*\[Xi]^2*
+                (-1015 + 2736*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 3*
+                (477 - 23276*\[Xi]^2 + 28800*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4 + 9*(271 - 10888*\[Xi]^2 + 8256*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6) - 9*(1 + 4*\[Xi]^2)*
+              Subscript[m, K]^2*Subscript[m, \[Phi]]^6*(-3584*\[Xi]^4 + 4*
+                \[Xi]^2*(-5141 + 8976*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
+               (-3159 + 117080*\[Xi]^2 - 112032*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^4 + 3*(1637 - 56906*\[Xi]^2 + 36576*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6) + 3*(1 + 4*\[Xi]^2)^2*
+              Subscript[m, K]^4*Subscript[m, \[Phi]]^4*(-2304*\[Xi]^4 + 4*
+                \[Xi]^2*(-8855 + 8868*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 3*
+                (2457 - 66796*\[Xi]^2 + 48576*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4 + 3*(3577 - 105864*\[Xi]^2 + 57456*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6)) + 2*\[Xi]*Subscript[c, \[Gamma]]^5*
+            (2*(1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*
+              (120*\[Xi]^2 - 10*(18 + 281*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 
+               3*(409 - 2592*\[Xi]^2 + 256*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4 + (2476 - 12567*\[Xi]^2 + 1152*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6) - 3*(1 + 4*\[Xi]^2)^3*
+              Subscript[m, K]^6*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^
+               2*(3928*\[Xi]^2 + (4046 - 41926*\[Xi]^2 + 2688*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 - 2*(12545 - 64779*\[Xi]^2 + 
+                 6912*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 3*(9919 - 
+                 48080*\[Xi]^2 + 4736*\[Xi]^4)*Subscript[s, \[Gamma]]^6) + 
              3*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^4*
-              (-832*\[Xi]^4 + 2*\[Xi]^2*(-7675 + 6728*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + (-3303 + 89514*\[Xi]^2 - 
-                 56544*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 3*(1661 - 
-                 47262*\[Xi]^2 + 22608*\[Xi]^4)*Subscript[s, \[Gamma]]^6)) + 
-           2*\[Xi]*Subscript[c, \[Gamma]]^5*(2*(1 + 4*\[Xi]^2)^4*
-              Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*(120*\[Xi]^2 - 5*
-                (39 + 496*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 12*
-                (101 - 683*\[Xi]^2 + 44*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
-               (2461 - 12012*\[Xi]^2 + 912*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 6) - 6*(1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, 
-                \[Phi]]^2*Subscript[s, \[Gamma]]^2*(1764*\[Xi]^2 + 
-               (1778 - 19293*\[Xi]^2 + 864*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 2 + (-11620 + 62569*\[Xi]^2 - 4672*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 + 3*(4697 - 22460*\[Xi]^2 + 
-                 1728*\[Xi]^4)*Subscript[s, \[Gamma]]^6) + 
-             3*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^4*
-              Subscript[s, \[Gamma]]^2*(23728*\[Xi]^2 - 2400*\[Xi]^4 + 4*
-                (5307 - 57814*\[Xi]^2 + 5864*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 2 - 12*(9140 - 58813*\[Xi]^2 + 5688*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 + 3*(41181 - 225328*\[Xi]^2 + 
-                 19488*\[Xi]^4)*Subscript[s, \[Gamma]]^6) - 6*(1 + 4*\[Xi]^2)*
-              Subscript[m, K]^2*Subscript[m, \[Phi]]^6*(512*\[Xi]^4 + 
-               (25712*\[Xi]^2 - 8640*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 3*
-                (6193 - 82552*\[Xi]^2 + 15200*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 + (-91677 + 734118*\[Xi]^2 - 95616*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + 18*(5788 - 37089*\[Xi]^2 + 
-                 3792*\[Xi]^4)*Subscript[s, \[Gamma]]^8) + 
-             3*Subscript[m, \[Phi]]^8*(2560*\[Xi]^4 - 96*\[Xi]^2*
-                (-367 + 284*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 6*
-                (3357 - 58352*\[Xi]^2 + 17856*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 - 36*(2819 - 28698*\[Xi]^2 + 5088*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + 27*(4535 - 34128*\[Xi]^2 + 
-                 4224*\[Xi]^4)*Subscript[s, \[Gamma]]^8)) + 
+              Subscript[s, \[Gamma]]^2*(192*\[Xi]^2*(139 - 20*\[Xi]^2) + 4*
+                (6022 - 62849*\[Xi]^2 + 9024*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 2 - 6*(20045 - 125066*\[Xi]^2 + 16896*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 + 3*(44001 - 243238*\[Xi]^2 + 
+                 27648*\[Xi]^4)*Subscript[s, \[Gamma]]^6) + 
+             9*Subscript[m, \[Phi]]^8*(1280*\[Xi]^4 - 128*\[Xi]^2*
+                (-103 + 106*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 2*
+                (3807 - 63572*\[Xi]^2 + 26496*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4 - 24*(1537 - 15429*\[Xi]^2 + 3744*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + 9*(4775 - 36648*\[Xi]^2 + 
+                 6144*\[Xi]^4)*Subscript[s, \[Gamma]]^8) - 3*(1 + 4*\[Xi]^2)*
+              Subscript[m, K]^2*Subscript[m, \[Phi]]^6*(1664*\[Xi]^4 - 64*
+                \[Xi]^2*(-911 + 420*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 6*
+                (7043 - 90322*\[Xi]^2 + 23040*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4 - 12*(16787 - 131698*\[Xi]^2 + 23616*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + 9*(24667 - 160416*\[Xi]^2 + 
+                 21888*\[Xi]^4)*Subscript[s, \[Gamma]]^8)) + 
            Subscript[c, \[Gamma]]^4*Subscript[s, \[Gamma]]*
             ((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*
-              (-8*\[Xi]^2*(3 + 152*\[Xi]^2) + (-369 - 6592*\[Xi]^2 + 
-                 13018*\[Xi]^4)*Subscript[s, \[Gamma]]^2 - 6*
-                (3 - 2516*\[Xi]^2 + 6154*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
-               (475 - 16432*\[Xi]^2 + 31554*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 6) + 3*Subscript[m, \[Phi]]^8*(29184*\[Xi]^4 + 
-               (75312*\[Xi]^2 - 526208*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 3*
-                (3051 - 239312*\[Xi]^2 + 878048*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^4 - 18*(1779 - 105290*\[Xi]^2 + 276768*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + 108*(287 - 13701*\[Xi]^2 + 
-                 29432*\[Xi]^4)*Subscript[s, \[Gamma]]^8) - 
+              (-8*\[Xi]^2*(33 + 197*\[Xi]^2) + (-459 - 5512*\[Xi]^2 + 
+                 13618*\[Xi]^4)*Subscript[s, \[Gamma]]^2 - 6*(-27 - 
+                 1726*\[Xi]^2 + 6194*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
+               (385 - 12862*\[Xi]^2 + 33474*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6) + 3*Subscript[m, \[Phi]]^8*(40064*\[Xi]^4 - 3056*\[Xi]^2*
+                (-27 + 208*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (9963 - 
+                 760776*\[Xi]^2 + 3024384*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 
+               18*(1869 - 109790*\[Xi]^2 + 309408*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + 54*(589 - 28242*\[Xi]^2 + 
+                 64864*\[Xi]^4)*Subscript[s, \[Gamma]]^8) - 6*(1 + 4*\[Xi]^2)*
+              Subscript[m, K]^2*Subscript[m, \[Phi]]^6*(25072*\[Xi]^4 + 
+               (66628*\[Xi]^2 - 370304*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 24*
+                (384 - 25001*\[Xi]^2 + 73748*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4 - 3*(10647 - 501757*\[Xi]^2 + 1103872*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + 18*(1552 - 62839*\[Xi]^2 + 
+                 117200*\[Xi]^4)*Subscript[s, \[Gamma]]^8) - 
              2*(1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, \[Phi]]^2*
-              (1200*\[Xi]^4 - 28*\[Xi]^2*(-393 + 1124*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + 6*(363 - 21895*\[Xi]^2 + 
-                 35230*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (-10326 + 
-                 337799*\[Xi]^2 - 490032*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
-               6*(1553 - 45006*\[Xi]^2 + 59630*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^8) - 6*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*
-              Subscript[m, \[Phi]]^6*(17712*\[Xi]^4 - 8*\[Xi]^2*
-                (-7581 + 37288*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 6*
-                (1416 - 93969*\[Xi]^2 + 252272*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^4 - 3*(10092 - 477997*\[Xi]^2 + 972832*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + 9*(2999 - 120788*\[Xi]^2 + 
-                 209200*\[Xi]^4)*Subscript[s, \[Gamma]]^8) + 
-             3*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^4*
-              (10784*\[Xi]^4 - 8*\[Xi]^2*(-7061 + 25128*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + 2*(4839 - 274936*\[Xi]^2 + 
-                 555176*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 12*(3015 - 
-                 115757*\[Xi]^2 + 189660*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
-               3*(10389 - 351788*\[Xi]^2 + 509400*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8)) + \[Xi]*Subscript[c, \[Gamma]]^3*
-            (-((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*(
-                -168*\[Xi]^2 + (168 + 4592*\[Xi]^2 - 1252*\[Xi]^4)*
-                 Subscript[s, \[Gamma]]^2 + (-543 - 26078*\[Xi]^2 + 
-                  8228*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
-                (-1699 + 38946*\[Xi]^2 - 14956*\[Xi]^4)*Subscript[s, 
-                   \[Gamma]]^6 + (2362 - 20784*\[Xi]^2 + 7980*\[Xi]^4)*
-                 Subscript[s, \[Gamma]]^8)) - 6*Subscript[m, \[Phi]]^8*
-              Subscript[s, \[Gamma]]^2*(32*\[Xi]^2*(-669 + 1924*\[Xi]^2) - 4*
-                (3375 - 112230*\[Xi]^2 + 134336*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^2 + 3*(40797 - 706336*\[Xi]^2 + 559264*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 - 9*(29369 - 401388*\[Xi]^2 + 
-                 248896*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 54*(3145 - 
-                 37864*\[Xi]^2 + 20128*\[Xi]^4)*Subscript[s, \[Gamma]]^8) + 
-             (1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, \[Phi]]^2*
-              Subscript[s, \[Gamma]]^2*(-4404*\[Xi]^2 + 4864*\[Xi]^4 - 2*
-                (3171 - 86954*\[Xi]^2 + 36320*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 2 + 9*(9119 - 100847*\[Xi]^2 + 33768*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 + (-201577 + 1534248*\[Xi]^2 - 
-                 467184*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 3*(44581 - 
-                 284235*\[Xi]^2 + 79288*\[Xi]^4)*Subscript[s, \[Gamma]]^8) - 
-             (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^4*
-              (-1344*\[Xi]^4 + (-59532*\[Xi]^2 + 86528*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 - 12*(5094 - 119991*\[Xi]^2 + 
-                 70472*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 3*(197341 - 
-                 2289350*\[Xi]^2 + 969936*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 
-               9*(145181 - 1272676*\[Xi]^2 + 451792*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 + 18*(45819 - 349791*\[Xi]^2 + 
-                 110128*\[Xi]^4)*Subscript[s, \[Gamma]]^10) + 
+              (1740*\[Xi]^4 - 4*\[Xi]^2*(-2781 + 9398*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + 6*(363 - 22040*\[Xi]^2 + 
+                 39250*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (-10461 + 
+                 335339*\[Xi]^2 - 535872*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
+               3*(3151 - 89892*\[Xi]^2 + 131920*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^8) + 3*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*
+              Subscript[m, \[Phi]]^4*(15224*\[Xi]^4 - 4352*\[Xi]^2*
+                (-14 + 57*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 2*
+                (5169 - 288536*\[Xi]^2 + 644376*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^4 - 24*(1580 - 60101*\[Xi]^2 + 107100*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + 3*(10749 - 364178*\[Xi]^2 + 
+                 572160*\[Xi]^4)*Subscript[s, \[Gamma]]^8)) + 
+           \[Xi]*Subscript[c, \[Gamma]]^3*(-((1 + 4*\[Xi]^2)^4*Subscript[m, 
+                 K]^8*Subscript[s, \[Gamma]]^2*(-348*\[Xi]^2 + 
+                (48 + 5252*\[Xi]^2 - 1252*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
+                (-1113 - 30098*\[Xi]^2 + 7688*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                  4 + (-169 + 40026*\[Xi]^2 - 14836*\[Xi]^4)*
+                 Subscript[s, \[Gamma]]^6 + 2*(761 - 9372*\[Xi]^2 + 
+                  4200*\[Xi]^4)*Subscript[s, \[Gamma]]^8)) - 
+             6*Subscript[m, \[Phi]]^8*Subscript[s, \[Gamma]]^2*
+              (32*\[Xi]^2*(-1239 + 2144*\[Xi]^2) - 2*(9315 - 294060*\[Xi]^2 + 
+                 295552*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 3*(46647 - 
+                 827656*\[Xi]^2 + 609664*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 
+               9*(31559 - 445308*\[Xi]^2 + 270016*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + 216*(820 - 10171*\[Xi]^2 + 
+                 5452*\[Xi]^4)*Subscript[s, \[Gamma]]^8) + (1 + 4*\[Xi]^2)^3*
+              Subscript[m, K]^6*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^
+               2*(8*\[Xi]^2*(-1818 + 743*\[Xi]^2) - 2*(6141 - 125684*
+                  \[Xi]^2 + 40100*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 3*
+                (32177 - 375081*\[Xi]^2 + 107544*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^4 + (-213847 + 1753068*\[Xi]^2 - 500904*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + 3*(45871 - 309195*\[Xi]^2 + 
+                 87088*\[Xi]^4)*Subscript[s, \[Gamma]]^8) + 
              (1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^6*
-              (-5376*\[Xi]^4 + 16*\[Xi]^2*(-11097 + 22048*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 - 6*(22011 - 610240*\[Xi]^2 + 
-                 506320*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 9*(133865 - 
-                 1884924*\[Xi]^2 + 1070368*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 6 - 18*(144405 - 1571296*\[Xi]^2 + 717296*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 + 54*(30341 - 289384*\[Xi]^2 + 
-                 114784*\[Xi]^4)*Subscript[s, \[Gamma]]^10)) - 
+              (-9216*\[Xi]^4 + 16*\[Xi]^2*(-22137 + 26608*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 - 6*(31611 - 835600*\[Xi]^2 + 
+                 576400*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 9*(156225 - 
+                 2281444*\[Xi]^2 + 1188928*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6 - 36*(78915 - 894098*\[Xi]^2 + 395008*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 + 216*(8039 - 79471*\[Xi]^2 + 
+                 31636*\[Xi]^4)*Subscript[s, \[Gamma]]^10) - 
+             (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^4*
+              (-2784*\[Xi]^4 + 4*\[Xi]^2*(-35313 + 27572*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 - 12*(7854 - 172071*\[Xi]^2 + 
+                 81272*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (700653 - 
+                 8531850*\[Xi]^2 + 3231888*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6 - 9*(159331 - 1471756*\[Xi]^2 + 498352*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 + 18*(48729 - 388461*\[Xi]^2 + 
+                 122368*\[Xi]^4)*Subscript[s, \[Gamma]]^10)) - 
            Subscript[c, \[Gamma]]^2*Subscript[s, \[Gamma]]*
             ((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*
-              (\[Xi]^2*(621 + 1120*\[Xi]^2) + (243 + 478*\[Xi]^2 - 
-                 11859*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (-357 - 
-                 12607*\[Xi]^2 + 32230*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 3*
-                (5 - 7122*\[Xi]^2 + 10877*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
-               (129 - 10011*\[Xi]^2 + 11140*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 8) + 3*Subscript[m, \[Phi]]^8*Subscript[s, \[Gamma]]^2*
-              (8*\[Xi]^2*(-2421 + 47048*\[Xi]^2) - 12*(27 - 39039*\[Xi]^2 + 
-                 256544*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 3*(4779 - 
-                 637212*\[Xi]^2 + 2950448*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 
-               18*(1647 - 153060*\[Xi]^2 + 599944*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + 27*(579 - 49116*\[Xi]^2 + 
-                 176576*\[Xi]^4)*Subscript[s, \[Gamma]]^8) - 
-             3*(1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, \[Phi]]^2*
-              (-48*\[Xi]^4 + 4*\[Xi]^2*(325 + 4244*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + (471 + 29315*\[Xi]^2 - 
-                 146372*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 3*(349 - 
-                 53729*\[Xi]^2 + 135126*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
-               (-4023 + 249061*\[Xi]^2 - 454484*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^8 + 3*(839 - 39987*\[Xi]^2 + 60250*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^10) - (1 + 4*\[Xi]^2)*Subscript[m, 
-                K]^2*Subscript[m, \[Phi]]^6*(-4896*\[Xi]^4 + 36*\[Xi]^2*
-                (-2205 + 38936*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
-               (-621 + 2049084*\[Xi]^2 - 11115208*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 + 27*(2633 - 314320*\[Xi]^2 + 
-                 1148416*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 18*
-                (8757 - 680742*\[Xi]^2 + 2028512*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^8 + 216*(408 - 27045*\[Xi]^2 + 71738*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^10) + (1 + 4*\[Xi]^2)^2*
-              Subscript[m, K]^4*Subscript[m, \[Phi]]^4*(-2496*\[Xi]^4 + 
-               \[Xi]^2*(-21411 + 485648*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
-               (1521 + 848031*\[Xi]^2 - 3895656*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^4 + 3*(11262 - 1235147*\[Xi]^2 + 3586052*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 - 36*(2291 - 150662*\[Xi]^2 + 
-                 343535*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 9*(5301 - 
-                 286686*\[Xi]^2 + 565820*\[Xi]^4)*Subscript[s, \[Gamma]]^
+              (\[Xi]^2*(171 + 940*\[Xi]^2) + (123 + 3238*\[Xi]^2 - 
+                 11919*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (3 - 
+                 17827*\[Xi]^2 + 32740*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 3*
+                (125 - 8382*\[Xi]^2 + 10477*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6 + (249 - 10881*\[Xi]^2 + 9670*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^8) - 3*(1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*
+              Subscript[m, \[Phi]]^2*(-288*\[Xi]^4 + 4*\[Xi]^2*(-1165 + 
+                 5239*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (-599 + 
+                 65845*\[Xi]^2 - 166412*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
+               (4537 - 237477*\[Xi]^2 + 447078*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^6 + (-7793 + 316331*\[Xi]^2 - 491964*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 + 3*(1289 - 47197*\[Xi]^2 + 
+                 64410*\[Xi]^4)*Subscript[s, \[Gamma]]^10) + 
+             3*Subscript[m, \[Phi]]^8*(-3840*\[Xi]^4 + 8*\[Xi]^2*
+                (-7101 + 55688*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 18*
+                (243 - 38886*\[Xi]^2 + 190336*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4 + 3*(8829 - 804852*\[Xi]^2 + 3207248*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 - 36*(1161 - 89340*\[Xi]^2 + 
+                 321812*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 27*
+                (729 - 54756*\[Xi]^2 + 187616*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 10) - (1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^
+               6*(-26016*\[Xi]^4 + 36*\[Xi]^2*(-7715 + 48056*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (-24651 + 3279924*\[Xi]^2 - 
+                 12675688*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 9*
+                (16389 - 1242420*\[Xi]^2 + 3817328*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 - 36*(6621 - 410406*\[Xi]^2 + 
+                 1107616*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 54*
+                (2157 - 124080*\[Xi]^2 + 310712*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^10) + (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*
+              Subscript[m, \[Phi]]^4*(-12336*\[Xi]^4 + \[Xi]^2*(-129621 + 
+                 623048*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 9*(1521 - 
+                 168479*\[Xi]^2 + 502344*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
+               3*(27912 - 1717327*\[Xi]^2 + 4019652*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 - 18*(7607 - 375834*\[Xi]^2 + 
+                 757670*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 9*(7491 - 
+                 337356*\[Xi]^2 + 618860*\[Xi]^4)*Subscript[s, \[Gamma]]^
                  10)) + Subscript[s, \[Gamma]]*((1 + 4*\[Xi]^2)^4*
               Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*
               (-1 + Subscript[s, \[Gamma]]^2)^2*(\[Xi]^2*(27 + 8*\[Xi]^2) + 
-               (54 - 147*\[Xi]^2 + 1184*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
-               (-108 + 999*\[Xi]^2 - 3299*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
-               (54 - 1017*\[Xi]^2 + 1792*\[Xi]^4)*Subscript[s, \[Gamma]]^6) + 
-             8*\[Xi]^2*Subscript[m, \[Phi]]^8*Subscript[s, \[Gamma]]^2*
-              (-10272*\[Xi]^2 + 2*(-8235 + 66004*\[Xi]^2)*Subscript[s, 
-                  \[Gamma]]^2 + (90936 - 546144*\[Xi]^2)*Subscript[s, 
-                  \[Gamma]]^4 + 27*(-6775 + 37678*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^6 - 54*(-2949 + 16448*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^8 + 81*(-627 + 3658*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^10) - (1 + 4*\[Xi]^2)^3*
+               (54 - 507*\[Xi]^2 + 1004*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
+               (-108 + 3039*\[Xi]^2 - 3359*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4 + (54 - 2817*\[Xi]^2 + 2032*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^6) + 8*\[Xi]^2*Subscript[m, \[Phi]]^8*
+              Subscript[s, \[Gamma]]^2*(-11712*\[Xi]^2 + 2*(-12285 + 
+                 76084*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (133461 - 
+                 627504*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 54*(-4850 + 
+                 21469*\[Xi]^2)*Subscript[s, \[Gamma]]^6 - 27*(-8223 + 
+                 37096*\[Xi]^2)*Subscript[s, \[Gamma]]^8 + 162*(-426 + 
+                 2039*\[Xi]^2)*Subscript[s, \[Gamma]]^10) - (1 + 4*\[Xi]^2)^3*
               Subscript[m, K]^6*Subscript[m, \[Phi]]^2*(-1 + Subscript[s, 
-                 \[Gamma]]^2)*(24*\[Xi]^4 + \[Xi]^2*(-27 + 2720*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 - 3*(36 - 1755*\[Xi]^2 + 
-                 15878*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (216 - 
-                 33453*\[Xi]^2 + 160208*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
-               (-108 + 58035*\[Xi]^2 - 191410*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 8 + 12*\[Xi]^2*(-2487 + 6286*\[Xi]^2)*Subscript[s, \[Gamma]]^
-                 10) - 4*\[Xi]^2*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*
-              Subscript[m, \[Phi]]^6*Subscript[s, \[Gamma]]^2*
-              (-12*(3 + 2138*\[Xi]^2) + (-46290 + 326884*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + (266799 - 1318564*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^4 + 9*(-61689 + 264094*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^6 - 27*(-18423 + 74002*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^8 + 27*(-6027 + 23672*\[Xi]^2)*
+                 \[Gamma]]^2)*(24*\[Xi]^4 + \[Xi]^2*(-27 + 3440*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 - 3*(36 - 6115*\[Xi]^2 + 
+                 19078*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (216 - 
+                 96453*\[Xi]^2 + 194708*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
+               (-108 + 147015*\[Xi]^2 - 234970*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^8 + 12*\[Xi]^2*(-5742 + 7741*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^10) - 4*\[Xi]^2*(1 + 4*\[Xi]^2)*
+              Subscript[m, K]^2*Subscript[m, \[Phi]]^6*Subscript[s, \[Gamma]]^
+               2*(-36*(1 + 846*\[Xi]^2) + 4*(-19110 + 97441*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (429159 - 1566364*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^4 + 18*(-48022 + 155787*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^6 - 27*(-27753 + 86582*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^8 + 54*(-4401 + 13726*\[Xi]^2)*
                 Subscript[s, \[Gamma]]^10) + 2*(1 + 4*\[Xi]^2)^2*
               Subscript[m, K]^4*Subscript[m, \[Phi]]^4*(-36*\[Xi]^4 - 4*
-                \[Xi]^2*(18 + 4247*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
-               (27 - 34695*\[Xi]^2 + 231542*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 - 3*(18 - 70627*\[Xi]^2 + 307960*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + 3*(9 - 152143*\[Xi]^2 + 
-                 535776*\[Xi]^4)*Subscript[s, \[Gamma]]^8 - 9*\[Xi]^2*
-                (-46401 + 143150*\[Xi]^2)*Subscript[s, \[Gamma]]^10 + 54*
-                \[Xi]^2*(-2561 + 7235*\[Xi]^2)*Subscript[s, \[Gamma]]^12)) + 
+                \[Xi]^2*(18 + 5387*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
+               (27 - 70035*\[Xi]^2 + 287642*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4 - 3*(18 - 135887*\[Xi]^2 + 379960*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + 3*(9 - 279183*\[Xi]^2 + 
+                 657736*\[Xi]^4)*Subscript[s, \[Gamma]]^8 - 9*\[Xi]^2*
+                (-81541 + 174950*\[Xi]^2)*Subscript[s, \[Gamma]]^10 + 54*
+                \[Xi]^2*(-4331 + 8805*\[Xi]^2)*Subscript[s, \[Gamma]]^12)) + 
            \[Xi]*Subscript[c, \[Gamma]]*((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*
               Subscript[s, \[Gamma]]^2*(-1 + Subscript[s, \[Gamma]]^2)*
-              (108*\[Xi]^2 + (-36 + 434*\[Xi]^2 - 720*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 + (861 - 6864*\[Xi]^2 + 
-                 3964*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (-2607 + 
-                 14996*\[Xi]^2 - 5336*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 2*
-                (897 - 3716*\[Xi]^2 + 1046*\[Xi]^4)*Subscript[s, \[Gamma]]^
+              (108*\[Xi]^2 - 4*(54 - 131*\[Xi]^2 + 180*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + (2301 - 7104*\[Xi]^2 + 
+                 3964*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (-5007 + 
+                 17246*\[Xi]^2 - 4796*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 2*
+                (1467 - 4646*\[Xi]^2 + 776*\[Xi]^4)*Subscript[s, \[Gamma]]^
                  8) - (1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, 
                 \[Phi]]^2*Subscript[s, \[Gamma]]^2*(-4*\[Xi]^2*
-                (375 + 512*\[Xi]^2) + 4*(-279 - 9575*\[Xi]^2 + 10976*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 + (-10089 + 326432*\[Xi]^2 - 
-                 211352*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (60153 - 
-                 829860*\[Xi]^2 + 402336*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 
-               4*(21867 - 211854*\[Xi]^2 + 84094*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^8 + 24*(1605 - 12700*\[Xi]^2 + 4314*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^10) - (1 + 4*\[Xi]^2)*Subscript[m, 
-                K]^2*Subscript[m, \[Phi]]^6*Subscript[s, \[Gamma]]^2*
-              (-16*\[Xi]^2*(153 + 5552*\[Xi]^2) + 12*(171 - 93139*\[Xi]^2 + 
-                 116064*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (-243801 + 
-                 7768528*\[Xi]^2 - 6445312*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 + 18*(54151 - 1057390*\[Xi]^2 + 721184*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 - 27*(46387 - 735284*\[Xi]^2 + 
-                 445536*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 216*
-                (2409 - 34726*\[Xi]^2 + 19504*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 10) + 2*Subscript[m, \[Phi]]^8*Subscript[s, \[Gamma]]^2*
-              (-33024*\[Xi]^4 + (972 - 421008*\[Xi]^2 + 605312*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 - 3*(26757 - 962488*\[Xi]^2 + 
-                 1010880*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 27*
-                (11193 - 262868*\[Xi]^2 + 242464*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^6 - 27*(13755 - 277572*\[Xi]^2 + 240928*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 + 81*(1833 - 35648*\[Xi]^2 + 
-                 30240*\[Xi]^4)*Subscript[s, \[Gamma]]^10) + 
-             (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^4*
-              (96*\[Xi]^4 - 4*\[Xi]^2*(927 + 7144*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + 4*(-261 - 102189*\[Xi]^2 + 
-                 112540*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 3*(34525 - 
-                 988350*\[Xi]^2 + 679536*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
-               (454899 - 7292652*\[Xi]^2 + 3935328*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 - 36*(16929 - 208661*\[Xi]^2 + 
-                 95856*\[Xi]^4)*Subscript[s, \[Gamma]]^10 + 54*(4802 - 
-                 51459*\[Xi]^2 + 21024*\[Xi]^4)*Subscript[s, \[Gamma]]^12))))/
-         (48*Sqrt[2]*(\[Xi] + 4*\[Xi]^3)^4*Subscript[m, K]^10*
-          Subscript[v, EW]^3) + ((1 + 4*\[Xi]^2)*h^3*Subscript[s, \[Gamma]]*
+                (285 + 512*\[Xi]^2) + (5424 - 53060*\[Xi]^2 + 44984*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + (-54549 + 417422*\[Xi]^2 - 
+                 218912*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 3*(52361 - 
+                 349530*\[Xi]^2 + 138432*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 
+               2*(87054 - 534513*\[Xi]^2 + 171608*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 + 6*(11025 - 64045*\[Xi]^2 + 
+                 17316*\[Xi]^4)*Subscript[s, \[Gamma]]^10) + 
+             2*Subscript[m, \[Phi]]^8*Subscript[s, \[Gamma]]^2*
+              (192*\[Xi]^2*(15 - 172*\[Xi]^2) + 4*(4293 - 127212*\[Xi]^2 + 
+                 155648*\[Xi]^4)*Subscript[s, \[Gamma]]^2 - 3*(59157 - 
+                 1130488*\[Xi]^2 + 1051200*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4 + 27*(18393 - 303828*\[Xi]^2 + 253504*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 - 27*(19755 - 315972*\[Xi]^2 + 
+                 252448*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 81*(2433 - 
+                 39968*\[Xi]^2 + 31680*\[Xi]^4)*Subscript[s, \[Gamma]]^10) - 
+             (1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^6*
+              Subscript[s, \[Gamma]]^2*(7152*\[Xi]^2 - 92672*\[Xi]^4 + 12*
+                (5196 - 116579*\[Xi]^2 + 121824*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^2 + (-616581 + 9388768*\[Xi]^2 - 6808192*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 + 36*(48498 - 629035*\[Xi]^2 + 
+                 382392*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 27*(71027 - 
+                 863644*\[Xi]^2 + 473536*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 
+               54*(13461 - 161164*\[Xi]^2 + 83056*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^10) + (1 + 4*\[Xi]^2)^2*
+              Subscript[m, K]^4*Subscript[m, \[Phi]]^4*(96*\[Xi]^4 + 
+               (852*\[Xi]^2 - 30016*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 4*
+                (8574 - 134979*\[Xi]^2 + 118480*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^4 - 3*(109925 - 1241230*\[Xi]^2 + 719856*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + (935919 - 9008052*\[Xi]^2 + 
+                 4181568*\[Xi]^4)*Subscript[s, \[Gamma]]^8 - 36*
+                (28739 - 255091*\[Xi]^2 + 101976*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^10 + 54*(7302 - 62359*\[Xi]^2 + 22384*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^12))))/(48*Sqrt[2]*
+          (\[Xi] + 4*\[Xi]^3)^4*Subscript[m, K]^10*Subscript[v, EW]^3) + 
+        ((1 + 4*\[Xi]^2)*QuantumField[h]^3*Subscript[s, \[Gamma]]*
           (72*\[Xi]*Subscript[c, \[Gamma]]^7*((2 + 8*\[Xi]^2)*Subscript[m, K]^
                 2 - 3*Subscript[m, \[Phi]]^2)^2*((1 + 4*\[Xi]^2)*
               Subscript[m, K]^2 - 2*Subscript[m, \[Phi]]^2)*
@@ -6823,7 +6890,7 @@
                  11017*\[Xi]^2 + 8176*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 3*
                 (267 - 7303*\[Xi]^2 + 4792*\[Xi]^4)*Subscript[s, \[Gamma]]^
                  8))))/(12*Sqrt[2]*(\[Xi] + 4*\[Xi]^3)^3*Subscript[m, K]^8*
-          Subscript[v, EW]^2) + (Sqrt[1 + 4*\[Xi]^2]*h^2*
+          Subscript[v, EW]^2) + (Sqrt[1 + 4*\[Xi]^2]*QuantumField[h]^2*
           Subscript[s, \[Gamma]]*(24*\[Xi]*Subscript[c, \[Gamma]]^5*
             (2*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4 - 7*(1 + 4*\[Xi]^2)*
               Subscript[m, K]^2*Subscript[m, \[Phi]]^2 + 
@@ -6877,265 +6944,268 @@
         (Subscript[s, \[Gamma]]*(4*\[Xi]*Subscript[c, \[Gamma]] + 
            Subscript[s, \[Gamma]])*Subscript[v, EW])/
          (2*Sqrt[2]*Sqrt[1 + 4*\[Xi]^2]*Subscript[m, K]^2)), 
-     CQ2V32 -> t*((h*Subscript[s, \[Gamma]]*(-3*Subscript[c, \[Gamma]]^3*
-            ((1 + 4*\[Xi]^2)*Subscript[m, K]^2 - 2*Subscript[m, \[Phi]]^2)*
-            Subscript[s, \[Gamma]] + Subscript[c, \[Gamma]]*
-            (-3*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^3 + 
-             (1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[s, \[Gamma]]*
-              (1 + Subscript[s, \[Gamma]]^2)) + \[Xi]*Subscript[s, \[Gamma]]^
-             2*(-((1 + 4*\[Xi]^2)*Subscript[m, K]^2*(-1 + Subscript[s, 
-                  \[Gamma]]^2)) + 2*Subscript[m, \[Phi]]^2*
+     CQ2V32 -> t*((QuantumField[h]*Subscript[s, \[Gamma]]*
+          (-3*Subscript[c, \[Gamma]]^3*((1 + 4*\[Xi]^2)*Subscript[m, K]^2 - 
+             2*Subscript[m, \[Phi]]^2)*Subscript[s, \[Gamma]] + 
+           Subscript[c, \[Gamma]]*(-3*Subscript[m, \[Phi]]^2*Subscript[s, 
+                \[Gamma]]^3 + (1 + 4*\[Xi]^2)*Subscript[m, K]^2*
+              Subscript[s, \[Gamma]]*(1 + Subscript[s, \[Gamma]]^2)) + 
+           \[Xi]*Subscript[s, \[Gamma]]^2*(-((1 + 4*\[Xi]^2)*Subscript[m, K]^
+                2*(-1 + Subscript[s, \[Gamma]]^2)) + 2*Subscript[m, \[Phi]]^2*
               (-2 + 3*Subscript[s, \[Gamma]]^2)) + 
            \[Xi]*Subscript[c, \[Gamma]]^2*(6*Subscript[m, \[Phi]]^2*
               (1 - 2*Subscript[s, \[Gamma]]^2) + (1 + 4*\[Xi]^2)*
               Subscript[m, K]^2*(-1 + 3*Subscript[s, \[Gamma]]^2))))/
          (Sqrt[2]*(1 + 4*\[Xi]^2)*Subscript[m, K]^4) - 
-        (h^4*Subscript[s, \[Gamma]]*(72*Subscript[c, \[Gamma]]^9*
-            ((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)^3*
-            ((1 + 4*\[Xi]^2)*Subscript[m, K]^2 - 2*Subscript[m, \[Phi]]^2)*
-            Subscript[s, \[Gamma]]^4 - 24*\[Xi]*Subscript[c, \[Gamma]]^8*
-            ((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)^2*
-            Subscript[s, \[Gamma]]^3*((1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*
-              (-2 + 31*Subscript[s, \[Gamma]]^2) - 5*(1 + 4*\[Xi]^2)*
-              Subscript[m, K]^2*Subscript[m, \[Phi]]^2*(-8 + 33*
-                Subscript[s, \[Gamma]]^2) + 3*Subscript[m, \[Phi]]^4*
-              (-25 + 69*Subscript[s, \[Gamma]]^2)) + 
-           12*Subscript[c, \[Gamma]]^7*((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 
+        (QuantumField[h]^4*Subscript[s, \[Gamma]]*
+          (72*Subscript[c, \[Gamma]]^9*((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 
+              3*Subscript[m, \[Phi]]^2)^3*((1 + 4*\[Xi]^2)*Subscript[m, K]^
+               2 - 2*Subscript[m, \[Phi]]^2)*Subscript[s, \[Gamma]]^4 - 
+           24*\[Xi]*Subscript[c, \[Gamma]]^8*((2 + 8*\[Xi]^2)*Subscript[m, K]^
+                2 - 3*Subscript[m, \[Phi]]^2)^2*Subscript[s, \[Gamma]]^3*
+            (-15*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^2*
+              (-3 + 13*Subscript[s, \[Gamma]]^2) + 18*Subscript[m, \[Phi]]^4*
+              (-5 + 14*Subscript[s, \[Gamma]]^2) + 2*(1 + 4*\[Xi]^2)^2*
+              Subscript[m, K]^4*(-1 + 18*Subscript[s, \[Gamma]]^2)) + 
+           3*Subscript[c, \[Gamma]]^7*((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 
              3*Subscript[m, \[Phi]]^2)*Subscript[s, \[Gamma]]^2*
             ((1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[s, \[Gamma]]^2*
-              (21 - 30*\[Xi]^2 + (-53 + 206*\[Xi]^2)*Subscript[s, \[Gamma]]^
-                 2) - 3*Subscript[m, \[Phi]]^6*(200*\[Xi]^2 + (81 - 
-                 1092*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 3*(-55 + 
-                 492*\[Xi]^2)*Subscript[s, \[Gamma]]^4) + (1 + 4*\[Xi]^2)*
-              Subscript[m, K]^2*Subscript[m, \[Phi]]^4*(392*\[Xi]^2 + 
-               (387 - 2940*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 6*
-                (-127 + 837*\[Xi]^2)*Subscript[s, \[Gamma]]^4) - 
-             (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^2*
-              (48*\[Xi]^2 + (177 - 709*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
-               (-367 + 1809*\[Xi]^2)*Subscript[s, \[Gamma]]^4)) - 
-           2*\[Xi]*Subscript[c, \[Gamma]]^6*Subscript[s, \[Gamma]]*
-            (2*(1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*
-              (-168 + (499 - 264*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 3*
-                (-475 + 288*\[Xi]^2)*Subscript[s, \[Gamma]]^4) - 
+              (99 - 120*\[Xi]^2 + (-227 + 984*\[Xi]^2)*Subscript[s, \[Gamma]]^
+                 2) - 9*Subscript[m, \[Phi]]^6*(320*\[Xi]^2 - 3*
+                (-41 + 592*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (-235 + 
+                 2448*\[Xi]^2)*Subscript[s, \[Gamma]]^4) + 3*(1 + 4*\[Xi]^2)*
+              Subscript[m, K]^2*Subscript[m, \[Phi]]^4*(576*\[Xi]^2 + 
+               (591 - 4560*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (-1091 + 
+                 8136*\[Xi]^2)*Subscript[s, \[Gamma]]^4) - (1 + 4*\[Xi]^2)^2*
+              Subscript[m, K]^4*Subscript[m, \[Phi]]^2*(192*\[Xi]^2 + 
+               (813 - 3156*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (-1573 + 
+                 8676*\[Xi]^2)*Subscript[s, \[Gamma]]^4)) + 
+           \[Xi]*Subscript[c, \[Gamma]]^6*Subscript[s, \[Gamma]]*
+            (-2*(1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*
+              (-396 + (1013 - 648*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 36*
+                (-85 + 58*\[Xi]^2)*Subscript[s, \[Gamma]]^4) + 
              3*(1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, \[Phi]]^2*
-              Subscript[s, \[Gamma]]^2*(-1454 + 592*\[Xi]^2 + (6810 - 
-                 4536*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (-11831 + 
-                 7512*\[Xi]^2)*Subscript[s, \[Gamma]]^4) + 
-             18*Subscript[m, \[Phi]]^8*(-392*\[Xi]^2 + (-801 + 3144*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 - 60*(-77 + 138*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^4 + 72*(-91 + 99*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^6) + 12*(1 + 4*\[Xi]^2)^2*
-              Subscript[m, K]^4*Subscript[m, \[Phi]]^4*(-104*\[Xi]^2 + 
-               (-1471 + 1682*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
-               (7623 - 7068*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 18*
-                (-634 + 471*\[Xi]^2)*Subscript[s, \[Gamma]]^6) - 
-             3*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^6*
-              (-2048*\[Xi]^2 + 6*(-1531 + 3448*\[Xi]^2)*Subscript[s, 
-                  \[Gamma]]^2 + (50082 - 64944*\[Xi]^2)*Subscript[s, 
-                  \[Gamma]]^4 + 9*(-7901 + 7104*\[Xi]^2)*Subscript[s, 
-                  \[Gamma]]^6)) + \[Xi]*Subscript[c, \[Gamma]]^4*
-            Subscript[s, \[Gamma]]*((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*
-              Subscript[s, \[Gamma]]^2*(-270 - 304*\[Xi]^2 + (354 + 
-                 3091*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (1335 - 
-                 8574*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + (-3151 + 
-                 7347*\[Xi]^2)*Subscript[s, \[Gamma]]^6) + 
-             6*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^4*
-              (1220*\[Xi]^2 + (2087 - 23340*\[Xi]^2)*Subscript[s, \[Gamma]]^
-                 2 + 4*(-8619 + 32557*\[Xi]^2)*Subscript[s, \[Gamma]]^4 - 9*
-                (-11657 + 29784*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 36*
-                (-2409 + 5012*\[Xi]^2)*Subscript[s, \[Gamma]]^8) + 
-             6*Subscript[m, \[Phi]]^8*(2688*\[Xi]^2 + (3780 - 56704*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + 6*(-8127 + 49604*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^4 - 9*(-15629 + 63840*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^6 + 27*(-4143 + 13720*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^8) - (1 + 4*\[Xi]^2)^3*
-              Subscript[m, K]^6*Subscript[m, \[Phi]]^2*(600*\[Xi]^2 - 2*
-                (-9 + 7571*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 6*
-                (-4497 + 16721*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 
-               (99169 - 231300*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 3*
-                (-30993 + 56300*\[Xi]^2)*Subscript[s, \[Gamma]]^8) - 
+              Subscript[s, \[Gamma]]^2*(-3398 + 1584*\[Xi]^2 - 18*
+                (-835 + 644*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (-26077 + 
+                 18744*\[Xi]^2)*Subscript[s, \[Gamma]]^4) - 
+             18*Subscript[m, \[Phi]]^8*(-1024*\[Xi]^2 + 27*(-71 + 
+                 304*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 15*(-703 + 
+                 1440*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 18*(-803 + 
+                 1032*\[Xi]^2)*Subscript[s, \[Gamma]]^6) - 
+             18*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^4*
+              (-192*\[Xi]^2 + 4*(-582 + 739*\[Xi]^2)*Subscript[s, \[Gamma]]^
+                 2 - 24*(-481 + 506*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 3*
+                (-5657 + 4788*\[Xi]^2)*Subscript[s, \[Gamma]]^6) + 
              9*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^6*
-              (2472*\[Xi]^2 - 6*(-623 + 7444*\[Xi]^2)*Subscript[s, \[Gamma]]^
-                 2 + 36*(-1381 + 6468*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 
-               (143613 - 454424*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 3*
-                (-38071 + 98312*\[Xi]^2)*Subscript[s, \[Gamma]]^8)) + 
-           Subscript[c, \[Gamma]]^5*((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*
-              Subscript[s, \[Gamma]]^2*(120*\[Xi]^2 - (753 + 2282*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + (354 + 6264*\[Xi]^2 - 528*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 + (947 - 9282*\[Xi]^2 + 912*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6) + 6*(1 + 4*\[Xi]^2)^2*
-              Subscript[m, K]^4*Subscript[m, \[Phi]]^4*Subscript[s, \[Gamma]]^
-               2*(5212*\[Xi]^2 - 600*\[Xi]^4 + (891 - 48587*\[Xi]^2 + 
-                 5864*\[Xi]^4)*Subscript[s, \[Gamma]]^2 - 6*(1655 - 
-                 23890*\[Xi]^2 + 2844*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 3*
-                (4263 - 45181*\[Xi]^2 + 4872*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 6) - 3*(1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, 
-                \[Phi]]^2*Subscript[s, \[Gamma]]^2*(1660*\[Xi]^2 + 4*
-                (-121 - 4225*\[Xi]^2 + 216*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 2 + (-3538 + 51050*\[Xi]^2 - 4672*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 + (6007 - 54114*\[Xi]^2 + 
-                 5184*\[Xi]^4)*Subscript[s, \[Gamma]]^6) + 
-             3*Subscript[m, \[Phi]]^8*(1280*\[Xi]^4 - 48*\[Xi]^2*
-                (-261 + 284*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 3*
-                (999 - 43352*\[Xi]^2 + 17856*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 - 54*(335 - 7270*\[Xi]^2 + 1696*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + 27*(853 - 13104*\[Xi]^2 + 
-                 2112*\[Xi]^4)*Subscript[s, \[Gamma]]^8) - 3*(1 + 4*\[Xi]^2)*
-              Subscript[m, K]^2*Subscript[m, \[Phi]]^6*(512*\[Xi]^4 + 
-               (20756*\[Xi]^2 - 8640*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 12*
-                (411 - 16463*\[Xi]^2 + 3800*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 - 6*(5589 - 96835*\[Xi]^2 + 15936*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + 9*(4559 - 58470*\[Xi]^2 + 
-                 7584*\[Xi]^4)*Subscript[s, \[Gamma]]^8)) + 
-           \[Xi]*Subscript[c, \[Gamma]]^2*Subscript[s, \[Gamma]]*
-            (-((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*(
-                3*(92 + 73*\[Xi]^2) - (321 + 2447*\[Xi]^2)*Subscript[s, 
-                   \[Gamma]]^2 + 3*(-629 + 2293*\[Xi]^2)*Subscript[s, 
-                   \[Gamma]]^4 + (3564 - 7125*\[Xi]^2)*Subscript[s, \[Gamma]]^
-                  6 + 2*(-834 + 1237*\[Xi]^2)*Subscript[s, \[Gamma]]^8)) - 
-             6*Subscript[m, \[Phi]]^8*Subscript[s, \[Gamma]]^2*
-              (-324 + 41120*\[Xi]^2 + (30267 - 334856*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + 9*(-14559 + 106492*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^4 - 27*(-6909 + 43084*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^6 + 108*(-807 + 4726*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^8) + (1 + 4*\[Xi]^2)^3*
-              Subscript[m, K]^6*Subscript[m, \[Phi]]^2*(96*\[Xi]^2 + 
-               (3480 + 9823*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (3291 - 
-                 92500*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 3*(-21356 + 
-                 88159*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + (115347 - 
-                 301950*\[Xi]^2)*Subscript[s, \[Gamma]]^8 + 6*(-9831 + 
-                 20273*\[Xi]^2)*Subscript[s, \[Gamma]]^10) - 
-             (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^4*
-              (600*\[Xi]^2 + (8292 + 98824*\[Xi]^2)*Subscript[s, \[Gamma]]^
-                 2 + (85455 - 843330*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 3*
-                (-171261 + 792110*\[Xi]^2)*Subscript[s, \[Gamma]]^6 - 54*
-                (-15102 + 51109*\[Xi]^2)*Subscript[s, \[Gamma]]^8 + 54*
-                (-7436 + 21181*\[Xi]^2)*Subscript[s, \[Gamma]]^10) + 
-             (1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^6*
-              (1056*\[Xi]^2 + 12*(315 + 24637*\[Xi]^2)*Subscript[s, \[Gamma]]^
-                 2 - 31*(-7983 + 78212*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 27*
-                (-43811 + 252816*\[Xi]^2)*Subscript[s, \[Gamma]]^6 - 54*
-                (-32587 + 149358*\[Xi]^2)*Subscript[s, \[Gamma]]^8 + 108*
-                (-7797 + 31726*\[Xi]^2)*Subscript[s, \[Gamma]]^10)) + 
-           Subscript[c, \[Gamma]]^3*(-((1 + 4*\[Xi]^2)^4*Subscript[m, K]^
-                8*Subscript[s, \[Gamma]]^2*(-9*\[Xi]^2 + (114 + 381*\[Xi]^2 - 
-                  349*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
-                (-292 - 4188*\[Xi]^2 + 2291*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                  4 + (-272 + 7893*\[Xi]^2 - 4099*\[Xi]^4)*Subscript[s, 
-                   \[Gamma]]^6 + (506 - 4893*\[Xi]^2 + 2157*\[Xi]^4)*
-                 Subscript[s, \[Gamma]]^8)) + (1 + 4*\[Xi]^2)^3*
+              (-1792*\[Xi]^2 + 816*(-9 + 22*\[Xi]^2)*Subscript[s, \[Gamma]]^
+                 2 + (38278 - 56016*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 
+               (-52851 + 54864*\[Xi]^2)*Subscript[s, \[Gamma]]^6)) + 
+           \[Xi]*Subscript[c, \[Gamma]]^4*Subscript[s, \[Gamma]]*
+            ((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*
+              (-330 - 394*\[Xi]^2 + (789 + 3241*\[Xi]^2)*Subscript[s, 
+                  \[Gamma]]^2 + (420 - 8514*\[Xi]^2)*Subscript[s, \[Gamma]]^
+                 4 + (-2641 + 7707*\[Xi]^2)*Subscript[s, \[Gamma]]^6) + 
+             12*Subscript[m, \[Phi]]^8*(1944*\[Xi]^2 + (2160 - 34352*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + 3*(-8667 + 56654*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^4 - 9*(-8167 + 35400*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^6 + 27*(-2139 + 7490*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^8) + 3*(1 + 4*\[Xi]^2)^2*
+              Subscript[m, K]^4*Subscript[m, \[Phi]]^4*(3550*\[Xi]^2 + 
+               (4624 - 58080*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (-71947 + 
+                 301896*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + (218481 - 
+                 601452*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 18*(-10021 + 
+                 22323*\[Xi]^2)*Subscript[s, \[Gamma]]^8) - (1 + 4*\[Xi]^2)^3*
+              Subscript[m, K]^6*Subscript[m, \[Phi]]^2*(870*\[Xi]^2 - 2*
+                (111 + 9101*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 6*
+                (-4202 + 18611*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 
+               (97474 - 250860*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 3*
+                (-31173 + 61670*\[Xi]^2)*Subscript[s, \[Gamma]]^8) - 
+             3*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^6*
+              (10936*\[Xi]^2 + (12804 - 167592*\[Xi]^2)*Subscript[s, 
+                  \[Gamma]]^2 + 6*(-26573 + 135824*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^4 - 24*(-18906 + 64033*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^6 + 9*(-39721 + 109232*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^8)) + Subscript[c, \[Gamma]]^5*
+            ((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*
+              (120*\[Xi]^2 - 2*(399 + 1306*\[Xi]^2)*Subscript[s, \[Gamma]]^
+                 2 + (354 + 5724*\[Xi]^2 - 768*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^4 + (992 - 9477*\[Xi]^2 + 1152*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6) - 3*(1 + 4*\[Xi]^2)^3*
               Subscript[m, K]^6*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^
-               2*(2*\[Xi]^2*(303 + 680*\[Xi]^2) + (1974 + 23183*\[Xi]^2 - 
-                 20248*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 3*(625 - 
-                 53547*\[Xi]^2 + 28062*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 3*
-                (5994 - 100991*\[Xi]^2 + 42676*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^6 + 3*(5123 - 59565*\[Xi]^2 + 21478*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8) - 3*Subscript[m, \[Phi]]^8*
-              Subscript[s, \[Gamma]]^2*(16*\[Xi]^2*(-297 + 2140*\[Xi]^2) - 4*
-                (81 - 39105*\[Xi]^2 + 74368*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 2 + 6*(3159 - 131652*\[Xi]^2 + 154360*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 - 36*(1239 - 38043*\[Xi]^2 + 
-                 34280*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 27*(1025 - 
-                 28644*\[Xi]^2 + 22144*\[Xi]^4)*Subscript[s, \[Gamma]]^8) + 
-             (1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^6*
-              (-1344*\[Xi]^4 + 8*\[Xi]^2*(-1845 + 12248*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + (1890 + 607530*\[Xi]^2 - 
-                 845016*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 9*(9465 - 
-                 349390*\[Xi]^2 + 296872*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 
-               9*(25305 - 607080*\[Xi]^2 + 396376*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 + 54*(2785 - 56838*\[Xi]^2 + 
-                 31576*\[Xi]^4)*Subscript[s, \[Gamma]]^10) - 
+               2*(1860*\[Xi]^2 + 2*(-242 - 9185*\[Xi]^2 + 672*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + (-3838 + 52000*\[Xi]^2 - 
+                 6912*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (6307 - 
+                 56994*\[Xi]^2 + 7104*\[Xi]^4)*Subscript[s, \[Gamma]]^6) + 
+             3*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^4*
+              Subscript[s, \[Gamma]]^2*(32*\[Xi]^2*(367 - 60*\[Xi]^2) + 16*
+                (132 - 6569*\[Xi]^2 + 1128*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 2 - 3*(7165 - 100280*\[Xi]^2 + 16896*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 + 3*(8961 - 96257*\[Xi]^2 + 
+                 13824*\[Xi]^4)*Subscript[s, \[Gamma]]^6) + 
+             9*Subscript[m, \[Phi]]^8*(640*\[Xi]^4 + (4656*\[Xi]^2 - 
+                 6784*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 2*(567 - 
+                 23326*\[Xi]^2 + 13248*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 9*
+                (715 - 15420*\[Xi]^2 + 4992*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6 + 9*(883 - 13884*\[Xi]^2 + 3072*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8) - 3*(1 + 4*\[Xi]^2)*
+              Subscript[m, K]^2*Subscript[m, \[Phi]]^6*(832*\[Xi]^4 + 
+               (23556*\[Xi]^2 - 13440*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 6*
+                (942 - 35771*\[Xi]^2 + 11520*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4 - 48*(753 - 12875*\[Xi]^2 + 2952*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + 9*(4769 - 62460*\[Xi]^2 + 
+                 10944*\[Xi]^4)*Subscript[s, \[Gamma]]^8)) - 
+           \[Xi]*Subscript[c, \[Gamma]]^2*Subscript[s, \[Gamma]]*
+            ((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*
+              (6*(31 + 29*\[Xi]^2) + (309 - 2462*\[Xi]^2)*Subscript[s, 
+                  \[Gamma]]^2 + 6*(-482 + 1179*\[Xi]^2)*Subscript[s, 
+                  \[Gamma]]^4 + (4029 - 6960*\[Xi]^2)*Subscript[s, \[Gamma]]^
+                 6 + 2*(-834 + 1087*\[Xi]^2)*Subscript[s, \[Gamma]]^8) + 
+             6*Subscript[m, \[Phi]]^8*(-480*\[Xi]^2 + 16*(-189 + 
+                 3065*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (44982 - 
+                 373256*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 81*(-1971 + 
+                 12868*\[Xi]^2)*Subscript[s, \[Gamma]]^6 - 54*(-3897 + 
+                 23122*\[Xi]^2)*Subscript[s, \[Gamma]]^8 + 54*(-1749 + 
+                 10052*\[Xi]^2)*Subscript[s, \[Gamma]]^10) + 
              (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^4*
-              (-336*\[Xi]^4 + \[Xi]^2*(-2019 + 24224*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 - 6*(-747 - 37483*\[Xi]^2 + 
-                 39436*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 18*(1899 - 
-                 70034*\[Xi]^2 + 44974*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 9*
-                (12979 - 249486*\[Xi]^2 + 124756*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^8 + 9*(9342 - 141813*\[Xi]^2 + 60320*\[Xi]^4)*
+              (-1680*\[Xi]^2 + 2*(-4689 + 65102*\[Xi]^2)*Subscript[s, 
+                  \[Gamma]]^2 + (184695 - 984570*\[Xi]^2)*Subscript[s, 
+                  \[Gamma]]^4 + 6*(-117788 + 445125*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^6 + (977643 - 3050046*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^8 + 54*(-8381 + 23221*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^10) - (1 + 4*\[Xi]^2)^3*
+              Subscript[m, K]^6*Subscript[m, \[Phi]]^2*(-84*\[Xi]^2 + 
+               (210 + 12673*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (22071 - 
+                 106585*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 3*(-32941 + 
+                 98044*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + (141912 - 
+                 329205*\[Xi]^2)*Subscript[s, \[Gamma]]^8 + 3*(-22122 + 
+                 43651*\[Xi]^2)*Subscript[s, \[Gamma]]^10) - 
+             (1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^6*
+              (-3744*\[Xi]^2 + 6*(-4395 + 61514*\[Xi]^2)*Subscript[s, 
+                  \[Gamma]]^2 + (414603 - 2769332*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^4 + 18*(-83999 + 420284*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^6 - 27*(-75619 + 326336*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^8 + 54*(-17259 + 68762*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^10)) + Subscript[c, \[Gamma]]^3*
+            (-((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*(
+                -54*\[Xi]^2 + (54 + 501*\[Xi]^2 - 349*\[Xi]^4)*
+                 Subscript[s, \[Gamma]]^2 + (-157 - 5118*\[Xi]^2 + 
+                  2156*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
+                (-362 + 8313*\[Xi]^2 - 4069*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                  6 + (521 - 4563*\[Xi]^2 + 2262*\[Xi]^4)*Subscript[s, 
+                   \[Gamma]]^8)) + (1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*
+              Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^2*
+              (2*\[Xi]^2*(-897 + 815*\[Xi]^2) + (369 + 41018*\[Xi]^2 - 
+                 22138*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 6*(1185 - 
+                 34996*\[Xi]^2 + 14811*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 6*
+                (3962 - 58613*\[Xi]^2 + 22743*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6 + 3*(5843 - 64980*\[Xi]^2 + 23428*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8) - 3*Subscript[m, \[Phi]]^8*
+              Subscript[s, \[Gamma]]^2*(128*\[Xi]^2*(-99 + 295*\[Xi]^2) + 
+               (-2349 + 214740*\[Xi]^2 - 324352*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^2 + 6*(4239 - 155892*\[Xi]^2 + 166960*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 - 9*(5721 - 168852*\[Xi]^2 + 
+                 147680*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 27*(1115 - 
+                 30684*\[Xi]^2 + 23824*\[Xi]^4)*Subscript[s, \[Gamma]]^8) + 
+             (1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^6*
+              (-2304*\[Xi]^4 + 8*\[Xi]^2*(-6705 + 14528*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 - 3*(3375 - 299030*\[Xi]^2 + 
+                 316712*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 18*(6975 - 
+                 215600*\[Xi]^2 + 163256*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 
+               9*(30345 - 692970*\[Xi]^2 + 432736*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 + 54*(3100 - 62253*\[Xi]^2 + 
+                 34516*\[Xi]^4)*Subscript[s, \[Gamma]]^10) - 
+             (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^4*
+              (-696*\[Xi]^4 + 4*\[Xi]^2*(-5196 + 7541*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 - 3*(1041 - 121506*\[Xi]^2 + 
+                 89672*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 3*(20049 - 
+                 540274*\[Xi]^2 + 296684*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 
+               18*(8147 - 145543*\[Xi]^2 + 68198*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^8 + 9*(10617 - 157383*\[Xi]^2 + 66440*\[Xi]^4)*
                 Subscript[s, \[Gamma]]^10)) + \[Xi]*Subscript[s, \[Gamma]]*
             ((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*
               (-1 + Subscript[s, \[Gamma]]^2)^2*(4*(3 + 4*\[Xi]^2) + 
-               (54 + 238*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (63 - 
-                 769*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + (-225 + 443*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^6) - (1 + 4*\[Xi]^2)*Subscript[m, K]^2*
-              Subscript[m, \[Phi]]^6*Subscript[s, \[Gamma]]^2*
-              (-8*(81 + 1870*\[Xi]^2) + 4*(-3609 + 60572*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + (99747 - 1057292*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^4 + 9*(-24203 + 220272*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^6 - 81*(-2443 + 21068*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^8 + 459*(-141 + 1208*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^10) + 6*Subscript[m, \[Phi]]^8*
-              Subscript[s, \[Gamma]]^2*(-2304*\[Xi]^2 + 8*(-297 + 
-                 4340*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 2*(-6399 + 
-                 75608*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 9*(-2763 + 
-                 32008*\[Xi]^2)*Subscript[s, \[Gamma]]^6 - 108*(-193 + 
-                 2353*\[Xi]^2)*Subscript[s, \[Gamma]]^8 + 27*(-237 + 
-                 3152*\[Xi]^2)*Subscript[s, \[Gamma]]^10) - 
+               (-36 + 193*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (573 - 
+                 784*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + (-675 + 503*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^6) + 6*Subscript[m, \[Phi]]^8*
+              Subscript[s, \[Gamma]]^2*(-2784*\[Xi]^2 + (-5076 + 
+                 41440*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (26973 - 
+                 178336*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 36*(-1422 + 
+                 9317*\[Xi]^2)*Subscript[s, \[Gamma]]^6 - 459*(-91 + 
+                 636*\[Xi]^2)*Subscript[s, \[Gamma]]^8 + 54*(-231 + 
+                 1786*\[Xi]^2)*Subscript[s, \[Gamma]]^10) - 
+             (1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^6*
+              Subscript[s, \[Gamma]]^2*(-8*(81 + 2470*\[Xi]^2) + (-44586 + 
+                 305168*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (262107 - 
+                 1305092*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 18*(-29279 + 
+                 133876*\[Xi]^2)*Subscript[s, \[Gamma]]^6 - 27*(-16659 + 
+                 75784*\[Xi]^2)*Subscript[s, \[Gamma]]^8 + 108*(-1293 + 
+                 6079*\[Xi]^2)*Subscript[s, \[Gamma]]^10) - 
              3*(1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, \[Phi]]^2*
-              (-1 + Subscript[s, \[Gamma]]^2)*(8*\[Xi]^2 + (56 + 30*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 - (368 + 2941*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^4 + (-365 + 11369*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^6 + (2189 - 14363*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^8 + (-1512 + 5849*\[Xi]^2)*
+              (-1 + Subscript[s, \[Gamma]]^2)*(8*\[Xi]^2 + (56 + 90*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (722 - 3741*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^4 + (-5615 + 14244*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^6 + (9604 - 17993*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^8 + (-4767 + 7304*\[Xi]^2)*
                 Subscript[s, \[Gamma]]^10) + 3*(1 + 4*\[Xi]^2)^2*
-              Subscript[m, K]^4*Subscript[m, \[Phi]]^4*(-32*\[Xi]^2 - 12*
-                (21 + 97*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (-254 + 
-                 26902*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + (9729 - 
-                 121014*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + (-27790 + 
-                 222508*\[Xi]^2)*Subscript[s, \[Gamma]]^8 - 9*(-3203 + 
-                 20478*\[Xi]^2)*Subscript[s, \[Gamma]]^10 + 90*(-114 + 
-                 635*\[Xi]^2)*Subscript[s, \[Gamma]]^12)) + 
+              Subscript[m, K]^4*Subscript[m, \[Phi]]^4*(-32*\[Xi]^2 - 4*
+                (63 + 481*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 12*
+                (-512 + 3021*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + (42359 - 
+                 157014*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + (-91310 + 
+                 283488*\[Xi]^2)*Subscript[s, \[Gamma]]^8 + (81537 - 
+                 232002*\[Xi]^2)*Subscript[s, \[Gamma]]^10 + 270*
+                (-97 + 264*\[Xi]^2)*Subscript[s, \[Gamma]]^12)) + 
            Subscript[c, \[Gamma]]*((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*
               Subscript[s, \[Gamma]]^2*(-1 + Subscript[s, \[Gamma]]^2)*
-              (54*\[Xi]^2 - 6*(11 + 17*\[Xi]^2 + 24*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 + (123 - 1188*\[Xi]^2 + 757*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 + (-186 + 2973*\[Xi]^2 - 
-                 974*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + (129 - 
-                 1461*\[Xi]^2 + 361*\[Xi]^4)*Subscript[s, \[Gamma]]^8) - 
-             (1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, \[Phi]]^2*
-              Subscript[s, \[Gamma]]^2*(-46*\[Xi]^2*(21 + 8*\[Xi]^2) + 
-               (24 - 2859*\[Xi]^2 + 8744*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
-               (189 + 54759*\[Xi]^2 - 42542*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 + 3*(603 - 52493*\[Xi]^2 + 27048*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + (-4623 + 168591*\[Xi]^2 - 
-                 67894*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 9*(289 - 
-                 6910*\[Xi]^2 + 2324*\[Xi]^4)*Subscript[s, \[Gamma]]^10) + 
+              (54*\[Xi]^2 - 3*(22 + 19*\[Xi]^2 + 48*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + (183 - 1263*\[Xi]^2 + 757*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 + (-306 + 3498*\[Xi]^2 - 
+                 839*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + (189 - 
+                 1896*\[Xi]^2 + 226*\[Xi]^4)*Subscript[s, \[Gamma]]^8) + 
              Subscript[m, \[Phi]]^8*Subscript[s, \[Gamma]]^2*
-              (-6144*\[Xi]^4 + 8*\[Xi]^2*(-19035 + 25736*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 - 108*(81 - 9650*\[Xi]^2 + 
-                 10816*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 27*(1215 - 
-                 93884*\[Xi]^2 + 98864*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 54*
-                (729 - 48822*\[Xi]^2 + 50872*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 8 + 243*(63 - 4108*\[Xi]^2 + 4368*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^10) - (1 + 4*\[Xi]^2)*Subscript[m, 
-                K]^2*Subscript[m, \[Phi]]^6*Subscript[s, \[Gamma]]^2*
-              (-64*\[Xi]^2*(45 + 194*\[Xi]^2) + 12*(-27 - 15931*\[Xi]^2 + 
-                 21072*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (-10395 + 
-                 1409436*\[Xi]^2 - 1262272*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 + 36*(1374 - 97273*\[Xi]^2 + 73396*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 - 54*(1244 - 67829*\[Xi]^2 + 
-                 46524*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 27*(1053 - 
-                 51186*\[Xi]^2 + 33248*\[Xi]^4)*Subscript[s, \[Gamma]]^10) + 
-             (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^4*
-              (24*\[Xi]^4 - 8*\[Xi]^2*(444 + 569*\[Xi]^2)*Subscript[s, 
-                  \[Gamma]]^2 + (-342 - 58578*\[Xi]^2 + 84748*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 - 9*(229 - 58501*\[Xi]^2 + 
-                 44708*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 3*(6453 - 
-                 456463*\[Xi]^2 + 265160*\[Xi]^4)*Subscript[s, \[Gamma]]^8 - 
-               9*(3594 - 160709*\[Xi]^2 + 78792*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^10 + 135*(114 - 4021*\[Xi]^2 + 1752*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^12))))/(24*Sqrt[2]*\[Xi]^3*
-          (1 + 4*\[Xi]^2)^(5/2)*Subscript[m, K]^10*Subscript[v, EW]^3) + 
-        (h^3*Subscript[s, \[Gamma]]*(-18*Subscript[c, \[Gamma]]^7*
-            ((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)^2*
-            ((1 + 4*\[Xi]^2)*Subscript[m, K]^2 - 2*Subscript[m, \[Phi]]^2)*
-            Subscript[s, \[Gamma]]^3 + 6*\[Xi]*Subscript[c, \[Gamma]]^6*
-            ((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)*
-            Subscript[s, \[Gamma]]^2*(9*Subscript[m, \[Phi]]^4*
-              (-7 + 19*Subscript[s, \[Gamma]]^2) + (1 + 4*\[Xi]^2)^2*
-              Subscript[m, K]^4*(-2 + 25*Subscript[s, \[Gamma]]^2) - 
-             (1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^2*
-              (-34 + 135*Subscript[s, \[Gamma]]^2)) - 
+              (-6144*\[Xi]^4 + 8*\[Xi]^2*(-22005 + 26816*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 - 27*(549 - 44920*\[Xi]^2 + 
+                 45504*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 54*(945 - 
+                 54552*\[Xi]^2 + 52192*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 27*
+                (2133 - 112644*\[Xi]^2 + 107504*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^8 + 1944*(11 - 586*\[Xi]^2 + 576*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^10) - (1 + 4*\[Xi]^2)^3*
+              Subscript[m, K]^6*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^
+               2*(-46*\[Xi]^2*(21 + 8*\[Xi]^2) + (24 - 5259*\[Xi]^2 + 
+                 9014*\[Xi]^4)*Subscript[s, \[Gamma]]^2 - 2*(708 - 
+                 35997*\[Xi]^2 + 22216*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 12*
+                (587 - 16867*\[Xi]^2 + 7032*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6 - 2*(5139 - 108183*\[Xi]^2 + 34802*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 + 9*(514 - 8875*\[Xi]^2 + 
+                 2334*\[Xi]^4)*Subscript[s, \[Gamma]]^10) - 
+             (1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^6*
+              Subscript[s, \[Gamma]]^2*(-64*\[Xi]^2*(45 + 209*\[Xi]^2) + 12*
+                (-27 - 19171*\[Xi]^2 + 22512*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 2 - 2*(11205 - 845298*\[Xi]^2 + 676496*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 + 9*(9741 - 465692*\[Xi]^2 + 
+                 315384*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 27*(3983 - 
+                 161458*\[Xi]^2 + 100048*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 
+               54*(789 - 30213*\[Xi]^2 + 17884*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^10) + (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*
+              Subscript[m, \[Phi]]^4*(24*\[Xi]^4 - 16*\[Xi]^2*(222 + 
+                 307*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (-342 - 
+                 77343*\[Xi]^2 + 90688*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
+               (-9666 + 662169*\[Xi]^2 - 432612*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^6 + 3*(14778 - 568923*\[Xi]^2 + 285680*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 - 9*(6619 - 199189*\[Xi]^2 + 
+                 84912*\[Xi]^4)*Subscript[s, \[Gamma]]^10 + 135*
+                (187 - 4954*\[Xi]^2 + 1888*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 12))))/(24*Sqrt[2]*\[Xi]^3*(1 + 4*\[Xi]^2)^(5/2)*
+          Subscript[m, K]^10*Subscript[v, EW]^3) + 
+        (QuantumField[h]^3*Subscript[s, \[Gamma]]*
+          (-18*Subscript[c, \[Gamma]]^7*((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 
+              3*Subscript[m, \[Phi]]^2)^2*((1 + 4*\[Xi]^2)*Subscript[m, K]^
+               2 - 2*Subscript[m, \[Phi]]^2)*Subscript[s, \[Gamma]]^3 + 
+           6*\[Xi]*Subscript[c, \[Gamma]]^6*((2 + 8*\[Xi]^2)*Subscript[m, 
+                K]^2 - 3*Subscript[m, \[Phi]]^2)*Subscript[s, \[Gamma]]^2*
+            (9*Subscript[m, \[Phi]]^4*(-7 + 19*Subscript[s, \[Gamma]]^2) + 
+             (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*(-2 + 25*Subscript[s, 
+                  \[Gamma]]^2) - (1 + 4*\[Xi]^2)*Subscript[m, K]^2*
+              Subscript[m, \[Phi]]^2*(-34 + 135*Subscript[s, \[Gamma]]^2)) - 
            3*Subscript[c, \[Gamma]]^5*Subscript[s, \[Gamma]]*
             ((1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[s, \[Gamma]]^2*
               (12 - 22*\[Xi]^2 + (-43 + 106*\[Xi]^2)*Subscript[s, \[Gamma]]^
@@ -7238,7 +7308,7 @@
                (23193 - 35016*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 9*
                 (-1791 + 2248*\[Xi]^2)*Subscript[s, \[Gamma]]^8))))/
          (6*Sqrt[2]*\[Xi]^2*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^8*
-          Subscript[v, EW]^2) + (h^2*Subscript[s, \[Gamma]]*
+          Subscript[v, EW]^2) + (QuantumField[h]^2*Subscript[s, \[Gamma]]*
           (-6*Subscript[c, \[Gamma]]^5*(2*(1 + 4*\[Xi]^2)^2*Subscript[m, 
                 K]^4 - 7*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, 
                 \[Phi]]^2 + 6*Subscript[m, \[Phi]]^4)*Subscript[s, \[Gamma]]^
@@ -7284,29 +7354,30 @@
           Subscript[v, EW]) - (\[Xi]*Subscript[c, \[Gamma]]*
           Subscript[s, \[Gamma]]*Subscript[v, EW])/
          (Sqrt[2]*Sqrt[1 + 4*\[Xi]^2]*Subscript[m, K]^2)), 
-     CQ2V12V3 -> t*((2*Sqrt[2]*\[Xi]*(-1 + 2*\[Xi]^2)*h*
+     CQ2V12V3 -> t*((2*Sqrt[2]*\[Xi]*(-1 + 2*\[Xi]^2)*QuantumField[h]*
           (\[Xi]*Subscript[c, \[Gamma]] + Subscript[s, \[Gamma]]))/
          ((1 + 4*\[Xi]^2)^2*Subscript[m, \[Phi]]^2) - 
-        (h^4*(-6*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^10*Subscript[s, \[Gamma]]^
-             4*(-1 + Subscript[c, \[Gamma]]^2 + Subscript[s, \[Gamma]]^2)^2 + 
-           (1 + 4*\[Xi]^2)*Subscript[m, K]^8*Subscript[m, \[Phi]]^2*
-            Subscript[s, \[Gamma]]^2*(-1 + Subscript[c, \[Gamma]]^2 + 
-             Subscript[s, \[Gamma]]^2)*(-3*\[Xi]^2*(-7 + 8*\[Xi]^2 + 16*
-                \[Xi]^4) + (-72 + 421*\[Xi]^2 - 232*\[Xi]^4 + 688*\[Xi]^6 - 
-               384*\[Xi]^8)*Subscript[s, \[Gamma]]^2 + 48*\[Xi]*
-              (1 + 4*\[Xi]^2)^2*Subscript[c, \[Gamma]]^3*Subscript[s, 
-                \[Gamma]]^3 + \[Xi]^2*(7 - 736*\[Xi]^2 - 1568*\[Xi]^4 + 1152*
-                \[Xi]^6 - 768*\[Xi]^8)*Subscript[s, \[Gamma]]^4 + 
-             (\[Xi] + 4*\[Xi]^3)^2*(31 + 24*\[Xi]^2 + 48*\[Xi]^4)*
-              Subscript[s, \[Gamma]]^6 + Subscript[c, \[Gamma]]^2*
-              (144*\[Xi]^2*(-1 + 2*\[Xi]^2) + 3*(15 - 48*\[Xi]^2 - 
-                 208*\[Xi]^4 + 128*\[Xi]^6)*Subscript[s, \[Gamma]]^2 + 
-               (1 + 4*\[Xi]^2)^2*(13 - 24*\[Xi]^2 + 96*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4) - 2*\[Xi]*Subscript[c, \[Gamma]]*
-              Subscript[s, \[Gamma]]*(69 - 372*\[Xi]^2 + 456*\[Xi]^4 - 96*
-                \[Xi]^6 + (89 - 8*\[Xi]^2 - 376*\[Xi]^4 + 768*\[Xi]^6 - 
-                 384*\[Xi]^8)*Subscript[s, \[Gamma]]^2 + 2*(-1 - 20*\[Xi]^2 - 
-                 88*\[Xi]^4 + 384*\[Xi]^8)*Subscript[s, \[Gamma]]^4)) + 
+        (QuantumField[h]^4*(-6*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^10*
+            Subscript[s, \[Gamma]]^4*(-1 + Subscript[c, \[Gamma]]^2 + 
+              Subscript[s, \[Gamma]]^2)^2 + (1 + 4*\[Xi]^2)*Subscript[m, K]^8*
+            Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^2*
+            (-1 + Subscript[c, \[Gamma]]^2 + Subscript[s, \[Gamma]]^2)*
+            (-3*\[Xi]^2*(-7 + 8*\[Xi]^2 + 16*\[Xi]^4) + 
+             (-72 + 421*\[Xi]^2 - 232*\[Xi]^4 + 688*\[Xi]^6 - 384*\[Xi]^8)*
+              Subscript[s, \[Gamma]]^2 + 48*\[Xi]*(1 + 4*\[Xi]^2)^2*
+              Subscript[c, \[Gamma]]^3*Subscript[s, \[Gamma]]^3 + 
+             \[Xi]^2*(7 - 736*\[Xi]^2 - 1568*\[Xi]^4 + 1152*\[Xi]^6 - 768*
+                \[Xi]^8)*Subscript[s, \[Gamma]]^4 + (\[Xi] + 4*\[Xi]^3)^2*
+              (31 + 24*\[Xi]^2 + 48*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
+             Subscript[c, \[Gamma]]^2*(144*\[Xi]^2*(-1 + 2*\[Xi]^2) + 3*
+                (15 - 48*\[Xi]^2 - 208*\[Xi]^4 + 128*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^2 + (1 + 4*\[Xi]^2)^2*
+                (13 - 24*\[Xi]^2 + 96*\[Xi]^4)*Subscript[s, \[Gamma]]^4) - 
+             2*\[Xi]*Subscript[c, \[Gamma]]*Subscript[s, \[Gamma]]*
+              (69 - 372*\[Xi]^2 + 456*\[Xi]^4 - 96*\[Xi]^6 + (89 - 
+                 8*\[Xi]^2 - 376*\[Xi]^4 + 768*\[Xi]^6 - 384*\[Xi]^8)*
+                Subscript[s, \[Gamma]]^2 + 2*(-1 - 20*\[Xi]^2 - 88*\[Xi]^4 + 
+                 384*\[Xi]^8)*Subscript[s, \[Gamma]]^4)) + 
            2*(-1 + 2*\[Xi]^2)*Subscript[m, \[Phi]]^10*Subscript[s, \[Gamma]]*
             (8*\[Xi]^2*(-189 + 68*\[Xi]^2)*Subscript[s, \[Gamma]]^3 - 
              9*(27 - 760*\[Xi]^2 + 256*\[Xi]^4)*Subscript[s, \[Gamma]]^5 + 
@@ -7461,17 +7532,17 @@
                  3488*\[Xi]^8 + 320*\[Xi]^10)*Subscript[s, \[Gamma]]^9))))/
          (12*Sqrt[2]*\[Xi]^2*(1 + 4*\[Xi]^2)^(7/2)*Subscript[m, K]^6*
           Subscript[m, \[Phi]]^6*Subscript[v, EW]^3) - 
-        (h^3*(3*(1 + 4*\[Xi]^2)*Subscript[m, K]^6*Subscript[s, \[Gamma]]^3*
-            (-1 + Subscript[s, \[Gamma]]^2)*(3 - 7*\[Xi]^2 + 4*\[Xi]^4 + 
-             \[Xi]^2*(-1 + 16*\[Xi]^4)*Subscript[s, \[Gamma]]^2) + 
-           4*\[Xi]^2*(-1 + 2*\[Xi]^2)*Subscript[m, \[Phi]]^6*
-            Subscript[s, \[Gamma]]^3*(26 - 69*Subscript[s, \[Gamma]]^2 + 
-             45*Subscript[s, \[Gamma]]^4) - 2*\[Xi]^2*Subscript[m, K]^2*
-            Subscript[m, \[Phi]]^4*Subscript[s, \[Gamma]]^3*
-            (31 - 82*\[Xi]^2 + 424*\[Xi]^4 + (8 + 196*\[Xi]^2 - 928*\[Xi]^4)*
-              Subscript[s, \[Gamma]]^2 + (-57 - 6*\[Xi]^2 + 456*\[Xi]^4)*
-              Subscript[s, \[Gamma]]^4) + Subscript[m, K]^4*
-            Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*
+        (QuantumField[h]^3*(3*(1 + 4*\[Xi]^2)*Subscript[m, K]^6*
+            Subscript[s, \[Gamma]]^3*(-1 + Subscript[s, \[Gamma]]^2)*
+            (3 - 7*\[Xi]^2 + 4*\[Xi]^4 + \[Xi]^2*(-1 + 16*\[Xi]^4)*
+              Subscript[s, \[Gamma]]^2) + 4*\[Xi]^2*(-1 + 2*\[Xi]^2)*
+            Subscript[m, \[Phi]]^6*Subscript[s, \[Gamma]]^3*
+            (26 - 69*Subscript[s, \[Gamma]]^2 + 45*Subscript[s, \[Gamma]]^
+               4) - 2*\[Xi]^2*Subscript[m, K]^2*Subscript[m, \[Phi]]^4*
+            Subscript[s, \[Gamma]]^3*(31 - 82*\[Xi]^2 + 424*\[Xi]^4 + 
+             (8 + 196*\[Xi]^2 - 928*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
+             (-57 - 6*\[Xi]^2 + 456*\[Xi]^4)*Subscript[s, \[Gamma]]^4) + 
+           Subscript[m, K]^4*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*
             (6*\[Xi]^2*(-3 + 12*\[Xi]^2 + 16*\[Xi]^4) + 
              (21 - 152*\[Xi]^2 + 816*\[Xi]^4 + 432*\[Xi]^6 + 448*\[Xi]^8)*
               Subscript[s, \[Gamma]]^2 - 2*\[Xi]^2*(31 + 96*\[Xi]^2 + 672*
@@ -7523,8 +7594,8 @@
                  4 + (7 + 13*\[Xi]^2 - 48*\[Xi]^4 + 64*\[Xi]^6 + 64*\[Xi]^8)*
                 Subscript[s, \[Gamma]]^6))))/(3*Sqrt[2]*\[Xi]*
           (1 + 4*\[Xi]^2)^3*Subscript[m, K]^4*Subscript[m, \[Phi]]^4*
-          Subscript[v, EW]^2) - 
-        (h^2*(-((1 + 4*\[Xi]^2)*Subscript[m, K]^4*Subscript[s, \[Gamma]]^2*
+          Subscript[v, EW]^2) - (QuantumField[h]^2*
+          (-((1 + 4*\[Xi]^2)*Subscript[m, K]^4*Subscript[s, \[Gamma]]^2*
              (-1 + Subscript[c, \[Gamma]]^2 + Subscript[s, \[Gamma]]^2)) + 
            2*(-1 + 2*\[Xi]^2)*Subscript[m, \[Phi]]^4*Subscript[s, \[Gamma]]*
             (3*Subscript[c, \[Gamma]]^2*Subscript[s, \[Gamma]] + 
@@ -7542,508 +7613,512 @@
           Subscript[m, \[Phi]]^4*Subscript[v, EW]) + 
         (Sqrt[2]*\[Xi]^2*Subscript[v, EW])/((1 + 4*\[Xi]^2)^(3/2)*
           Subscript[m, \[Phi]]^2)), CQ2Dh2 -> 
-      t*((h^4*Subscript[s, \[Gamma]]^2*((1 + 4*\[Xi]^2)^5*Subscript[m, K]^10*
-            Subscript[s, \[Gamma]]^2*(-576*Subscript[c, \[Gamma]]^9*
-              Subscript[s, \[Gamma]]^3 + 96*\[Xi]*Subscript[c, \[Gamma]]^8*
-              Subscript[s, \[Gamma]]^2*(-8 + 91*Subscript[s, \[Gamma]]^2) + 
-             4*\[Xi]*Subscript[c, \[Gamma]]^6*Subscript[s, \[Gamma]]^2*
-              (-948 + 252*\[Xi]^2 + (3295 - 4272*\[Xi]^2)*Subscript[s, 
-                  \[Gamma]]^2 + (-3537 + 7644*\[Xi]^2)*Subscript[s, \[Gamma]]^
-                 4) - 48*Subscript[c, \[Gamma]]^7*(4*\[Xi]^2*Subscript[s, 
-                 \[Gamma]] + (48 - 135*\[Xi]^2)*Subscript[s, \[Gamma]]^3 + 
-               (-58 + 507*\[Xi]^2)*Subscript[s, \[Gamma]]^5) - 
+      t*((QuantumField[h]^4*Subscript[s, \[Gamma]]^2*
+          ((1 + 4*\[Xi]^2)^5*Subscript[m, K]^10*Subscript[s, \[Gamma]]^2*
+            (-576*Subscript[c, \[Gamma]]^9*Subscript[s, \[Gamma]]^3 + 
+             768*\[Xi]*Subscript[c, \[Gamma]]^8*Subscript[s, \[Gamma]]^2*
+              (-1 + 27*Subscript[s, \[Gamma]]^2) + 2*\[Xi]*Subscript[c, 
+                \[Gamma]]^6*Subscript[s, \[Gamma]]^2*(-3621 + 504*\[Xi]^2 + 
+               (9395 - 13944*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (-8529 + 
+                 36288*\[Xi]^2)*Subscript[s, \[Gamma]]^4) - 
+             6*Subscript[c, \[Gamma]]^7*(32*\[Xi]^2*Subscript[s, \[Gamma]] + 
+               (759 - 1480*\[Xi]^2)*Subscript[s, \[Gamma]]^3 + (-839 + 
+                 10056*\[Xi]^2)*Subscript[s, \[Gamma]]^5) - 
              Subscript[c, \[Gamma]]*Subscript[s, \[Gamma]]*
-              (-1 + Subscript[s, \[Gamma]]^2)^2*(-(\[Xi]^2*(81 + 
-                  821*\[Xi]^2)) + (-54 - 3435*\[Xi]^2 + 6779*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 - 3*(273 - 3887*\[Xi]^2 + 
-                 3608*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (873 - 
-                 7836*\[Xi]^2 + 4398*\[Xi]^4)*Subscript[s, \[Gamma]]^6) - 
-             Subscript[c, \[Gamma]]^5*(1680*\[Xi]^2*Subscript[s, \[Gamma]] + 
-               3*(409 - 6368*\[Xi]^2 + 808*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 3 - 2*(1887 - 19394*\[Xi]^2 + 8352*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^5 + 3*(905 - 8944*\[Xi]^2 + 
-                 6040*\[Xi]^4)*Subscript[s, \[Gamma]]^7) + 
-             3*\[Xi]*(-1 + Subscript[s, \[Gamma]]^2)^2*(3*\[Xi]^2 + 
-               (18 + 443*\[Xi]^2 - 56*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
-               (111 - 2330*\[Xi]^2 + 254*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
-               (-141 + 3017*\[Xi]^2 - 328*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
-               (12 - 1025*\[Xi]^2 + 130*\[Xi]^4)*Subscript[s, \[Gamma]]^8) - 
+              (-1 + Subscript[s, \[Gamma]]^2)^2*(9*\[Xi]^2 - 596*\[Xi]^4 + 
+               (-324 - 5355*\[Xi]^2 + 4829*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 2 - 3*(93 - 6727*\[Xi]^2 + 3233*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^4 + 3*(201 - 4922*\[Xi]^2 + 1531*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6) - Subscript[c, \[Gamma]]^5*
+              (2280*\[Xi]^2*Subscript[s, \[Gamma]] + (507 - 31944*\[Xi]^2 + 
+                 3624*\[Xi]^4)*Subscript[s, \[Gamma]]^3 + (-2334 + 
+                 26818*\[Xi]^2 - 32304*\[Xi]^4)*Subscript[s, \[Gamma]]^5 + 3*
+                (665 - 2069*\[Xi]^2 + 14040*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 7) + 3*\[Xi]*(-1 + Subscript[s, \[Gamma]]^2)^2*
+              (18*\[Xi]^2 + (108 + 203*\[Xi]^2 - 56*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + (-519 - 1565*\[Xi]^2 + 
+                 254*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (849 + 
+                 1787*\[Xi]^2 - 313*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
+               (-438 - 65*\[Xi]^2 + 115*\[Xi]^4)*Subscript[s, \[Gamma]]^8) + 
              \[Xi]*Subscript[c, \[Gamma]]^2*(-1 + Subscript[s, \[Gamma]]^2)*
-              (-267*\[Xi]^2 + (675 + 6294*\[Xi]^2 - 745*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 + (3405 - 22974*\[Xi]^2 + 
-                 4466*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (-12000 + 
-                 30609*\[Xi]^2 - 6301*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 6*
-                (1334 - 2227*\[Xi]^2 + 430*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 8) + \[Xi]*Subscript[c, \[Gamma]]^4*(-192*\[Xi]^2 + 3*
-                (-893 + 2294*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (10391 - 
-                 35769*\[Xi]^2 + 2328*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 6*
-                (2275 - 9097*\[Xi]^2 + 1128*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 6 + 3*(2042 - 9029*\[Xi]^2 + 1480*\[Xi]^4)*
+              (582*\[Xi]^2 + (1110 - 7569*\[Xi]^2 + 745*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + (-20550 + 24879*\[Xi]^2 - 
+                 3791*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (41460 - 
+                 45354*\[Xi]^2 + 1981*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 3*
+                (-7368 + 8849*\[Xi]^2 + 355*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 8) + \[Xi]*Subscript[c, \[Gamma]]^4*(-192*\[Xi]^2 + 18*
+                (-98 + 599*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (-7489 - 
+                 47589*\[Xi]^2 + 3528*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
+               (19425 + 30837*\[Xi]^2 - 13968*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6 + 6*(-1664 + 353*\[Xi]^2 + 1740*\[Xi]^4)*
                 Subscript[s, \[Gamma]]^8) + Subscript[c, \[Gamma]]^3*
-              (\[Xi]^2*(-1719 + 586*\[Xi]^2)*Subscript[s, \[Gamma]] + 
-               (603 + 13395*\[Xi]^2 - 10404*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 3 + (-744 - 36015*\[Xi]^2 + 34374*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^5 + (-321 + 39375*\[Xi]^2 - 
-                 39088*\[Xi]^4)*Subscript[s, \[Gamma]]^7 + 6*
-                (77 - 2516*\[Xi]^2 + 2422*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 9)) - (1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*
-            Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*
-            (-5472*Subscript[c, \[Gamma]]^9*Subscript[s, \[Gamma]]^4 + 
-             96*\[Xi]*Subscript[c, \[Gamma]]^8*Subscript[s, \[Gamma]]^3*
-              (-169 + 1020*Subscript[s, \[Gamma]]^2) - 
-             24*Subscript[c, \[Gamma]]^7*(480*\[Xi]^2*Subscript[s, \[Gamma]]^
-                 2 + (1119 - 5664*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 
-               (-1411 + 13548*\[Xi]^2)*Subscript[s, \[Gamma]]^6) + 
-             6*\[Xi]*Subscript[c, \[Gamma]]^6*Subscript[s, \[Gamma]]*
-              (-384*\[Xi]^2 + 10*(-1021 + 1220*\[Xi]^2)*Subscript[s, 
-                  \[Gamma]]^2 + (41020 - 68088*\[Xi]^2)*Subscript[s, 
-                  \[Gamma]]^4 + (-42987 + 87312*\[Xi]^2)*Subscript[s, 
-                  \[Gamma]]^6) + \[Xi]*Subscript[s, \[Gamma]]*
-              (-1 + Subscript[s, \[Gamma]]^2)^2*(\[Xi]^2*(333 + 
-                 848*\[Xi]^2) + (4428 + 52155*\[Xi]^2 - 15452*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 + 6*(-9 - 43031*\[Xi]^2 + 
-                 9170*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 3*(4518 - 
-                 121719*\[Xi]^2 + 22840*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 3*
-                (2925 - 51309*\[Xi]^2 + 9248*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 8) + Subscript[c, \[Gamma]]^5*(12*\[Xi]^2*(-4691 + 
-                 920*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (-29625 + 
-                 465280*\[Xi]^2 - 136404*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
-               6*(14113 - 173288*\[Xi]^2 + 75956*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^6 - 12*(4963 - 61315*\[Xi]^2 + 33027*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8) + 3*\[Xi]*Subscript[c, \[Gamma]]^4*
-              Subscript[s, \[Gamma]]*(-6308*\[Xi]^2 + (-23474 + 
-                 90774*\[Xi]^2 - 5400*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
-               (118136 - 394507*\[Xi]^2 + 37752*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^4 + (-189359 + 630408*\[Xi]^2 - 74312*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + (97923 - 336107*\[Xi]^2 + 
-                 43368*\[Xi]^4)*Subscript[s, \[Gamma]]^8) - 
-             3*Subscript[c, \[Gamma]]*(-1 + Subscript[s, \[Gamma]]^2)*
-              (-244*\[Xi]^4 + \[Xi]^2*(-1992 + 15269*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + (882 + 47929*\[Xi]^2 - 
-                 111344*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (3165 - 
-                 181307*\[Xi]^2 + 267906*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 
-               6*(1615 - 38661*\[Xi]^2 + 43480*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^8 + 9*(627 - 10748*\[Xi]^2 + 9845*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^10) + \[Xi]*Subscript[c, \[Gamma]]^2*
-              Subscript[s, \[Gamma]]*(40*\[Xi]^2*(-381 + 88*\[Xi]^2) - 3*
-                (3177 - 86055*\[Xi]^2 + 18568*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 2 + 6*(25556 - 197319*\[Xi]^2 + 43717*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 - 5*(98343 - 458619*\[Xi]^2 + 
-                 100892*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 6*(94270 - 
-                 333647*\[Xi]^2 + 71421*\[Xi]^4)*Subscript[s, \[Gamma]]^8 - 6*
-                (36285 - 108356*\[Xi]^2 + 22364*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^10) + Subscript[c, \[Gamma]]^3*(-1608*\[Xi]^4 + 
-               (-51591*\[Xi]^2 + 62160*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
-               (-1278 + 476108*\[Xi]^2 - 498957*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^4 + 3*(9675 - 468946*\[Xi]^2 + 470013*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 - 3*(19310 - 557283*\[Xi]^2 + 
-                 539245*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + (30195 - 
-                 693096*\[Xi]^2 + 652005*\[Xi]^4)*Subscript[s, \[Gamma]]^
+              (\[Xi]^2*(-3039 + 1036*\[Xi]^2)*Subscript[s, \[Gamma]] - 3*
+                (149 - 4340*\[Xi]^2 + 4798*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 3 + 3*(802 - 11285*\[Xi]^2 + 11593*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^5 + (-3471 + 39660*\[Xi]^2 - 
+                 23308*\[Xi]^4)*Subscript[s, \[Gamma]]^7 + 3*(504 - 
+                 5297*\[Xi]^2 + 629*\[Xi]^4)*Subscript[s, \[Gamma]]^9)) - 
+           (1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[m, \[Phi]]^2*
+            Subscript[s, \[Gamma]]*(-5472*Subscript[c, \[Gamma]]^9*
+              Subscript[s, \[Gamma]]^4 + 576*\[Xi]*Subscript[c, \[Gamma]]^8*
+              Subscript[s, \[Gamma]]^3*(-49 + 395*Subscript[s, \[Gamma]]^2) + 
+             3*\[Xi]*Subscript[c, \[Gamma]]^6*Subscript[s, \[Gamma]]*
+              (-768*\[Xi]^2 + 5*(-7533 + 7520*\[Xi]^2)*Subscript[s, \[Gamma]]^
+                 2 + (134290 - 248376*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 12*
+                (-10567 + 32602*\[Xi]^2)*Subscript[s, \[Gamma]]^6) - 
+             3*Subscript[c, \[Gamma]]^7*(4640*\[Xi]^2*Subscript[s, \[Gamma]]^
+                 2 - 9*(-1853 + 8768*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 
+               (-19013 + 257184*\[Xi]^2)*Subscript[s, \[Gamma]]^6) + 
+             Subscript[c, \[Gamma]]^5*(6*\[Xi]^2*(-14147 + 2840*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (-32055 + 682720*\[Xi]^2 - 
+                 249804*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 3*(30971 - 
+                 399371*\[Xi]^2 + 309912*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
+               (-65361 + 767640*\[Xi]^2 - 894924*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^8) + \[Xi]*Subscript[s, \[Gamma]]*
+              (-1 + Subscript[s, \[Gamma]]^2)^2*(2*\[Xi]^2*(639 + 
+                 424*\[Xi]^2) + (16308 + 38880*\[Xi]^2 - 15362*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + 6*(-8739 - 35966*\[Xi]^2 + 
+                 8825*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (54486 + 
+                 299637*\[Xi]^2 - 63300*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 3*
+                (-6255 - 35289*\[Xi]^2 + 7898*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 8) + 3*\[Xi]*Subscript[c, \[Gamma]]^4*Subscript[s, \[Gamma]]*
+              (-9558*\[Xi]^2 + (-22809 + 139054*\[Xi]^2 - 7800*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + (80441 - 554297*\[Xi]^2 + 
+                 64152*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (-122549 + 
+                 750578*\[Xi]^2 - 150312*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
+               (68643 - 357527*\[Xi]^2 + 98568*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^8) + \[Xi]*Subscript[c, \[Gamma]]^2*
+              Subscript[s, \[Gamma]]*(5*\[Xi]^2*(-8157 + 974*\[Xi]^2) - 3*
+                (37847 - 175100*\[Xi]^2 + 24568*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^2 + 3*(260557 - 737493*\[Xi]^2 + 110804*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 - 20*(88551 - 211782*\[Xi]^2 + 
+                 29768*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 6*(276110 - 
+                 625317*\[Xi]^2 + 77001*\[Xi]^4)*Subscript[s, \[Gamma]]^8 - 6*
+                (92295 - 207476*\[Xi]^2 + 21704*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^10) - 3*Subscript[c, \[Gamma]]*
+              (-1 + Subscript[s, \[Gamma]]^2)*(-694*\[Xi]^4 + \[Xi]^2*
+                (-7502 + 21279*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
+               (3312 + 91999*\[Xi]^2 - 143084*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4 + (-4665 - 314192*\[Xi]^2 + 345836*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 - 2*(660 - 195868*\[Xi]^2 + 
+                 170335*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 3*(891 - 
+                 53999*\[Xi]^2 + 38315*\[Xi]^4)*Subscript[s, \[Gamma]]^10) + 
+             Subscript[c, \[Gamma]]^3*(-2958*\[Xi]^4 + 3*\[Xi]^2*
+                (-41697 + 33440*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
+               (-46623 + 950243*\[Xi]^2 - 730257*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^4 + 3*(59480 - 850101*\[Xi]^2 + 632298*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 - 3*(73575 - 946738*\[Xi]^2 + 
+                 677465*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 3*(29640 - 
+                 374057*\[Xi]^2 + 261180*\[Xi]^4)*Subscript[s, \[Gamma]]^
                  10)) - 3*Subscript[m, \[Phi]]^10*
             (-3888*Subscript[c, \[Gamma]]^9*Subscript[s, \[Gamma]]^5 + 
-             1944*\[Xi]*Subscript[c, \[Gamma]]^8*Subscript[s, \[Gamma]]^4*
-              (-23 + 63*Subscript[s, \[Gamma]]^2) + 36*\[Xi]*Subscript[c, 
-                \[Gamma]]^6*Subscript[s, \[Gamma]]^2*(-4168*\[Xi]^2 + 9*
-                (-461 + 3512*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (17862 - 
-                 78192*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 72*(-269 + 
-                 870*\[Xi]^2)*Subscript[s, \[Gamma]]^6) - 
-             108*Subscript[c, \[Gamma]]^7*(1000*\[Xi]^2*Subscript[s, 
-                  \[Gamma]]^3 - 81*(-3 + 64*\[Xi]^2)*Subscript[s, \[Gamma]]^
-                 5 + (-363 + 6624*\[Xi]^2)*Subscript[s, \[Gamma]]^7) - 
-             3*Subscript[c, \[Gamma]]^5*(33280*\[Xi]^4*Subscript[s, 
-                 \[Gamma]] - 96*\[Xi]^2*(-1209 + 3464*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^3 + 9*(2169 - 90696*\[Xi]^2 + 
-                 136000*\[Xi]^4)*Subscript[s, \[Gamma]]^5 - 18*(3291 - 
-                 103484*\[Xi]^2 + 108864*\[Xi]^4)*Subscript[s, \[Gamma]]^7 + 
-               27*(1897 - 50092*\[Xi]^2 + 42432*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^9) + 2*\[Xi]*Subscript[c, \[Gamma]]^4*
-              (-19456*\[Xi]^4 + 1152*\[Xi]^2*(-169 + 206*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 - 6*(20709 - 331600*\[Xi]^2 + 
-                 189120*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 27*(27845 - 
-                 267928*\[Xi]^2 + 98176*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 
-               27*(52769 - 407160*\[Xi]^2 + 111744*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 + 81*(10661 - 72988*\[Xi]^2 + 
-                 16512*\[Xi]^4)*Subscript[s, \[Gamma]]^10) - 
-             2*\[Xi]*Subscript[c, \[Gamma]]^2*Subscript[s, \[Gamma]]^2*
-              (16*\[Xi]^2*(7047 - 10928*\[Xi]^2) + 2*(30699 - 941448*
-                  \[Xi]^2 + 879616*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
-               (-636741 + 9598056*\[Xi]^2 - 6838656*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 + 108*(17205 - 196614*\[Xi]^2 + 
-                 119488*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 54*(38331 - 
-                 396636*\[Xi]^2 + 219944*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 
-               81*(9717 - 99580*\[Xi]^2 + 52864*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^10) + Subscript[c, \[Gamma]]^3*(-196608*\[Xi]^4*
-                Subscript[s, \[Gamma]] + 832*\[Xi]^2*(-513 + 3410*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^3 - 24*(1620 - 171711*\[Xi]^2 + 
-                 616112*\[Xi]^4)*Subscript[s, \[Gamma]]^5 + 108*
-                (1989 - 122555*\[Xi]^2 + 328224*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^7 - 27*(12267 - 642308*\[Xi]^2 + 1471792*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^9 + 81*(1917 - 98524*\[Xi]^2 + 
-                 208448*\[Xi]^4)*Subscript[s, \[Gamma]]^11) + 
-             2*\[Xi]*Subscript[s, \[Gamma]]^2*(21248*\[Xi]^4 - 192*\[Xi]^2*
-                (-1905 + 1796*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 2*
-                (25029 - 1344132*\[Xi]^2 + 922496*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 - 3*(75087 - 2568120*\[Xi]^2 + 
-                 1574720*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 27*
-                (13905 - 399380*\[Xi]^2 + 236144*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^8 - 27*(10197 - 273348*\[Xi]^2 + 162464*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^10 + 81*(927 - 24432*\[Xi]^2 + 
-                 14992*\[Xi]^4)*Subscript[s, \[Gamma]]^12) + 
-             Subscript[c, \[Gamma]]*(11520*\[Xi]^4*Subscript[s, \[Gamma]] + 
-               16*\[Xi]^2*(-4617 + 58240*\[Xi]^2)*Subscript[s, \[Gamma]]^3 + 
-               (1718280*\[Xi]^2 - 8989696*\[Xi]^4)*Subscript[s, \[Gamma]]^5 + 
-               (75087 - 8213940*\[Xi]^2 + 31693728*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^7 - 27*(8343 - 587980*\[Xi]^2 + 
-                 1979008*\[Xi]^4)*Subscript[s, \[Gamma]]^9 + 27*
-                (8343 - 505080*\[Xi]^2 + 1615040*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^11 - 81*(927 - 53472*\[Xi]^2 + 170960*\[Xi]^4)*
+             11664*\[Xi]*Subscript[c, \[Gamma]]^8*Subscript[s, \[Gamma]]^4*
+              (-8 + 23*Subscript[s, \[Gamma]]^2) + 18*\[Xi]*Subscript[c, 
+                \[Gamma]]^6*Subscript[s, \[Gamma]]^2*(-15136*\[Xi]^2 + 3*
+                (-4821 + 39472*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
+               (57684 - 303984*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 9*
+                (-6059 + 28320*\[Xi]^2)*Subscript[s, \[Gamma]]^6) - 
+             27*Subscript[c, \[Gamma]]^7*(8000*\[Xi]^2*Subscript[s, \[Gamma]]^
+                 3 + (1647 - 43536*\[Xi]^2)*Subscript[s, \[Gamma]]^5 + 3*
+                (-709 + 19632*\[Xi]^2)*Subscript[s, \[Gamma]]^7) - 
+             3*Subscript[c, \[Gamma]]^5*(62080*\[Xi]^4*Subscript[s, 
+                 \[Gamma]] - 1152*\[Xi]^2*(-147 + 547*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^3 + 9*(2979 - 126136*\[Xi]^2 + 
+                 262400*\[Xi]^4)*Subscript[s, \[Gamma]]^5 - 18*(4101 - 
+                 136334*\[Xi]^2 + 214464*\[Xi]^4)*Subscript[s, \[Gamma]]^7 + 
+               27*(2167 - 62152*\[Xi]^2 + 85632*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^9) + 6*\[Xi]*Subscript[c, \[Gamma]]^4*
+              (-10752*\[Xi]^4 + 16*\[Xi]^2*(-6051 + 8344*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (-56268 + 953600*\[Xi]^2 - 
+                 651840*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 36*(8765 - 
+                 92672*\[Xi]^2 + 43344*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 9*
+                (62249 - 540600*\[Xi]^2 + 202944*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^8 + 54*(5983 - 46394*\[Xi]^2 + 15456*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^10) - 2*\[Xi]*Subscript[c, \[Gamma]]^2*
+              Subscript[s, \[Gamma]]^2*(322992*\[Xi]^2 - 249728*\[Xi]^4 + 
+               (257418 - 4011936*\[Xi]^2 + 2464832*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 - 3*(556497 - 5810312*\[Xi]^2 + 
+                 3133472*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 54*
+                (70005 - 640568*\[Xi]^2 + 321896*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^6 - 108*(33333 - 297198*\[Xi]^2 + 144892*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 + 81*(15207 - 139540*\[Xi]^2 + 
+                 67984*\[Xi]^4)*Subscript[s, \[Gamma]]^10) + 
+             Subscript[c, \[Gamma]]^3*(-309888*\[Xi]^4*Subscript[s, 
+                 \[Gamma]] + 1456*\[Xi]^2*(-621 + 2960*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^3 - 3*(50625 - 2508408*\[Xi]^2 + 
+                 7249696*\[Xi]^4)*Subscript[s, \[Gamma]]^5 + 27*
+                (20511 - 794100*\[Xi]^2 + 1873696*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^7 - 54*(12411 - 471274*\[Xi]^2 + 
+                 1018376*\[Xi]^4)*Subscript[s, \[Gamma]]^9 + 324*
+                (828 - 33361*\[Xi]^2 + 69752*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 11) + 2*\[Xi]*Subscript[s, \[Gamma]]^2*(21248*\[Xi]^4 + 
+               (414360*\[Xi]^2 - 362112*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 2*
+                (25029 - 1494792*\[Xi]^2 + 978656*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 - 3*(75087 - 2811120*\[Xi]^2 + 
+                 1671200*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 27*
+                (13905 - 431420*\[Xi]^2 + 249824*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^8 - 27*(10197 - 292068*\[Xi]^2 + 171104*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^10 + 81*(927 - 25872*\[Xi]^2 + 
+                 15712*\[Xi]^4)*Subscript[s, \[Gamma]]^12) + 
+             Subscript[c, \[Gamma]]*(-26880*\[Xi]^4*Subscript[s, \[Gamma]] + 
+               8*\[Xi]^2*(-42309 + 211760*\[Xi]^2)*Subscript[s, \[Gamma]]^3 - 
+               64*\[Xi]^2*(-58995 + 210949*\[Xi]^2)*Subscript[s, \[Gamma]]^
+                 5 + 3*(25029 - 4747320*\[Xi]^2 + 14614816*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^7 - 27*(8343 - 898560*\[Xi]^2 + 
+                 2595968*\[Xi]^4)*Subscript[s, \[Gamma]]^9 + 27*
+                (8343 - 712260*\[Xi]^2 + 2034560*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^11 - 81*(927 - 71292*\[Xi]^2 + 208400*\[Xi]^4)*
                 Subscript[s, \[Gamma]]^13)) + (1 + 4*\[Xi]^2)*
             Subscript[m, K]^2*Subscript[m, \[Phi]]^8*
             (-33048*Subscript[c, \[Gamma]]^9*Subscript[s, \[Gamma]]^5 + 
-             1944*\[Xi]*Subscript[c, \[Gamma]]^8*Subscript[s, \[Gamma]]^4*
-              (-155 + 472*Subscript[s, \[Gamma]]^2) + 54*\[Xi]*
+             648*\[Xi]*Subscript[c, \[Gamma]]^8*Subscript[s, \[Gamma]]^4*
+              (-965 + 3141*Subscript[s, \[Gamma]]^2) + 27*\[Xi]*
               Subscript[c, \[Gamma]]^6*Subscript[s, \[Gamma]]^2*
-              (-11968*\[Xi]^2 + 4*(-4829 + 25594*\[Xi]^2)*Subscript[s, 
-                  \[Gamma]]^2 + (81174 - 278688*\[Xi]^2)*Subscript[s, 
-                  \[Gamma]]^4 + 9*(-9451 + 26592*\[Xi]^2)*Subscript[s, 
-                  \[Gamma]]^6) - 324*Subscript[c, \[Gamma]]^7*
-              (1806*\[Xi]^2*Subscript[s, \[Gamma]]^3 + (669 - 10428*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^5 + 16*(-59 + 912*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^7) - 9*Subscript[c, \[Gamma]]^5*
-              (35552*\[Xi]^4*Subscript[s, \[Gamma]] - 8*\[Xi]^2*(-29463 + 
-                 51560*\[Xi]^2)*Subscript[s, \[Gamma]]^3 + 3*(16557 - 
-                 544760*\[Xi]^2 + 569440*\[Xi]^4)*Subscript[s, \[Gamma]]^5 - 
-               18*(8141 - 202667*\[Xi]^2 + 166336*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^7 + 18*(6473 - 143567*\[Xi]^2 + 
-                 103584*\[Xi]^4)*Subscript[s, \[Gamma]]^9) + 
-             3*\[Xi]*Subscript[c, \[Gamma]]^4*(-32512*\[Xi]^4 + 8*\[Xi]^2*
-                (-83209 + 58840*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
-               (-566883 + 6767960*\[Xi]^2 - 2560512*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 + 9*(368127 - 2719500*\[Xi]^2 + 
-                 730304*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 54*(111569 - 
-                 681352*\[Xi]^2 + 147648*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 
-               108*(32337 - 180076*\[Xi]^2 + 33984*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^10) + 3*Subscript[c, \[Gamma]]^3*
-              (-303520*\[Xi]^4*Subscript[s, \[Gamma]] + (-864324*\[Xi]^2 + 
-                 4258784*\[Xi]^4)*Subscript[s, \[Gamma]]^3 - 3*(29151 - 
-                 2695586*\[Xi]^2 + 7304096*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 5 + 9*(53673 - 2800970*\[Xi]^2 + 5754640*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^7 - 27*(27905 - 1189362*\[Xi]^2 + 
-                 2107000*\[Xi]^4)*Subscript[s, \[Gamma]]^9 + 108*
-                (3333 - 133055*\[Xi]^2 + 217872*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^11) + \[Xi]*Subscript[s, \[Gamma]]^2*
-              (32*\[Xi]^2*(-225 + 6436*\[Xi]^2) - 144*(-81 - 27426*\[Xi]^2 + 
-                 21068*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 3*(188433 - 
-                 9531020*\[Xi]^2 + 5074784*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 - 6*(452655 - 13490898*\[Xi]^2 + 6143800*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + 54*(86397 - 2073706*\[Xi]^2 + 
-                 873496*\[Xi]^4)*Subscript[s, \[Gamma]]^8 - 162*
-                (21621 - 468178*\[Xi]^2 + 190136*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^10 + 81*(12051 - 248880*\[Xi]^2 + 100048*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^12) - \[Xi]*Subscript[c, \[Gamma]]^2*
-              (30720*\[Xi]^4 - 16*\[Xi]^2*(-86931 + 94768*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + 36*(22821 - 580423*\[Xi]^2 + 
-                 380600*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 3*(2674431 - 
-                 33615496*\[Xi]^2 + 17087056*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 6 + 432*(53608 - 496083*\[Xi]^2 + 216979*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 - 81*(320017 - 2577828*\[Xi]^2 + 
-                 1027744*\[Xi]^4)*Subscript[s, \[Gamma]]^10 + 162*
-                (61563 - 470260*\[Xi]^2 + 177616*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^12) - 9*Subscript[c, \[Gamma]]*(1216*\[Xi]^4*
-                Subscript[s, \[Gamma]] - 96*\[Xi]^2*(-617 + 5699*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^3 + 2*(-324 - 575573*\[Xi]^2 + 
-                 2397904*\[Xi]^4)*Subscript[s, \[Gamma]]^5 + (-50895 + 
-                 5309356*\[Xi]^2 - 16100640*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 7 + 3*(54045 - 3371224*\[Xi]^2 + 8685984*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^9 - 9*(18777 - 959808*\[Xi]^2 + 
-                 2272808*\[Xi]^4)*Subscript[s, \[Gamma]]^11 + 27*
-                (2163 - 101570*\[Xi]^2 + 231664*\[Xi]^4)*Subscript[s, 
+              (-41536*\[Xi]^2 + (-69127 + 373552*\[Xi]^2)*Subscript[s, 
+                  \[Gamma]]^2 - 24*(-11317 + 44774*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^4 + 36*(-7003 + 27396*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^6) - 162*Subscript[c, \[Gamma]]^7*
+              (6912*\[Xi]^2*Subscript[s, \[Gamma]]^3 - 9*(-257 + 
+                 4784*\[Xi]^2)*Subscript[s, \[Gamma]]^5 + (-2863 + 
+                 65484*\[Xi]^2)*Subscript[s, \[Gamma]]^7) - 
+             9*Subscript[c, \[Gamma]]^5*(65152*\[Xi]^4*Subscript[s, 
+                 \[Gamma]] + (354974*\[Xi]^2 - 776480*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^3 + 3*(22497 - 781010*\[Xi]^2 + 
+                 1102240*\[Xi]^4)*Subscript[s, \[Gamma]]^5 - 9*(20617 - 
+                 549954*\[Xi]^2 + 663872*\[Xi]^4)*Subscript[s, \[Gamma]]^7 + 
+               9*(15301 - 370954*\[Xi]^2 + 427968*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^9) + 3*\[Xi]*Subscript[c, \[Gamma]]^4*
+              (-48512*\[Xi]^4 + 24*\[Xi]^2*(-43783 + 30880*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (-752823 + 10232180*\[Xi]^2 - 
+                 4230912*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 9*(459617 - 
+                 3937660*\[Xi]^2 + 1266304*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6 - 27*(267373 - 1890064*\[Xi]^2 + 538496*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 + 27*(149973 - 961744*\[Xi]^2 + 
+                 260736*\[Xi]^4)*Subscript[s, \[Gamma]]^10) + 
+             3*Subscript[c, \[Gamma]]^3*(-503840*\[Xi]^4*Subscript[s, 
+                 \[Gamma]] + 6*\[Xi]^2*(-315379 + 1129744*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^3 - 3*(123921 - 5155126*\[Xi]^2 + 
+                 11233896*\[Xi]^4)*Subscript[s, \[Gamma]]^5 + 9*(153393 - 
+                 4808600*\[Xi]^2 + 8602000*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 7 - 27*(62795 - 1868642*\[Xi]^2 + 3070520*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^9 + 108*(6378 - 194375*\[Xi]^2 + 
+                 310152*\[Xi]^4)*Subscript[s, \[Gamma]]^11) - 
+             \[Xi]*Subscript[c, \[Gamma]]^2*(74880*\[Xi]^4 - 32*\[Xi]^2*
+                (-118143 + 79244*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 9*
+                (398529 - 5029032*\[Xi]^2 + 2343200*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 - 3*(7646931 - 63820216*\[Xi]^2 + 
+                 25221856*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 27*
+                (1915313 - 13753548*\[Xi]^2 + 4977104*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 - 81*(609127 - 4162988*\[Xi]^2 + 
+                 1439104*\[Xi]^4)*Subscript[s, \[Gamma]]^10 + 648*
+                (26217 - 179290*\[Xi]^2 + 60964*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^12) + \[Xi]*Subscript[s, \[Gamma]]^2*
+              (16*\[Xi]^2*(-1485 + 14492*\[Xi]^2) - 72*(-567 - 
+                 63862*\[Xi]^2 + 46976*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 3*
+                (139833 - 10775300*\[Xi]^2 + 5590544*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 - 6*(408915 - 14985618*\[Xi]^2 + 
+                 6694600*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 54*
+                (82617 - 2273086*\[Xi]^2 + 942976*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 - 162*(21261 - 507778*\[Xi]^2 + 
+                 203696*\[Xi]^4)*Subscript[s, \[Gamma]]^10 + 81*
+                (12051 - 267600*\[Xi]^2 + 106528*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^12) - 3*Subscript[c, \[Gamma]]*(82528*\[Xi]^4*
+                Subscript[s, \[Gamma]] + (717936*\[Xi]^2 - 3053312*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^3 + 4*(-1701 - 1932612*\[Xi]^2 + 
+                 5622706*\[Xi]^4)*Subscript[s, \[Gamma]]^5 - 3*(46035 - 
+                 9597396*\[Xi]^2 + 23285440*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 7 + 9*(52425 - 5421814*\[Xi]^2 + 11957784*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^9 - 81*(6199 - 477036*\[Xi]^2 + 
+                 1005736*\[Xi]^4)*Subscript[s, \[Gamma]]^11 + 81*
+                (2163 - 143510*\[Xi]^2 + 298784*\[Xi]^4)*Subscript[s, 
                   \[Gamma]]^13)) + 3*(1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*
             Subscript[m, \[Phi]]^4*(-6768*Subscript[c, \[Gamma]]^9*
-              Subscript[s, \[Gamma]]^5 + 24*\[Xi]*Subscript[c, \[Gamma]]^8*
-              Subscript[s, \[Gamma]]^4*(-1360 + 5901*Subscript[s, \[Gamma]]^
-                 2) + 2*\[Xi]*Subscript[c, \[Gamma]]^6*Subscript[s, \[Gamma]]^
-               2*(-9568*\[Xi]^2 + 2*(-29111 + 66553*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + (241030 - 509316*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^4 + 3*(-83003 + 180678*\[Xi]^2)*
+              Subscript[s, \[Gamma]]^5 + 96*\[Xi]*Subscript[c, \[Gamma]]^8*
+              Subscript[s, \[Gamma]]^4*(-665 + 3369*Subscript[s, \[Gamma]]^
+                 2) + \[Xi]*Subscript[c, \[Gamma]]^6*Subscript[s, \[Gamma]]^2*
+              (-28736*\[Xi]^2 + 3*(-71213 + 149604*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (820250 - 1916832*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^4 + 6*(-127823 + 389478*\[Xi]^2)*
                 Subscript[s, \[Gamma]]^6) - 12*Subscript[c, \[Gamma]]^7*
-              (2964*\[Xi]^2*Subscript[s, \[Gamma]]^3 + (3177 - 24625*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^5 + (-4141 + 45909*\[Xi]^2)*
+              (4564*\[Xi]^2*Subscript[s, \[Gamma]]^3 + (5727 - 46975*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^5 + (-6691 + 106059*\[Xi]^2)*
                 Subscript[s, \[Gamma]]^7) + \[Xi]*Subscript[c, \[Gamma]]^4*
-              Subscript[s, \[Gamma]]^2*(4*\[Xi]^2*(-20581 + 2820*\[Xi]^2) - 4*
-                (40858 - 241151*\[Xi]^2 + 33664*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^2 + 4*(221081 - 947581*\[Xi]^2 + 133136*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 + (-1495729 + 5881332*\[Xi]^2 - 
-                 825216*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + (807411 - 
-                 3115452*\[Xi]^2 + 432720*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 8) - Subscript[c, \[Gamma]]^5*(3520*\[Xi]^4*Subscript[s, 
-                 \[Gamma]] - 16*\[Xi]^2*(-9691 + 5284*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^3 + 2*(28929 - 573286*\[Xi]^2 + 
-                 278368*\[Xi]^4)*Subscript[s, \[Gamma]]^5 - 2*(82398 - 
-                 1280819*\[Xi]^2 + 668472*\[Xi]^4)*Subscript[s, \[Gamma]]^7 + 
-               3*(39499 - 599842*\[Xi]^2 + 333840*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^9) + Subscript[c, \[Gamma]]^3*
-              (-19496*\[Xi]^4*Subscript[s, \[Gamma]] + \[Xi]^2*(-165413 + 
-                 366344*\[Xi]^2)*Subscript[s, \[Gamma]]^3 + (-17724 + 
-                 1519835*\[Xi]^2 - 2222006*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 5 + (114435 - 4561791*\[Xi]^2 + 5652196*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^7 + (-188358 + 5557757*\[Xi]^2 - 
-                 6301934*\[Xi]^4)*Subscript[s, \[Gamma]]^9 + 6*(15333 - 
-                 395066*\[Xi]^2 + 426092*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 11) + \[Xi]*(-1 + Subscript[s, \[Gamma]]^2)*
-              (56*\[Xi]^4 + (372*\[Xi]^2 - 6112*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^2 + 3*(-2118 - 64371*\[Xi]^2 + 27868*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 - 2*(8373 - 574862*\[Xi]^2 + 
-                 172316*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + (104721 - 
-                 2431112*\[Xi]^2 + 617152*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 
-               (-134865 + 2188650*\[Xi]^2 - 506144*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^10 + 3*(17748 - 238275*\[Xi]^2 + 
-                 51988*\[Xi]^4)*Subscript[s, \[Gamma]]^12) - 
-             \[Xi]*Subscript[c, \[Gamma]]^2*(784*\[Xi]^4 + (70997*\[Xi]^2 - 
-                 32864*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (56841 - 
-                 1025250*\[Xi]^2 + 328304*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
-               (-557421 + 4669101*\[Xi]^2 - 1298740*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + 5*(320610 - 1859383*\[Xi]^2 + 
-                 474992*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + (-1783593 + 
-                 8455026*\[Xi]^2 - 2028928*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 10 + 3*(227061 - 958885*\[Xi]^2 + 219292*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^12) + Subscript[c, \[Gamma]]*
-              (-4044*\[Xi]^4*Subscript[s, \[Gamma]] + \[Xi]^2*(-36579 + 
-                 205916*\[Xi]^2)*Subscript[s, \[Gamma]]^3 + (3510 + 
-                 615752*\[Xi]^2 - 1609912*\[Xi]^4)*Subscript[s, \[Gamma]]^5 + 
-               (26802 - 2675253*\[Xi]^2 + 4949438*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^7 - 2*(54315 - 2422490*\[Xi]^2 + 
-                 3648122*\[Xi]^4)*Subscript[s, \[Gamma]]^9 + (123003 - 
-                 3949230*\[Xi]^2 + 5182774*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 11 - 3*(14895 - 400110*\[Xi]^2 + 476056*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^13)) - (1 + 4*\[Xi]^2)^2*
-            Subscript[m, K]^4*Subscript[m, \[Phi]]^6*
-            (-36936*Subscript[c, \[Gamma]]^9*Subscript[s, \[Gamma]]^5 + 
-             216*\[Xi]*Subscript[c, \[Gamma]]^8*Subscript[s, \[Gamma]]^4*
-              (-1177 + 4143*Subscript[s, \[Gamma]]^2) + 
-             6*\[Xi]*Subscript[c, \[Gamma]]^6*Subscript[s, \[Gamma]]^2*
-              (-52384*\[Xi]^2 + 54*(-2761 + 9928*\[Xi]^2)*Subscript[s, 
-                  \[Gamma]]^2 - 72*(-8623 + 23193*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^4 + 27*(-23731 + 58152*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^6) - 36*Subscript[c, \[Gamma]]^7*
-              (10580*\[Xi]^2*Subscript[s, \[Gamma]]^3 + (6345 - 
-                 70881*\[Xi]^2)*Subscript[s, \[Gamma]]^5 + 9*(-952 + 
-                 12431*\[Xi]^2)*Subscript[s, \[Gamma]]^7) - 
-             3*Subscript[c, \[Gamma]]^5*(35968*\[Xi]^4*Subscript[s, 
-                 \[Gamma]] - 8*\[Xi]^2*(-63317 + 65758*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^3 + 6*(23223 - 594366*\[Xi]^2 + 
-                 431032*\[Xi]^4)*Subscript[s, \[Gamma]]^5 - 36*(11166 - 
-                 220047*\[Xi]^2 + 142612*\[Xi]^4)*Subscript[s, \[Gamma]]^7 + 
-               27*(11149 - 205756*\[Xi]^2 + 128160*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^9) + 6*\[Xi]*Subscript[c, \[Gamma]]^4*
-              (-3328*\[Xi]^4 + 8*\[Xi]^2*(-23325 + 8756*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + (-231369 + 1981012*\[Xi]^2 - 
-                 482048*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 3*(434925 - 
-                 2449531*\[Xi]^2 + 481472*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 
-               9*(254249 - 1237333*\[Xi]^2 + 214320*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 + 27*(47335 - 217146*\[Xi]^2 + 
-                 34704*\[Xi]^4)*Subscript[s, \[Gamma]]^10) + 
-             Subscript[c, \[Gamma]]^3*(-407064*\[Xi]^4*Subscript[s, 
-                 \[Gamma]] + \[Xi]^2*(-1789611 + 6138712*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^3 - 6*(33075 - 2738365*\[Xi]^2 + 
-                 5498798*\[Xi]^4)*Subscript[s, \[Gamma]]^5 + 9*(125439 - 
-                 5560121*\[Xi]^2 + 8820488*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 7 - 27*(66101 - 2304445*\[Xi]^2 + 3223952*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^9 + 81*(10610 - 335231*\[Xi]^2 + 
-                 438012*\[Xi]^4)*Subscript[s, \[Gamma]]^11) - 
-             \[Xi]*Subscript[c, \[Gamma]]^2*(18240*\[Xi]^4 + 
-               (915708*\[Xi]^2 - 663648*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
-               (619101 - 12929634*\[Xi]^2 + 5916856*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 - 6*(972480 - 9968085*\[Xi]^2 + 
-                 3685348*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 36*(462279 - 
-                 3401888*\[Xi]^2 + 1108680*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 8 - 189*(98123 - 609378*\[Xi]^2 + 182880*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^10 + 162*(43972 - 250647*\[Xi]^2 + 
-                 71244*\[Xi]^4)*Subscript[s, \[Gamma]]^12) + 
-             Subscript[c, \[Gamma]]*(-41688*\[Xi]^4*Subscript[s, \[Gamma]] + 
-               4*\[Xi]^2*(-103608 + 710417*\[Xi]^2)*Subscript[s, \[Gamma]]^
-                 3 + (13770 + 7089174*\[Xi]^2 - 22962300*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^5 + (313470 - 31448655*\[Xi]^2 + 
-                 73420836*\[Xi]^4)*Subscript[s, \[Gamma]]^7 - 9*(120474 - 
-                 6493325*\[Xi]^2 + 12618104*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 9 + 27*(43509 - 1813251*\[Xi]^2 + 3153640*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^11 - 81*(5157 - 188789*\[Xi]^2 + 
-                 306868*\[Xi]^4)*Subscript[s, \[Gamma]]^13) + 
-             6*\[Xi]*(-112*\[Xi]^4 + 8*\[Xi]^2*(-162 + 2173*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + (4392 + 400357*\[Xi]^2 - 
-                 241240*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (52101 - 
-                 2833606*\[Xi]^2 + 1160548*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 6 + (-290826 + 7826871*\[Xi]^2 - 2687624*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 + 3*(173331 - 3513553*\[Xi]^2 + 
-                 1092448*\[Xi]^4)*Subscript[s, \[Gamma]]^10 - 18*
-                (22107 - 385731*\[Xi]^2 + 112948*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^12 + 27*(4158 - 66475*\[Xi]^2 + 18772*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^14))))/(24*Sqrt[2]*\[Xi]^5*
-          (1 + 4*\[Xi]^2)^(5/2)*Subscript[m, K]^12*Subscript[v, EW]^5) + 
-        (h^3*Subscript[s, \[Gamma]]^2*(-18*Subscript[c, \[Gamma]]^7*
-            ((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)^2*
-            ((1 + 4*\[Xi]^2)^2*Subscript[m, K]^4 - 5*(1 + 4*\[Xi]^2)*
-              Subscript[m, K]^2*Subscript[m, \[Phi]]^2 + 
-             6*Subscript[m, \[Phi]]^4)*Subscript[s, \[Gamma]]^4 + 
-           6*\[Xi]*Subscript[c, \[Gamma]]^6*((2 + 8*\[Xi]^2)*Subscript[m, 
-                K]^2 - 3*Subscript[m, \[Phi]]^2)*Subscript[s, \[Gamma]]^3*
-            (9*Subscript[m, \[Phi]]^6*(65 - 177*Subscript[s, \[Gamma]]^2) + 
-             (1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*(-8 + 85*Subscript[s, 
-                  \[Gamma]]^2) + 3*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*
-              Subscript[m, \[Phi]]^4*(-179 + 618*Subscript[s, \[Gamma]]^2) - 
-             (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^2*
-              (-139 + 699*Subscript[s, \[Gamma]]^2)) - 
-           3*Subscript[c, \[Gamma]]^5*Subscript[s, \[Gamma]]^2*
-            ((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*(8*\[Xi]^2 + (87 - 
-                 238*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 2*(-53 + 
-                 337*\[Xi]^2)*Subscript[s, \[Gamma]]^4) - 6*(1 + 4*\[Xi]^2)*
-              Subscript[m, K]^2*Subscript[m, \[Phi]]^6*(1351*\[Xi]^2 + 
-               (702 - 7758*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 9*
-                (-109 + 1166*\[Xi]^2)*Subscript[s, \[Gamma]]^4) + 
-             (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^4*
-              (3188*\[Xi]^2 - 9*(-338 + 2493*\[Xi]^2)*Subscript[s, \[Gamma]]^
-                 2 + 27*(-150 + 1297*\[Xi]^2)*Subscript[s, \[Gamma]]^4) + 
-             9*Subscript[m, \[Phi]]^8*(740*\[Xi]^2 + (225 - 3696*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + (-339 + 4500*\[Xi]^2)*
+              Subscript[s, \[Gamma]]^2*(12*\[Xi]^2*(-11047 + 1240*\[Xi]^2) + 
+               (-188617 + 1500514*\[Xi]^2 - 203456*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + (916754 - 5552694*\[Xi]^2 + 
+                 906144*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (-1542349 + 
+                 8002797*\[Xi]^2 - 1578816*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6 + (849936 - 4052937*\[Xi]^2 + 911520*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8) - Subscript[c, \[Gamma]]^5*
+              (5120*\[Xi]^4*Subscript[s, \[Gamma]] - 8*\[Xi]^2*(-29267 + 
+                 18493*\[Xi]^2)*Subscript[s, \[Gamma]]^3 + 2*(36159 - 
+                 825116*\[Xi]^2 + 530868*\[Xi]^4)*Subscript[s, \[Gamma]]^5 - 
+               7*(28713 - 473854*\[Xi]^2 + 389592*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^7 + 3*(46744 - 743857*\[Xi]^2 + 
+                 729240*\[Xi]^4)*Subscript[s, \[Gamma]]^9) + 
+             Subscript[c, \[Gamma]]^3*(-34046*\[Xi]^4*Subscript[s, 
+                 \[Gamma]] + \[Xi]^2*(-399393 + 591664*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^3 - 3*(39648 - 1053625*\[Xi]^2 + 
+                 1135212*\[Xi]^4)*Subscript[s, \[Gamma]]^5 + (450225 - 
+                 8577386*\[Xi]^2 + 8354296*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 7 + (-557298 + 9685667*\[Xi]^2 - 9101474*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^9 + 24*(9432 - 162419*\[Xi]^2 + 
+                 152438*\[Xi]^4)*Subscript[s, \[Gamma]]^11) + 
+             \[Xi]*(-1 + Subscript[s, \[Gamma]]^2)*(176*\[Xi]^4 + 
+               (1152*\[Xi]^2 - 8092*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 3*
+                (-7548 - 67391*\[Xi]^2 + 31888*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^4 + (64434 + 1187614*\[Xi]^2 - 373612*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + (-36309 - 2484122*\[Xi]^2 + 
+                 647392*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + (-31185 + 
+                 2202060*\[Xi]^2 - 516944*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 10 + 3*(8568 - 234945*\[Xi]^2 + 51628*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^12) - \[Xi]*Subscript[c, \[Gamma]]^2*
+              (1384*\[Xi]^4 + (184907*\[Xi]^2 - 52004*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + (326591 - 2223970*\[Xi]^2 + 
+                 493904*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (-2080951 + 
+                 9252976*\[Xi]^2 - 1893640*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6 + 10*(462011 - 1753852*\[Xi]^2 + 336904*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 + (-4331313 + 15479676*\[Xi]^2 - 
+                 2810068*\[Xi]^4)*Subscript[s, \[Gamma]]^10 + 3*(488571 - 
+                 1720495*\[Xi]^2 + 298192*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 12) - Subscript[c, \[Gamma]]*(13514*\[Xi]^4*Subscript[s, 
+                 \[Gamma]] + (123159*\[Xi]^2 - 358356*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^3 + 2*(-6300 - 666661*\[Xi]^2 + 
+                 1237596*\[Xi]^4)*Subscript[s, \[Gamma]]^5 + (9198 + 
+                 4969413*\[Xi]^2 - 7261798*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 7 + 2*(27900 - 4168580*\[Xi]^2 + 5228877*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^9 + (-88983 + 6490230*\[Xi]^2 - 
+                 7323574*\[Xi]^4)*Subscript[s, \[Gamma]]^11 + 3*
+                (12195 - 637440*\[Xi]^2 + 665896*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^13)) - (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*
+            Subscript[m, \[Phi]]^6*(-36936*Subscript[c, \[Gamma]]^9*
+              Subscript[s, \[Gamma]]^5 + 432*\[Xi]*Subscript[c, \[Gamma]]^8*
+              Subscript[s, \[Gamma]]^4*(-1201 + 4659*Subscript[s, \[Gamma]]^
+                 2) + 9*\[Xi]*Subscript[c, \[Gamma]]^6*Subscript[s, \[Gamma]]^
+               2*(-57056*\[Xi]^2 + (-180791 + 630408*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (705594 - 2124864*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^4 + 54*(-12107 + 40684*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^6) - 18*Subscript[c, \[Gamma]]^7*
+              (37460*\[Xi]^2*Subscript[s, \[Gamma]]^3 - 3*(-7455 + 
+                 94754*\[Xi]^2)*Subscript[s, \[Gamma]]^5 + 9*(-2979 + 
+                 56462*\[Xi]^2)*Subscript[s, \[Gamma]]^7) - 
+             9*Subscript[c, \[Gamma]]^5*(21056*\[Xi]^4*Subscript[s, 
+                 \[Gamma]] - 4*\[Xi]^2*(-64043 + 81072*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^3 + 2*(30723 - 858241*\[Xi]^2 + 
+                 833232*\[Xi]^4)*Subscript[s, \[Gamma]]^5 - 3*(56339 - 
+                 1190123*\[Xi]^2 + 1152448*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 7 + 18*(6687 - 133633*\[Xi]^2 + 135880*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^9) + 3*\[Xi]*Subscript[c, \[Gamma]]^4*
+              (-8256*\[Xi]^4 + 86*\[Xi]^2*(-7005 + 2336*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 - 3*(195041 - 2042658*\[Xi]^2 + 
+                 506432*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 3*(1032085 - 
+                 7220262*\[Xi]^2 + 1646144*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6 - 18*(295744 - 1735553*\[Xi]^2 + 396720*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 + 54*(54495 - 294031*\[Xi]^2 + 
+                 69104*\[Xi]^4)*Subscript[s, \[Gamma]]^10) + 
+             Subscript[c, \[Gamma]]^3*(-683664*\[Xi]^4*Subscript[s, 
+                 \[Gamma]] + 37*\[Xi]^2*(-110733 + 266656*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^3 - 6*(162360 - 5486455*\[Xi]^2 + 
+                 8536598*\[Xi]^4)*Subscript[s, \[Gamma]]^5 + 9*(406869 - 
+                 10064661*\[Xi]^2 + 13339448*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 7 - 81*(55917 - 1282385*\[Xi]^2 + 1593704*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^9 + 243*(7600 - 174837*\[Xi]^2 + 
+                 213744*\[Xi]^4)*Subscript[s, \[Gamma]]^11) - 
+             \[Xi]*Subscript[c, \[Gamma]]^2*(40320*\[Xi]^4 - 12*\[Xi]^2*
+                (-200729 + 94444*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
+               (2929851 - 28287684*\[Xi]^2 + 9315616*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 - 3*(6187815 - 39167700*\[Xi]^2 + 
+                 11134976*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 9*(4610721 - 
+                 24877042*\[Xi]^2 + 6516800*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 8 - 27*(1457051 - 7393246*\[Xi]^2 + 1843440*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^10 + 162*(83222 - 416527*\[Xi]^2 + 
+                 101184*\[Xi]^4)*Subscript[s, \[Gamma]]^12) + 
+             Subscript[c, \[Gamma]]*(-195408*\[Xi]^4*Subscript[s, \[Gamma]] + 
+               28*\[Xi]^2*(-53634 + 190271*\[Xi]^2)*Subscript[s, \[Gamma]]^
+                 3 - 6*(-8100 - 2643289*\[Xi]^2 + 6132570*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^5 + 6*(31725 - 9750815*\[Xi]^2 + 
+                 18289426*\[Xi]^4)*Subscript[s, \[Gamma]]^7 - 18*
+                (51552 - 5462205*\[Xi]^2 + 9046652*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^9 + 81*(13483 - 953222*\[Xi]^2 + 
+                 1465120*\[Xi]^4)*Subscript[s, \[Gamma]]^11 - 81*
+                (4977 - 284424*\[Xi]^2 + 418828*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^13) + 6*\[Xi]*(-352*\[Xi]^4 + 4*\[Xi]^2*
+                (-1059 + 5696*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
+               (15462 + 464527*\[Xi]^2 - 284440*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^4 + (-9189 - 3175786*\[Xi]^2 + 1313008*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + (-163386 + 8624421*\[Xi]^2 - 
+                 2967764*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 3*(131661 - 
+                 3825433*\[Xi]^2 + 1186588*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 10 - 36*(9456 - 207993*\[Xi]^2 + 60614*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^12 + 27*(3798 - 71125*\[Xi]^2 + 
+                 19972*\[Xi]^4)*Subscript[s, \[Gamma]]^14))))/
+         (24*Sqrt[2]*\[Xi]^5*(1 + 4*\[Xi]^2)^(5/2)*Subscript[m, K]^12*
+          Subscript[v, EW]^5) + (QuantumField[h]^3*Subscript[s, \[Gamma]]^2*
+          (-18*Subscript[c, \[Gamma]]^7*((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 
+              3*Subscript[m, \[Phi]]^2)^2*((1 + 4*\[Xi]^2)^2*Subscript[m, 
+                K]^4 - 5*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, 
+                \[Phi]]^2 + 6*Subscript[m, \[Phi]]^4)*Subscript[s, \[Gamma]]^
+             4 + 6*\[Xi]*Subscript[c, \[Gamma]]^6*
+            ((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)*
+            Subscript[s, \[Gamma]]^3*(9*Subscript[m, \[Phi]]^6*
+              (85 - 237*Subscript[s, \[Gamma]]^2) + (1 + 4*\[Xi]^2)^3*
+              Subscript[m, K]^6*(-8 + 125*Subscript[s, \[Gamma]]^2) + 
+             3*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^4*
+              (-239 + 858*Subscript[s, \[Gamma]]^2) - (1 + 4*\[Xi]^2)^2*
+              Subscript[m, K]^4*Subscript[m, \[Phi]]^2*(-179 + 999*
+                Subscript[s, \[Gamma]]^2)) - 3*Subscript[c, \[Gamma]]^5*
+            Subscript[s, \[Gamma]]^2*((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*
+              (8*\[Xi]^2 + (117 - 238*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 2*
+                (-68 + 497*\[Xi]^2)*Subscript[s, \[Gamma]]^4) + 
+             54*Subscript[m, \[Phi]]^8*(150*\[Xi]^2 + (45 - 776*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (-64 + 990*\[Xi]^2)*
                 Subscript[s, \[Gamma]]^4) - (1 + 4*\[Xi]^2)^3*
               Subscript[m, K]^6*Subscript[m, \[Phi]]^2*(436*\[Xi]^2 + 
-               (894 - 4267*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (-1145 + 
-                 8211*\[Xi]^2)*Subscript[s, \[Gamma]]^4)) + 
+               (1149 - 4907*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 7*
+                (-200 + 1653*\[Xi]^2)*Subscript[s, \[Gamma]]^4) - 
+             3*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^6*
+              (3182*\[Xi]^2 - 3*(-573 + 6452*\[Xi]^2)*Subscript[s, \[Gamma]]^
+                 2 + 9*(-253 + 3132*\[Xi]^2)*Subscript[s, \[Gamma]]^4) + 
+             (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^4*
+              (3508*\[Xi]^2 + (3807 - 27237*\[Xi]^2)*Subscript[s, \[Gamma]]^
+                 2 + 9*(-535 + 5331*\[Xi]^2)*Subscript[s, \[Gamma]]^4)) + 
            \[Xi]*Subscript[c, \[Gamma]]^4*Subscript[s, \[Gamma]]*
             (2*(1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*
-              (-210 + 51*\[Xi]^2 + (416 - 621*\[Xi]^2)*Subscript[s, \[Gamma]]^
-                 2 + 6*(-52 + 135*\[Xi]^2)*Subscript[s, \[Gamma]]^4) + 
-             54*Subscript[m, \[Phi]]^8*(-368*\[Xi]^2 + (-438 + 2696*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + (1743 - 6396*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^4 + 60*(-28 + 81*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^6) - 3*(1 + 4*\[Xi]^2)*
-              Subscript[m, K]^2*Subscript[m, \[Phi]]^6*(-5972*\[Xi]^2 + 3*
-                (-4681 + 17176*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 27*
-                (-1949 + 5096*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 108*
-                (-451 + 1038*\[Xi]^2)*Subscript[s, \[Gamma]]^6) + 
-             6*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^4*
-              (-792*\[Xi]^2 + (-4103 + 8881*\[Xi]^2)*Subscript[s, \[Gamma]]^
-                 2 - 3*(-4805 + 9456*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 9*
-                (-1448 + 2813*\[Xi]^2)*Subscript[s, \[Gamma]]^6) - 
-             3*(1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, \[Phi]]^2*
-              (-88*\[Xi]^2 + (-1873 + 2001*\[Xi]^2)*Subscript[s, \[Gamma]]^
-                 2 + (5760 - 9036*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 
-               (-5047 + 9255*\[Xi]^2)*Subscript[s, \[Gamma]]^6)) + 
+              (-270 + 51*\[Xi]^2 + (431 - 741*\[Xi]^2)*Subscript[s, \[Gamma]]^
+                 2 + 6*(-47 + 195*\[Xi]^2)*Subscript[s, \[Gamma]]^4) + 
+             54*Subscript[m, \[Phi]]^8*(-448*\[Xi]^2 + (-543 + 3336*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (2118 - 8076*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^4 + 150*(-13 + 42*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^6) + 6*(1 + 4*\[Xi]^2)^2*
+              Subscript[m, K]^4*Subscript[m, \[Phi]]^4*(-952*\[Xi]^2 + 
+               (-5203 + 11021*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
+               (18075 - 36528*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 9*
+                (-1773 + 3833*\[Xi]^2)*Subscript[s, \[Gamma]]^6) - 
+             3*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^6*
+              (-7252*\[Xi]^2 + 63*(-281 + 1016*\[Xi]^2)*Subscript[s, 
+                  \[Gamma]]^2 - 9*(-7277 + 19528*\[Xi]^2)*Subscript[s, 
+                  \[Gamma]]^4 + 27*(-2169 + 5512*\[Xi]^2)*Subscript[s, 
+                  \[Gamma]]^6) - 3*(1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*
+              Subscript[m, \[Phi]]^2*(-88*\[Xi]^2 + (-2363 + 2401*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (7010 - 11556*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^4 + (-6022 + 12975*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^6)) - 3*\[Xi]*Subscript[c, \[Gamma]]^2*
+            Subscript[s, \[Gamma]]*((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*
+              (-1 + Subscript[s, \[Gamma]]^2)*(-6*\[Xi]^2 + (-23 + 
+                 173*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (34 - 363*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^4 + (-11 + 19*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^6) + (1 + 4*\[Xi]^2)^2*
+              Subscript[m, K]^4*Subscript[m, \[Phi]]^4*(5766*\[Xi]^2 + 
+               (9553 - 55510*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (-45323 + 
+                 176186*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + (69330 - 
+                 223806*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 72*(-472 + 
+                 1381*\[Xi]^2)*Subscript[s, \[Gamma]]^8) + 
+             2*Subscript[m, \[Phi]]^8*(5664*\[Xi]^2 + (5400 - 54760*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + 9*(-2991 + 20132*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^4 - 54*(-793 + 4564*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^6 + 27*(-819 + 4376*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^8) - (1 + 4*\[Xi]^2)^3*
+              Subscript[m, K]^6*Subscript[m, \[Phi]]^2*(581*\[Xi]^2 + 
+               (1524 - 6399*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (-6723 + 
+                 20470*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + (9742 - 
+                 24635*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + (-4572 + 
+                 10181*\[Xi]^2)*Subscript[s, \[Gamma]]^8) - 
+             (1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^6*
+              (16236*\[Xi]^2 - 2*(-9189 + 74714*\[Xi]^2)*Subscript[s, 
+                  \[Gamma]]^2 + 12*(-7531 + 39450*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^4 - 9*(-15775 + 68404*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^6 + 27*(-2645 + 10456*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^8)) - 3*Subscript[c, \[Gamma]]^3*
+            ((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*
+              (59*\[Xi]^2 + (8 - 549*\[Xi]^2 + 67*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + (-38 + 431*\[Xi]^2 - 302*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 + 5*(6 - \[Xi]^2 + 47*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6) - (1 + 4*\[Xi]^2)^3*
+              Subscript[m, K]^6*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^
+               2*(1858*\[Xi]^2 - 338*\[Xi]^4 + 2*(371 - 6278*\[Xi]^2 + 
+                 1593*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (-2025 + 
+                 20524*\[Xi]^2 - 8218*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 3*
+                (445 - 3680*\[Xi]^2 + 1902*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6) + 2*Subscript[m, \[Phi]]^8*(1792*\[Xi]^4 - 24*\[Xi]^2*
+                (-345 + 712*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 81*
+                (23 - 660*\[Xi]^2 + 736*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 
+               27*(171 - 3978*\[Xi]^2 + 3328*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6 + 81*(39 - 836*\[Xi]^2 + 608*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^8) - (1 + 4*\[Xi]^2)*Subscript[m, K]^2*
+              Subscript[m, \[Phi]]^6*(2464*\[Xi]^4 + (26030*\[Xi]^2 - 
+                 28344*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 6*(1143 - 
+                 27118*\[Xi]^2 + 18836*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 9*
+                (1961 - 34728*\[Xi]^2 + 20688*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6 + 27*(437 - 7042*\[Xi]^2 + 3968*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8) + (1 + 4*\[Xi]^2)^2*
+              Subscript[m, K]^4*Subscript[m, \[Phi]]^4*(352*\[Xi]^4 + 
+               (12007*\[Xi]^2 - 6392*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
+               (3990 - 75940*\[Xi]^2 + 33232*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4 - 3*(3506 - 46513*\[Xi]^2 + 21384*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + 9*(771 - 9136*\[Xi]^2 + 
+                 4428*\[Xi]^4)*Subscript[s, \[Gamma]]^8)) + 
            3*\[Xi]*Subscript[s, \[Gamma]]*((1 + 4*\[Xi]^2)^4*Subscript[m, 
                 K]^8*Subscript[s, \[Gamma]]^2*(-1 + Subscript[s, \[Gamma]]^2)^
-               2*(9 + 34*\[Xi]^2 + (6 - 82*\[Xi]^2)*Subscript[s, \[Gamma]]^
-                 2 + 15*(-1 + 3*\[Xi]^2)*Subscript[s, \[Gamma]]^4) + 
-             6*Subscript[m, \[Phi]]^8*Subscript[s, \[Gamma]]^2*
-              (-2 + 3*Subscript[s, \[Gamma]]^2)*(-952*\[Xi]^2 + (-135 + 
-                 4316*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (270 - 
-                 6348*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 27*
-                (-5 + 112*\[Xi]^2)*Subscript[s, \[Gamma]]^6) - 
-             (1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, \[Phi]]^2*
-              (-1 + Subscript[s, \[Gamma]]^2)*(6*\[Xi]^2 - (108 + 
-                 835*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 39*(3 + 83*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^4 + (126 - 4037*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^6 + 9*(-15 + 179*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^8) + (1 + 4*\[Xi]^2)^2*
+               2*(-21 + 19*\[Xi]^2 + (176 - 87*\[Xi]^2)*Subscript[s, 
+                  \[Gamma]]^2 + 5*(-33 + 13*\[Xi]^2)*Subscript[s, \[Gamma]]^
+                 4) - (1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, 
+                \[Phi]]^2*(-1 + Subscript[s, \[Gamma]]^2)*(66*\[Xi]^2 + 
+               (982 - 1635*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (-5133 + 
+                 6112*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + (7541 - 
+                 7667*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 6*(-565 + 
+                 511*\[Xi]^2)*Subscript[s, \[Gamma]]^8) + (1 + 4*\[Xi]^2)^2*
               Subscript[m, K]^4*Subscript[m, \[Phi]]^4*(-1 + Subscript[s, 
-                 \[Gamma]]^2)*(66*\[Xi]^2 - 23*(9 + 262*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + 181*(-3 + 142*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^4 - 6*(-363 + 6037*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^6 + 18*(-81 + 922*\[Xi]^2)*
+                 \[Gamma]]^2)*(826*\[Xi]^2 + (5683 - 14616*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (-27283 + 53112*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^4 + (38958 - 69792*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^6 + 54*(-322 + 569*\[Xi]^2)*
                 Subscript[s, \[Gamma]]^8) - (1 + 4*\[Xi]^2)*Subscript[m, K]^2*
               Subscript[m, \[Phi]]^6*(-1 + Subscript[s, \[Gamma]]^2)*
-              (72*\[Xi]^2 - 4*(27 + 3737*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
-               3*(-705 + 23428*\[Xi]^2)*Subscript[s, \[Gamma]]^4 - 18*
-                (-321 + 6094*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 27*
-                (-135 + 2092*\[Xi]^2)*Subscript[s, \[Gamma]]^8)) - 
-           3*\[Xi]*Subscript[c, \[Gamma]]^2*Subscript[s, \[Gamma]]*
-            ((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*(-1 + Subscript[s, \[Gamma]]^
-                2)*(-6*\[Xi]^2 + (-43 + 143*\[Xi]^2)*Subscript[s, \[Gamma]]^
-                 2 + (199 - 343*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 
-               (-161 + 139*\[Xi]^2)*Subscript[s, \[Gamma]]^6) + 
-             4*Subscript[m, \[Phi]]^8*(2232*\[Xi]^2 + (2430 - 21740*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + 36*(-342 + 2009*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^4 - 162*(-123 + 614*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^6 + 27*(-387 + 1798*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^8) - 2*(1 + 4*\[Xi]^2)*
-              Subscript[m, K]^2*Subscript[m, \[Phi]]^6*(6358*\[Xi]^2 + 
-               (8394 - 58554*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 3*
-                (-13957 + 61580*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 
-               (65970 - 240138*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 54*
-                (-615 + 2044*\[Xi]^2)*Subscript[s, \[Gamma]]^8) + 
-             (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^4*
-              (4656*\[Xi]^2 + (9103 - 44430*\[Xi]^2)*Subscript[s, \[Gamma]]^
-                 2 + 2*(-22264 + 69513*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 
-               (67995 - 174786*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 18*
-                (-1828 + 4269*\[Xi]^2)*Subscript[s, \[Gamma]]^8) - 
-             (1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, \[Phi]]^2*
-              (491*\[Xi]^2 + (1604 - 5379*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
-               (-7803 + 17090*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 
-               (11557 - 20635*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 
-               (-5367 + 8531*\[Xi]^2)*Subscript[s, \[Gamma]]^8)) - 
-           3*Subscript[c, \[Gamma]]^3*((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*
-              Subscript[s, \[Gamma]]^2*(59*\[Xi]^2 + (23 - 439*\[Xi]^2 + 
-                 67*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (-68 + 611*\[Xi]^2 - 
-                 222*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 5*(9 - 52*\[Xi]^2 + 
-                 31*\[Xi]^4)*Subscript[s, \[Gamma]]^6) - 2*(1 + 4*\[Xi]^2)^3*
-              Subscript[m, K]^6*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^
-               2*(829*\[Xi]^2 - 169*\[Xi]^4 + (371 - 5543*\[Xi]^2 + 
-                 1353*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (-990 + 
-                 10107*\[Xi]^2 - 2989*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 3*
-                (215 - 1920*\[Xi]^2 + 631*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 6) + Subscript[m, \[Phi]]^8*(2944*\[Xi]^4 - 48*\[Xi]^2*
-                (-315 + 572*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 9*
-                (369 - 10940*\[Xi]^2 + 10368*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 - 108*(78 - 1849*\[Xi]^2 + 1264*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + 81*(73 - 1572*\[Xi]^2 + 
-                 896*\[Xi]^4)*Subscript[s, \[Gamma]]^8) - 2*(1 + 4*\[Xi]^2)*
-              Subscript[m, K]^2*Subscript[m, \[Phi]]^6*(1072*\[Xi]^4 + 
-               (11615*\[Xi]^2 - 11772*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 9*
-                (341 - 8171*\[Xi]^2 + 4972*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 - 9*(888 - 15949*\[Xi]^2 + 7784*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + 27*(201 - 3256*\[Xi]^2 + 
-                 1424*\[Xi]^4)*Subscript[s, \[Gamma]]^8) + (1 + 4*\[Xi]^2)^2*
-              Subscript[m, K]^4*Subscript[m, \[Phi]]^4*(352*\[Xi]^4 + 
-               (10687*\[Xi]^2 - 5672*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
-               (3660 - 68330*\[Xi]^2 + 26912*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 - 3*(3216 - 43393*\[Xi]^2 + 15864*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + 9*(711 - 8611*\[Xi]^2 + 
-                 3068*\[Xi]^4)*Subscript[s, \[Gamma]]^8)) + 
-           Subscript[c, \[Gamma]]*((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*
-              Subscript[s, \[Gamma]]^2*(-1 + Subscript[s, \[Gamma]]^2)*
-              (60*\[Xi]^2 - 19*\[Xi]^4 + (-27 - 447*\[Xi]^2 + 170*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 + (9 + 870*\[Xi]^2 - 229*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 + 6*(3 - 76*\[Xi]^2 + 13*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6) - 3*(1 + 4*\[Xi]^2)^3*
-              Subscript[m, K]^6*Subscript[m, \[Phi]]^2*(-1 + Subscript[s, 
-                 \[Gamma]]^2)*(18*\[Xi]^4 + (649*\[Xi]^2 - 462*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 + (-81 - 4682*\[Xi]^2 + 
-                 2408*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (-48 + 
-                 9206*\[Xi]^2 - 3716*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 4*
-                (36 - 1302*\[Xi]^2 + 439*\[Xi]^4)*Subscript[s, \[Gamma]]^8) + 
+              (1672*\[Xi]^2 + (9942 - 34308*\[Xi]^2)*Subscript[s, \[Gamma]]^
+                 2 + 3*(-15395 + 44508*\[Xi]^2)*Subscript[s, \[Gamma]]^4 - 27*
+                (-2399 + 6996*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 108*
+                (-265 + 838*\[Xi]^2)*Subscript[s, \[Gamma]]^8) + 
+             6*Subscript[m, \[Phi]]^8*(-160*\[Xi]^2 + (-900 + 4144*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (4995 - 20528*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^4 + 24*(-405 + 1726*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^6 - 9*(-895 + 4188*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^8 + 54*(-45 + 238*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^10)) + Subscript[c, \[Gamma]]*
+            (-((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*(
+                -1 + Subscript[s, \[Gamma]]^2)*(\[Xi]^2*(-105 + 19*\[Xi]^2) + 
+                (-33 + 522*\[Xi]^2 - 170*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
+                (111 - 1395*\[Xi]^2 + 94*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
+                (-78 + 891*\[Xi]^2 + 57*\[Xi]^4)*Subscript[s, \[Gamma]]^6)) + 
              3*Subscript[m, \[Phi]]^8*Subscript[s, \[Gamma]]^2*
-              (4*\[Xi]^2*(-1575 + 2704*\[Xi]^2) - 8*\[Xi]^2*(-7029 + 
-                 9728*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 9*(135 - 
-                 18304*\[Xi]^2 + 22544*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 
-               162*(15 - 1222*\[Xi]^2 + 1416*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 6 + 27*(45 - 3120*\[Xi]^2 + 3536*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8) + 3*(1 + 4*\[Xi]^2)^2*
-              Subscript[m, K]^4*Subscript[m, \[Phi]]^4*(-200*\[Xi]^4 + 
-               \[Xi]^2*(-4817 + 4740*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
-               (153 + 39199*\[Xi]^2 - 26976*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 + (594 - 104783*\[Xi]^2 + 59896*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 - 3*(582 - 37981*\[Xi]^2 + 
-                 19264*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 9*(111 - 
-                 4840*\[Xi]^2 + 2268*\[Xi]^4)*Subscript[s, \[Gamma]]^10) - 
-             (1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^6*
-              (-1392*\[Xi]^4 + (-30546*\[Xi]^2 + 41992*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 - 3*(-81 - 86246*\[Xi]^2 + 
-                 84256*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 72*
-                (72 - 10053*\[Xi]^2 + 8297*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 6 - 54*(213 - 15351*\[Xi]^2 + 11476*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8 + 81*(75 - 4134*\[Xi]^2 + 
-                 2920*\[Xi]^4)*Subscript[s, \[Gamma]]^10))))/
+              (4*\[Xi]^2*(-3555 + 3424*\[Xi]^2) + (-2025 + 113112*\[Xi]^2 - 
+                 97984*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 18*(405 - 
+                 16762*\[Xi]^2 + 14032*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 27*
+                (315 - 12332*\[Xi]^2 + 10416*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6 + 108*(30 - 1215*\[Xi]^2 + 1064*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8) - 3*(1 + 4*\[Xi]^2)^3*
+              Subscript[m, K]^6*Subscript[m, \[Phi]]^2*(-1 + Subscript[s, 
+                 \[Gamma]]^2)*(18*\[Xi]^4 - 69*\[Xi]^2*(-21 + 8*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (454 - 9627*\[Xi]^2 + 
+                 2948*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 2*(629 - 
+                 9618*\[Xi]^2 + 2128*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
+               (819 - 11103*\[Xi]^2 + 1786*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 8) - (1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^
+               6*(-2352*\[Xi]^4 + (-69426*\[Xi]^2 + 59272*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 - 6*(1962 - 89983*\[Xi]^2 + 
+                 57248*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 9*(4821 - 
+                 157024*\[Xi]^2 + 88176*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 
+               27*(1921 - 56502*\[Xi]^2 + 29952*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^8 + 162*(125 - 3607*\[Xi]^2 + 1880*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^10) + 3*(1 + 4*\[Xi]^2)^2*
+              Subscript[m, K]^4*Subscript[m, \[Phi]]^4*(-320*\[Xi]^4 + 64*
+                \[Xi]^2*(-173 + 105*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
+               (-2382 + 84419*\[Xi]^2 - 37056*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4 + (8919 - 217243*\[Xi]^2 + 80416*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 - 3*(3607 - 76461*\[Xi]^2 + 
+                 25384*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 9*(476 - 
+                 9505*\[Xi]^2 + 2948*\[Xi]^4)*Subscript[s, \[Gamma]]^10))))/
          (6*Sqrt[2]*\[Xi]^4*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^10*
-          Subscript[v, EW]^4) + (h^2*Subscript[s, \[Gamma]]^2*
+          Subscript[v, EW]^4) + (QuantumField[h]^2*Subscript[s, \[Gamma]]^2*
           ((1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[s, \[Gamma]]*
             (-12*Subscript[c, \[Gamma]]^5*Subscript[s, \[Gamma]]^2 + 
              2*\[Xi]*Subscript[c, \[Gamma]]^4*Subscript[s, \[Gamma]]*
@@ -8114,7 +8189,7 @@
                  4 - 3*(-741 + 560*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 18*
                 (-51 + 38*\[Xi]^2)*Subscript[s, \[Gamma]]^8))))/
          (2*Sqrt[2]*\[Xi]^3*(1 + 4*\[Xi]^2)^(3/2)*Subscript[m, K]^8*
-          Subscript[v, EW]^3) + (h*Subscript[s, \[Gamma]]^2*
+          Subscript[v, EW]^3) + (QuantumField[h]*Subscript[s, \[Gamma]]^2*
           (-3*Subscript[c, \[Gamma]]^3*((1 + 4*\[Xi]^2)^2*Subscript[m, K]^4 - 
              5*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^2 + 
              6*Subscript[m, \[Phi]]^4)*Subscript[s, \[Gamma]]^2 + 
@@ -8146,7 +8221,7 @@
           Subscript[v, EW])), CQ2V12Dh -> 
       t*((2*Sqrt[2]*\[Xi]*(\[Xi]*Subscript[c, \[Gamma]] + 
            Subscript[s, \[Gamma]]))/((1 + 4*\[Xi]^2)*Subscript[m, \[Phi]]^
-           2) - (h^4*(-6*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^12*
+           2) - (QuantumField[h]^4*(-6*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^12*
             Subscript[s, \[Gamma]]^5*(-1 + Subscript[s, \[Gamma]]^2)^2 + 
            (1 + 4*\[Xi]^2)*Subscript[m, K]^10*Subscript[m, \[Phi]]^2*
             Subscript[s, \[Gamma]]^3*(-1 + Subscript[s, \[Gamma]]^2)*
@@ -8155,159 +8230,171 @@
                2 + (\[Xi]^2 - 952*\[Xi]^4 - 2096*\[Xi]^6 + 1920*\[Xi]^8 - 
                1536*\[Xi]^10)*Subscript[s, \[Gamma]]^4 + 
              (\[Xi] + 4*\[Xi]^3)^2*(37 + 12*\[Xi]^2 + 96*\[Xi]^4)*
-              Subscript[s, \[Gamma]]^6) + Subscript[m, K]^6*
+              Subscript[s, \[Gamma]]^6) + Subscript[m, \[Phi]]^12*
+            Subscript[s, \[Gamma]]^3*(7680*\[Xi]^4 + (56484*\[Xi]^2 - 116224*
+                \[Xi]^4)*Subscript[s, \[Gamma]]^2 + (7047 - 331830*\[Xi]^2 + 
+               515760*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 
+             27*(783 - 25612*\[Xi]^2 + 36968*\[Xi]^4)*Subscript[s, \[Gamma]]^
+               6 + 27*(783 - 22650*\[Xi]^2 + 32936*\[Xi]^4)*Subscript[s, 
+                \[Gamma]]^8 - 81*(87 - 2412*\[Xi]^2 + 3688*\[Xi]^4)*
+              Subscript[s, \[Gamma]]^10) + Subscript[m, K]^6*
             Subscript[m, \[Phi]]^6*Subscript[s, \[Gamma]]^3*
-            (8*\[Xi]^2*(9 + 235*\[Xi]^2 + 3384*\[Xi]^4 + 8552*\[Xi]^6 - 1440*
-                \[Xi]^8) + \[Xi]^2*(-295 - 17661*\[Xi]^2 - 249860*\[Xi]^4 - 
-               886832*\[Xi]^6 + 278848*\[Xi]^8)*Subscript[s, \[Gamma]]^2 + 
-             (-993 - 12512*\[Xi]^2 + 56804*\[Xi]^4 + 1128848*\[Xi]^6 + 
-               3031744*\[Xi]^8 - 1218816*\[Xi]^10)*Subscript[s, \[Gamma]]^4 + 
-             3*(1217 + 10679*\[Xi]^2 - 60144*\[Xi]^4 - 748424*\[Xi]^6 - 
-               1441728*\[Xi]^8 + 709760*\[Xi]^10)*Subscript[s, \[Gamma]]^6 - 
-             2*(2184 + 12027*\[Xi]^2 - 123676*\[Xi]^4 - 947760*\[Xi]^6 - 
-               1393632*\[Xi]^8 + 831872*\[Xi]^10)*Subscript[s, \[Gamma]]^8 + 
-             3*(1 + 4*\[Xi]^2)^3*(570 - 5376*\[Xi]^2 + 2531*\[Xi]^4)*
-              Subscript[s, \[Gamma]]^10) + Subscript[m, K]^4*
-            Subscript[m, \[Phi]]^8*Subscript[s, \[Gamma]]^3*
-            (16*\[Xi]^2*(-3 - 763*\[Xi]^2 - 3716*\[Xi]^4 + 1872*\[Xi]^6) + 
-             (7281*\[Xi]^2 + 208574*\[Xi]^4 + 934160*\[Xi]^6 - 545760*
-                \[Xi]^8)*Subscript[s, \[Gamma]]^2 + 3*(1899 - 5637*\[Xi]^2 - 
-               353930*\[Xi]^4 - 1257216*\[Xi]^6 + 808032*\[Xi]^8)*
-              Subscript[s, \[Gamma]]^4 + (-19737 + 50082*\[Xi]^2 + 2254608*
-                \[Xi]^4 + 6240960*\[Xi]^6 - 4457856*\[Xi]^8)*Subscript[s, 
-                \[Gamma]]^6 + 27*(835 - 3125*\[Xi]^2 - 77090*\[Xi]^4 - 169184*
-                \[Xi]^6 + 136288*\[Xi]^8)*Subscript[s, \[Gamma]]^8 - 
-             27*(1 + 4*\[Xi]^2)^2*(315 - 4153*\[Xi]^2 + 2614*\[Xi]^4)*
-              Subscript[s, \[Gamma]]^10) + Subscript[m, \[Phi]]^12*
-            Subscript[s, \[Gamma]]^3*(4800*\[Xi]^4 + (40284*\[Xi]^2 - 75904*
-                \[Xi]^4)*Subscript[s, \[Gamma]]^2 + 3*(2349 - 82260*\[Xi]^2 + 
-               117680*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 
-             27*(783 - 19762*\[Xi]^2 + 26448*\[Xi]^4)*Subscript[s, \[Gamma]]^
-               6 + 27*(783 - 18000*\[Xi]^2 + 24536*\[Xi]^4)*Subscript[s, 
-                \[Gamma]]^8 - 81*(87 - 1962*\[Xi]^2 + 2848*\[Xi]^4)*
+            (4*\[Xi]^2*(18 + 425*\[Xi]^2 + 6228*\[Xi]^4 + 14944*\[Xi]^6 - 
+               5760*\[Xi]^8) + \[Xi]^2*(-3565 - 54321*\[Xi]^2 - 375860*
+                \[Xi]^4 - 972272*\[Xi]^6 + 443968*\[Xi]^8)*Subscript[s, 
+                \[Gamma]]^2 + (-993 + 6508*\[Xi]^2 + 274019*\[Xi]^4 + 1909508*
+                \[Xi]^6 + 3719824*\[Xi]^8 - 1924416*\[Xi]^10)*
+              Subscript[s, \[Gamma]]^4 + (3651 - 5958*\[Xi]^2 - 616857*
+                \[Xi]^4 - 3834852*\[Xi]^6 - 5820144*\[Xi]^8 + 3378240*
+                \[Xi]^10)*Subscript[s, \[Gamma]]^6 + (-4368 + 7956*\[Xi]^2 + 
+               616217*\[Xi]^4 + 3248940*\[Xi]^6 + 4103664*\[Xi]^8 - 2640064*
+                \[Xi]^10)*Subscript[s, \[Gamma]]^8 + 3*(1 + 4*\[Xi]^2)^3*
+              (570 - 8631*\[Xi]^2 + 3986*\[Xi]^4)*Subscript[s, \[Gamma]]^
+               10) + Subscript[m, K]^4*Subscript[m, \[Phi]]^8*
+            Subscript[s, \[Gamma]]^3*(8*\[Xi]^2*(-6 - 1241*\[Xi]^2 - 5152*
+                \[Xi]^4 + 8304*\[Xi]^6) + (24951*\[Xi]^2 + 321884*\[Xi]^4 + 
+               992480*\[Xi]^6 - 994560*\[Xi]^8)*Subscript[s, \[Gamma]]^2 + 
+             3*(1899 - 38267*\[Xi]^2 - 578970*\[Xi]^4 - 1491296*\[Xi]^6 + 
+               1384032*\[Xi]^8)*Subscript[s, \[Gamma]]^4 - 
+             9*(2193 - 26738*\[Xi]^2 - 399572*\[Xi]^4 - 869600*\[Xi]^6 + 
+               820544*\[Xi]^8)*Subscript[s, \[Gamma]]^6 + 
+             9*(2505 - 26945*\[Xi]^2 - 355930*\[Xi]^4 - 661472*\[Xi]^6 + 
+               663264*\[Xi]^8)*Subscript[s, \[Gamma]]^8 - 
+             27*(1 + 4*\[Xi]^2)^2*(315 - 5923*\[Xi]^2 + 4184*\[Xi]^4)*
               Subscript[s, \[Gamma]]^10) + Subscript[m, K]^2*
             Subscript[m, \[Phi]]^10*Subscript[s, \[Gamma]]^3*
-            (192*\[Xi]^4*(51 - 112*\[Xi]^2) + 4*\[Xi]^2*(-9849 - 78830*
-                \[Xi]^2 + 90568*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
-             (-11313 + 227823*\[Xi]^2 + 1587464*\[Xi]^4 - 1658224*\[Xi]^6)*
-              Subscript[s, \[Gamma]]^4 + 9*(4080 - 57899*\[Xi]^2 - 339004*
-                \[Xi]^4 + 358144*\[Xi]^6)*Subscript[s, \[Gamma]]^6 - 
-             27*(1463 - 19285*\[Xi]^2 - 93184*\[Xi]^4 + 105200*\[Xi]^6)*
-              Subscript[s, \[Gamma]]^8 + 27*(522 - 6969*\[Xi]^2 - 27580*
-                \[Xi]^4 + 34592*\[Xi]^6)*Subscript[s, \[Gamma]]^10) + 
+            (384*\[Xi]^4*(13 - 106*\[Xi]^2) + (-69546*\[Xi]^2 - 373040*
+                \[Xi]^4 + 613792*\[Xi]^6)*Subscript[s, \[Gamma]]^2 + 
+             (-11313 + 390183*\[Xi]^2 + 1989104*\[Xi]^4 - 2649424*\[Xi]^6)*
+              Subscript[s, \[Gamma]]^4 + 18*(2040 - 46127*\[Xi]^2 - 214472*
+                \[Xi]^4 + 274032*\[Xi]^6)*Subscript[s, \[Gamma]]^6 - 
+             27*(1463 - 28615*\[Xi]^2 - 117924*\[Xi]^4 + 155520*\[Xi]^6)*
+              Subscript[s, \[Gamma]]^8 + 54*(261 - 4872*\[Xi]^2 - 17450*
+                \[Xi]^4 + 24856*\[Xi]^6)*Subscript[s, \[Gamma]]^10) + 
            Subscript[m, K]^8*Subscript[m, \[Phi]]^4*Subscript[s, \[Gamma]]*
             (-24*\[Xi]^4*(3 + 12*\[Xi]^2 + 16*\[Xi]^4) + 
              \[Xi]^2*(105 - 1348*\[Xi]^2 + 2696*\[Xi]^4 + 11968*\[Xi]^6 - 
                3968*\[Xi]^8)*Subscript[s, \[Gamma]]^2 + 
-             (-66 + 1025*\[Xi]^2 - 398*\[Xi]^4 + 35280*\[Xi]^6 + 18784*
-                \[Xi]^8 + 120320*\[Xi]^10 - 34816*\[Xi]^12)*Subscript[s, 
-                \[Gamma]]^4 + (42 + 359*\[Xi]^2 - 5943*\[Xi]^4 - 41884*
-                \[Xi]^6 - 252272*\[Xi]^8 - 416576*\[Xi]^10 + 153088*\[Xi]^12)*
-              Subscript[s, \[Gamma]]^6 + (-171 - 1936*\[Xi]^2 - 51*\[Xi]^4 + 
-               91256*\[Xi]^6 + 450336*\[Xi]^8 + 606848*\[Xi]^10 - 261888*
-                \[Xi]^12)*Subscript[s, \[Gamma]]^8 + (1 + 4*\[Xi]^2)^2*
-              (216 + 552*\[Xi]^2 - 7841*\[Xi]^4 - 30844*\[Xi]^6 + 12736*
-                \[Xi]^8)*Subscript[s, \[Gamma]]^10 - (1 + 4*\[Xi]^2)^4*
-              (87 - 567*\[Xi]^2 + 235*\[Xi]^4)*Subscript[s, \[Gamma]]^12) + 
-           24*\[Xi]^2*Subscript[c, \[Gamma]]^6*Subscript[m, \[Phi]]^2*
+             (-66 + 1115*\[Xi]^2 + 1087*\[Xi]^4 + 44640*\[Xi]^6 + 46144*
+                \[Xi]^8 + 154880*\[Xi]^10 - 23296*\[Xi]^12)*Subscript[s, 
+                \[Gamma]]^4 + (42 - 331*\[Xi]^2 - 17058*\[Xi]^4 - 109324*
+                \[Xi]^6 - 436112*\[Xi]^8 - 612416*\[Xi]^10 + 133888*\[Xi]^12)*
+              Subscript[s, \[Gamma]]^6 + (-171 - 376*\[Xi]^2 + 24864*
+                \[Xi]^4 + 240296*\[Xi]^6 + 845376*\[Xi]^8 + 994688*\[Xi]^10 - 
+               273408*\[Xi]^12)*Subscript[s, \[Gamma]]^8 + 
+             2*(1 + 4*\[Xi]^2)^2*(108 - 429*\[Xi]^2 - 9493*\[Xi]^4 - 26162*
+                \[Xi]^6 + 7448*\[Xi]^8)*Subscript[s, \[Gamma]]^10 - 
+             (1 + 4*\[Xi]^2)^4*(87 - 1017*\[Xi]^2 + 295*\[Xi]^4)*
+              Subscript[s, \[Gamma]]^12) + 120*\[Xi]*Subscript[c, \[Gamma]]^7*
+            Subscript[m, \[Phi]]^4*((1 + 4*\[Xi]^2)*Subscript[m, K]^2 - 
+             3*Subscript[m, \[Phi]]^2)*((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 
+              3*Subscript[m, \[Phi]]^2)^2*Subscript[s, \[Gamma]]^4*
+            ((1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[s, \[Gamma]]^2 + 
+             Subscript[m, \[Phi]]^2*(1 - 3*Subscript[s, \[Gamma]]^2)) - 
+           3*Subscript[c, \[Gamma]]^6*Subscript[m, \[Phi]]^2*
             (2*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4 - 9*(1 + 4*\[Xi]^2)*
               Subscript[m, K]^2*Subscript[m, \[Phi]]^2 + 
              9*Subscript[m, \[Phi]]^4)*Subscript[s, \[Gamma]]^3*
-            ((1 + 4*\[Xi]^2)*Subscript[m, K]^6*Subscript[s, \[Gamma]]^2 + 
-             9*Subscript[m, \[Phi]]^6*Subscript[s, \[Gamma]]^4 + 
-             Subscript[m, K]^4*Subscript[m, \[Phi]]^2*
-              (1 + (-13 - 36*\[Xi]^2 + 16*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 2) - Subscript[m, K]^2*Subscript[m, \[Phi]]^4*
-              (10 - 4*\[Xi]^2 + 6*(-5 + 2*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
-               3*(1 + 4*\[Xi]^2)*Subscript[s, \[Gamma]]^4)) + 
+            (-8*\[Xi]^2*(1 + 4*\[Xi]^2)*Subscript[m, K]^6*Subscript[s, 
+                \[Gamma]]^2 + Subscript[m, K]^4*Subscript[m, \[Phi]]^2*
+              (-8*\[Xi]^2 + (15 + 224*\[Xi]^2 + 528*\[Xi]^4 - 128*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^2 + 15*(1 + 4*\[Xi]^2)^2*
+                (-1 + 16*\[Xi]^2)*Subscript[s, \[Gamma]]^4) + 
+             Subscript[m, \[Phi]]^6*(160*\[Xi]^2 - 45*(-1 + 24*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + 9*(-5 + 192*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^4) - 4*Subscript[m, K]^2*
+              Subscript[m, \[Phi]]^4*(4*\[Xi]^2*(-5 + 2*\[Xi]^2) + 
+               (15 + 20*\[Xi]^2 - 424*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 3*
+                (-5 + 88*\[Xi]^2 + 432*\[Xi]^4)*Subscript[s, \[Gamma]]^4)) + 
            \[Xi]*Subscript[c, \[Gamma]]^5*(-6*(1 + 4*\[Xi]^2)^2*
-              Subscript[m, K]^12*Subscript[s, \[Gamma]]^4 - 
-             81*Subscript[m, \[Phi]]^12*Subscript[s, \[Gamma]]^6*
-              (-4*(5 + 38*\[Xi]^2) + 5*(11 + 72*\[Xi]^2)*Subscript[s, 
-                  \[Gamma]]^2) + (1 + 4*\[Xi]^2)*Subscript[m, K]^10*
-              Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^2*
-              (-216*\[Xi]^2 - 3*(-31 + 8*\[Xi]^2 + 336*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 + (1 + 4*\[Xi]^2)^2*(127 - 
-                 24*\[Xi]^2 + 96*\[Xi]^4)*Subscript[s, \[Gamma]]^4) + 
-             3*Subscript[m, K]^6*Subscript[m, \[Phi]]^6*Subscript[s, 
-                \[Gamma]]^2*(-40*\[Xi]^2*(7 - 76*\[Xi]^2 + 16*\[Xi]^4) - 
-               (229 + 4784*\[Xi]^2 + 3424*\[Xi]^4 - 24640*\[Xi]^6 + 
-                 2048*\[Xi]^8)*Subscript[s, \[Gamma]]^2 + (2113 + 
-                 5334*\[Xi]^2 - 40848*\[Xi]^4 - 112736*\[Xi]^6 + 
-                 3072*\[Xi]^8)*Subscript[s, \[Gamma]]^4 + 10*(1 + 4*\[Xi]^2)^
-                 3*(25 + 36*\[Xi]^2)*Subscript[s, \[Gamma]]^6) - 
-             3*Subscript[m, K]^4*Subscript[m, \[Phi]]^8*Subscript[s, 
-                \[Gamma]]^2*(8*\[Xi]^2*(37 - 132*\[Xi]^2 + 32*\[Xi]^4) - 3*
-                (343 + 596*\[Xi]^2 - 7856*\[Xi]^4 + 1024*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^2 - 9*(-407 + 1144*\[Xi]^2 + 
-                 9536*\[Xi]^4 + 1152*\[Xi]^6)*Subscript[s, \[Gamma]]^4 + 72*
-                (1 + 4*\[Xi]^2)^2*(14 + 47*\[Xi]^2)*Subscript[s, \[Gamma]]^
-                 6) + 18*Subscript[m, K]^2*Subscript[m, \[Phi]]^10*
-              Subscript[s, \[Gamma]]^2*(16*\[Xi]^2*(-5 + 2*\[Xi]^2) - 3*
-                (45 - 362*\[Xi]^2 + 64*\[Xi]^4)*Subscript[s, \[Gamma]]^2 - 3*
-                (-105 + 1267*\[Xi]^2 + 736*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 + 3*(107 + 992*\[Xi]^2 + 2256*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^6) - Subscript[m, K]^8*Subscript[m, \[Phi]]^4*
-              (1152*\[Xi]^4 + 216*\[Xi]^2*(-5 + 4*\[Xi]^2 + 48*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 + (249 - 2788*\[Xi]^2 - 
-                 18944*\[Xi]^4 - 13888*\[Xi]^6 + 19200*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^4 + 3*(1 + 4*\[Xi]^2)^2*
-                (501 - 380*\[Xi]^2 - 3184*\[Xi]^4 + 256*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^6 + 73*(1 + 4*\[Xi]^2)^4*
-                Subscript[s, \[Gamma]]^8)) - Subscript[c, \[Gamma]]^4*
-            Subscript[s, \[Gamma]]*(6*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^12*
-              Subscript[s, \[Gamma]]^4 - 54*Subscript[m, \[Phi]]^12*
-              Subscript[s, \[Gamma]]^4*(8*\[Xi]^2*(15 + 52*\[Xi]^2) + 
-               (45 - 254*\[Xi]^2 - 1776*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 3*
-                (-17 - 5*\[Xi]^2 + 576*\[Xi]^4)*Subscript[s, \[Gamma]]^4) + 
+              Subscript[m, K]^12*Subscript[s, \[Gamma]]^4 + 
              (1 + 4*\[Xi]^2)*Subscript[m, K]^10*Subscript[m, \[Phi]]^2*
+              Subscript[s, \[Gamma]]^2*(-216*\[Xi]^2 - 3*(-31 + 8*\[Xi]^2 + 
+                 336*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (1 + 4*\[Xi]^2)^2*
+                (127 - 24*\[Xi]^2 + 96*\[Xi]^4)*Subscript[s, \[Gamma]]^4) + 
+             27*Subscript[m, \[Phi]]^12*Subscript[s, \[Gamma]]^2*
+              (-160*\[Xi]^2 + 30*(-7 + 48*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
+               (855 - 3864*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 30*
+                (-25 + 108*\[Xi]^2)*Subscript[s, \[Gamma]]^6) - 
+             3*Subscript[m, K]^6*Subscript[m, \[Phi]]^6*Subscript[s, 
+                \[Gamma]]^2*(40*\[Xi]^2*(7 - 76*\[Xi]^2 + 16*\[Xi]^4) + 
+               (-261 - 696*\[Xi]^2 - 15296*\[Xi]^4 - 36800*\[Xi]^6 + 
+                 27648*\[Xi]^8)*Subscript[s, \[Gamma]]^2 + (-608 + 
+                 9566*\[Xi]^2 + 75168*\[Xi]^4 + 57376*\[Xi]^6 - 
+                 205312*\[Xi]^8)*Subscript[s, \[Gamma]]^4 + 40*
+                (1 + 4*\[Xi]^2)^3*(-37 + 168*\[Xi]^2)*Subscript[s, \[Gamma]]^
+                 6) + 3*Subscript[m, K]^4*Subscript[m, \[Phi]]^8*
+              Subscript[s, \[Gamma]]^2*(-8*\[Xi]^2*(77 + 188*\[Xi]^2 + 
+                 672*\[Xi]^4) + (-1171 - 11212*\[Xi]^2 - 21968*\[Xi]^4 + 
+                 76672*\[Xi]^6)*Subscript[s, \[Gamma]]^2 - 6*(-737 - 
+                 8976*\[Xi]^2 - 7704*\[Xi]^4 + 54592*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^4 + 9*(1 + 4*\[Xi]^2)^2*(-847 + 
+                 3104*\[Xi]^2)*Subscript[s, \[Gamma]]^6) + 
+             3*Subscript[m, K]^2*Subscript[m, \[Phi]]^10*Subscript[s, 
+                \[Gamma]]^2*(32*\[Xi]^2*(25 + 166*\[Xi]^2) + (2850 + 
+                 7236*\[Xi]^2 - 56832*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 9*
+                (-1325 - 3154*\[Xi]^2 + 20608*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4 - 18*(-707 - 152*\[Xi]^2 + 10704*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6) + Subscript[m, K]^8*
+              Subscript[m, \[Phi]]^4*(-1152*\[Xi]^4 - 216*\[Xi]^2*
+                (-5 + 4*\[Xi]^2 + 48*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
+               (-369 + 868*\[Xi]^2 + 7424*\[Xi]^4 - 16832*\[Xi]^6 - 
+                 49920*\[Xi]^8)*Subscript[s, \[Gamma]]^4 - 3*(1 + 4*\[Xi]^2)^
+                 2*(461 - 620*\[Xi]^2 - 3184*\[Xi]^4 + 1536*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^6 + (1 + 4*\[Xi]^2)^4*(-103 + 
+                 1680*\[Xi]^2)*Subscript[s, \[Gamma]]^8)) + 
+           Subscript[c, \[Gamma]]^4*Subscript[s, \[Gamma]]*
+            (-6*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^12*Subscript[s, \[Gamma]]^
+               4 - (1 + 4*\[Xi]^2)*Subscript[m, K]^10*Subscript[m, \[Phi]]^2*
               Subscript[s, \[Gamma]]^2*(6*\[Xi]^2*(47 - 178*\[Xi]^2 + 
                  136*\[Xi]^4) + (-45 + 658*\[Xi]^2 + 1844*\[Xi]^4 - 
                  1568*\[Xi]^6 + 1728*\[Xi]^8)*Subscript[s, \[Gamma]]^2 + 
                (1 + 4*\[Xi]^2)^2*(-37 + 98*\[Xi]^2 - 192*\[Xi]^4 + 
-                 96*\[Xi]^6)*Subscript[s, \[Gamma]]^4) - Subscript[m, K]^8*
-              Subscript[m, \[Phi]]^4*(-24*\[Xi]^4*(55 - 488*\[Xi]^2 + 
-                 432*\[Xi]^4) + 4*\[Xi]^2*(147 - 2677*\[Xi]^2 + 
-                 2116*\[Xi]^4 + 22352*\[Xi]^6 - 7104*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^2 + (84 + 6479*\[Xi]^2 + 
-                 8812*\[Xi]^4 - 80752*\[Xi]^6 - 81024*\[Xi]^8 + 
-                 96000*\[Xi]^10 - 6144*\[Xi]^12)*Subscript[s, \[Gamma]]^4 + 
-               (1 + 4*\[Xi]^2)^2*(-516 + 3275*\[Xi]^2 - 1820*\[Xi]^4 - 
-                 17776*\[Xi]^6 + 384*\[Xi]^8)*Subscript[s, \[Gamma]]^6 + 
-               (1 + 4*\[Xi]^2)^4*(-43 + 262*\[Xi]^2)*Subscript[s, \[Gamma]]^
-                 8) + Subscript[m, K]^6*Subscript[m, \[Phi]]^6*
-              (48*\[Xi]^4*(17 - 272*\[Xi]^2 + 80*\[Xi]^4) + 10*\[Xi]^2*
-                (-117 - 628*\[Xi]^2 + 11984*\[Xi]^4 - 9792*\[Xi]^6 + 
-                 768*\[Xi]^8)*Subscript[s, \[Gamma]]^2 - 3*(-362 - 
-                 3505*\[Xi]^2 + 29636*\[Xi]^4 + 51824*\[Xi]^6 - 
-                 148544*\[Xi]^8 + 9216*\[Xi]^10)*Subscript[s, \[Gamma]]^4 - 2*
-                (951 - 8485*\[Xi]^2 - 50484*\[Xi]^4 + 105672*\[Xi]^6 + 
-                 452288*\[Xi]^8 + 33408*\[Xi]^10)*Subscript[s, \[Gamma]]^6 + 
-               3*(1 + 4*\[Xi]^2)^3*(-193 + 740*\[Xi]^2 + 468*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8) - 3*Subscript[m, K]^4*
-              Subscript[m, \[Phi]]^8*(-32*\[Xi]^4*(9 - 56*\[Xi]^2 + 
-                 16*\[Xi]^4) + 4*\[Xi]^2*(85 + 3038*\[Xi]^2 - 8024*\[Xi]^4 + 
-                 1280*\[Xi]^6)*Subscript[s, \[Gamma]]^2 + 3*(242 - 
-                 2205*\[Xi]^2 - 12348*\[Xi]^4 + 55920*\[Xi]^6 + 1536*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^4 - 3*(194 - 7403*\[Xi]^2 - 
-                 220*\[Xi]^4 + 103296*\[Xi]^6 + 33600*\[Xi]^8)*
+                 96*\[Xi]^6)*Subscript[s, \[Gamma]]^4) - 
+             3*Subscript[m, \[Phi]]^12*(640*\[Xi]^4 - 480*\[Xi]^2*
+                (-3 + 17*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 9*
+                (45 - 1390*\[Xi]^2 + 3328*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 
+               18*(90 - 1469*\[Xi]^2 + 2304*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6 + 27*(49 - 470*\[Xi]^2 + 768*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^8) - Subscript[m, K]^8*Subscript[m, \[Phi]]^4*
+              (24*\[Xi]^4*(55 - 488*\[Xi]^2 + 432*\[Xi]^4) + 4*\[Xi]^2*
+                (-147 + 2677*\[Xi]^2 - 2116*\[Xi]^4 - 22352*\[Xi]^6 + 
+                 7104*\[Xi]^8)*Subscript[s, \[Gamma]]^2 + (-129 - 
+                 7649*\[Xi]^2 - 20332*\[Xi]^4 + 26032*\[Xi]^6 - 
+                 45696*\[Xi]^8 - 211200*\[Xi]^10 + 6144*\[Xi]^12)*
+                Subscript[s, \[Gamma]]^4 - (1 + 4*\[Xi]^2)^2*(-606 + 
+                 3065*\[Xi]^2 + 1300*\[Xi]^4 - 5776*\[Xi]^6 + 8064*\[Xi]^8)*
+                Subscript[s, \[Gamma]]^6 + (1 + 4*\[Xi]^2)^4*
+                (-2 + 563*\[Xi]^2 + 960*\[Xi]^4)*Subscript[s, \[Gamma]]^8) - 
+             3*Subscript[m, K]^4*Subscript[m, \[Phi]]^8*(32*\[Xi]^4*
+                (9 - 56*\[Xi]^2 + 16*\[Xi]^4) - 4*\[Xi]^2*(-245 + 
+                 658*\[Xi]^2 - 11224*\[Xi]^4 + 5440*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^2 + (-396 - 555*\[Xi]^2 - 
+                 25556*\[Xi]^4 - 239920*\[Xi]^6 + 164992*\[Xi]^8)*
+                Subscript[s, \[Gamma]]^4 - 3*(96 + 4163*\[Xi]^2 - 
+                 28660*\[Xi]^4 - 104576*\[Xi]^6 + 141760*\[Xi]^8)*
                 Subscript[s, \[Gamma]]^6 + 9*(1 + 4*\[Xi]^2)^2*
-                (-97 + 176*\[Xi]^2 + 740*\[Xi]^4)*Subscript[s, \[Gamma]]^8) + 
-             3*Subscript[m, K]^2*Subscript[m, \[Phi]]^10*(128*\[Xi]^4*
-                (5 - 2*\[Xi]^2) + 48*\[Xi]^2*(30 - 197*\[Xi]^2 + 40*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 + 9*(45 - 1049*\[Xi]^2 + 
-                 6432*\[Xi]^4 + 2016*\[Xi]^6)*Subscript[s, \[Gamma]]^4 - 9*
-                (-65 - 2002*\[Xi]^2 + 11992*\[Xi]^4 + 11712*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^6 + 9*(-175 - 660*\[Xi]^2 + 
-                 3088*\[Xi]^4 + 11712*\[Xi]^6)*Subscript[s, \[Gamma]]^8)) + 
+                (157 - 1351*\[Xi]^2 + 2660*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 8) + Subscript[m, K]^6*Subscript[m, \[Phi]]^6*
+              (-48*\[Xi]^4*(17 - 272*\[Xi]^2 + 80*\[Xi]^4) - 10*\[Xi]^2*
+                (-177 - 1348*\[Xi]^2 + 9104*\[Xi]^4 - 13632*\[Xi]^6 + 
+                 768*\[Xi]^8)*Subscript[s, \[Gamma]]^2 + 3*(-362 - 
+                 5465*\[Xi]^2 + 6996*\[Xi]^4 - 31696*\[Xi]^6 - 231744*
+                  \[Xi]^8 + 65536*\[Xi]^10)*Subscript[s, \[Gamma]]^4 + 
+               (1767 - 13910*\[Xi]^2 - 65568*\[Xi]^4 + 255984*\[Xi]^6 + 
+                 518656*\[Xi]^8 - 847104*\[Xi]^10)*Subscript[s, \[Gamma]]^6 + 
+               3*(1 + 4*\[Xi]^2)^3*(238 - 1235*\[Xi]^2 + 5172*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8) + 3*Subscript[m, K]^2*
+              Subscript[m, \[Phi]]^10*(64*\[Xi]^4*(-5 + 24*\[Xi]^2) - 16*
+                \[Xi]^2*(-85 - 911*\[Xi]^2 + 1640*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + 3*(105 - 2323*\[Xi]^2 - 
+                 33016*\[Xi]^4 + 41952*\[Xi]^6)*Subscript[s, \[Gamma]]^4 - 18*
+                (125 - 759*\[Xi]^2 - 9836*\[Xi]^4 + 12864*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^6 + 9*(280 - 1605*\[Xi]^2 - 
+                 6388*\[Xi]^4 + 18048*\[Xi]^6)*Subscript[s, \[Gamma]]^8)) + 
            \[Xi]*Subscript[c, \[Gamma]]^3*(-12*(1 + 4*\[Xi]^2)^2*
               Subscript[m, K]^12*Subscript[s, \[Gamma]]^4*
-              (-1 + Subscript[s, \[Gamma]]^2) - 9*Subscript[m, \[Phi]]^12*
-              Subscript[s, \[Gamma]]^4*(-32*\[Xi]^2*(45 + 44*\[Xi]^2) + 6*
-                (-405 + 760*\[Xi]^2 + 1408*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 2 - 12*(-433 + 222*\[Xi]^2 + 1320*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 + 9*(-251 - 156*\[Xi]^2 + 
-                 1056*\[Xi]^4)*Subscript[s, \[Gamma]]^6) + (1 + 4*\[Xi]^2)*
+              (-1 + Subscript[s, \[Gamma]]^2) + (1 + 4*\[Xi]^2)*
               Subscript[m, K]^10*Subscript[m, \[Phi]]^2*Subscript[s, 
                 \[Gamma]]^2*(3*\[Xi]^2*(83 + 8*\[Xi]^2 - 16*\[Xi]^4) + 
                (-255 + 817*\[Xi]^2 - 1480*\[Xi]^4 + 1072*\[Xi]^6 - 
@@ -8315,105 +8402,114 @@
                  1104*\[Xi]^4 + 4448*\[Xi]^6 - 1152*\[Xi]^8 + 768*\[Xi]^10)*
                 Subscript[s, \[Gamma]]^4 + (1 + 4*\[Xi]^2)^2*(101 + 
                  127*\[Xi]^2 - 72*\[Xi]^4 + 48*\[Xi]^6)*Subscript[s, 
-                  \[Gamma]]^6) + Subscript[m, K]^6*Subscript[m, \[Phi]]^6*
-              Subscript[s, \[Gamma]]^2*(2*\[Xi]^2*(285 + 2912*\[Xi]^2 - 
-                 80080*\[Xi]^4 + 29568*\[Xi]^6) + (-2397 - 15970*\[Xi]^2 + 
-                 46410*\[Xi]^4 + 912976*\[Xi]^6 - 471264*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^2 + 3*(1478 + 10519*\[Xi]^2 - 
-                 175032*\[Xi]^4 - 410336*\[Xi]^6 + 448512*\[Xi]^8 + 
-                 9984*\[Xi]^10)*Subscript[s, \[Gamma]]^4 + (-5273 + 
-                 81234*\[Xi]^2 + 607566*\[Xi]^4 + 440560*\[Xi]^6 - 
-                 1424928*\[Xi]^8 - 59904*\[Xi]^10)*Subscript[s, \[Gamma]]^6 + 
-               3*(1 + 4*\[Xi]^2)^3*(-1397 + 1791*\[Xi]^2 + 156*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^8) + Subscript[m, K]^4*
+                  \[Gamma]]^6) - 3*Subscript[m, \[Phi]]^12*Subscript[s, 
+                \[Gamma]]^2*(160*\[Xi]^2*(15 - 4*\[Xi]^2) + 24*
+                (45 - 1180*\[Xi]^2 + 104*\[Xi]^4)*Subscript[s, \[Gamma]]^2 - 
+               9*(1365 - 10580*\[Xi]^2 + 64*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4 - 18*(-1241 + 6564*\[Xi]^2 + 240*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + 108*(-89 + 426*\[Xi]^2 + 
+                 24*\[Xi]^4)*Subscript[s, \[Gamma]]^8) + Subscript[m, K]^4*
               Subscript[m, \[Phi]]^8*Subscript[s, \[Gamma]]^2*
-              (8*\[Xi]^2*(735 + 8285*\[Xi]^2 - 8748*\[Xi]^4) + 3*
-                (2509 - 9428*\[Xi]^2 - 180372*\[Xi]^4 + 203920*\[Xi]^6 + 
-                 7680*\[Xi]^8)*Subscript[s, \[Gamma]]^2 - 3*(4565 - 
-                 77982*\[Xi]^2 - 425472*\[Xi]^4 + 567872*\[Xi]^6 + 
-                 58368*\[Xi]^8)*Subscript[s, \[Gamma]]^4 + 9*(-647 - 
-                 49373*\[Xi]^2 - 115540*\[Xi]^4 + 179360*\[Xi]^6 + 
-                 34560*\[Xi]^8)*Subscript[s, \[Gamma]]^6 - 27*(1 + 4*\[Xi]^2)^
-                 2*(-719 + 540*\[Xi]^2 + 368*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 8) + 3*Subscript[m, K]^2*Subscript[m, \[Phi]]^10*
-              Subscript[s, \[Gamma]]^2*(32*\[Xi]^2*(-95 + 201*\[Xi]^2) - 6*
-                (360 - 5179*\[Xi]^2 + 12224*\[Xi]^4 + 1984*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^2 + 6*(-533 - 21685*\[Xi]^2 + 
-                 35884*\[Xi]^4 + 12576*\[Xi]^6)*Subscript[s, \[Gamma]]^4 - 9*
-                (-1909 - 19214*\[Xi]^2 + 21144*\[Xi]^4 + 15232*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^6 + 18*(-644 - 2609*\[Xi]^2 + 
-                 924*\[Xi]^4 + 4224*\[Xi]^6)*Subscript[s, \[Gamma]]^8) + 
+              (2550*\[Xi]^2 + 39640*\[Xi]^4 - 123264*\[Xi]^6 - 3*
+                (-2059 + 628*\[Xi]^2 + 89092*\[Xi]^4 - 396560*\[Xi]^6 + 
+                 3840*\[Xi]^8)*Subscript[s, \[Gamma]]^2 + 12*(-860 + 
+                 10553*\[Xi]^2 + 22908*\[Xi]^4 - 308408*\[Xi]^6 + 
+                 10688*\[Xi]^8)*Subscript[s, \[Gamma]]^4 - 9*(1382 + 
+                 35793*\[Xi]^2 - 22860*\[Xi]^4 - 446560*\[Xi]^6 + 
+                 53760*\[Xi]^8)*Subscript[s, \[Gamma]]^6 + 27*(1 + 4*\[Xi]^2)^
+                 2*(899 - 3575*\[Xi]^2 + 992*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 8) + Subscript[m, K]^6*Subscript[m, \[Phi]]^6*
+              Subscript[s, \[Gamma]]^2*(8*\[Xi]^2*(105 + 1133*\[Xi]^2 - 
+                 18400*\[Xi]^4 + 9552*\[Xi]^6) - (2637 + 22510*\[Xi]^2 + 
+                 9030*\[Xi]^4 - 721936*\[Xi]^6 + 705504*\[Xi]^8)*
+                Subscript[s, \[Gamma]]^2 - 3*(-2558 - 28329*\[Xi]^2 + 
+                 65472*\[Xi]^4 + 114176*\[Xi]^6 - 735872*\[Xi]^8 + 
+                 20736*\[Xi]^10)*Subscript[s, \[Gamma]]^4 + (-10583 + 
+                 4584*\[Xi]^2 + 204246*\[Xi]^4 - 439280*\[Xi]^6 - 
+                 1929888*\[Xi]^8 + 370176*\[Xi]^10)*Subscript[s, \[Gamma]]^
+                 6 - 3*(1 + 4*\[Xi]^2)^3*(647 - 2961*\[Xi]^2 + 1764*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8) - 3*Subscript[m, K]^2*
+              Subscript[m, \[Phi]]^10*Subscript[s, \[Gamma]]^2*
+              (32*\[Xi]^2*(-15 - 631*\[Xi]^2 + 40*\[Xi]^4) + (570 - 
+                 2314*\[Xi]^2 + 209024*\[Xi]^4 - 7296*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^2 + 12*(879 + 3330*\[Xi]^2 - 
+                 55832*\[Xi]^4 + 1552*\[Xi]^6)*Subscript[s, \[Gamma]]^4 - 9*
+                (3209 + 6544*\[Xi]^2 - 87504*\[Xi]^4 + 5248*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^6 + 36*(487 - 143*\[Xi]^2 - 
+                 8052*\[Xi]^4 + 1248*\[Xi]^6)*Subscript[s, \[Gamma]]^8) + 
              Subscript[m, K]^8*Subscript[m, \[Phi]]^4*(864*(\[Xi]^4 + 
                  2*\[Xi]^6) + \[Xi]^2*(-1509 + 10780*\[Xi]^2 - 
                  55744*\[Xi]^4 + 73408*\[Xi]^6 - 11520*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^2 + (741 - 2611*\[Xi]^2 + 
-                 46051*\[Xi]^4 - 23980*\[Xi]^6 - 352752*\[Xi]^8 + 
-                 75456*\[Xi]^10)*Subscript[s, \[Gamma]]^4 + (1153 - 
-                 9711*\[Xi]^2 - 11350*\[Xi]^4 + 227720*\[Xi]^6 + 
-                 244448*\[Xi]^8 - 236928*\[Xi]^10)*Subscript[s, \[Gamma]]^6 + 
-               (1 + 4*\[Xi]^2)^2*(536 - 7979*\[Xi]^2 - 2509*\[Xi]^4 + 
-                 20844*\[Xi]^6)*Subscript[s, \[Gamma]]^8 - (1 + 4*\[Xi]^2)^4*
-                (-277 + 393*\[Xi]^2)*Subscript[s, \[Gamma]]^10)) + 
-           Subscript[c, \[Gamma]]^2*Subscript[s, \[Gamma]]*
-            (-12*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^12*Subscript[s, \[Gamma]]^
-               4*(-1 + Subscript[s, \[Gamma]]^2) + (1 + 4*\[Xi]^2)*
-              Subscript[m, K]^10*Subscript[m, \[Phi]]^2*Subscript[s, 
-                \[Gamma]]^2*(3*\[Xi]^2*(105 - 348*\[Xi]^2 + 256*\[Xi]^4) + 
-               (-93 + 689*\[Xi]^2 + 1900*\[Xi]^4 - 1600*\[Xi]^6 + 
-                 1152*\[Xi]^8)*Subscript[s, \[Gamma]]^2 + (8 - 759*\[Xi]^2 - 
-                 2028*\[Xi]^4 + 1136*\[Xi]^6 - 2112*\[Xi]^8)*
+                Subscript[s, \[Gamma]]^2 + (801 - 1561*\[Xi]^2 + 
+                 53251*\[Xi]^4 + 20*\[Xi]^6 - 314352*\[Xi]^8 + 
+                 98496*\[Xi]^10)*Subscript[s, \[Gamma]]^4 - (-553 + 
+                 19791*\[Xi]^2 + 76630*\[Xi]^4 - 28040*\[Xi]^6 + 
+                 32032*\[Xi]^8 + 359808*\[Xi]^10)*Subscript[s, \[Gamma]]^6 - 
+               (1 + 4*\[Xi]^2)^2*(-1571 + 539*\[Xi]^2 - 7091*\[Xi]^4 - 
+                 5484*\[Xi]^6 + 3840*\[Xi]^8)*Subscript[s, \[Gamma]]^8 + 2*
+                (1 + 4*\[Xi]^2)^4*(-109 + 366*\[Xi]^2 + 120*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^10)) + Subscript[c, \[Gamma]]^2*
+            Subscript[s, \[Gamma]]*(-12*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^12*
+              Subscript[s, \[Gamma]]^4*(-1 + Subscript[s, \[Gamma]]^2) + 
+             (1 + 4*\[Xi]^2)*Subscript[m, K]^10*Subscript[m, \[Phi]]^2*
+              Subscript[s, \[Gamma]]^2*(3*\[Xi]^2*(105 - 348*\[Xi]^2 + 
+                 256*\[Xi]^4) + (-93 + 689*\[Xi]^2 + 1900*\[Xi]^4 - 
+                 1600*\[Xi]^6 + 1152*\[Xi]^8)*Subscript[s, \[Gamma]]^2 + 
+               (8 - 759*\[Xi]^2 - 2028*\[Xi]^4 + 1136*\[Xi]^6 - 2112*\[Xi]^8)*
                 Subscript[s, \[Gamma]]^4 + (1 + 4*\[Xi]^2)^2*
                 (37 - 109*\[Xi]^2 + 204*\[Xi]^4)*Subscript[s, \[Gamma]]^6) + 
              3*Subscript[m, \[Phi]]^12*Subscript[s, \[Gamma]]^2*
-              (11168*\[Xi]^4 + (23436*\[Xi]^2 - 80656*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 + 27*(45 - 3442*\[Xi]^2 + 
-                 7872*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 108*
-                (9 - 1075*\[Xi]^2 + 2234*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
-               27*(-9 - 1656*\[Xi]^2 + 3680*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 8) + Subscript[m, K]^8*Subscript[m, \[Phi]]^4*
-              (24*\[Xi]^4*(43 - 136*\[Xi]^2 - 392*\[Xi]^4 + 160*\[Xi]^6) + 2*
-                \[Xi]^2*(-348 + 5113*\[Xi]^2 - 17138*\[Xi]^4 + 
-                 79568*\[Xi]^6 - 84256*\[Xi]^8 + 5376*\[Xi]^10)*
-                Subscript[s, \[Gamma]]^2 + (87 - 4978*\[Xi]^2 - 
-                 1947*\[Xi]^4 - 98752*\[Xi]^6 + 18320*\[Xi]^8 + 
-                 642048*\[Xi]^10 - 153088*\[Xi]^12)*Subscript[s, \[Gamma]]^
-                 4 + 2*(198 + 1384*\[Xi]^2 + 13657*\[Xi]^4 - 818*\[Xi]^6 - 
-                 258720*\[Xi]^8 - 351328*\[Xi]^10 + 234240*\[Xi]^12)*
-                Subscript[s, \[Gamma]]^6 - 3*(1 + 4*\[Xi]^2)^2*
-                (70 + 277*\[Xi]^2 - 5097*\[Xi]^4 - 10672*\[Xi]^6 + 
-                 10208*\[Xi]^8)*Subscript[s, \[Gamma]]^8 + (1 + 4*\[Xi]^2)^4*
-                (45 - 921*\[Xi]^2 + 640*\[Xi]^4)*Subscript[s, \[Gamma]]^10) + 
-             Subscript[m, K]^4*Subscript[m, \[Phi]]^8*(96*\[Xi]^4*
-                (9 + 54*\[Xi]^2 - 104*\[Xi]^4) + 2*\[Xi]^2*(6486 + 
-                 17303*\[Xi]^2 - 192932*\[Xi]^4 + 203328*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^2 - 3*(-579 + 17872*\[Xi]^2 - 
-                 38570*\[Xi]^4 - 845592*\[Xi]^6 + 861888*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^4 + 3*(-507 + 16006*\[Xi]^2 - 
-                 365574*\[Xi]^4 - 1690080*\[Xi]^6 + 2069152*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^6 - 9*(86 - 8917*\[Xi]^2 - 
-                 194332*\[Xi]^4 - 400416*\[Xi]^6 + 699712*\[Xi]^8)*
+              (16*\[Xi]^2*(-495 + 1028*\[Xi]^2) + (-2025 + 81396*\[Xi]^2 - 
+                 123376*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 18*
+                (405 - 13028*\[Xi]^2 + 18628*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4 - 27*(261 - 9520*\[Xi]^2 + 14376*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + 54*(33 - 1743*\[Xi]^2 + 
+                 2980*\[Xi]^4)*Subscript[s, \[Gamma]]^8) + Subscript[m, K]^8*
+              Subscript[m, \[Phi]]^4*(24*\[Xi]^4*(43 - 136*\[Xi]^2 - 
+                 392*\[Xi]^4 + 160*\[Xi]^6) + \[Xi]^2*(-741 + 9506*\[Xi]^2 - 
+                 38596*\[Xi]^4 + 147616*\[Xi]^6 - 180032*\[Xi]^8 + 
+                 10752*\[Xi]^10)*Subscript[s, \[Gamma]]^2 + (27 - 
+                 5878*\[Xi]^2 - 6837*\[Xi]^4 - 109792*\[Xi]^6 + 
+                 9680*\[Xi]^8 + 634368*\[Xi]^10 - 176128*\[Xi]^12)*
+                Subscript[s, \[Gamma]]^4 + (576 + 5603*\[Xi]^2 + 
+                 43889*\[Xi]^4 + 40364*\[Xi]^6 - 481440*\[Xi]^8 - 
+                 710336*\[Xi]^10 + 472320*\[Xi]^12)*Subscript[s, \[Gamma]]^
+                 6 - 3*(1 + 4*\[Xi]^2)^2*(130 + 752*\[Xi]^2 - 4367*\[Xi]^4 - 
+                 12272*\[Xi]^6 + 7168*\[Xi]^8)*Subscript[s, \[Gamma]]^8 + 
+               (1 + 4*\[Xi]^2)^4*(105 - 906*\[Xi]^2 + 145*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^10) + Subscript[m, K]^6*
+              Subscript[m, \[Phi]]^6*(24*\[Xi]^4*(19 - 214*\[Xi]^2 - 
+                 640*\[Xi]^4 + 160*\[Xi]^6) - 3*\[Xi]^2*(307 + 2670*\[Xi]^2 + 
+                 5960*\[Xi]^4 - 246880*\[Xi]^6 + 80768*\[Xi]^8)*
+                Subscript[s, \[Gamma]]^2 + (1266 + 20671*\[Xi]^2 + 
+                 21652*\[Xi]^4 - 735552*\[Xi]^6 - 3767808*\[Xi]^8 + 
+                 1760256*\[Xi]^10)*Subscript[s, \[Gamma]]^4 + (-5013 - 
+                 44217*\[Xi]^2 + 131457*\[Xi]^4 + 3151932*\[Xi]^6 + 
+                 6391344*\[Xi]^8 - 4390848*\[Xi]^10)*Subscript[s, \[Gamma]]^
+                 6 + (5550 + 33723*\[Xi]^2 - 498054*\[Xi]^4 - 3564696*
+                  \[Xi]^6 - 4461408*\[Xi]^8 + 4364160*\[Xi]^10)*
+                Subscript[s, \[Gamma]]^8 - 3*(1 + 4*\[Xi]^2)^3*
+                (822 - 11772*\[Xi]^2 + 7807*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 10) + Subscript[m, K]^4*Subscript[m, \[Phi]]^8*
+              (24*\[Xi]^4*(21 + 96*\[Xi]^2 - 656*\[Xi]^4) + \[Xi]^2*
+                (-5793 - 106244*\[Xi]^2 - 611944*\[Xi]^4 + 554976*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^2 - 6*(978 - 3759*\[Xi]^2 - 
+                 171105*\[Xi]^4 - 703516*\[Xi]^6 + 600224*\[Xi]^8)*
+                Subscript[s, \[Gamma]]^4 + 3*(7818 - 30649*\[Xi]^2 - 
+                 1080734*\[Xi]^4 - 3040720*\[Xi]^6 + 2992032*\[Xi]^8)*
+                Subscript[s, \[Gamma]]^6 - 9*(3111 - 23642*\[Xi]^2 - 
+                 434872*\[Xi]^4 - 843536*\[Xi]^6 + 1059072*\[Xi]^8)*
                 Subscript[s, \[Gamma]]^8 + 27*(1 + 4*\[Xi]^2)^2*
-                (32 - 4147*\[Xi]^2 + 5230*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 10) - Subscript[m, K]^6*Subscript[m, \[Phi]]^6*
-              (-24*\[Xi]^4*(19 - 214*\[Xi]^2 - 640*\[Xi]^4 + 160*\[Xi]^6) + 3*
-                \[Xi]^2*(1107 + 12090*\[Xi]^2 + 42200*\[Xi]^4 - 
-                 204320*\[Xi]^6 + 69248*\[Xi]^8)*Subscript[s, \[Gamma]]^2 + 
-               (339 - 18406*\[Xi]^2 - 143602*\[Xi]^4 + 81912*\[Xi]^6 + 
-                 2917728*\[Xi]^8 - 1443456*\[Xi]^10)*Subscript[s, \[Gamma]]^
-                 4 + 3*(-74 + 7694*\[Xi]^2 + 34701*\[Xi]^4 - 548884*\[Xi]^6 - 
-                 1455248*\[Xi]^8 + 1178176*\[Xi]^10)*Subscript[s, \[Gamma]]^
-                 6 - 3*(-35 + 2731*\[Xi]^2 - 91748*\[Xi]^4 - 686432*\[Xi]^6 - 
-                 803456*\[Xi]^8 + 1162240*\[Xi]^10)*Subscript[s, \[Gamma]]^
-                 8 + 3*(1 + 4*\[Xi]^2)^3*(147 - 6672*\[Xi]^2 + 6127*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^10) + Subscript[m, K]^2*
-              Subscript[m, \[Phi]]^10*(3072*\[Xi]^6 - 48*\[Xi]^2*
-                (240 - 1135*\[Xi]^2 + 4544*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 2 + (-1620 - 969*\[Xi]^2 - 703520*\[Xi]^4 + 1446976*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^4 - 18*(135 - 10042*\[Xi]^2 - 
-                 111122*\[Xi]^4 + 199352*\[Xi]^6)*Subscript[s, \[Gamma]]^6 + 
-               54*(71 - 7016*\[Xi]^2 - 35688*\[Xi]^4 + 70480*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^8 - 27*(-15 - 8109*\[Xi]^2 - 
-                 18820*\[Xi]^4 + 53504*\[Xi]^6)*Subscript[s, \[Gamma]]^10)) + 
+                (397 - 8932*\[Xi]^2 + 8420*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 10) + Subscript[m, K]^2*Subscript[m, \[Phi]]^10*
+              (192*\[Xi]^4*(5 + 36*\[Xi]^2) - 144*\[Xi]^2*(-190 - 
+                 1265*\[Xi]^2 + 2288*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
+               (10395 - 238839*\[Xi]^2 - 1659560*\[Xi]^4 + 2197696*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^4 - 9*(4515 - 81914*\[Xi]^2 - 
+                 481044*\[Xi]^4 + 624464*\[Xi]^6)*Subscript[s, \[Gamma]]^6 + 
+               27*(1637 - 34967*\[Xi]^2 - 156996*\[Xi]^4 + 229120*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^8 - 54*(255 - 7902*\[Xi]^2 - 
+                 24320*\[Xi]^4 + 45472*\[Xi]^6)*Subscript[s, \[Gamma]]^10)) + 
            \[Xi]*Subscript[c, \[Gamma]]*(-6*(1 + 4*\[Xi]^2)^2*
               Subscript[m, K]^12*Subscript[s, \[Gamma]]^4*
               (-1 + Subscript[s, \[Gamma]]^2)^2 + (1 + 4*\[Xi]^2)*
@@ -8424,69 +8520,69 @@
                (-160 + 623*\[Xi]^2 + 1840*\[Xi]^4 - 4064*\[Xi]^6 + 
                  2688*\[Xi]^8 - 768*\[Xi]^10)*Subscript[s, \[Gamma]]^4 + 
                (1 + 4*\[Xi]^2)^2*(-26 + 151*\[Xi]^2 - 168*\[Xi]^4 + 
-                 48*\[Xi]^6)*Subscript[s, \[Gamma]]^6) + 
-             Subscript[m, \[Phi]]^12*Subscript[s, \[Gamma]]^2*
-              (4800*\[Xi]^4 + (87228*\[Xi]^2 - 62464*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 + 15*(2673 - 39368*\[Xi]^2 + 
-                 19216*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 972*
-                (147 - 1474*\[Xi]^2 + 628*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
-               27*(5913 - 54828*\[Xi]^2 + 22496*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^8 - 162*(351 - 3394*\[Xi]^2 + 1424*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^10) + Subscript[m, K]^6*
+                 48*\[Xi]^6)*Subscript[s, \[Gamma]]^6) + Subscript[m, K]^6*
               Subscript[m, \[Phi]]^6*Subscript[s, \[Gamma]]^2*
-              (-4*\[Xi]^2*(45 + 1783*\[Xi]^2 - 2328*\[Xi]^4 - 20368*\[Xi]^6 + 
-                 768*\[Xi]^8) + (-846 - 1733*\[Xi]^2 + 49082*\[Xi]^4 + 
-                 192208*\[Xi]^6 - 1401440*\[Xi]^8 + 97024*\[Xi]^10)*
-                Subscript[s, \[Gamma]]^2 - (-2445 + 39630*\[Xi]^2 + 
-                 460388*\[Xi]^4 + 138520*\[Xi]^6 - 5919232*\[Xi]^8 + 
-                 599424*\[Xi]^10)*Subscript[s, \[Gamma]]^4 + 6*(1061 + 
-                 31907*\[Xi]^2 + 168083*\[Xi]^4 - 264232*\[Xi]^6 - 
-                 1694160*\[Xi]^8 + 216576*\[Xi]^10)*Subscript[s, \[Gamma]]^
-                 6 - 2*(9183 + 130542*\[Xi]^2 + 306968*\[Xi]^4 - 
-                 1284516*\[Xi]^6 - 3899040*\[Xi]^8 + 586688*\[Xi]^10)*
-                Subscript[s, \[Gamma]]^8 + 3*(1 + 4*\[Xi]^2)^3*(3813 - 
-                 13129*\[Xi]^2 + 1976*\[Xi]^4)*Subscript[s, \[Gamma]]^10) + 
+              (4*\[Xi]^4*(-1243 + 4488*\[Xi]^2 + 23248*\[Xi]^4 - 
+                 768*\[Xi]^6) + (2424 + 32527*\[Xi]^2 + 146552*\[Xi]^4 + 
+                 165688*\[Xi]^6 - 1707200*\[Xi]^8 + 114304*\[Xi]^10)*
+                Subscript[s, \[Gamma]]^2 - 2*(9090 + 129435*\[Xi]^2 + 
+                 556579*\[Xi]^4 + 62360*\[Xi]^6 - 3818576*\[Xi]^8 + 
+                 360192*\[Xi]^10)*Subscript[s, \[Gamma]]^4 + 6*(8266 + 
+                 107627*\[Xi]^2 + 385583*\[Xi]^4 - 312152*\[Xi]^6 - 
+                 2355600*\[Xi]^8 + 251136*\[Xi]^10)*Subscript[s, \[Gamma]]^
+                 6 - (56031 + 650034*\[Xi]^2 + 1667206*\[Xi]^4 - 
+                 3163392*\[Xi]^6 - 11749920*\[Xi]^8 + 1282816*\[Xi]^10)*
+                Subscript[s, \[Gamma]]^8 + 3*(1 + 4*\[Xi]^2)^3*(7743 - 
+                 20479*\[Xi]^2 + 2006*\[Xi]^4)*Subscript[s, \[Gamma]]^10) - 
              Subscript[m, K]^4*Subscript[m, \[Phi]]^8*Subscript[s, \[Gamma]]^
-               2*(32*\[Xi]^2*(24 - 329*\[Xi]^2 - 2614*\[Xi]^4 + 
-                 600*\[Xi]^6) + (3636 - 10935*\[Xi]^2 + 39112*\[Xi]^4 + 
-                 1723952*\[Xi]^6 - 299904*\[Xi]^8)*Subscript[s, \[Gamma]]^2 + 
-               3*(1163 + 81189*\[Xi]^2 - 118812*\[Xi]^4 - 2759056*\[Xi]^6 + 
-                 491840*\[Xi]^8)*Subscript[s, \[Gamma]]^4 - 3*(23194 + 
-                 247333*\[Xi]^2 - 598728*\[Xi]^4 - 5343056*\[Xi]^6 + 
-                 1010944*\[Xi]^8)*Subscript[s, \[Gamma]]^6 + 9*(13706 + 
-                 79563*\[Xi]^2 - 312664*\[Xi]^4 - 1517376*\[Xi]^6 + 
-                 307136*\[Xi]^8)*Subscript[s, \[Gamma]]^8 - 27*
-                (1 + 4*\[Xi]^2)^2*(2277 - 10936*\[Xi]^2 + 2144*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^10) + Subscript[m, K]^2*
-              Subscript[m, \[Phi]]^10*Subscript[s, \[Gamma]]^2*
-              (192*\[Xi]^4*(79 - 100*\[Xi]^2) + 4*(-810 - 6885*\[Xi]^2 - 
-                 166124*\[Xi]^4 + 64096*\[Xi]^6)*Subscript[s, \[Gamma]]^2 + 
-               (-39987 + 75184*\[Xi]^2 + 3841920*\[Xi]^4 - 1183360*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^4 + 9*(21713 - 25860*\[Xi]^2 - 
-                 937800*\[Xi]^4 + 270656*\[Xi]^6)*Subscript[s, \[Gamma]]^6 - 
-               162*(1598 - 2957*\[Xi]^2 - 49308*\[Xi]^4 + 14224*\[Xi]^6)*
-                Subscript[s, \[Gamma]]^8 + 54*(1977 - 5647*\[Xi]^2 - 
-                 50436*\[Xi]^4 + 15136*\[Xi]^6)*Subscript[s, \[Gamma]]^10) - 
+               2*(8*\[Xi]^2*(189 + 3551*\[Xi]^2 + 14656*\[Xi]^4 - 
+                 3120*\[Xi]^6) + 2*(7017 + 52740*\[Xi]^2 - 62486*\[Xi]^4 - 
+                 1212736*\[Xi]^6 + 197472*\[Xi]^8)*Subscript[s, \[Gamma]]^2 - 
+               3*(36328 + 281289*\[Xi]^2 - 195852*\[Xi]^4 - 3977936*\[Xi]^6 + 
+                 653120*\[Xi]^8)*Subscript[s, \[Gamma]]^4 + 3*(95039 + 
+                 648653*\[Xi]^2 - 816208*\[Xi]^4 - 7953936*\[Xi]^6 + 
+                 1339264*\[Xi]^8)*Subscript[s, \[Gamma]]^6 - 9*(34301 + 
+                 189943*\[Xi]^2 - 412064*\[Xi]^4 - 2338496*\[Xi]^6 + 
+                 405056*\[Xi]^8)*Subscript[s, \[Gamma]]^8 + 27*
+                (1 + 4*\[Xi]^2)^2*(4412 - 17171*\[Xi]^2 + 2824*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^10) + Subscript[m, \[Phi]]^12*
+              Subscript[s, \[Gamma]]^2*(960*\[Xi]^2*(-3 + 5*\[Xi]^2) - 4*
+                (4050 - 37827*\[Xi]^2 + 17776*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 2 + 60*(2187 - 15398*\[Xi]^2 + 5812*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^4 - 81*(3939 - 26268*\[Xi]^2 + 
+                 9376*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 54*(5619 - 
+                 39114*\[Xi]^2 + 14128*\[Xi]^4)*Subscript[s, \[Gamma]]^8 - 81*
+                (1227 - 9368*\[Xi]^2 + 3568*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 10) + Subscript[m, K]^2*Subscript[m, \[Phi]]^10*
+              Subscript[s, \[Gamma]]^2*(192*\[Xi]^2*(25 + 174*\[Xi]^2 - 
+                 120*\[Xi]^4) + 2*(13455 - 4350*\[Xi]^2 - 527128*\[Xi]^4 + 
+                 162752*\[Xi]^6)*Subscript[s, \[Gamma]]^2 - 2*(107181 + 
+                 46678*\[Xi]^2 - 2933520*\[Xi]^4 + 773120*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^4 + 9*(60313 + 4460*\[Xi]^2 - 
+                 1412320*\[Xi]^4 + 357856*\[Xi]^6)*Subscript[s, \[Gamma]]^6 - 
+               27*(20413 - 12822*\[Xi]^2 - 442368*\[Xi]^4 + 113344*\[Xi]^6)*
+                Subscript[s, \[Gamma]]^8 + 54*(3627 - 5557*\[Xi]^2 - 
+                 75216*\[Xi]^4 + 20176*\[Xi]^6)*Subscript[s, \[Gamma]]^10) - 
              Subscript[m, K]^8*Subscript[m, \[Phi]]^4*(24*\[Xi]^4*
                 (3 + 12*\[Xi]^2 + 16*\[Xi]^4) + \[Xi]^2*(-429 + 
                  4696*\[Xi]^2 + 808*\[Xi]^4 - 24064*\[Xi]^6 + 128*\[Xi]^8)*
-                Subscript[s, \[Gamma]]^2 + (342 - 2337*\[Xi]^2 + 
-                 24767*\[Xi]^4 - 76704*\[Xi]^6 + 129856*\[Xi]^8 - 
-                 188672*\[Xi]^10 + 3328*\[Xi]^12)*Subscript[s, \[Gamma]]^4 + 
-               (274 - 8462*\[Xi]^2 - 15437*\[Xi]^4 - 128548*\[Xi]^6 + 
-                 37040*\[Xi]^8 + 866880*\[Xi]^10 - 54784*\[Xi]^12)*
-                Subscript[s, \[Gamma]]^6 + 2*(361 + 6435*\[Xi]^2 + 
-                 49026*\[Xi]^4 + 102876*\[Xi]^6 - 212864*\[Xi]^8 - 
-                 709312*\[Xi]^10 + 72192*\[Xi]^12)*Subscript[s, \[Gamma]]^8 - 
-               (1 + 4*\[Xi]^2)^2*(1137 + 8733*\[Xi]^2 + 3325*\[Xi]^4 - 
-                 69484*\[Xi]^6 + 8608*\[Xi]^8)*Subscript[s, \[Gamma]]^10 + 
-               (1 + 4*\[Xi]^2)^4*(525 - 1357*\[Xi]^2 + 175*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^12))))/(6*Sqrt[2]*\[Xi]^3*
-          (1 + 4*\[Xi]^2)^3*Subscript[m, K]^8*Subscript[m, \[Phi]]^6*
-          Subscript[v, EW]^4) - (Sqrt[2]*h^3*
-          (24*\[Xi]*Subscript[c, \[Gamma]]^5*Subscript[m, \[Phi]]^2*
-            (2*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4 - 9*(1 + 4*\[Xi]^2)*
-              Subscript[m, K]^2*Subscript[m, \[Phi]]^2 + 
+                Subscript[s, \[Gamma]]^2 + (432 - 897*\[Xi]^2 + 
+                 33407*\[Xi]^4 - 53664*\[Xi]^6 + 152896*\[Xi]^8 - 
+                 188672*\[Xi]^10 + 3328*\[Xi]^12)*Subscript[s, \[Gamma]]^4 - 
+               (476 + 20417*\[Xi]^2 + 86717*\[Xi]^4 + 316228*\[Xi]^6 + 
+                 143440*\[Xi]^8 - 878400*\[Xi]^10 + 54784*\[Xi]^12)*
+                Subscript[s, \[Gamma]]^6 + (2462 + 40065*\[Xi]^2 + 
+                 254637*\[Xi]^4 + 587112*\[Xi]^6 - 158368*\[Xi]^8 - 
+                 1618304*\[Xi]^10 + 109824*\[Xi]^12)*Subscript[s, \[Gamma]]^
+                 8 - (1 + 4*\[Xi]^2)^2*(2727 + 20358*\[Xi]^2 + 
+                 19735*\[Xi]^4 - 89164*\[Xi]^6 + 4288*\[Xi]^8)*
+                Subscript[s, \[Gamma]]^10 + (1 + 4*\[Xi]^2)^4*(1035 - 
+                 1852*\[Xi]^2 + 40*\[Xi]^4)*Subscript[s, \[Gamma]]^12))))/
+         (6*Sqrt[2]*\[Xi]^3*(1 + 4*\[Xi]^2)^3*Subscript[m, K]^8*
+          Subscript[m, \[Phi]]^6*Subscript[v, EW]^4) - 
+        (Sqrt[2]*QuantumField[h]^3*(24*\[Xi]*Subscript[c, \[Gamma]]^5*
+            Subscript[m, \[Phi]]^2*(2*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4 - 
+             9*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^2 + 
              9*Subscript[m, \[Phi]]^4)*Subscript[s, \[Gamma]]^3*
             ((1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[s, \[Gamma]]^2 + 
              Subscript[m, \[Phi]]^2*(1 - 3*Subscript[s, \[Gamma]]^2)) - 
@@ -8630,7 +8726,7 @@
                 (1 - 10*\[Xi]^2 - 53*\[Xi]^4 + 12*\[Xi]^6)*
                 Subscript[s, \[Gamma]]^8))))/(3*\[Xi]^2*(1 + 4*\[Xi]^2)^(5/2)*
           Subscript[m, K]^6*Subscript[m, \[Phi]]^4*Subscript[v, EW]^3) - 
-        (Sqrt[2]*h^2*(-((1 + 4*\[Xi]^2)*Subscript[m, K]^6*
+        (Sqrt[2]*QuantumField[h]^2*(-((1 + 4*\[Xi]^2)*Subscript[m, K]^6*
              Subscript[s, \[Gamma]]^3*(-1 + Subscript[s, \[Gamma]]^2)) + 
            2*\[Xi]^2*Subscript[m, \[Phi]]^6*Subscript[s, \[Gamma]]^3*
             (26 - 69*Subscript[s, \[Gamma]]^2 + 45*Subscript[s, \[Gamma]]^
@@ -8678,31 +8774,33 @@
                  80*\[Xi]^6)*Subscript[s, \[Gamma]]^4 + (-5 + 4*\[Xi]^2)*
                 (1 + 4*\[Xi]^2)^2*Subscript[s, \[Gamma]]^6))))/
          (\[Xi]*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^4*
-          Subscript[v, EW]^2) + (2*Sqrt[2]*h*(Subscript[c, \[Gamma]]^2*
-            (-3*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^2 + 
-             Subscript[m, K]^2*(-3*\[Xi]^2 + (1 + 4*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2)) - \[Xi]*Subscript[c, \[Gamma]]*
-            Subscript[s, \[Gamma]]*(Subscript[m, \[Phi]]^2*
-              (4 - 9*Subscript[s, \[Gamma]]^2) + Subscript[m, K]^2*
-              (3 - 12*\[Xi]^2 + (2 + 8*\[Xi]^2)*Subscript[s, \[Gamma]]^2)) + 
-           Subscript[s, \[Gamma]]^2*(2*\[Xi]^2*Subscript[m, \[Phi]]^2*
-              (2 - 3*Subscript[s, \[Gamma]]^2) + Subscript[m, K]^2*
-              (-1 + 7*\[Xi]^2 - 4*\[Xi]^4 + (\[Xi]^2 + 4*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2))))/((1 + 4*\[Xi]^2)^(3/2)*
-          Subscript[m, K]^2*Subscript[m, \[Phi]]^2*Subscript[v, EW])), 
-     CQ2 -> -((h*Subscript[c, \[Gamma]])/Sqrt[2]) + 
-       t*h^2*((h^2*Subscript[m, h]^2*Subscript[s, \[Gamma]]^2*
-           ((1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*(44*\[Xi]*Subscript[c, 
-                 \[Gamma]]^6*Subscript[s, \[Gamma]]^2 + 2*\[Xi]*Subscript[c, 
-                 \[Gamma]]^4*Subscript[s, \[Gamma]]^2*(-9*(-8 + \[Xi]^2) + 
-                (-248 + 25*\[Xi]^2)*Subscript[s, \[Gamma]]^2) + 
-              Subscript[c, \[Gamma]]^5*(12*\[Xi]^2*Subscript[s, \[Gamma]] + 
-                (99 - 100*\[Xi]^2)*Subscript[s, \[Gamma]]^3) + 
-              Subscript[c, \[Gamma]]^3*(85*\[Xi]^2*Subscript[s, \[Gamma]] + 
-                (85 - 442*\[Xi]^2)*Subscript[s, \[Gamma]]^3 + 
-                (-159 + 565*\[Xi]^2)*Subscript[s, \[Gamma]]^5) + 
-              2*\[Xi]*(-1 + Subscript[s, \[Gamma]]^2)*(-2*\[Xi]^2 + 
-                (2 + 22*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (29 - 32*\[Xi]^2)*
+          Subscript[v, EW]^2) + (2*Sqrt[2]*QuantumField[h]*
+          (Subscript[c, \[Gamma]]^2*(-3*Subscript[m, \[Phi]]^2*
+              Subscript[s, \[Gamma]]^2 + Subscript[m, K]^2*(-3*\[Xi]^2 + 
+               (1 + 4*\[Xi]^2)*Subscript[s, \[Gamma]]^2)) - 
+           \[Xi]*Subscript[c, \[Gamma]]*Subscript[s, \[Gamma]]*
+            (Subscript[m, \[Phi]]^2*(4 - 9*Subscript[s, \[Gamma]]^2) + 
+             Subscript[m, K]^2*(3 - 12*\[Xi]^2 + (2 + 8*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2)) + Subscript[s, \[Gamma]]^2*
+            (2*\[Xi]^2*Subscript[m, \[Phi]]^2*(2 - 3*Subscript[s, \[Gamma]]^
+                 2) + Subscript[m, K]^2*(-1 + 7*\[Xi]^2 - 4*\[Xi]^4 + 
+               (\[Xi]^2 + 4*\[Xi]^4)*Subscript[s, \[Gamma]]^2))))/
+         ((1 + 4*\[Xi]^2)^(3/2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^2*
+          Subscript[v, EW])), 
+     CQ2 -> -((QuantumField[h]*Subscript[c, \[Gamma]])/Sqrt[2]) + 
+       t*QuantumField[h]^2*((QuantumField[h]^2*Subscript[m, h]^2*
+           Subscript[s, \[Gamma]]^2*((1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*
+             (44*\[Xi]*Subscript[c, \[Gamma]]^6*Subscript[s, \[Gamma]]^2 + 
+              2*\[Xi]*Subscript[c, \[Gamma]]^4*Subscript[s, \[Gamma]]^2*(
+                -9*(-8 + \[Xi]^2) + (-248 + 25*\[Xi]^2)*Subscript[s, 
+                   \[Gamma]]^2) + Subscript[c, \[Gamma]]^5*(12*\[Xi]^2*
+                 Subscript[s, \[Gamma]] + (99 - 100*\[Xi]^2)*
+                 Subscript[s, \[Gamma]]^3) + Subscript[c, \[Gamma]]^3*(
+                85*\[Xi]^2*Subscript[s, \[Gamma]] + (85 - 442*\[Xi]^2)*
+                 Subscript[s, \[Gamma]]^3 + (-159 + 565*\[Xi]^2)*
+                 Subscript[s, \[Gamma]]^5) + 2*\[Xi]*(-1 + 
+                Subscript[s, \[Gamma]]^2)*(-2*\[Xi]^2 + (2 + 22*\[Xi]^2)*
+                 Subscript[s, \[Gamma]]^2 + (29 - 32*\[Xi]^2)*
                  Subscript[s, \[Gamma]]^4 + 12*(-2 + \[Xi]^2)*
                  Subscript[s, \[Gamma]]^6) - 2*\[Xi]*Subscript[c, \[Gamma]]^
                 2*(-6*\[Xi]^2 + (-58 + 65*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
@@ -8775,14 +8873,14 @@
                   4 + (1256 - 888*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 
                 (-591 + 312*\[Xi]^2)*Subscript[s, \[Gamma]]^8))))/
           (8*Sqrt[2]*\[Xi]^3*(1 + 4*\[Xi]^2)^(3/2)*Subscript[m, K]^8*
-           Subscript[v, EW]^3) + (h*Subscript[m, h]^2*Subscript[s, \[Gamma]]^
-            2*(2*\[Xi]*(1 + 4*\[Xi]^2)*Subscript[c, \[Gamma]]^4*
-             Subscript[m, K]^2*(8*(1 + 4*\[Xi]^2)*Subscript[m, K]^2 - 
-              15*Subscript[m, \[Phi]]^2)*Subscript[s, \[Gamma]] - 
-            3*\[Xi]*Subscript[c, \[Gamma]]^2*Subscript[s, \[Gamma]]*
-             ((1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*(-13 + 
-                29*Subscript[s, \[Gamma]]^2) + 2*Subscript[m, \[Phi]]^4*(
-                -43 + 87*Subscript[s, \[Gamma]]^2) - (1 + 4*\[Xi]^2)*
+           Subscript[v, EW]^3) + (QuantumField[h]*Subscript[m, h]^2*
+           Subscript[s, \[Gamma]]^2*(2*\[Xi]*(1 + 4*\[Xi]^2)*
+             Subscript[c, \[Gamma]]^4*Subscript[m, K]^2*
+             (8*(1 + 4*\[Xi]^2)*Subscript[m, K]^2 - 15*Subscript[m, \[Phi]]^
+                2)*Subscript[s, \[Gamma]] - 3*\[Xi]*Subscript[c, \[Gamma]]^2*
+             Subscript[s, \[Gamma]]*((1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*(
+                -13 + 29*Subscript[s, \[Gamma]]^2) + 2*Subscript[m, \[Phi]]^
+                4*(-43 + 87*Subscript[s, \[Gamma]]^2) - (1 + 4*\[Xi]^2)*
                Subscript[m, K]^2*Subscript[m, \[Phi]]^2*(-73 + 
                 152*Subscript[s, \[Gamma]]^2)) + Subscript[c, \[Gamma]]^3*
              (90*Subscript[m, \[Phi]]^4*Subscript[s, \[Gamma]]^2 - 
@@ -8813,7 +8911,7 @@
                  \[Gamma]]^2 + 2*Subscript[c, \[Gamma]]*Subscript[s, 
                 \[Gamma]] - \[Xi]*Subscript[s, \[Gamma]]^2)))/
           (Sqrt[2]*\[Xi]*Sqrt[1 + 4*\[Xi]^2]*Subscript[m, K]^4*
-           Subscript[v, EW])) + (h^4*Subscript[s, \[Gamma]]^2*
+           Subscript[v, EW])) + (QuantumField[h]^4*Subscript[s, \[Gamma]]^2*
          (-((1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[s, \[Gamma]]*
             (4*Subscript[c, \[Gamma]]^3*Subscript[s, \[Gamma]]^4 + 
              3*\[Xi]*Subscript[c, \[Gamma]]^2*Subscript[s, \[Gamma]]*
@@ -8872,7 +8970,7 @@
               (-3333 + 3552*\[Xi]^2)*Subscript[s, \[Gamma]]^6 - 
               9*(-171 + 164*\[Xi]^2)*Subscript[s, \[Gamma]]^8))))/
         (24*Sqrt[2]*\[Xi]^3*(1 + 4*\[Xi]^2)^(3/2)*Subscript[m, K]^6*
-         Subscript[v, EW]^3) + (h^3*Subscript[s, \[Gamma]]^2*
+         Subscript[v, EW]^3) + (QuantumField[h]^3*Subscript[s, \[Gamma]]^2*
          (Subscript[c, \[Gamma]]^3*((1 + 4*\[Xi]^2)*Subscript[m, K]^2 - 
              3*Subscript[m, \[Phi]]^2)^2*Subscript[s, \[Gamma]]^2 - 
           2*\[Xi]*Subscript[c, \[Gamma]]^2*((1 + 4*\[Xi]^2)*
@@ -8895,18 +8993,18 @@
                Subscript[s, \[Gamma]]^2 + 18*(-3 + 14*\[Xi]^2)*Subscript[s, 
                  \[Gamma]]^4))))/(6*Sqrt[2]*\[Xi]^2*(1 + 4*\[Xi]^2)*
          Subscript[m, K]^4*Subscript[v, EW]^2) - 
-       (h^2*Subscript[s, \[Gamma]]^2*(Subscript[m, \[Phi]]^2*
-           (4*\[Xi] + 3*Subscript[c, \[Gamma]]*Subscript[s, \[Gamma]] - 
-            6*\[Xi]*Subscript[s, \[Gamma]]^2) + (1 + 4*\[Xi]^2)*
-           Subscript[m, K]^2*(-(Subscript[c, \[Gamma]]*Subscript[s, 
-               \[Gamma]]) + \[Xi]*(-1 + Subscript[s, \[Gamma]]^2))))/
-        (2*Sqrt[2]*\[Xi]*Sqrt[1 + 4*\[Xi]^2]*Subscript[m, K]^2*
+       (QuantumField[h]^2*Subscript[s, \[Gamma]]^2*
+         (Subscript[m, \[Phi]]^2*(4*\[Xi] + 3*Subscript[c, \[Gamma]]*
+             Subscript[s, \[Gamma]] - 6*\[Xi]*Subscript[s, \[Gamma]]^2) + 
+          (1 + 4*\[Xi]^2)*Subscript[m, K]^2*(-(Subscript[c, \[Gamma]]*
+              Subscript[s, \[Gamma]]) + \[Xi]*(-1 + Subscript[s, \[Gamma]]^
+               2))))/(2*Sqrt[2]*\[Xi]*Sqrt[1 + 4*\[Xi]^2]*Subscript[m, K]^2*
          Subscript[v, EW]) - Subscript[v, EW]/(Sqrt[2]*Sqrt[1 + 4*\[Xi]^2]), 
      CQ41 -> t*(Subscript[s, \[Gamma]]^2/(4*Subscript[m, K]^2) + 
-        (h^4*Subscript[s, \[Gamma]]^2*(216*Subscript[c, \[Gamma]]^8*
-            (2*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4 - 7*(1 + 4*\[Xi]^2)*
-               Subscript[m, K]^2*Subscript[m, \[Phi]]^2 + 
-              6*Subscript[m, \[Phi]]^4)^2*Subscript[s, \[Gamma]]^4 + 
+        (QuantumField[h]^4*Subscript[s, \[Gamma]]^2*
+          (216*Subscript[c, \[Gamma]]^8*(2*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^
+                4 - 7*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^
+                2 + 6*Subscript[m, \[Phi]]^4)^2*Subscript[s, \[Gamma]]^4 + 
            (1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*
             (-1 + Subscript[s, \[Gamma]]^2)^2*(-9*\[Xi]^2 + 
              (54 - 153*\[Xi]^2 + 88*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
@@ -8940,179 +9038,181 @@
                 \[Xi]^4)*Subscript[s, \[Gamma]]^8 - 18*\[Xi]^2*
               (-15429 + 8356*\[Xi]^2)*Subscript[s, \[Gamma]]^10 + 
              270*\[Xi]^2*(-327 + 169*\[Xi]^2)*Subscript[s, \[Gamma]]^12) - 
-           144*\[Xi]*Subscript[c, \[Gamma]]^7*(2*(1 + 4*\[Xi]^2)^2*
-              Subscript[m, K]^4 - 7*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*
-              Subscript[m, \[Phi]]^2 + 6*Subscript[m, \[Phi]]^4)*
-            Subscript[s, \[Gamma]]^3*(-7*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*
-              Subscript[m, \[Phi]]^2*(-4 + 15*Subscript[s, \[Gamma]]^2) + 
-             (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*(-2 + 19*Subscript[s, 
-                  \[Gamma]]^2) + 3*Subscript[m, \[Phi]]^4*(-17 + 45*
-                Subscript[s, \[Gamma]]^2)) + 12*Subscript[c, \[Gamma]]^6*
-            Subscript[s, \[Gamma]]^2*(216*Subscript[m, \[Phi]]^8*
-              (28*\[Xi]^2 + (9 - 141*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 2*
-                (-8 + 87*\[Xi]^2)*Subscript[s, \[Gamma]]^4) + 
-             (1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*(8*\[Xi]^2 + (117 - 
-                 236*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 3*(-53 + 
-                 268*\[Xi]^2)*Subscript[s, \[Gamma]]^4) - 6*(1 + 4*\[Xi]^2)*
-              Subscript[m, K]^2*Subscript[m, \[Phi]]^6*(1286*\[Xi]^2 - 9*
-                (-79 + 828*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 3*
-                (-383 + 3426*\[Xi]^2)*Subscript[s, \[Gamma]]^4) - 
-             2*(1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, \[Phi]]^2*
-              (208*\[Xi]^2 + (531 - 2181*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
-               (-759 + 4545*\[Xi]^2)*Subscript[s, \[Gamma]]^4) + 
-             3*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^4*
-              (1042*\[Xi]^2 + (1101 - 7492*\[Xi]^2)*Subscript[s, \[Gamma]]^
-                 2 + (-1661 + 12126*\[Xi]^2)*Subscript[s, \[Gamma]]^4)) - 
+           48*\[Xi]*Subscript[c, \[Gamma]]^7*((2 + 8*\[Xi]^2)*
+              Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)*
+            Subscript[s, \[Gamma]]^3*(27*Subscript[m, \[Phi]]^6*
+              (13 - 35*Subscript[s, \[Gamma]]^2) + (1 + 4*\[Xi]^2)^3*
+              Subscript[m, K]^6*(-6 + 67*Subscript[s, \[Gamma]]^2) - 
+             2*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^2*
+              (-53 + 252*Subscript[s, \[Gamma]]^2) + 3*(1 + 4*\[Xi]^2)*
+              Subscript[m, K]^2*Subscript[m, \[Phi]]^4*(-122 + 405*
+                Subscript[s, \[Gamma]]^2)) + 6*Subscript[c, \[Gamma]]^6*
+            Subscript[s, \[Gamma]]^2*(4*(1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*
+              (4*\[Xi]^2 + (66 - 118*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
+               (-87 + 482*\[Xi]^2)*Subscript[s, \[Gamma]]^4) - 
+             (1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, \[Phi]]^2*
+              (832*\[Xi]^2 + (2379 - 9364*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
+               3*(-1097 + 7180*\[Xi]^2)*Subscript[s, \[Gamma]]^4) + 
+             9*Subscript[m, \[Phi]]^8*(1504*\[Xi]^2 + (477 - 7728*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (-813 + 9792*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^4) + (1 + 4*\[Xi]^2)^2*
+              Subscript[m, K]^4*Subscript[m, \[Phi]]^4*(6572*\[Xi]^2 - 9*
+                (-819 + 5528*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 3*
+                (-3577 + 28572*\[Xi]^2)*Subscript[s, \[Gamma]]^4) - 
+             3*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^6*
+              (5624*\[Xi]^2 + (3159 - 33648*\[Xi]^2)*Subscript[s, \[Gamma]]^
+                 2 + (-4911 + 48312*\[Xi]^2)*Subscript[s, \[Gamma]]^4)) - 
            6*\[Xi]*Subscript[c, \[Gamma]]^5*Subscript[s, \[Gamma]]*
-            (4*(1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*
-              (-75 + 14*\[Xi]^2 - 7*(-32 + 25*\[Xi]^2)*Subscript[s, \[Gamma]]^
-                 2 + 3*(-83 + 99*\[Xi]^2)*Subscript[s, \[Gamma]]^4) + 
-             3*Subscript[m, \[Phi]]^8*(-3392*\[Xi]^2 + 12*(-393 + 
-                 2092*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 48*(-449 + 
-                 1260*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 9*(-2693 + 
-                 5232*\[Xi]^2)*Subscript[s, \[Gamma]]^6) - 
-             2*(1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, \[Phi]]^2*
-              (-64*\[Xi]^2 + (-2019 + 1552*\[Xi]^2)*Subscript[s, \[Gamma]]^
-                 2 + (7490 - 7566*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 
-               (-7896 + 8922*\[Xi]^2)*Subscript[s, \[Gamma]]^6) + 
+            (2*(1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*
+              (-170 + 28*\[Xi]^2 + (453 - 390*\[Xi]^2)*Subscript[s, \[Gamma]]^
+                 2 + (-488 + 714*\[Xi]^2)*Subscript[s, \[Gamma]]^4) + 
              (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^4*
-              (-2368*\[Xi]^2 + 12*(-1391 + 2323*\[Xi]^2)*Subscript[s, 
-                  \[Gamma]]^2 + (66816 - 93624*\[Xi]^2)*Subscript[s, 
-                  \[Gamma]]^4 + 9*(-7787 + 10060*\[Xi]^2)*Subscript[s, 
-                  \[Gamma]]^6) - 6*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*
-              Subscript[m, \[Phi]]^6*(-1536*\[Xi]^2 + 178*(-25 + 76*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 - 4*(-4714 + 9285*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^4 + 3*(-6733 + 10548*\[Xi]^2)*
+              (-2688*\[Xi]^2 + 4*(-4723 + 8039*\[Xi]^2)*Subscript[s, 
+                  \[Gamma]]^2 - 24*(-3089 + 4581*\[Xi]^2)*Subscript[s, 
+                  \[Gamma]]^4 + 99*(-767 + 1100*\[Xi]^2)*Subscript[s, 
+                  \[Gamma]]^6) - (1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*
+              Subscript[m, \[Phi]]^2*(-128*\[Xi]^2 + 16*(-283 + 219*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 - 6*(-2705 + 2942*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^4 + 9*(-1863 + 2396*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^6) + 3*Subscript[m, \[Phi]]^8*
+              (-3872*\[Xi]^2 + 54*(-99 + 536*\[Xi]^2)*Subscript[s, \[Gamma]]^
+                 2 + (23802 - 70560*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 9*
+                (-2873 + 6192*\[Xi]^2)*Subscript[s, \[Gamma]]^6) - 
+             (1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^6*
+              (-10496*\[Xi]^2 + 24*(-1265 + 3902*\[Xi]^2)*Subscript[s, 
+                  \[Gamma]]^2 - 6*(-21001 + 43500*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^4 + 9*(-14561 + 25176*\[Xi]^2)*
                 Subscript[s, \[Gamma]]^6)) + \[Xi]*Subscript[c, \[Gamma]]^3*
             Subscript[s, \[Gamma]]*(2*(1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*
-              (24*\[Xi]^2 + (114 - 710*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
-               (-550 + 3314*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + (1025 - 
-                 4998*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + (-629 + 
-                 2622*\[Xi]^2)*Subscript[s, \[Gamma]]^8) + 
-             18*Subscript[m, \[Phi]]^8*(3968*\[Xi]^2 + (4284 - 48528*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + (-29349 + 192496*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^4 + (61755 - 307260*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^6 + 36*(-1121 + 4754*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^8) + 6*(1 + 4*\[Xi]^2)^2*
-              Subscript[m, K]^4*Subscript[m, \[Phi]]^4*(6344*\[Xi]^2 + 
-               (12018 - 71882*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
-               (-76532 + 270913*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 
-               (147579 - 411426*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 9*
-                (-9737 + 24183*\[Xi]^2)*Subscript[s, \[Gamma]]^8) - 
+              (24*\[Xi]^2 + (54 - 800*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
+               (5 + 3464*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + (80 - 
+                 4698*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + (-179 + 
+                 2262*\[Xi]^2)*Subscript[s, \[Gamma]]^8) + 
+             18*Subscript[m, \[Phi]]^8*(4768*\[Xi]^2 + (4644 - 56048*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (-30879 + 216856*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^4 - 105*(-607 + 3228*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^6 + 18*(-2287 + 10288*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^8) - 6*(1 + 4*\[Xi]^2)*
+              Subscript[m, K]^2*Subscript[m, \[Phi]]^6*(20896*\[Xi]^2 + 
+               (23997 - 223276*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 6*
+                (-25776 + 136487*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 
+               (306621 - 1229016*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 36*
+                (-5231 + 17986*\[Xi]^2)*Subscript[s, \[Gamma]]^8) + 
+             6*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^4*
+              (7454*\[Xi]^2 + (12468 - 82962*\[Xi]^2)*Subscript[s, \[Gamma]]^
+                 2 + (-77327 + 308073*\[Xi]^2)*Subscript[s, \[Gamma]]^4 - 6*
+                (-24819 + 76741*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 9*
+                (-9857 + 26693*\[Xi]^2)*Subscript[s, \[Gamma]]^8) - 
              (1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, \[Phi]]^2*
-              (3900*\[Xi]^2 + (11958 - 52096*\[Xi]^2)*Subscript[s, \[Gamma]]^
-                 2 + 3*(-24732 + 69695*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 
-               (140011 - 323094*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 3*
-                (-27097 + 57495*\[Xi]^2)*Subscript[s, \[Gamma]]^8) - 
-             18*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^6*
-              (5792*\[Xi]^2 + (7469 - 63652*\[Xi]^2)*Subscript[s, \[Gamma]]^
-                 2 + (-49342 + 238334*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 
-               (98862 - 364552*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 3*
-                (-20369 + 65104*\[Xi]^2)*Subscript[s, \[Gamma]]^8)) + 
+              (4440*\[Xi]^2 + (11478 - 58216*\[Xi]^2)*Subscript[s, \[Gamma]]^
+                 2 + 27*(-2508 + 8495*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 
+               (129121 - 347094*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 3*
+                (-25507 + 60795*\[Xi]^2)*Subscript[s, \[Gamma]]^8)) + 
            Subscript[c, \[Gamma]]^4*((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*
-              Subscript[s, \[Gamma]]^2*(588*\[Xi]^2 + (-369 - 5612*\[Xi]^2 + 
-                 486*\[Xi]^4)*Subscript[s, \[Gamma]]^2 - 6*
-                (3 - 1798*\[Xi]^2 + 338*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
-               (475 - 7908*\[Xi]^2 + 1926*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 6) - 12*(1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, 
-                \[Phi]]^2*Subscript[s, \[Gamma]]^2*(2*\[Xi]^2*(697 - 
-                 96*\[Xi]^2) + (363 - 10636*\[Xi]^2 + 1716*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 + (-1721 + 23208*\[Xi]^2 - 
-                 4362*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (1553 - 
-                 16557*\[Xi]^2 + 3270*\[Xi]^4)*Subscript[s, \[Gamma]]^6) + 
-             9*Subscript[m, \[Phi]]^8*(2560*\[Xi]^4 - 16*\[Xi]^2*
-                (-939 + 1520*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
-               (3051 - 113744*\[Xi]^2 + 84576*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 - 18*(593 - 14898*\[Xi]^2 + 7072*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + 36*(287 - 5499*\[Xi]^2 + 
-                 1944*\[Xi]^4)*Subscript[s, \[Gamma]]^8) - 6*(1 + 4*\[Xi]^2)*
-              Subscript[m, K]^2*Subscript[m, \[Phi]]^6*(2560*\[Xi]^4 - 48*
-                \[Xi]^2*(-755 + 616*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 48*
-                (177 - 5397*\[Xi]^2 + 2462*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 - 12*(2523 - 48595*\[Xi]^2 + 16308*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 + 9*(2999 - 46158*\[Xi]^2 + 
-                 12720*\[Xi]^4)*Subscript[s, \[Gamma]]^8) + 
-             3*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^4*
-              (768*\[Xi]^4 - 4*\[Xi]^2*(-8711 + 3376*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + (9678 - 249404*\[Xi]^2 + 
-                 69456*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 12*(3015 - 
-                 45923*\[Xi]^2 + 11208*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
-               (31167 - 388356*\[Xi]^2 + 86616*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^8)) - 2*\[Xi]*Subscript[c, \[Gamma]]*
-            Subscript[s, \[Gamma]]*((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*
-              Subscript[s, \[Gamma]]^2*(-1 + Subscript[s, \[Gamma]]^2)*
-              (-108 - 253*\[Xi]^2 + 3*(-41 + 434*\[Xi]^2)*Subscript[s, 
-                  \[Gamma]]^2 + (726 - 1831*\[Xi]^2)*Subscript[s, \[Gamma]]^
-                 4 + (-507 + 674*\[Xi]^2)*Subscript[s, \[Gamma]]^6) + 
-             3*Subscript[m, \[Phi]]^8*Subscript[s, \[Gamma]]^2*
-              (-324 + 44000*\[Xi]^2 - 7*(-2943 + 45112*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + 9*(-8655 + 89948*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^4 - 189*(-511 + 4700*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^6 + 27*(-1443 + 13112*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^8) - 2*(1 + 4*\[Xi]^2)*
-              Subscript[m, K]^2*Subscript[m, \[Phi]]^6*(-324*\[Xi]^2 + 9*
-                (-57 + 9745*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (48807 - 
-                 601564*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 9*(-21182 + 
-                 164371*\[Xi]^2)*Subscript[s, \[Gamma]]^6 - 27*(-8993 + 
-                 57532*\[Xi]^2)*Subscript[s, \[Gamma]]^8 + 297*(-339 + 
-                 1990*\[Xi]^2)*Subscript[s, \[Gamma]]^10) - (1 + 4*\[Xi]^2)^3*
-              Subscript[m, K]^6*Subscript[m, \[Phi]]^2*(-78*\[Xi]^2 + 94*
-                (9 + 88*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (4296 - 
-                 52579*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 3*(-8082 + 
-                 39089*\[Xi]^2)*Subscript[s, \[Gamma]]^6 - 6*(-5419 + 
-                 18273*\[Xi]^2)*Subscript[s, \[Gamma]]^8 + 6*(-2235 + 
-                 6134*\[Xi]^2)*Subscript[s, \[Gamma]]^10) + 
-             3*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^4*
-              (-222*\[Xi]^2 + (228 + 22615*\[Xi]^2)*Subscript[s, \[Gamma]]^
-                 2 - 26*(-562 + 5681*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 
-               (-60458 + 347146*\[Xi]^2)*Subscript[s, \[Gamma]]^6 - 36*
-                (-2161 + 9636*\[Xi]^2)*Subscript[s, \[Gamma]]^8 + 9*
-                (-3578 + 13929*\[Xi]^2)*Subscript[s, \[Gamma]]^10)) + 
-           Subscript[c, \[Gamma]]^2*(-((1 + 4*\[Xi]^2)^4*Subscript[m, K]^
-                8*Subscript[s, \[Gamma]]^2*(\[Xi]^2*(-171 + 56*\[Xi]^2) + 
-                (243 + 1900*\[Xi]^2 - 850*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
-                (-357 - 6052*\[Xi]^2 + 2900*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                  4 - 15*(1 - 458*\[Xi]^2 + 234*\[Xi]^4)*Subscript[s, 
-                   \[Gamma]]^6 + 3*(43 - 857*\[Xi]^2 + 468*\[Xi]^4)*
-                 Subscript[s, \[Gamma]]^8)) - 9*Subscript[m, \[Phi]]^8*
-              Subscript[s, \[Gamma]]^2*(8*\[Xi]^2*(-699 + 2248*\[Xi]^2) - 4*
-                (27 - 19761*\[Xi]^2 + 35296*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 2 + (4779 - 306516*\[Xi]^2 + 401552*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^4 - 6*(1647 - 75264*\[Xi]^2 + 
-                 82264*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 9*(579 - 
-                 25020*\[Xi]^2 + 24704*\[Xi]^4)*Subscript[s, \[Gamma]]^8) + 
+              Subscript[s, \[Gamma]]^2*(588*\[Xi]^2 + (-459 - 6272*\[Xi]^2 + 
+                 486*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (162 + 
+                 9708*\[Xi]^2 - 2508*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 
+               (385 - 6378*\[Xi]^2 + 2406*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6) - 6*(1 + 4*\[Xi]^2)^3*Subscript[m, K]^6*Subscript[m, 
+                \[Phi]]^2*Subscript[s, \[Gamma]]^2*(2988*\[Xi]^2 - 384*
+                \[Xi]^4 + (726 - 22742*\[Xi]^2 + 3912*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^2 + (-3487 + 46726*\[Xi]^2 - 
+                 10964*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + (3151 - 
+                 32634*\[Xi]^2 + 8460*\[Xi]^4)*Subscript[s, \[Gamma]]^6) - 
+             6*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^6*
+              (2880*\[Xi]^4 - 64*\[Xi]^2*(-610 + 537*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + 6*(1536 - 45781*\[Xi]^2 + 
+                 23616*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 3*(10647 - 
+                 202870*\[Xi]^2 + 80592*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
+               36*(776 - 11937*\[Xi]^2 + 4020*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 8) + 3*Subscript[m, \[Phi]]^8*(8960*\[Xi]^4 - 432*\[Xi]^2*
+                (-111 + 200*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (9963 - 
+                 358152*\[Xi]^2 + 305568*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 
+               54*(623 - 15458*\[Xi]^2 + 8672*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 6 + 54*(589 - 11298*\[Xi]^2 + 4848*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8) + 3*(1 + 4*\[Xi]^2)^2*
+              Subscript[m, K]^4*Subscript[m, \[Phi]]^4*(768*\[Xi]^4 - 4*
+                \[Xi]^2*(-9371 + 3736*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 2*
+                (5169 - 132312*\[Xi]^2 + 41048*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^4 - 12*(3160 - 47483*\[Xi]^2 + 13968*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 + 3*(10749 - 132602*\[Xi]^2 + 
+                 37032*\[Xi]^4)*Subscript[s, \[Gamma]]^8)) - 
+           2*\[Xi]*Subscript[c, \[Gamma]]*Subscript[s, \[Gamma]]*
+            ((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*
+              (-1 + Subscript[s, \[Gamma]]^2)*(-2*(9 + 104*\[Xi]^2) + 3*
+                (-241 + 424*\[Xi]^2)*Subscript[s, \[Gamma]]^2 - 2*
+                (-843 + 953*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + (-957 + 
+                 734*\[Xi]^2)*Subscript[s, \[Gamma]]^6) - (1 + 4*\[Xi]^2)^3*
+              Subscript[m, K]^6*Subscript[m, \[Phi]]^2*(-258*\[Xi]^2 + 4*
+                (-606 + 2713*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + (23316 - 
+                 63604*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 3*(-20747 + 
+                 45594*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + (64524 - 
+                 124893*\[Xi]^2)*Subscript[s, \[Gamma]]^8 + 3*(-7725 + 
+                 13723*\[Xi]^2)*Subscript[s, \[Gamma]]^10) + 
+             3*Subscript[m, \[Phi]]^8*(-960*\[Xi]^2 + (-5724 + 57440*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (48951 - 370024*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^4 + 9*(-14505 + 100468*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^6 - 81*(-1709 + 11900*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^8 + 27*(-1893 + 13952*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^10) + 3*(1 + 4*\[Xi]^2)^2*
+              Subscript[m, K]^4*Subscript[m, \[Phi]]^4*(-982*\[Xi]^2 + 
+               (-5662 + 31965*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
+               (47242 - 183706*\[Xi]^2)*Subscript[s, \[Gamma]]^4 + 6*
+                (-20663 + 68021*\[Xi]^2)*Subscript[s, \[Gamma]]^6 - 6*
+                (-21751 + 65766*\[Xi]^2)*Subscript[s, \[Gamma]]^8 + 9*
+                (-5348 + 15499*\[Xi]^2)*Subscript[s, \[Gamma]]^10) - 
+             (1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^6*
+              (-5448*\[Xi]^2 + 6*(-5196 + 39715*\[Xi]^2)*Subscript[s, 
+                  \[Gamma]]^2 + (259974 - 1450928*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^4 + 9*(-76719 + 376222*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^6 - 108*(-6829 + 31911*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^8 + 27*(-10233 + 47560*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^10)) - Subscript[c, \[Gamma]]^2*
+            ((1 + 4*\[Xi]^2)^4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*
+              (\[Xi]^2*(-261 + 56*\[Xi]^2) + (123 + 2140*\[Xi]^2 - 
+                 850*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (3 - 7252*\[Xi]^2 + 
+                 2630*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 15*
+                (25 - 586*\[Xi]^2 + 198*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 3*
+                (83 - 1147*\[Xi]^2 + 378*\[Xi]^4)*Subscript[s, \[Gamma]]^8) + 
+             9*Subscript[m, \[Phi]]^8*Subscript[s, \[Gamma]]^2*
+              (8*\[Xi]^2*(-1359 + 2488*\[Xi]^2) - 2*(729 - 58482*\[Xi]^2 + 
+                 77312*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (8829 - 
+                 397836*\[Xi]^2 + 434672*\[Xi]^4)*Subscript[s, \[Gamma]]^4 - 
+               12*(1161 - 45132*\[Xi]^2 + 44012*\[Xi]^4)*Subscript[s, 
+                  \[Gamma]]^6 + 9*(729 - 28500*\[Xi]^2 + 26144*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8) - (1 + 4*\[Xi]^2)^3*
+              Subscript[m, K]^6*Subscript[m, \[Phi]]^2*(-120*\[Xi]^4 + 4*
+                \[Xi]^2*(-2517 + 1333*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 
+               (-1797 + 98823*\[Xi]^2 - 42250*\[Xi]^4)*Subscript[s, \[Gamma]]^
+                 4 + 3*(4537 - 104079*\[Xi]^2 + 38978*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^6 - 3*(7793 - 128575*\[Xi]^2 + 
+                 44458*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 9*(1289 - 
+                 18141*\[Xi]^2 + 6014*\[Xi]^4)*Subscript[s, \[Gamma]]^10) - 
              3*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^6*
-              (-1440*\[Xi]^4 + 36*\[Xi]^2*(-765 + 1684*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + (-207 + 356838*\[Xi]^2 - 
-                 428008*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 3*(7899 - 
-                 437722*\[Xi]^2 + 388216*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 
-               6*(8757 - 308214*\[Xi]^2 + 229208*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^8 + 144*(204 - 6129*\[Xi]^2 + 4109*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^10) + (1 + 4*\[Xi]^2)^3*
-              Subscript[m, K]^6*Subscript[m, \[Phi]]^2*(-120*\[Xi]^4 + 
-               (-5268*\[Xi]^2 + 4792*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + 
-               (1413 + 64353*\[Xi]^2 - 38470*\[Xi]^4)*Subscript[s, \[Gamma]]^
-                 4 + 3*(1047 - 74129*\[Xi]^2 + 36818*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^6 - 3*(4023 - 96725*\[Xi]^2 + 
-                 43318*\[Xi]^4)*Subscript[s, \[Gamma]]^8 + 9*(839 - 
-                 14211*\[Xi]^2 + 5994*\[Xi]^4)*Subscript[s, \[Gamma]]^10) - 
+              (-2080*\[Xi]^4 + 108*\[Xi]^2*(-495 + 668*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 + (-8217 + 544278*\[Xi]^2 - 
+                 488488*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 3*(16389 - 
+                 590922*\[Xi]^2 + 431816*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 
+               12*(6621 - 192807*\[Xi]^2 + 125104*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 + 18*(2157 - 58272*\[Xi]^2 + 
+                 35392*\[Xi]^4)*Subscript[s, \[Gamma]]^10) + 
              (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^4*
-              (-1632*\[Xi]^4 + \[Xi]^2*(-39411 + 54872*\[Xi]^2)*
-                Subscript[s, \[Gamma]]^2 + (1521 + 476445*\[Xi]^2 - 
-                 388428*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 3*(11262 - 
-                 559017*\[Xi]^2 + 352364*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 
-               9*(9164 - 251907*\[Xi]^2 + 136668*\[Xi]^4)*Subscript[s, 
-                  \[Gamma]]^8 + 9*(5301 - 115542*\[Xi]^2 + 57332*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^10))))/(96*\[Xi]^4*(1 + 4*\[Xi]^2)^2*
-          Subscript[m, K]^10*Subscript[v, EW]^4) + 
-        (h^3*Subscript[s, \[Gamma]]^2*(54*Subscript[c, \[Gamma]]^6*
-            ((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 3*Subscript[m, \[Phi]]^2)*
-            ((1 + 4*\[Xi]^2)*Subscript[m, K]^2 - 2*Subscript[m, \[Phi]]^2)^2*
-            Subscript[s, \[Gamma]]^3 - 12*\[Xi]*Subscript[c, \[Gamma]]^5*
-            Subscript[s, \[Gamma]]^2*(18*Subscript[m, \[Phi]]^6*
-              (13 - 33*Subscript[s, \[Gamma]]^2) + 261*(1 + 4*\[Xi]^2)*
-              Subscript[m, K]^2*Subscript[m, \[Phi]]^4*(-1 + 3*
-                Subscript[s, \[Gamma]]^2) + 2*(1 + 4*\[Xi]^2)^3*
+              (-2352*\[Xi]^4 + \[Xi]^2*(-76941 + 66752*\[Xi]^2)*
+                Subscript[s, \[Gamma]]^2 - 3*(4563 - 249255*\[Xi]^2 + 
+                 149636*\[Xi]^4)*Subscript[s, \[Gamma]]^4 + 3*(27912 - 
+                 783937*\[Xi]^2 + 393404*\[Xi]^4)*Subscript[s, \[Gamma]]^6 - 
+               9*(15214 - 328867*\[Xi]^2 + 148908*\[Xi]^4)*
+                Subscript[s, \[Gamma]]^8 + 9*(7491 - 143532*\[Xi]^2 + 
+                 61412*\[Xi]^4)*Subscript[s, \[Gamma]]^10))))/
+         (96*\[Xi]^4*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^10*
+          Subscript[v, EW]^4) + (QuantumField[h]^3*Subscript[s, \[Gamma]]^2*
+          (54*Subscript[c, \[Gamma]]^6*((2 + 8*\[Xi]^2)*Subscript[m, K]^2 - 
+             3*Subscript[m, \[Phi]]^2)*((1 + 4*\[Xi]^2)*Subscript[m, K]^2 - 
+              2*Subscript[m, \[Phi]]^2)^2*Subscript[s, \[Gamma]]^3 - 
+           12*\[Xi]*Subscript[c, \[Gamma]]^5*Subscript[s, \[Gamma]]^2*
+            (18*Subscript[m, \[Phi]]^6*(13 - 33*Subscript[s, \[Gamma]]^2) + 
+             261*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*Subscript[m, \[Phi]]^4*
+              (-1 + 3*Subscript[s, \[Gamma]]^2) + 2*(1 + 4*\[Xi]^2)^3*
               Subscript[m, K]^6*(-3 + 22*Subscript[s, \[Gamma]]^2) - 
              (1 + 4*\[Xi]^2)^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^2*
               (-83 + 330*Subscript[s, \[Gamma]]^2)) + 
@@ -9192,7 +9292,7 @@
                 (-3141 + 4792*\[Xi]^2)*Subscript[s, \[Gamma]]^6 + 36*
                 (-279 + 400*\[Xi]^2)*Subscript[s, \[Gamma]]^8))))/
          (24*\[Xi]^3*(1 + 4*\[Xi]^2)^(3/2)*Subscript[m, K]^8*
-          Subscript[v, EW]^3) + (h^2*Subscript[s, \[Gamma]]^2*
+          Subscript[v, EW]^3) + (QuantumField[h]^2*Subscript[s, \[Gamma]]^2*
           (18*Subscript[c, \[Gamma]]^4*((1 + 4*\[Xi]^2)*Subscript[m, K]^2 - 
               2*Subscript[m, \[Phi]]^2)^2*Subscript[s, \[Gamma]]^2 - 
            (1 + 4*\[Xi]^2)^2*(3 + 4*\[Xi]^2)*Subscript[m, K]^4*
@@ -9224,7 +9324,7 @@
               (40*\[Xi]^2 - 21*(-1 + 8*\[Xi]^2)*Subscript[s, \[Gamma]]^2 + 3*
                 (-11 + 56*\[Xi]^2)*Subscript[s, \[Gamma]]^4))))/
          (8*\[Xi]^2*(1 + 4*\[Xi]^2)*Subscript[m, K]^6*Subscript[v, EW]^2) + 
-        (h*Subscript[c, \[Gamma]]*Subscript[s, \[Gamma]]^2*
+        (QuantumField[h]*Subscript[c, \[Gamma]]*Subscript[s, \[Gamma]]^2*
           (-2*(1 + 4*\[Xi]^2)*Subscript[m, K]^2*(-2*Subscript[c, \[Gamma]]*
               Subscript[s, \[Gamma]] + \[Xi]*(-1 + 2*Subscript[s, \[Gamma]]^
                  2)) + Subscript[m, \[Phi]]^2*(-9*Subscript[c, \[Gamma]]*
@@ -9232,20 +9332,20 @@
                  2))))/(4*\[Xi]*Sqrt[1 + 4*\[Xi]^2]*Subscript[m, K]^4*
           Subscript[v, EW])), CQ42 -> 
       t*((4*\[Xi]^2)/((1 + 4*\[Xi]^2)*Subscript[m, \[Phi]]^2) + 
-        (h^4*(6*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^10*Subscript[s, \[Gamma]]^4*
-            (-1 + Subscript[c, \[Gamma]]^2 + Subscript[s, \[Gamma]]^2)^2 - 
-           (1 + 4*\[Xi]^2)*Subscript[m, K]^8*Subscript[m, \[Phi]]^2*
-            Subscript[s, \[Gamma]]^2*(-1 + Subscript[c, \[Gamma]]^2 + 
-             Subscript[s, \[Gamma]]^2)*(-3*\[Xi]^2*(-7 + 8*\[Xi]^2 + 16*
-                \[Xi]^4) + (-48 + 241*\[Xi]^2 - 208*\[Xi]^4 + 592*\[Xi]^6 - 
-               384*\[Xi]^8)*Subscript[s, \[Gamma]]^2 + 48*\[Xi]*
-              (1 + 4*\[Xi]^2)^2*Subscript[c, \[Gamma]]^3*Subscript[s, 
-                \[Gamma]]^3 - \[Xi]^2*(5 + 712*\[Xi]^2 + 1280*\[Xi]^4 - 1152*
-                \[Xi]^6 + 768*\[Xi]^8)*Subscript[s, \[Gamma]]^4 + 
-             (\[Xi] + 4*\[Xi]^3)^2*(31 + 24*\[Xi]^2 + 48*\[Xi]^4)*
-              Subscript[s, \[Gamma]]^6 + Subscript[c, \[Gamma]]^2*
-              (-144*\[Xi]^2 - 3*(-13 + 56*\[Xi]^2 + 240*\[Xi]^4)*
-                Subscript[s, \[Gamma]]^2 + (1 + 4*\[Xi]^2)^2*
+        (QuantumField[h]^4*(6*(1 + 4*\[Xi]^2)^2*Subscript[m, K]^10*
+            Subscript[s, \[Gamma]]^4*(-1 + Subscript[c, \[Gamma]]^2 + 
+              Subscript[s, \[Gamma]]^2)^2 - (1 + 4*\[Xi]^2)*Subscript[m, K]^8*
+            Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^2*
+            (-1 + Subscript[c, \[Gamma]]^2 + Subscript[s, \[Gamma]]^2)*
+            (-3*\[Xi]^2*(-7 + 8*\[Xi]^2 + 16*\[Xi]^4) + 
+             (-48 + 241*\[Xi]^2 - 208*\[Xi]^4 + 592*\[Xi]^6 - 384*\[Xi]^8)*
+              Subscript[s, \[Gamma]]^2 + 48*\[Xi]*(1 + 4*\[Xi]^2)^2*
+              Subscript[c, \[Gamma]]^3*Subscript[s, \[Gamma]]^3 - 
+             \[Xi]^2*(5 + 712*\[Xi]^2 + 1280*\[Xi]^4 - 1152*\[Xi]^6 + 768*
+                \[Xi]^8)*Subscript[s, \[Gamma]]^4 + (\[Xi] + 4*\[Xi]^3)^2*
+              (31 + 24*\[Xi]^2 + 48*\[Xi]^4)*Subscript[s, \[Gamma]]^6 + 
+             Subscript[c, \[Gamma]]^2*(-144*\[Xi]^2 - 3*(-13 + 56*\[Xi]^2 + 
+                 240*\[Xi]^4)*Subscript[s, \[Gamma]]^2 + (1 + 4*\[Xi]^2)^2*
                 (13 - 24*\[Xi]^2 + 96*\[Xi]^4)*Subscript[s, \[Gamma]]^4) - 
              4*\[Xi]*Subscript[c, \[Gamma]]*Subscript[s, \[Gamma]]*
               (12*(2 - 9*\[Xi]^2 + 12*\[Xi]^4) + (37 - 28*\[Xi]^2 - 
@@ -9395,9 +9495,9 @@
                  1496*\[Xi]^4 - 2944*\[Xi]^6 + 1152*\[Xi]^8)*
                 Subscript[s, \[Gamma]]^8))))/(6*\[Xi]^2*(1 + 4*\[Xi]^2)^3*
           Subscript[m, K]^6*Subscript[m, \[Phi]]^6*Subscript[v, EW]^4) - 
-        (2*h^3*(4*\[Xi]^2*Subscript[m, \[Phi]]^6*Subscript[s, \[Gamma]]^3*
-            (-2 + 3*Subscript[s, \[Gamma]]^2)*(11 - 8*\[Xi]^2 + 
-             12*(-1 + \[Xi]^2)*Subscript[s, \[Gamma]]^2) + 
+        (2*QuantumField[h]^3*(4*\[Xi]^2*Subscript[m, \[Phi]]^6*
+            Subscript[s, \[Gamma]]^3*(-2 + 3*Subscript[s, \[Gamma]]^2)*
+            (11 - 8*\[Xi]^2 + 12*(-1 + \[Xi]^2)*Subscript[s, \[Gamma]]^2) + 
            3*(1 + 4*\[Xi]^2)*Subscript[m, K]^6*Subscript[s, \[Gamma]]^3*
             (-1 + Subscript[s, \[Gamma]]^2)*(2 - 7*\[Xi]^2 + 4*\[Xi]^4 + 
              \[Xi]^2*(-1 + 16*\[Xi]^4)*Subscript[s, \[Gamma]]^2) - 
@@ -9454,11 +9554,11 @@
                  160*\[Xi]^6)*Subscript[s, \[Gamma]]^6))))/
          (3*\[Xi]*(1 + 4*\[Xi]^2)^(5/2)*Subscript[m, K]^4*
           Subscript[m, \[Phi]]^4*Subscript[v, EW]^3) + 
-        (2*h^2*((1 + 4*\[Xi]^2)*Subscript[m, K]^4*Subscript[s, \[Gamma]]^2*
-            (-1 + Subscript[c, \[Gamma]]^2 + Subscript[s, \[Gamma]]^2) + 
-           Subscript[m, \[Phi]]^4*Subscript[s, \[Gamma]]*
-            (3*(1 - 4*\[Xi]^2)*Subscript[c, \[Gamma]]^2*Subscript[s, 
-               \[Gamma]] + 4*\[Xi]^2*Subscript[s, \[Gamma]]*
+        (2*QuantumField[h]^2*((1 + 4*\[Xi]^2)*Subscript[m, K]^4*
+            Subscript[s, \[Gamma]]^2*(-1 + Subscript[c, \[Gamma]]^2 + 
+             Subscript[s, \[Gamma]]^2) + Subscript[m, \[Phi]]^4*
+            Subscript[s, \[Gamma]]*(3*(1 - 4*\[Xi]^2)*Subscript[c, \[Gamma]]^
+               2*Subscript[s, \[Gamma]] + 4*\[Xi]^2*Subscript[s, \[Gamma]]*
               (-2 + 3*Subscript[s, \[Gamma]]^2) + 4*Subscript[c, \[Gamma]]*
               (\[Xi] - 4*\[Xi]^3 + (-3*\[Xi] + 6*\[Xi]^3)*Subscript[s, 
                   \[Gamma]]^2)) + Subscript[m, K]^2*Subscript[m, \[Phi]]^2*
@@ -9470,15 +9570,15 @@
              4*Subscript[c, \[Gamma]]^2*(2*\[Xi]^2 + (-1 + 4*\[Xi]^4)*
                 Subscript[s, \[Gamma]]^2))))/((1 + 4*\[Xi]^2)^2*
           Subscript[m, K]^2*Subscript[m, \[Phi]]^4*Subscript[v, EW]^2) + 
-        (4*\[Xi]*h*(-2*\[Xi]*Subscript[c, \[Gamma]] + (-1 + 4*\[Xi]^2)*
-            Subscript[s, \[Gamma]]))/((1 + 4*\[Xi]^2)^(3/2)*
+        (4*\[Xi]*QuantumField[h]*(-2*\[Xi]*Subscript[c, \[Gamma]] + 
+           (-1 + 4*\[Xi]^2)*Subscript[s, \[Gamma]]))/((1 + 4*\[Xi]^2)^(3/2)*
           Subscript[m, \[Phi]]^2*Subscript[v, EW]))|>, 
-   dHEFT -> <|CV2 -> -1/4*h^2 + 
-       t^3*((h^2*Subscript[m, h]^2*Subscript[s, \[Gamma]]*
+   dHEFT -> <|CV2 -> -1/4*QuantumField[h]^2 + 
+       t^3*((QuantumField[h]^2*Subscript[m, h]^2*Subscript[s, \[Gamma]]*
            (4*\[Xi] + Subscript[s, \[Gamma]])*(2*Subscript[m, K]^2*
              (\[Xi] + Subscript[s, \[Gamma]]) - Subscript[m, \[Phi]]^2*
              (4*\[Xi] + 3*Subscript[s, \[Gamma]])))/
-          (2*\[Xi]*Subscript[m, K]^4) + (h^6*Subscript[m, h]^2*
+          (2*\[Xi]*Subscript[m, K]^4) + (QuantumField[h]^6*Subscript[m, h]^2*
            Subscript[s, \[Gamma]]*(8*Subscript[m, K]^10*Subscript[s, 
               \[Gamma]]*(72*\[Xi]^5 + 2106*\[Xi]^4*Subscript[s, \[Gamma]] + 
               10593*\[Xi]^3*Subscript[s, \[Gamma]]^2 + 19471*\[Xi]^2*
@@ -9511,8 +9611,8 @@
                  \[Gamma]]^3 + 80726505*\[Xi]^2*Subscript[s, \[Gamma]]^4 + 
               38146890*\[Xi]*Subscript[s, \[Gamma]]^5 + 6646230*Subscript[s, 
                  \[Gamma]]^6)))/(480*\[Xi]^5*Subscript[m, K]^12*
-           Subscript[v, EW]^4) + (h^5*Subscript[m, h]^2*Subscript[s, 
-            \[Gamma]]*(8*Subscript[m, K]^8*Subscript[s, \[Gamma]]*
+           Subscript[v, EW]^4) + (QuantumField[h]^5*Subscript[m, h]^2*
+           Subscript[s, \[Gamma]]*(8*Subscript[m, K]^8*Subscript[s, \[Gamma]]*
              (72*\[Xi]^4 + 546*\[Xi]^3*Subscript[s, \[Gamma]] + 
               1193*\[Xi]^2*Subscript[s, \[Gamma]]^2 + 991*\[Xi]*Subscript[s, 
                  \[Gamma]]^3 + 272*Subscript[s, \[Gamma]]^4) - 
@@ -9535,7 +9635,7 @@
                  \[Gamma]]^3 + 747015*\[Xi]*Subscript[s, \[Gamma]]^4 + 
               132615*Subscript[s, \[Gamma]]^5)))/(80*\[Xi]^4*
            Subscript[m, K]^10*Subscript[v, EW]^3) + 
-         (h^4*Subscript[m, h]^2*Subscript[s, \[Gamma]]*
+         (QuantumField[h]^4*Subscript[m, h]^2*Subscript[s, \[Gamma]]*
            (4*Subscript[m, K]^6*(12*\[Xi]^4 + 188*\[Xi]^3*Subscript[s, 
                 \[Gamma]] + 511*\[Xi]^2*Subscript[s, \[Gamma]]^2 + 
               461*\[Xi]*Subscript[s, \[Gamma]]^3 + 126*Subscript[s, \[Gamma]]^
@@ -9551,7 +9651,7 @@
               69966*\[Xi]^2*Subscript[s, \[Gamma]]^2 + 43563*\[Xi]*
                Subscript[s, \[Gamma]]^3 + 8442*Subscript[s, \[Gamma]]^4)))/
           (48*\[Xi]^3*Subscript[m, K]^8*Subscript[v, EW]^2) + 
-         (h^3*Subscript[m, h]^2*Subscript[s, \[Gamma]]*
+         (QuantumField[h]^3*Subscript[m, h]^2*Subscript[s, \[Gamma]]*
            (4*Subscript[m, K]^4*(12*\[Xi]^3 + 44*\[Xi]^2*Subscript[s, 
                 \[Gamma]] + 43*\[Xi]*Subscript[s, \[Gamma]]^2 + 
               11*Subscript[s, \[Gamma]]^3) - 3*Subscript[m, K]^2*
@@ -9561,12 +9661,13 @@
              (480*\[Xi]^3 + 1264*\[Xi]^2*Subscript[s, \[Gamma]] + 
               906*\[Xi]*Subscript[s, \[Gamma]]^2 + 171*Subscript[s, \[Gamma]]^
                 3)))/(12*\[Xi]^2*Subscript[m, K]^6*Subscript[v, EW])) - 
-       (h*Subscript[v, EW])/2 - Subscript[v, EW]^2/4 + 
-       t^2*((h^2*Subscript[s, \[Gamma]]*(Subscript[m, K]^2*(4*\[Xi]^2 + 
-              2*\[Xi]*Subscript[s, \[Gamma]] + Subscript[s, \[Gamma]]^2) - 
-            Subscript[m, \[Phi]]^2*(16*\[Xi]^2 + 16*\[Xi]*Subscript[s, 
-                \[Gamma]] + 3*Subscript[s, \[Gamma]]^2)))/
-          (4*\[Xi]*Subscript[m, K]^2) + (h^6*Subscript[s, \[Gamma]]*
+       (QuantumField[h]*Subscript[v, EW])/2 - Subscript[v, EW]^2/4 + 
+       t^2*((QuantumField[h]^2*Subscript[s, \[Gamma]]*
+           (Subscript[m, K]^2*(4*\[Xi]^2 + 2*\[Xi]*Subscript[s, \[Gamma]] + 
+              Subscript[s, \[Gamma]]^2) - Subscript[m, \[Phi]]^2*
+             (16*\[Xi]^2 + 16*\[Xi]*Subscript[s, \[Gamma]] + 
+              3*Subscript[s, \[Gamma]]^2)))/(4*\[Xi]*Subscript[m, K]^2) + 
+         (QuantumField[h]^6*Subscript[s, \[Gamma]]*
            (4*Subscript[m, K]^10*Subscript[s, \[Gamma]]^2*
              (\[Xi] + Subscript[s, \[Gamma]])^2*(3*\[Xi]^2 + 
               48*\[Xi]*Subscript[s, \[Gamma]] + 80*Subscript[s, \[Gamma]]^
@@ -9596,27 +9697,28 @@
                Subscript[s, \[Gamma]]^4 + 1116342*\[Xi]*Subscript[s, 
                  \[Gamma]]^5 + 189945*Subscript[s, \[Gamma]]^6)))/
           (240*\[Xi]^5*Subscript[m, K]^10*Subscript[v, EW]^4) + 
-         (h^5*Subscript[s, \[Gamma]]*(4*Subscript[m, K]^8*
-             Subscript[s, \[Gamma]]^2*(\[Xi] + Subscript[s, \[Gamma]])^2*
-             (3*\[Xi] + 8*Subscript[s, \[Gamma]]) - Subscript[m, K]^6*
-             Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*(228*\[Xi]^4 + 
-              1518*\[Xi]^3*Subscript[s, \[Gamma]] + 3055*\[Xi]^2*Subscript[s, 
-                 \[Gamma]]^2 + 2408*\[Xi]*Subscript[s, \[Gamma]]^3 + 
-              643*Subscript[s, \[Gamma]]^4) + 2*Subscript[m, K]^4*
-             Subscript[m, \[Phi]]^4*(120*\[Xi]^5 + 1990*\[Xi]^4*Subscript[s, 
-                \[Gamma]] + 7637*\[Xi]^3*Subscript[s, \[Gamma]]^2 + 
-              11287*\[Xi]^2*Subscript[s, \[Gamma]]^3 + 7006*\[Xi]*
-               Subscript[s, \[Gamma]]^4 + 1506*Subscript[s, \[Gamma]]^5) + 
-            Subscript[m, \[Phi]]^8*(1280*\[Xi]^5 + 10720*\[Xi]^4*Subscript[s, 
-                \[Gamma]] + 27984*\[Xi]^3*Subscript[s, \[Gamma]]^2 + 
-              31014*\[Xi]^2*Subscript[s, \[Gamma]]^3 + 15093*\[Xi]*
-               Subscript[s, \[Gamma]]^4 + 2592*Subscript[s, \[Gamma]]^5) - 
-            Subscript[m, K]^2*Subscript[m, \[Phi]]^6*(1280*\[Xi]^5 + 
-              13040*\[Xi]^4*Subscript[s, \[Gamma]] + 39216*\[Xi]^3*
-               Subscript[s, \[Gamma]]^2 + 48709*\[Xi]^2*Subscript[s, 
-                 \[Gamma]]^3 + 26163*\[Xi]*Subscript[s, \[Gamma]]^4 + 
-              4923*Subscript[s, \[Gamma]]^5)))/(40*\[Xi]^4*Subscript[m, K]^8*
-           Subscript[v, EW]^3) + (h^4*Subscript[s, \[Gamma]]*
+         (QuantumField[h]^5*Subscript[s, \[Gamma]]*
+           (4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*
+             (\[Xi] + Subscript[s, \[Gamma]])^2*(3*\[Xi] + 8*Subscript[s, 
+                \[Gamma]]) - Subscript[m, K]^6*Subscript[m, \[Phi]]^2*
+             Subscript[s, \[Gamma]]*(228*\[Xi]^4 + 1518*\[Xi]^3*Subscript[s, 
+                \[Gamma]] + 3055*\[Xi]^2*Subscript[s, \[Gamma]]^2 + 
+              2408*\[Xi]*Subscript[s, \[Gamma]]^3 + 643*Subscript[s, 
+                 \[Gamma]]^4) + 2*Subscript[m, K]^4*Subscript[m, \[Phi]]^4*
+             (120*\[Xi]^5 + 1990*\[Xi]^4*Subscript[s, \[Gamma]] + 
+              7637*\[Xi]^3*Subscript[s, \[Gamma]]^2 + 11287*\[Xi]^2*
+               Subscript[s, \[Gamma]]^3 + 7006*\[Xi]*Subscript[s, \[Gamma]]^
+                4 + 1506*Subscript[s, \[Gamma]]^5) + Subscript[m, \[Phi]]^8*
+             (1280*\[Xi]^5 + 10720*\[Xi]^4*Subscript[s, \[Gamma]] + 
+              27984*\[Xi]^3*Subscript[s, \[Gamma]]^2 + 31014*\[Xi]^2*
+               Subscript[s, \[Gamma]]^3 + 15093*\[Xi]*Subscript[s, \[Gamma]]^
+                4 + 2592*Subscript[s, \[Gamma]]^5) - Subscript[m, K]^2*
+             Subscript[m, \[Phi]]^6*(1280*\[Xi]^5 + 13040*\[Xi]^4*Subscript[
+                s, \[Gamma]] + 39216*\[Xi]^3*Subscript[s, \[Gamma]]^2 + 
+              48709*\[Xi]^2*Subscript[s, \[Gamma]]^3 + 26163*\[Xi]*
+               Subscript[s, \[Gamma]]^4 + 4923*Subscript[s, \[Gamma]]^5)))/
+          (40*\[Xi]^4*Subscript[m, K]^8*Subscript[v, EW]^3) + 
+         (QuantumField[h]^4*Subscript[s, \[Gamma]]*
            (2*Subscript[m, K]^6*Subscript[s, \[Gamma]]*
              (\[Xi] + Subscript[s, \[Gamma]])^2*(\[Xi] + 6*Subscript[s, 
                 \[Gamma]]) - 3*Subscript[m, \[Phi]]^6*(128*\[Xi]^4 + 
@@ -9631,20 +9733,22 @@
               3159*\[Xi]^2*Subscript[s, \[Gamma]]^2 + 2094*\[Xi]*Subscript[s, 
                  \[Gamma]]^3 + 441*Subscript[s, \[Gamma]]^4)))/
           (24*\[Xi]^3*Subscript[m, K]^6*Subscript[v, EW]^2) + 
-         (h^3*Subscript[s, \[Gamma]]*(2*Subscript[m, K]^4*Subscript[s, 
-              \[Gamma]]*(\[Xi] + Subscript[s, \[Gamma]])^2 - 
-            Subscript[m, K]^2*Subscript[m, \[Phi]]^2*(24*\[Xi]^3 + 
-              70*\[Xi]^2*Subscript[s, \[Gamma]] + 61*\[Xi]*Subscript[s, 
-                 \[Gamma]]^2 + 15*Subscript[s, \[Gamma]]^3) + 
-            Subscript[m, \[Phi]]^4*(48*\[Xi]^3 + 128*\[Xi]^2*Subscript[s, 
-                \[Gamma]] + 93*\[Xi]*Subscript[s, \[Gamma]]^2 + 
-              18*Subscript[s, \[Gamma]]^3)))/(6*\[Xi]^2*Subscript[m, K]^4*
-           Subscript[v, EW]) + (h*(4*\[Xi]^2 + 8*\[Xi]*Subscript[s, 
-              \[Gamma]] + Subscript[s, \[Gamma]]^2)*Subscript[v, EW])/4), 
-     CV32 -> t^3*(-((h^2*Subscript[m, h]^2*Subscript[s, \[Gamma]]*
-            (2*Subscript[m, K]^2*(\[Xi] + Subscript[s, \[Gamma]]) - 
-             Subscript[m, \[Phi]]^2*(4*\[Xi] + 3*Subscript[s, \[Gamma]])))/
-           Subscript[m, K]^4) + (h^6*Subscript[m, h]^2*Subscript[s, \[Gamma]]*
+         (QuantumField[h]^3*Subscript[s, \[Gamma]]*
+           (2*Subscript[m, K]^4*Subscript[s, \[Gamma]]*
+             (\[Xi] + Subscript[s, \[Gamma]])^2 - Subscript[m, K]^2*
+             Subscript[m, \[Phi]]^2*(24*\[Xi]^3 + 70*\[Xi]^2*Subscript[s, 
+                \[Gamma]] + 61*\[Xi]*Subscript[s, \[Gamma]]^2 + 
+              15*Subscript[s, \[Gamma]]^3) + Subscript[m, \[Phi]]^4*
+             (48*\[Xi]^3 + 128*\[Xi]^2*Subscript[s, \[Gamma]] + 
+              93*\[Xi]*Subscript[s, \[Gamma]]^2 + 18*Subscript[s, \[Gamma]]^
+                3)))/(6*\[Xi]^2*Subscript[m, K]^4*Subscript[v, EW]) + 
+         (QuantumField[h]*(4*\[Xi]^2 + 8*\[Xi]*Subscript[s, \[Gamma]] + 
+            Subscript[s, \[Gamma]]^2)*Subscript[v, EW])/4), 
+     CV32 -> t^3*(-((QuantumField[h]^2*Subscript[m, h]^2*Subscript[s, 
+             \[Gamma]]*(2*Subscript[m, K]^2*(\[Xi] + Subscript[s, 
+                \[Gamma]]) - Subscript[m, \[Phi]]^2*(4*\[Xi] + 3*
+                Subscript[s, \[Gamma]])))/Subscript[m, K]^4) + 
+         (QuantumField[h]^6*Subscript[m, h]^2*Subscript[s, \[Gamma]]*
            (-8*Subscript[m, K]^10*Subscript[s, \[Gamma]]*(\[Xi]^4 + 
               25*\[Xi]^3*Subscript[s, \[Gamma]] + 104*\[Xi]^2*Subscript[s, 
                  \[Gamma]]^2 + 144*\[Xi]*Subscript[s, \[Gamma]]^3 + 
@@ -9672,7 +9776,7 @@
                  \[Gamma]]^3 + 886977*\[Xi]*Subscript[s, \[Gamma]]^4 + 
               235872*Subscript[s, \[Gamma]]^5)))/(16*\[Xi]^4*
            Subscript[m, K]^12*Subscript[v, EW]^4) - 
-         (h^5*Subscript[m, h]^2*Subscript[s, \[Gamma]]*
+         (QuantumField[h]^5*Subscript[m, h]^2*Subscript[s, \[Gamma]]*
            (8*Subscript[m, K]^8*Subscript[s, \[Gamma]]*(3*\[Xi]^3 + 
               19*\[Xi]^2*Subscript[s, \[Gamma]] + 32*\[Xi]*Subscript[s, 
                  \[Gamma]]^2 + 16*Subscript[s, \[Gamma]]^3) - 
@@ -9691,30 +9795,31 @@
                 s, \[Gamma]] + 48912*\[Xi]^2*Subscript[s, \[Gamma]]^2 + 
               46362*\[Xi]*Subscript[s, \[Gamma]]^3 + 14967*Subscript[s, 
                  \[Gamma]]^4)))/(8*\[Xi]^3*Subscript[m, K]^10*
-           Subscript[v, EW]^3) - (h^4*Subscript[m, h]^2*Subscript[s, 
-            \[Gamma]]*(2*Subscript[m, K]^6*(\[Xi]^3 + 13*\[Xi]^2*Subscript[s, 
-                \[Gamma]] + 28*\[Xi]*Subscript[s, \[Gamma]]^2 + 
-              16*Subscript[s, \[Gamma]]^3) - 6*Subscript[m, \[Phi]]^6*
-             (48*\[Xi]^3 + 212*\[Xi]^2*Subscript[s, \[Gamma]] + 
-              264*\[Xi]*Subscript[s, \[Gamma]]^2 + 99*Subscript[s, \[Gamma]]^
-                3) - Subscript[m, K]^4*Subscript[m, \[Phi]]^2*
-             (76*\[Xi]^3 + 473*\[Xi]^2*Subscript[s, \[Gamma]] + 
-              759*\[Xi]*Subscript[s, \[Gamma]]^2 + 354*Subscript[s, \[Gamma]]^
-                3) + Subscript[m, K]^2*Subscript[m, \[Phi]]^4*
-             (312*\[Xi]^3 + 1550*\[Xi]^2*Subscript[s, \[Gamma]] + 
-              2135*\[Xi]*Subscript[s, \[Gamma]]^2 + 876*Subscript[s, 
-                 \[Gamma]]^3)))/(4*\[Xi]^2*Subscript[m, K]^8*
-           Subscript[v, EW]^2) - (h^3*Subscript[m, h]^2*Subscript[s, 
-            \[Gamma]]*(4*Subscript[m, K]^4*(\[Xi]^2 + 3*\[Xi]*Subscript[s, 
-                \[Gamma]] + 2*Subscript[s, \[Gamma]]^2) + 
+           Subscript[v, EW]^3) - (QuantumField[h]^4*Subscript[m, h]^2*
+           Subscript[s, \[Gamma]]*(2*Subscript[m, K]^6*(\[Xi]^3 + 
+              13*\[Xi]^2*Subscript[s, \[Gamma]] + 28*\[Xi]*Subscript[s, 
+                 \[Gamma]]^2 + 16*Subscript[s, \[Gamma]]^3) - 
+            6*Subscript[m, \[Phi]]^6*(48*\[Xi]^3 + 212*\[Xi]^2*Subscript[s, 
+                \[Gamma]] + 264*\[Xi]*Subscript[s, \[Gamma]]^2 + 
+              99*Subscript[s, \[Gamma]]^3) - Subscript[m, K]^4*
+             Subscript[m, \[Phi]]^2*(76*\[Xi]^3 + 473*\[Xi]^2*Subscript[s, 
+                \[Gamma]] + 759*\[Xi]*Subscript[s, \[Gamma]]^2 + 
+              354*Subscript[s, \[Gamma]]^3) + Subscript[m, K]^2*
+             Subscript[m, \[Phi]]^4*(312*\[Xi]^3 + 1550*\[Xi]^2*Subscript[s, 
+                \[Gamma]] + 2135*\[Xi]*Subscript[s, \[Gamma]]^2 + 
+              876*Subscript[s, \[Gamma]]^3)))/(4*\[Xi]^2*Subscript[m, K]^8*
+           Subscript[v, EW]^2) - (QuantumField[h]^3*Subscript[m, h]^2*
+           Subscript[s, \[Gamma]]*(4*Subscript[m, K]^4*(\[Xi]^2 + 
+              3*\[Xi]*Subscript[s, \[Gamma]] + 2*Subscript[s, \[Gamma]]^2) + 
             5*Subscript[m, \[Phi]]^4*(8*\[Xi]^2 + 18*\[Xi]*Subscript[s, 
                 \[Gamma]] + 9*Subscript[s, \[Gamma]]^2) - Subscript[m, K]^2*
              Subscript[m, \[Phi]]^2*(32*\[Xi]^2 + 80*\[Xi]*Subscript[s, 
                 \[Gamma]] + 45*Subscript[s, \[Gamma]]^2)))/
           (2*\[Xi]*Subscript[m, K]^6*Subscript[v, EW])) + 
-       t^2*((h^2*Subscript[s, \[Gamma]]*(-\[Xi] + (Subscript[m, \[Phi]]^2*
-              (4*\[Xi] + 3*Subscript[s, \[Gamma]]))/Subscript[m, K]^2))/2 + 
-         (h^6*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*
+       t^2*((QuantumField[h]^2*Subscript[s, \[Gamma]]*
+           (-\[Xi] + (Subscript[m, \[Phi]]^2*(4*\[Xi] + 3*Subscript[s, 
+                 \[Gamma]]))/Subscript[m, K]^2))/2 + 
+         (QuantumField[h]^6*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*
            (Subscript[m, K]^8*Subscript[s, \[Gamma]]*(6*\[Xi]^4 + 
               125*\[Xi]^3*Subscript[s, \[Gamma]] + 455*\[Xi]^2*Subscript[s, 
                  \[Gamma]]^2 + 567*\[Xi]*Subscript[s, \[Gamma]]^3 + 
@@ -9737,7 +9842,7 @@
               57330*\[Xi]^2*Subscript[s, \[Gamma]]^3 + 42147*\[Xi]*
                Subscript[s, \[Gamma]]^4 + 11340*Subscript[s, \[Gamma]]^5)))/
           (16*\[Xi]^4*Subscript[m, K]^10*Subscript[v, EW]^4) - 
-         (h^5*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*
+         (QuantumField[h]^5*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*
            (-(Subscript[m, K]^6*Subscript[s, \[Gamma]]*(18*\[Xi]^3 + 95*
                 \[Xi]^2*Subscript[s, \[Gamma]] + 140*\[Xi]*
                 Subscript[s, \[Gamma]]^2 + 63*Subscript[s, \[Gamma]]^3)) + 
@@ -9752,7 +9857,7 @@
               1152*\[Xi]^3*Subscript[s, \[Gamma]] + 2960*\[Xi]^2*Subscript[s, 
                  \[Gamma]]^2 + 2880*\[Xi]*Subscript[s, \[Gamma]]^3 + 
               945*Subscript[s, \[Gamma]]^4)))/(8*\[Xi]^3*Subscript[m, K]^8*
-           Subscript[v, EW]^3) + (h^4*Subscript[m, \[Phi]]^2*
+           Subscript[v, EW]^3) + (QuantumField[h]^4*Subscript[m, \[Phi]]^2*
            Subscript[s, \[Gamma]]*(Subscript[m, K]^4*(4*\[Xi]^3 + 
               39*\[Xi]^2*Subscript[s, \[Gamma]] + 70*\[Xi]*Subscript[s, 
                  \[Gamma]]^2 + 35*Subscript[s, \[Gamma]]^3) - 
@@ -9762,18 +9867,19 @@
             Subscript[m, \[Phi]]^4*(64*\[Xi]^3 + 288*\[Xi]^2*Subscript[s, 
                 \[Gamma]] + 360*\[Xi]*Subscript[s, \[Gamma]]^2 + 
               135*Subscript[s, \[Gamma]]^3)))/(8*\[Xi]^2*Subscript[m, K]^6*
-           Subscript[v, EW]^2) + (h^3*Subscript[m, \[Phi]]^2*
+           Subscript[v, EW]^2) + (QuantumField[h]^3*Subscript[m, \[Phi]]^2*
            Subscript[s, \[Gamma]]*(Subscript[m, K]^2*(4*\[Xi]^2 + 
               9*\[Xi]*Subscript[s, \[Gamma]] + 5*Subscript[s, \[Gamma]]^2) - 
             Subscript[m, \[Phi]]^2*(8*\[Xi]^2 + 18*\[Xi]*Subscript[s, 
                 \[Gamma]] + 9*Subscript[s, \[Gamma]]^2)))/
           (2*\[Xi]*Subscript[m, K]^4*Subscript[v, EW]) - 
-         \[Xi]*h*Subscript[s, \[Gamma]]*Subscript[v, EW] + 
+         \[Xi]*QuantumField[h]*Subscript[s, \[Gamma]]*Subscript[v, EW] + 
          (\[Xi]^2*Subscript[v, EW]^2)/2), 
-     Vh -> -1/2*(h^2*Subscript[m, h]^2) - (h^4*Subscript[m, h]^2)/
-        (8*Subscript[v, EW]^2) - (h^3*Subscript[m, h]^2)/
-        (2*Subscript[v, EW]) + (Subscript[m, h]^2*Subscript[v, EW]^2)/8 + 
-       t^2*((h^6*Subscript[m, h]^2*Subscript[s, \[Gamma]]^2*
+     Vh -> -1/2*(QuantumField[h]^2*Subscript[m, h]^2) - 
+       (QuantumField[h]^4*Subscript[m, h]^2)/(8*Subscript[v, EW]^2) - 
+       (QuantumField[h]^3*Subscript[m, h]^2)/(2*Subscript[v, EW]) + 
+       (Subscript[m, h]^2*Subscript[v, EW]^2)/8 + 
+       t^2*((QuantumField[h]^6*Subscript[m, h]^2*Subscript[s, \[Gamma]]^2*
            (4*Subscript[m, K]^8*(\[Xi] + Subscript[s, \[Gamma]])^2*
              (5*\[Xi]^2 + 66*\[Xi]*Subscript[s, \[Gamma]] + 
               96*Subscript[s, \[Gamma]]^2) + 6*Subscript[m, \[Phi]]^8*
@@ -9791,7 +9897,7 @@
                 s, \[Gamma]] + 47244*\[Xi]^2*Subscript[s, \[Gamma]]^2 + 
               38502*\[Xi]*Subscript[s, \[Gamma]]^3 + 11097*Subscript[s, 
                  \[Gamma]]^4)))/(240*\[Xi]^4*Subscript[m, K]^8*
-           Subscript[v, EW]^4) + (h^5*Subscript[m, h]^2*
+           Subscript[v, EW]^4) + (QuantumField[h]^5*Subscript[m, h]^2*
            Subscript[s, \[Gamma]]^2*(4*Subscript[m, K]^6*
              (\[Xi] + Subscript[s, \[Gamma]])^2*(\[Xi] + 2*Subscript[s, 
                 \[Gamma]]) - 3*Subscript[m, \[Phi]]^6*(2*\[Xi] + 
@@ -9803,19 +9909,19 @@
               219*\[Xi]^2*Subscript[s, \[Gamma]] + 222*\[Xi]*Subscript[s, 
                  \[Gamma]]^2 + 72*Subscript[s, \[Gamma]]^3)))/
           (8*\[Xi]^3*Subscript[m, K]^6*Subscript[v, EW]^3) + 
-         (h^4*Subscript[m, h]^2*(-12*\[Xi]^4 + (Subscript[s, \[Gamma]]^2*
-              (4*Subscript[m, \[Phi]]^4*(4*\[Xi] + 3*Subscript[s, \[Gamma]])^
-                 2 - 20*Subscript[m, K]^2*Subscript[m, \[Phi]]^2*
-                (4*\[Xi]^2 + 7*\[Xi]*Subscript[s, \[Gamma]] + 
-                 3*Subscript[s, \[Gamma]]^2) + Subscript[m, K]^4*
-                (25*\[Xi]^2 + 38*\[Xi]*Subscript[s, \[Gamma]] + 
+         (QuantumField[h]^4*Subscript[m, h]^2*(-12*\[Xi]^4 + 
+            (Subscript[s, \[Gamma]]^2*(4*Subscript[m, \[Phi]]^4*
+                (4*\[Xi] + 3*Subscript[s, \[Gamma]])^2 - 20*Subscript[m, K]^2*
+                Subscript[m, \[Phi]]^2*(4*\[Xi]^2 + 7*\[Xi]*Subscript[s, 
+                   \[Gamma]] + 3*Subscript[s, \[Gamma]]^2) + Subscript[m, K]^
+                 4*(25*\[Xi]^2 + 38*\[Xi]*Subscript[s, \[Gamma]] + 
                  16*Subscript[s, \[Gamma]]^2)))/Subscript[m, K]^4))/
-          (24*\[Xi]^2*Subscript[v, EW]^2) - (h^3*Subscript[m, h]^2*
-           (4*\[Xi]^3 - 3*\[Xi]*Subscript[s, \[Gamma]]^2 - 
+          (24*\[Xi]^2*Subscript[v, EW]^2) - (QuantumField[h]^3*
+           Subscript[m, h]^2*(4*\[Xi]^3 - 3*\[Xi]*Subscript[s, \[Gamma]]^2 - 
             2*Subscript[s, \[Gamma]]^3))/(4*\[Xi]*Subscript[v, EW]) - 
          (Subscript[m, h]^2*(4*\[Xi]^2 + 2*\[Xi]*Subscript[s, \[Gamma]] + 
             Subscript[s, \[Gamma]]^2)*Subscript[v, EW]^2)/8) + 
-       t*((h^8*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^2*
+       t*((QuantumField[h]^8*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^2*
            (-(Subscript[m, K]^10*Subscript[s, \[Gamma]]*(\[Xi] + 
                 Subscript[s, \[Gamma]])^2*(8*\[Xi]^3 + 189*\[Xi]^2*
                 Subscript[s, \[Gamma]] + 594*\[Xi]*Subscript[s, \[Gamma]]^2 + 
@@ -9845,7 +9951,7 @@
                Subscript[s, \[Gamma]]^4 + 337932*\[Xi]*Subscript[s, \[Gamma]]^
                 5 + 66825*Subscript[s, \[Gamma]]^6)))/(128*\[Xi]^6*
            Subscript[m, K]^10*Subscript[v, EW]^6) - 
-         (h^7*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^2*
+         (QuantumField[h]^7*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^2*
            (Subscript[m, K]^8*Subscript[s, \[Gamma]]*(\[Xi] + Subscript[s, 
                 \[Gamma]])^2*(8*\[Xi]^2 + 39*\[Xi]*Subscript[s, \[Gamma]] + 
               33*Subscript[s, \[Gamma]]^2) + Subscript[m, \[Phi]]^8*
@@ -9866,7 +9972,7 @@
               11844*\[Xi]^2*Subscript[s, \[Gamma]]^3 + 7119*\[Xi]*
                Subscript[s, \[Gamma]]^4 + 1620*Subscript[s, \[Gamma]]^5)))/
           (16*\[Xi]^5*Subscript[m, K]^8*Subscript[v, EW]^5) + 
-         (h^6*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^2*
+         (QuantumField[h]^6*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^2*
            (-(Subscript[m, K]^6*(\[Xi] + Subscript[s, \[Gamma]])^2*
               (2*\[Xi]^2 + 21*\[Xi]*Subscript[s, \[Gamma]] + 21*
                 Subscript[s, \[Gamma]]^2)) + Subscript[m, \[Phi]]^6*
@@ -9880,7 +9986,7 @@
               864*\[Xi]^3*Subscript[s, \[Gamma]] + 1570*\[Xi]^2*Subscript[s, 
                  \[Gamma]]^2 + 1179*\[Xi]*Subscript[s, \[Gamma]]^3 + 
               315*Subscript[s, \[Gamma]]^4)))/(16*\[Xi]^4*Subscript[m, K]^6*
-           Subscript[v, EW]^4) - (h^5*Subscript[m, \[Phi]]^2*
+           Subscript[v, EW]^4) - (QuantumField[h]^5*Subscript[m, \[Phi]]^2*
            Subscript[s, \[Gamma]]^2*(Subscript[m, \[Phi]]^4*
              (2*\[Xi] + 3*Subscript[s, \[Gamma]])*(4*\[Xi] + 3*Subscript[s, 
                  \[Gamma]])^2 + Subscript[m, K]^4*(\[Xi] + Subscript[s, 
@@ -9889,46 +9995,47 @@
               48*\[Xi]^2*Subscript[s, \[Gamma]] + 47*\[Xi]*Subscript[s, 
                  \[Gamma]]^2 + 15*Subscript[s, \[Gamma]]^3)))/
           (8*\[Xi]^3*Subscript[m, K]^4*Subscript[v, EW]^3) + 
-         (h^4*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^2*
+         (QuantumField[h]^4*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^2*
            (Subscript[m, \[Phi]]^2*(4*\[Xi] + 3*Subscript[s, \[Gamma]])^2 - 
             Subscript[m, K]^2*(12*\[Xi]^2 + 14*\[Xi]*Subscript[s, \[Gamma]] + 
               5*Subscript[s, \[Gamma]]^2)))/(8*\[Xi]^2*Subscript[m, K]^2*
-           Subscript[v, EW]^2) - (h^3*Subscript[m, \[Phi]]^2*
+           Subscript[v, EW]^2) - (QuantumField[h]^3*Subscript[m, \[Phi]]^2*
            Subscript[s, \[Gamma]]^2*(2*\[Xi] + Subscript[s, \[Gamma]]))/
           (2*\[Xi]*Subscript[v, EW]) + ((-(\[Xi]^2*Subscript[m, \[Phi]]^2) + 
             Subscript[m, K]^2*(\[Xi] + Subscript[s, \[Gamma]])^2)*
            Subscript[v, EW]^2)/8) + 
-       t^3*((3*h^8*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^2*
-           (-(Subscript[m, K]^10*Subscript[s, \[Gamma]]*(\[Xi] + 
-                Subscript[s, \[Gamma]])^2*(8*\[Xi]^3 + 189*\[Xi]^2*
-                Subscript[s, \[Gamma]] + 594*\[Xi]*Subscript[s, \[Gamma]]^2 + 
-               429*Subscript[s, \[Gamma]]^3)) + Subscript[m, \[Phi]]^10*
-             (4*\[Xi] + 3*Subscript[s, \[Gamma]])^2*(256*\[Xi]^4 + 
-              2304*\[Xi]^3*Subscript[s, \[Gamma]] + 6480*\[Xi]^2*Subscript[s, 
-                 \[Gamma]]^2 + 7128*\[Xi]*Subscript[s, \[Gamma]]^3 + 
-              2673*Subscript[s, \[Gamma]]^4) + Subscript[m, K]^8*
-             Subscript[m, \[Phi]]^2*(16*\[Xi]^6 + 984*\[Xi]^5*Subscript[s, 
-                \[Gamma]] + 8489*\[Xi]^4*Subscript[s, \[Gamma]]^2 + 
-              26560*\[Xi]^3*Subscript[s, \[Gamma]]^3 + 38058*\[Xi]^2*
-               Subscript[s, \[Gamma]]^4 + 25536*\[Xi]*Subscript[s, \[Gamma]]^
-                5 + 6517*Subscript[s, \[Gamma]]^6) - 2*Subscript[m, K]^6*
-             Subscript[m, \[Phi]]^4*(320*\[Xi]^6 + 6720*\[Xi]^5*Subscript[s, 
-                \[Gamma]] + 38980*\[Xi]^4*Subscript[s, \[Gamma]]^2 + 
-              97050*\[Xi]^3*Subscript[s, \[Gamma]]^3 + 118461*\[Xi]^2*
-               Subscript[s, \[Gamma]]^4 + 70036*\[Xi]*Subscript[s, \[Gamma]]^
-                5 + 16053*Subscript[s, \[Gamma]]^6) + 2*Subscript[m, K]^4*
-             Subscript[m, \[Phi]]^6*(1920*\[Xi]^6 + 27520*\[Xi]^5*Subscript[
-                s, \[Gamma]] + 129160*\[Xi]^4*Subscript[s, \[Gamma]]^2 + 
-              278012*\[Xi]^3*Subscript[s, \[Gamma]]^3 + 303107*\[Xi]^2*
-               Subscript[s, \[Gamma]]^4 + 163080*\[Xi]*Subscript[s, \[Gamma]]^
-                5 + 34425*Subscript[s, \[Gamma]]^6) - Subscript[m, K]^2*
+       t^3*((3*QuantumField[h]^8*Subscript[m, \[Phi]]^2*
+           Subscript[s, \[Gamma]]^2*(-(Subscript[m, K]^10*Subscript[s, 
+               \[Gamma]]*(\[Xi] + Subscript[s, \[Gamma]])^2*(8*\[Xi]^3 + 189*
+                \[Xi]^2*Subscript[s, \[Gamma]] + 594*\[Xi]*
+                Subscript[s, \[Gamma]]^2 + 429*Subscript[s, \[Gamma]]^3)) + 
+            Subscript[m, \[Phi]]^10*(4*\[Xi] + 3*Subscript[s, \[Gamma]])^2*
+             (256*\[Xi]^4 + 2304*\[Xi]^3*Subscript[s, \[Gamma]] + 
+              6480*\[Xi]^2*Subscript[s, \[Gamma]]^2 + 7128*\[Xi]*Subscript[s, 
+                 \[Gamma]]^3 + 2673*Subscript[s, \[Gamma]]^4) + 
+            Subscript[m, K]^8*Subscript[m, \[Phi]]^2*(16*\[Xi]^6 + 
+              984*\[Xi]^5*Subscript[s, \[Gamma]] + 8489*\[Xi]^4*Subscript[s, 
+                 \[Gamma]]^2 + 26560*\[Xi]^3*Subscript[s, \[Gamma]]^3 + 
+              38058*\[Xi]^2*Subscript[s, \[Gamma]]^4 + 25536*\[Xi]*
+               Subscript[s, \[Gamma]]^5 + 6517*Subscript[s, \[Gamma]]^6) - 
+            2*Subscript[m, K]^6*Subscript[m, \[Phi]]^4*(320*\[Xi]^6 + 
+              6720*\[Xi]^5*Subscript[s, \[Gamma]] + 38980*\[Xi]^4*
+               Subscript[s, \[Gamma]]^2 + 97050*\[Xi]^3*Subscript[s, 
+                 \[Gamma]]^3 + 118461*\[Xi]^2*Subscript[s, \[Gamma]]^4 + 
+              70036*\[Xi]*Subscript[s, \[Gamma]]^5 + 16053*Subscript[s, 
+                 \[Gamma]]^6) + 2*Subscript[m, K]^4*Subscript[m, \[Phi]]^6*
+             (1920*\[Xi]^6 + 27520*\[Xi]^5*Subscript[s, \[Gamma]] + 
+              129160*\[Xi]^4*Subscript[s, \[Gamma]]^2 + 278012*\[Xi]^3*
+               Subscript[s, \[Gamma]]^3 + 303107*\[Xi]^2*Subscript[s, 
+                 \[Gamma]]^4 + 163080*\[Xi]*Subscript[s, \[Gamma]]^5 + 
+              34425*Subscript[s, \[Gamma]]^6) - Subscript[m, K]^2*
              Subscript[m, \[Phi]]^8*(7168*\[Xi]^6 + 84480*\[Xi]^5*Subscript[
                 s, \[Gamma]] + 347200*\[Xi]^4*Subscript[s, \[Gamma]]^2 + 
               674688*\[Xi]^3*Subscript[s, \[Gamma]]^3 + 675864*\[Xi]^2*
                Subscript[s, \[Gamma]]^4 + 337932*\[Xi]*Subscript[s, \[Gamma]]^
                 5 + 66825*Subscript[s, \[Gamma]]^6)))/(32*\[Xi]^4*
            Subscript[m, K]^10*Subscript[v, EW]^6) - 
-         (5*h^7*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^2*
+         (5*QuantumField[h]^7*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^2*
            (Subscript[m, K]^8*Subscript[s, \[Gamma]]*(\[Xi] + Subscript[s, 
                 \[Gamma]])^2*(8*\[Xi]^2 + 39*\[Xi]*Subscript[s, \[Gamma]] + 
               33*Subscript[s, \[Gamma]]^2) + Subscript[m, \[Phi]]^8*
@@ -9949,71 +10056,71 @@
               11844*\[Xi]^2*Subscript[s, \[Gamma]]^3 + 7119*\[Xi]*
                Subscript[s, \[Gamma]]^4 + 1620*Subscript[s, \[Gamma]]^5)))/
           (8*\[Xi]^3*Subscript[m, K]^8*Subscript[v, EW]^5) + 
-         (h^6*Subscript[s, \[Gamma]]^2*(2*Subscript[m, h]^4*
-             (6*Subscript[m, \[Phi]]^8*(4*\[Xi] + 3*Subscript[s, \[Gamma]])^
-                2*(244*\[Xi]^2 + 852*\[Xi]*Subscript[s, \[Gamma]] + 
-                639*Subscript[s, \[Gamma]]^2) + 4*Subscript[m, K]^8*
-               (\[Xi] + Subscript[s, \[Gamma]])^2*(109*\[Xi]^2 + 
-                714*\[Xi]*Subscript[s, \[Gamma]] + 864*Subscript[s, \[Gamma]]^
-                  2) - 3*Subscript[m, K]^6*Subscript[m, \[Phi]]^2*(
-                2448*\[Xi]^4 + 16516*\[Xi]^3*Subscript[s, \[Gamma]] + 
-                36249*\[Xi]^2*Subscript[s, \[Gamma]]^2 + 32333*\[Xi]*
-                 Subscript[s, \[Gamma]]^3 + 10152*Subscript[s, \[Gamma]]^4) - 
-              3*Subscript[m, K]^2*Subscript[m, \[Phi]]^6*(15712*\[Xi]^4 + 
-                84672*\[Xi]^3*Subscript[s, \[Gamma]] + 153446*\[Xi]^2*
-                 Subscript[s, \[Gamma]]^2 + 114885*\[Xi]*Subscript[s, 
-                   \[Gamma]]^3 + 30600*Subscript[s, \[Gamma]]^4) + 
-              Subscript[m, K]^4*Subscript[m, \[Phi]]^4*(31064*\[Xi]^4 + 
-                183702*\[Xi]^3*Subscript[s, \[Gamma]] + 362103*\[Xi]^2*
-                 Subscript[s, \[Gamma]]^2 + 293202*\[Xi]*Subscript[s, 
-                   \[Gamma]]^3 + 84078*Subscript[s, \[Gamma]]^4)) - 
-            5*Subscript[m, K]^4*Subscript[m, \[Phi]]^2*
-             (2*Subscript[m, K]^4*Subscript[m, \[Phi]]^2*Subscript[s, 
-                 \[Gamma]]^2*(2296*\[Xi]^4 + 10290*\[Xi]^3*Subscript[s, 
-                  \[Gamma]] + 15579*\[Xi]^2*Subscript[s, \[Gamma]]^2 + 
-                9577*\[Xi]*Subscript[s, \[Gamma]]^3 + 1998*Subscript[s, 
-                   \[Gamma]]^4) + Subscript[m, K]^6*(48*\[Xi]^6 + 
-                600*\[Xi]^5*Subscript[s, \[Gamma]] + 1260*\[Xi]^4*
-                 Subscript[s, \[Gamma]]^2 - 199*\[Xi]^3*Subscript[s, 
-                   \[Gamma]]^3 - 2544*\[Xi]^2*Subscript[s, \[Gamma]]^4 - 
-                2151*\[Xi]*Subscript[s, \[Gamma]]^5 - 514*Subscript[s, 
-                   \[Gamma]]^6) + 4*Subscript[m, \[Phi]]^6*(1536*\[Xi]^6 + 
-                7680*\[Xi]^5*Subscript[s, \[Gamma]] + 16448*\[Xi]^4*
-                 Subscript[s, \[Gamma]]^2 + 21552*\[Xi]^3*Subscript[s, 
-                   \[Gamma]]^3 + 17766*\[Xi]^2*Subscript[s, \[Gamma]]^4 + 
-                7911*\[Xi]*Subscript[s, \[Gamma]]^5 + 1377*Subscript[s, 
-                   \[Gamma]]^6) - Subscript[m, K]^2*Subscript[m, \[Phi]]^4*(
-                3840*\[Xi]^6 + 20736*\[Xi]^5*Subscript[s, \[Gamma]] + 
-                53200*\[Xi]^4*Subscript[s, \[Gamma]]^2 + 89216*\[Xi]^3*
-                 Subscript[s, \[Gamma]]^3 + 90076*\[Xi]^2*Subscript[s, 
-                   \[Gamma]]^4 + 45735*\[Xi]*Subscript[s, \[Gamma]]^5 + 
-                8622*Subscript[s, \[Gamma]]^6))))/(480*\[Xi]^4*
-           Subscript[m, K]^10*Subscript[v, EW]^4) + 
-         (h^5*Subscript[s, \[Gamma]]^2*(Subscript[m, K]^8*
-             Subscript[m, \[Phi]]^2*(-12*\[Xi]^5 - 38*\[Xi]^4*Subscript[s, 
-                \[Gamma]] - 3*\[Xi]^3*Subscript[s, \[Gamma]]^2 + 
-              79*\[Xi]^2*Subscript[s, \[Gamma]]^3 + 74*\[Xi]*Subscript[s, 
-                 \[Gamma]]^4 + 18*Subscript[s, \[Gamma]]^5) + 
-            Subscript[m, K]^4*Subscript[m, \[Phi]]^6*(192*\[Xi]^5 + 
-              576*\[Xi]^4*Subscript[s, \[Gamma]] + 812*\[Xi]^3*Subscript[s, 
-                 \[Gamma]]^2 + 746*\[Xi]^2*Subscript[s, \[Gamma]]^3 + 
-              381*\[Xi]*Subscript[s, \[Gamma]]^4 + 72*Subscript[s, \[Gamma]]^
-                5) - Subscript[m, K]^6*Subscript[m, \[Phi]]^4*
-             (64*\[Xi]^5 + 192*\[Xi]^4*Subscript[s, \[Gamma]] + 
-              412*\[Xi]^3*Subscript[s, \[Gamma]]^2 + 576*\[Xi]^2*Subscript[s, 
-                 \[Gamma]]^3 + 369*\[Xi]*Subscript[s, \[Gamma]]^4 + 
-              78*Subscript[s, \[Gamma]]^5) + Subscript[m, h]^4*
-             (20*Subscript[m, K]^6*(\[Xi] + Subscript[s, \[Gamma]])^2*(
-                \[Xi] + 2*Subscript[s, \[Gamma]]) - 5*Subscript[m, \[Phi]]^6*(
-                2*\[Xi] + 3*Subscript[s, \[Gamma]])*(4*\[Xi] + 
-                 3*Subscript[s, \[Gamma]])^2 - 3*Subscript[m, K]^4*
-               Subscript[m, \[Phi]]^2*(48*\[Xi]^3 + 172*\[Xi]^2*Subscript[s, 
-                  \[Gamma]] + 193*\[Xi]*Subscript[s, \[Gamma]]^2 + 
-                69*Subscript[s, \[Gamma]]^3) + Subscript[m, K]^2*Subscript[m, 
-                 \[Phi]]^4*(280*\[Xi]^3 + 918*\[Xi]^2*Subscript[s, 
+         (QuantumField[h]^6*Subscript[s, \[Gamma]]^2*
+           (2*Subscript[m, h]^4*(6*Subscript[m, \[Phi]]^8*(4*\[Xi] + 
+                 3*Subscript[s, \[Gamma]])^2*(244*\[Xi]^2 + 852*\[Xi]*
+                 Subscript[s, \[Gamma]] + 639*Subscript[s, \[Gamma]]^2) + 
+              4*Subscript[m, K]^8*(\[Xi] + Subscript[s, \[Gamma]])^2*(
+                109*\[Xi]^2 + 714*\[Xi]*Subscript[s, \[Gamma]] + 
+                864*Subscript[s, \[Gamma]]^2) - 3*Subscript[m, K]^6*
+               Subscript[m, \[Phi]]^2*(2448*\[Xi]^4 + 16516*\[Xi]^3*
+                 Subscript[s, \[Gamma]] + 36249*\[Xi]^2*Subscript[s, 
+                   \[Gamma]]^2 + 32333*\[Xi]*Subscript[s, \[Gamma]]^3 + 
+                10152*Subscript[s, \[Gamma]]^4) - 3*Subscript[m, K]^2*
+               Subscript[m, \[Phi]]^6*(15712*\[Xi]^4 + 84672*\[Xi]^3*
+                 Subscript[s, \[Gamma]] + 153446*\[Xi]^2*Subscript[s, 
+                   \[Gamma]]^2 + 114885*\[Xi]*Subscript[s, \[Gamma]]^3 + 
+                30600*Subscript[s, \[Gamma]]^4) + Subscript[m, K]^4*
+               Subscript[m, \[Phi]]^4*(31064*\[Xi]^4 + 183702*\[Xi]^3*
+                 Subscript[s, \[Gamma]] + 362103*\[Xi]^2*Subscript[s, 
+                   \[Gamma]]^2 + 293202*\[Xi]*Subscript[s, \[Gamma]]^3 + 
+                84078*Subscript[s, \[Gamma]]^4)) - 5*Subscript[m, K]^4*
+             Subscript[m, \[Phi]]^2*(2*Subscript[m, K]^4*Subscript[m, \[Phi]]^
+                2*Subscript[s, \[Gamma]]^2*(2296*\[Xi]^4 + 10290*\[Xi]^3*
+                 Subscript[s, \[Gamma]] + 15579*\[Xi]^2*Subscript[s, 
+                   \[Gamma]]^2 + 9577*\[Xi]*Subscript[s, \[Gamma]]^3 + 
+                1998*Subscript[s, \[Gamma]]^4) + Subscript[m, K]^6*(
+                48*\[Xi]^6 + 600*\[Xi]^5*Subscript[s, \[Gamma]] + 
+                1260*\[Xi]^4*Subscript[s, \[Gamma]]^2 - 199*\[Xi]^3*
+                 Subscript[s, \[Gamma]]^3 - 2544*\[Xi]^2*Subscript[s, 
+                   \[Gamma]]^4 - 2151*\[Xi]*Subscript[s, \[Gamma]]^5 - 
+                514*Subscript[s, \[Gamma]]^6) + 4*Subscript[m, \[Phi]]^6*(
+                1536*\[Xi]^6 + 7680*\[Xi]^5*Subscript[s, \[Gamma]] + 
+                16448*\[Xi]^4*Subscript[s, \[Gamma]]^2 + 21552*\[Xi]^3*
+                 Subscript[s, \[Gamma]]^3 + 17766*\[Xi]^2*Subscript[s, 
+                   \[Gamma]]^4 + 7911*\[Xi]*Subscript[s, \[Gamma]]^5 + 
+                1377*Subscript[s, \[Gamma]]^6) - Subscript[m, K]^2*
+               Subscript[m, \[Phi]]^4*(3840*\[Xi]^6 + 20736*\[Xi]^5*
+                 Subscript[s, \[Gamma]] + 53200*\[Xi]^4*Subscript[s, 
+                   \[Gamma]]^2 + 89216*\[Xi]^3*Subscript[s, \[Gamma]]^3 + 
+                90076*\[Xi]^2*Subscript[s, \[Gamma]]^4 + 45735*\[Xi]*
+                 Subscript[s, \[Gamma]]^5 + 8622*Subscript[s, \[Gamma]]^6))))/
+          (480*\[Xi]^4*Subscript[m, K]^10*Subscript[v, EW]^4) + 
+         (QuantumField[h]^5*Subscript[s, \[Gamma]]^2*
+           (Subscript[m, K]^8*Subscript[m, \[Phi]]^2*(-12*\[Xi]^5 - 
+              38*\[Xi]^4*Subscript[s, \[Gamma]] - 3*\[Xi]^3*Subscript[s, 
+                 \[Gamma]]^2 + 79*\[Xi]^2*Subscript[s, \[Gamma]]^3 + 
+              74*\[Xi]*Subscript[s, \[Gamma]]^4 + 18*Subscript[s, \[Gamma]]^
+                5) + Subscript[m, K]^4*Subscript[m, \[Phi]]^6*
+             (192*\[Xi]^5 + 576*\[Xi]^4*Subscript[s, \[Gamma]] + 
+              812*\[Xi]^3*Subscript[s, \[Gamma]]^2 + 746*\[Xi]^2*Subscript[s, 
+                 \[Gamma]]^3 + 381*\[Xi]*Subscript[s, \[Gamma]]^4 + 
+              72*Subscript[s, \[Gamma]]^5) - Subscript[m, K]^6*
+             Subscript[m, \[Phi]]^4*(64*\[Xi]^5 + 192*\[Xi]^4*Subscript[s, 
+                \[Gamma]] + 412*\[Xi]^3*Subscript[s, \[Gamma]]^2 + 
+              576*\[Xi]^2*Subscript[s, \[Gamma]]^3 + 369*\[Xi]*Subscript[s, 
+                 \[Gamma]]^4 + 78*Subscript[s, \[Gamma]]^5) + 
+            Subscript[m, h]^4*(20*Subscript[m, K]^6*(\[Xi] + Subscript[s, 
+                  \[Gamma]])^2*(\[Xi] + 2*Subscript[s, \[Gamma]]) - 
+              5*Subscript[m, \[Phi]]^6*(2*\[Xi] + 3*Subscript[s, \[Gamma]])*
+               (4*\[Xi] + 3*Subscript[s, \[Gamma]])^2 - 3*Subscript[m, K]^
+                4*Subscript[m, \[Phi]]^2*(48*\[Xi]^3 + 172*\[Xi]^2*
+                 Subscript[s, \[Gamma]] + 193*\[Xi]*Subscript[s, \[Gamma]]^
+                  2 + 69*Subscript[s, \[Gamma]]^3) + Subscript[m, K]^2*
+               Subscript[m, \[Phi]]^4*(280*\[Xi]^3 + 918*\[Xi]^2*Subscript[s, 
                   \[Gamma]] + 939*\[Xi]*Subscript[s, \[Gamma]]^2 + 
                 306*Subscript[s, \[Gamma]]^3))))/(8*\[Xi]^3*Subscript[m, K]^8*
-           Subscript[v, EW]^3) + (h^4*Subscript[s, \[Gamma]]^2*
+           Subscript[v, EW]^3) + (QuantumField[h]^4*Subscript[s, \[Gamma]]^2*
            (3*Subscript[m, K]^6*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^
               2*(24*\[Xi]^2 + 25*\[Xi]*Subscript[s, \[Gamma]] + 
               6*Subscript[s, \[Gamma]]^2) - 3*Subscript[m, K]^4*
@@ -10026,28 +10133,29 @@
                 2*Subscript[m, \[Phi]]^2*(4*\[Xi]^2 + 7*\[Xi]*Subscript[s, 
                   \[Gamma]] + 3*Subscript[s, \[Gamma]]^2))))/
           (24*\[Xi]^2*Subscript[m, K]^6*Subscript[v, EW]^2) + 
-         (h^3*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^2*
+         (QuantumField[h]^3*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^2*
            (4*\[Xi]^2 + 2*\[Xi]*Subscript[s, \[Gamma]] + 
             Subscript[s, \[Gamma]]^2))/(2*Subscript[v, EW]) - 
          (\[Xi]*(-8*\[Xi]^3*Subscript[m, \[Phi]]^2 + Subscript[m, K]^2*
              (\[Xi] + Subscript[s, \[Gamma]])*(2*\[Xi] + Subscript[s, 
                 \[Gamma]])^2)*Subscript[v, EW]^2)/8), 
-     CV2V2 -> t^3*((h^2*(4*Subscript[m, K]^4*Subscript[s, \[Gamma]]*
-            (4*\[Xi]^3 + 23*\[Xi]^2*Subscript[s, \[Gamma]] + 
-             25*\[Xi]*Subscript[s, \[Gamma]]^2 + 6*Subscript[s, \[Gamma]]^
-               3) - Subscript[m, K]^2*Subscript[m, \[Phi]]^2*
-            (32*\[Xi]^4 + 480*\[Xi]^3*Subscript[s, \[Gamma]] + 
-             1066*\[Xi]^2*Subscript[s, \[Gamma]]^2 + 705*\[Xi]*
-              Subscript[s, \[Gamma]]^3 + 129*Subscript[s, \[Gamma]]^4) + 
-           Subscript[m, \[Phi]]^4*(128*\[Xi]^4 + 960*\[Xi]^3*
-              Subscript[s, \[Gamma]] + 1560*\[Xi]^2*Subscript[s, \[Gamma]]^
-               2 + 840*\[Xi]*Subscript[s, \[Gamma]]^3 + 
-             135*Subscript[s, \[Gamma]]^4)))/(16*\[Xi]^2*Subscript[m, K]^6) + 
-        (h^6*(2*Subscript[m, K]^12*Subscript[s, \[Gamma]]^3*
-            (80*\[Xi]^5 + 2084*\[Xi]^4*Subscript[s, \[Gamma]] + 
-             9769*\[Xi]^3*Subscript[s, \[Gamma]]^2 + 17127*\[Xi]^2*
-              Subscript[s, \[Gamma]]^3 + 12715*\[Xi]*Subscript[s, \[Gamma]]^
-               4 + 3353*Subscript[s, \[Gamma]]^5) - Subscript[m, K]^10*
+     CV2V2 -> t^3*((QuantumField[h]^2*(4*Subscript[m, K]^4*
+            Subscript[s, \[Gamma]]*(4*\[Xi]^3 + 23*\[Xi]^2*Subscript[s, 
+               \[Gamma]] + 25*\[Xi]*Subscript[s, \[Gamma]]^2 + 
+             6*Subscript[s, \[Gamma]]^3) - Subscript[m, K]^2*
+            Subscript[m, \[Phi]]^2*(32*\[Xi]^4 + 480*\[Xi]^3*
+              Subscript[s, \[Gamma]] + 1066*\[Xi]^2*Subscript[s, \[Gamma]]^
+               2 + 705*\[Xi]*Subscript[s, \[Gamma]]^3 + 
+             129*Subscript[s, \[Gamma]]^4) + Subscript[m, \[Phi]]^4*
+            (128*\[Xi]^4 + 960*\[Xi]^3*Subscript[s, \[Gamma]] + 
+             1560*\[Xi]^2*Subscript[s, \[Gamma]]^2 + 840*\[Xi]*
+              Subscript[s, \[Gamma]]^3 + 135*Subscript[s, \[Gamma]]^4)))/
+         (16*\[Xi]^2*Subscript[m, K]^6) + (QuantumField[h]^6*
+          (2*Subscript[m, K]^12*Subscript[s, \[Gamma]]^3*(80*\[Xi]^5 + 
+             2084*\[Xi]^4*Subscript[s, \[Gamma]] + 9769*\[Xi]^3*
+              Subscript[s, \[Gamma]]^2 + 17127*\[Xi]^2*Subscript[s, \[Gamma]]^
+               3 + 12715*\[Xi]*Subscript[s, \[Gamma]]^4 + 
+             3353*Subscript[s, \[Gamma]]^5) - Subscript[m, K]^10*
             Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^2*
             (1552*\[Xi]^6 + 61992*\[Xi]^5*Subscript[s, \[Gamma]] + 
              424466*\[Xi]^4*Subscript[s, \[Gamma]]^2 + 1105843*\[Xi]^3*
@@ -10089,7 +10197,7 @@
                 \[Gamma]]^6 + 45995640*\[Xi]*Subscript[s, \[Gamma]]^7 + 
              6965892*Subscript[s, \[Gamma]]^8)))/(128*\[Xi]^6*
           Subscript[m, K]^14*Subscript[v, EW]^4) - 
-        (h^5*(-32*Subscript[m, K]^10*Subscript[s, \[Gamma]]^3*
+        (QuantumField[h]^5*(-32*Subscript[m, K]^10*Subscript[s, \[Gamma]]^3*
             (15*\[Xi]^4 + 109*\[Xi]^3*Subscript[s, \[Gamma]] + 
              230*\[Xi]^2*Subscript[s, \[Gamma]]^2 + 184*\[Xi]*
               Subscript[s, \[Gamma]]^3 + 48*Subscript[s, \[Gamma]]^4) + 
@@ -10122,7 +10230,7 @@
              5881611*\[Xi]^2*Subscript[s, \[Gamma]]^5 + 2535630*\[Xi]*
               Subscript[s, \[Gamma]]^6 + 405486*Subscript[s, \[Gamma]]^7)))/
          (64*\[Xi]^5*Subscript[m, K]^12*Subscript[v, EW]^3) + 
-        (h^4*(8*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*
+        (QuantumField[h]^4*(8*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*
             (9*\[Xi]^4 + 132*\[Xi]^3*Subscript[s, \[Gamma]] + 
              347*\[Xi]^2*Subscript[s, \[Gamma]]^2 + 304*\[Xi]*
               Subscript[s, \[Gamma]]^3 + 80*Subscript[s, \[Gamma]]^4) - 
@@ -10147,45 +10255,45 @@
                 \[Gamma]]^3 + 717572*\[Xi]^2*Subscript[s, \[Gamma]]^4 + 
              323394*\[Xi]*Subscript[s, \[Gamma]]^5 + 51651*Subscript[s, 
                 \[Gamma]]^6)))/(64*\[Xi]^4*Subscript[m, K]^10*
-          Subscript[v, EW]^2) + 
-        (h^3*(8*Subscript[m, K]^6*Subscript[s, \[Gamma]]^2*
-            (9*\[Xi]^3 + 32*\[Xi]^2*Subscript[s, \[Gamma]] + 
-             31*\[Xi]*Subscript[s, \[Gamma]]^2 + 8*Subscript[s, \[Gamma]]^
-               3) - Subscript[m, K]^4*Subscript[m, \[Phi]]^2*
-            Subscript[s, \[Gamma]]*(384*\[Xi]^4 + 2560*\[Xi]^3*
-              Subscript[s, \[Gamma]] + 4640*\[Xi]^2*Subscript[s, \[Gamma]]^
-               2 + 3003*\[Xi]*Subscript[s, \[Gamma]]^3 + 
-             593*Subscript[s, \[Gamma]]^4) - Subscript[m, \[Phi]]^6*
-            (256*\[Xi]^5 + 3584*\[Xi]^4*Subscript[s, \[Gamma]] + 
-             11120*\[Xi]^3*Subscript[s, \[Gamma]]^2 + 12840*\[Xi]^2*
-              Subscript[s, \[Gamma]]^3 + 6030*\[Xi]*Subscript[s, \[Gamma]]^
-               4 + 945*Subscript[s, \[Gamma]]^5) + Subscript[m, K]^2*
-            Subscript[m, \[Phi]]^4*(128*\[Xi]^5 + 2880*\[Xi]^4*
-              Subscript[s, \[Gamma]] + 11384*\[Xi]^3*Subscript[s, \[Gamma]]^
-               2 + 15464*\[Xi]^2*Subscript[s, \[Gamma]]^3 + 
-             8195*\[Xi]*Subscript[s, \[Gamma]]^4 + 1404*Subscript[s, 
-                \[Gamma]]^5)))/(16*\[Xi]^3*Subscript[m, K]^8*
-          Subscript[v, EW]) - (h*(4*\[Xi] + Subscript[s, \[Gamma]])*
+          Subscript[v, EW]^2) + (QuantumField[h]^3*
+          (8*Subscript[m, K]^6*Subscript[s, \[Gamma]]^2*(9*\[Xi]^3 + 
+             32*\[Xi]^2*Subscript[s, \[Gamma]] + 31*\[Xi]*Subscript[s, 
+                \[Gamma]]^2 + 8*Subscript[s, \[Gamma]]^3) - 
+           Subscript[m, K]^4*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*
+            (384*\[Xi]^4 + 2560*\[Xi]^3*Subscript[s, \[Gamma]] + 
+             4640*\[Xi]^2*Subscript[s, \[Gamma]]^2 + 3003*\[Xi]*
+              Subscript[s, \[Gamma]]^3 + 593*Subscript[s, \[Gamma]]^4) - 
+           Subscript[m, \[Phi]]^6*(256*\[Xi]^5 + 3584*\[Xi]^4*
+              Subscript[s, \[Gamma]] + 11120*\[Xi]^3*Subscript[s, \[Gamma]]^
+               2 + 12840*\[Xi]^2*Subscript[s, \[Gamma]]^3 + 
+             6030*\[Xi]*Subscript[s, \[Gamma]]^4 + 945*Subscript[s, \[Gamma]]^
+               5) + Subscript[m, K]^2*Subscript[m, \[Phi]]^4*
+            (128*\[Xi]^5 + 2880*\[Xi]^4*Subscript[s, \[Gamma]] + 
+             11384*\[Xi]^3*Subscript[s, \[Gamma]]^2 + 15464*\[Xi]^2*
+              Subscript[s, \[Gamma]]^3 + 8195*\[Xi]*Subscript[s, \[Gamma]]^
+               4 + 1404*Subscript[s, \[Gamma]]^5)))/(16*\[Xi]^3*
+          Subscript[m, K]^8*Subscript[v, EW]) - 
+        (QuantumField[h]*(4*\[Xi] + Subscript[s, \[Gamma]])*
           (-4*Subscript[m, K]^2*Subscript[s, \[Gamma]]*
             (\[Xi] + Subscript[s, \[Gamma]]) + Subscript[m, \[Phi]]^2*
             (8*\[Xi]^2 + 22*\[Xi]*Subscript[s, \[Gamma]] + 
              9*Subscript[s, \[Gamma]]^2))*Subscript[v, EW])/
          (8*\[Xi]*Subscript[m, K]^4) + ((4*\[Xi] + Subscript[s, \[Gamma]])^2*
           Subscript[v, EW]^2)/(8*Subscript[m, K]^2)), 
-     CV32V2 -> t^3*(-1/2*(h^2*(Subscript[m, K]^4*Subscript[s, \[Gamma]]*
-             (\[Xi]^2 + 5*\[Xi]*Subscript[s, \[Gamma]] + 
-              4*Subscript[s, \[Gamma]]^2) - Subscript[m, K]^2*
+     CV32V2 -> t^3*(-1/2*(QuantumField[h]^2*(Subscript[m, K]^4*
+             Subscript[s, \[Gamma]]*(\[Xi]^2 + 5*\[Xi]*Subscript[s, 
+                \[Gamma]] + 4*Subscript[s, \[Gamma]]^2) - Subscript[m, K]^2*
              Subscript[m, \[Phi]]^2*(4*\[Xi]^3 + 45*\[Xi]^2*Subscript[s, 
                 \[Gamma]] + 76*\[Xi]*Subscript[s, \[Gamma]]^2 + 
               30*Subscript[s, \[Gamma]]^3) + Subscript[m, \[Phi]]^4*
              (16*\[Xi]^3 + 96*\[Xi]^2*Subscript[s, \[Gamma]] + 
               117*\[Xi]*Subscript[s, \[Gamma]]^2 + 36*Subscript[s, \[Gamma]]^
                 3)))/(\[Xi]*Subscript[m, K]^6) - 
-        (h^6*(Subscript[m, K]^12*Subscript[s, \[Gamma]]^3*(16*\[Xi]^4 + 
-             365*\[Xi]^3*Subscript[s, \[Gamma]] + 1419*\[Xi]^2*
-              Subscript[s, \[Gamma]]^2 + 1863*\[Xi]*Subscript[s, \[Gamma]]^
-               3 + 793*Subscript[s, \[Gamma]]^4) - Subscript[m, K]^10*
-            Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^2*
+        (QuantumField[h]^6*(Subscript[m, K]^12*Subscript[s, \[Gamma]]^3*
+            (16*\[Xi]^4 + 365*\[Xi]^3*Subscript[s, \[Gamma]] + 
+             1419*\[Xi]^2*Subscript[s, \[Gamma]]^2 + 1863*\[Xi]*
+              Subscript[s, \[Gamma]]^3 + 793*Subscript[s, \[Gamma]]^4) - 
+           Subscript[m, K]^10*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^2*
             (244*\[Xi]^5 + 8554*\[Xi]^4*Subscript[s, \[Gamma]] + 
              49889*\[Xi]^3*Subscript[s, \[Gamma]]^2 + 104628*\[Xi]^2*
               Subscript[s, \[Gamma]]^3 + 90953*\[Xi]*Subscript[s, \[Gamma]]^
@@ -10221,7 +10329,7 @@
               Subscript[s, \[Gamma]]^5 + 9499623*\[Xi]*Subscript[s, \[Gamma]]^
                6 + 1921383*Subscript[s, \[Gamma]]^7)))/
          (32*\[Xi]^5*Subscript[m, K]^14*Subscript[v, EW]^4) + 
-        (h^5*(-8*Subscript[m, K]^10*Subscript[s, \[Gamma]]^3*
+        (QuantumField[h]^5*(-8*Subscript[m, K]^10*Subscript[s, \[Gamma]]^3*
             (3*\[Xi]^3 + 19*\[Xi]^2*Subscript[s, \[Gamma]] + 
              32*\[Xi]*Subscript[s, \[Gamma]]^2 + 16*Subscript[s, \[Gamma]]^
                3) + Subscript[m, K]^8*Subscript[m, \[Phi]]^2*
@@ -10250,8 +10358,8 @@
                 \[Gamma]]^3 + 397354*\[Xi]^2*Subscript[s, \[Gamma]]^4 + 
              268986*\[Xi]*Subscript[s, \[Gamma]]^5 + 66330*Subscript[s, 
                 \[Gamma]]^6)))/(8*\[Xi]^4*Subscript[m, K]^12*
-          Subscript[v, EW]^3) + 
-        (h^4*(-4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*
+          Subscript[v, EW]^3) + (QuantumField[h]^4*
+          (-4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*
             (\[Xi]^3 + 13*\[Xi]^2*Subscript[s, \[Gamma]] + 
              28*\[Xi]*Subscript[s, \[Gamma]]^2 + 16*Subscript[s, \[Gamma]]^
                3) + Subscript[m, K]^6*Subscript[m, \[Phi]]^2*
@@ -10273,7 +10381,7 @@
               Subscript[s, \[Gamma]]^3 + 37959*\[Xi]*Subscript[s, \[Gamma]]^
                4 + 9846*Subscript[s, \[Gamma]]^5)))/
          (8*\[Xi]^3*Subscript[m, K]^10*Subscript[v, EW]^2) + 
-        (h^3*(-4*Subscript[m, K]^6*Subscript[s, \[Gamma]]^2*
+        (QuantumField[h]^3*(-4*Subscript[m, K]^6*Subscript[s, \[Gamma]]^2*
             (\[Xi]^2 + 3*\[Xi]*Subscript[s, \[Gamma]] + 
              2*Subscript[s, \[Gamma]]^2) + Subscript[m, K]^4*
             Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*(36*\[Xi]^3 + 
@@ -10287,49 +10395,49 @@
              929*\[Xi]^2*Subscript[s, \[Gamma]]^2 + 950*\[Xi]*
               Subscript[s, \[Gamma]]^3 + 294*Subscript[s, \[Gamma]]^4)))/
          (2*\[Xi]^2*Subscript[m, K]^8*Subscript[v, EW]) + 
-        (h*(-(Subscript[m, K]^2*Subscript[s, \[Gamma]]*(\[Xi] + 
-              Subscript[s, \[Gamma]])) + Subscript[m, \[Phi]]^2*
+        (QuantumField[h]*(-(Subscript[m, K]^2*Subscript[s, \[Gamma]]*
+             (\[Xi] + Subscript[s, \[Gamma]])) + Subscript[m, \[Phi]]^2*
             (4*\[Xi]^2 + 9*\[Xi]*Subscript[s, \[Gamma]] + 
              3*Subscript[s, \[Gamma]]^2))*Subscript[v, EW])/
          Subscript[m, K]^4 - (\[Xi]*(4*\[Xi] + Subscript[s, \[Gamma]])*
           Subscript[v, EW]^2)/(2*Subscript[m, K]^2)), 
-     CV3V3VV -> 
-      t^3*((3*h^2*((Subscript[s, \[Gamma]]*(4*\[Xi] + 3*Subscript[s, 
-                \[Gamma]]))/Subscript[m, K]^2 + 
+     CV3V3VV -> t^3*((3*QuantumField[h]^2*((Subscript[s, \[Gamma]]*
+             (4*\[Xi] + 3*Subscript[s, \[Gamma]]))/Subscript[m, K]^2 + 
            (2*\[Xi]^2 + 3*\[Xi]*Subscript[s, \[Gamma]] + 
              Subscript[s, \[Gamma]]^2)/Subscript[m, \[Phi]]^2))/2 + 
-        (h^6*(3*Subscript[m, K]^8*Subscript[m, \[Phi]]^2*Subscript[s, 
-             \[Gamma]]*(56*\[Xi]^5 + 28*\[Xi]^4*Subscript[s, \[Gamma]] - 
-             6*\[Xi]^3*Subscript[s, \[Gamma]]^2 + 19*\[Xi]^2*Subscript[s, 
-                \[Gamma]]^3 + 40*\[Xi]*Subscript[s, \[Gamma]]^4 + 
-             35*Subscript[s, \[Gamma]]^5) - 3*Subscript[m, K]^6*
-            Subscript[m, \[Phi]]^4*Subscript[s, \[Gamma]]*(-56*\[Xi]^5 - 
-             30*\[Xi]^4*Subscript[s, \[Gamma]] + 385*\[Xi]^3*Subscript[s, 
-                \[Gamma]]^2 + 1735*\[Xi]^2*Subscript[s, \[Gamma]]^3 + 
-             2610*\[Xi]*Subscript[s, \[Gamma]]^4 + 1190*Subscript[s, 
-                \[Gamma]]^5) + 3*Subscript[m, \[Phi]]^10*Subscript[s, 
-             \[Gamma]]*(512*\[Xi]^5 + 5760*\[Xi]^4*Subscript[s, \[Gamma]] + 
-             20160*\[Xi]^3*Subscript[s, \[Gamma]]^2 + 30240*\[Xi]^2*
-              Subscript[s, \[Gamma]]^3 + 20412*\[Xi]*Subscript[s, \[Gamma]]^
-               4 + 5103*Subscript[s, \[Gamma]]^5) - 3*Subscript[m, K]^2*
-            Subscript[m, \[Phi]]^8*Subscript[s, \[Gamma]]*(128*\[Xi]^5 + 
-             4160*\[Xi]^4*Subscript[s, \[Gamma]] + 22000*\[Xi]^3*
-              Subscript[s, \[Gamma]]^2 + 42210*\[Xi]^2*Subscript[s, \[Gamma]]^
-               3 + 33831*\[Xi]*Subscript[s, \[Gamma]]^4 + 
-             9639*Subscript[s, \[Gamma]]^5) + Subscript[m, K]^4*
-            Subscript[m, \[Phi]]^6*Subscript[s, \[Gamma]]*(192*\[Xi]^5 + 
-             2208*\[Xi]^4*Subscript[s, \[Gamma]] + 18200*\[Xi]^3*
-              Subscript[s, \[Gamma]]^2 + 49815*\[Xi]^2*Subscript[s, \[Gamma]]^
-               3 + 51156*\[Xi]*Subscript[s, \[Gamma]]^4 + 
-             17514*Subscript[s, \[Gamma]]^5) + Subscript[m, K]^10*
-            (112*\[Xi]^6 + 168*\[Xi]^5*Subscript[s, \[Gamma]] + 
-             42*\[Xi]^4*Subscript[s, \[Gamma]]^2 - 7*\[Xi]^3*Subscript[s, 
-                \[Gamma]]^3 + 3*\[Xi]^2*Subscript[s, \[Gamma]]^4 + 
-             3*\[Xi]*Subscript[s, \[Gamma]]^5 + 7*Subscript[s, \[Gamma]]^6)))/
+        (QuantumField[h]^6*(3*Subscript[m, K]^8*Subscript[m, \[Phi]]^2*
+            Subscript[s, \[Gamma]]*(56*\[Xi]^5 + 28*\[Xi]^4*Subscript[s, 
+               \[Gamma]] - 6*\[Xi]^3*Subscript[s, \[Gamma]]^2 + 
+             19*\[Xi]^2*Subscript[s, \[Gamma]]^3 + 40*\[Xi]*Subscript[s, 
+                \[Gamma]]^4 + 35*Subscript[s, \[Gamma]]^5) - 
+           3*Subscript[m, K]^6*Subscript[m, \[Phi]]^4*Subscript[s, \[Gamma]]*
+            (-56*\[Xi]^5 - 30*\[Xi]^4*Subscript[s, \[Gamma]] + 
+             385*\[Xi]^3*Subscript[s, \[Gamma]]^2 + 1735*\[Xi]^2*
+              Subscript[s, \[Gamma]]^3 + 2610*\[Xi]*Subscript[s, \[Gamma]]^
+               4 + 1190*Subscript[s, \[Gamma]]^5) + 3*Subscript[m, \[Phi]]^10*
+            Subscript[s, \[Gamma]]*(512*\[Xi]^5 + 5760*\[Xi]^4*
+              Subscript[s, \[Gamma]] + 20160*\[Xi]^3*Subscript[s, \[Gamma]]^
+               2 + 30240*\[Xi]^2*Subscript[s, \[Gamma]]^3 + 
+             20412*\[Xi]*Subscript[s, \[Gamma]]^4 + 5103*Subscript[s, 
+                \[Gamma]]^5) - 3*Subscript[m, K]^2*Subscript[m, \[Phi]]^8*
+            Subscript[s, \[Gamma]]*(128*\[Xi]^5 + 4160*\[Xi]^4*
+              Subscript[s, \[Gamma]] + 22000*\[Xi]^3*Subscript[s, \[Gamma]]^
+               2 + 42210*\[Xi]^2*Subscript[s, \[Gamma]]^3 + 
+             33831*\[Xi]*Subscript[s, \[Gamma]]^4 + 9639*Subscript[s, 
+                \[Gamma]]^5) + Subscript[m, K]^4*Subscript[m, \[Phi]]^6*
+            Subscript[s, \[Gamma]]*(192*\[Xi]^5 + 2208*\[Xi]^4*
+              Subscript[s, \[Gamma]] + 18200*\[Xi]^3*Subscript[s, \[Gamma]]^
+               2 + 49815*\[Xi]^2*Subscript[s, \[Gamma]]^3 + 
+             51156*\[Xi]*Subscript[s, \[Gamma]]^4 + 17514*Subscript[s, 
+                \[Gamma]]^5) + Subscript[m, K]^10*(112*\[Xi]^6 + 
+             168*\[Xi]^5*Subscript[s, \[Gamma]] + 42*\[Xi]^4*Subscript[s, 
+                \[Gamma]]^2 - 7*\[Xi]^3*Subscript[s, \[Gamma]]^3 + 
+             3*\[Xi]^2*Subscript[s, \[Gamma]]^4 + 3*\[Xi]*Subscript[s, 
+                \[Gamma]]^5 + 7*Subscript[s, \[Gamma]]^6)))/
          (16*\[Xi]^4*Subscript[m, K]^10*Subscript[m, \[Phi]]^2*
-          Subscript[v, EW]^4) - (3*h^5*(-2*Subscript[m, K]^2*
-            Subscript[m, \[Phi]]^6*Subscript[s, \[Gamma]]^2*
-            (224*\[Xi]^3 + 880*\[Xi]^2*Subscript[s, \[Gamma]] + 
+          Subscript[v, EW]^4) - (3*QuantumField[h]^5*
+          (-2*Subscript[m, K]^2*Subscript[m, \[Phi]]^6*Subscript[s, \[Gamma]]^
+             2*(224*\[Xi]^3 + 880*\[Xi]^2*Subscript[s, \[Gamma]] + 
              1035*\[Xi]*Subscript[s, \[Gamma]]^2 + 378*Subscript[s, \[Gamma]]^
                3) - 2*Subscript[m, K]^6*Subscript[m, \[Phi]]^2*
             Subscript[s, \[Gamma]]*(-12*\[Xi]^4 - 6*\[Xi]^3*Subscript[s, 
@@ -10347,9 +10455,9 @@
              6*\[Xi]^3*Subscript[s, \[Gamma]]^2 - \[Xi]^2*Subscript[s, 
                 \[Gamma]]^3 - Subscript[s, \[Gamma]]^5)))/
          (8*\[Xi]^3*Subscript[m, K]^8*Subscript[m, \[Phi]]^2*
-          Subscript[v, EW]^3) + 
-        (h^4*(3*Subscript[m, K]^4*Subscript[m, \[Phi]]^2*Subscript[s, 
-             \[Gamma]]*(20*\[Xi]^3 + 11*\[Xi]^2*Subscript[s, \[Gamma]] + 
+          Subscript[v, EW]^3) + (QuantumField[h]^4*
+          (3*Subscript[m, K]^4*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*
+            (20*\[Xi]^3 + 11*\[Xi]^2*Subscript[s, \[Gamma]] + 
              4*\[Xi]*Subscript[s, \[Gamma]]^2 + 9*Subscript[s, \[Gamma]]^3) - 
            3*Subscript[m, K]^2*Subscript[m, \[Phi]]^4*Subscript[s, \[Gamma]]*
             (-16*\[Xi]^3 + 60*\[Xi]^2*Subscript[s, \[Gamma]] + 
@@ -10361,28 +10469,27 @@
               Subscript[s, \[Gamma]] + 15*\[Xi]^2*Subscript[s, \[Gamma]]^2 - 
              2*\[Xi]*Subscript[s, \[Gamma]]^3 + 3*Subscript[s, \[Gamma]]^4)))/
          (8*\[Xi]^2*Subscript[m, K]^6*Subscript[m, \[Phi]]^2*
-          Subscript[v, EW]^2) + 
-        (h^3*(-3*Subscript[m, K]^2*Subscript[m, \[Phi]]^2*
-            Subscript[s, \[Gamma]]*(4*\[Xi]^2 + \[Xi]*Subscript[s, 
-               \[Gamma]] - 2*Subscript[s, \[Gamma]]^2) - 
-           3*Subscript[m, \[Phi]]^4*Subscript[s, \[Gamma]]*
-            (8*\[Xi]^2 + 18*\[Xi]*Subscript[s, \[Gamma]] + 
-             9*Subscript[s, \[Gamma]]^2) + Subscript[m, K]^4*
+          Subscript[v, EW]^2) + (QuantumField[h]^3*
+          (-3*Subscript[m, K]^2*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*
+            (4*\[Xi]^2 + \[Xi]*Subscript[s, \[Gamma]] - 
+             2*Subscript[s, \[Gamma]]^2) - 3*Subscript[m, \[Phi]]^4*
+            Subscript[s, \[Gamma]]*(8*\[Xi]^2 + 18*\[Xi]*Subscript[s, 
+               \[Gamma]] + 9*Subscript[s, \[Gamma]]^2) + Subscript[m, K]^4*
             (-8*\[Xi]^3 - 12*\[Xi]^2*Subscript[s, \[Gamma]] - 
              3*\[Xi]*Subscript[s, \[Gamma]]^2 + Subscript[s, \[Gamma]]^3)))/
          (2*\[Xi]*Subscript[m, K]^4*Subscript[m, \[Phi]]^2*
-          Subscript[v, EW]) - (\[Xi]*h*(2*\[Xi] + 3*Subscript[s, \[Gamma]])*
-          Subscript[v, EW])/Subscript[m, \[Phi]]^2 + 
-        (\[Xi]^2*Subscript[v, EW]^2)/Subscript[m, \[Phi]]^2), 
-     CV32V32 -> t^3*(-1/4*(h^2*(Subscript[m, K]^2 - Subscript[m, \[Phi]]^2)*
-           (3*Subscript[m, K]^4*(2*\[Xi]^2 + 3*\[Xi]*Subscript[s, \[Gamma]] + 
-              Subscript[s, \[Gamma]]^2) + 3*Subscript[m, K]^2*
-             Subscript[m, \[Phi]]^2*(2*\[Xi]^2 + 7*\[Xi]*Subscript[s, 
-                \[Gamma]] + 4*Subscript[s, \[Gamma]]^2) + 
+          Subscript[v, EW]) - (\[Xi]*QuantumField[h]*(2*\[Xi] + 
+           3*Subscript[s, \[Gamma]])*Subscript[v, EW])/Subscript[m, \[Phi]]^
+          2 + (\[Xi]^2*Subscript[v, EW]^2)/Subscript[m, \[Phi]]^2), 
+     CV32V32 -> t^3*(-1/4*(QuantumField[h]^2*(Subscript[m, K]^2 - 
+            Subscript[m, \[Phi]]^2)*(3*Subscript[m, K]^4*(2*\[Xi]^2 + 
+              3*\[Xi]*Subscript[s, \[Gamma]] + Subscript[s, \[Gamma]]^2) + 
+            3*Subscript[m, K]^2*Subscript[m, \[Phi]]^2*(2*\[Xi]^2 + 
+              7*\[Xi]*Subscript[s, \[Gamma]] + 4*Subscript[s, \[Gamma]]^2) + 
             Subscript[m, \[Phi]]^4*(8*\[Xi]^2 + 36*\[Xi]*Subscript[s, 
                 \[Gamma]] + 27*Subscript[s, \[Gamma]]^2)))/
           (Subscript[m, K]^6*Subscript[m, \[Phi]]^2) - 
-        (h^6*(Subscript[m, K]^2 - Subscript[m, \[Phi]]^2)*
+        (QuantumField[h]^6*(Subscript[m, K]^2 - Subscript[m, \[Phi]]^2)*
           (Subscript[m, K]^6*Subscript[m, \[Phi]]^6*(112*\[Xi]^6 + 
              624*\[Xi]^5*Subscript[s, \[Gamma]] - 1950*\[Xi]^4*
               Subscript[s, \[Gamma]]^2 - 19655*\[Xi]^3*Subscript[s, \[Gamma]]^
@@ -10420,7 +10527,7 @@
              1411830*\[Xi]^2*Subscript[s, \[Gamma]]^4 + 1069929*\[Xi]*
               Subscript[s, \[Gamma]]^5 + 299376*Subscript[s, \[Gamma]]^6)))/
          (32*\[Xi]^4*Subscript[m, K]^14*Subscript[m, \[Phi]]^2*
-          Subscript[v, EW]^4) + (h^5*(Subscript[m, K]^2 - 
+          Subscript[v, EW]^4) + (QuantumField[h]^5*(Subscript[m, K]^2 - 
            Subscript[m, \[Phi]]^2)*(-3*Subscript[m, K]^2*Subscript[m, \[Phi]]^
              8*Subscript[s, \[Gamma]]*(640*\[Xi]^4 + 6080*\[Xi]^3*
               Subscript[s, \[Gamma]] + 16800*\[Xi]^2*Subscript[s, \[Gamma]]^
@@ -10448,7 +10555,7 @@
              51030*\[Xi]*Subscript[s, \[Gamma]]^4 + 15309*Subscript[s, 
                 \[Gamma]]^5)))/(16*\[Xi]^3*Subscript[m, K]^12*
           Subscript[m, \[Phi]]^2*Subscript[v, EW]^3) - 
-        (h^4*(Subscript[m, K]^2 - Subscript[m, \[Phi]]^2)*
+        (QuantumField[h]^4*(Subscript[m, K]^2 - Subscript[m, \[Phi]]^2)*
           (2*Subscript[m, K]^2*Subscript[m, \[Phi]]^6*(16*\[Xi]^4 - 
              48*\[Xi]^3*Subscript[s, \[Gamma]] - 930*\[Xi]^2*Subscript[s, 
                 \[Gamma]]^2 - 1845*\[Xi]*Subscript[s, \[Gamma]]^3 - 
@@ -10468,7 +10575,7 @@
                2 + 7560*\[Xi]*Subscript[s, \[Gamma]]^3 + 
              2835*Subscript[s, \[Gamma]]^4)))/(16*\[Xi]^2*Subscript[m, K]^10*
           Subscript[m, \[Phi]]^2*Subscript[v, EW]^2) + 
-        (h^3*(Subscript[m, K]^2 - Subscript[m, \[Phi]]^2)*
+        (QuantumField[h]^3*(Subscript[m, K]^2 - Subscript[m, \[Phi]]^2)*
           (Subscript[m, K]^2*Subscript[m, \[Phi]]^4*(8*\[Xi]^3 + 
              36*\[Xi]^2*Subscript[s, \[Gamma]] + 15*\[Xi]*Subscript[s, 
                 \[Gamma]]^2 - 15*Subscript[s, \[Gamma]]^3) + 
@@ -10481,21 +10588,21 @@
                \[Gamma]] + 270*\[Xi]*Subscript[s, \[Gamma]]^2 + 
              135*Subscript[s, \[Gamma]]^3)))/(4*\[Xi]*Subscript[m, K]^8*
           Subscript[m, \[Phi]]^2*Subscript[v, EW]) + 
-        (\[Xi]*h*(Subscript[m, K]^4 - Subscript[m, \[Phi]]^4)*
+        (\[Xi]*QuantumField[h]*(Subscript[m, K]^4 - Subscript[m, \[Phi]]^4)*
           (2*\[Xi] + 3*Subscript[s, \[Gamma]])*Subscript[v, EW])/
          (2*Subscript[m, K]^4*Subscript[m, \[Phi]]^2) + 
         (\[Xi]^2*(Subscript[m, K]^(-2) - Subscript[m, \[Phi]]^(-2))*
           Subscript[v, EW]^2)/2), CVV3V3Dh -> 
-      t^3*(h*((-4*Subscript[s, \[Gamma]]*(4*\[Xi] + 
+      t^3*(QuantumField[h]*((-4*Subscript[s, \[Gamma]]*(4*\[Xi] + 
              3*Subscript[s, \[Gamma]]))/Subscript[m, K]^2 - 
           (4*(3*\[Xi]^2 + 4*\[Xi]*Subscript[s, \[Gamma]] + 
              Subscript[s, \[Gamma]]^2))/Subscript[m, \[Phi]]^2) + 
-        (h^6*(Subscript[m, K]^8*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*
-            (656*\[Xi]^6 + 330*\[Xi]^5*Subscript[s, \[Gamma]] + 
-             534*\[Xi]^4*Subscript[s, \[Gamma]]^2 + 7031*\[Xi]^3*
-              Subscript[s, \[Gamma]]^3 + 21478*\[Xi]^2*Subscript[s, \[Gamma]]^
-               4 + 24605*\[Xi]*Subscript[s, \[Gamma]]^5 + 
-             9338*Subscript[s, \[Gamma]]^6) + 3*Subscript[m, \[Phi]]^10*
+        (QuantumField[h]^6*(Subscript[m, K]^8*Subscript[m, \[Phi]]^2*
+            Subscript[s, \[Gamma]]*(656*\[Xi]^6 + 330*\[Xi]^5*
+              Subscript[s, \[Gamma]] + 534*\[Xi]^4*Subscript[s, \[Gamma]]^2 + 
+             7031*\[Xi]^3*Subscript[s, \[Gamma]]^3 + 21478*\[Xi]^2*
+              Subscript[s, \[Gamma]]^4 + 24605*\[Xi]*Subscript[s, \[Gamma]]^
+               5 + 9338*Subscript[s, \[Gamma]]^6) + 3*Subscript[m, \[Phi]]^10*
             Subscript[s, \[Gamma]]*(2560*\[Xi]^6 + 35968*\[Xi]^5*
               Subscript[s, \[Gamma]] + 163520*\[Xi]^4*Subscript[s, \[Gamma]]^
                2 + 339360*\[Xi]^3*Subscript[s, \[Gamma]]^3 + 
@@ -10525,37 +10632,38 @@
                5 - 455*\[Xi]*Subscript[s, \[Gamma]]^6 - 
              252*Subscript[s, \[Gamma]]^7)))/(4*\[Xi]^5*Subscript[m, K]^10*
           Subscript[m, \[Phi]]^2*Subscript[v, EW]^5) - 
-        (h^5*(Subscript[m, K]^8*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*
-            (244*\[Xi]^5 + 123*\[Xi]^4*Subscript[s, \[Gamma]] - 
-             28*\[Xi]^3*Subscript[s, \[Gamma]]^2 + 56*\[Xi]^2*
-              Subscript[s, \[Gamma]]^3 + 108*\[Xi]*Subscript[s, \[Gamma]]^4 + 
-             105*Subscript[s, \[Gamma]]^5) - 2*Subscript[m, K]^6*
-            Subscript[m, \[Phi]]^4*Subscript[s, \[Gamma]]*(-120*\[Xi]^5 - 
-             78*\[Xi]^4*Subscript[s, \[Gamma]] + 521*\[Xi]^3*Subscript[s, 
-                \[Gamma]]^2 + 2400*\[Xi]^2*Subscript[s, \[Gamma]]^3 + 
-             3786*\[Xi]*Subscript[s, \[Gamma]]^4 + 1785*Subscript[s, 
-                \[Gamma]]^5) + 3*Subscript[m, \[Phi]]^10*Subscript[s, 
-             \[Gamma]]*(512*\[Xi]^5 + 5760*\[Xi]^4*Subscript[s, \[Gamma]] + 
-             20160*\[Xi]^3*Subscript[s, \[Gamma]]^2 + 30240*\[Xi]^2*
-              Subscript[s, \[Gamma]]^3 + 20412*\[Xi]*Subscript[s, \[Gamma]]^
-               4 + 5103*Subscript[s, \[Gamma]]^5) + 2*Subscript[m, K]^4*
-            Subscript[m, \[Phi]]^6*Subscript[s, \[Gamma]]*(128*\[Xi]^5 + 
-             1024*\[Xi]^4*Subscript[s, \[Gamma]] + 8400*\[Xi]^3*
-              Subscript[s, \[Gamma]]^2 + 23940*\[Xi]^2*Subscript[s, \[Gamma]]^
-               3 + 25200*\[Xi]*Subscript[s, \[Gamma]]^4 + 
-             8757*Subscript[s, \[Gamma]]^5) - Subscript[m, K]^2*
-            Subscript[m, \[Phi]]^8*Subscript[s, \[Gamma]]*(256*\[Xi]^5 + 
-             11520*\[Xi]^4*Subscript[s, \[Gamma]] + 63840*\[Xi]^3*
-              Subscript[s, \[Gamma]]^2 + 124740*\[Xi]^2*Subscript[s, 
-                \[Gamma]]^3 + 100926*\[Xi]*Subscript[s, \[Gamma]]^4 + 
-             28917*Subscript[s, \[Gamma]]^5) + Subscript[m, K]^10*
-            (168*\[Xi]^6 + 248*\[Xi]^5*Subscript[s, \[Gamma]] + 
-             61*\[Xi]^4*Subscript[s, \[Gamma]]^2 - 10*\[Xi]^3*
-              Subscript[s, \[Gamma]]^3 + 4*\[Xi]^2*Subscript[s, \[Gamma]]^4 + 
-             2*\[Xi]*Subscript[s, \[Gamma]]^5 + 7*Subscript[s, \[Gamma]]^6)))/
+        (QuantumField[h]^5*(Subscript[m, K]^8*Subscript[m, \[Phi]]^2*
+            Subscript[s, \[Gamma]]*(244*\[Xi]^5 + 123*\[Xi]^4*
+              Subscript[s, \[Gamma]] - 28*\[Xi]^3*Subscript[s, \[Gamma]]^2 + 
+             56*\[Xi]^2*Subscript[s, \[Gamma]]^3 + 108*\[Xi]*Subscript[s, 
+                \[Gamma]]^4 + 105*Subscript[s, \[Gamma]]^5) - 
+           2*Subscript[m, K]^6*Subscript[m, \[Phi]]^4*Subscript[s, \[Gamma]]*
+            (-120*\[Xi]^5 - 78*\[Xi]^4*Subscript[s, \[Gamma]] + 
+             521*\[Xi]^3*Subscript[s, \[Gamma]]^2 + 2400*\[Xi]^2*
+              Subscript[s, \[Gamma]]^3 + 3786*\[Xi]*Subscript[s, \[Gamma]]^
+               4 + 1785*Subscript[s, \[Gamma]]^5) + 3*Subscript[m, \[Phi]]^10*
+            Subscript[s, \[Gamma]]*(512*\[Xi]^5 + 5760*\[Xi]^4*
+              Subscript[s, \[Gamma]] + 20160*\[Xi]^3*Subscript[s, \[Gamma]]^
+               2 + 30240*\[Xi]^2*Subscript[s, \[Gamma]]^3 + 
+             20412*\[Xi]*Subscript[s, \[Gamma]]^4 + 5103*Subscript[s, 
+                \[Gamma]]^5) + 2*Subscript[m, K]^4*Subscript[m, \[Phi]]^6*
+            Subscript[s, \[Gamma]]*(128*\[Xi]^5 + 1024*\[Xi]^4*
+              Subscript[s, \[Gamma]] + 8400*\[Xi]^3*Subscript[s, \[Gamma]]^
+               2 + 23940*\[Xi]^2*Subscript[s, \[Gamma]]^3 + 
+             25200*\[Xi]*Subscript[s, \[Gamma]]^4 + 8757*Subscript[s, 
+                \[Gamma]]^5) - Subscript[m, K]^2*Subscript[m, \[Phi]]^8*
+            Subscript[s, \[Gamma]]*(256*\[Xi]^5 + 11520*\[Xi]^4*
+              Subscript[s, \[Gamma]] + 63840*\[Xi]^3*Subscript[s, \[Gamma]]^
+               2 + 124740*\[Xi]^2*Subscript[s, \[Gamma]]^3 + 
+             100926*\[Xi]*Subscript[s, \[Gamma]]^4 + 28917*Subscript[s, 
+                \[Gamma]]^5) + Subscript[m, K]^10*(168*\[Xi]^6 + 
+             248*\[Xi]^5*Subscript[s, \[Gamma]] + 61*\[Xi]^4*Subscript[s, 
+                \[Gamma]]^2 - 10*\[Xi]^3*Subscript[s, \[Gamma]]^3 + 
+             4*\[Xi]^2*Subscript[s, \[Gamma]]^4 + 2*\[Xi]*Subscript[s, 
+                \[Gamma]]^5 + 7*Subscript[s, \[Gamma]]^6)))/
          (2*\[Xi]^4*Subscript[m, K]^10*Subscript[m, \[Phi]]^2*
-          Subscript[v, EW]^4) + 
-        (h^4*(Subscript[m, K]^6*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*
+          Subscript[v, EW]^4) + (QuantumField[h]^4*
+          (Subscript[m, K]^6*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*
             (172*\[Xi]^4 + 87*\[Xi]^3*Subscript[s, \[Gamma]] - 
              34*\[Xi]^2*Subscript[s, \[Gamma]]^2 - 41*\[Xi]*Subscript[s, 
                 \[Gamma]]^3 - 60*Subscript[s, \[Gamma]]^4) + 
@@ -10576,9 +10684,9 @@
              7*\[Xi]^2*Subscript[s, \[Gamma]]^3 + \[Xi]*Subscript[s, 
                 \[Gamma]]^4 - 5*Subscript[s, \[Gamma]]^5)))/
          (2*\[Xi]^3*Subscript[m, K]^8*Subscript[m, \[Phi]]^2*
-          Subscript[v, EW]^3) - 
-        (2*h^3*(Subscript[m, K]^4*Subscript[m, \[Phi]]^2*Subscript[s, 
-             \[Gamma]]*(28*\[Xi]^3 + 15*\[Xi]^2*Subscript[s, \[Gamma]] + 
+          Subscript[v, EW]^3) - (2*QuantumField[h]^3*
+          (Subscript[m, K]^4*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*
+            (28*\[Xi]^3 + 15*\[Xi]^2*Subscript[s, \[Gamma]] + 
              2*\[Xi]*Subscript[s, \[Gamma]]^2 + 9*Subscript[s, \[Gamma]]^3) - 
            Subscript[m, K]^2*Subscript[m, \[Phi]]^4*Subscript[s, \[Gamma]]*
             (-24*\[Xi]^3 + 42*\[Xi]^2*Subscript[s, \[Gamma]] + 
@@ -10590,9 +10698,9 @@
               Subscript[s, \[Gamma]] + 7*\[Xi]^2*Subscript[s, \[Gamma]]^2 - 
              \[Xi]*Subscript[s, \[Gamma]]^3 + Subscript[s, \[Gamma]]^4)))/
          (\[Xi]^2*Subscript[m, K]^6*Subscript[m, \[Phi]]^2*
-          Subscript[v, EW]^2) + 
-        (h^2*(4*Subscript[m, K]^2*Subscript[m, \[Phi]]^2*Subscript[s, 
-             \[Gamma]]*(8*\[Xi]^2 + 3*\[Xi]*Subscript[s, \[Gamma]] - 
+          Subscript[v, EW]^2) + (QuantumField[h]^2*
+          (4*Subscript[m, K]^2*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*
+            (8*\[Xi]^2 + 3*\[Xi]*Subscript[s, \[Gamma]] - 
              3*Subscript[s, \[Gamma]]^2) + 6*Subscript[m, \[Phi]]^4*
             Subscript[s, \[Gamma]]*(8*\[Xi]^2 + 18*\[Xi]*Subscript[s, 
                \[Gamma]] + 9*Subscript[s, \[Gamma]]^2) + Subscript[m, K]^4*
@@ -10602,8 +10710,8 @@
         (4*\[Xi]*(\[Xi] + Subscript[s, \[Gamma]])*Subscript[v, EW])/
          Subscript[m, \[Phi]]^2), CVVDhDh -> 
       t^3*((-2*(\[Xi] + Subscript[s, \[Gamma]])^2)/Subscript[m, \[Phi]]^2 + 
-        (h^6*(-2*Subscript[m, \[Phi]]^12*Subscript[s, \[Gamma]]^2*
-            (4*\[Xi] + 3*Subscript[s, \[Gamma]])^2*(2240*\[Xi]^4 + 
+        (QuantumField[h]^6*(-2*Subscript[m, \[Phi]]^12*Subscript[s, \[Gamma]]^
+             2*(4*\[Xi] + 3*Subscript[s, \[Gamma]])^2*(2240*\[Xi]^4 + 
              19824*\[Xi]^3*Subscript[s, \[Gamma]] + 55332*\[Xi]^2*
               Subscript[s, \[Gamma]]^2 + 60696*\[Xi]*Subscript[s, \[Gamma]]^
                3 + 22761*Subscript[s, \[Gamma]]^4) - 7*Subscript[m, K]^12*
@@ -10645,8 +10753,8 @@
              7974603*\[Xi]^2*Subscript[s, \[Gamma]]^5 + 4586274*\[Xi]*
               Subscript[s, \[Gamma]]^6 + 990873*Subscript[s, \[Gamma]]^7)))/
          (8*\[Xi]^6*Subscript[m, K]^12*Subscript[m, \[Phi]]^2*
-          Subscript[v, EW]^6) + 
-        (h^5*(Subscript[m, K]^10*(\[Xi] + Subscript[s, \[Gamma]])^2*
+          Subscript[v, EW]^6) + (QuantumField[h]^5*
+          (Subscript[m, K]^10*(\[Xi] + Subscript[s, \[Gamma]])^2*
             (448*\[Xi]^5 - 200*\[Xi]^4*Subscript[s, \[Gamma]] + 
              132*\[Xi]^3*Subscript[s, \[Gamma]]^2 - 95*\[Xi]^2*
               Subscript[s, \[Gamma]]^3 + 70*\[Xi]*Subscript[s, \[Gamma]]^4 - 
@@ -10680,34 +10788,35 @@
                 \[Gamma]]^4 + 586332*\[Xi]*Subscript[s, \[Gamma]]^5 + 
              136323*Subscript[s, \[Gamma]]^6)))/(4*\[Xi]^5*Subscript[m, K]^10*
           Subscript[m, \[Phi]]^2*Subscript[v, EW]^5) + 
-        (h^4*(-5*Subscript[m, K]^8*(\[Xi] + Subscript[s, \[Gamma]])^2*
-            (56*\[Xi]^4 - 24*\[Xi]^3*Subscript[s, \[Gamma]] + 
-             15*\[Xi]^2*Subscript[s, \[Gamma]]^2 - 10*\[Xi]*Subscript[s, 
-                \[Gamma]]^3 + 7*Subscript[s, \[Gamma]]^4) + 
-           5*Subscript[m, K]^6*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*
-            (-92*\[Xi]^5 - 45*\[Xi]^4*Subscript[s, \[Gamma]] + 
-             24*\[Xi]^3*Subscript[s, \[Gamma]]^2 + 206*\[Xi]^2*
-              Subscript[s, \[Gamma]]^3 + 508*\[Xi]*Subscript[s, \[Gamma]]^4 + 
-             279*Subscript[s, \[Gamma]]^5) - 2*Subscript[m, \[Phi]]^8*
-            Subscript[s, \[Gamma]]*(640*\[Xi]^5 + 7040*\[Xi]^4*
-              Subscript[s, \[Gamma]] + 23568*\[Xi]^3*Subscript[s, \[Gamma]]^
-               2 + 33678*\[Xi]^2*Subscript[s, \[Gamma]]^3 + 
-             21681*\[Xi]*Subscript[s, \[Gamma]]^4 + 5184*Subscript[s, 
-                \[Gamma]]^5) - Subscript[m, K]^4*Subscript[m, \[Phi]]^4*
-            Subscript[s, \[Gamma]]*(480*\[Xi]^5 + 488*\[Xi]^4*
-              Subscript[s, \[Gamma]] + 4952*\[Xi]^3*Subscript[s, \[Gamma]]^
-               2 + 20713*\[Xi]^2*Subscript[s, \[Gamma]]^3 + 
-             24382*\[Xi]*Subscript[s, \[Gamma]]^4 + 8733*Subscript[s, 
-                \[Gamma]]^5) + Subscript[m, K]^2*Subscript[m, \[Phi]]^6*
-            Subscript[s, \[Gamma]]*(-448*\[Xi]^5 + 4384*\[Xi]^4*
-              Subscript[s, \[Gamma]] + 36328*\[Xi]^3*Subscript[s, \[Gamma]]^
-               2 + 75619*\[Xi]^2*Subscript[s, \[Gamma]]^3 + 
-             61164*\[Xi]*Subscript[s, \[Gamma]]^4 + 17181*Subscript[s, 
-                \[Gamma]]^5)))/(4*\[Xi]^4*Subscript[m, K]^8*
+        (QuantumField[h]^4*(-5*Subscript[m, K]^8*
+            (\[Xi] + Subscript[s, \[Gamma]])^2*(56*\[Xi]^4 - 
+             24*\[Xi]^3*Subscript[s, \[Gamma]] + 15*\[Xi]^2*Subscript[s, 
+                \[Gamma]]^2 - 10*\[Xi]*Subscript[s, \[Gamma]]^3 + 
+             7*Subscript[s, \[Gamma]]^4) + 5*Subscript[m, K]^6*
+            Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*(-92*\[Xi]^5 - 
+             45*\[Xi]^4*Subscript[s, \[Gamma]] + 24*\[Xi]^3*Subscript[s, 
+                \[Gamma]]^2 + 206*\[Xi]^2*Subscript[s, \[Gamma]]^3 + 
+             508*\[Xi]*Subscript[s, \[Gamma]]^4 + 279*Subscript[s, \[Gamma]]^
+               5) - 2*Subscript[m, \[Phi]]^8*Subscript[s, \[Gamma]]*
+            (640*\[Xi]^5 + 7040*\[Xi]^4*Subscript[s, \[Gamma]] + 
+             23568*\[Xi]^3*Subscript[s, \[Gamma]]^2 + 33678*\[Xi]^2*
+              Subscript[s, \[Gamma]]^3 + 21681*\[Xi]*Subscript[s, \[Gamma]]^
+               4 + 5184*Subscript[s, \[Gamma]]^5) - Subscript[m, K]^4*
+            Subscript[m, \[Phi]]^4*Subscript[s, \[Gamma]]*(480*\[Xi]^5 + 
+             488*\[Xi]^4*Subscript[s, \[Gamma]] + 4952*\[Xi]^3*
+              Subscript[s, \[Gamma]]^2 + 20713*\[Xi]^2*Subscript[s, \[Gamma]]^
+               3 + 24382*\[Xi]*Subscript[s, \[Gamma]]^4 + 
+             8733*Subscript[s, \[Gamma]]^5) + Subscript[m, K]^2*
+            Subscript[m, \[Phi]]^6*Subscript[s, \[Gamma]]*(-448*\[Xi]^5 + 
+             4384*\[Xi]^4*Subscript[s, \[Gamma]] + 36328*\[Xi]^3*
+              Subscript[s, \[Gamma]]^2 + 75619*\[Xi]^2*Subscript[s, \[Gamma]]^
+               3 + 61164*\[Xi]*Subscript[s, \[Gamma]]^4 + 
+             17181*Subscript[s, \[Gamma]]^5)))/(4*\[Xi]^4*Subscript[m, K]^8*
           Subscript[m, \[Phi]]^2*Subscript[v, EW]^4) + 
-        (h^3*(Subscript[m, K]^6*(\[Xi] + Subscript[s, \[Gamma]])^2*
-            (40*\[Xi]^3 - 16*\[Xi]^2*Subscript[s, \[Gamma]] + 
-             9*\[Xi]*Subscript[s, \[Gamma]]^2 - 5*Subscript[s, \[Gamma]]^3) + 
+        (QuantumField[h]^3*(Subscript[m, K]^6*
+            (\[Xi] + Subscript[s, \[Gamma]])^2*(40*\[Xi]^3 - 
+             16*\[Xi]^2*Subscript[s, \[Gamma]] + 9*\[Xi]*Subscript[s, 
+                \[Gamma]]^2 - 5*Subscript[s, \[Gamma]]^3) + 
            Subscript[m, K]^4*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*
             (68*\[Xi]^4 + 33*\[Xi]^3*Subscript[s, \[Gamma]] + 
              54*\[Xi]^2*Subscript[s, \[Gamma]]^2 + 221*\[Xi]*Subscript[s, 
@@ -10721,8 +10830,8 @@
              1043*\[Xi]^2*Subscript[s, \[Gamma]]^2 + 1340*\[Xi]*
               Subscript[s, \[Gamma]]^3 + 489*Subscript[s, \[Gamma]]^4)))/
          (\[Xi]^3*Subscript[m, K]^6*Subscript[m, \[Phi]]^2*
-          Subscript[v, EW]^3) + 
-        (h^2*(-(Subscript[m, K]^4*(\[Xi] + Subscript[s, \[Gamma]])^2*
+          Subscript[v, EW]^3) + (QuantumField[h]^2*
+          (-(Subscript[m, K]^4*(\[Xi] + Subscript[s, \[Gamma]])^2*
              (20*\[Xi]^2 - 7*\[Xi]*Subscript[s, \[Gamma]] + 
               3*Subscript[s, \[Gamma]]^2)) - 2*Subscript[m, \[Phi]]^4*
             Subscript[s, \[Gamma]]*(24*\[Xi]^3 + 94*\[Xi]^2*Subscript[s, 
@@ -10732,75 +10841,75 @@
              7*\[Xi]^2*Subscript[s, \[Gamma]] + 74*\[Xi]*Subscript[s, 
                 \[Gamma]]^2 + 45*Subscript[s, \[Gamma]]^3)))/
          (\[Xi]^2*Subscript[m, K]^4*Subscript[m, \[Phi]]^2*
-          Subscript[v, EW]^2) + (2*h*(\[Xi] + Subscript[s, \[Gamma]])*
-          (2*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*
-            (4*\[Xi] + 3*Subscript[s, \[Gamma]]) + Subscript[m, K]^2*
-            (4*\[Xi]^2 + 3*\[Xi]*Subscript[s, \[Gamma]] - 
+          Subscript[v, EW]^2) + (2*QuantumField[h]*
+          (\[Xi] + Subscript[s, \[Gamma]])*(2*Subscript[m, \[Phi]]^2*
+            Subscript[s, \[Gamma]]*(4*\[Xi] + 3*Subscript[s, \[Gamma]]) + 
+           Subscript[m, K]^2*(4*\[Xi]^2 + 3*\[Xi]*Subscript[s, \[Gamma]] - 
              Subscript[s, \[Gamma]]^2)))/(\[Xi]*Subscript[m, K]^2*
           Subscript[m, \[Phi]]^2*Subscript[v, EW])), 
      CV2Dh2 -> t^3*(-1/2*(Subscript[s, \[Gamma]]*(4*\[Xi] + 
             Subscript[s, \[Gamma]])*(Subscript[m, K]^2*(\[Xi] + 
               Subscript[s, \[Gamma]]) - Subscript[m, \[Phi]]^2*
              (4*\[Xi] + 3*Subscript[s, \[Gamma]])))/
-          (\[Xi]*Subscript[m, K]^4) + (h^6*Subscript[s, \[Gamma]]*
-          (-2*Subscript[m, K]^14*Subscript[s, \[Gamma]]^3*(106*\[Xi]^5 + 
-             3391*\[Xi]^4*Subscript[s, \[Gamma]] + 19505*\[Xi]^3*
-              Subscript[s, \[Gamma]]^2 + 40741*\[Xi]^2*Subscript[s, \[Gamma]]^
-               3 + 35161*\[Xi]*Subscript[s, \[Gamma]]^4 + 
-             10640*Subscript[s, \[Gamma]]^5) + Subscript[m, K]^12*
-            Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^2*
-            (2040*\[Xi]^6 + 99876*\[Xi]^5*Subscript[s, \[Gamma]] + 
-             854509*\[Xi]^4*Subscript[s, \[Gamma]]^2 + 2724344*\[Xi]^3*
-              Subscript[s, \[Gamma]]^3 + 3936348*\[Xi]^2*Subscript[s, 
-                \[Gamma]]^4 + 2611632*\[Xi]*Subscript[s, \[Gamma]]^5 + 
-             644635*Subscript[s, \[Gamma]]^6) - 2*Subscript[m, K]^10*
-            Subscript[m, \[Phi]]^4*Subscript[s, \[Gamma]]*(1872*\[Xi]^7 + 
-             165600*\[Xi]^6*Subscript[s, \[Gamma]] + 2256829*\[Xi]^5*
-              Subscript[s, \[Gamma]]^2 + 11003822*\[Xi]^4*Subscript[s, 
-                \[Gamma]]^3 + 24761932*\[Xi]^3*Subscript[s, \[Gamma]]^4 + 
-             27951438*\[Xi]^2*Subscript[s, \[Gamma]]^5 + 15342498*\[Xi]*
-              Subscript[s, \[Gamma]]^6 + 3246863*Subscript[s, \[Gamma]]^7) + 
-           Subscript[m, \[Phi]]^14*(573440*\[Xi]^8 + 11726848*\[Xi]^7*
-              Subscript[s, \[Gamma]] + 83868672*\[Xi]^6*Subscript[s, 
-                \[Gamma]]^2 + 291117312*\[Xi]^5*Subscript[s, \[Gamma]]^3 + 
-             558610560*\[Xi]^4*Subscript[s, \[Gamma]]^4 + 623129760*\[Xi]^3*
-              Subscript[s, \[Gamma]]^5 + 401694552*\[Xi]^2*Subscript[s, 
-                \[Gamma]]^6 + 138475008*\[Xi]*Subscript[s, \[Gamma]]^7 + 
-             19702683*Subscript[s, \[Gamma]]^8) + Subscript[m, K]^8*
-            Subscript[m, \[Phi]]^6*(1408*\[Xi]^8 + 294880*\[Xi]^7*
-              Subscript[s, \[Gamma]] + 7307968*\[Xi]^6*Subscript[s, \[Gamma]]^
-               2 + 57617986*\[Xi]^5*Subscript[s, \[Gamma]]^3 + 
-             201582981*\[Xi]^4*Subscript[s, \[Gamma]]^4 + 359741528*\[Xi]^3*
-              Subscript[s, \[Gamma]]^5 + 340561428*\[Xi]^2*Subscript[s, 
-                \[Gamma]]^6 + 162344958*\[Xi]*Subscript[s, \[Gamma]]^7 + 
-             30547077*Subscript[s, \[Gamma]]^8) - 2*Subscript[m, K]^2*
-            Subscript[m, \[Phi]]^12*(430080*\[Xi]^8 + 11085312*\[Xi]^7*
-              Subscript[s, \[Gamma]] + 93314176*\[Xi]^6*Subscript[s, 
-                \[Gamma]]^2 + 366174208*\[Xi]^5*Subscript[s, \[Gamma]]^3 + 
-             774458496*\[Xi]^4*Subscript[s, \[Gamma]]^4 + 936116316*\[Xi]^3*
-              Subscript[s, \[Gamma]]^5 + 645977079*\[Xi]^2*Subscript[s, 
-                \[Gamma]]^6 + 236203695*\[Xi]*Subscript[s, \[Gamma]]^7 + 
-             35392707*Subscript[s, \[Gamma]]^8) - 2*Subscript[m, K]^6*
-            Subscript[m, \[Phi]]^8*(28928*\[Xi]^8 + 1772928*\[Xi]^7*
-              Subscript[s, \[Gamma]] + 25671776*\[Xi]^6*Subscript[s, 
-                \[Gamma]]^2 + 146718904*\[Xi]^5*Subscript[s, \[Gamma]]^3 + 
-             411476553*\[Xi]^4*Subscript[s, \[Gamma]]^4 + 622188702*\[Xi]^3*
-              Subscript[s, \[Gamma]]^5 + 516467244*\[Xi]^2*Subscript[s, 
-                \[Gamma]]^6 + 220888686*\[Xi]*Subscript[s, \[Gamma]]^7 + 
-             37905174*Subscript[s, \[Gamma]]^8) + Subscript[m, K]^4*
-            Subscript[m, \[Phi]]^10*(394240*\[Xi]^8 + 14172928*\[Xi]^7*
-              Subscript[s, \[Gamma]] + 148774912*\[Xi]^6*Subscript[s, 
-                \[Gamma]]^2 + 684398592*\[Xi]^5*Subscript[s, \[Gamma]]^3 + 
-             1635839488*\[Xi]^4*Subscript[s, \[Gamma]]^4 + 2182426342*\[Xi]^3*
-              Subscript[s, \[Gamma]]^5 + 1635358500*\[Xi]^2*Subscript[s, 
-                \[Gamma]]^6 + 641645010*\[Xi]*Subscript[s, \[Gamma]]^7 + 
-             102228021*Subscript[s, \[Gamma]]^8)))/(32*\[Xi]^7*
-          Subscript[m, K]^16*Subscript[v, EW]^6) - 
-        (h^5*Subscript[s, \[Gamma]]*(3*Subscript[m, K]^12*
-            Subscript[s, \[Gamma]]^3*(212*\[Xi]^4 + 2057*\[Xi]^3*
-              Subscript[s, \[Gamma]] + 5319*\[Xi]^2*Subscript[s, \[Gamma]]^
-               2 + 5035*\[Xi]*Subscript[s, \[Gamma]]^3 + 
-             1561*Subscript[s, \[Gamma]]^4) - 3*Subscript[m, K]^10*
+          (\[Xi]*Subscript[m, K]^4) + (QuantumField[h]^6*
+          Subscript[s, \[Gamma]]*(-2*Subscript[m, K]^14*
+            Subscript[s, \[Gamma]]^3*(106*\[Xi]^5 + 3391*\[Xi]^4*
+              Subscript[s, \[Gamma]] + 19505*\[Xi]^3*Subscript[s, \[Gamma]]^
+               2 + 40741*\[Xi]^2*Subscript[s, \[Gamma]]^3 + 
+             35161*\[Xi]*Subscript[s, \[Gamma]]^4 + 10640*Subscript[s, 
+                \[Gamma]]^5) + Subscript[m, K]^12*Subscript[m, \[Phi]]^2*
+            Subscript[s, \[Gamma]]^2*(2040*\[Xi]^6 + 99876*\[Xi]^5*
+              Subscript[s, \[Gamma]] + 854509*\[Xi]^4*Subscript[s, \[Gamma]]^
+               2 + 2724344*\[Xi]^3*Subscript[s, \[Gamma]]^3 + 
+             3936348*\[Xi]^2*Subscript[s, \[Gamma]]^4 + 2611632*\[Xi]*
+              Subscript[s, \[Gamma]]^5 + 644635*Subscript[s, \[Gamma]]^6) - 
+           2*Subscript[m, K]^10*Subscript[m, \[Phi]]^4*Subscript[s, \[Gamma]]*
+            (1872*\[Xi]^7 + 165600*\[Xi]^6*Subscript[s, \[Gamma]] + 
+             2256829*\[Xi]^5*Subscript[s, \[Gamma]]^2 + 11003822*\[Xi]^4*
+              Subscript[s, \[Gamma]]^3 + 24761932*\[Xi]^3*Subscript[s, 
+                \[Gamma]]^4 + 27951438*\[Xi]^2*Subscript[s, \[Gamma]]^5 + 
+             15342498*\[Xi]*Subscript[s, \[Gamma]]^6 + 
+             3246863*Subscript[s, \[Gamma]]^7) + Subscript[m, \[Phi]]^14*
+            (573440*\[Xi]^8 + 11726848*\[Xi]^7*Subscript[s, \[Gamma]] + 
+             83868672*\[Xi]^6*Subscript[s, \[Gamma]]^2 + 291117312*\[Xi]^5*
+              Subscript[s, \[Gamma]]^3 + 558610560*\[Xi]^4*Subscript[s, 
+                \[Gamma]]^4 + 623129760*\[Xi]^3*Subscript[s, \[Gamma]]^5 + 
+             401694552*\[Xi]^2*Subscript[s, \[Gamma]]^6 + 138475008*\[Xi]*
+              Subscript[s, \[Gamma]]^7 + 19702683*Subscript[s, \[Gamma]]^8) + 
+           Subscript[m, K]^8*Subscript[m, \[Phi]]^6*(1408*\[Xi]^8 + 
+             294880*\[Xi]^7*Subscript[s, \[Gamma]] + 7307968*\[Xi]^6*
+              Subscript[s, \[Gamma]]^2 + 57617986*\[Xi]^5*Subscript[s, 
+                \[Gamma]]^3 + 201582981*\[Xi]^4*Subscript[s, \[Gamma]]^4 + 
+             359741528*\[Xi]^3*Subscript[s, \[Gamma]]^5 + 340561428*\[Xi]^2*
+              Subscript[s, \[Gamma]]^6 + 162344958*\[Xi]*Subscript[s, 
+                \[Gamma]]^7 + 30547077*Subscript[s, \[Gamma]]^8) - 
+           2*Subscript[m, K]^2*Subscript[m, \[Phi]]^12*(430080*\[Xi]^8 + 
+             11085312*\[Xi]^7*Subscript[s, \[Gamma]] + 93314176*\[Xi]^6*
+              Subscript[s, \[Gamma]]^2 + 366174208*\[Xi]^5*Subscript[s, 
+                \[Gamma]]^3 + 774458496*\[Xi]^4*Subscript[s, \[Gamma]]^4 + 
+             936116316*\[Xi]^3*Subscript[s, \[Gamma]]^5 + 645977079*\[Xi]^2*
+              Subscript[s, \[Gamma]]^6 + 236203695*\[Xi]*Subscript[s, 
+                \[Gamma]]^7 + 35392707*Subscript[s, \[Gamma]]^8) - 
+           2*Subscript[m, K]^6*Subscript[m, \[Phi]]^8*(28928*\[Xi]^8 + 
+             1772928*\[Xi]^7*Subscript[s, \[Gamma]] + 25671776*\[Xi]^6*
+              Subscript[s, \[Gamma]]^2 + 146718904*\[Xi]^5*Subscript[s, 
+                \[Gamma]]^3 + 411476553*\[Xi]^4*Subscript[s, \[Gamma]]^4 + 
+             622188702*\[Xi]^3*Subscript[s, \[Gamma]]^5 + 516467244*\[Xi]^2*
+              Subscript[s, \[Gamma]]^6 + 220888686*\[Xi]*Subscript[s, 
+                \[Gamma]]^7 + 37905174*Subscript[s, \[Gamma]]^8) + 
+           Subscript[m, K]^4*Subscript[m, \[Phi]]^10*(394240*\[Xi]^8 + 
+             14172928*\[Xi]^7*Subscript[s, \[Gamma]] + 148774912*\[Xi]^6*
+              Subscript[s, \[Gamma]]^2 + 684398592*\[Xi]^5*Subscript[s, 
+                \[Gamma]]^3 + 1635839488*\[Xi]^4*Subscript[s, \[Gamma]]^4 + 
+             2182426342*\[Xi]^3*Subscript[s, \[Gamma]]^5 + 1635358500*\[Xi]^2*
+              Subscript[s, \[Gamma]]^6 + 641645010*\[Xi]*Subscript[s, 
+                \[Gamma]]^7 + 102228021*Subscript[s, \[Gamma]]^8)))/
+         (32*\[Xi]^7*Subscript[m, K]^16*Subscript[v, EW]^6) - 
+        (QuantumField[h]^5*Subscript[s, \[Gamma]]*
+          (3*Subscript[m, K]^12*Subscript[s, \[Gamma]]^3*(212*\[Xi]^4 + 
+             2057*\[Xi]^3*Subscript[s, \[Gamma]] + 5319*\[Xi]^2*
+              Subscript[s, \[Gamma]]^2 + 5035*\[Xi]*Subscript[s, \[Gamma]]^
+               3 + 1561*Subscript[s, \[Gamma]]^4) - 3*Subscript[m, K]^10*
             Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^2*
             (2040*\[Xi]^5 + 32732*\[Xi]^4*Subscript[s, \[Gamma]] + 
              137324*\[Xi]^3*Subscript[s, \[Gamma]]^2 + 227425*\[Xi]^2*
@@ -10837,25 +10946,26 @@
              76937448*\[Xi]^2*Subscript[s, \[Gamma]]^5 + 34465167*\[Xi]*
               Subscript[s, \[Gamma]]^6 + 6014601*Subscript[s, \[Gamma]]^7)))/
          (16*\[Xi]^6*Subscript[m, K]^14*Subscript[v, EW]^5) - 
-        (h^4*Subscript[s, \[Gamma]]*(120*Subscript[m, K]^10*
-            Subscript[s, \[Gamma]]^2*(\[Xi]^4 + 19*\[Xi]^3*Subscript[s, 
-               \[Gamma]] + 58*\[Xi]^2*Subscript[s, \[Gamma]]^2 + 
-             56*\[Xi]*Subscript[s, \[Gamma]]^3 + 16*Subscript[s, \[Gamma]]^
-               4) - Subscript[m, K]^8*Subscript[m, \[Phi]]^2*
-            Subscript[s, \[Gamma]]*(896*\[Xi]^5 + 29804*\[Xi]^4*
-              Subscript[s, \[Gamma]] + 152691*\[Xi]^3*Subscript[s, \[Gamma]]^
-               2 + 267129*\[Xi]^2*Subscript[s, \[Gamma]]^3 + 
-             183921*\[Xi]*Subscript[s, \[Gamma]]^4 + 41415*Subscript[s, 
-                \[Gamma]]^5) - 5*Subscript[m, \[Phi]]^10*(14336*\[Xi]^6 + 
-             161280*\[Xi]^5*Subscript[s, \[Gamma]] + 605952*\[Xi]^4*
-              Subscript[s, \[Gamma]]^2 + 1040832*\[Xi]^3*Subscript[s, 
-                \[Gamma]]^3 + 891000*\[Xi]^2*Subscript[s, \[Gamma]]^4 + 
-             365634*\[Xi]*Subscript[s, \[Gamma]]^5 + 56133*Subscript[s, 
-                \[Gamma]]^6) + Subscript[m, K]^6*Subscript[m, \[Phi]]^4*
-            (704*\[Xi]^6 + 60208*\[Xi]^5*Subscript[s, \[Gamma]] + 
-             578696*\[Xi]^4*Subscript[s, \[Gamma]]^2 + 1789723*\[Xi]^3*
-              Subscript[s, \[Gamma]]^3 + 2325728*\[Xi]^2*Subscript[s, 
-                \[Gamma]]^4 + 1306551*\[Xi]*Subscript[s, \[Gamma]]^5 + 
+        (QuantumField[h]^4*Subscript[s, \[Gamma]]*
+          (120*Subscript[m, K]^10*Subscript[s, \[Gamma]]^2*
+            (\[Xi]^4 + 19*\[Xi]^3*Subscript[s, \[Gamma]] + 
+             58*\[Xi]^2*Subscript[s, \[Gamma]]^2 + 56*\[Xi]*Subscript[s, 
+                \[Gamma]]^3 + 16*Subscript[s, \[Gamma]]^4) - 
+           Subscript[m, K]^8*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*
+            (896*\[Xi]^5 + 29804*\[Xi]^4*Subscript[s, \[Gamma]] + 
+             152691*\[Xi]^3*Subscript[s, \[Gamma]]^2 + 267129*\[Xi]^2*
+              Subscript[s, \[Gamma]]^3 + 183921*\[Xi]*Subscript[s, \[Gamma]]^
+               4 + 41415*Subscript[s, \[Gamma]]^5) - 
+           5*Subscript[m, \[Phi]]^10*(14336*\[Xi]^6 + 161280*\[Xi]^5*
+              Subscript[s, \[Gamma]] + 605952*\[Xi]^4*Subscript[s, \[Gamma]]^
+               2 + 1040832*\[Xi]^3*Subscript[s, \[Gamma]]^3 + 
+             891000*\[Xi]^2*Subscript[s, \[Gamma]]^4 + 365634*\[Xi]*
+              Subscript[s, \[Gamma]]^5 + 56133*Subscript[s, \[Gamma]]^6) + 
+           Subscript[m, K]^6*Subscript[m, \[Phi]]^4*(704*\[Xi]^6 + 
+             60208*\[Xi]^5*Subscript[s, \[Gamma]] + 578696*\[Xi]^4*
+              Subscript[s, \[Gamma]]^2 + 1789723*\[Xi]^3*Subscript[s, 
+                \[Gamma]]^3 + 2325728*\[Xi]^2*Subscript[s, \[Gamma]]^4 + 
+             1306551*\[Xi]*Subscript[s, \[Gamma]]^5 + 
              254154*Subscript[s, \[Gamma]]^6) - Subscript[m, K]^4*
             Subscript[m, \[Phi]]^6*(20480*\[Xi]^6 + 500640*\[Xi]^5*
               Subscript[s, \[Gamma]] + 2954512*\[Xi]^4*Subscript[s, \[Gamma]]^
@@ -10869,44 +10979,45 @@
              4318965*\[Xi]*Subscript[s, \[Gamma]]^5 + 
              703350*Subscript[s, \[Gamma]]^6)))/(16*\[Xi]^5*
           Subscript[m, K]^12*Subscript[v, EW]^4) - 
-        (h^3*Subscript[s, \[Gamma]]*(40*Subscript[m, K]^8*
-            Subscript[s, \[Gamma]]^2*(3*\[Xi]^3 + 13*\[Xi]^2*
-              Subscript[s, \[Gamma]] + 14*\[Xi]*Subscript[s, \[Gamma]]^2 + 
-             4*Subscript[s, \[Gamma]]^3) - Subscript[m, K]^6*
-            Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*(896*\[Xi]^4 + 
-             7284*\[Xi]^3*Subscript[s, \[Gamma]] + 15267*\[Xi]^2*
-              Subscript[s, \[Gamma]]^2 + 11296*\[Xi]*Subscript[s, \[Gamma]]^
-               3 + 2537*Subscript[s, \[Gamma]]^4) + 5*Subscript[m, \[Phi]]^8*
-            (1024*\[Xi]^5 + 7936*\[Xi]^4*Subscript[s, \[Gamma]] + 
-             19968*\[Xi]^3*Subscript[s, \[Gamma]]^2 + 21600*\[Xi]^2*
-              Subscript[s, \[Gamma]]^3 + 10260*\[Xi]*Subscript[s, \[Gamma]]^
-               4 + 1701*Subscript[s, \[Gamma]]^5) + Subscript[m, K]^4*
-            Subscript[m, \[Phi]]^4*(704*\[Xi]^5 + 14608*\[Xi]^4*
-              Subscript[s, \[Gamma]] + 61064*\[Xi]^3*Subscript[s, \[Gamma]]^
-               2 + 91765*\[Xi]^2*Subscript[s, \[Gamma]]^3 + 
-             55012*\[Xi]*Subscript[s, \[Gamma]]^4 + 10737*Subscript[s, 
-                \[Gamma]]^5) - Subscript[m, K]^2*Subscript[m, \[Phi]]^6*
-            (4480*\[Xi]^5 + 47680*\[Xi]^4*Subscript[s, \[Gamma]] + 
-             145200*\[Xi]^3*Subscript[s, \[Gamma]]^2 + 179180*\[Xi]^2*
-              Subscript[s, \[Gamma]]^3 + 93714*\[Xi]*Subscript[s, \[Gamma]]^
-               4 + 16641*Subscript[s, \[Gamma]]^5)))/
-         (4*\[Xi]^4*Subscript[m, K]^10*Subscript[v, EW]^3) + 
-        (h^2*Subscript[s, \[Gamma]]*(-6*Subscript[m, K]^6*
-            Subscript[s, \[Gamma]]*(3*\[Xi]^3 + 24*\[Xi]^2*Subscript[s, 
-               \[Gamma]] + 29*\[Xi]*Subscript[s, \[Gamma]]^2 + 
-             8*Subscript[s, \[Gamma]]^3) + 5*Subscript[m, \[Phi]]^6*
-            (256*\[Xi]^4 + 1248*\[Xi]^3*Subscript[s, \[Gamma]] + 
-             1872*\[Xi]^2*Subscript[s, \[Gamma]]^2 + 1062*\[Xi]*
-              Subscript[s, \[Gamma]]^3 + 189*Subscript[s, \[Gamma]]^4) - 
-           4*Subscript[m, K]^2*Subscript[m, \[Phi]]^4*(208*\[Xi]^4 + 
-             1456*\[Xi]^3*Subscript[s, \[Gamma]] + 2670*\[Xi]^2*
-              Subscript[s, \[Gamma]]^2 + 1725*\[Xi]*Subscript[s, \[Gamma]]^
-               3 + 333*Subscript[s, \[Gamma]]^4) + Subscript[m, K]^4*
+        (QuantumField[h]^3*Subscript[s, \[Gamma]]*
+          (40*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*(3*\[Xi]^3 + 
+             13*\[Xi]^2*Subscript[s, \[Gamma]] + 14*\[Xi]*Subscript[s, 
+                \[Gamma]]^2 + 4*Subscript[s, \[Gamma]]^3) - 
+           Subscript[m, K]^6*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*
+            (896*\[Xi]^4 + 7284*\[Xi]^3*Subscript[s, \[Gamma]] + 
+             15267*\[Xi]^2*Subscript[s, \[Gamma]]^2 + 11296*\[Xi]*
+              Subscript[s, \[Gamma]]^3 + 2537*Subscript[s, \[Gamma]]^4) + 
+           5*Subscript[m, \[Phi]]^8*(1024*\[Xi]^5 + 7936*\[Xi]^4*
+              Subscript[s, \[Gamma]] + 19968*\[Xi]^3*Subscript[s, \[Gamma]]^
+               2 + 21600*\[Xi]^2*Subscript[s, \[Gamma]]^3 + 
+             10260*\[Xi]*Subscript[s, \[Gamma]]^4 + 1701*Subscript[s, 
+                \[Gamma]]^5) + Subscript[m, K]^4*Subscript[m, \[Phi]]^4*
+            (704*\[Xi]^5 + 14608*\[Xi]^4*Subscript[s, \[Gamma]] + 
+             61064*\[Xi]^3*Subscript[s, \[Gamma]]^2 + 91765*\[Xi]^2*
+              Subscript[s, \[Gamma]]^3 + 55012*\[Xi]*Subscript[s, \[Gamma]]^
+               4 + 10737*Subscript[s, \[Gamma]]^5) - Subscript[m, K]^2*
+            Subscript[m, \[Phi]]^6*(4480*\[Xi]^5 + 47680*\[Xi]^4*
+              Subscript[s, \[Gamma]] + 145200*\[Xi]^3*Subscript[s, \[Gamma]]^
+               2 + 179180*\[Xi]^2*Subscript[s, \[Gamma]]^3 + 
+             93714*\[Xi]*Subscript[s, \[Gamma]]^4 + 16641*Subscript[s, 
+                \[Gamma]]^5)))/(4*\[Xi]^4*Subscript[m, K]^10*
+          Subscript[v, EW]^3) + (QuantumField[h]^2*Subscript[s, \[Gamma]]*
+          (-6*Subscript[m, K]^6*Subscript[s, \[Gamma]]*(3*\[Xi]^3 + 
+             24*\[Xi]^2*Subscript[s, \[Gamma]] + 29*\[Xi]*Subscript[s, 
+                \[Gamma]]^2 + 8*Subscript[s, \[Gamma]]^3) + 
+           5*Subscript[m, \[Phi]]^6*(256*\[Xi]^4 + 1248*\[Xi]^3*
+              Subscript[s, \[Gamma]] + 1872*\[Xi]^2*Subscript[s, \[Gamma]]^
+               2 + 1062*\[Xi]*Subscript[s, \[Gamma]]^3 + 
+             189*Subscript[s, \[Gamma]]^4) - 4*Subscript[m, K]^2*
+            Subscript[m, \[Phi]]^4*(208*\[Xi]^4 + 1456*\[Xi]^3*
+              Subscript[s, \[Gamma]] + 2670*\[Xi]^2*Subscript[s, \[Gamma]]^
+               2 + 1725*\[Xi]*Subscript[s, \[Gamma]]^3 + 
+             333*Subscript[s, \[Gamma]]^4) + Subscript[m, K]^4*
             Subscript[m, \[Phi]]^2*(56*\[Xi]^4 + 1114*\[Xi]^3*
               Subscript[s, \[Gamma]] + 2969*\[Xi]^2*Subscript[s, \[Gamma]]^
                2 + 2370*\[Xi]*Subscript[s, \[Gamma]]^3 + 
              519*Subscript[s, \[Gamma]]^4)))/(4*\[Xi]^3*Subscript[m, K]^8*
-          Subscript[v, EW]^2) - (h*Subscript[s, \[Gamma]]*
+          Subscript[v, EW]^2) - (QuantumField[h]*Subscript[s, \[Gamma]]*
           (6*Subscript[m, K]^4*Subscript[s, \[Gamma]]*(3*\[Xi]^2 + 
              4*\[Xi]*Subscript[s, \[Gamma]] + Subscript[s, \[Gamma]]^2) - 
            Subscript[m, K]^2*Subscript[m, \[Phi]]^2*(56*\[Xi]^3 + 
@@ -10919,11 +11030,11 @@
       t^3*((Subscript[s, \[Gamma]]*(Subscript[m, K]^2*
             (\[Xi] + Subscript[s, \[Gamma]]) - Subscript[m, \[Phi]]^2*
             (4*\[Xi] + 3*Subscript[s, \[Gamma]])))/Subscript[m, K]^4 + 
-        (h^6*Subscript[s, \[Gamma]]*(Subscript[m, K]^14*
-            Subscript[s, \[Gamma]]^3*(29*\[Xi]^4 + 794*\[Xi]^3*
-              Subscript[s, \[Gamma]] + 3720*\[Xi]^2*Subscript[s, \[Gamma]]^
-               2 + 5734*\[Xi]*Subscript[s, \[Gamma]]^3 + 
-             2779*Subscript[s, \[Gamma]]^4) - Subscript[m, K]^12*
+        (QuantumField[h]^6*Subscript[s, \[Gamma]]*
+          (Subscript[m, K]^14*Subscript[s, \[Gamma]]^3*(29*\[Xi]^4 + 
+             794*\[Xi]^3*Subscript[s, \[Gamma]] + 3720*\[Xi]^2*
+              Subscript[s, \[Gamma]]^2 + 5734*\[Xi]*Subscript[s, \[Gamma]]^
+               3 + 2779*Subscript[s, \[Gamma]]^4) - Subscript[m, K]^12*
             Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^2*
             (342*\[Xi]^5 + 14811*\[Xi]^4*Subscript[s, \[Gamma]] + 
              108220*\[Xi]^3*Subscript[s, \[Gamma]]^2 + 279908*\[Xi]^2*
@@ -10966,11 +11077,11 @@
              247378110*\[Xi]^2*Subscript[s, \[Gamma]]^5 + 133588818*\[Xi]*
               Subscript[s, \[Gamma]]^6 + 28638603*Subscript[s, \[Gamma]]^7)))/
          (16*\[Xi]^6*Subscript[m, K]^16*Subscript[v, EW]^6) + 
-        (h^5*Subscript[s, \[Gamma]]*(Subscript[m, K]^12*
-            Subscript[s, \[Gamma]]^3*(87*\[Xi]^3 + 737*\[Xi]^2*
-              Subscript[s, \[Gamma]] + 1493*\[Xi]*Subscript[s, \[Gamma]]^2 + 
-             843*Subscript[s, \[Gamma]]^3) - Subscript[m, K]^10*
-            Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^2*
+        (QuantumField[h]^5*Subscript[s, \[Gamma]]*
+          (Subscript[m, K]^12*Subscript[s, \[Gamma]]^3*(87*\[Xi]^3 + 
+             737*\[Xi]^2*Subscript[s, \[Gamma]] + 1493*\[Xi]*Subscript[s, 
+                \[Gamma]]^2 + 843*Subscript[s, \[Gamma]]^3) - 
+           Subscript[m, K]^10*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^2*
             (1026*\[Xi]^4 + 14641*\[Xi]^3*Subscript[s, \[Gamma]] + 
              52066*\[Xi]^2*Subscript[s, \[Gamma]]^2 + 65881*\[Xi]*
               Subscript[s, \[Gamma]]^3 + 27150*Subscript[s, \[Gamma]]^4) + 
@@ -11001,14 +11112,14 @@
              11570745*\[Xi]^2*Subscript[s, \[Gamma]]^4 + 7707105*\[Xi]*
               Subscript[s, \[Gamma]]^5 + 1950777*Subscript[s, \[Gamma]]^6)))/
          (8*\[Xi]^5*Subscript[m, K]^14*Subscript[v, EW]^5) + 
-        (h^4*Subscript[s, \[Gamma]]*(4*Subscript[m, K]^10*
-            Subscript[s, \[Gamma]]^2*(3*\[Xi]^3 + 51*\[Xi]^2*
-              Subscript[s, \[Gamma]] + 128*\[Xi]*Subscript[s, \[Gamma]]^2 + 
-             80*Subscript[s, \[Gamma]]^3) - Subscript[m, K]^8*
-            Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*(103*\[Xi]^4 + 
-             3148*\[Xi]^3*Subscript[s, \[Gamma]] + 14278*\[Xi]^2*
-              Subscript[s, \[Gamma]]^2 + 20308*\[Xi]*Subscript[s, \[Gamma]]^
-               3 + 8935*Subscript[s, \[Gamma]]^4) - 
+        (QuantumField[h]^4*Subscript[s, \[Gamma]]*
+          (4*Subscript[m, K]^10*Subscript[s, \[Gamma]]^2*(3*\[Xi]^3 + 
+             51*\[Xi]^2*Subscript[s, \[Gamma]] + 128*\[Xi]*Subscript[s, 
+                \[Gamma]]^2 + 80*Subscript[s, \[Gamma]]^3) - 
+           Subscript[m, K]^8*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*
+            (103*\[Xi]^4 + 3148*\[Xi]^3*Subscript[s, \[Gamma]] + 
+             14278*\[Xi]^2*Subscript[s, \[Gamma]]^2 + 20308*\[Xi]*
+              Subscript[s, \[Gamma]]^3 + 8935*Subscript[s, \[Gamma]]^4) - 
            64*Subscript[m, \[Phi]]^10*(140*\[Xi]^5 + 1449*\[Xi]^4*
               Subscript[s, \[Gamma]] + 4896*\[Xi]^3*Subscript[s, \[Gamma]]^
                2 + 7236*\[Xi]^2*Subscript[s, \[Gamma]]^3 + 
@@ -11028,44 +11139,45 @@
               Subscript[s, \[Gamma]]^3 + 697572*\[Xi]*Subscript[s, \[Gamma]]^
                4 + 189945*Subscript[s, \[Gamma]]^5)))/
          (4*\[Xi]^4*Subscript[m, K]^12*Subscript[v, EW]^4) + 
-        (h^3*Subscript[s, \[Gamma]]*(4*Subscript[m, K]^8*
-            Subscript[s, \[Gamma]]^2*(3*\[Xi]^2 + 11*\[Xi]*Subscript[s, 
-               \[Gamma]] + 8*Subscript[s, \[Gamma]]^2) - Subscript[m, K]^6*
-            Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*(103*\[Xi]^3 + 
-             753*\[Xi]^2*Subscript[s, \[Gamma]] + 1313*\[Xi]*Subscript[s, 
-                \[Gamma]]^2 + 643*Subscript[s, \[Gamma]]^3) + 
-           16*Subscript[m, \[Phi]]^8*(40*\[Xi]^4 + 282*\[Xi]^3*
-              Subscript[s, \[Gamma]] + 621*\[Xi]^2*Subscript[s, \[Gamma]]^2 + 
-             540*\[Xi]*Subscript[s, \[Gamma]]^3 + 162*Subscript[s, \[Gamma]]^
-               4) + Subscript[m, K]^4*Subscript[m, \[Phi]]^4*
-            (88*\[Xi]^4 + 1685*\[Xi]^3*Subscript[s, \[Gamma]] + 
-             6274*\[Xi]^2*Subscript[s, \[Gamma]]^2 + 7737*\[Xi]*
-              Subscript[s, \[Gamma]]^3 + 3012*Subscript[s, \[Gamma]]^4) - 
-           Subscript[m, K]^2*Subscript[m, \[Phi]]^6*(560*\[Xi]^4 + 
-             5470*\[Xi]^3*Subscript[s, \[Gamma]] + 14699*\[Xi]^2*
-              Subscript[s, \[Gamma]]^2 + 14718*\[Xi]*Subscript[s, \[Gamma]]^
-               3 + 4923*Subscript[s, \[Gamma]]^4)))/
-         (\[Xi]^3*Subscript[m, K]^10*Subscript[v, EW]^3) + 
-        (h^2*Subscript[s, \[Gamma]]*(2*Subscript[m, K]^6*Subscript[s, 
-             \[Gamma]]*(\[Xi]^2 + 7*\[Xi]*Subscript[s, \[Gamma]] + 
-             6*Subscript[s, \[Gamma]]^2) - 4*Subscript[m, \[Phi]]^6*
-            (40*\[Xi]^3 + 174*\[Xi]^2*Subscript[s, \[Gamma]] + 
-             216*\[Xi]*Subscript[s, \[Gamma]]^2 + 81*Subscript[s, \[Gamma]]^
-               3) - Subscript[m, K]^4*Subscript[m, \[Phi]]^2*
-            (7*\[Xi]^3 + 127*\[Xi]^2*Subscript[s, \[Gamma]] + 
-             289*\[Xi]*Subscript[s, \[Gamma]]^2 + 159*Subscript[s, \[Gamma]]^
-               3) + Subscript[m, K]^2*Subscript[m, \[Phi]]^4*
-            (104*\[Xi]^3 + 659*\[Xi]^2*Subscript[s, \[Gamma]] + 
-             1014*\[Xi]*Subscript[s, \[Gamma]]^2 + 441*Subscript[s, \[Gamma]]^
-               3)))/(\[Xi]^2*Subscript[m, K]^8*Subscript[v, EW]^2) + 
-        (2*h*Subscript[s, \[Gamma]]*(2*Subscript[m, K]^4*Subscript[s, 
-             \[Gamma]]*(\[Xi] + Subscript[s, \[Gamma]]) + 
-           2*Subscript[m, \[Phi]]^4*(8*\[Xi]^2 + 18*\[Xi]*Subscript[s, 
-               \[Gamma]] + 9*Subscript[s, \[Gamma]]^2) - Subscript[m, K]^2*
+        (QuantumField[h]^3*Subscript[s, \[Gamma]]*
+          (4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*(3*\[Xi]^2 + 
+             11*\[Xi]*Subscript[s, \[Gamma]] + 8*Subscript[s, \[Gamma]]^2) - 
+           Subscript[m, K]^6*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*
+            (103*\[Xi]^3 + 753*\[Xi]^2*Subscript[s, \[Gamma]] + 
+             1313*\[Xi]*Subscript[s, \[Gamma]]^2 + 643*Subscript[s, \[Gamma]]^
+               3) + 16*Subscript[m, \[Phi]]^8*(40*\[Xi]^4 + 
+             282*\[Xi]^3*Subscript[s, \[Gamma]] + 621*\[Xi]^2*
+              Subscript[s, \[Gamma]]^2 + 540*\[Xi]*Subscript[s, \[Gamma]]^3 + 
+             162*Subscript[s, \[Gamma]]^4) + Subscript[m, K]^4*
+            Subscript[m, \[Phi]]^4*(88*\[Xi]^4 + 1685*\[Xi]^3*
+              Subscript[s, \[Gamma]] + 6274*\[Xi]^2*Subscript[s, \[Gamma]]^
+               2 + 7737*\[Xi]*Subscript[s, \[Gamma]]^3 + 
+             3012*Subscript[s, \[Gamma]]^4) - Subscript[m, K]^2*
+            Subscript[m, \[Phi]]^6*(560*\[Xi]^4 + 5470*\[Xi]^3*
+              Subscript[s, \[Gamma]] + 14699*\[Xi]^2*Subscript[s, \[Gamma]]^
+               2 + 14718*\[Xi]*Subscript[s, \[Gamma]]^3 + 
+             4923*Subscript[s, \[Gamma]]^4)))/(\[Xi]^3*Subscript[m, K]^10*
+          Subscript[v, EW]^3) + (QuantumField[h]^2*Subscript[s, \[Gamma]]*
+          (2*Subscript[m, K]^6*Subscript[s, \[Gamma]]*(\[Xi]^2 + 
+             7*\[Xi]*Subscript[s, \[Gamma]] + 6*Subscript[s, \[Gamma]]^2) - 
+           4*Subscript[m, \[Phi]]^6*(40*\[Xi]^3 + 174*\[Xi]^2*
+              Subscript[s, \[Gamma]] + 216*\[Xi]*Subscript[s, \[Gamma]]^2 + 
+             81*Subscript[s, \[Gamma]]^3) - Subscript[m, K]^4*
+            Subscript[m, \[Phi]]^2*(7*\[Xi]^3 + 127*\[Xi]^2*Subscript[s, 
+               \[Gamma]] + 289*\[Xi]*Subscript[s, \[Gamma]]^2 + 
+             159*Subscript[s, \[Gamma]]^3) + Subscript[m, K]^2*
+            Subscript[m, \[Phi]]^4*(104*\[Xi]^3 + 659*\[Xi]^2*
+              Subscript[s, \[Gamma]] + 1014*\[Xi]*Subscript[s, \[Gamma]]^2 + 
+             441*Subscript[s, \[Gamma]]^3)))/(\[Xi]^2*Subscript[m, K]^8*
+          Subscript[v, EW]^2) + (2*QuantumField[h]*Subscript[s, \[Gamma]]*
+          (2*Subscript[m, K]^4*Subscript[s, \[Gamma]]*
+            (\[Xi] + Subscript[s, \[Gamma]]) + 2*Subscript[m, \[Phi]]^4*
+            (8*\[Xi]^2 + 18*\[Xi]*Subscript[s, \[Gamma]] + 
+             9*Subscript[s, \[Gamma]]^2) - Subscript[m, K]^2*
             Subscript[m, \[Phi]]^2*(7*\[Xi]^2 + 24*\[Xi]*Subscript[s, 
                \[Gamma]] + 15*Subscript[s, \[Gamma]]^2)))/
          (\[Xi]*Subscript[m, K]^6*Subscript[v, EW])), 
-     CDh2Dh2 -> t^3*((h^6*Subscript[s, \[Gamma]]^2*
+     CDh2Dh2 -> t^3*((QuantumField[h]^6*Subscript[s, \[Gamma]]^2*
           (50*Subscript[m, K]^16*Subscript[s, \[Gamma]]^3*
             (\[Xi] + Subscript[s, \[Gamma]])^2*(5*\[Xi]^3 + 
              189*\[Xi]^2*Subscript[s, \[Gamma]] + 1043*\[Xi]*Subscript[s, 
@@ -11125,10 +11237,11 @@
              22398804162*\[Xi]^2*Subscript[s, \[Gamma]]^6 + 9046384074*\[Xi]*
               Subscript[s, \[Gamma]]^7 + 1518705531*Subscript[s, \[Gamma]]^
                8)))/(32*\[Xi]^8*Subscript[m, K]^18*Subscript[v, EW]^8) + 
-        (h^5*Subscript[s, \[Gamma]]^2*(50*Subscript[m, K]^14*
-            Subscript[s, \[Gamma]]^3*(\[Xi] + Subscript[s, \[Gamma]])^2*
-            (15*\[Xi]^2 + 154*\[Xi]*Subscript[s, \[Gamma]] + 
-             259*Subscript[s, \[Gamma]]^2) - 21*Subscript[m, \[Phi]]^14*
+        (QuantumField[h]^5*Subscript[s, \[Gamma]]^2*
+          (50*Subscript[m, K]^14*Subscript[s, \[Gamma]]^3*
+            (\[Xi] + Subscript[s, \[Gamma]])^2*(15*\[Xi]^2 + 
+             154*\[Xi]*Subscript[s, \[Gamma]] + 259*Subscript[s, \[Gamma]]^
+               2) - 21*Subscript[m, \[Phi]]^14*
             (4*\[Xi] + 3*Subscript[s, \[Gamma]])^2*(5120*\[Xi]^5 + 
              55680*\[Xi]^4*Subscript[s, \[Gamma]] + 212544*\[Xi]^3*
               Subscript[s, \[Gamma]]^2 + 367632*\[Xi]^2*Subscript[s, 
@@ -11170,19 +11283,19 @@
              916031574*\[Xi]^2*Subscript[s, \[Gamma]]^5 + 430052814*\[Xi]*
               Subscript[s, \[Gamma]]^6 + 81589599*Subscript[s, \[Gamma]]^7)))/
          (16*\[Xi]^7*Subscript[m, K]^16*Subscript[v, EW]^7) + 
-        (h^4*Subscript[s, \[Gamma]]^2*(80*Subscript[m, K]^12*
-            Subscript[s, \[Gamma]]^2*(\[Xi] + Subscript[s, \[Gamma]])^2*
-            (\[Xi]^2 + 24*\[Xi]*Subscript[s, \[Gamma]] + 
-             56*Subscript[s, \[Gamma]]^2) + 21*Subscript[m, \[Phi]]^12*
-            (4*\[Xi] + 3*Subscript[s, \[Gamma]])^2*(1280*\[Xi]^4 + 
-             10560*\[Xi]^3*Subscript[s, \[Gamma]] + 28512*\[Xi]^2*
-              Subscript[s, \[Gamma]]^2 + 30888*\[Xi]*Subscript[s, \[Gamma]]^
-               3 + 11583*Subscript[s, \[Gamma]]^4) - Subscript[m, K]^10*
-            Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*(592*\[Xi]^5 + 
-             26241*\[Xi]^4*Subscript[s, \[Gamma]] + 174316*\[Xi]^3*
-              Subscript[s, \[Gamma]]^2 + 396502*\[Xi]^2*Subscript[s, 
-                \[Gamma]]^3 + 366780*\[Xi]*Subscript[s, \[Gamma]]^4 + 
-             118945*Subscript[s, \[Gamma]]^5) + Subscript[m, K]^8*
+        (QuantumField[h]^4*Subscript[s, \[Gamma]]^2*
+          (80*Subscript[m, K]^12*Subscript[s, \[Gamma]]^2*
+            (\[Xi] + Subscript[s, \[Gamma]])^2*(\[Xi]^2 + 
+             24*\[Xi]*Subscript[s, \[Gamma]] + 56*Subscript[s, \[Gamma]]^2) + 
+           21*Subscript[m, \[Phi]]^12*(4*\[Xi] + 3*Subscript[s, \[Gamma]])^2*
+            (1280*\[Xi]^4 + 10560*\[Xi]^3*Subscript[s, \[Gamma]] + 
+             28512*\[Xi]^2*Subscript[s, \[Gamma]]^2 + 30888*\[Xi]*
+              Subscript[s, \[Gamma]]^3 + 11583*Subscript[s, \[Gamma]]^4) - 
+           Subscript[m, K]^10*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*
+            (592*\[Xi]^5 + 26241*\[Xi]^4*Subscript[s, \[Gamma]] + 
+             174316*\[Xi]^3*Subscript[s, \[Gamma]]^2 + 396502*\[Xi]^2*
+              Subscript[s, \[Gamma]]^3 + 366780*\[Xi]*Subscript[s, \[Gamma]]^
+               4 + 118945*Subscript[s, \[Gamma]]^5) + Subscript[m, K]^8*
             Subscript[m, \[Phi]]^4*(632*\[Xi]^6 + 65544*\[Xi]^5*
               Subscript[s, \[Gamma]] + 782383*\[Xi]^4*Subscript[s, \[Gamma]]^
                2 + 3028616*\[Xi]^3*Subscript[s, \[Gamma]]^3 + 
@@ -11206,9 +11319,10 @@
              31952232*\[Xi]*Subscript[s, \[Gamma]]^5 + 
              6412041*Subscript[s, \[Gamma]]^6)))/(16*\[Xi]^6*
           Subscript[m, K]^14*Subscript[v, EW]^6) + 
-        (h^3*Subscript[s, \[Gamma]]^2*(80*Subscript[m, K]^10*
-            Subscript[s, \[Gamma]]^2*(\[Xi] + Subscript[s, \[Gamma]])^2*
-            (\[Xi] + 4*Subscript[s, \[Gamma]]) - 21*Subscript[m, \[Phi]]^10*
+        (QuantumField[h]^3*Subscript[s, \[Gamma]]^2*
+          (80*Subscript[m, K]^10*Subscript[s, \[Gamma]]^2*
+            (\[Xi] + Subscript[s, \[Gamma]])^2*(\[Xi] + 
+             4*Subscript[s, \[Gamma]]) - 21*Subscript[m, \[Phi]]^10*
             (4*\[Xi] + 3*Subscript[s, \[Gamma]])^2*(64*\[Xi]^3 + 
              360*\[Xi]^2*Subscript[s, \[Gamma]] + 594*\[Xi]*Subscript[s, 
                 \[Gamma]]^2 + 297*Subscript[s, \[Gamma]]^3) - 
@@ -11231,9 +11345,10 @@
               Subscript[s, \[Gamma]]^3 + 571977*\[Xi]*Subscript[s, \[Gamma]]^
                4 + 132894*Subscript[s, \[Gamma]]^5)))/
          (4*\[Xi]^5*Subscript[m, K]^12*Subscript[v, EW]^5) + 
-        (h^2*Subscript[s, \[Gamma]]^2*(8*Subscript[m, K]^8*
-            Subscript[s, \[Gamma]]*(\[Xi] + Subscript[s, \[Gamma]])^2*
-            (\[Xi] + 10*Subscript[s, \[Gamma]]) + 7*Subscript[m, \[Phi]]^8*
+        (QuantumField[h]^2*Subscript[s, \[Gamma]]^2*
+          (8*Subscript[m, K]^8*Subscript[s, \[Gamma]]*
+            (\[Xi] + Subscript[s, \[Gamma]])^2*(\[Xi] + 
+             10*Subscript[s, \[Gamma]]) + 7*Subscript[m, \[Phi]]^8*
             (4*\[Xi] + 3*Subscript[s, \[Gamma]])^2*(32*\[Xi]^2 + 
              108*\[Xi]*Subscript[s, \[Gamma]] + 81*Subscript[s, \[Gamma]]^
                2) - Subscript[m, K]^6*Subscript[m, \[Phi]]^2*
@@ -11248,7 +11363,7 @@
               Subscript[s, \[Gamma]] + 42162*\[Xi]^2*Subscript[s, \[Gamma]]^
                2 + 33363*\[Xi]*Subscript[s, \[Gamma]]^3 + 
              9207*Subscript[s, \[Gamma]]^4)))/(4*\[Xi]^4*Subscript[m, K]^10*
-          Subscript[v, EW]^4) + (h*Subscript[s, \[Gamma]]^2*
+          Subscript[v, EW]^4) + (QuantumField[h]*Subscript[s, \[Gamma]]^2*
           (8*Subscript[m, K]^6*Subscript[s, \[Gamma]]*
             (\[Xi] + Subscript[s, \[Gamma]])^2 - 7*Subscript[m, \[Phi]]^6*
             (2*\[Xi] + 3*Subscript[s, \[Gamma]])*
@@ -11263,12 +11378,12 @@
           (Subscript[m, K]^2*(\[Xi] + Subscript[s, \[Gamma]]) - 
             Subscript[m, \[Phi]]^2*(4*\[Xi] + 3*Subscript[s, \[Gamma]]))^2)/
          (2*\[Xi]^2*Subscript[m, K]^6*Subscript[v, EW]^2)), 
-     CQ2V2 -> t^3*((h*Subscript[s, \[Gamma]]*(Subscript[m, K]^2*
-            (4*\[Xi]^2 + 11*\[Xi]*Subscript[s, \[Gamma]] + 
+     CQ2V2 -> t^3*((QuantumField[h]*Subscript[s, \[Gamma]]*
+          (Subscript[m, K]^2*(4*\[Xi]^2 + 11*\[Xi]*Subscript[s, \[Gamma]] + 
              4*Subscript[s, \[Gamma]]^2) - Subscript[m, \[Phi]]^2*
             (24*\[Xi]^2 + 34*\[Xi]*Subscript[s, \[Gamma]] + 
              9*Subscript[s, \[Gamma]]^2)))/(2*Sqrt[2]*\[Xi]*
-          Subscript[m, K]^4) + (h^6*Subscript[s, \[Gamma]]*
+          Subscript[m, K]^4) + (QuantumField[h]^6*Subscript[s, \[Gamma]]*
           (2*Subscript[m, K]^12*Subscript[s, \[Gamma]]^3*(322*\[Xi]^4 + 
              3283*\[Xi]^3*Subscript[s, \[Gamma]] + 9177*\[Xi]^2*
               Subscript[s, \[Gamma]]^2 + 9593*\[Xi]*Subscript[s, \[Gamma]]^
@@ -11309,38 +11424,39 @@
              78528205*\[Xi]^2*Subscript[s, \[Gamma]]^5 + 37445352*\[Xi]*
               Subscript[s, \[Gamma]]^6 + 6965892*Subscript[s, \[Gamma]]^7)))/
          (32*Sqrt[2]*\[Xi]^6*Subscript[m, K]^14*Subscript[v, EW]^5) + 
-        (3*h^5*Subscript[s, \[Gamma]]*(8*Subscript[m, K]^10*
-            Subscript[s, \[Gamma]]^2*(2*\[Xi]^4 + 43*\[Xi]^3*
-              Subscript[s, \[Gamma]] + 152*\[Xi]^2*Subscript[s, \[Gamma]]^2 + 
-             176*\[Xi]*Subscript[s, \[Gamma]]^3 + 64*Subscript[s, \[Gamma]]^
-               4) - Subscript[m, K]^8*Subscript[m, \[Phi]]^2*
-            Subscript[s, \[Gamma]]*(96*\[Xi]^5 + 3668*\[Xi]^4*
-              Subscript[s, \[Gamma]] + 21483*\[Xi]^3*Subscript[s, \[Gamma]]^
-               2 + 43343*\[Xi]^2*Subscript[s, \[Gamma]]^3 + 
-             35149*\[Xi]*Subscript[s, \[Gamma]]^4 + 9757*Subscript[s, 
-                \[Gamma]]^5) + Subscript[m, K]^6*Subscript[m, \[Phi]]^4*
-            (64*\[Xi]^6 + 6448*\[Xi]^5*Subscript[s, \[Gamma]] + 
-             70840*\[Xi]^4*Subscript[s, \[Gamma]]^2 + 248647*\[Xi]^3*
-              Subscript[s, \[Gamma]]^3 + 368168*\[Xi]^2*Subscript[s, 
-                \[Gamma]]^4 + 239615*\[Xi]*Subscript[s, \[Gamma]]^5 + 
-             56078*Subscript[s, \[Gamma]]^6) - Subscript[m, \[Phi]]^10*
-            (7168*\[Xi]^6 + 91392*\[Xi]^5*Subscript[s, \[Gamma]] + 
-             381696*\[Xi]^4*Subscript[s, \[Gamma]]^2 + 724896*\[Xi]^3*
-              Subscript[s, \[Gamma]]^3 + 688392*\[Xi]^2*Subscript[s, 
-                \[Gamma]]^4 + 317250*\[Xi]*Subscript[s, \[Gamma]]^5 + 
-             56133*Subscript[s, \[Gamma]]^6) - Subscript[m, K]^4*
-            Subscript[m, \[Phi]]^6*(1920*\[Xi]^6 + 54560*\[Xi]^5*
-              Subscript[s, \[Gamma]] + 364832*\[Xi]^4*Subscript[s, \[Gamma]]^
-               2 + 958738*\[Xi]^3*Subscript[s, \[Gamma]]^3 + 
-             1162959*\[Xi]^2*Subscript[s, \[Gamma]]^4 + 651113*\[Xi]*
-              Subscript[s, \[Gamma]]^5 + 135162*Subscript[s, \[Gamma]]^6) + 
-           Subscript[m, K]^2*Subscript[m, \[Phi]]^8*(7680*\[Xi]^6 + 
-             131200*\[Xi]^5*Subscript[s, \[Gamma]] + 660800*\[Xi]^4*
-              Subscript[s, \[Gamma]]^2 + 1436496*\[Xi]^3*Subscript[s, 
-                \[Gamma]]^3 + 1514460*\[Xi]^2*Subscript[s, \[Gamma]]^4 + 
-             759465*\[Xi]*Subscript[s, \[Gamma]]^5 + 144126*Subscript[s, 
-                \[Gamma]]^6)))/(16*Sqrt[2]*\[Xi]^5*Subscript[m, K]^12*
-          Subscript[v, EW]^4) + (h^4*Subscript[s, \[Gamma]]*
+        (3*QuantumField[h]^5*Subscript[s, \[Gamma]]*
+          (8*Subscript[m, K]^10*Subscript[s, \[Gamma]]^2*(2*\[Xi]^4 + 
+             43*\[Xi]^3*Subscript[s, \[Gamma]] + 152*\[Xi]^2*Subscript[s, 
+                \[Gamma]]^2 + 176*\[Xi]*Subscript[s, \[Gamma]]^3 + 
+             64*Subscript[s, \[Gamma]]^4) - Subscript[m, K]^8*
+            Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*(96*\[Xi]^5 + 
+             3668*\[Xi]^4*Subscript[s, \[Gamma]] + 21483*\[Xi]^3*
+              Subscript[s, \[Gamma]]^2 + 43343*\[Xi]^2*Subscript[s, \[Gamma]]^
+               3 + 35149*\[Xi]*Subscript[s, \[Gamma]]^4 + 
+             9757*Subscript[s, \[Gamma]]^5) + Subscript[m, K]^6*
+            Subscript[m, \[Phi]]^4*(64*\[Xi]^6 + 6448*\[Xi]^5*
+              Subscript[s, \[Gamma]] + 70840*\[Xi]^4*Subscript[s, \[Gamma]]^
+               2 + 248647*\[Xi]^3*Subscript[s, \[Gamma]]^3 + 
+             368168*\[Xi]^2*Subscript[s, \[Gamma]]^4 + 239615*\[Xi]*
+              Subscript[s, \[Gamma]]^5 + 56078*Subscript[s, \[Gamma]]^6) - 
+           Subscript[m, \[Phi]]^10*(7168*\[Xi]^6 + 91392*\[Xi]^5*
+              Subscript[s, \[Gamma]] + 381696*\[Xi]^4*Subscript[s, \[Gamma]]^
+               2 + 724896*\[Xi]^3*Subscript[s, \[Gamma]]^3 + 
+             688392*\[Xi]^2*Subscript[s, \[Gamma]]^4 + 317250*\[Xi]*
+              Subscript[s, \[Gamma]]^5 + 56133*Subscript[s, \[Gamma]]^6) - 
+           Subscript[m, K]^4*Subscript[m, \[Phi]]^6*(1920*\[Xi]^6 + 
+             54560*\[Xi]^5*Subscript[s, \[Gamma]] + 364832*\[Xi]^4*
+              Subscript[s, \[Gamma]]^2 + 958738*\[Xi]^3*Subscript[s, 
+                \[Gamma]]^3 + 1162959*\[Xi]^2*Subscript[s, \[Gamma]]^4 + 
+             651113*\[Xi]*Subscript[s, \[Gamma]]^5 + 135162*Subscript[s, 
+                \[Gamma]]^6) + Subscript[m, K]^2*Subscript[m, \[Phi]]^8*
+            (7680*\[Xi]^6 + 131200*\[Xi]^5*Subscript[s, \[Gamma]] + 
+             660800*\[Xi]^4*Subscript[s, \[Gamma]]^2 + 1436496*\[Xi]^3*
+              Subscript[s, \[Gamma]]^3 + 1514460*\[Xi]^2*Subscript[s, 
+                \[Gamma]]^4 + 759465*\[Xi]*Subscript[s, \[Gamma]]^5 + 
+             144126*Subscript[s, \[Gamma]]^6)))/(16*Sqrt[2]*\[Xi]^5*
+          Subscript[m, K]^12*Subscript[v, EW]^4) + 
+        (QuantumField[h]^4*Subscript[s, \[Gamma]]*
           (8*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*(30*\[Xi]^3 + 
              155*\[Xi]^2*Subscript[s, \[Gamma]] + 208*\[Xi]*Subscript[s, 
                 \[Gamma]]^2 + 80*Subscript[s, \[Gamma]]^3) - 
@@ -11362,7 +11478,7 @@
                2 + 396692*\[Xi]^2*Subscript[s, \[Gamma]]^3 + 
              240846*\[Xi]*Subscript[s, \[Gamma]]^4 + 51651*Subscript[s, 
                 \[Gamma]]^5)))/(16*Sqrt[2]*\[Xi]^4*Subscript[m, K]^10*
-          Subscript[v, EW]^3) + (h^3*Subscript[s, \[Gamma]]*
+          Subscript[v, EW]^3) + (QuantumField[h]^3*Subscript[s, \[Gamma]]*
           (2*Subscript[m, K]^6*Subscript[s, \[Gamma]]*(5*\[Xi]^3 + 
              50*\[Xi]^2*Subscript[s, \[Gamma]] + 80*\[Xi]*Subscript[s, 
                 \[Gamma]]^2 + 32*Subscript[s, \[Gamma]]^3) + 
@@ -11378,64 +11494,66 @@
              6432*\[Xi]^2*Subscript[s, \[Gamma]]^2 + 4302*\[Xi]*
               Subscript[s, \[Gamma]]^3 + 945*Subscript[s, \[Gamma]]^4)))/
          (4*Sqrt[2]*\[Xi]^3*Subscript[m, K]^8*Subscript[v, EW]^2) + 
-        (3*h^2*Subscript[s, \[Gamma]]*(2*Subscript[m, K]^4*
-            Subscript[s, \[Gamma]]*(5*\[Xi]^2 + 10*\[Xi]*Subscript[s, 
-               \[Gamma]] + 4*Subscript[s, \[Gamma]]^2) - Subscript[m, K]^2*
-            Subscript[m, \[Phi]]^2*(24*\[Xi]^3 + 130*\[Xi]^2*
-              Subscript[s, \[Gamma]] + 149*\[Xi]*Subscript[s, \[Gamma]]^2 + 
-             43*Subscript[s, \[Gamma]]^3) + Subscript[m, \[Phi]]^4*
-            (64*\[Xi]^3 + 208*\[Xi]^2*Subscript[s, \[Gamma]] + 
-             184*\[Xi]*Subscript[s, \[Gamma]]^2 + 45*Subscript[s, \[Gamma]]^
-               3)))/(4*Sqrt[2]*\[Xi]^2*Subscript[m, K]^6*Subscript[v, EW]) + 
+        (3*QuantumField[h]^2*Subscript[s, \[Gamma]]*
+          (2*Subscript[m, K]^4*Subscript[s, \[Gamma]]*(5*\[Xi]^2 + 
+             10*\[Xi]*Subscript[s, \[Gamma]] + 4*Subscript[s, \[Gamma]]^2) - 
+           Subscript[m, K]^2*Subscript[m, \[Phi]]^2*(24*\[Xi]^3 + 
+             130*\[Xi]^2*Subscript[s, \[Gamma]] + 149*\[Xi]*Subscript[s, 
+                \[Gamma]]^2 + 43*Subscript[s, \[Gamma]]^3) + 
+           Subscript[m, \[Phi]]^4*(64*\[Xi]^3 + 208*\[Xi]^2*Subscript[s, 
+               \[Gamma]] + 184*\[Xi]*Subscript[s, \[Gamma]]^2 + 
+             45*Subscript[s, \[Gamma]]^3)))/(4*Sqrt[2]*\[Xi]^2*
+          Subscript[m, K]^6*Subscript[v, EW]) + 
         (Subscript[s, \[Gamma]]*(4*\[Xi] + Subscript[s, \[Gamma]])*
           Subscript[v, EW])/(2*Sqrt[2]*Subscript[m, K]^2)), 
-     CQ2V32 -> t^3*((h*Subscript[s, \[Gamma]]*(6*Subscript[m, \[Phi]]^2*
-            (\[Xi] + Subscript[s, \[Gamma]]) - Subscript[m, K]^2*
-            (\[Xi] + 2*Subscript[s, \[Gamma]])))/
-         (Sqrt[2]*Subscript[m, K]^4) - (h^6*Subscript[s, \[Gamma]]*
-          (Subscript[m, K]^12*Subscript[s, \[Gamma]]^3*(77*\[Xi]^3 + 
-             651*\[Xi]^2*Subscript[s, \[Gamma]] + 1351*\[Xi]*Subscript[s, 
-                \[Gamma]]^2 + 793*Subscript[s, \[Gamma]]^3) - 
-           Subscript[m, K]^10*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^2*
-            (938*\[Xi]^4 + 13433*\[Xi]^3*Subscript[s, \[Gamma]] + 
-             49140*\[Xi]^2*Subscript[s, \[Gamma]]^2 + 64645*\[Xi]*
-              Subscript[s, \[Gamma]]^3 + 27816*Subscript[s, \[Gamma]]^4) + 
-           Subscript[m, K]^8*Subscript[m, \[Phi]]^4*Subscript[s, \[Gamma]]*
-            (1876*\[Xi]^5 + 50708*\[Xi]^4*Subscript[s, \[Gamma]] + 
-             321391*\[Xi]^3*Subscript[s, \[Gamma]]^2 + 762678*\[Xi]^2*
-              Subscript[s, \[Gamma]]^3 + 752906*\[Xi]*Subscript[s, \[Gamma]]^
-               4 + 261487*Subscript[s, \[Gamma]]^5) + 
-           3*Subscript[m, \[Phi]]^12*(7168*\[Xi]^6 + 109312*\[Xi]^5*
-              Subscript[s, \[Gamma]] + 553728*\[Xi]^4*Subscript[s, \[Gamma]]^
-               2 + 1285200*\[Xi]^3*Subscript[s, \[Gamma]]^3 + 
-             1502928*\[Xi]^2*Subscript[s, \[Gamma]]^4 + 861840*\[Xi]*
-              Subscript[s, \[Gamma]]^5 + 192699*Subscript[s, \[Gamma]]^6) - 
-           Subscript[m, K]^6*Subscript[m, \[Phi]]^6*(672*\[Xi]^6 + 
-             47124*\[Xi]^5*Subscript[s, \[Gamma]] + 565810*\[Xi]^4*
-              Subscript[s, \[Gamma]]^2 + 2355479*\[Xi]^3*Subscript[s, 
-                \[Gamma]]^3 + 4257582*\[Xi]^2*Subscript[s, \[Gamma]]^4 + 
-             3447430*\[Xi]*Subscript[s, \[Gamma]]^5 + 
-             1025232*Subscript[s, \[Gamma]]^6) - Subscript[m, K]^2*
-            Subscript[m, \[Phi]]^10*(26880*\[Xi]^6 + 537152*\[Xi]^5*
-              Subscript[s, \[Gamma]] + 3267264*\[Xi]^4*Subscript[s, \[Gamma]]^
-               2 + 8688372*\[Xi]^3*Subscript[s, \[Gamma]]^3 + 
-             11311650*\[Xi]^2*Subscript[s, \[Gamma]]^4 + 7085421*\[Xi]*
-              Subscript[s, \[Gamma]]^5 + 1707480*Subscript[s, \[Gamma]]^6) + 
-           Subscript[m, K]^4*Subscript[m, \[Phi]]^8*(8960*\[Xi]^6 + 
-             274400*\[Xi]^5*Subscript[s, \[Gamma]] + 2170336*\[Xi]^4*
-              Subscript[s, \[Gamma]]^2 + 6935992*\[Xi]^3*Subscript[s, 
-                \[Gamma]]^3 + 10379859*\[Xi]^2*Subscript[s, \[Gamma]]^4 + 
-             7267911*\[Xi]*Subscript[s, \[Gamma]]^5 + 
-             1921383*Subscript[s, \[Gamma]]^6)))/(16*Sqrt[2]*\[Xi]^5*
-          Subscript[m, K]^14*Subscript[v, EW]^5) + 
-        (h^5*Subscript[s, \[Gamma]]*(-4*Subscript[m, K]^10*
-            Subscript[s, \[Gamma]]^2*(\[Xi]^3 + 18*\[Xi]^2*Subscript[s, 
-               \[Gamma]] + 48*\[Xi]*Subscript[s, \[Gamma]]^2 + 
-             32*Subscript[s, \[Gamma]]^3) + Subscript[m, K]^8*
-            Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*(31*\[Xi]^4 + 
-             1029*\[Xi]^3*Subscript[s, \[Gamma]] + 5019*\[Xi]^2*
-              Subscript[s, \[Gamma]]^2 + 7635*\[Xi]*Subscript[s, \[Gamma]]^
-               3 + 3574*Subscript[s, \[Gamma]]^4) + 3*Subscript[m, \[Phi]]^10*
+     CQ2V32 -> t^3*((QuantumField[h]*Subscript[s, \[Gamma]]*
+          (6*Subscript[m, \[Phi]]^2*(\[Xi] + Subscript[s, \[Gamma]]) - 
+           Subscript[m, K]^2*(\[Xi] + 2*Subscript[s, \[Gamma]])))/
+         (Sqrt[2]*Subscript[m, K]^4) - (QuantumField[h]^6*
+          Subscript[s, \[Gamma]]*(Subscript[m, K]^12*Subscript[s, \[Gamma]]^3*
+            (77*\[Xi]^3 + 651*\[Xi]^2*Subscript[s, \[Gamma]] + 
+             1351*\[Xi]*Subscript[s, \[Gamma]]^2 + 793*Subscript[s, \[Gamma]]^
+               3) - Subscript[m, K]^10*Subscript[m, \[Phi]]^2*
+            Subscript[s, \[Gamma]]^2*(938*\[Xi]^4 + 13433*\[Xi]^3*
+              Subscript[s, \[Gamma]] + 49140*\[Xi]^2*Subscript[s, \[Gamma]]^
+               2 + 64645*\[Xi]*Subscript[s, \[Gamma]]^3 + 
+             27816*Subscript[s, \[Gamma]]^4) + Subscript[m, K]^8*
+            Subscript[m, \[Phi]]^4*Subscript[s, \[Gamma]]*(1876*\[Xi]^5 + 
+             50708*\[Xi]^4*Subscript[s, \[Gamma]] + 321391*\[Xi]^3*
+              Subscript[s, \[Gamma]]^2 + 762678*\[Xi]^2*Subscript[s, 
+                \[Gamma]]^3 + 752906*\[Xi]*Subscript[s, \[Gamma]]^4 + 
+             261487*Subscript[s, \[Gamma]]^5) + 3*Subscript[m, \[Phi]]^12*
+            (7168*\[Xi]^6 + 109312*\[Xi]^5*Subscript[s, \[Gamma]] + 
+             553728*\[Xi]^4*Subscript[s, \[Gamma]]^2 + 1285200*\[Xi]^3*
+              Subscript[s, \[Gamma]]^3 + 1502928*\[Xi]^2*Subscript[s, 
+                \[Gamma]]^4 + 861840*\[Xi]*Subscript[s, \[Gamma]]^5 + 
+             192699*Subscript[s, \[Gamma]]^6) - Subscript[m, K]^6*
+            Subscript[m, \[Phi]]^6*(672*\[Xi]^6 + 47124*\[Xi]^5*
+              Subscript[s, \[Gamma]] + 565810*\[Xi]^4*Subscript[s, \[Gamma]]^
+               2 + 2355479*\[Xi]^3*Subscript[s, \[Gamma]]^3 + 
+             4257582*\[Xi]^2*Subscript[s, \[Gamma]]^4 + 3447430*\[Xi]*
+              Subscript[s, \[Gamma]]^5 + 1025232*Subscript[s, \[Gamma]]^6) - 
+           Subscript[m, K]^2*Subscript[m, \[Phi]]^10*(26880*\[Xi]^6 + 
+             537152*\[Xi]^5*Subscript[s, \[Gamma]] + 3267264*\[Xi]^4*
+              Subscript[s, \[Gamma]]^2 + 8688372*\[Xi]^3*Subscript[s, 
+                \[Gamma]]^3 + 11311650*\[Xi]^2*Subscript[s, \[Gamma]]^4 + 
+             7085421*\[Xi]*Subscript[s, \[Gamma]]^5 + 
+             1707480*Subscript[s, \[Gamma]]^6) + Subscript[m, K]^4*
+            Subscript[m, \[Phi]]^8*(8960*\[Xi]^6 + 274400*\[Xi]^5*
+              Subscript[s, \[Gamma]] + 2170336*\[Xi]^4*Subscript[s, \[Gamma]]^
+               2 + 6935992*\[Xi]^3*Subscript[s, \[Gamma]]^3 + 
+             10379859*\[Xi]^2*Subscript[s, \[Gamma]]^4 + 7267911*\[Xi]*
+              Subscript[s, \[Gamma]]^5 + 1921383*Subscript[s, \[Gamma]]^6)))/
+         (16*Sqrt[2]*\[Xi]^5*Subscript[m, K]^14*Subscript[v, EW]^5) + 
+        (QuantumField[h]^5*Subscript[s, \[Gamma]]*
+          (-4*Subscript[m, K]^10*Subscript[s, \[Gamma]]^2*
+            (\[Xi]^3 + 18*\[Xi]^2*Subscript[s, \[Gamma]] + 
+             48*\[Xi]*Subscript[s, \[Gamma]]^2 + 32*Subscript[s, \[Gamma]]^
+               3) + Subscript[m, K]^8*Subscript[m, \[Phi]]^2*
+            Subscript[s, \[Gamma]]*(31*\[Xi]^4 + 1029*\[Xi]^3*
+              Subscript[s, \[Gamma]] + 5019*\[Xi]^2*Subscript[s, \[Gamma]]^
+               2 + 7635*\[Xi]*Subscript[s, \[Gamma]]^3 + 
+             3574*Subscript[s, \[Gamma]]^4) + 3*Subscript[m, \[Phi]]^10*
             (896*\[Xi]^5 + 10080*\[Xi]^4*Subscript[s, \[Gamma]] + 
              36288*\[Xi]^3*Subscript[s, \[Gamma]]^2 + 56538*\[Xi]^2*
               Subscript[s, \[Gamma]]^3 + 39771*\[Xi]*Subscript[s, \[Gamma]]^
@@ -11454,7 +11572,7 @@
                2 + 340119*\[Xi]^2*Subscript[s, \[Gamma]]^3 + 
              266652*\[Xi]*Subscript[s, \[Gamma]]^4 + 75978*Subscript[s, 
                 \[Gamma]]^5)))/(4*Sqrt[2]*\[Xi]^4*Subscript[m, K]^12*
-          Subscript[v, EW]^4) - (h^4*Subscript[s, \[Gamma]]*
+          Subscript[v, EW]^4) - (QuantumField[h]^4*Subscript[s, \[Gamma]]*
           (4*Subscript[m, K]^8*Subscript[s, \[Gamma]]^2*(5*\[Xi]^2 + 
              20*\[Xi]*Subscript[s, \[Gamma]] + 16*Subscript[s, \[Gamma]]^2) - 
            Subscript[m, K]^6*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*
@@ -11473,20 +11591,22 @@
                2 + 27645*\[Xi]*Subscript[s, \[Gamma]]^3 + 
              9846*Subscript[s, \[Gamma]]^4)))/(4*Sqrt[2]*\[Xi]^3*
           Subscript[m, K]^10*Subscript[v, EW]^3) + 
-        (h^3*Subscript[s, \[Gamma]]*(-(Subscript[m, K]^6*Subscript[s, 
-              \[Gamma]]*(\[Xi]^2 + 8*\[Xi]*Subscript[s, \[Gamma]] + 
-              8*Subscript[s, \[Gamma]]^2)) + Subscript[m, K]^4*
-            Subscript[m, \[Phi]]^2*(3*\[Xi]^3 + 65*\[Xi]^2*Subscript[s, 
-               \[Gamma]] + 171*\[Xi]*Subscript[s, \[Gamma]]^2 + 
-             106*Subscript[s, \[Gamma]]^3) - 2*Subscript[m, K]^2*
-            Subscript[m, \[Phi]]^4*(24*\[Xi]^3 + 178*\[Xi]^2*
-              Subscript[s, \[Gamma]] + 307*\[Xi]*Subscript[s, \[Gamma]]^2 + 
-             147*Subscript[s, \[Gamma]]^3) + Subscript[m, \[Phi]]^6*
-            (80*\[Xi]^3 + 390*\[Xi]^2*Subscript[s, \[Gamma]] + 
-             531*\[Xi]*Subscript[s, \[Gamma]]^2 + 216*Subscript[s, \[Gamma]]^
-               3)))/(Sqrt[2]*\[Xi]^2*Subscript[m, K]^8*Subscript[v, EW]^2) - 
-        (h^2*Subscript[s, \[Gamma]]*(Subscript[m, K]^4*Subscript[s, \[Gamma]]*
-            (3*\[Xi] + 4*Subscript[s, \[Gamma]]) + 3*Subscript[m, \[Phi]]^4*
+        (QuantumField[h]^3*Subscript[s, \[Gamma]]*
+          (-(Subscript[m, K]^6*Subscript[s, \[Gamma]]*(\[Xi]^2 + 
+              8*\[Xi]*Subscript[s, \[Gamma]] + 8*Subscript[s, \[Gamma]]^2)) + 
+           Subscript[m, K]^4*Subscript[m, \[Phi]]^2*(3*\[Xi]^3 + 
+             65*\[Xi]^2*Subscript[s, \[Gamma]] + 171*\[Xi]*Subscript[s, 
+                \[Gamma]]^2 + 106*Subscript[s, \[Gamma]]^3) - 
+           2*Subscript[m, K]^2*Subscript[m, \[Phi]]^4*(24*\[Xi]^3 + 
+             178*\[Xi]^2*Subscript[s, \[Gamma]] + 307*\[Xi]*Subscript[s, 
+                \[Gamma]]^2 + 147*Subscript[s, \[Gamma]]^3) + 
+           Subscript[m, \[Phi]]^6*(80*\[Xi]^3 + 390*\[Xi]^2*Subscript[s, 
+               \[Gamma]] + 531*\[Xi]*Subscript[s, \[Gamma]]^2 + 
+             216*Subscript[s, \[Gamma]]^3)))/(Sqrt[2]*\[Xi]^2*
+          Subscript[m, K]^8*Subscript[v, EW]^2) - 
+        (QuantumField[h]^2*Subscript[s, \[Gamma]]*
+          (Subscript[m, K]^4*Subscript[s, \[Gamma]]*(3*\[Xi] + 
+             4*Subscript[s, \[Gamma]]) + 3*Subscript[m, \[Phi]]^4*
             (8*\[Xi]^2 + 21*\[Xi]*Subscript[s, \[Gamma]] + 
              12*Subscript[s, \[Gamma]]^2) - Subscript[m, K]^2*
             Subscript[m, \[Phi]]^2*(9*\[Xi]^2 + 40*\[Xi]*Subscript[s, 
@@ -11494,8 +11614,9 @@
          (Sqrt[2]*\[Xi]*Subscript[m, K]^6*Subscript[v, EW]) - 
         (\[Xi]*Subscript[s, \[Gamma]]*Subscript[v, EW])/
          (Sqrt[2]*Subscript[m, K]^2)), CQ2V12V3 -> 
-      t^3*((-2*Sqrt[2]*\[Xi]*h*(\[Xi] + Subscript[s, \[Gamma]]))/
-         Subscript[m, \[Phi]]^2 + (h^6*(56*\[Xi]^5*Subscript[m, K]^10*
+      t^3*((-2*Sqrt[2]*\[Xi]*QuantumField[h]*(\[Xi] + Subscript[s, 
+            \[Gamma]]))/Subscript[m, \[Phi]]^2 + 
+        (QuantumField[h]^6*(56*\[Xi]^5*Subscript[m, K]^10*
             (\[Xi] + Subscript[s, \[Gamma]]) + Subscript[m, K]^8*
             Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*(56*\[Xi]^5 + 
              5*\[Xi]^3*Subscript[s, \[Gamma]]^2 + 105*\[Xi]^2*
@@ -11521,48 +11642,51 @@
                3 + 39879*\[Xi]*Subscript[s, \[Gamma]]^4 + 
              11340*Subscript[s, \[Gamma]]^5)))/(4*Sqrt[2]*\[Xi]^4*
           Subscript[m, K]^10*Subscript[m, \[Phi]]^2*Subscript[v, EW]^5) + 
-        (h^5*(-24*\[Xi]^4*Subscript[m, K]^8*(\[Xi] + Subscript[s, 
-              \[Gamma]]) + Subscript[m, K]^2*Subscript[m, \[Phi]]^6*
-            Subscript[s, \[Gamma]]^2*(576*\[Xi]^3 + 2240*\[Xi]^2*
-              Subscript[s, \[Gamma]] + 2610*\[Xi]*Subscript[s, \[Gamma]]^2 + 
-             945*Subscript[s, \[Gamma]]^3) + Subscript[m, K]^6*
-            Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*(-24*\[Xi]^4 + 
-             15*\[Xi]^2*Subscript[s, \[Gamma]]^2 + 70*\[Xi]*Subscript[s, 
-                \[Gamma]]^3 + 63*Subscript[s, \[Gamma]]^4) - 
-           Subscript[m, K]^4*Subscript[m, \[Phi]]^4*Subscript[s, \[Gamma]]*
-            (24*\[Xi]^4 + 54*\[Xi]^3*Subscript[s, \[Gamma]] + 
-             491*\[Xi]^2*Subscript[s, \[Gamma]]^2 + 950*\[Xi]*
-              Subscript[s, \[Gamma]]^3 + 465*Subscript[s, \[Gamma]]^4) - 
-           Subscript[m, \[Phi]]^8*Subscript[s, \[Gamma]]*(128*\[Xi]^4 + 
-             960*\[Xi]^3*Subscript[s, \[Gamma]] + 2160*\[Xi]^2*
-              Subscript[s, \[Gamma]]^2 + 1890*\[Xi]*Subscript[s, \[Gamma]]^
-               3 + 567*Subscript[s, \[Gamma]]^4)))/(2*Sqrt[2]*\[Xi]^3*
+        (QuantumField[h]^5*(-24*\[Xi]^4*Subscript[m, K]^8*
+            (\[Xi] + Subscript[s, \[Gamma]]) + Subscript[m, K]^2*
+            Subscript[m, \[Phi]]^6*Subscript[s, \[Gamma]]^2*
+            (576*\[Xi]^3 + 2240*\[Xi]^2*Subscript[s, \[Gamma]] + 
+             2610*\[Xi]*Subscript[s, \[Gamma]]^2 + 945*Subscript[s, \[Gamma]]^
+               3) + Subscript[m, K]^6*Subscript[m, \[Phi]]^2*
+            Subscript[s, \[Gamma]]*(-24*\[Xi]^4 + 15*\[Xi]^2*Subscript[s, 
+                \[Gamma]]^2 + 70*\[Xi]*Subscript[s, \[Gamma]]^3 + 
+             63*Subscript[s, \[Gamma]]^4) - Subscript[m, K]^4*
+            Subscript[m, \[Phi]]^4*Subscript[s, \[Gamma]]*(24*\[Xi]^4 + 
+             54*\[Xi]^3*Subscript[s, \[Gamma]] + 491*\[Xi]^2*Subscript[s, 
+                \[Gamma]]^2 + 950*\[Xi]*Subscript[s, \[Gamma]]^3 + 
+             465*Subscript[s, \[Gamma]]^4) - Subscript[m, \[Phi]]^8*
+            Subscript[s, \[Gamma]]*(128*\[Xi]^4 + 960*\[Xi]^3*
+              Subscript[s, \[Gamma]] + 2160*\[Xi]^2*Subscript[s, \[Gamma]]^
+               2 + 1890*\[Xi]*Subscript[s, \[Gamma]]^3 + 
+             567*Subscript[s, \[Gamma]]^4)))/(2*Sqrt[2]*\[Xi]^3*
           Subscript[m, K]^8*Subscript[m, \[Phi]]^2*Subscript[v, EW]^4) + 
-        (h^4*(20*\[Xi]^3*Subscript[m, K]^6*(\[Xi] + Subscript[s, \[Gamma]]) + 
-           Subscript[m, K]^4*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*
-            (20*\[Xi]^3 + 3*\[Xi]^2*Subscript[s, \[Gamma]] + 
-             30*\[Xi]*Subscript[s, \[Gamma]]^2 + 35*Subscript[s, \[Gamma]]^
-               3) - 2*Subscript[m, K]^2*Subscript[m, \[Phi]]^4*
-            Subscript[s, \[Gamma]]*(-8*\[Xi]^3 + 54*\[Xi]^2*Subscript[s, 
-               \[Gamma]] + 143*\[Xi]*Subscript[s, \[Gamma]]^2 + 
-             75*Subscript[s, \[Gamma]]^3) + Subscript[m, \[Phi]]^6*
-            Subscript[s, \[Gamma]]*(64*\[Xi]^3 + 288*\[Xi]^2*
-              Subscript[s, \[Gamma]] + 360*\[Xi]*Subscript[s, \[Gamma]]^2 + 
-             135*Subscript[s, \[Gamma]]^3)))/(2*Sqrt[2]*\[Xi]^2*
-          Subscript[m, K]^6*Subscript[m, \[Phi]]^2*Subscript[v, EW]^3) - 
-        (Sqrt[2]*h^3*(4*\[Xi]^2*Subscript[m, K]^4*(\[Xi] + Subscript[s, 
-              \[Gamma]]) + Subscript[m, K]^2*Subscript[m, \[Phi]]^2*
-            Subscript[s, \[Gamma]]*(4*\[Xi]^2 - 3*\[Xi]*Subscript[s, 
-               \[Gamma]] - 5*Subscript[s, \[Gamma]]^2) + 
-           Subscript[m, \[Phi]]^4*Subscript[s, \[Gamma]]*(8*\[Xi]^2 + 
-             18*\[Xi]*Subscript[s, \[Gamma]] + 9*Subscript[s, \[Gamma]]^2)))/
+        (QuantumField[h]^4*(20*\[Xi]^3*Subscript[m, K]^6*
+            (\[Xi] + Subscript[s, \[Gamma]]) + Subscript[m, K]^4*
+            Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*(20*\[Xi]^3 + 
+             3*\[Xi]^2*Subscript[s, \[Gamma]] + 30*\[Xi]*Subscript[s, 
+                \[Gamma]]^2 + 35*Subscript[s, \[Gamma]]^3) - 
+           2*Subscript[m, K]^2*Subscript[m, \[Phi]]^4*Subscript[s, \[Gamma]]*
+            (-8*\[Xi]^3 + 54*\[Xi]^2*Subscript[s, \[Gamma]] + 
+             143*\[Xi]*Subscript[s, \[Gamma]]^2 + 75*Subscript[s, \[Gamma]]^
+               3) + Subscript[m, \[Phi]]^6*Subscript[s, \[Gamma]]*
+            (64*\[Xi]^3 + 288*\[Xi]^2*Subscript[s, \[Gamma]] + 
+             360*\[Xi]*Subscript[s, \[Gamma]]^2 + 135*Subscript[s, \[Gamma]]^
+               3)))/(2*Sqrt[2]*\[Xi]^2*Subscript[m, K]^6*Subscript[m, \[Phi]]^
+           2*Subscript[v, EW]^3) - (Sqrt[2]*QuantumField[h]^3*
+          (4*\[Xi]^2*Subscript[m, K]^4*(\[Xi] + Subscript[s, \[Gamma]]) + 
+           Subscript[m, K]^2*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*
+            (4*\[Xi]^2 - 3*\[Xi]*Subscript[s, \[Gamma]] - 
+             5*Subscript[s, \[Gamma]]^2) + Subscript[m, \[Phi]]^4*
+            Subscript[s, \[Gamma]]*(8*\[Xi]^2 + 18*\[Xi]*Subscript[s, 
+               \[Gamma]] + 9*Subscript[s, \[Gamma]]^2)))/
          (\[Xi]*Subscript[m, K]^4*Subscript[m, \[Phi]]^2*
-          Subscript[v, EW]^2) + (Sqrt[2]*h^2*(3*\[Xi]*Subscript[m, K]^2*
-            (\[Xi] + Subscript[s, \[Gamma]]) + Subscript[m, \[Phi]]^2*
-            Subscript[s, \[Gamma]]*(4*\[Xi] + 3*Subscript[s, \[Gamma]])))/
-         (Subscript[m, K]^2*Subscript[m, \[Phi]]^2*Subscript[v, EW]) + 
+          Subscript[v, EW]^2) + (Sqrt[2]*QuantumField[h]^2*
+          (3*\[Xi]*Subscript[m, K]^2*(\[Xi] + Subscript[s, \[Gamma]]) + 
+           Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*
+            (4*\[Xi] + 3*Subscript[s, \[Gamma]])))/(Subscript[m, K]^2*
+          Subscript[m, \[Phi]]^2*Subscript[v, EW]) + 
         (Sqrt[2]*\[Xi]^2*Subscript[v, EW])/Subscript[m, \[Phi]]^2), 
-     CQ2Dh2 -> t^3*((h^6*Subscript[s, \[Gamma]]^2*
+     CQ2Dh2 -> t^3*((QuantumField[h]^6*Subscript[s, \[Gamma]]^2*
           (-280*Subscript[m, K]^14*Subscript[s, \[Gamma]]^3*
             (3*\[Xi]^4 + 40*\[Xi]^3*Subscript[s, \[Gamma]] + 
              139*\[Xi]^2*Subscript[s, \[Gamma]]^2 + 178*\[Xi]*
@@ -11609,7 +11733,7 @@
              1052615610*\[Xi]^2*Subscript[s, \[Gamma]]^5 + 516850092*\[Xi]*
               Subscript[s, \[Gamma]]^6 + 102228021*Subscript[s, \[Gamma]]^
                7)))/(16*Sqrt[2]*\[Xi]^7*Subscript[m, K]^16*
-          Subscript[v, EW]^7) - (3*h^5*Subscript[s, \[Gamma]]^2*
+          Subscript[v, EW]^7) - (3*QuantumField[h]^5*Subscript[s, \[Gamma]]^2*
           (Subscript[m, K]^12*Subscript[s, \[Gamma]]^2*(16*\[Xi]^4 + 
              461*\[Xi]^3*Subscript[s, \[Gamma]] + 2155*\[Xi]^2*
               Subscript[s, \[Gamma]]^2 + 3271*\[Xi]*Subscript[s, \[Gamma]]^
@@ -11647,42 +11771,42 @@
              8652903*\[Xi]*Subscript[s, \[Gamma]]^5 + 
              2004867*Subscript[s, \[Gamma]]^6)))/(8*Sqrt[2]*\[Xi]^6*
           Subscript[m, K]^14*Subscript[v, EW]^6) + 
-        (h^4*Subscript[s, \[Gamma]]^2*(-80*Subscript[m, K]^10*
-            Subscript[s, \[Gamma]]^2*(3*\[Xi]^3 + 23*\[Xi]^2*
-              Subscript[s, \[Gamma]] + 44*\[Xi]*Subscript[s, \[Gamma]]^2 + 
-             24*Subscript[s, \[Gamma]]^3) + Subscript[m, K]^8*
-            Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*(1680*\[Xi]^4 + 
-             23495*\[Xi]^3*Subscript[s, \[Gamma]] + 82133*\[Xi]^2*
-              Subscript[s, \[Gamma]]^2 + 102293*\[Xi]*Subscript[s, \[Gamma]]^
-               3 + 41415*Subscript[s, \[Gamma]]^4) + 
-           9*Subscript[m, \[Phi]]^10*(7168*\[Xi]^5 + 58112*\[Xi]^4*
-              Subscript[s, \[Gamma]] + 166592*\[Xi]^3*Subscript[s, \[Gamma]]^
-               2 + 218520*\[Xi]^2*Subscript[s, \[Gamma]]^3 + 
-             134010*\[Xi]*Subscript[s, \[Gamma]]^4 + 31185*Subscript[s, 
-                \[Gamma]]^5) - Subscript[m, K]^6*Subscript[m, \[Phi]]^4*
-            (1560*\[Xi]^5 + 52680*\[Xi]^4*Subscript[s, \[Gamma]] + 
-             347359*\[Xi]^3*Subscript[s, \[Gamma]]^2 + 811456*\[Xi]^2*
-              Subscript[s, \[Gamma]]^3 + 770043*\[Xi]*Subscript[s, \[Gamma]]^
-               4 + 254154*Subscript[s, \[Gamma]]^5) + Subscript[m, K]^4*
-            Subscript[m, \[Phi]]^6*(22400*\[Xi]^5 + 356192*\[Xi]^4*
-              Subscript[s, \[Gamma]] + 1584986*\[Xi]^3*Subscript[s, \[Gamma]]^
-               2 + 2859567*\[Xi]^2*Subscript[s, \[Gamma]]^3 + 
-             2246133*\[Xi]*Subscript[s, \[Gamma]]^4 + 
-             639360*Subscript[s, \[Gamma]]^5) - Subscript[m, K]^2*
+        (QuantumField[h]^4*Subscript[s, \[Gamma]]^2*
+          (-80*Subscript[m, K]^10*Subscript[s, \[Gamma]]^2*
+            (3*\[Xi]^3 + 23*\[Xi]^2*Subscript[s, \[Gamma]] + 
+             44*\[Xi]*Subscript[s, \[Gamma]]^2 + 24*Subscript[s, \[Gamma]]^
+               3) + Subscript[m, K]^8*Subscript[m, \[Phi]]^2*
+            Subscript[s, \[Gamma]]*(1680*\[Xi]^4 + 23495*\[Xi]^3*
+              Subscript[s, \[Gamma]] + 82133*\[Xi]^2*Subscript[s, \[Gamma]]^
+               2 + 102293*\[Xi]*Subscript[s, \[Gamma]]^3 + 
+             41415*Subscript[s, \[Gamma]]^4) + 9*Subscript[m, \[Phi]]^10*
+            (7168*\[Xi]^5 + 58112*\[Xi]^4*Subscript[s, \[Gamma]] + 
+             166592*\[Xi]^3*Subscript[s, \[Gamma]]^2 + 218520*\[Xi]^2*
+              Subscript[s, \[Gamma]]^3 + 134010*\[Xi]*Subscript[s, \[Gamma]]^
+               4 + 31185*Subscript[s, \[Gamma]]^5) - Subscript[m, K]^6*
+            Subscript[m, \[Phi]]^4*(1560*\[Xi]^5 + 52680*\[Xi]^4*
+              Subscript[s, \[Gamma]] + 347359*\[Xi]^3*Subscript[s, \[Gamma]]^
+               2 + 811456*\[Xi]^2*Subscript[s, \[Gamma]]^3 + 
+             770043*\[Xi]*Subscript[s, \[Gamma]]^4 + 254154*Subscript[s, 
+                \[Gamma]]^5) + Subscript[m, K]^4*Subscript[m, \[Phi]]^6*
+            (22400*\[Xi]^5 + 356192*\[Xi]^4*Subscript[s, \[Gamma]] + 
+             1584986*\[Xi]^3*Subscript[s, \[Gamma]]^2 + 2859567*\[Xi]^2*
+              Subscript[s, \[Gamma]]^3 + 2246133*\[Xi]*Subscript[s, \[Gamma]]^
+               4 + 639360*Subscript[s, \[Gamma]]^5) - Subscript[m, K]^2*
             Subscript[m, \[Phi]]^8*(73472*\[Xi]^5 + 781824*\[Xi]^4*
               Subscript[s, \[Gamma]] + 2692728*\[Xi]^3*Subscript[s, \[Gamma]]^
                2 + 4048380*\[Xi]^2*Subscript[s, \[Gamma]]^3 + 
              2765385*\[Xi]*Subscript[s, \[Gamma]]^4 + 
              703350*Subscript[s, \[Gamma]]^5)))/(8*Sqrt[2]*\[Xi]^5*
           Subscript[m, K]^12*Subscript[v, EW]^5) - 
-        (h^3*Subscript[s, \[Gamma]]^2*(2*Subscript[m, K]^8*
-            Subscript[s, \[Gamma]]*(3*\[Xi]^3 + 51*\[Xi]^2*Subscript[s, 
-               \[Gamma]] + 128*\[Xi]*Subscript[s, \[Gamma]]^2 + 
-             80*Subscript[s, \[Gamma]]^3) - Subscript[m, K]^6*
-            Subscript[m, \[Phi]]^2*(18*\[Xi]^4 + 735*\[Xi]^3*
-              Subscript[s, \[Gamma]] + 3743*\[Xi]^2*Subscript[s, \[Gamma]]^
-               2 + 5633*\[Xi]*Subscript[s, \[Gamma]]^3 + 
-             2537*Subscript[s, \[Gamma]]^4) + Subscript[m, \[Phi]]^8*
+        (QuantumField[h]^3*Subscript[s, \[Gamma]]^2*
+          (2*Subscript[m, K]^8*Subscript[s, \[Gamma]]*(3*\[Xi]^3 + 
+             51*\[Xi]^2*Subscript[s, \[Gamma]] + 128*\[Xi]*Subscript[s, 
+                \[Gamma]]^2 + 80*Subscript[s, \[Gamma]]^3) - 
+           Subscript[m, K]^6*Subscript[m, \[Phi]]^2*(18*\[Xi]^4 + 
+             735*\[Xi]^3*Subscript[s, \[Gamma]] + 3743*\[Xi]^2*
+              Subscript[s, \[Gamma]]^2 + 5633*\[Xi]*Subscript[s, \[Gamma]]^
+               3 + 2537*Subscript[s, \[Gamma]]^4) + Subscript[m, \[Phi]]^8*
             (3584*\[Xi]^4 + 20352*\[Xi]^3*Subscript[s, \[Gamma]] + 
              38880*\[Xi]^2*Subscript[s, \[Gamma]]^2 + 30564*\[Xi]*
               Subscript[s, \[Gamma]]^3 + 8505*Subscript[s, \[Gamma]]^4) + 
@@ -11695,19 +11819,20 @@
                2 + 53385*\[Xi]*Subscript[s, \[Gamma]]^3 + 
              16641*Subscript[s, \[Gamma]]^4)))/(2*Sqrt[2]*\[Xi]^4*
           Subscript[m, K]^10*Subscript[v, EW]^4) + 
-        (3*h^2*Subscript[s, \[Gamma]]^2*(-2*Subscript[m, K]^6*
-            Subscript[s, \[Gamma]]*(3*\[Xi]^2 + 11*\[Xi]*Subscript[s, 
-               \[Gamma]] + 8*Subscript[s, \[Gamma]]^2) + Subscript[m, K]^4*
-            Subscript[m, \[Phi]]^2*(18*\[Xi]^3 + 175*\[Xi]^2*
-              Subscript[s, \[Gamma]] + 340*\[Xi]*Subscript[s, \[Gamma]]^2 + 
-             173*Subscript[s, \[Gamma]]^3) - 2*Subscript[m, K]^2*
-            Subscript[m, \[Phi]]^4*(76*\[Xi]^3 + 396*\[Xi]^2*
-              Subscript[s, \[Gamma]] + 547*\[Xi]*Subscript[s, \[Gamma]]^2 + 
-             222*Subscript[s, \[Gamma]]^3) + Subscript[m, \[Phi]]^6*
-            (224*\[Xi]^3 + 816*\[Xi]^2*Subscript[s, \[Gamma]] + 
-             906*\[Xi]*Subscript[s, \[Gamma]]^2 + 315*Subscript[s, \[Gamma]]^
-               3)))/(2*Sqrt[2]*\[Xi]^3*Subscript[m, K]^8*
-          Subscript[v, EW]^3) - (h*Subscript[s, \[Gamma]]^2*
+        (3*QuantumField[h]^2*Subscript[s, \[Gamma]]^2*
+          (-2*Subscript[m, K]^6*Subscript[s, \[Gamma]]*(3*\[Xi]^2 + 
+             11*\[Xi]*Subscript[s, \[Gamma]] + 8*Subscript[s, \[Gamma]]^2) + 
+           Subscript[m, K]^4*Subscript[m, \[Phi]]^2*(18*\[Xi]^3 + 
+             175*\[Xi]^2*Subscript[s, \[Gamma]] + 340*\[Xi]*Subscript[s, 
+                \[Gamma]]^2 + 173*Subscript[s, \[Gamma]]^3) - 
+           2*Subscript[m, K]^2*Subscript[m, \[Phi]]^4*(76*\[Xi]^3 + 
+             396*\[Xi]^2*Subscript[s, \[Gamma]] + 547*\[Xi]*Subscript[s, 
+                \[Gamma]]^2 + 222*Subscript[s, \[Gamma]]^3) + 
+           Subscript[m, \[Phi]]^6*(224*\[Xi]^3 + 816*\[Xi]^2*
+              Subscript[s, \[Gamma]] + 906*\[Xi]*Subscript[s, \[Gamma]]^2 + 
+             315*Subscript[s, \[Gamma]]^3)))/(2*Sqrt[2]*\[Xi]^3*
+          Subscript[m, K]^8*Subscript[v, EW]^3) - 
+        (QuantumField[h]*Subscript[s, \[Gamma]]^2*
           (Subscript[m, K]^4*(\[Xi]^2 + 7*\[Xi]*Subscript[s, \[Gamma]] + 
              6*Subscript[s, \[Gamma]]^2) + 3*Subscript[m, \[Phi]]^4*
             (16*\[Xi]^2 + 32*\[Xi]*Subscript[s, \[Gamma]] + 
@@ -11720,9 +11845,9 @@
             (4*\[Xi] + 3*Subscript[s, \[Gamma]])))/(Sqrt[2]*\[Xi]*
           Subscript[m, K]^4*Subscript[v, EW])), 
      CQ2V12Dh -> t^3*((2*Sqrt[2]*\[Xi]*(\[Xi] + Subscript[s, \[Gamma]]))/
-         Subscript[m, \[Phi]]^2 + 
-        (7*h^6*(Subscript[m, K]^8*Subscript[m, \[Phi]]^2*Subscript[s, 
-             \[Gamma]]*(64*\[Xi]^6 + 88*\[Xi]^4*Subscript[s, \[Gamma]]^2 + 
+         Subscript[m, \[Phi]]^2 + (7*QuantumField[h]^6*
+          (Subscript[m, K]^8*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*
+            (64*\[Xi]^6 + 88*\[Xi]^4*Subscript[s, \[Gamma]]^2 + 
              968*\[Xi]^3*Subscript[s, \[Gamma]]^3 + 2791*\[Xi]^2*
               Subscript[s, \[Gamma]]^4 + 2894*\[Xi]*Subscript[s, \[Gamma]]^
                5 + 959*Subscript[s, \[Gamma]]^6) - Subscript[m, K]^6*
@@ -11753,77 +11878,80 @@
              35*\[Xi]^2*Subscript[s, \[Gamma]]^5 - 63*\[Xi]*Subscript[s, 
                 \[Gamma]]^6 - 33*Subscript[s, \[Gamma]]^7)))/
          (4*Sqrt[2]*\[Xi]^5*Subscript[m, K]^10*Subscript[m, \[Phi]]^2*
-          Subscript[v, EW]^6) - (3*h^5*(56*\[Xi]^5*Subscript[m, K]^10*
-            (\[Xi] + Subscript[s, \[Gamma]]) + Subscript[m, K]^8*
-            Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*(56*\[Xi]^5 + 
-             5*\[Xi]^3*Subscript[s, \[Gamma]]^2 + 105*\[Xi]^2*
-              Subscript[s, \[Gamma]]^3 + 315*\[Xi]*Subscript[s, \[Gamma]]^4 + 
-             231*Subscript[s, \[Gamma]]^5) - Subscript[m, K]^6*
-            Subscript[m, \[Phi]]^4*Subscript[s, \[Gamma]]*(-56*\[Xi]^5 + 
-             18*\[Xi]^4*Subscript[s, \[Gamma]] + 705*\[Xi]^3*Subscript[s, 
-                \[Gamma]]^2 + 3700*\[Xi]^2*Subscript[s, \[Gamma]]^3 + 
-             5697*\[Xi]*Subscript[s, \[Gamma]]^4 + 2548*Subscript[s, 
-                \[Gamma]]^5) + Subscript[m, \[Phi]]^10*Subscript[s, \[Gamma]]*
-            (512*\[Xi]^5 + 5760*\[Xi]^4*Subscript[s, \[Gamma]] + 
-             20160*\[Xi]^3*Subscript[s, \[Gamma]]^2 + 30240*\[Xi]^2*
-              Subscript[s, \[Gamma]]^3 + 20412*\[Xi]*Subscript[s, \[Gamma]]^
-               4 + 5103*Subscript[s, \[Gamma]]^5) + Subscript[m, K]^4*
-            Subscript[m, \[Phi]]^6*Subscript[s, \[Gamma]]*(64*\[Xi]^5 + 
-             864*\[Xi]^4*Subscript[s, \[Gamma]] + 8680*\[Xi]^3*
-              Subscript[s, \[Gamma]]^2 + 24585*\[Xi]^2*Subscript[s, \[Gamma]]^
-               3 + 25305*\[Xi]*Subscript[s, \[Gamma]]^4 + 
-             8610*Subscript[s, \[Gamma]]^5) - Subscript[m, K]^2*
-            Subscript[m, \[Phi]]^8*Subscript[s, \[Gamma]]*(128*\[Xi]^5 + 
-             4800*\[Xi]^4*Subscript[s, \[Gamma]] + 25840*\[Xi]^3*
-              Subscript[s, \[Gamma]]^2 + 49770*\[Xi]^2*Subscript[s, \[Gamma]]^
-               3 + 39879*\[Xi]*Subscript[s, \[Gamma]]^4 + 
-             11340*Subscript[s, \[Gamma]]^5)))/(2*Sqrt[2]*\[Xi]^4*
-          Subscript[m, K]^10*Subscript[m, \[Phi]]^2*Subscript[v, EW]^5) + 
-        (5*h^4*(24*\[Xi]^4*Subscript[m, K]^8*(\[Xi] + Subscript[s, 
-              \[Gamma]]) - Subscript[m, K]^2*Subscript[m, \[Phi]]^6*
-            Subscript[s, \[Gamma]]^2*(576*\[Xi]^3 + 2240*\[Xi]^2*
-              Subscript[s, \[Gamma]] + 2610*\[Xi]*Subscript[s, \[Gamma]]^2 + 
-             945*Subscript[s, \[Gamma]]^3) - Subscript[m, K]^6*
-            Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*(-24*\[Xi]^4 + 
-             15*\[Xi]^2*Subscript[s, \[Gamma]]^2 + 70*\[Xi]*Subscript[s, 
-                \[Gamma]]^3 + 63*Subscript[s, \[Gamma]]^4) + 
-           Subscript[m, K]^4*Subscript[m, \[Phi]]^4*Subscript[s, \[Gamma]]*
-            (24*\[Xi]^4 + 54*\[Xi]^3*Subscript[s, \[Gamma]] + 
-             491*\[Xi]^2*Subscript[s, \[Gamma]]^2 + 950*\[Xi]*
-              Subscript[s, \[Gamma]]^3 + 465*Subscript[s, \[Gamma]]^4) + 
-           Subscript[m, \[Phi]]^8*Subscript[s, \[Gamma]]*(128*\[Xi]^4 + 
-             960*\[Xi]^3*Subscript[s, \[Gamma]] + 2160*\[Xi]^2*
-              Subscript[s, \[Gamma]]^2 + 1890*\[Xi]*Subscript[s, \[Gamma]]^
-               3 + 567*Subscript[s, \[Gamma]]^4)))/(2*Sqrt[2]*\[Xi]^3*
+          Subscript[v, EW]^6) - (3*QuantumField[h]^5*
+          (56*\[Xi]^5*Subscript[m, K]^10*(\[Xi] + Subscript[s, \[Gamma]]) + 
+           Subscript[m, K]^8*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*
+            (56*\[Xi]^5 + 5*\[Xi]^3*Subscript[s, \[Gamma]]^2 + 
+             105*\[Xi]^2*Subscript[s, \[Gamma]]^3 + 315*\[Xi]*
+              Subscript[s, \[Gamma]]^4 + 231*Subscript[s, \[Gamma]]^5) - 
+           Subscript[m, K]^6*Subscript[m, \[Phi]]^4*Subscript[s, \[Gamma]]*
+            (-56*\[Xi]^5 + 18*\[Xi]^4*Subscript[s, \[Gamma]] + 
+             705*\[Xi]^3*Subscript[s, \[Gamma]]^2 + 3700*\[Xi]^2*
+              Subscript[s, \[Gamma]]^3 + 5697*\[Xi]*Subscript[s, \[Gamma]]^
+               4 + 2548*Subscript[s, \[Gamma]]^5) + Subscript[m, \[Phi]]^10*
+            Subscript[s, \[Gamma]]*(512*\[Xi]^5 + 5760*\[Xi]^4*
+              Subscript[s, \[Gamma]] + 20160*\[Xi]^3*Subscript[s, \[Gamma]]^
+               2 + 30240*\[Xi]^2*Subscript[s, \[Gamma]]^3 + 
+             20412*\[Xi]*Subscript[s, \[Gamma]]^4 + 5103*Subscript[s, 
+                \[Gamma]]^5) + Subscript[m, K]^4*Subscript[m, \[Phi]]^6*
+            Subscript[s, \[Gamma]]*(64*\[Xi]^5 + 864*\[Xi]^4*
+              Subscript[s, \[Gamma]] + 8680*\[Xi]^3*Subscript[s, \[Gamma]]^
+               2 + 24585*\[Xi]^2*Subscript[s, \[Gamma]]^3 + 
+             25305*\[Xi]*Subscript[s, \[Gamma]]^4 + 8610*Subscript[s, 
+                \[Gamma]]^5) - Subscript[m, K]^2*Subscript[m, \[Phi]]^8*
+            Subscript[s, \[Gamma]]*(128*\[Xi]^5 + 4800*\[Xi]^4*
+              Subscript[s, \[Gamma]] + 25840*\[Xi]^3*Subscript[s, \[Gamma]]^
+               2 + 49770*\[Xi]^2*Subscript[s, \[Gamma]]^3 + 
+             39879*\[Xi]*Subscript[s, \[Gamma]]^4 + 11340*Subscript[s, 
+                \[Gamma]]^5)))/(2*Sqrt[2]*\[Xi]^4*Subscript[m, K]^10*
+          Subscript[m, \[Phi]]^2*Subscript[v, EW]^5) + 
+        (5*QuantumField[h]^4*(24*\[Xi]^4*Subscript[m, K]^8*
+            (\[Xi] + Subscript[s, \[Gamma]]) - Subscript[m, K]^2*
+            Subscript[m, \[Phi]]^6*Subscript[s, \[Gamma]]^2*
+            (576*\[Xi]^3 + 2240*\[Xi]^2*Subscript[s, \[Gamma]] + 
+             2610*\[Xi]*Subscript[s, \[Gamma]]^2 + 945*Subscript[s, \[Gamma]]^
+               3) - Subscript[m, K]^6*Subscript[m, \[Phi]]^2*
+            Subscript[s, \[Gamma]]*(-24*\[Xi]^4 + 15*\[Xi]^2*Subscript[s, 
+                \[Gamma]]^2 + 70*\[Xi]*Subscript[s, \[Gamma]]^3 + 
+             63*Subscript[s, \[Gamma]]^4) + Subscript[m, K]^4*
+            Subscript[m, \[Phi]]^4*Subscript[s, \[Gamma]]*(24*\[Xi]^4 + 
+             54*\[Xi]^3*Subscript[s, \[Gamma]] + 491*\[Xi]^2*Subscript[s, 
+                \[Gamma]]^2 + 950*\[Xi]*Subscript[s, \[Gamma]]^3 + 
+             465*Subscript[s, \[Gamma]]^4) + Subscript[m, \[Phi]]^8*
+            Subscript[s, \[Gamma]]*(128*\[Xi]^4 + 960*\[Xi]^3*
+              Subscript[s, \[Gamma]] + 2160*\[Xi]^2*Subscript[s, \[Gamma]]^
+               2 + 1890*\[Xi]*Subscript[s, \[Gamma]]^3 + 
+             567*Subscript[s, \[Gamma]]^4)))/(2*Sqrt[2]*\[Xi]^3*
           Subscript[m, K]^8*Subscript[m, \[Phi]]^2*Subscript[v, EW]^4) - 
-        (Sqrt[2]*h^3*(20*\[Xi]^3*Subscript[m, K]^6*(\[Xi] + 
-             Subscript[s, \[Gamma]]) + Subscript[m, K]^4*Subscript[m, \[Phi]]^
-             2*Subscript[s, \[Gamma]]*(20*\[Xi]^3 + 3*\[Xi]^2*
-              Subscript[s, \[Gamma]] + 30*\[Xi]*Subscript[s, \[Gamma]]^2 + 
-             35*Subscript[s, \[Gamma]]^3) - 2*Subscript[m, K]^2*
-            Subscript[m, \[Phi]]^4*Subscript[s, \[Gamma]]*(-8*\[Xi]^3 + 
-             54*\[Xi]^2*Subscript[s, \[Gamma]] + 143*\[Xi]*Subscript[s, 
-                \[Gamma]]^2 + 75*Subscript[s, \[Gamma]]^3) + 
-           Subscript[m, \[Phi]]^6*Subscript[s, \[Gamma]]*(64*\[Xi]^3 + 
-             288*\[Xi]^2*Subscript[s, \[Gamma]] + 360*\[Xi]*Subscript[s, 
-                \[Gamma]]^2 + 135*Subscript[s, \[Gamma]]^3)))/
-         (\[Xi]^2*Subscript[m, K]^6*Subscript[m, \[Phi]]^2*
-          Subscript[v, EW]^3) + (3*Sqrt[2]*h^2*(4*\[Xi]^2*Subscript[m, K]^4*
-            (\[Xi] + Subscript[s, \[Gamma]]) + Subscript[m, K]^2*
-            Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*
+        (Sqrt[2]*QuantumField[h]^3*(20*\[Xi]^3*Subscript[m, K]^6*
+            (\[Xi] + Subscript[s, \[Gamma]]) + Subscript[m, K]^4*
+            Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*(20*\[Xi]^3 + 
+             3*\[Xi]^2*Subscript[s, \[Gamma]] + 30*\[Xi]*Subscript[s, 
+                \[Gamma]]^2 + 35*Subscript[s, \[Gamma]]^3) - 
+           2*Subscript[m, K]^2*Subscript[m, \[Phi]]^4*Subscript[s, \[Gamma]]*
+            (-8*\[Xi]^3 + 54*\[Xi]^2*Subscript[s, \[Gamma]] + 
+             143*\[Xi]*Subscript[s, \[Gamma]]^2 + 75*Subscript[s, \[Gamma]]^
+               3) + Subscript[m, \[Phi]]^6*Subscript[s, \[Gamma]]*
+            (64*\[Xi]^3 + 288*\[Xi]^2*Subscript[s, \[Gamma]] + 
+             360*\[Xi]*Subscript[s, \[Gamma]]^2 + 135*Subscript[s, \[Gamma]]^
+               3)))/(\[Xi]^2*Subscript[m, K]^6*Subscript[m, \[Phi]]^2*
+          Subscript[v, EW]^3) + (3*Sqrt[2]*QuantumField[h]^2*
+          (4*\[Xi]^2*Subscript[m, K]^4*(\[Xi] + Subscript[s, \[Gamma]]) + 
+           Subscript[m, K]^2*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*
             (4*\[Xi]^2 - 3*\[Xi]*Subscript[s, \[Gamma]] - 
              5*Subscript[s, \[Gamma]]^2) + Subscript[m, \[Phi]]^4*
             Subscript[s, \[Gamma]]*(8*\[Xi]^2 + 18*\[Xi]*Subscript[s, 
                \[Gamma]] + 9*Subscript[s, \[Gamma]]^2)))/
          (\[Xi]*Subscript[m, K]^4*Subscript[m, \[Phi]]^2*
-          Subscript[v, EW]^2) - (2*Sqrt[2]*h*(3*\[Xi]*Subscript[m, K]^2*
-            (\[Xi] + Subscript[s, \[Gamma]]) + Subscript[m, \[Phi]]^2*
-            Subscript[s, \[Gamma]]*(4*\[Xi] + 3*Subscript[s, \[Gamma]])))/
-         (Subscript[m, K]^2*Subscript[m, \[Phi]]^2*Subscript[v, EW])), 
-     CQ2 -> -(h/Sqrt[2]) + 
-       t^3*(-1/48*(h^6*Subscript[m, h]^2*Subscript[s, \[Gamma]]^2*
-            (-8*Subscript[m, K]^10*Subscript[s, \[Gamma]]*(33*\[Xi]^4 + 432*
-                \[Xi]^3*Subscript[s, \[Gamma]] + 1487*\[Xi]^2*
+          Subscript[v, EW]^2) - (2*Sqrt[2]*QuantumField[h]*
+          (3*\[Xi]*Subscript[m, K]^2*(\[Xi] + Subscript[s, \[Gamma]]) + 
+           Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*
+            (4*\[Xi] + 3*Subscript[s, \[Gamma]])))/(Subscript[m, K]^2*
+          Subscript[m, \[Phi]]^2*Subscript[v, EW])), 
+     CQ2 -> -(QuantumField[h]/Sqrt[2]) + 
+       t^3*(-1/48*(QuantumField[h]^6*Subscript[m, h]^2*Subscript[s, \[Gamma]]^
+             2*(-8*Subscript[m, K]^10*Subscript[s, \[Gamma]]*
+              (33*\[Xi]^4 + 432*\[Xi]^3*Subscript[s, \[Gamma]] + 1487*\[Xi]^2*
                 Subscript[s, \[Gamma]]^2 + 1888*\[Xi]*Subscript[s, \[Gamma]]^
                  3 + 800*Subscript[s, \[Gamma]]^4) + Subscript[m, K]^8*
               Subscript[m, \[Phi]]^2*(624*\[Xi]^5 + 20148*\[Xi]^4*
@@ -11851,7 +11979,7 @@
                 Subscript[s, \[Gamma]]^3 + 4906320*\[Xi]*Subscript[s, 
                   \[Gamma]]^4 + 1329246*Subscript[s, \[Gamma]]^5)))/
            (Sqrt[2]*\[Xi]^5*Subscript[m, K]^12*Subscript[v, EW]^5) + 
-         (h^5*Subscript[m, h]^2*Subscript[s, \[Gamma]]^2*
+         (QuantumField[h]^5*Subscript[m, h]^2*Subscript[s, \[Gamma]]^2*
            (4*Subscript[m, K]^8*(4*\[Xi]^4 + 147*\[Xi]^3*Subscript[s, 
                 \[Gamma]] + 731*\[Xi]^2*Subscript[s, \[Gamma]]^2 + 
               1132*\[Xi]*Subscript[s, \[Gamma]]^3 + 544*Subscript[s, 
@@ -11871,7 +11999,7 @@
                Subscript[s, \[Gamma]]^2 + 438900*\[Xi]*Subscript[s, \[Gamma]]^
                 3 + 132615*Subscript[s, \[Gamma]]^4)))/(40*Sqrt[2]*\[Xi]^4*
            Subscript[m, K]^10*Subscript[v, EW]^4) + 
-         (h^4*Subscript[m, h]^2*Subscript[s, \[Gamma]]^2*
+         (QuantumField[h]^4*Subscript[m, h]^2*Subscript[s, \[Gamma]]^2*
            (4*Subscript[m, K]^6*(4*\[Xi]^3 + 37*\[Xi]^2*Subscript[s, 
                 \[Gamma]] + 75*\[Xi]*Subscript[s, \[Gamma]]^2 + 
               42*Subscript[s, \[Gamma]]^3) - 3*Subscript[m, \[Phi]]^6*
@@ -11884,7 +12012,7 @@
              (1320*\[Xi]^3 + 5754*\[Xi]^2*Subscript[s, \[Gamma]] + 
               7285*\[Xi]*Subscript[s, \[Gamma]]^2 + 2814*Subscript[s, 
                  \[Gamma]]^3)))/(8*Sqrt[2]*\[Xi]^3*Subscript[m, K]^8*
-           Subscript[v, EW]^3) + (h^3*Subscript[m, h]^2*
+           Subscript[v, EW]^3) + (QuantumField[h]^3*Subscript[m, h]^2*
            Subscript[s, \[Gamma]]^2*(4*Subscript[m, K]^4*(5*\[Xi]^2 + 
               16*\[Xi]*Subscript[s, \[Gamma]] + 11*Subscript[s, \[Gamma]]^
                 2) - 3*Subscript[m, K]^2*Subscript[m, \[Phi]]^2*
@@ -11893,12 +12021,13 @@
              (184*\[Xi]^2 + 366*\[Xi]*Subscript[s, \[Gamma]] + 
               171*Subscript[s, \[Gamma]]^2)))/(6*Sqrt[2]*\[Xi]^2*
            Subscript[m, K]^6*Subscript[v, EW]^2) + 
-         (h^2*Subscript[m, h]^2*Subscript[s, \[Gamma]]^2*
+         (QuantumField[h]^2*Subscript[m, h]^2*Subscript[s, \[Gamma]]^2*
            (2*Subscript[m, K]^2*(\[Xi] + Subscript[s, \[Gamma]]) - 
             Subscript[m, \[Phi]]^2*(4*\[Xi] + 3*Subscript[s, \[Gamma]])))/
           (Sqrt[2]*\[Xi]*Subscript[m, K]^4*Subscript[v, EW])) - 
-       Subscript[v, EW]/Sqrt[2] + t^2*((h*Subscript[s, \[Gamma]]^2)/
-          (2*Sqrt[2]) + (h^6*Subscript[s, \[Gamma]]^2*
+       Subscript[v, EW]/Sqrt[2] + 
+       t^2*((QuantumField[h]*Subscript[s, \[Gamma]]^2)/(2*Sqrt[2]) + 
+         (QuantumField[h]^6*Subscript[s, \[Gamma]]^2*
            (4*Subscript[m, K]^10*Subscript[s, \[Gamma]]^2*(3*\[Xi]^3 + 
               19*\[Xi]^2*Subscript[s, \[Gamma]] + 32*\[Xi]*Subscript[s, 
                  \[Gamma]]^2 + 16*Subscript[s, \[Gamma]]^3) - 
@@ -11925,56 +12054,57 @@
                  \[Gamma]]^3 + 152118*\[Xi]*Subscript[s, \[Gamma]]^4 + 
               37989*Subscript[s, \[Gamma]]^5)))/(24*Sqrt[2]*\[Xi]^5*
            Subscript[m, K]^10*Subscript[v, EW]^5) + 
-         (h^5*Subscript[s, \[Gamma]]^2*(2*Subscript[m, K]^8*
-             Subscript[s, \[Gamma]]*(\[Xi]^3 + 13*\[Xi]^2*Subscript[s, 
-                \[Gamma]] + 28*\[Xi]*Subscript[s, \[Gamma]]^2 + 
-              16*Subscript[s, \[Gamma]]^3) - Subscript[m, K]^6*
-             Subscript[m, \[Phi]]^2*(8*\[Xi]^4 + 253*\[Xi]^3*Subscript[s, 
-                \[Gamma]] + 1105*\[Xi]^2*Subscript[s, \[Gamma]]^2 + 
-              1513*\[Xi]*Subscript[s, \[Gamma]]^3 + 643*Subscript[s, 
-                 \[Gamma]]^4) + Subscript[m, \[Phi]]^8*(1120*\[Xi]^4 + 
-              6384*\[Xi]^3*Subscript[s, \[Gamma]] + 12114*\[Xi]^2*
-               Subscript[s, \[Gamma]]^2 + 9423*\[Xi]*Subscript[s, \[Gamma]]^
-                3 + 2592*Subscript[s, \[Gamma]]^4) + Subscript[m, K]^4*
-             Subscript[m, \[Phi]]^4*(260*\[Xi]^4 + 2859*\[Xi]^3*Subscript[s, 
-                \[Gamma]] + 8204*\[Xi]^2*Subscript[s, \[Gamma]]^2 + 
-              8627*\[Xi]*Subscript[s, \[Gamma]]^3 + 3012*Subscript[s, 
-                 \[Gamma]]^4) - Subscript[m, K]^2*Subscript[m, \[Phi]]^6*
-             (1120*\[Xi]^4 + 8176*\[Xi]^3*Subscript[s, \[Gamma]] + 
-              18334*\[Xi]^2*Subscript[s, \[Gamma]]^2 + 16173*\[Xi]*
-               Subscript[s, \[Gamma]]^3 + 4923*Subscript[s, \[Gamma]]^4)))/
-          (20*Sqrt[2]*\[Xi]^4*Subscript[m, K]^8*Subscript[v, EW]^4) + 
-         (h^4*Subscript[s, \[Gamma]]^2*(2*Subscript[m, K]^6*
-             Subscript[s, \[Gamma]]*(\[Xi]^2 + 3*\[Xi]*Subscript[s, 
-                \[Gamma]] + 2*Subscript[s, \[Gamma]]^2) - Subscript[m, K]^4*
-             Subscript[m, \[Phi]]^2*(8*\[Xi]^3 + 63*\[Xi]^2*Subscript[s, 
-                \[Gamma]] + 110*\[Xi]*Subscript[s, \[Gamma]]^2 + 
-              53*Subscript[s, \[Gamma]]^3) - Subscript[m, \[Phi]]^6*
-             (80*\[Xi]^3 + 288*\[Xi]^2*Subscript[s, \[Gamma]] + 
-              315*\[Xi]*Subscript[s, \[Gamma]]^2 + 108*Subscript[s, \[Gamma]]^
-                3) + Subscript[m, K]^2*Subscript[m, \[Phi]]^4*
-             (60*\[Xi]^3 + 285*\[Xi]^2*Subscript[s, \[Gamma]] + 
-              374*\[Xi]*Subscript[s, \[Gamma]]^2 + 147*Subscript[s, \[Gamma]]^
-                3)))/(4*Sqrt[2]*\[Xi]^3*Subscript[m, K]^6*Subscript[v, EW]^
-            3) + (h^3*Subscript[s, \[Gamma]]^2*(Subscript[m, K]^4*
-             (\[Xi]^2 + 5*\[Xi]*Subscript[s, \[Gamma]] + 
+         (QuantumField[h]^5*Subscript[s, \[Gamma]]^2*
+           (2*Subscript[m, K]^8*Subscript[s, \[Gamma]]*(\[Xi]^3 + 
+              13*\[Xi]^2*Subscript[s, \[Gamma]] + 28*\[Xi]*Subscript[s, 
+                 \[Gamma]]^2 + 16*Subscript[s, \[Gamma]]^3) - 
+            Subscript[m, K]^6*Subscript[m, \[Phi]]^2*(8*\[Xi]^4 + 
+              253*\[Xi]^3*Subscript[s, \[Gamma]] + 1105*\[Xi]^2*Subscript[s, 
+                 \[Gamma]]^2 + 1513*\[Xi]*Subscript[s, \[Gamma]]^3 + 
+              643*Subscript[s, \[Gamma]]^4) + Subscript[m, \[Phi]]^8*
+             (1120*\[Xi]^4 + 6384*\[Xi]^3*Subscript[s, \[Gamma]] + 
+              12114*\[Xi]^2*Subscript[s, \[Gamma]]^2 + 9423*\[Xi]*
+               Subscript[s, \[Gamma]]^3 + 2592*Subscript[s, \[Gamma]]^4) + 
+            Subscript[m, K]^4*Subscript[m, \[Phi]]^4*(260*\[Xi]^4 + 
+              2859*\[Xi]^3*Subscript[s, \[Gamma]] + 8204*\[Xi]^2*Subscript[s, 
+                 \[Gamma]]^2 + 8627*\[Xi]*Subscript[s, \[Gamma]]^3 + 
+              3012*Subscript[s, \[Gamma]]^4) - Subscript[m, K]^2*
+             Subscript[m, \[Phi]]^6*(1120*\[Xi]^4 + 8176*\[Xi]^3*Subscript[s, 
+                \[Gamma]] + 18334*\[Xi]^2*Subscript[s, \[Gamma]]^2 + 
+              16173*\[Xi]*Subscript[s, \[Gamma]]^3 + 4923*Subscript[s, 
+                 \[Gamma]]^4)))/(20*Sqrt[2]*\[Xi]^4*Subscript[m, K]^8*
+           Subscript[v, EW]^4) + (QuantumField[h]^4*Subscript[s, \[Gamma]]^2*
+           (2*Subscript[m, K]^6*Subscript[s, \[Gamma]]*(\[Xi]^2 + 
+              3*\[Xi]*Subscript[s, \[Gamma]] + 2*Subscript[s, \[Gamma]]^2) - 
+            Subscript[m, K]^4*Subscript[m, \[Phi]]^2*(8*\[Xi]^3 + 
+              63*\[Xi]^2*Subscript[s, \[Gamma]] + 110*\[Xi]*Subscript[s, 
+                 \[Gamma]]^2 + 53*Subscript[s, \[Gamma]]^3) - 
+            Subscript[m, \[Phi]]^6*(80*\[Xi]^3 + 288*\[Xi]^2*Subscript[s, 
+                \[Gamma]] + 315*\[Xi]*Subscript[s, \[Gamma]]^2 + 
+              108*Subscript[s, \[Gamma]]^3) + Subscript[m, K]^2*
+             Subscript[m, \[Phi]]^4*(60*\[Xi]^3 + 285*\[Xi]^2*Subscript[s, 
+                \[Gamma]] + 374*\[Xi]*Subscript[s, \[Gamma]]^2 + 
+              147*Subscript[s, \[Gamma]]^3)))/(4*Sqrt[2]*\[Xi]^3*
+           Subscript[m, K]^6*Subscript[v, EW]^3) + 
+         (QuantumField[h]^3*Subscript[s, \[Gamma]]^2*
+           (Subscript[m, K]^4*(\[Xi]^2 + 5*\[Xi]*Subscript[s, \[Gamma]] + 
               4*Subscript[s, \[Gamma]]^2) + 2*Subscript[m, \[Phi]]^4*
              (20*\[Xi]^2 + 39*\[Xi]*Subscript[s, \[Gamma]] + 
               18*Subscript[s, \[Gamma]]^2) - Subscript[m, K]^2*
              Subscript[m, \[Phi]]^2*(20*\[Xi]^2 + 53*\[Xi]*Subscript[s, 
                 \[Gamma]] + 30*Subscript[s, \[Gamma]]^2)))/
           (6*Sqrt[2]*\[Xi]^2*Subscript[m, K]^4*Subscript[v, EW]^2) + 
-         (h^2*Subscript[s, \[Gamma]]^2*(Subscript[m, K]^2*
-             (\[Xi] + Subscript[s, \[Gamma]]) - Subscript[m, \[Phi]]^2*
-             (4*\[Xi] + 3*Subscript[s, \[Gamma]])))/(2*Sqrt[2]*\[Xi]*
-           Subscript[m, K]^2*Subscript[v, EW]) + Sqrt[2]*\[Xi]^2*
-          Subscript[v, EW]), CQ41 -> 
-      t^3*(Subscript[s, \[Gamma]]^2/(4*Subscript[m, K]^2) + 
-        (h^6*Subscript[s, \[Gamma]]^2*(2*Subscript[m, K]^12*
-            Subscript[s, \[Gamma]]^2*(24*\[Xi]^4 + 765*\[Xi]^3*
-              Subscript[s, \[Gamma]] + 3915*\[Xi]^2*Subscript[s, \[Gamma]]^
-               2 + 6471*\[Xi]*Subscript[s, \[Gamma]]^3 + 
-             3353*Subscript[s, \[Gamma]]^4) - Subscript[m, K]^10*
+         (QuantumField[h]^2*Subscript[s, \[Gamma]]^2*
+           (Subscript[m, K]^2*(\[Xi] + Subscript[s, \[Gamma]]) - 
+            Subscript[m, \[Phi]]^2*(4*\[Xi] + 3*Subscript[s, \[Gamma]])))/
+          (2*Sqrt[2]*\[Xi]*Subscript[m, K]^2*Subscript[v, EW]) + 
+         Sqrt[2]*\[Xi]^2*Subscript[v, EW]), 
+     CQ41 -> t^3*(Subscript[s, \[Gamma]]^2/(4*Subscript[m, K]^2) + 
+        (QuantumField[h]^6*Subscript[s, \[Gamma]]^2*
+          (2*Subscript[m, K]^12*Subscript[s, \[Gamma]]^2*(24*\[Xi]^4 + 
+             765*\[Xi]^3*Subscript[s, \[Gamma]] + 3915*\[Xi]^2*
+              Subscript[s, \[Gamma]]^2 + 6471*\[Xi]*Subscript[s, \[Gamma]]^
+               3 + 3353*Subscript[s, \[Gamma]]^4) - Subscript[m, K]^10*
             Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*(288*\[Xi]^5 + 
              15576*\[Xi]^4*Subscript[s, \[Gamma]] + 129171*\[Xi]^3*
               Subscript[s, \[Gamma]]^2 + 364659*\[Xi]^2*Subscript[s, 
@@ -12008,41 +12138,42 @@
              28895064*\[Xi]*Subscript[s, \[Gamma]]^5 + 
              6965892*Subscript[s, \[Gamma]]^6)))/(64*\[Xi]^6*
           Subscript[m, K]^14*Subscript[v, EW]^6) + 
-        (h^5*Subscript[s, \[Gamma]]^2*(16*Subscript[m, K]^10*
-            Subscript[s, \[Gamma]]^2*(9*\[Xi]^3 + 76*\[Xi]^2*
-              Subscript[s, \[Gamma]] + 160*\[Xi]*Subscript[s, \[Gamma]]^2 + 
-             96*Subscript[s, \[Gamma]]^3) - Subscript[m, K]^8*
-            Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*(864*\[Xi]^4 + 
-             13352*\[Xi]^3*Subscript[s, \[Gamma]] + 50771*\[Xi]^2*
-              Subscript[s, \[Gamma]]^2 + 67994*\[Xi]*Subscript[s, \[Gamma]]^
-               3 + 29271*Subscript[s, \[Gamma]]^4) - 
-           9*Subscript[m, \[Phi]]^10*(3584*\[Xi]^5 + 30464*\[Xi]^4*
-              Subscript[s, \[Gamma]] + 90864*\[Xi]^3*Subscript[s, \[Gamma]]^
-               2 + 123408*\[Xi]^2*Subscript[s, \[Gamma]]^3 + 
-             78102*\[Xi]*Subscript[s, \[Gamma]]^4 + 18711*Subscript[s, 
-                \[Gamma]]^5) + 2*Subscript[m, K]^6*Subscript[m, \[Phi]]^4*
-            (360*\[Xi]^5 + 13560*\[Xi]^4*Subscript[s, \[Gamma]] + 
-             97157*\[Xi]^3*Subscript[s, \[Gamma]]^2 + 242654*\[Xi]^2*
-              Subscript[s, \[Gamma]]^3 + 243252*\[Xi]*Subscript[s, \[Gamma]]^
-               4 + 84117*Subscript[s, \[Gamma]]^5) + 2*Subscript[m, K]^2*
-            Subscript[m, \[Phi]]^8*(17920*\[Xi]^5 + 204288*\[Xi]^4*
-              Subscript[s, \[Gamma]] + 740448*\[Xi]^3*Subscript[s, \[Gamma]]^
-               2 + 1160964*\[Xi]^2*Subscript[s, \[Gamma]]^3 + 
-             822528*\[Xi]*Subscript[s, \[Gamma]]^4 + 216189*Subscript[s, 
-                \[Gamma]]^5) - Subscript[m, K]^4*Subscript[m, \[Phi]]^6*
-            (10640*\[Xi]^5 + 184856*\[Xi]^4*Subscript[s, \[Gamma]] + 
-             878906*\[Xi]^3*Subscript[s, \[Gamma]]^2 + 1670739*\[Xi]^2*
-              Subscript[s, \[Gamma]]^3 + 1371048*\[Xi]*Subscript[s, \[Gamma]]^
-               4 + 405486*Subscript[s, \[Gamma]]^5)))/
-         (32*\[Xi]^5*Subscript[m, K]^12*Subscript[v, EW]^5) + 
-        (h^4*Subscript[s, \[Gamma]]^2*(8*Subscript[m, K]^8*
-            Subscript[s, \[Gamma]]*(2*\[Xi]^3 + 39*\[Xi]^2*Subscript[s, 
-               \[Gamma]] + 112*\[Xi]*Subscript[s, \[Gamma]]^2 + 
-             80*Subscript[s, \[Gamma]]^3) - Subscript[m, K]^6*
-            Subscript[m, \[Phi]]^2*(40*\[Xi]^4 + 1908*\[Xi]^3*
-              Subscript[s, \[Gamma]] + 10945*\[Xi]^2*Subscript[s, \[Gamma]]^
-               2 + 18178*\[Xi]*Subscript[s, \[Gamma]]^3 + 
-             8861*Subscript[s, \[Gamma]]^4) + Subscript[m, \[Phi]]^8*
+        (QuantumField[h]^5*Subscript[s, \[Gamma]]^2*
+          (16*Subscript[m, K]^10*Subscript[s, \[Gamma]]^2*
+            (9*\[Xi]^3 + 76*\[Xi]^2*Subscript[s, \[Gamma]] + 
+             160*\[Xi]*Subscript[s, \[Gamma]]^2 + 96*Subscript[s, \[Gamma]]^
+               3) - Subscript[m, K]^8*Subscript[m, \[Phi]]^2*
+            Subscript[s, \[Gamma]]*(864*\[Xi]^4 + 13352*\[Xi]^3*
+              Subscript[s, \[Gamma]] + 50771*\[Xi]^2*Subscript[s, \[Gamma]]^
+               2 + 67994*\[Xi]*Subscript[s, \[Gamma]]^3 + 
+             29271*Subscript[s, \[Gamma]]^4) - 9*Subscript[m, \[Phi]]^10*
+            (3584*\[Xi]^5 + 30464*\[Xi]^4*Subscript[s, \[Gamma]] + 
+             90864*\[Xi]^3*Subscript[s, \[Gamma]]^2 + 123408*\[Xi]^2*
+              Subscript[s, \[Gamma]]^3 + 78102*\[Xi]*Subscript[s, \[Gamma]]^
+               4 + 18711*Subscript[s, \[Gamma]]^5) + 2*Subscript[m, K]^6*
+            Subscript[m, \[Phi]]^4*(360*\[Xi]^5 + 13560*\[Xi]^4*
+              Subscript[s, \[Gamma]] + 97157*\[Xi]^3*Subscript[s, \[Gamma]]^
+               2 + 242654*\[Xi]^2*Subscript[s, \[Gamma]]^3 + 
+             243252*\[Xi]*Subscript[s, \[Gamma]]^4 + 84117*Subscript[s, 
+                \[Gamma]]^5) + 2*Subscript[m, K]^2*Subscript[m, \[Phi]]^8*
+            (17920*\[Xi]^5 + 204288*\[Xi]^4*Subscript[s, \[Gamma]] + 
+             740448*\[Xi]^3*Subscript[s, \[Gamma]]^2 + 1160964*\[Xi]^2*
+              Subscript[s, \[Gamma]]^3 + 822528*\[Xi]*Subscript[s, \[Gamma]]^
+               4 + 216189*Subscript[s, \[Gamma]]^5) - Subscript[m, K]^4*
+            Subscript[m, \[Phi]]^6*(10640*\[Xi]^5 + 184856*\[Xi]^4*
+              Subscript[s, \[Gamma]] + 878906*\[Xi]^3*Subscript[s, \[Gamma]]^
+               2 + 1670739*\[Xi]^2*Subscript[s, \[Gamma]]^3 + 
+             1371048*\[Xi]*Subscript[s, \[Gamma]]^4 + 
+             405486*Subscript[s, \[Gamma]]^5)))/(32*\[Xi]^5*
+          Subscript[m, K]^12*Subscript[v, EW]^5) + 
+        (QuantumField[h]^4*Subscript[s, \[Gamma]]^2*
+          (8*Subscript[m, K]^8*Subscript[s, \[Gamma]]*(2*\[Xi]^3 + 
+             39*\[Xi]^2*Subscript[s, \[Gamma]] + 112*\[Xi]*Subscript[s, 
+                \[Gamma]]^2 + 80*Subscript[s, \[Gamma]]^3) - 
+           Subscript[m, K]^6*Subscript[m, \[Phi]]^2*(40*\[Xi]^4 + 
+             1908*\[Xi]^3*Subscript[s, \[Gamma]] + 10945*\[Xi]^2*
+              Subscript[s, \[Gamma]]^2 + 18178*\[Xi]*Subscript[s, \[Gamma]]^
+               3 + 8861*Subscript[s, \[Gamma]]^4) + Subscript[m, \[Phi]]^8*
             (8960*\[Xi]^4 + 53760*\[Xi]^3*Subscript[s, \[Gamma]] + 
              107640*\[Xi]^2*Subscript[s, \[Gamma]]^2 + 88236*\[Xi]*
               Subscript[s, \[Gamma]]^3 + 25515*Subscript[s, \[Gamma]]^4) + 
@@ -12054,7 +12185,7 @@
               Subscript[s, \[Gamma]] + 165236*\[Xi]^2*Subscript[s, \[Gamma]]^
                2 + 158298*\[Xi]*Subscript[s, \[Gamma]]^3 + 
              51651*Subscript[s, \[Gamma]]^4)))/(32*\[Xi]^4*Subscript[m, K]^10*
-          Subscript[v, EW]^4) + (h^3*Subscript[s, \[Gamma]]^2*
+          Subscript[v, EW]^4) + (QuantumField[h]^3*Subscript[s, \[Gamma]]^2*
           (8*Subscript[m, K]^6*Subscript[s, \[Gamma]]*(2*\[Xi]^2 + 
              9*\[Xi]*Subscript[s, \[Gamma]] + 8*Subscript[s, \[Gamma]]^2) - 
            Subscript[m, K]^4*Subscript[m, \[Phi]]^2*(40*\[Xi]^3 + 
@@ -12066,7 +12197,7 @@
             Subscript[m, \[Phi]]^4*(360*\[Xi]^3 + 2136*\[Xi]^2*
               Subscript[s, \[Gamma]] + 3221*\[Xi]*Subscript[s, \[Gamma]]^2 + 
              1404*Subscript[s, \[Gamma]]^3)))/(8*\[Xi]^3*Subscript[m, K]^8*
-          Subscript[v, EW]^3) + (h^2*Subscript[s, \[Gamma]]^2*
+          Subscript[v, EW]^3) + (QuantumField[h]^2*Subscript[s, \[Gamma]]^2*
           (2*Subscript[m, K]^4*(\[Xi]^2 + 10*\[Xi]*Subscript[s, \[Gamma]] + 
              12*Subscript[s, \[Gamma]]^2) + 3*Subscript[m, \[Phi]]^4*
             (40*\[Xi]^2 + 88*\[Xi]*Subscript[s, \[Gamma]] + 
@@ -12074,21 +12205,21 @@
             Subscript[m, \[Phi]]^2*(50*\[Xi]^2 + 189*\[Xi]*Subscript[s, 
                \[Gamma]] + 129*Subscript[s, \[Gamma]]^2)))/
          (8*\[Xi]^2*Subscript[m, K]^6*Subscript[v, EW]^2) + 
-        (h*Subscript[s, \[Gamma]]^2*(2*Subscript[m, K]^2*
-            (\[Xi] + 2*Subscript[s, \[Gamma]]) - Subscript[m, \[Phi]]^2*
-            (10*\[Xi] + 9*Subscript[s, \[Gamma]])))/
+        (QuantumField[h]*Subscript[s, \[Gamma]]^2*
+          (2*Subscript[m, K]^2*(\[Xi] + 2*Subscript[s, \[Gamma]]) - 
+           Subscript[m, \[Phi]]^2*(10*\[Xi] + 9*Subscript[s, \[Gamma]])))/
          (4*\[Xi]*Subscript[m, K]^4*Subscript[v, EW])), 
      CQ42 -> t^3*((4*\[Xi]^2)/Subscript[m, \[Phi]]^2 + 
-        (h^6*(Subscript[m, K]^8*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*
-            (56*\[Xi]^5 - 28*\[Xi]^4*Subscript[s, \[Gamma]] + 
-             32*\[Xi]^3*Subscript[s, \[Gamma]]^2 + 259*\[Xi]^2*
-              Subscript[s, \[Gamma]]^3 + 930*\[Xi]*Subscript[s, \[Gamma]]^4 + 
-             667*Subscript[s, \[Gamma]]^5) - Subscript[m, K]^6*
-            Subscript[m, \[Phi]]^4*Subscript[s, \[Gamma]]*(-56*\[Xi]^5 + 
-             66*\[Xi]^4*Subscript[s, \[Gamma]] + 1089*\[Xi]^3*
-              Subscript[s, \[Gamma]]^2 + 6585*\[Xi]^2*Subscript[s, \[Gamma]]^
-               3 + 10326*\[Xi]*Subscript[s, \[Gamma]]^4 + 
-             4578*Subscript[s, \[Gamma]]^5) + Subscript[m, \[Phi]]^10*
+        (QuantumField[h]^6*(Subscript[m, K]^8*Subscript[m, \[Phi]]^2*
+            Subscript[s, \[Gamma]]*(56*\[Xi]^5 - 28*\[Xi]^4*Subscript[s, 
+               \[Gamma]] + 32*\[Xi]^3*Subscript[s, \[Gamma]]^2 + 
+             259*\[Xi]^2*Subscript[s, \[Gamma]]^3 + 930*\[Xi]*
+              Subscript[s, \[Gamma]]^4 + 667*Subscript[s, \[Gamma]]^5) - 
+           Subscript[m, K]^6*Subscript[m, \[Phi]]^4*Subscript[s, \[Gamma]]*
+            (-56*\[Xi]^5 + 66*\[Xi]^4*Subscript[s, \[Gamma]] + 
+             1089*\[Xi]^3*Subscript[s, \[Gamma]]^2 + 6585*\[Xi]^2*
+              Subscript[s, \[Gamma]]^3 + 10326*\[Xi]*Subscript[s, \[Gamma]]^
+               4 + 4578*Subscript[s, \[Gamma]]^5) + Subscript[m, \[Phi]]^10*
             Subscript[s, \[Gamma]]*(512*\[Xi]^5 + 5760*\[Xi]^4*
               Subscript[s, \[Gamma]] + 20160*\[Xi]^3*Subscript[s, \[Gamma]]^
                2 + 30240*\[Xi]^2*Subscript[s, \[Gamma]]^3 + 
@@ -12109,29 +12240,28 @@
              5*\[Xi]^2*Subscript[s, \[Gamma]]^4 - 7*\[Xi]*Subscript[s, 
                 \[Gamma]]^5 - 21*Subscript[s, \[Gamma]]^6)))/
          (4*\[Xi]^4*Subscript[m, K]^10*Subscript[m, \[Phi]]^2*
-          Subscript[v, EW]^6) - 
-        (h^5*(-2*Subscript[m, K]^2*Subscript[m, \[Phi]]^6*
-            Subscript[s, \[Gamma]]^2*(352*\[Xi]^3 + 1360*\[Xi]^2*
-              Subscript[s, \[Gamma]] + 1575*\[Xi]*Subscript[s, \[Gamma]]^2 + 
-             567*Subscript[s, \[Gamma]]^3) - 2*Subscript[m, K]^6*
-            Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*(-12*\[Xi]^4 + 
-             6*\[Xi]^3*Subscript[s, \[Gamma]] + 12*\[Xi]^2*Subscript[s, 
-                \[Gamma]]^2 + 93*\[Xi]*Subscript[s, \[Gamma]]^3 + 
-             79*Subscript[s, \[Gamma]]^4) + Subscript[m, \[Phi]]^8*
-            Subscript[s, \[Gamma]]*(128*\[Xi]^4 + 960*\[Xi]^3*
-              Subscript[s, \[Gamma]] + 2160*\[Xi]^2*Subscript[s, \[Gamma]]^
-               2 + 1890*\[Xi]*Subscript[s, \[Gamma]]^3 + 
-             567*Subscript[s, \[Gamma]]^4) + Subscript[m, K]^4*
-            Subscript[m, \[Phi]]^4*Subscript[s, \[Gamma]]*(24*\[Xi]^4 + 
-             54*\[Xi]^3*Subscript[s, \[Gamma]] + 779*\[Xi]^2*Subscript[s, 
-                \[Gamma]]^2 + 1510*\[Xi]*Subscript[s, \[Gamma]]^3 + 
-             726*Subscript[s, \[Gamma]]^4) + Subscript[m, K]^8*
-            (48*\[Xi]^5 + 24*\[Xi]^4*Subscript[s, \[Gamma]] - 
-             6*\[Xi]^3*Subscript[s, \[Gamma]]^2 + 3*\[Xi]^2*Subscript[s, 
-                \[Gamma]]^3 + 7*Subscript[s, \[Gamma]]^5)))/
-         (2*\[Xi]^3*Subscript[m, K]^8*Subscript[m, \[Phi]]^2*
-          Subscript[v, EW]^5) + 
-        (h^4*(Subscript[m, K]^4*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*
+          Subscript[v, EW]^6) - (QuantumField[h]^5*
+          (-2*Subscript[m, K]^2*Subscript[m, \[Phi]]^6*Subscript[s, \[Gamma]]^
+             2*(352*\[Xi]^3 + 1360*\[Xi]^2*Subscript[s, \[Gamma]] + 
+             1575*\[Xi]*Subscript[s, \[Gamma]]^2 + 567*Subscript[s, \[Gamma]]^
+               3) - 2*Subscript[m, K]^6*Subscript[m, \[Phi]]^2*
+            Subscript[s, \[Gamma]]*(-12*\[Xi]^4 + 6*\[Xi]^3*Subscript[s, 
+               \[Gamma]] + 12*\[Xi]^2*Subscript[s, \[Gamma]]^2 + 
+             93*\[Xi]*Subscript[s, \[Gamma]]^3 + 79*Subscript[s, \[Gamma]]^
+               4) + Subscript[m, \[Phi]]^8*Subscript[s, \[Gamma]]*
+            (128*\[Xi]^4 + 960*\[Xi]^3*Subscript[s, \[Gamma]] + 
+             2160*\[Xi]^2*Subscript[s, \[Gamma]]^2 + 1890*\[Xi]*
+              Subscript[s, \[Gamma]]^3 + 567*Subscript[s, \[Gamma]]^4) + 
+           Subscript[m, K]^4*Subscript[m, \[Phi]]^4*Subscript[s, \[Gamma]]*
+            (24*\[Xi]^4 + 54*\[Xi]^3*Subscript[s, \[Gamma]] + 
+             779*\[Xi]^2*Subscript[s, \[Gamma]]^2 + 1510*\[Xi]*
+              Subscript[s, \[Gamma]]^3 + 726*Subscript[s, \[Gamma]]^4) + 
+           Subscript[m, K]^8*(48*\[Xi]^5 + 24*\[Xi]^4*Subscript[s, 
+               \[Gamma]] - 6*\[Xi]^3*Subscript[s, \[Gamma]]^2 + 
+             3*\[Xi]^2*Subscript[s, \[Gamma]]^3 + 7*Subscript[s, \[Gamma]]^
+               5)))/(2*\[Xi]^3*Subscript[m, K]^8*Subscript[m, \[Phi]]^2*
+          Subscript[v, EW]^5) + (QuantumField[h]^4*
+          (Subscript[m, K]^4*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*
             (20*\[Xi]^3 - 5*\[Xi]^2*Subscript[s, \[Gamma]] + 
              72*\[Xi]*Subscript[s, \[Gamma]]^2 + 73*Subscript[s, \[Gamma]]^
                3) + Subscript[m, \[Phi]]^6*Subscript[s, \[Gamma]]*
@@ -12145,21 +12275,22 @@
              5*\[Xi]^2*Subscript[s, \[Gamma]]^2 + 2*\[Xi]*Subscript[s, 
                 \[Gamma]]^3 - 5*Subscript[s, \[Gamma]]^4)))/
          (2*\[Xi]^2*Subscript[m, K]^6*Subscript[m, \[Phi]]^2*
-          Subscript[v, EW]^4) - 
-        (2*h^3*(Subscript[m, K]^2*Subscript[m, \[Phi]]^2*Subscript[s, 
-             \[Gamma]]*(4*\[Xi]^2 - 7*\[Xi]*Subscript[s, \[Gamma]] - 
+          Subscript[v, EW]^4) - (2*QuantumField[h]^3*
+          (Subscript[m, K]^2*Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]*
+            (4*\[Xi]^2 - 7*\[Xi]*Subscript[s, \[Gamma]] - 
              8*Subscript[s, \[Gamma]]^2) + Subscript[m, \[Phi]]^4*
             Subscript[s, \[Gamma]]*(8*\[Xi]^2 + 18*\[Xi]*Subscript[s, 
                \[Gamma]] + 9*Subscript[s, \[Gamma]]^2) + Subscript[m, K]^4*
             (8*\[Xi]^3 + 4*\[Xi]^2*Subscript[s, \[Gamma]] - 
              \[Xi]*Subscript[s, \[Gamma]]^2 + Subscript[s, \[Gamma]]^3)))/
          (\[Xi]*Subscript[m, K]^4*Subscript[m, \[Phi]]^2*
-          Subscript[v, EW]^3) + 
-        (2*h^2*((Subscript[s, \[Gamma]]*(4*\[Xi] + 3*Subscript[s, \[Gamma]]))/
+          Subscript[v, EW]^3) + (2*QuantumField[h]^2*
+          ((Subscript[s, \[Gamma]]*(4*\[Xi] + 3*Subscript[s, \[Gamma]]))/
             Subscript[m, K]^2 + (6*\[Xi]^2 + 3*\[Xi]*Subscript[s, \[Gamma]] - 
              Subscript[s, \[Gamma]]^2)/Subscript[m, \[Phi]]^2))/
-         Subscript[v, EW]^2 - (4*\[Xi]*h*(2*\[Xi] + Subscript[s, \[Gamma]]))/
-         (Subscript[m, \[Phi]]^2*Subscript[v, EW]))|>|>, 
+         Subscript[v, EW]^2 - (4*\[Xi]*QuantumField[h]*
+          (2*\[Xi] + Subscript[s, \[Gamma]]))/(Subscript[m, \[Phi]]^2*
+          Subscript[v, EW]))|>|>, 
  HC -> 
   <|pHEFT -> <|d3 -> -1 + ((Subscript[m, \[Phi]]^2*Subscript[s, \[Gamma]]^2*
            (2*\[Xi]*Subscript[c, \[Gamma]] + Subscript[s, \[Gamma]]))/t + 
